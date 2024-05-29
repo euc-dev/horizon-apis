@@ -2,6 +2,9 @@
 layout: page
 title: Horizon View API Documentation
 permalink: /apis/view/
+hide:
+  #- navigation
+  - toc
 ---
 
 This is a API documentation for the VMware Horizon Cloud Service - first-gen

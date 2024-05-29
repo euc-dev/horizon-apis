@@ -2,6 +2,9 @@
 layout: page
 title: Horizon Cloud Nextgen API Documentation
 permalink: /apis/horizon-cloud-nextgen/
+hide:
+  #- navigation
+  - toc
 ---
 
 This is a API documentation for the VMware Horizon Cloud Service - next-gen

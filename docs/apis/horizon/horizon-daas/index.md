@@ -2,6 +2,9 @@
 layout: page
 title: Horizon DaaS API - API Explorer
 permalink: /apis/horizon-daas/
+hide:
+  #- navigation
+  - toc
 ---
 
 This is a API documentation for the VMware Horizon Cloud Service - first-gen
