@@ -7,7 +7,7 @@ hide:
   - toc
 ---
 
-This is a API documentation for the VMware Horizon Cloud Service - first-gen
+This is a API documentation for the VMware View.
 
 ## Documentation  
 | Name | Size |
