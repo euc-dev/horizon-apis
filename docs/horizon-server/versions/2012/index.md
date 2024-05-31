@@ -7,4 +7,4 @@ permalink: /apis/horizon-server/
 This is a API documentation for the Horizon Server version 2012
 
 ## API Reference
-<swagger-ui src="./api-docs-8_1_GA.json"/>
+<swagger-ui src="api-docs-8_1_GA.json"/>

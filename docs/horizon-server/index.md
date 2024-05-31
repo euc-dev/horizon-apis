@@ -22,7 +22,7 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
 ## API Reference
-<swagger-ui src="./rest-api-swagger-docs.json/>
+<swagger-ui src="rest-api-swagger-docs.json/>
 
 ### Older Version API Documentation
 | Name | Link |

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Horizon View API Documentation
-permalink: /apis/view/
+#permalink: /apis/view/
 hide:
   #- navigation
   - toc

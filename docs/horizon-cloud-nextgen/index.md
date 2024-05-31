@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Horizon Cloud Nextgen API Documentation
-permalink: /apis/horizon-cloud-nextgen/
+#permalink: /apis/horizon-cloud-nextgen/
 hide:
   #- navigation
   - toc
@@ -101,4 +101,4 @@ Authentication : Bearer {{access-token-value}}
 ```
 
 ## API Reference
-<swagger-ui src="./horizon-cloud-nextgen-api-doc-public.yaml"/>
+<swagger-ui src="horizon-cloud-nextgen-api-doc-public.yaml"/>
