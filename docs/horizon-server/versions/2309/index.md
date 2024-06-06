@@ -9,5 +9,4 @@ hide:
 
 This is a API documentation for the Horizon Server version 2309
 
-## API Reference
 <swagger-ui src="rest-api-swagger-docs.json"/>

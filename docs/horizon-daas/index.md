@@ -14,5 +14,4 @@ This is a API documentation for the VMware Horizon Cloud Service - first-gen
 | --- | --- |
 | [Getting Started API Reference](horizondaas-api.pdf) | 409 KB |
 
-## API Reference
 <swagger-ui src="HCS_20_2_swagger.json"/>

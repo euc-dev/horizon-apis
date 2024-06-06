@@ -7,6 +7,7 @@ hide:
   - toc
 ---
 
+![](assets/logos/horizon-logo.png){ align=right }
 This is a API documentation for the Horizon Server 2312 also known as Horizon Enterprise.
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.

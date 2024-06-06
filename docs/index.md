@@ -3,15 +3,10 @@ layout: page
 title: Horizon API Documentation
 #permalink: /apis/horizon/
 hide:
-  - navigation
-  #- toc
+  #- navigation
+  - toc
 ---
 
 The following API documentation is provided for each Horizon product.
 
-[VMware Horizon Cloud Service - next-gen](horizon-cloud-nextgen/index.md)
-
-[VMware Horizon Cloud Service - first-gen](horizon-daas/index.md)
-
-[Horizon Server](horizon-server/index.md)
-
+[cards cols=1 (apis/horizon-apis/docs/doc-ref.yaml)]
