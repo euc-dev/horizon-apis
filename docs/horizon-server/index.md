@@ -7,7 +7,7 @@ hide:
   - toc
 ---
 
-![](assets/logos/horizon-logo.png){ align=right }
+![](../../assets/logos/horizon-logo.png){ align=right }
 This is a API documentation for the Horizon Server 2312 also known as Horizon Enterprise.
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
@@ -22,7 +22,6 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
-## API Reference
 <swagger-ui src="rest-api-swagger-docs.json/>
 
 ### Older Version API Documentation

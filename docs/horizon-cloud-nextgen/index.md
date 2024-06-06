@@ -7,7 +7,7 @@ hide:
   - toc
 ---
 
-![](assets/logos/horizon-cloud-logo.png){ align=right }
+![](../../assets/logos/horizon-cloud-logo.png){ align=right }
 
 This is a API documentation for the VMware Horizon Cloud Service - next-gen
 
