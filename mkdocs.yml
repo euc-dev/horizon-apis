@@ -9,7 +9,7 @@ use_directory_urls: true
 
 # Repository
 repo_url: https://github.com/euc-dev/horizon-apis
-edit_uri: edit/docs/
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: |
