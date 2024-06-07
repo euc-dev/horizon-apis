@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Horizon Server API Documentation Version 2012
-permalink: /apis/horizon-server/
+hide:
+  #- navigation
+  - toc
 ---
 
 This is a API documentation for the Horizon Server version 2012
