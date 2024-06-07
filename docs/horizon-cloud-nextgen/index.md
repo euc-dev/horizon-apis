@@ -112,4 +112,4 @@ Authentication : Bearer {{access-token-value}}
 ```
 
 <!-- <swagger-ui src="horizon-cloud-nextgen-api-doc-public.yaml"/> -->
-[OAD(horizon-cloud-nextgen-api-doc-public.yaml)]
+[OAD(./apis/horizon-apis/docs/horizon-cloud-nextgen/horizon-cloud-nextgen-api-doc-public.yaml)]
