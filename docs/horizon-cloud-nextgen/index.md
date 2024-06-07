@@ -7,13 +7,14 @@ hide:
   - toc
 ---
 
-![](../../assets/logos/horizon-cloud-logo.png){ align=right }
+ ![Horizon Cloud](../../assets/logos/horizon-cloud-logo.png)<!-- { align=right } -->
 
-This is a API documentation for the VMware Horizon Cloud Service - next-gen
+## What is the Horizon Cloud Service
 
-*Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) deployment with Thin Edge Infrastructure. The service provides you with a global view of your desktops and applications spanning across on-premises and cloud environments. Regardless of the location of your desktop and application deployments, Horizon Cloud enables you to consistently manage and monitor them.*
+Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) deployment with Thin Edge Infrastructure. The service provides you with a global view of your desktops and applications spanning across on-premises and cloud environments. Regardless of the location of your desktop and application deployments, Horizon Cloud enables you to consistently manage and monitor them.
 
 ## Onboarding Customer to Data Center (HDC)
+
 Once you receive your CSP invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to VMWare.
   + Then do CSP Login
   + You have an option to create to use an existing CSP organization or create a new one to onboard to Horizon Cloud Services.
@@ -28,6 +29,7 @@ Once you receive your CSP invitation link in the email, please redeem it by clic
 ## General API Notes
 
 ### Authentication
+
 *Please take a note of above two steps The same authentication scheme ("Authorization: Bearer") is required for all API calls*
 
 ### Obtain a CSP Access Token
@@ -43,6 +45,7 @@ Login to CSP Portal and obtain the following:
   Choose one of the following methods to obtain an Access Token
 
 #### 1a. To obtain an Access Token by using a CSP API Token
+
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes  your  API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 Note: `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 ```
@@ -74,6 +77,7 @@ Authentication : Bearer {{access-token-value}}
 ```
 
 #### 1b. To obtain an Access Token by using a CSP OAuth application
+
 Obtain the Titan access token by using the CSP oAuth credentials.
 ```
 POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
@@ -100,4 +104,5 @@ Take a note of the  *{{access-token-value}}*. This is what you will use in a hea
 Authentication : Bearer {{access-token-value}}
 ```
 
-<swagger-ui src="horizon-cloud-nextgen-api-doc-public.yaml"/>
+<!-- <swagger-ui src="horizon-cloud-nextgen-api-doc-public.yaml"/> -->
+[OAD(horizon-cloud-nextgen-api-doc-public.yaml)]
