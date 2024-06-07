@@ -16,12 +16,14 @@ Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) d
 ## Onboarding Customer to Data Center (HDC)
 
 Once you receive your CSP invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to VMWare.
+
 - Then do CSP Login
 - You have an option to create to use an existing CSP organization or create a new one to onboard to Horizon Cloud Services.
 - As an organization owner, need to go to "Identity & Access Management" and edit the existing user to add the following role:
-  -  **Administrator**  
+    -  **Administrator**
   
 >   Customer may add more users and assign the role above. Administrator role is required to access entire UI and API. All the APIs need a bearer token generated from an API token. Follow these steps to get your API token.
+> 
 > - Go to your account and API Tokens tab.
 > - Click on Generate a New API TOKEN link. Provide a name for the API token and keep the defaults.
 > - Save the API token information and keep it handy.
@@ -36,6 +38,7 @@ Once you receive your CSP invitation link in the email, please redeem it by clic
 ### Obtain a CSP Access Token
 
 Login to CSP Portal and obtain the following:
+
 - CSP Org ID
   Take the 'Long Organization ID' from the 'View Organization' page in CSP
 - EITHER 
@@ -52,9 +55,11 @@ Login to CSP Portal and obtain the following:
 
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes  your  API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 Note: `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
+
 ```
 POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
+
 ```
 Headers:      Content-Type : application/x-www-form-urlencoded
 Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
@@ -68,7 +73,9 @@ Response:
   "refresh_token": "{{refresh-token-value}}"
 }
 ```
+
 An example using curl:
+
 ```
 % curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
   --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -76,6 +83,7 @@ An example using curl:
 ```
 
 Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
+
 ```
 Authentication : Bearer {{access-token-value}}
 ```
@@ -83,6 +91,7 @@ Authentication : Bearer {{access-token-value}}
 2. To obtain an Access Token by using a CSP OAuth application
 
 Obtain the Titan access token by using the CSP oAuth credentials.
+
 ```
 POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```
