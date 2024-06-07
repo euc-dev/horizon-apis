@@ -1,4 +1,4 @@
 - title: Horizon DaaS
  #content: VMware App Volumes API Programming Guide
-  url: horizon-daas/horizondaas-api.pdf
-  image: ../../assets/logos/horizon-cloud-logo.png
+  url: horizondaas-api.pdf
+  image: ../../../assets/logos/horizon-cloud-logo.png
