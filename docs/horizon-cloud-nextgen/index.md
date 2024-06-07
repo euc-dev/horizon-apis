@@ -4,7 +4,7 @@ title: Getting Started with Horizon Cloud Service
 #permalink: /apis/horizon-cloud-nextgen/
 hide:
   #- navigation
-  - toc
+  #- toc
 ---
 
 ![Horizon Cloud](../../../assets/logos/horizon-cloud-logo.png){ align=right }
