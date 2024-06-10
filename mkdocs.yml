@@ -1,6 +1,6 @@
 # Project Information
 site_name: apis/horizon-apis
-site_url: https://euc-dev.github.io/horizon-apis/
+site_url: https://euc-dev.github.io/apis/horizon-apis/
 site_author: Phil Helmling
 site_description: POC for developer.omnissa.com
 docs_dir: docs
