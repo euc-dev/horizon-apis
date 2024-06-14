@@ -20,10 +20,10 @@ Once you receive your CSP invitation link in the email, please redeem it by clic
 - Then do CSP Login
 - You have an option to create to use an existing CSP organization or create a new one to onboard to Horizon Cloud Services.
 - As an organization owner, need to go to "Identity & Access Management" and edit the existing user to add the following role:
-    -  **Administrator**
+  - **Administrator**
   
->   Customer may add more users and assign the role above. Administrator role is required to access entire UI and API. All the APIs need a bearer token generated from an API token. Follow these steps to get your API token.
-> 
+> Customer may add more users and assign the role above. Administrator role is required to access entire UI and API. All the APIs need a bearer token generated from an API token. Follow these steps to get your API token.
+>
 > - Go to your account and API Tokens tab.
 > - Click on Generate a New API TOKEN link. Provide a name for the API token and keep the defaults.
 > - Save the API token information and keep it handy.
@@ -41,26 +41,27 @@ Login to CSP Portal and obtain the following:
 
 - CSP Org ID
   Take the 'Long Organization ID' from the 'View Organization' page in CSP
-- EITHER 
+- EITHER
   - CSP oAuth Application ID and oAuth Application secret
   These can be found when originally creating the OAuth App within your Organization page, or can be regenerated from the same area. Note: OAuth App should have the Horizon Cloud Service listed as a Service Role
   
   OR
   - CSP API Token
-  See the previous section for details about create API Tokens 
+  See the previous section for details about create API Token.
   All API calls require authentication using an Access Token.
-  Choose one of the following methods to obtain an Access Token
+  
+Choose one of the following methods to obtain an Access Token:
 
 1. To obtain an Access Token by using a CSP API Token
 
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes  your  API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 Note: `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 
-```
+```sh
 POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
 
-```
+```sh
 Headers:      Content-Type : application/x-www-form-urlencoded
 Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
 Response:
@@ -76,7 +77,7 @@ Response:
 
 An example using curl:
 
-```
+```sh
 % curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data-urlencode 'refresh_token={api-token-from-CSP}'
@@ -84,7 +85,7 @@ An example using curl:
 
 Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
 
-```
+```sh
 Authentication : Bearer {{access-token-value}}
 ```
 
@@ -92,18 +93,21 @@ Authentication : Bearer {{access-token-value}}
 
 Obtain the Titan access token by using the CSP oAuth credentials.
 
-```
+```sh
 POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```
 
-```
+```sh
 Headers:        Content-type: application/x-www-form-urlencoded
-Authorization : Basic
-Username =      {{oAuth Application ID}}
-Password =      {{oAuth Application secret}}
-Request Body:   grant_type : client_credentials
+Authorization:  Basic
+Username:       {{oAuth Application ID}}
+Password:       {{oAuth Application secret}}
+Body:           grant_type : client_credentials
+```
 
 Response: 200 OK
+
+```json
 {
   "id_token": null,
   "token_type": "bearer",
@@ -111,15 +115,15 @@ Response: 200 OK
   "scope": "scope.....{snippet}",
     "access_token": "{{access-token-value}}",
     "refresh_token": "{{refresh-token-value}}"
-    }
+}
 ```
 
 Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
 
-```
+```sh
 Authentication : Bearer {{access-token-value}}
 ```
 
-<swagger-ui src="../../../../horizon-cloud-nextgen-api-doc-public.yaml"/>
+<swagger-ui src="../../../horizon-cloud-nextgen-api-doc-public.yaml"/>
 
-<!-- [OAD(../../../../horizon-cloud-nextgen-api-doc-public.yaml)] -->
+[OAD(../../../../horizon-cloud-nextgen-api-doc-public.yaml)]

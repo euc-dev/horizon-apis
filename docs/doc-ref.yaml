@@ -1,14 +1,14 @@
 - title: Horizon Server
- #content: VMware App Volumes API Programming Guide
+ #content: 
   url: horizon-server/index.md
-  image: ../../assets/logos/horizon-logo.png
+  image: ../../../assets/logos/horizon-logo.png
 
 - title: VMware Horizon Cloud Service - next-gen
  #content:
   url: horizon-cloud-nextgen/index.md
-  image: ../../assets/logos/horizon-cloud-logo.png
+  image: ../../../assets/logos/horizon-cloud-logo.png
 
 - title: VMware Horizon Cloud Service - first-gen
  #content:
   url: horizon-daas/index.md
-  image: ../../assets/logos/horizon-cloud-logo.png
+  image: ../../../assets/logos/horizon-cloud-logo.png
