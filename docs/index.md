@@ -9,4 +9,23 @@ hide:
 
 The following API documentation is provided for each Horizon product.
 
-[cards cols=3 (apis/horizon-apis/docs/doc-ref.yaml)]
+<!-- [cards cols=3 (apis/horizon-apis/docs/doc-ref.yaml)] -->
+
+::cards::
+
+- title: Horizon Server
+  #content: 
+  url: horizon-server/index.md
+  image: ../../../assets/logos/horizon-logo.png
+
+- title: VMware Horizon Cloud Service - next-gen
+  #content:
+  url: horizon-cloud-nextgen/index.md
+  image: ../../../assets/logos/horizon-cloud-logo.png
+
+- title: VMware Horizon Cloud Service - first-gen
+  #content:
+  url: horizon-daas/index.md
+  image: ../../../assets/logos/horizon-cloud-logo.png
+
+::/cards::
