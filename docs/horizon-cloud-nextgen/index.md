@@ -99,7 +99,7 @@ POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```sh
 Headers:        Content-type: application/x-www-form-urlencoded
 Authorization:  Basic
-Username:       {{oAuth Application ID}}
+Username:       {{\oAuth \Application \ID}}
 Password:       {{oAuth Application secret}}
 Body:           grant_type : client_credentials
 ```
