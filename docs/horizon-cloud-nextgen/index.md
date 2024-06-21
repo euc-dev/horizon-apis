@@ -14,14 +14,13 @@ Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) d
 
 ## Onboarding Customer to Data Center (HDC)
 
-Once you receive your CSP invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to VMWare.
+Once you receive your Cloud Services Portal (CSP) invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to VMWare.
 
-- Then do CSP Login
+- Login to ***CSP*** ([https://connect.omnissa.com](https://connect.omnissa.com)).
 - You have an option to create to use an existing CSP organization or create a new one to onboard to Horizon Cloud Services.
-- As an organization owner, need to go to "Identity & Access Management" and edit the existing user to add the following role:
-  - **Administrator**
-  
-> Customer may add more users and assign the role above. Administrator role is required to access entire UI and API. All the APIs need a bearer token generated from an API token. Follow these steps to get your API token.
+- As an organization owner, you need to go to "Identity & Access Management" and edit the existing user to add the **Administrator** role. Customers may add more users and assign the role above. The Administrator role is required to access the entire UI and API.
+
+> All API calls need a bearer token generated from an API token. Follow these steps to get your API token.
 >
 > - Go to your account and API Tokens tab.
 > - Click on Generate a New API TOKEN link. Provide a name for the API token and keep the defaults.
@@ -31,36 +30,47 @@ Once you receive your CSP invitation link in the email, please redeem it by clic
 
 ### Authentication
 
-!!! Important
-    Please take a note of above two steps The same authentication scheme ("Authorization: Bearer") is required for all API calls
+!!!Important
+    Please take a note of below two steps.
+    The same authentication scheme ("Authorization: Bearer") is required for all API calls
 
 ### Obtain a CSP Access Token
 
-Login to CSP Portal and obtain the following:
+#### 1. Login to CSP Portal and obtain either
 
 - CSP Org ID
-  Take the 'Long Organization ID' from the 'View Organization' page in CSP
-- EITHER
-  - CSP oAuth Application ID and oAuth Application secret
-  These can be found when originally creating the OAuth App within your Organization page, or can be regenerated from the same area. Note: OAuth App should have the Horizon Cloud Service listed as a Service Role
+ Take the 'Long Organization ID' from the 'View Organization' page in CSP
+
+**OR**
+
+- CSP oAuth Application ID and oAuth Application secret
+
+These can be found when originally creating the OAuth App within your Organization page, or can be regenerated from the same area.
+
+!!!Note
+    OAuth App should have the Horizon Cloud Service listed as a Service Role
+
+#### 2. Create a CSP API Token
+
+> See the previous section for details about creating an API Token. All API calls require authentication using an Access Token.
+> THIS SECTION NEEDS WORK
   
-  OR
-  - CSP API Token
-  See the previous section for details about create API Token.
-  All API calls require authentication using an Access Token.
-  
-Choose one of the following methods to obtain an Access Token:
+### Obtain an Access Token
 
-1. To obtain an Access Token by using a CSP API Token
+Choose one of the following methods:
 
-One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes  your  API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
-Note: `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
+#### 1. To obtain an Access Token by using a CSP API Token
 
-```sh
+One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes your API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
+
+!!!Note
+    `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
+
+``` sh
 POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
 
-```sh
+``` sh
 Headers:      Content-Type : application/x-www-form-urlencoded
 Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
 Response:
@@ -76,7 +86,7 @@ Response:
 
 An example using curl:
 
-```sh
+``` sh
 % curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data-urlencode 'refresh_token={api-token-from-CSP}'
@@ -84,29 +94,29 @@ An example using curl:
 
 Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
 
-```sh
+``` sh
 Authentication : Bearer {{access-token-value}}
 ```
 
-2. To obtain an Access Token by using a CSP OAuth application
+#### 2. To obtain an Access Token by using a CSP OAuth application
 
-Obtain the Titan access token by using the CSP oAuth credentials.
+Obtain the Access Token by using the CSP oAuth credentials.
 
-```sh
+``` sh
 POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```
 
-```sh
+``` sh
 Headers:        Content-type: application/x-www-form-urlencoded
 Authorization:  Basic
-Username:       {{\oAuth \Application \ID}}
+Username:       {{oAuth Application ID}}
 Password:       {{oAuth Application secret}}
 Body:           grant_type : client_credentials
 ```
 
 Response: 200 OK
 
-```json
+``` json
 {
   "id_token": null,
   "token_type": "bearer",
@@ -119,7 +129,7 @@ Response: 200 OK
 
 Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
 
-```sh
+``` sh
 Authentication : Bearer {{access-token-value}}
 ```
 
