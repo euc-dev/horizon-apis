@@ -1,15 +1,12 @@
 ---
 layout: page
-title: Horizon DaaS API - API Explorer
-#permalink: /apis/horizon-daas/
+title: Horizon DaaS API
 hide:
   #- navigation
   - toc
 ---
 
 This is a API documentation for the VMware Horizon Cloud Service - DaaS (first gen)
-
-<!-- [cards (apis/horizon-apis/docs/horizon-daas/doc-ref.yaml)] -->
 
 ::cards::
 
