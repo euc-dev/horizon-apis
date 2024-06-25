@@ -92,7 +92,7 @@ An example using curl:
   --data-urlencode 'refresh_token={api-token-from-CSP}'
 ```
 
-Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
+Take a note of the  *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
 ``` sh
 Authentication : Bearer {{access-token-value}}

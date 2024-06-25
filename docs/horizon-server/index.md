@@ -26,6 +26,7 @@ This API reference provides comprehensive information about status of all Horizo
 <swagger-ui src="versions/2312/rest-api-swagger-docs.json" />
 
 ### Older Version API Documentation
+
 | Name | Link |
 | --- | --- |
 | Horizon 2312 API Explorer | [2309](versions/2312/index.md) |
