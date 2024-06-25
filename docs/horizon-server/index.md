@@ -14,6 +14,7 @@ This is a API documentation for the Horizon Server 2312 also known as Horizon En
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
 
 ## Documentation  
+
 | Name | Size |
 | --- | --- |
 | [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |
@@ -23,9 +24,7 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
-<swagger-ui src="rest-api-swagger-docs.json/>
-
-[](rest-api-swagger-docs.json)
+<swagger-ui src="versions/2312/rest-api-swagger-docs.json" />
 
 ### Older Version API Documentation
 | Name | Link |

@@ -123,7 +123,6 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - neoteroi.spantable
-  - neoteroi.mkdocsoad
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
