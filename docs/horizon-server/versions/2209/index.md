@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Horizon Server API Documentation
-#permalink: /apis/horizon-server/
+title: Horizon Server API Documentation Version 2209
 hide:
   #- navigation
   - toc

@@ -1,5 +1,5 @@
 # Project Information
-site_name: apis/horizon-apis
+site_name: Horizon APIs
 site_url: https://euc-dev.github.io/apis/horizon-apis/
 site_author: Phil Helmling
 site_description: POC for developer.omnissa.com
@@ -86,8 +86,8 @@ plugins:
       fallback_to_build_date: true
       type: timeago
   - swagger-ui-tag
-  - neoteroi.mkdocsoad:
-      use_pymdownx: true
+  # - neoteroi.mkdocsoad:
+  #     use_pymdownx: true
 
 # Customization
 extra:
@@ -114,7 +114,7 @@ extra:
 
 extra_css:
   - assets/stylesheets/extra.css
-  - assets/stylesheets/neoteroi-mkdocs.css
+  #- assets/stylesheets/neoteroi-mkdocs.css
 
 # Extensions
 markdown_extensions:
@@ -123,7 +123,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - neoteroi.spantable
-  - neoteroi.mkdocsoad
+  #- neoteroi.mkdocsoad
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -150,21 +150,4 @@ markdown_extensions:
 
 # Navigation
 # nav:
-#   - Home:
-#     - index.md
-#   - Dev Centre:
-#     - dev-centre/index.md
-# #  - Product Docs:
-# #    - product-docs/index.md
-#   - APIs:
-#     - apis/index.md
-#   - Code Samples: 
-#     - samples/index.md
-#   - PowerCLI:
-#     - powercli/index.md
-#   - SDKs: 
-#     - /sdks/index.md
-#   - Support:
-#     - support/index.md
-#   - About:
-#     - about.md
+

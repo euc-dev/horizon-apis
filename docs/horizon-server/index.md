@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Horizon Server API Documentation
-#permalink: /apis/horizon-server/
 hide:
   #- navigation
   - toc
@@ -13,7 +12,8 @@ This is a API documentation for the Horizon Server 2312 also known as Horizon En
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
 
-## Documentation  
+## Documentation
+
 | Name | Size |
 | --- | --- |
 | [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |

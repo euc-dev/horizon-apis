@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Horizon Server API Documentation
+title: Horizon Server API Documentation Version 7.10.0
 hide:
   #- navigation
   - toc
