@@ -87,7 +87,7 @@ Response:
 An example using curl:
 
 ``` sh
-% curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
+curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data-urlencode 'refresh_token={api-token-from-CSP}'
 ```
@@ -127,7 +127,7 @@ Response: 200 OK
 }
 ```
 
-Take a note of the  *{{access-token-value}}*. This is what you will use in a header for all subsequent API calls.
+Take a note of the *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
 ``` sh
 Authentication : Bearer {{access-token-value}}
