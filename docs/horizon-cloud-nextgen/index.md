@@ -66,11 +66,11 @@ One authentication scheme is to use an "Access Token", which is obtained by maki
 !!!Note
     `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 
-``` sh
+```API
   POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
 
-``` sh
+```API
   Headers:      Content-Type : application/x-www-form-urlencoded
   Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
   Response:
@@ -86,7 +86,7 @@ One authentication scheme is to use an "Access Token", which is obtained by maki
 
 An example using curl:
 
-``` sh
+```sh
   curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
     --header 'Content-Type: application/x-www-form-urlencoded' \
     --data-urlencode 'refresh_token={api-token-from-CSP}'
@@ -94,7 +94,7 @@ An example using curl:
 
 Take a note of the  *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
-``` sh
+```API
   Authentication : Bearer {{access-token-value}}
 ```
 
@@ -102,11 +102,11 @@ Take a note of the  *`{{access-token-value}}`*. This is what you will use in a h
 
 Obtain the Access Token by using the CSP oAuth credentials.
 
-``` sh
+```API
   POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```
 
-``` sh
+```API
   Headers:        Content-type: application/x-www-form-urlencoded
   Authorization:  Basic
   Username:       {{oAuth_Application_ID}}  
@@ -129,7 +129,7 @@ Response: 200 OK
 
 Take a note of the *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
-``` sh
+```API
 Authentication : Bearer {{access-token-value}}
 ```
 
