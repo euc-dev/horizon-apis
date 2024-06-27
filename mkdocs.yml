@@ -1,6 +1,6 @@
 # Project Information
 site_name: Horizon APIs
-site_url: https://euc-dev.github.io/apis/horizon-apis/
+site_url: https://euc-dev.github.io/horizon-apis/
 site_author: Phil Helmling
 site_description: POC for developer.omnissa.com
 docs_dir: docs
@@ -123,6 +123,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - neoteroi.spantable
+  #- neoteroi.mkdocsoad
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
