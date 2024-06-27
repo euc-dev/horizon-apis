@@ -5,7 +5,6 @@ hide:
   #- navigation
   - toc
 ---
-![Horizon DaaS](../../../assets/logos/horizon-cloud-logo.png){ align=right }
 
 This is a API documentation for the VMware Horizon Cloud Service - DaaS (first gen)
 
