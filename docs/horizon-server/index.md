@@ -5,8 +5,7 @@ hide:
   #- navigation
   - toc
 ---
-
-![](../../../../assets/logos/horizon-logo.png){ align=right }
+![Horizon Server](../../../assets/logos/horizon-logo.png){ align=right }
 
 This is a API documentation for the Horizon Server 2312 also known as Horizon Enterprise.
 

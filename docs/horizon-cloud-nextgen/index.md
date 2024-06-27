@@ -67,35 +67,35 @@ One authentication scheme is to use an "Access Token", which is obtained by maki
     `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 
 ``` sh
-POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
+  POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
 
 ``` sh
-Headers:      Content-Type : application/x-www-form-urlencoded
-Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
-Response:
-{
-  "id_token": {{id-token-value}},
-  "token_type": "bearer",
-  "expires_in": 1799,
-  "scope": "scope.....{snippet}",
-  "access_token": "{{access-token-value}}",
-  "refresh_token": "{{refresh-token-value}}"
-}
+  Headers:      Content-Type : application/x-www-form-urlencoded
+  Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
+  Response:
+  {
+    "id_token": {{id-token-value}},
+    "token_type": "bearer",
+    "expires_in": 1799,
+    "scope": "scope.....{snippet}",
+    "access_token": "{{access-token-value}}",
+    "refresh_token": "{{refresh-token-value}}"
+  }
 ```
 
 An example using curl:
 
 ``` sh
-curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
-  --header 'Content-Type: application/x-www-form-urlencoded' \
-  --data-urlencode 'refresh_token={api-token-from-CSP}'
+  curl --request POST '{csp-host}/csp/gateway/am/api/auth/api-tokens/authorize'  \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode 'refresh_token={api-token-from-CSP}'
 ```
 
 Take a note of the  *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
 ``` sh
-Authentication : Bearer {{access-token-value}}
+  Authentication : Bearer {{access-token-value}}
 ```
 
 #### 2. To obtain an Access Token by using a CSP OAuth application
@@ -103,15 +103,15 @@ Authentication : Bearer {{access-token-value}}
 Obtain the Access Token by using the CSP oAuth credentials.
 
 ``` sh
-POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
+  POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
 ```
 
 ``` sh
-Headers:        Content-type: application/x-www-form-urlencoded
-Authorization:  Basic
-Username:       {{oAuth Application ID}}
-Password:       {{oAuth Application secret}}
-Body:           grant_type : client_credentials
+  Headers:        Content-type: application/x-www-form-urlencoded
+  Authorization:  Basic
+  Username:       {{oAuth Application ID}}
+  Password:       {{oAuth Application secret}}
+  Body:           grant_type : client_credentials
 ```
 
 Response: 200 OK
