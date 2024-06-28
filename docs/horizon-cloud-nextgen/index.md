@@ -63,8 +63,7 @@ Choose one of the following methods:
 
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes your API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 
-!!!Note
-    `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
+Note `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 
 ```
   POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
@@ -116,7 +115,7 @@ Obtain the Access Token by using the CSP oAuth credentials.
 
 Response: 200 OK
 
-``` json
+```json
 {
   "id_token": null,
   "token_type": "bearer",
@@ -129,7 +128,7 @@ Response: 200 OK
 
 Take a note of the *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
 
-```API
+```
 Authentication : Bearer {{access-token-value}}
 ```
 
