@@ -25,7 +25,7 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
-<swagger-ui src="versions/2312/rest-api-swagger-docs.json" />
+<swagger-ui src="versions/2406/rest-api-swagger-docs.json" />
 
 ### Older Version API Documentation
 
