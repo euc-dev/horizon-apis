@@ -36,7 +36,7 @@ Once you receive your Cloud Services Portal (CSP) invitation link in the email, 
 
 ### Obtain a CSP Access Token
 
-#### Login to CSP Portal and obtain either
+##### Login to CSP Portal and obtain either
 
 - CSP Org ID
  Take the 'Long Organization ID' from the 'View Organization' page in CSP
@@ -50,7 +50,7 @@ These can be found when originally creating the OAuth App within your Organizati
 !!!Note
     OAuth App should have the Horizon Cloud Service listed as a Service Role
 
-#### Create a CSP API Token
+##### Create a CSP API Token
 
 > See the previous section for details about creating an API Token. All API calls require authentication using an Access Token.
   
@@ -58,7 +58,7 @@ These can be found when originally creating the OAuth App within your Organizati
 
 Choose one of the following methods:
 
-#### To obtain an Access Token by using a CSP API Token
+##### To obtain an Access Token by using a CSP API Token
 
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes your API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 
@@ -96,7 +96,7 @@ Take a note of the  *`{access-token-value}`*. This is what you will use in a hea
   Authentication : Bearer {access-token-value}
 ```
 
-#### To obtain an Access Token by using a CSP OAuth application
+##### To obtain an Access Token by using a CSP OAuth application
 
 Obtain the Access Token by using the CSP oAuth credentials.
 
