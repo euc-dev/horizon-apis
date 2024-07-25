@@ -121,15 +121,15 @@ Response: 200 OK
   "token_type": "bearer",
   "expires_in": 1799,
   "scope": "scope.....{snippet}",
-    "access_token": "{{access-token-value}}",
-    "refresh_token": "{{refresh-token-value}}"
+    "access_token": "{access-token-value}",
+    "refresh_token": "{refresh-token-value}"
 }
 ```
 
-Take a note of the *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
+Take a note of the *`{access-token-value}`*. This is what you will use in a header for all subsequent API calls.
 
 ```json
-Authentication : Bearer {{access-token-value}}
+Authentication : Bearer {access-token-value}
 ```
 
 <swagger-ui src="../../../horizon-cloud-nextgen-api-doc-public.yaml"/>
