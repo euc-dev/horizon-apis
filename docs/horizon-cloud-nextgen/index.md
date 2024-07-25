@@ -63,23 +63,23 @@ Choose one of the following methods:
 
 One authentication scheme is to use an "Access Token", which is obtained by making an API call that takes your API Token as input, and returns an Access Token. This Access Token is then supplied as a bearer token in an "Authentication" header with every API request. All the following steps will assume this authentication header, it will not be explicitly mentioned each time.
 
-Note `{{csp-url}}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
+Note `{csp-url}` value will typically be [https://connect.omnissa.com](https://connect.omnissa.com)
 
 ```json
-  POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize
+  POST https://{csp-url}/csp/gateway/am/api/auth/api-tokens/authorize
 ```
 
 ```json
   Headers:      Content-Type : application/x-www-form-urlencoded
-  Request Body: refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}
+  Request Body: refresh_token : {YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}
   Response:
   {
-    "id_token": {{id-token-value}},
+    "id_token": {id-token-value},
     "token_type": "bearer",
     "expires_in": 1799,
     "scope": "scope.....{snippet}",
-    "access_token": "{{access-token-value}}",
-    "refresh_token": "{{refresh-token-value}}"
+    "access_token": "{access-token-value}",
+    "refresh_token": "{refresh-token-value}"
   }
 ```
 
@@ -91,10 +91,10 @@ An example using curl:
     --data-urlencode 'refresh_token={api-token-from-CSP}'
 ```
 
-Take a note of the  *`{{access-token-value}}`*. This is what you will use in a header for all subsequent API calls.
+Take a note of the  *`{access-token-value}`*. This is what you will use in a header for all subsequent API calls.
 
 ```json
-  Authentication : Bearer {{access-token-value}}
+  Authentication : Bearer {access-token-value}
 ```
 
 #### 2. To obtain an Access Token by using a CSP OAuth application
@@ -102,14 +102,14 @@ Take a note of the  *`{{access-token-value}}`*. This is what you will use in a h
 Obtain the Access Token by using the CSP oAuth credentials.
 
 ```json
-  POST https://{{csp-url}}/csp/gateway/am/api/auth/authorize
+  POST https://{csp-url}/csp/gateway/am/api/auth/authorize
 ```
 
 ```json
   Headers:        Content-type: application/x-www-form-urlencoded
   Authorization:  Basic
-  Username:       {{oAuth_Application_ID}}  
-  Password:       {{oAuth_Application_secret}}
+  Username:       {oAuth_Application_ID}} 
+  Password:       {oAuth_Application_secret}
   Body:           grant_type : client_credentials
 ```
 
