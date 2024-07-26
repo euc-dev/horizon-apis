@@ -148,22 +148,22 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - 2406: horizon-server/versions/2406/index.md
-      - 2312: horizon-server/versions/2312/index.md
-      - 2309: horizon-server/versions/2309/index.md
-      - 2306: horizon-server/versions/2306/index.md
-      - 2303: horizon-server/versions/2303/index.md
-      - 2212: horizon-server/versions/2212/index.md
-      - 2209: horizon-server/versions/2209/index.md
-      - 2206: horizon-server/versions/2206/index.md
-      - 2111: horizon-server/versions/2111/index.md
-      - 2106: horizon-server/versions/2106/index.md
-      - 2103: horizon-server/versions/2103/index.md
-      - 2012: horizon-server/versions/2012/index.md
-      - 8.0.0: horizon-server/versions/8.0.0/index.md
-      - 7.12.0: horizon-server/versions/7.12.0/index.md
-      - 7.11.0: horizon-server/versions/7.11.0/index.md
-      - 7.10.0: horizon-server/versions/7.10.0/index.md
+      - v2406: horizon-server/versions/2406/index.md
+      - v2312: horizon-server/versions/2312/index.md
+      - v2309: horizon-server/versions/2309/index.md
+      - v2306: horizon-server/versions/2306/index.md
+      - v2303: horizon-server/versions/2303/index.md
+      - v2212: horizon-server/versions/2212/index.md
+      - v2209: horizon-server/versions/2209/index.md
+      - v2206: horizon-server/versions/2206/index.md
+      - v2111: horizon-server/versions/2111/index.md
+      - v2106: horizon-server/versions/2106/index.md
+      - v2103: horizon-server/versions/2103/index.md
+      - v2012: horizon-server/versions/2012/index.md
+      - v8.0.0: horizon-server/versions/8.0.0/index.md
+      - v7.12.0: horizon-server/versions/7.12.0/index.md
+      - v7.11.0: horizon-server/versions/7.11.0/index.md
+      - v7.10.0: horizon-server/versions/7.10.0/index.md
   - Horizon Cloud Service: horizon-cloud-nextgen/index.md
   - Horizon DaaS: horizon-daas/index.md
 
