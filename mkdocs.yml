@@ -19,8 +19,22 @@ copyright: |
 # Configuration
 theme:
   name: material
-  favicon: favicon.ico
-  logo: assets/images/icon-white.svg
+  custom_dir: overrides
+  favicon: assets/logos/favicon-light.svg
+  logo: assets/logos/favicon-dark.svg
+  admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   icon:
     repo: fontawesome/brands/github
     annotation: material/plus-circle
@@ -32,33 +46,22 @@ theme:
     annotation: material/star-four-points-circle
     annotation: material/plus-circle-outline
   palette:
-  - media: "(prefers-color-scheme: light)"
-    scheme: default
-    primary: indigo
-    accent: indigo
-    toggle:
-      icon: material/toggle-switch
-      name: Dark Theme
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    primary: indigo
-    accent: indigo
-    toggle:
-      icon: material/toggle-switch-off-outline
-      name: Light Theme
+    scheme: omnissa
+    primary: dark-shade-blue
+    accent: neon
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Outfit
+    code: Poppins
   features:
   - content.action.edit
   - content.action.view
   - content.code.annotate
   - content.code.copy
   - content.tabs.link
-  - navigation.footer
   - navigation.header
   - navigation.indexes
   - navigation.instant
+  - navigation.path
   - navigation.sections
   - navigation.tabs
   - navigation.tabs.sticky
@@ -86,35 +89,22 @@ plugins:
       fallback_to_build_date: true
       type: timeago
   - swagger-ui-tag
-  # - neoteroi.mkdocsoad:
-  #     use_pymdownx: true
+  - monorepo
+  - macros
 
 # Customization
 extra:
-  version:
-    default: latest
-    provider: mike
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/euc-oss/horizon-apis
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/WorkspaceONE
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCYgGfqfb9c3AOGJqxqdjNYw
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/vmware-workspaceone/
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/vmwareworkspaceone/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/vmware/
-    - icon: fontawesome/brands/slack
-      link: https://slack.com/vmware
-    - icon: fontawesome/brands/discord
-      link: https://discord.com/vmware
+  homepage: https://omnissa.com
 
 extra_css:
   - assets/stylesheets/extra.css
-  #- assets/stylesheets/neoteroi-mkdocs.css
+  - assets/stylesheets/footer.Cx6ysBfj.css
+  - assets/stylesheets/neoteroi-mkdocsoad.css
+  - assets/stylesheets/neoteroi-mkdocs.css
+
+extra_javascript:
+  - assets/javascripts/tablesort.min.js #https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/javascripts/tablesort.js
 
 # Extensions
 markdown_extensions:
@@ -123,7 +113,8 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - neoteroi.spantable
-  #- neoteroi.mkdocsoad
+  - neoteroi.cards
+  - pymdownx.details
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -135,19 +126,43 @@ markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
   - pymdownx.snippets:
-      #check_paths: true
   - pymdownx.superfences:
       custom_fences:
       - name: mermaid
         class: mermaid
         format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
       alternate_style: true
-  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - tables
   - toc:
       permalink: true
 
 # Navigation
-# nav:
+nav:
+  - Horizon APIs: index.md
+  - Horizon Server: horizon-server/index.md
+    - Versions:
+      - 2406: horizon-server/2406/index.md
+      - 2312: horizon-server/2312/index.md
+      - 2309: horizon-server/2309/index.md
+      - 2306: horizon-server/2306/index.md
+      - 2303: horizon-server/2303/index.md
+      - 2212: horizon-server/2212/index.md
+      - 2209: horizon-server/2209/index.md
+      - 2206: horizon-server/2206/index.md
+      - 2111: horizon-server/2111/index.md
+      - 2106: horizon-server/2106/index.md
+      - 2103: horizon-server/2103/index.md
+      - 2012: horizon-server/2012/index.md
+      - 8.0.0: horizon-server/8.0.0/index.md
+      - 7.12.0: horizon-server/7.12.0/index.md
+      - 7.11.0: horizon-server/7.11.0/index.md
+      - 7.10.0: horizon-server/7.10.0/index.md
+  - Horizon Cloud Service: horizon-cloud-nextgen/index.md
+  - Horizon DaaS: horizon-daas/index.md
 

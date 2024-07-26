@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started with Horizon Cloud Service
+title: Horizon Cloud Service API
 hide:
   #- navigation
   - toc
