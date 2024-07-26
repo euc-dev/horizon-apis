@@ -145,11 +145,11 @@ markdown_extensions:
 # Navigation
 nav:
   - Horizon APIs: index.md
-  - Horizon Server: `horizon-server/index.md`
+  - Horizon Server: 
+    - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/index.md
-      - v2406: horizon-server/versions/2406/index.md
-      - v2312: horizon-server/versions/2312/index.md
+      - 2406: horizon-server/versions/2406/index.md
+      - 2312: horizon-server/versions/2312/index.md
       - 2309: horizon-server/versions/2309/index.md
       - 2306: horizon-server/versions/2306/index.md
       - 2303: horizon-server/versions/2303/index.md
