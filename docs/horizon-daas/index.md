@@ -11,7 +11,7 @@ This is a API documentation for the VMware Horizon Cloud Service - DaaS (first g
 ::cards::
 
 - title: Horizon DaaS
- #content: VMware App Volumes API Programming Guide
+ #content: Introduction to the Horizon DaaS REST API
   url: horizondaas-api.pdf
   image: ../../../assets/logos/horizon-cloud-logo.png
 
