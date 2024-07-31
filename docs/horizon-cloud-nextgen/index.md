@@ -131,6 +131,6 @@ Take a note of the *`{access-token-value}`*. This is what you will use in a head
 Authentication : Bearer {access-token-value}
 ```
 
-<swagger-ui src="../../../horizon-cloud-nextgen-api-doc-public.yaml"/>
+<swagger-ui src="horizon-cloud-nextgen-api-doc-public.yaml"/>
 
-<!-- [OAD(../../../../horizon-cloud-nextgen-api-doc-public.yaml)] -->
+<!-- [OAD(./docs/horizon-cloud-nextgen/horizon-cloud-nextgen-api-doc-public.yaml)] -->
