@@ -1,65 +1,65 @@
 openapi: 3.0.1
 info:
   title: Horizon Cloud Service - next-gen
-  description: "This is a API documentation for the VMware Horizon Cloud Service -\
-    \ next-gen\n\n*Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a\
-    \ Service (DaaS) deployment with Thin Edge Infrastructure. The service provides\
-    \ you with a global view of your desktops and applications spanning across on-premises\
-    \ and cloud environments. Regardless of the location of your desktop and application\
-    \ deployments, Horizon Cloud enables you to consistently manage and monitor them.*\n\
-    \n<hr />\n\n# Getting Started with Horizon Cloud Service - next-gen\n\n## Onboarding\
-    \ Customer to Data Center (HDC)\n- Once you receive your CSP invitation link in\
-    \ the email, please redeem it by clicking on the url. If you have not received\
-    \ an email, please reach out to VMWare.\n  + Then do CSP Login\n  + You have an\
-    \ option to create to use an existing CSP organization or create a new one to\
-    \ onboard to Horizon Cloud Services.\n  + As an organization owner, need to go\
-    \ to \"Identity & Access Management\" and edit the existing user to add the following\
-    \ role:\n    - **Administrator**\n    <br/>\n  Customer may add more users and\
-    \ assign the role above. Administrator role is required to access entire UI and\
-    \ API.\n\n- All the APIs need a bearer token generated from an API token. Follow\
-    \ these steps to get your API token.\n  + Go to your account and API Tokens tab.\n\
-    \  + Click on Generate a New API TOKEN link. Provide a name for the API token\
-    \ and keep the defaults.\n  + Save the API token information and keep it handy.\n\
-    \n## General API Notes\n\n### Authentication\n*Please take a note of above two\
-    \ steps The same authentication scheme (\"Authorization: Bearer\") is required\
-    \ for all API calls*\n\n### Steps\n\n**(1) Obtain a CSP Access Token**\n\nLogin\
-    \ to CSP Portal and obtain the following:\n- CSP Org ID\n  + Take the 'Long Organization\
-    \ ID' from the 'View Organization' page in CSP\n- EITHER CSP oAuth Application\
-    \ ID and oAuth Application secret \n  + These can be found when originally creating\
-    \ the OAuth App within your Organization page, or can be regenerated from the\
-    \ same area. Note: OAuth App should have the Horizon Cloud Service listed as a\
-    \ Service Role\n- OR CSP API Token\n  + See the previous section for details about\
-    \ create API Tokens\nAll API calls require authentication using an Access Token.\n\
-    Choose one of the following methods to obtain an Access Token\n\n**(1a) To obtain\
-    \ an Access Token by using a CSP API Token**\n\nOne authentication scheme is to\
-    \ use an \"Access Token\", which is obtained by making an API call that takes\
-    \ your  API Token as input, and returns an Access Token. This Access Token is\
-    \ then supplied as a bearer token in an \"Authentication\" header with every API\
-    \ request. All the following steps will assume this authentication header, it\
-    \ will not be explicitly mentioned each time.\nNote: {{csp-url}} value will typically\
-    \ be [https://console.cloud.vmware.com](https://console.cloud.vmware.com)\n```\n\
-    POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize\n```\n```\
-    \ \nHeaders:\nContent-Type : application/x-www-form-urlencoded\nRequest Body:\n\
-    refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}\nResponse:\n{\n\
-    \    \"id_token\": {{id-token-value}},\n    \"token_type\": \"bearer\",\n    \"\
-    expires_in\": 1799,\n    \"scope\": \"scope.....<snippet>\",\n    \"access_token\"\
-    : \"{{access-token-value}}\",\n    \"refresh_token\": \"{{refresh-token-value}}\"\
-    \n}\n```\nAn example using curl:\n```\n% curl --request POST '<csp-host>/csp/gateway/am/api/auth/api-tokens/authorize'\
-    \  \\\n     --header 'Content-Type: application/x-www-form-urlencoded' \\\n  \
-    \   --data-urlencode 'refresh_token=<api-token-from-CSP>'\n\n```\n\nTake a note\
-    \ of the  *{{access-token-value}}*. This is what you will use in a header for\
-    \ all subsequent API calls.\n```\nAuthentication : Bearer {{access-token-value}}\n\
-    ```\n**(1b) To obtain an Access Token by using a CSP OAuth application**\nObtain\
-    \ the Titan access token by using the CSP oAuth credentials.\n```\nPOST https://{{csp-url}}/csp/gateway/am/api/auth/authorize\n\
-    ```\n```\nHeaders:\nContent-type: application/x-www-form-urlencoded\nAuthorization\
-    \ : Basic\n  Username = {{oAuth Application ID}}\n  Password = {{oAuth Application\
-    \ secret}}\nRequest Body:\ngrant_type : client_credentials\n\nResponse: 200 OK\n\
-    \n  {\n    \"id_token\": null,\n    \"token_type\": \"bearer\",\n    \"expires_in\"\
-    : 1799,\n    \"scope\": \"scope.....<snippet>\",\n    \"access_token\": \"{{access-token-value}}\"\
-    ,\n    \"refresh_token\": \"{{refresh-token-value}}\"\n  }\n```\nTake a note of\
-    \ the  *{{access-token-value}}*. This is what you will use in a header for all\
-    \ subsequent API calls.\n```\nAuthentication : Bearer {{access-token-value}}\n\
-    ```\n"
+  # description: "This is a API documentation for the VMware Horizon Cloud Service -\
+  #   \ next-gen\n\n*Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a\
+  #   \ Service (DaaS) deployment with Thin Edge Infrastructure. The service provides\
+  #   \ you with a global view of your desktops and applications spanning across on-premises\
+  #   \ and cloud environments. Regardless of the location of your desktop and application\
+  #   \ deployments, Horizon Cloud enables you to consistently manage and monitor them.*\n\
+  #   \n<hr />\n\n# Getting Started with Horizon Cloud Service - next-gen\n\n## Onboarding\
+  #   \ Customer to Data Center (HDC)\n- Once you receive your CSP invitation link in\
+  #   \ the email, please redeem it by clicking on the url. If you have not received\
+  #   \ an email, please reach out to VMWare.\n  + Then do CSP Login\n  + You have an\
+  #   \ option to create to use an existing CSP organization or create a new one to\
+  #   \ onboard to Horizon Cloud Services.\n  + As an organization owner, need to go\
+  #   \ to \"Identity & Access Management\" and edit the existing user to add the following\
+  #   \ role:\n    - **Administrator**\n    <br/>\n  Customer may add more users and\
+  #   \ assign the role above. Administrator role is required to access entire UI and\
+  #   \ API.\n\n- All the APIs need a bearer token generated from an API token. Follow\
+  #   \ these steps to get your API token.\n  + Go to your account and API Tokens tab.\n\
+  #   \  + Click on Generate a New API TOKEN link. Provide a name for the API token\
+  #   \ and keep the defaults.\n  + Save the API token information and keep it handy.\n\
+  #   \n## General API Notes\n\n### Authentication\n*Please take a note of above two\
+  #   \ steps The same authentication scheme (\"Authorization: Bearer\") is required\
+  #   \ for all API calls*\n\n### Steps\n\n**(1) Obtain a CSP Access Token**\n\nLogin\
+  #   \ to CSP Portal and obtain the following:\n- CSP Org ID\n  + Take the 'Long Organization\
+  #   \ ID' from the 'View Organization' page in CSP\n- EITHER CSP oAuth Application\
+  #   \ ID and oAuth Application secret \n  + These can be found when originally creating\
+  #   \ the OAuth App within your Organization page, or can be regenerated from the\
+  #   \ same area. Note: OAuth App should have the Horizon Cloud Service listed as a\
+  #   \ Service Role\n- OR CSP API Token\n  + See the previous section for details about\
+  #   \ create API Tokens\nAll API calls require authentication using an Access Token.\n\
+  #   Choose one of the following methods to obtain an Access Token\n\n**(1a) To obtain\
+  #   \ an Access Token by using a CSP API Token**\n\nOne authentication scheme is to\
+  #   \ use an \"Access Token\", which is obtained by making an API call that takes\
+  #   \ your  API Token as input, and returns an Access Token. This Access Token is\
+  #   \ then supplied as a bearer token in an \"Authentication\" header with every API\
+  #   \ request. All the following steps will assume this authentication header, it\
+  #   \ will not be explicitly mentioned each time.\nNote: {{csp-url}} value will typically\
+  #   \ be [https://console.cloud.vmware.com](https://console.cloud.vmware.com)\n```\n\
+  #   POST https://{{csp-url}}/csp/gateway/am/api/auth/api-tokens/authorize\n```\n```\
+  #   \ \nHeaders:\nContent-Type : application/x-www-form-urlencoded\nRequest Body:\n\
+  #   refresh_token : {{YOUR-API-TOKEN-FROM-GETTING-STARTED-STEP-2}}\nResponse:\n{\n\
+  #   \    \"id_token\": {{id-token-value}},\n    \"token_type\": \"bearer\",\n    \"\
+  #   expires_in\": 1799,\n    \"scope\": \"scope.....<snippet>\",\n    \"access_token\"\
+  #   : \"{{access-token-value}}\",\n    \"refresh_token\": \"{{refresh-token-value}}\"\
+  #   \n}\n```\nAn example using curl:\n```\n% curl --request POST '<csp-host>/csp/gateway/am/api/auth/api-tokens/authorize'\
+  #   \  \\\n     --header 'Content-Type: application/x-www-form-urlencoded' \\\n  \
+  #   \   --data-urlencode 'refresh_token=<api-token-from-CSP>'\n\n```\n\nTake a note\
+  #   \ of the  *{{access-token-value}}*. This is what you will use in a header for\
+  #   \ all subsequent API calls.\n```\nAuthentication : Bearer {{access-token-value}}\n\
+  #   ```\n**(1b) To obtain an Access Token by using a CSP OAuth application**\nObtain\
+  #   \ the Titan access token by using the CSP oAuth credentials.\n```\nPOST https://{{csp-url}}/csp/gateway/am/api/auth/authorize\n\
+  #   ```\n```\nHeaders:\nContent-type: application/x-www-form-urlencoded\nAuthorization\
+  #   \ : Basic\n  Username = {{oAuth Application ID}}\n  Password = {{oAuth Application\
+  #   \ secret}}\nRequest Body:\ngrant_type : client_credentials\n\nResponse: 200 OK\n\
+  #   \n  {\n    \"id_token\": null,\n    \"token_type\": \"bearer\",\n    \"expires_in\"\
+  #   : 1799,\n    \"scope\": \"scope.....<snippet>\",\n    \"access_token\": \"{{access-token-value}}\"\
+  #   ,\n    \"refresh_token\": \"{{refresh-token-value}}\"\n  }\n```\nTake a note of\
+  #   \ the  *{{access-token-value}}*. This is what you will use in a header for all\
+  #   \ subsequent API calls.\n```\nAuthentication : Bearer {{access-token-value}}\n\
+  #   ```\n"
   termsOfService: http://www.omnissa.com
   contact:
     name: Omnissa

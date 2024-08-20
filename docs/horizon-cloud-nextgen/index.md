@@ -107,7 +107,7 @@ Obtain the Access Token by using the CSP oAuth credentials.
 ```json
   Headers:        Content-type: application/x-www-form-urlencoded
   Authorization:  Basic
-  Username:       {oAuth_Application_ID}} 
+  Username:       {oAuth_Application_ID}
   Password:       {oAuth_Application_secret}
   Body:           grant_type : client_credentials
 ```
