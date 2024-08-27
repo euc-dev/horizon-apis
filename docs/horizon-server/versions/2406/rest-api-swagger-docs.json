@@ -6,7 +6,7 @@
     "title": "Horizon Server API",
     "version": "2406"
   },
-  "servers": [{ "url": "" }],
+  "servers": [{ "url": "https://asXXXX.awmdm.com" }],
   "security": [{ "Bearer": [] }],
   "tags": [
     {
