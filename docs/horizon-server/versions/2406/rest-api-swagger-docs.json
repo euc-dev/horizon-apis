@@ -6,7 +6,11 @@
     "title": "Horizon Server API",
     "version": "2406"
   },
+<<<<<<< HEAD
   "servers": [{ "url": "https://asXXXX.awmdm.com" }],
+=======
+  "servers": [{ "url": "https://cs01.company.com" }],
+>>>>>>> 3a7df11 (change servers: url: to "https://cs01.company.com")
   "security": [{ "Bearer": [] }],
   "tags": [
     {
