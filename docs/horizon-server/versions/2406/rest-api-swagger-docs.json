@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "description": "Welcome to the Horizon Server API Reference documentation. This API reference provides comprehensive information about status of all Horizon Server components and resources. <br> \nChoose Latest spec from dropdown to view API reference on latest version available.",
-    "license": { "name": "Copyright © 2024 VMware LLC All rights reserved." },
+    "license": { "name": "Copyright © 2024 Omnissa LLC All rights reserved." },
     "title": "Horizon Server API",
     "version": "2406"
   },
@@ -8239,7 +8239,7 @@
         "tags": ["Entitlements"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application entitlements, for which the caller has permission to this privilege, on the associated access group of application pool.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application entitlements, for which the caller has permission to this privilege, on the associated access group of application pool.",
         "operationId": "listApplicationPoolEntitlements",
         "parameters": [
           {
@@ -8502,7 +8502,7 @@
         "tags": ["Entitlements"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop entitlements, for which the caller has permission to this privilege, on the associated access group of desktop pool.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop entitlements, for which the caller has permission to this privilege, on the associated access group of desktop pool.",
         "operationId": "listDesktopPoolEntitlements",
         "parameters": [
           {
@@ -8663,7 +8663,7 @@
         "tags": ["Entitlements"]
       },
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.<br/>Note that this API depends on internal cache. There may be a delay in new entities being reflected in the response.<br/>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Returns results only for those entitlements of global application entitlements, for which the caller has permission to this privilege, on the associated access group of global application entitlement.",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.<br/>Note that this API depends on internal cache. There may be a delay in new entities being reflected in the response.<br/>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Returns results only for those entitlements of global application entitlements, for which the caller has permission to this privilege, on the associated access group of global application entitlement.",
         "operationId": "listGAEEntitlements",
         "parameters": [
           {
@@ -8833,7 +8833,7 @@
         "tags": ["Entitlements"]
       },
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.<br/>Note that this API depends on internal cache. There may be a delay in new entities being reflected in the response.<br/>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Returns results only for those entitlements of global desktop entitlements, for which the caller has permission to this privilege, on the associated access group of global desktop entitlement.",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.<br/>Note that this API depends on internal cache. There may be a delay in new entities being reflected in the response.<br/>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Returns results only for those entitlements of global desktop entitlements, for which the caller has permission to this privilege, on the associated access group of global desktop entitlement.",
         "operationId": "listGDEEntitlements",
         "parameters": [
           {
@@ -9337,7 +9337,7 @@
     },
     "/external/v1/ad-users-or-groups": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com",
         "operationId": "listADUserOrGroupSummary",
         "parameters": [
           {
@@ -11869,7 +11869,7 @@
         "tags": ["Federation"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW| Returns only those home sites for which caller has permission to this privilege on associated federated access group of GAE/GDE. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW| Returns only those home sites for which caller has permission to this privilege on associated federated access group of GAE/GDE. |",
         "operationId": "listHomeSites",
         "parameters": [
           {
@@ -12040,7 +12040,7 @@
     },
     "/federation/v1/pod-assignments": {
       "get": {
-        "description": "Pod assignments represent data about which pod contains resource assignments for a given user and global entitlement. This assigned pod helps brokering make good decisions when trying to launch a resource for a user, especially in cases where a pod is offline and new resource assignment for an existing user and persistent global entitlement is to be avoided. This data is automatically calculated and created when a new user and global entitlement requests brokering.\nThis API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, to perform this operation. |",
+        "description": "Pod assignments represent data about which pod contains resource assignments for a given user and global entitlement. This assigned pod helps brokering make good decisions when trying to launch a resource for a user, especially in cases where a pod is offline and new resource assignment for an existing user and persistent global entitlement is to be avoided. This data is automatically calculated and created when a new user and global entitlement requests brokering.\nThis API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, to perform this operation. |",
         "operationId": "listPodAssignments",
         "parameters": [
           {
@@ -12484,7 +12484,7 @@
         "tags": ["Federation"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW| Returns only those home sites for which caller has permission to this privilege on associated federated access group of GAE/GDE. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW| Returns only those home sites for which caller has permission to this privilege on associated federated access group of GAE/GDE. |",
         "operationId": "listHomeSitesV2",
         "parameters": [
           {
@@ -13841,7 +13841,7 @@
     },
     "/inventory/v1/application-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |",
         "operationId": "listApplicationPools",
         "parameters": [
           {
@@ -14593,7 +14593,7 @@
     },
     "/inventory/v1/desktop-pools/policies/overrides": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\nCaller should have permission to this privilege, on the associated access group of the desktop pool.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\nCaller should have permission to this privilege, on the associated access group of the desktop pool.",
         "operationId": "listUserPoliciesOverrides",
         "parameters": [
           {
@@ -16120,7 +16120,7 @@
     },
     "/inventory/v1/global-application-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
         "operationId": "listGlobalApplicationEntitlements",
         "parameters": [
           {
@@ -16530,7 +16530,7 @@
     },
     "/inventory/v1/global-desktop-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
         "operationId": "listGlobalDesktopEntitlements",
         "parameters": [
           {
@@ -17302,7 +17302,7 @@
         "tags": ["Inventory"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
         "operationId": "listMachines",
         "parameters": [
           {
@@ -18000,7 +18000,7 @@
     },
     "/inventory/v1/machines/unentitled": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |",
         "operationId": "listUnentitledMachines",
         "parameters": [
           {
@@ -18401,7 +18401,7 @@
     },
     "/inventory/v1/persistent-disks": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| UDD_VIEW | Caller should have permission to this privilege, to perform this operation. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| UDD_VIEW | Caller should have permission to this privilege, to perform this operation. |",
         "operationId": "listPersistentDisks",
         "parameters": [
           {
@@ -18586,7 +18586,7 @@
     },
     "/inventory/v1/persistent-disks/{id}/attachable-machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com<br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| UDD_VIEW | Caller should have permission to this privilege, to perform this operation. |\n| MACHINE_VIEW | Caller should have permission to this privilege, on any access group, to perform this operation. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com<br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| UDD_VIEW | Caller should have permission to this privilege, to perform this operation. |\n| MACHINE_VIEW | Caller should have permission to this privilege, on any access group, to perform this operation. |",
         "operationId": "listAttachableMachines",
         "parameters": [
           {
@@ -18673,7 +18673,7 @@
     },
     "/inventory/v1/physical-machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
         "operationId": "listPhysicalMachines",
         "parameters": [
           {
@@ -18836,7 +18836,7 @@
     },
     "/inventory/v1/rds-servers": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| POOL_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those registered RDS Servers, that are part of farm, for which the caller needs permission to this privilege. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| POOL_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those registered RDS Servers, that are part of farm, for which the caller needs permission to this privilege. |",
         "operationId": "listRDSServers",
         "parameters": [
           {
@@ -19237,7 +19237,7 @@
     },
     "/inventory/v1/sessions": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
         "operationId": "listSessionInfo",
         "parameters": [
           {
@@ -19548,7 +19548,7 @@
     },
     "/inventory/v2/application-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV2",
         "parameters": [
           {
@@ -19714,7 +19714,7 @@
     },
     "/inventory/v2/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |",
         "operationId": "listDesktopPoolsV2",
         "parameters": [
           {
@@ -19887,7 +19887,7 @@
     },
     "/inventory/v2/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV2",
         "parameters": [
           {
@@ -20085,7 +20085,7 @@
     },
     "/inventory/v2/global-application-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
         "operationId": "listGlobalApplicationEntitlementsV2",
         "parameters": [
           {
@@ -20196,7 +20196,7 @@
     },
     "/inventory/v2/global-desktop-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
         "operationId": "listGlobalDesktopEntitlementsV2",
         "parameters": [
           {
@@ -20435,7 +20435,7 @@
     },
     "/inventory/v2/machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
         "operationId": "listMachinesV2",
         "parameters": [
           {
@@ -20630,7 +20630,7 @@
     },
     "/inventory/v2/physical-machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
         "operationId": "listPhysicalMachinesV2",
         "parameters": [
           {
@@ -20736,7 +20736,7 @@
     },
     "/inventory/v2/rds-servers": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| POOL_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those registered RDS Servers, that are part of farm, for which the caller needs permission to this privilege. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| POOL_VIEW | Returns results only for those RDS Servers, for which the caller has permission to this privilege, on the associated access group of RDS Server's farm. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those registered RDS Servers, that are part of farm, for which the caller needs permission to this privilege. |",
         "operationId": "listRDSServersV2",
         "parameters": [
           {
@@ -20894,7 +20894,7 @@
     },
     "/inventory/v2/sessions": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
         "operationId": "listSessionInfoV2",
         "parameters": [
           {
@@ -20963,7 +20963,7 @@
     },
     "/inventory/v3/application-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV3",
         "parameters": [
           {
@@ -21129,7 +21129,7 @@
     },
     "/inventory/v3/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV3",
         "parameters": [
           {
@@ -21233,7 +21233,7 @@
     },
     "/inventory/v3/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV3",
         "parameters": [
           {
@@ -21385,7 +21385,7 @@
     },
     "/inventory/v3/global-application-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
         "operationId": "listGlobalApplicationEntitlementsV3",
         "parameters": [
           {
@@ -21590,7 +21590,7 @@
     },
     "/inventory/v3/global-desktop-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
         "operationId": "listGlobalDesktopEntitlementsV3",
         "parameters": [
           {
@@ -21795,7 +21795,7 @@
     },
     "/inventory/v3/machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
         "operationId": "listMachinesV3",
         "parameters": [
           {
@@ -21896,7 +21896,7 @@
     },
     "/inventory/v3/physical-machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| GLOBAL_CONFIG_VIEW | Caller should have permission to this privilege to view the physical machines.\n",
         "operationId": "listPhysicalMachinesV3",
         "parameters": [
           {
@@ -21968,7 +21968,7 @@
     },
     "/inventory/v3/sessions": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated access group of session's pool or farm. |\n| FEDERATED_SESSIONS_VIEW | Returns results only for those sessions, for which the caller has permission to this privilege, on the associated federated access group of session's global desktop entitlement or global application entitlement. |",
         "operationId": "listSessionInfoV3",
         "parameters": [
           {
@@ -22107,7 +22107,7 @@
         "tags": ["Inventory"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV4",
         "parameters": [
           {
@@ -22215,7 +22215,7 @@
     },
     "/inventory/v4/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV4",
         "parameters": [
           {
@@ -22319,7 +22319,7 @@
     },
     "/inventory/v4/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV4",
         "parameters": [
           {
@@ -22417,7 +22417,7 @@
     },
     "/inventory/v4/global-application-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
         "operationId": "listGlobalApplicationEntitlementsV4",
         "parameters": [
           {
@@ -22622,7 +22622,7 @@
     },
     "/inventory/v4/global-desktop-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
         "operationId": "listGlobalDesktopEntitlementsV4",
         "parameters": [
           {
@@ -22827,7 +22827,7 @@
     },
     "/inventory/v4/machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
         "operationId": "listMachinesV4",
         "parameters": [
           {
@@ -22967,7 +22967,7 @@
         "tags": ["Inventory"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV5",
         "parameters": [
           {
@@ -23133,7 +23133,7 @@
     },
     "/inventory/v5/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV5",
         "parameters": [
           {
@@ -23237,7 +23237,7 @@
     },
     "/inventory/v5/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV5",
         "parameters": [
           {
@@ -23335,7 +23335,7 @@
     },
     "/inventory/v5/global-application-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global application entitlement.\n",
         "operationId": "listGlobalApplicationEntitlementsV5",
         "parameters": [
           {
@@ -23410,7 +23410,7 @@
     },
     "/inventory/v5/global-desktop-entitlements": {
       "get": {
-        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
+        "description": "Note: CPA must be initialized for the pod for invoking this API.\n<br>This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federated access group to read the global desktop entitlement.\n",
         "operationId": "listGlobalDesktopEntitlementsV5",
         "parameters": [
           {
@@ -23615,7 +23615,7 @@
     },
     "/inventory/v5/machines": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAt least one of the listed privileges is required -  \n| Privileges | Description |\n| ---- | ---- |\n| MACHINE_VIEW | Returns results only for those machines, for which the caller has permission to this privilege, on the associated access group of machine's desktop pool. |\n| GLOBAL_CONFIG_VIEW | Returns results only for those unmanaged (physical) machines, that are part of desktop pool, for which the caller needs permission to this privilege.|",
         "operationId": "listMachinesV5",
         "parameters": [
           {
@@ -23755,7 +23755,7 @@
         "tags": ["Inventory"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV6",
         "parameters": [
           {
@@ -23921,7 +23921,7 @@
     },
     "/inventory/v6/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV6",
         "parameters": [
           {
@@ -24025,7 +24025,7 @@
     },
     "/inventory/v6/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV6",
         "parameters": [
           {
@@ -24239,7 +24239,7 @@
         "tags": ["Inventory"]
       },
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\nAll the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those application pools, for which caller has permission to this privilege, on the associated access group of the application pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group to read the global application entitlement ID field of a application pool. Else, it will be unset.",
         "operationId": "listApplicationPoolsV7",
         "parameters": [
           {
@@ -24428,7 +24428,7 @@
     },
     "/inventory/v7/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV7",
         "parameters": [
           {
@@ -24630,7 +24630,7 @@
     },
     "/inventory/v7/farms": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those farms, for which the caller has permission to this privilege, on the associated access group of the farm. |",
         "operationId": "listFarmsV7",
         "parameters": [
           {
@@ -24805,7 +24805,7 @@
     },
     "/inventory/v8/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV8",
         "parameters": [
           {
@@ -25007,7 +25007,7 @@
     },
     "/inventory/v9/desktop-pools": {
       "get": {
-        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'VMware Horizon Server API' in code.vmware.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
+        "description": "This API supports <b>Pagination</b> and <b>Filters.</b><br/>For full information on using Filters, refer to 'Horizon Server REST Pagination and Filter Guide' of 'Omnissa Horizon Server API' in code.omnissa.com\n <br>All the listed privileges are required -  \n| Privileges | Description |\n| ---- | ---- |\n| POOL_VIEW | Returns results only for those desktop pools, for which the caller has permission to this privilege, on the associated access group of the desktop pool. |\n| FEDERATED_LDAP_VIEW | Caller should have permission to this privilege, on the associated federation access group, to read the global desktop entitlement ID field of a desktop pool. Else, it will be unset.",
         "operationId": "listDesktopPoolsV9",
         "parameters": [
           {
@@ -32879,7 +32879,7 @@
           },
           "enabled": {
             "type": "boolean",
-            "description": "Indicates whether to send information to VMware.",
+            "description": "Indicates whether to send information to Omnissa.",
             "example": true
           },
           "geolocation": {
@@ -32914,7 +32914,7 @@
           },
           "enabled": {
             "type": "boolean",
-            "description": "Indicates whether to send information to VMware.",
+            "description": "Indicates whether to send information to Omnissa.",
             "example": true
           },
           "geolocation": {
@@ -33188,7 +33188,7 @@
           "issuer_name": {
             "type": "string",
             "description": "Issuer name of certificate.",
-            "example": "CN=Horizon-server.example.local, OU=VMware Horizon View default certificate, O=VMware, Inc."
+            "example": "CN=Horizon-server.example.local, OU=Omnissa Horizon View default certificate, O=Omnissa, LLC"
           },
           "serial_number": {
             "type": "string",
@@ -33208,7 +33208,7 @@
           "subject_name": {
             "type": "string",
             "description": "Subject name of certificate.",
-            "example": "CN=Horizon-server.example.local, OU=VMware Horizon View default certificate, O=VMware, Inc."
+            "example": "CN=Horizon-server.example.local, OU=Omnissa Horizon View default certificate, O=Omnissa, LLC"
           },
           "valid_from": {
             "type": "string",
@@ -33266,7 +33266,7 @@
           "issuer_name": {
             "type": "string",
             "description": "Issuer name of certificate.",
-            "example": "CN=Horizon-server.example.local, OU=VMware Horizon View default certificate, O=VMware, Inc."
+            "example": "CN=Horizon-server.example.local, OU=Omnissa Horizon View default certificate, O=Omnissa, LLC"
           },
           "serial_number": {
             "type": "string",
@@ -33286,7 +33286,7 @@
           "subject_name": {
             "type": "string",
             "description": "Subject name of certificate.",
-            "example": "CN=Horizon-server.example.local, OU=VMware Horizon View default certificate, O=VMware, Inc."
+            "example": "CN=Horizon-server.example.local, OU=Omnissa Horizon View default certificate, O=Omnissa, LLC"
           },
           "valid_from": {
             "type": "string",
@@ -34103,7 +34103,7 @@
           "ldap_backup_folder": {
             "type": "string",
             "description": "Location of the backup folder.",
-            "example": "C:\\ProgramData\\VMware\\VDM\\backups"
+            "example": "C:\\ProgramData\\Omnissa\\VDM\\backups"
           },
           "max_number": {
             "type": "integer",
@@ -34147,7 +34147,7 @@
           "ldap_backup_folder": {
             "type": "string",
             "description": "Location of the backup folder.",
-            "example": "C:\\ProgramData\\VMware\\VDM\\backups"
+            "example": "C:\\ProgramData\\Omnissa\\VDM\\backups"
           },
           "max_number": {
             "type": "integer",
@@ -35046,17 +35046,17 @@
             "uniqueItems": true,
             "type": "array",
             "description": "Subject alternative DNS names. If the 'certificateUsage' is set to 'CLUSTER', the cluster GUID can be provided in this field. If the cluster GUID is not provided in 'dnsSubjectAlternativeNames', the CSR generation process will automatically append it, along with the value provided in dnsSubjectAlternativeNames",
-            "example": ["server.example.com", "www.vmware.com"],
+            "example": ["server.example.com", "www.omnissa.com"],
             "items": {
               "type": "string",
               "description": "Subject alternative DNS names. If the 'certificateUsage' is set to 'CLUSTER', the cluster GUID can be provided in this field. If the cluster GUID is not provided in 'dnsSubjectAlternativeNames', the CSR generation process will automatically append it, along with the value provided in dnsSubjectAlternativeNames",
-              "example": "[\"server.example.com\",\"www.vmware.com\"]"
+              "example": "[\"server.example.com\",\"www.omnissa.com\"]"
             }
           },
           "subject_name": {
             "type": "string",
             "description": "Subject name. If the 'certificateUsage' is set to 'CLUSTER', the cluster GUID can be provided in this field. If the cluster GUID is not provided in the subject name, the CSR generation process will automatically append the cluster GUID to the 'dnsSubjectAlternativeNames' field, ensuring that the generated CSR is specific to the cluster and does not conflict with other clusters.",
-            "example": "CN=Horizon-server.example.local, OU=VMware Horizon View default certificate, O=VMware, S=California, C=CALIFORNIA"
+            "example": "CN=Horizon-server.example.local, OU=Omnissa Horizon View default certificate, O=Omnissa, S=California, C=CALIFORNIA"
           }
         },
         "description": "CSR Spec."
@@ -36765,7 +36765,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -36814,7 +36814,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -36862,7 +36862,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -36913,7 +36913,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -36959,7 +36959,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -37007,7 +37007,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -37058,7 +37058,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -37108,7 +37108,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -37164,7 +37164,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
+            "description": "Type of customization to use.\nThis property can be used for sorting.\n* CLONE_PREP: Applicable To: Instant clone desktop pools.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.\n* NONE: Applicable To: Full clone desktop pools.<br>No customization.\n* SYS_PREP: Applicable To: Full clone desktop pools.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.",
             "example": "CLONE_PREP",
             "enum": ["CLONE_PREP", "NONE", "SYS_PREP"]
           },
@@ -37309,7 +37309,7 @@
           },
           "html_access_enabled": {
             "type": "boolean",
-            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by VMware Blast technology, allows users to connect to machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in displayProtocols.\nThis property can be used for sorting.",
+            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by Omnissa Blast technology, allows users to connect to machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in displayProtocols.\nThis property can be used for sorting.",
             "example": true
           },
           "max_number_of_monitors": {
@@ -37640,7 +37640,7 @@
           },
           "html_access_enabled": {
             "type": "boolean",
-            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by VMware Blast technology, allows users to connect to machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in displayProtocols.\nThis property can be used for sorting.",
+            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by Omnissa Blast technology, allows users to connect to machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in displayProtocols.\nThis property can be used for sorting.",
             "example": true
           },
           "max_number_of_monitors": {
@@ -44931,7 +44931,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -44974,7 +44974,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -45033,7 +45033,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -45075,7 +45075,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -45141,7 +45141,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -45190,7 +45190,7 @@
           },
           "customization_type": {
             "type": "string",
-            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a VMware system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
+            "description": "Type of customization to use.\n* SYS_PREP: Applicable To: Instant clone automated Farms.<br>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script.\n* CLONE_PREP: Applicable To: Instant clone automated Farms.<br>ClonePrep is a Omnissa system tool executed by Instant Clone Engine during a instant clone machine deployment. ClonePrep personalizes each machine created from the Master image.",
             "example": "CLONE_PREP",
             "enum": ["SYS_PREP", "CLONE_PREP"]
           },
@@ -45280,7 +45280,7 @@
           },
           "html_access_enabled": {
             "type": "boolean",
-            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by VMware Blast technology, allows users to connect to Horizon machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack.",
+            "description": "This property is no longer in use for Horizon Components. It is always set to true. HTML Access, enabled by Omnissa Blast technology, allows users to connect to Horizon machines from Web browsers. Horizon Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack.",
             "example": true
           },
           "session_collaboration_enabled": {
@@ -57185,7 +57185,7 @@
           "publisher": {
             "type": "string",
             "description": "Image management stream publisher",
-            "example": "VMware"
+            "example": "Omnissa"
           },
           "source": {
             "type": "string",
@@ -57272,7 +57272,7 @@
           "publisher": {
             "type": "string",
             "description": "Image management stream publisher. Supported Filters: 'Equals', 'StartsWith' and 'Contains'.\nThis property can be used for sorting.",
-            "example": "VMware"
+            "example": "Omnissa"
           },
           "source": {
             "type": "string",
@@ -57360,7 +57360,7 @@
           "publisher": {
             "type": "string",
             "description": "Image management stream publisher",
-            "example": "VMware"
+            "example": "Omnissa"
           },
           "source": {
             "type": "string",
@@ -57984,7 +57984,7 @@
           },
           "license_edition": {
             "type": "string",
-            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: VMware Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: VMware Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: VMware Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: VMware Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: VMware Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: VMware Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: VMware Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
+            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: Omnissa Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: Omnissa Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: Omnissa Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: Omnissa Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: Omnissa Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: Omnissa Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: Omnissa Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
             "example": "HORIZON_STANDARD_CONCURRENT_USER",
             "enum": [
               "ENTERPRISE_CONCURRENT_USER",
@@ -58085,7 +58085,7 @@
           },
           "license_edition": {
             "type": "string",
-            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: VMware Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: VMware Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: VMware Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: VMware Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: VMware Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: VMware Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: VMware Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
+            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: Omnissa Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: Omnissa Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: Omnissa Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: Omnissa Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: Omnissa Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: Omnissa Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: Omnissa Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
             "example": "HORIZON_STANDARD_CONCURRENT_USER",
             "enum": [
               "ENTERPRISE_CONCURRENT_USER",
@@ -58191,7 +58191,7 @@
           },
           "license_edition": {
             "type": "string",
-            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: VMware Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: VMware Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: VMware Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: VMware Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: VMware Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: VMware Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: VMware Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
+            "description": "The license edition. Caller should have permission to GLOBAL_CONFIG_VIEW privilege for this field to be populated.\n* ENTERPRISE_CONCURRENT_USER: Omnissa Enterprise.\n* HORIZON_ADVANCED_CONCURRENT_USER: Omnissa Horizon Advanced (Concurrent User).\n* HORIZON_ADVANCED_NAMED_USER: Omnissa Horizon Advanced (Named User).\n* HORIZON_APPS_ADVANCED_CONCURRENT_USER: Mware Horizon Apps 7 Advanced (Concurrent User).\n* HORIZON_APPS_ADVANCED_NAMED_USER: Omnissa Horizon Apps 7 Advanced (Named User).\n* HORIZON_APPS_STANDARD_CONCURRENT_USER: Omnissa Horizon Apps 7 Standard  (Concurrent User).\n* HORIZON_APPS_STANDARD_NAMED_USER: Omnissa Horizon Apps 7 Standard (Named User).\n* HORIZON_ENTERPRISE_CONCURRENT_USER: Horizon Enterprise (Concurrent User).\n* HORIZON_ENTERPRISE_NAMED_USER: Horizon Enterprise (Named User).\n* HORIZON_STANDARD_CONCURRENT_USER: Omnissa Horizon Standard  (Concurrent User).\n* WS1_ENTERPRISE_NAMED_USER: Workspace ONE Enterprise.\n* WS1_ENTERPRISE_WITH_VDI_NAMED_USER: Workspace ONE Enterprise with VDI.",
             "example": "HORIZON_STANDARD_CONCURRENT_USER",
             "enum": [
               "ENTERPRISE_CONCURRENT_USER",
@@ -65470,7 +65470,7 @@
           "display_name": {
             "type": "string",
             "description": "Display Name of server installer file",
-            "example": "VMware Horizon Connection Server"
+            "example": "Omnissa Horizon Connection Server"
           },
           "file_size_in_bytes": {
             "type": "integer",
@@ -65481,7 +65481,7 @@
           "filename": {
             "type": "string",
             "description": "Indicates the Horizon server build installation filename.",
-            "example": "VMware-Horizon-Connection-Server-x86_64-8.11.0-22602465.exe"
+            "example": "Omnissa-Horizon-Connection-Server-x86_64-8.11.0-22602465.exe"
           },
           "version": {
             "type": "string",
@@ -65507,7 +65507,7 @@
           "display_name": {
             "type": "string",
             "description": "Display Name of server installer file",
-            "example": "VMware Horizon Connection Server"
+            "example": "Omnissa Horizon Connection Server"
           },
           "file_size_in_bytes": {
             "type": "integer",
@@ -65518,7 +65518,7 @@
           "filename": {
             "type": "string",
             "description": "Indicates the Horizon server build installation filename.",
-            "example": "VMware-Horizon-Connection-Server-x86_64-8.11.0-22602465.exe"
+            "example": "Omnissa-Horizon-Connection-Server-x86_64-8.11.0-22602465.exe"
           },
           "id": {
             "type": "string",
@@ -65601,8 +65601,8 @@
           },
           "install_directory": {
             "type": "string",
-            "description": "The folder path in which the Connection Server software should installed.Default value is %ProgramFiles%\\VMware\\VMware View\\Server.",
-            "example": "%ProgramFiles%\\VMware\\VMware View\\Server"
+            "description": "The folder path in which the Connection Server software should installed.Default value is %ProgramFiles%\\Omnissa\\Omnissa View\\Server.",
+            "example": "%ProgramFiles%\\Omnissa\\Omnissa View\\Server"
           },
           "primary_connection_server_fqdn": {
             "type": "string",
@@ -66953,7 +66953,7 @@
           },
           "unc_path": {
             "type": "string",
-            "description": "The remote UNC path for syslog to move files. If not set, logs are kept locally at path PROGRAMDATA%\\VMware\\VDM\\events\\.",
+            "description": "The remote UNC path for syslog to move files. If not set, logs are kept locally at path PROGRAMDATA%\\Omnissa\\VDM\\events\\.",
             "example": "//10.117.146.17/temp"
           },
           "unc_username": {
@@ -66995,7 +66995,7 @@
           },
           "unc_path": {
             "type": "string",
-            "description": "The remote UNC path for syslog to move files. If not set, logs are kept locally at path PROGRAMDATA%\\VMware\\VDM\\events\\. This field is required if any of the unc_user_name, unc_password, unc_domain is set.",
+            "description": "The remote UNC path for syslog to move files. If not set, logs are kept locally at path PROGRAMDATA%\\Omnissa\\VDM\\events\\. This field is required if any of the unc_user_name, unc_password, unc_domain is set.",
             "example": "//10.117.146.17/temp"
           },
           "unc_username": {
