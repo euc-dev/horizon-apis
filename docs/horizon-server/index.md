@@ -20,7 +20,7 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Changelog 2312](docs/HorizonServerRESTChangelog2312.docx)                                         | 38 KB |
 | [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx)                                         | 38 KB |
 | [Horizon Server API Throttling for REST APIs](docs/HorizonServerAPIThrottlingForRestAPIs.docx)                                | 34 KB |
-| [Horizon Server LCM REST APIs](docs/HorizonServerLCMRestAPIs.docx)                                               | 38 KB |
+| [Horizon Server LCM REST APIs](https://docs.omnissa.com/bundle/Horizon8InstallUpgrade/page/AutomatingUpgradesofConnectionServerWithLCMAPIs.html)                                               | - |
 | [Horizon Server REST Pagination, Filter and Sorting Guide V2](docs/HorizonServerRESTPaginationAndFilterGuideV2.doc)    | 57 KB |
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
