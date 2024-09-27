@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo  
 Returned by
-     [BaseImageVm_Get](vdi.utils.virtualcenter.BaseImageVm.md#get), [BaseImageVm_List](vdi.utils.virtualcenter.BaseImageVm.md#list), [BaseImageVm_ListByDatacenter](vdi.utils.virtualcenter.BaseImageVm.md#listByDatacenter)
+     [BaseImageVm_Get](vdi.utils.virtualcenter.BaseImageVm.md#get), [BaseImageVm_List](vdi.utils.virtualcenter.BaseImageVm.md#list), [BaseImageVm_ListByDatacenter](vdi.utils.virtualcenter.BaseImageVm.md#listByDatacenter)  
 See also
-     [BaseImageVmId](vdi.entity.BaseImageVmId.md), [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md), [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [BaseImageVmId](vdi.entity.BaseImageVmId.md), [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md), [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,26 +32,26 @@ Name |  Type |  Description
 **id**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  VM id   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **name**|  xsd:string|  VM name   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **path**|  xsd:string|  VM path   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **operatingSystem**|  xsd:string|  Operating system enumeration as known to View.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -81,33 +81,33 @@ Name |  Type |  Description
 **operatingSystemDisplayName**|  xsd:string|  Operating system display name from Virtual Center.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this VM   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id for this VM   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **incompatibleReasons**| [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md)|  Reasons that may preclude this BaseImageVm from having its snapshots used in linked clone desktop or farm creation.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **networkType**|  xsd:string|  Type of network base image vm belongs to.  **_Since_** Horizon 7.9  
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -119,19 +119,19 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this base image VM.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **numNics**|  xsd:int|  Number of network interface cards in this base image VM.  **_Since_** Horizon 8.8  
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

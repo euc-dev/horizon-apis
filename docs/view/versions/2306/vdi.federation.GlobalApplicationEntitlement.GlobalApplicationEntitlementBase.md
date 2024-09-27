@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase  
 Property of
-     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)
+     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)  
 Parameter to
-     [GlobalApplicationEntitlement_Create](vdi.federation.GlobalApplicationEntitlement.md#create)
+     [GlobalApplicationEntitlement_Create](vdi.federation.GlobalApplicationEntitlement.md#create)  
 See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
 Since 
     Horizon View 6.2
 
@@ -40,14 +40,14 @@ Name |  Type |  Description
 **aliasName**|  xsd:string|  The alias name is the name that users will see when they connect using Horizon View Client. If the alias name is left blank, while creating or updating the Global Application Entitlement alias name value will be same as display name.  **_Since_** Horizon 8.0  
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 64 characters. 
 
   
 **description**|  xsd:string|  Description of Global Application Entitlement.   
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -55,7 +55,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "ANY".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -77,7 +77,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of "NONE".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -98,7 +98,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
   * This property has a default value of ["PCOIP", "BLAST"].
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -110,7 +110,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of "PCOIP".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -122,7 +122,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of true.
-[^2]
+* This property cannot be updated.
 
   
 **enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. If set to true, the farms of applications that are associated with this Global Application Entitlement must also have HTML Access enabled with [enableHTMLAccess](vdi.resources.Farm.DisplayProtocolSettings.md#enableHTMLAccess) Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#supportedDisplayProtocols).  
@@ -130,26 +130,26 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **connectionServerRestrictions**|  xsd:string[]|  Connection server restrictions. This is a list of tags that access to the entitlement is restricted to. No list means that the entitlement can be accessed from any connection server.  **_Since_** Horizon 7.1  
 
 
-[^1]
+* This property need not be set.
 
   
 **enablePreLaunch**|  xsd:boolean|  This global application entitlement can be pre-launched if value is true.  **_Since_** Horizon 7.2  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **categoryFolderName**|  xsd:string|  Name of the category folder in the user's OS containing a shortcut to the entitlement. Unset if the entitlement does not belong to a category.  **_Since_** Horizon 7.3  
 
 
-[^1]
+* This property need not be set.
   * This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\dir2, dir1\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names. 
 
   
@@ -157,20 +157,20 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **shortcutLocations**|  xsd:string[]|  Locations of the category folder in the user's OS containing a shortcut to the desktop. The value must be set if [categoryFolderName](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#categoryFolderName) is provided.  **_Since_** Horizon 7.5  
 
 
-[^1]
+* This property need not be set.
 
   
 **multiSessionMode**|  xsd:string|  Multi-session mode for this entitlement. A global application entitlement launched in multi-session mode does not support reconnect behavior when user logs in from a different client instance. [enablePreLaunch](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#enablePreLaunch) can be set to true only if multiSessionMode is disabled.  **_Since_** Horizon 7.7  
 
 
   * This property has a default value of "DISABLED".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -183,18 +183,18 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 **backupGAE**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Indicates the Global Application Entitlement that can be used as backup for this Global Application Entitlement.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
 **globalAccessGroupId**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  Global access groups can organize the global application entitlements in your organization. They can also be used for delegated administration.  **_Since_** Horizon 8.2  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

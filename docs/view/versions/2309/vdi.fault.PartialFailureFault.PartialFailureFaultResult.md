@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.PartialFailureFault.PartialFailureFaultResult
+    com.vmware.vdi.vlsi.binding.vdi.fault.PartialFailureFault.PartialFailureFaultResult  
 Property of
-     [PartialFailureFault](vdi.fault.PartialFailureFault.md#field_detail)
+     [PartialFailureFault](vdi.fault.PartialFailureFault.md#field_detail)  
 See also
-     [MethodFault](vmodl.MethodFault.md)
+     [MethodFault](vmodl.MethodFault.md)  
 Since 
     Horizon View 6.0
 
@@ -36,18 +36,18 @@ Name |  Type |  Description
 **fault**| [MethodFault](vmodl.MethodFault.md)|  The error if the individual operation failed.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **result**|  xsd:anyType|  The result (if any) of the function if the individual operation succeeded.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

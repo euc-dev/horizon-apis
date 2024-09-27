@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.UDPData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.UDPData  
 Property of
-     [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)
+     [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **networkAddresses**|  xsd:string[]|  Array of UDP server network addresses, or null if empty.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

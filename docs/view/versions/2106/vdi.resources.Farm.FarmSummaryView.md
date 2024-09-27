@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryView  
 Returned by
-     [Farm_GetSummaryView](vdi.resources.Farm.md#getSummaryView)
+     [Farm_GetSummaryView](vdi.resources.Farm.md#getSummaryView)  
 See also
-     [FarmId](vdi.entity.FarmId.md), [FarmSummaryData](vdi.resources.Farm.FarmSummaryData.md)
+     [FarmId](vdi.entity.FarmId.md), [FarmSummaryData](vdi.resources.Farm.FarmSummaryData.md)  
 Since 
     Horizon View 6.0
 
@@ -55,27 +55,25 @@ Name |  Type |  Description
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **data**| [FarmSummaryData](vdi.resources.Farm.FarmSummaryData.md)|  Farm summary Data   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

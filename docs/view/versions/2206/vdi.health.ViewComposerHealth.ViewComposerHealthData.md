@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthData
+    com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthData  
 Property of
-     [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md#field_detail)
+     [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md#field_detail)  
 See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -38,38 +38,36 @@ Name |  Type |  Description
 **version**|  xsd:string|  The version of the View Composer server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **build**|  xsd:string|  The build of the View Composer server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **apiVersion**|  xsd:string|  The version of the View Composer API used to communicate with the View Composer server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **minVCVersion**|  xsd:string|  The minimum Virtual Center version required for compatibility with this View Composer server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **minESXVersion**|  xsd:string|  The minimum ESX version required for compatibility with this View Composer server.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

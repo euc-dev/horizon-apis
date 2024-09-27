@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings  
 Property of
-     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)
+     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -61,7 +61,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 120.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if automaticLogoffPolicy is set to "AFTER".
 
@@ -112,7 +112,7 @@ Name |  Type |  Description
 **refreshPeriodDaysForReplicaOsDisk**|  xsd:int|  Regular interval at which to refresh the OS disk.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if refreshOsDiskAfterLogoff is set to "EVERY".
 
@@ -120,7 +120,7 @@ Name |  Type |  Description
 **refreshThresholdPercentageForReplicaOsDisk**|  xsd:int|  With the 'AT_SIZE' option for refreshOsDiskAfterLogoff, the size of the linked clone's OS disk in the datastore is compared to its maximum allowable size. This disk-utilization percentage does not reflect disk usage that you might see inside the machine's guest operating system.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 100. 
   * This property is required if refreshOsDiskAfterLogoff is set to "AT_SIZE".
@@ -130,7 +130,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "AFTER".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -143,7 +143,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 1.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if emptySessionTimeoutPolicy is set to "AFTER".
 
@@ -152,14 +152,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.12  
 
 
   * This property has a default value of "AFTER".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -171,7 +171,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 10.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 10. 
   * This property is required if preLaunchSessionTimeoutPolicy is set to "AFTER".
 
@@ -180,7 +180,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "DEFAULT".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -190,7 +190,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

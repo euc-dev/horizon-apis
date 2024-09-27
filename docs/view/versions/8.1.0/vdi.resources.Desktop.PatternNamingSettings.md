@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PatternNamingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PatternNamingSettings  
 Property of
-     [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md#field_detail), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md#field_detail)
+     [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md#field_detail), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -64,16 +64,14 @@ If {n} is specified with no size, a size of 2 is automatically used and if no {}
 
 
   * This property has a default value of 0.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 0. 
   * This property is required if provisioningTime is set to "ON_DEMAND".
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

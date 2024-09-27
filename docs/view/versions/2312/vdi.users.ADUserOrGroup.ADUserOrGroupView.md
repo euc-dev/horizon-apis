@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView
+    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView  
 Returned by
-     [ADUserOrGroup_GetView](vdi.users.ADUserOrGroup.md#getView), [ADUserOrGroup_GetViews](vdi.users.ADUserOrGroup.md#getViews)
+     [ADUserOrGroup_GetView](vdi.users.ADUserOrGroup.md#getView), [ADUserOrGroup_GetViews](vdi.users.ADUserOrGroup.md#getViews)  
 See also
-     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -38,14 +38,12 @@ Name |  Type |  Description
 **groupSVs**| [ADUserOrGroupSummaryView[]](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md)|  Summary views of the group it belongs to.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

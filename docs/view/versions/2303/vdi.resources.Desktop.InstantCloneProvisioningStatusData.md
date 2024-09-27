@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.InstantCloneProvisioningStatusData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.InstantCloneProvisioningStatusData  
 Property of
-     [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md#field_detail)
+     [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md#field_detail)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)  
 Since 
     Horizon 7.0
 
@@ -46,7 +46,7 @@ Name |  Type |  Description
 **instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the desktop.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -61,7 +61,7 @@ Name |  Type |  Description
 **instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -74,87 +74,87 @@ Name |  Type |  Description
 **pendingImageParentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Pending base image VM for Instant clone desktops. This is used to return the information about the parent VM of the pending Image. To update base image VM of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "SCHEDULE_PUSH_IMAGE", "CANCEL_SCHEDULED_PUSH_IMAGE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageSnapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Pending base image snapshot for Instant clone desktops. This is used to return the information about the snapshot of the pending Image. To update base image snapshot of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "SCHEDULE_PUSH_IMAGE", "CANCEL_SCHEDULED_PUSH_IMAGE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageParentVmPath**|  xsd:string|  Pending [pendingImageParentVm](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#pendingImageParentVm) path. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "SCHEDULE_PUSH_IMAGE", "CANCEL_SCHEDULED_PUSH_IMAGE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageSnapshotPath**|  xsd:string|  Pending [pendingImageSnapshot](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#pendingImageSnapshot) path. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "SCHEDULE_PUSH_IMAGE", "CANCEL_SCHEDULED_PUSH_IMAGE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Pending image management stream for Instant clone desktops. To update image management stream of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Pending image management tag for Instant clone desktops. To update image management tag of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementStreamName**|  xsd:string|  Pending [pendingImageManagementStream](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#pendingImageManagementStream) name.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementTagName**|  xsd:string|  Pending [pendingImageManagementTag](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#pendingImageManagementTag) name.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingComputeProfile**| [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md)|  Pending compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6  
 
 
-[^1]
+* This property need not be set.
 
   
 **pushImageSettings**| [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md)|  If the current operation is a push image, the settings for that operation.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "SCHEDULE_PUSH_IMAGE".
 
   
 **pendingImageError**|  xsd:string|  This represents the error message if publishing of PushImage is failed.  **_Since_** Horizon 7.8  
 
 
-[^1]
+* This property need not be set.
 
   
 **pendingImageProgress**|  xsd:int|  This represents the pending image publish progress in percentage for an instant clone desktop pool.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

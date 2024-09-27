@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecomposeSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecomposeSpec  
 Parameter to
-     [Farm_Recompose](vdi.resources.Farm.md#recompose)
+     [Farm_Recompose](vdi.resources.Farm.md#recompose)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [RDSServerId](vdi.entity.RDSServerId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon View 6.2
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **startTime**|  xsd:dateTime|  When to start the operation. If unset the operation will begin immediately.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on RDS servers which have an active session.   

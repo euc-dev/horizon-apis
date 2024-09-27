@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView  
 See also
-     [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md)
+     [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon 7.7
 
@@ -44,20 +44,20 @@ Name |  Type |  Description
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop id of the Machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **basicState**|  xsd:string|  The basic state of the Machine. For a Virtual Machine based Machine, the complete state is determined by basicState, isMissingInVCenter, operationState and isInHoldCustomization. In the Admin UI, the last three states are shown in brackets in the Machine State.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -97,8 +97,8 @@ Name |  Type |  Description
 **machinePowerState**|  xsd:string|  PowerState of the machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -110,29 +110,29 @@ Name |  Type |  Description
 **ipV4**|  xsd:string|  IPV4 address of the machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **ipV6**|  xsd:string|  IPV6 address of the machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **dnsName**|  xsd:string|  DNS name of the machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentId**|  xsd:string|  agent Identity of the machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

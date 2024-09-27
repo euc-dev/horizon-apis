@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition  
 Parameter to
-     [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)
+     [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md), [DesktopManualVirtualMachinesSpec](vdi.resources.Desktop.ManualVirtualMachinesSpec.md)
+     [DesktopId](vdi.entity.DesktopId.md), [DesktopManualVirtualMachinesSpec](vdi.resources.Desktop.ManualVirtualMachinesSpec.md)  
 Since 
     Horizon 7.4
 
@@ -34,21 +34,19 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  ID of the desktop to which the manually defined virtual machines will belong. Only required if virtual machines are being added to an existing pool.   
 
 
-[^1]
+* This property need not be set.
 
   
 **isNonPersistentDesktop**|  xsd:boolean|  Indicates whether desktop is persistent or non-persistent.   
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

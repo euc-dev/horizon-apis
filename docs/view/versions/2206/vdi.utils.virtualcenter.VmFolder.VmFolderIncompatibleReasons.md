@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderIncompatibleReasons
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderIncompatibleReasons  
 Property of
-     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md#field_detail)
+     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -34,20 +34,18 @@ Name |  Type |  Description
 **inUse**|  xsd:boolean|  Whether or not the VM folder is in use by another desktop. If true, this VM folder cannot be used in desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **viewComposerReplicaFolder**|  xsd:boolean|  Whether or not the VM folder currently holds View Composer or Instant Clone Engine replicas. If true, this VM folder cannot be used in linked or instant clone desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserInfo
+    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserInfo  
 See also
-     [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md)
+     [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md)  
 Since 
     Horizon 7.11
 
@@ -34,36 +34,36 @@ Name |  Type |  Description
 **groupInfo**| [ADGroupInfo[]](vdi.users.ADUserOrGroup.ADGroupInfo.md)|  Info for ADGroups of the user.   
 
 
-[^1]
+* This property need not be set.
 
   
 **username**|  xsd:string|  The username of user.   
 
 
-[^1]
+* This property need not be set.
 
   
 **userPrincipalName**|  xsd:string|  The UPN of user.   
 
 
-[^1]
+* This property need not be set.
 
   
 **domain**|  xsd:string|  The domain of user.   
 
 
-[^1]
+* This property need not be set.
 
   
 **groupSids**|  xsd:string[]|  The user's groups sids   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

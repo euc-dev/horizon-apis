@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo  
 Returned by
-     [ConnectionServerHealth_Get](vdi.health.ConnectionServerHealth.md#get), [ConnectionServerHealth_List](vdi.health.ConnectionServerHealth.md#list)
+     [ConnectionServerHealth_Get](vdi.health.ConnectionServerHealth.md#get), [ConnectionServerHealth_List](vdi.health.ConnectionServerHealth.md#list)  
 See also
-     [CertificateHealthData](vdi.health.CertificateHealthData.md), [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md), [ConnectionServerHealthLdapReplicationStatusData](vdi.health.ConnectionServerHealth.LdapReplicationStatusData.md), [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerServiceStatus](vdi.health.ConnectionServerHealth.ConnectionServerServiceStatus.md), [ConnectionServerSessionProtocolData](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md)
+     [CertificateHealthData](vdi.health.CertificateHealthData.md), [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md), [ConnectionServerHealthLdapReplicationStatusData](vdi.health.ConnectionServerHealth.LdapReplicationStatusData.md), [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerServiceStatus](vdi.health.ConnectionServerHealth.ConnectionServerServiceStatus.md), [ConnectionServerSessionProtocolData](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md)  
 Since 
     Horizon View 6.0
 
@@ -53,19 +53,19 @@ Name |  Type |  Description
 **connectionData**| [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md)|  The connection data for this connection server.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **defaultCertificate**|  xsd:boolean|  Is this the default certificate?   
 
 
-[^1]
+ * This property need not be set.
 
   
 **certificateHealth**| [CertificateHealthData](vdi.health.CertificateHealthData.md)|  The certificate data for this connection server.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **unauthenticatedAccess**|  xsd:boolean|  Whether unauthenticated access is enabled.  **_Since_** Horizon 7.10  
@@ -77,67 +77,67 @@ Name |  Type |  Description
 **defaultUnauthenticatedAccessUser**|  xsd:string|  Default username for unauthenticated access.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **bypassPCoIPGateway**|  xsd:boolean|  Whether to bypass PCoIP Secure Gateway  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **bypassTunnel**|  xsd:boolean|  Whether to bypass HTTP(S) secure tunnel connection.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **bypassAppBlastGateway**|  xsd:boolean|  Whether to bypass Blast Secure Gateway  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **replicationStatus**| [ConnectionServerHealthLdapReplicationStatusData[]](vdi.health.ConnectionServerHealth.LdapReplicationStatusData.md)|  Details about the Ldap replication from replica servers.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **servicesStatus**| [ConnectionServerServiceStatus[]](vdi.health.ConnectionServerHealth.ConnectionServerServiceStatus.md)|  Status of the connection server services.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **sessionProtocolData**| [ConnectionServerSessionProtocolData[]](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md)|  PCoIP, BLAST, or RDP sessions when client directly connects to the connection server.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **refId**|  xsd:string|  Reference ID used for this connection server.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **resourcesData**| [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md)|  Resources data of the connection server.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

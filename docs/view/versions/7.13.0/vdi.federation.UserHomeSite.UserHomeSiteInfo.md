@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo  
 Returned by
-     [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)
+     [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)  
 See also
-     [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)
+     [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)  
 Since 
     Horizon View 6.0
 
@@ -46,16 +46,14 @@ Name |  Type |  Description
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  Id of the user home site configuration   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  Base data for user home site configuration.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

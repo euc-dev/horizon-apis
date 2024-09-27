@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo  
 Returned by
-     [UserHomeSite_ResolveHomeSites](vdi.federation.UserHomeSite.md#resolveHomeSites)
+     [UserHomeSite_ResolveHomeSites](vdi.federation.UserHomeSite.md#resolveHomeSites)  
 See also
-     [EntityId](vdi.EntityId.md), [UserHomeSiteResolutionData](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md)
+     [EntityId](vdi.EntityId.md), [UserHomeSiteResolutionData](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md)  
 Since 
     Horizon 7.8
 
@@ -37,19 +37,19 @@ Name |  Type |  Description
   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **globalEntitlementName**|  xsd:string|  Name of the Global Entitlement or Global Application Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **resolvedData**| [UserHomeSiteResolutionData[]](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md)|  User home site resolution data for the Global Entitlement or Global Application Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionBase
+    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionBase  
 Property of
-     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)
+     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)  
 Parameter to
-     [Permission_Create](vdi.users.Permission.md#create), [Permission_CreatePermissions](vdi.users.Permission.md#createPermissions)
+     [Permission_Create](vdi.users.Permission.md#create), [Permission_CreatePermissions](vdi.users.Permission.md#createPermissions)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [RoleId](vdi.entity.RoleId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [RoleId](vdi.entity.RoleId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -38,26 +38,24 @@ Name |  Type |  Description
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user or group for this permission.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **role**| [RoleId](vdi.entity.RoleId.md)|  The role for this permission.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group for this permission. If the role is not applicable to access groups, specify the root access group.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

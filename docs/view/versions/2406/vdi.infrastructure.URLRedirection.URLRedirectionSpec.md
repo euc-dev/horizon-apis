@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionSpec  
 Parameter to
-     [URLRedirection_Create](vdi.infrastructure.URLRedirection.md#create)
+     [URLRedirection_Create](vdi.infrastructure.URLRedirection.md#create)  
 See also
-     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md)
+     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md)  
 Since 
     Horizon 7.0
 

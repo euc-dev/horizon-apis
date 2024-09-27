@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationRuntimeData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationRuntimeData  
 Property of
-     [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail)
+     [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail)  
 Since 
     Horizon 7.12
 
@@ -31,14 +31,12 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

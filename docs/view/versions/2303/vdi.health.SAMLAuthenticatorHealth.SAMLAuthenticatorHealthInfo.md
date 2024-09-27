@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo  
 Returned by
-     [SAMLAuthenticatorHealth_Get](vdi.health.SAMLAuthenticatorHealth.md#get), [SAMLAuthenticatorHealth_List](vdi.health.SAMLAuthenticatorHealth.md#list)
+     [SAMLAuthenticatorHealth_Get](vdi.health.SAMLAuthenticatorHealth.md#get), [SAMLAuthenticatorHealth_List](vdi.health.SAMLAuthenticatorHealth.md#list)  
 See also
-     [SAMLAuthenticatorHealthConnectionServerConnectionData](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md), [SAMLAuthenticatorHealthData](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)
+     [SAMLAuthenticatorHealthConnectionServerConnectionData](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md), [SAMLAuthenticatorHealthData](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)  
 Since 
     Horizon View 6.0
 
@@ -36,18 +36,18 @@ Name |  Type |  Description
 **connectionServerData**| [SAMLAuthenticatorHealthConnectionServerConnectionData[]](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md)|  Information about the SAML authenticator connections from each configured connection server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **refId**|  xsd:string|  Reference ID of the SAML Authenticator.  **_Since_** Horizon 7.10  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.PreparedCount
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.PreparedCount  
 Property of
-     [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md#field_detail)
+     [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md#field_detail)  
 Since 
     Horizon 8.4
 
@@ -30,13 +30,13 @@ Name |  Type |  Description
 **available**|  xsd:int|  Number of RDS server machines which are in AVAILABLE [status](vdi.resources.RDSServer.RDSServerStateView.md#status)   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **provisioned**|  xsd:int|  Number of RDS server machines which are in PROVISIONED [status](vdi.resources.RDSServer.RDSServerStateView.md#status)   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

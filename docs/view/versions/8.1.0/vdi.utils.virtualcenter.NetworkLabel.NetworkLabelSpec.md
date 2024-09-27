@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelSpec  
 Parameter to
-     [NetworkLabel_ListByNetworkLabelSpec](vdi.utils.virtualcenter.NetworkLabel.md#listByNetworkLabelSpec)
+     [NetworkLabel_ListByNetworkLabelSpec](vdi.utils.virtualcenter.NetworkLabel.md#listByNetworkLabelSpec)  
 See also
-     [HostOrClusterId](vdi.entity.HostOrClusterId.md)
+     [HostOrClusterId](vdi.entity.HostOrClusterId.md)  
 Since 
     Horizon 7.9
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **networkType**|  xsd:string|  The type of network, network label should belong to.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -49,9 +49,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

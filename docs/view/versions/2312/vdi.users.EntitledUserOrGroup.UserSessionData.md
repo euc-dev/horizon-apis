@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.UserSessionData
+    com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.UserSessionData  
 Property of
-     [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#field_detail), [EntitledUserOrGroupInfo](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo.md#field_detail), [EntitledUserOrGroupLocalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#field_detail)
+     [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#field_detail), [EntitledUserOrGroupInfo](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo.md#field_detail), [EntitledUserOrGroupLocalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#field_detail)  
 See also
-     [SessionId](vdi.entity.SessionId.md)
+     [SessionId](vdi.entity.SessionId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,34 +32,32 @@ Name |  Type |  Description
 **desktopLocalSessionCount**|  xsd:int|  Count of local desktop sessions for this user or group.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **desktopLocalSessions**| [SessionId[]](vdi.entity.SessionId.md)|  Ids for local desktop sessions for this user. This will be null if this is a group.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **applicationLocalSessionCount**|  xsd:int|  Count of local application sessions for this user or group.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **applicationLocalSessions**| [SessionId[]](vdi.entity.SessionId.md)|  Ids for local application sessions for this user. This will be null if this is a group.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData  
 Property of
-     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail)
+     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -32,19 +32,19 @@ Name |  Type |  Description
 **minimumKeyLength**|  xsd:int|  Minimum key-length of the private/public key associated with the certificate.   
 
 
-[^1]
+* This property need not be set.
 
   
 **hashAlgorithm**|  xsd:string|  Hash algorithm used in the certificate signing request.   
 
 
-[^1]
+* This property need not be set.
 
   
 **validitySeconds**|  xsd:long|  Length of time, in seconds, that certificates issues with this template remain valid.   
 
 
-[^1]
+* This property need not be set.
 
   
 **status**|  xsd:string|  The status of this template.   
@@ -65,14 +65,12 @@ Name |  Type |  Description
 **statusReason**|  xsd:string|  Additional non-localized explanation of the status.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

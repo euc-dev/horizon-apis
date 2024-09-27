@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter  
 Returned by
-     [Monitoring_GetDesktopCounters](vdi.health.Monitoring.md#getDesktopCounters)
+     [Monitoring_GetDesktopCounters](vdi.health.Monitoring.md#getDesktopCounters)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md)
+     [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon 7.11
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop ID.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numMachines**|  xsd:int|  Maximum number of machines in the desktop.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **occupancy**|  xsd:int|  Represents the occupancy count for the desktop. 
@@ -49,13 +49,13 @@ Name |  Type |  Description
   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **connectedSessions**|  xsd:int|  Represents the number of connected sessions of the desktop.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

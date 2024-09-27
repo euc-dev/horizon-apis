@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView  
 Returned by
-     [GlobalEntitlement_GetSummaryView](vdi.federation.GlobalEntitlement.md#getSummaryView), [GlobalEntitlement_GetSummaryViews](vdi.federation.GlobalEntitlement.md#getSummaryViews)
+     [GlobalEntitlement_GetSummaryView](vdi.federation.GlobalEntitlement.md#getSummaryView), [GlobalEntitlement_GetSummaryViews](vdi.federation.GlobalEntitlement.md#getSummaryViews)  
 See also
-     [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+     [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
 Since 
     Horizon View 6.0
 
@@ -44,20 +44,20 @@ Name |  Type |  Description
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Identifier for Global Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **base**| [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md)|  Global entitlement base data.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this Global Entitlement.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

@@ -7,23 +7,21 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.ImageManagementAssetId
+    com.vmware.vdi.vlsi.binding.vdi.entity.ImageManagementAssetId  
 Property of
-     [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md#field_detail)
+     [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md#field_detail)  
 Parameter to
-     [ImageManagementAsset_Delete](vdi.utils.imagemanagement.ImageManagementAsset.md#delete), [ImageManagementAsset_Get](vdi.utils.imagemanagement.ImageManagementAsset.md#get), [ImageManagementAsset_Update](vdi.utils.imagemanagement.ImageManagementAsset.md#update)
+     [ImageManagementAsset_Delete](vdi.utils.imagemanagement.ImageManagementAsset.md#delete), [ImageManagementAsset_Get](vdi.utils.imagemanagement.ImageManagementAsset.md#get), [ImageManagementAsset_Update](vdi.utils.imagemanagement.ImageManagementAsset.md#update)  
 Returned by
-     [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)
+     [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon 7.10
 
@@ -46,9 +44,7 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

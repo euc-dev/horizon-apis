@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualDesktopSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualDesktopSpec  
 Property of
-     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
 See also
-     [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [MachineId](vdi.entity.MachineId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [MachineId](vdi.entity.MachineId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -46,20 +46,20 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if source is set to "VIRTUAL_CENTER".
 
   
 **viewStorageAcceleratorSettings**| [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md)|  View Storage Accelerator settings. Sets default values if unset.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **virtualCenterManagedCommonSettings**| [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md)|  Common settings for Desktops managed by Virtual Center sources.  **_Since_** Horizon View 6.1  
 
 
-[^1]
+ * This property need not be set.
   * This property is required if source is set to "VIRTUAL_CENTER".
 
   

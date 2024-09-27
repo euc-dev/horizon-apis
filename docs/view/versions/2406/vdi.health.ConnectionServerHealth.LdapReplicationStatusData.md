@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.LdapReplicationStatusData
+    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.LdapReplicationStatusData  
 Property of
-     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)
+     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)  
 Since 
     Horizon 7.10
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 **message**|  xsd:string|  Status message.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

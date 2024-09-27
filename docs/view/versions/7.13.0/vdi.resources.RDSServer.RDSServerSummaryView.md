@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView  
 Returned by
-     [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)
+     [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)  
 See also
-     [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)
+     [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)  
 Since 
     Horizon View 6.0
 
@@ -52,50 +52,48 @@ Name |  Type |  Description
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS server entity ID   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md)|  RDS server base   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **messageSecurityData**| [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md)|  RDS Server message security data  **_Since_** Horizon View 6.1  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **summaryData**| [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)|  RDS server summary data   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **agentData**| [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md)|  RDSServer agent information   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **settings**| [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md)|  RDS server settings   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **runtimeData**| [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md)|  RDSServer runtime information   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase  
 Parameter to
-     [RemoteProcess_EndProcess](vdi.helpdesk.RemoteProcess.md#endProcess)
+     [RemoteProcess_EndProcess](vdi.helpdesk.RemoteProcess.md#endProcess)  
 Since 
     Horizon 7.3
 
@@ -30,19 +30,19 @@ Name |  Type |  Description
 **processId**|  xsd:long|  The process id.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **createTime**|  xsd:long|  The process creation time.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **name**|  xsd:string|  The name of the process.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

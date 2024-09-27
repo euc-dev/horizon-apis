@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.RemoteApplicationStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.RemoteApplicationStatistics  
 Property of
-     [SessionRemoteApplicationStatistics](vdi.helpdesk.Performance.SessionRemoteApplicationStatistics.md#field_detail)
+     [SessionRemoteApplicationStatistics](vdi.helpdesk.Performance.SessionRemoteApplicationStatistics.md#field_detail)  
 Returned by
-     [Performance_GetRemoteApplicationPerformanceData](vdi.helpdesk.Performance.md#getRemoteApplicationPerformanceData), [Performance_GetRemoteApplicationStatistics](vdi.helpdesk.Performance.md#getRemoteApplicationStatistics)
+     [Performance_GetRemoteApplicationPerformanceData](vdi.helpdesk.Performance.md#getRemoteApplicationPerformanceData), [Performance_GetRemoteApplicationStatistics](vdi.helpdesk.Performance.md#getRemoteApplicationStatistics)  
 Since 
     Horizon 7.3
 
@@ -32,26 +32,26 @@ Name |  Type |  Description
 **applicationId**|  xsd:string|  The identity of an application.  **_Since_** Horizon 7.6  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **processId**|  xsd:long|  The process Id.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  The name of a remote application.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **status**|  xsd:string|  The status of a remote application.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -63,15 +63,13 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description of a remote application.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

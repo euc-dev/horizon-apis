@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo  
 Returned by
-     [NetworkInterfaceCard_ListByBaseImageVm](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listByBaseImageVm), [NetworkInterfaceCard_ListBySnapshot](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listBySnapshot), [NetworkInterfaceCard_ListByTemplate](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listByTemplate)
+     [NetworkInterfaceCard_ListByBaseImageVm](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listByBaseImageVm), [NetworkInterfaceCard_ListBySnapshot](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listBySnapshot), [NetworkInterfaceCard_ListByTemplate](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listByTemplate)  
 See also
-     [NetworkInterfaceCardData](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)
+     [NetworkInterfaceCardData](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)  
 Since 
     Horizon View 6.0
 
@@ -36,20 +36,20 @@ Name |  Type |  Description
 **id**| [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)|  Network interface card id.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **data**| [NetworkInterfaceCardData](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData.md)|  Network interface card data.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this network interface card.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

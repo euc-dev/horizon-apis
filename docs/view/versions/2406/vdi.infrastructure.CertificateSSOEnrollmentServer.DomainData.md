@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData  
 Property of
-     [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md#field_detail)
+     [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md#field_detail)  
 See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOCertificateServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData.md), [CertificateSSOTemplateData](vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData.md)
+     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOCertificateServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData.md), [CertificateSSOTemplateData](vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData.md)  
 Since 
     Horizon 7.0
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **forestDnsName**|  xsd:string|  DNS name of the domain's forest, if any.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **domainStatus**|  xsd:string|  The status of this domain to the enrollment server.   
@@ -58,7 +58,7 @@ Name |  Type |  Description
 **domainStatusReason**|  xsd:string|  Additional non-localized explanation of the domain status.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **replicationStatus**|  xsd:string|  This domain's forest's replication status with the domain controller.   
@@ -76,7 +76,7 @@ Name |  Type |  Description
 **replicationStatusReason**|  xsd:string|  Additional non-localized explanation of the replication status.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **enrollmentCertificateStatus**|  xsd:string|  The status of the enrollment server's certificate for this domain's forest.   
@@ -92,17 +92,17 @@ Name |  Type |  Description
 **certificateServers**| [CertificateSSOCertificateServerData[]](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData.md)|  Collection of certificate server data available to this domain.   
 
 
-[^1]
+ * This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+ * This property cannot be updated.
 
   
 **templates**| [CertificateSSOTemplateData[]](vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData.md)|  Collection of certificate template data available to certificate servers on this domain. Not all certificate servers may have access to all of these templates.   
 
 
-[^1]
+ * This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+ * This property cannot be updated.
 
   
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecificNamingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecificNamingSettings  
 Property of
-     [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md#field_detail)
+     [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md#field_detail)  
 See also
-     [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md)
+     [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md)  
 Since 
     Horizon View 6.0
 
@@ -52,12 +52,12 @@ Name |  Type |  Description
 **specifiedNames**| [DesktopSpecifiedName[]](vdi.resources.Desktop.SpecifiedName.md)|  New vm names that could be provided during update.  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

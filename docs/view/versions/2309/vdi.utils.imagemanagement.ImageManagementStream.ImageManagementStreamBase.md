@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase  
 Property of
-     [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md#field_detail)
+     [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md#field_detail)  
 Parameter to
-     [ImageManagementStream_CreateStreams](vdi.utils.imagemanagement.ImageManagementStream.md#createStreams)
+     [ImageManagementStream_CreateStreams](vdi.utils.imagemanagement.ImageManagementStream.md#createStreams)  
 See also
-     [MapEntry](vdi.util.MapEntry.md)
+     [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon 7.10
 
@@ -40,7 +40,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description is a set of notes about the stream.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -103,13 +103,13 @@ Name |  Type |  Description
 **publisher**|  xsd:string|  Image management stream publisher.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management stream.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **tagAvailable**|  xsd:boolean|  This will be set to true when: 
@@ -121,13 +121,13 @@ Name |  Type |  Description
 For a specific VirtualCenterId, image management tag information will be retrieved   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

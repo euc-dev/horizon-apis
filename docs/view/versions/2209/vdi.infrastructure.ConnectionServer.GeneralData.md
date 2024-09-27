@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GeneralData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GeneralData  
 Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -30,13 +30,13 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of the connection server   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **serverAddress**|  xsd:string|  General URL for the connection server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **enabled**|  xsd:boolean|  Indicate whether the connection server is enabled. A disabled connection server will not accept connection requests from View Clients.   
@@ -44,7 +44,7 @@ Name |  Type |  Description
 **tags**|  xsd:string[]|  Tags to restrict accessibility to desktops through this server.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
@@ -55,7 +55,7 @@ If [bypassTunnel](vdi.infrastructure.ConnectionServer.GeneralData.md#bypassTunne
 This should be in the form "<(DNS name)|(IPv4)|(IPv6)><:(port)>". IPv6 addresses must be enclosed in square brackets.   
 
 
-[^1]
+* This property need not be set.
 
   
 **externalPCoIPURL**|  xsd:string|  View Clients use the PCoIP External URL to establish a PCoIP connection through this Connection Server instance.   
@@ -64,26 +64,26 @@ If [bypassPCoIPGateway](vdi.infrastructure.ConnectionServer.GeneralData.md#bypas
 This should be in the form "<(DNS name)|(IPv4)|(IPv6)>[:(port encoding)]". The port encoding part may be omitted, may specify a single port to represent both the TCP and UDP ports, or may specify them individually in the form "(TCP port)?(UDP port)". Unspecified ports default to 4172. IPv6 addresses must be enclosed in square brackets.   
 
 
-[^1]
+* This property need not be set.
 
   
 **hasPCoIPGatewaySupport**|  xsd:boolean|  Whether PCoIP gateway is supported or not.  **_Since_** Horizon 7.8  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **hasBlastGatewaySupport**|  xsd:boolean|  Whether Blast gateway is supported or not.  **_Since_** Horizon 7.8  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **auxillaryExternalPCoIPIPv4Address**|  xsd:string|  This can only be set if [externalPCoIPURL](vdi.infrastructure.ConnectionServer.GeneralData.md#externalPCoIPURL) is set and contains a host part that represents an IPv6 address or DNS name. As legacy clients may not support IPv6 or DNS names for external PCoIP URLs, this IPv4 address, if set, will be presented to them as an alternative. The same port will be used and should not be specified.   
 If [bypassPCoIPGateway](vdi.infrastructure.ConnectionServer.GeneralData.md#bypassPCoIPGateway) is set to true, this is ignored.  **_Since_** Horizon View 6.1  
 
 
-[^1]
+* This property need not be set.
 
   
 **externalAppblastURL**|  xsd:string|  The Blast External URL enables browser access to View machines through this Connection Server instance.   
@@ -93,14 +93,14 @@ If [bypassAppBlastGateway](vdi.infrastructure.ConnectionServer.GeneralData.md#by
 This should be in the form "<(DNS name)|(IPv4)|(IPv6)>[:(port)]". Unspecified ports default to 8443. IPv6 addresses must be enclosed in square brackets.   
 
 
-[^1]
+* This property need not be set.
 
   
 **localConnectionServer**|  xsd:boolean|  Indicates whether this is the local connection server that handled the ConnectionServer service request.  **_Since_** Horizon 7.4  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **bypassTunnel**|  xsd:boolean|  Setting this to false enables a secure tunnel on this Connection Server instance.   
@@ -117,20 +117,20 @@ If [bypassAppBlastGateway](vdi.infrastructure.ConnectionServer.GeneralData.md#by
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **version**|  xsd:string|  'Version number' attribute to indicate functionalities supported by current connection server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **ipMode**|  xsd:string|  Indicates the Connection Server IP environment.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -142,47 +142,45 @@ If [bypassAppBlastGateway](vdi.infrastructure.ConnectionServer.GeneralData.md#by
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **fqhn**|  xsd:string|  Fully qualified host name  **_Since_** Horizon 7.6  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **clusterName**|  xsd:string|  Cluster name  **_Since_** Horizon 7.10  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **discloseServicePrincipalName**|  xsd:boolean|  Indicates whether the connection server's service principal name will be sent to the client prior to the user authentication. When set to true Connection Server discloses its service principal name to the client.  **_Since_** Horizon 7.10  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **hostRedirection**|  xsd:boolean|  Indicates whether HTTP host redirection is enabled in connection server.  **_Since_** Horizon 8.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **balancedHosts**|  xsd:string[]|  List of load balancer host names.  **_Since_** Horizon 8.7  
 
 
-[^1]
+* This property need not be set.
   * This property is required if hostRedirection is set to true.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

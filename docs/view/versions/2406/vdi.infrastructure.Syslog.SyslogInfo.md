@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.SyslogInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.SyslogInfo  
 Returned by
-     [Syslog_Get](vdi.infrastructure.Syslog.md#get)
+     [Syslog_Get](vdi.infrastructure.Syslog.md#get)  
 See also
-     [SyslogFileData](vdi.infrastructure.Syslog.FileData.md), [SyslogUDPData](vdi.infrastructure.Syslog.UDPData.md)
+     [SyslogFileData](vdi.infrastructure.Syslog.FileData.md), [SyslogUDPData](vdi.infrastructure.Syslog.UDPData.md)  
 Since 
     Horizon View 6.0
 

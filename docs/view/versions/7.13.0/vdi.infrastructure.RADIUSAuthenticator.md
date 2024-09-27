@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator  
 See also
-     [MapEntry](vdi.util.MapEntry.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md)
+     [MapEntry](vdi.util.MapEntry.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md)  
 Since 
     Horizon View 6.0
 
@@ -297,9 +295,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

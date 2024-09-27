@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCountersInfo
+    com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCountersInfo  
 Returned by
-     [UsageStatistics_GetLicensingCounters](vdi.statistics.UsageStatistics.md#getLicensingCounters)
+     [UsageStatistics_GetLicensingCounters](vdi.statistics.UsageStatistics.md#getLicensingCounters)  
 See also
-     [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)
+     [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)  
 
 ## Data Object Description 
 
@@ -30,20 +30,18 @@ Name |  Type |  Description
 **currentUsage**| [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)|  Current usage numbers.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **highestUsage**| [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)|  The highest usage numbers since the Horizon deployment was first configured or since the last reset.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

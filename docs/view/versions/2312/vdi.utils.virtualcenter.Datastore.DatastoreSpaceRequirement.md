@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement  
 Returned by
-     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)
+     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)  
 Since 
     Horizon 7.6
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **DiskType**|  xsd:string|  Disk Type used for storage.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -42,28 +42,26 @@ Name |  Type |  Description
 **minDiskSize**|  xsd:double|  Minimum recommended Disk Space, in GB.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **midDiskSize**|  xsd:double|  Recommended Disk Space with 50% utilization, in GB.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **maxDiskSize**|  xsd:double|  Maximum recommended Disk Space, in GB.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth.ConnectionData
+    com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth.ConnectionData  
 Property of
-     [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail)
+     [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 

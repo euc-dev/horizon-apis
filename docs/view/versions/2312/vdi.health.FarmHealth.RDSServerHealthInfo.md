@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.RDSServerHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.RDSServerHealthInfo  
 Property of
-     [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md#field_detail)
+     [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md#field_detail)  
 See also
-     [FarmHealthMissingApplicationInfo](vdi.health.FarmHealth.MissingApplicationInfo.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerSessionSettings](vdi.resources.RDSServer.RDSServerSessionSettings.md)
+     [FarmHealthMissingApplicationInfo](vdi.health.FarmHealth.MissingApplicationInfo.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerSessionSettings](vdi.resources.RDSServer.RDSServerSessionSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -32,21 +32,21 @@ Name |  Type |  Description
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS server entity ID   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **name**|  xsd:string|  RDS Server name   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **operatingSystem**|  xsd:string|  OS version.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -76,21 +76,21 @@ Name |  Type |  Description
 **agentVersion**|  xsd:string|  Agent version.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentBuildNumber**|  xsd:string|  Agent build number.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  RDS server status   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -126,7 +126,7 @@ Name |  Type |  Description
 **health**|  xsd:string|  RDS server health   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -139,21 +139,21 @@ Name |  Type |  Description
 **available**|  xsd:boolean|  Indicates if RDS server is available   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **missingApplications**| [FarmHealthMissingApplicationInfo[]](vdi.health.FarmHealth.MissingApplicationInfo.md)|  Missing Application info for those Applications that are missing on this RDSServer. An Application must be enabled in order for its health status to be collected.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **loadPreference**|  xsd:string|  Based on the current load of this RDSServer, gives a measure of how preferential this server is to be chosen for new application sessions.  **_Since_** Horizon View 6.2  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -167,34 +167,32 @@ Name |  Type |  Description
 **loadIndex**|  xsd:int|  Represents the load on the RDSServer in the range of 0-100  **_Since_** Horizon 7.8  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **numSessions**|  xsd:int|  Number of sessions on this RDS Host.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **sessionSettings**| [RDSServerSessionSettings](vdi.resources.RDSServer.RDSServerSessionSettings.md)|  RDSServer session settings  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID of the RDS Server.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

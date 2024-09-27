@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.License.LicenseInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.License.LicenseInfo  
 Returned by
-     [License_Get](vdi.infrastructure.License.md#get)
+     [License_Get](vdi.infrastructure.License.md#get)  
 Since 
     Horizon View 6.0
 
@@ -36,13 +36,13 @@ Name |  Type |  Description
 **licenseKey**|  xsd:string|  The License Key in partially redacted form  **_Since_** Horizon View 6.2  
 
 
-[^1]
+ * This property need not be set.
 
   
 **expirationTime**|  xsd:dateTime|  The expiration date of the View instance.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **viewComposerEnabled**|  xsd:boolean| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ Whether View Composer is enabled.   
@@ -62,7 +62,7 @@ Name |  Type |  Description
 **licenseEdition**|  xsd:string|  The license edition.  **_Since_** Horizon 7.9  
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -83,7 +83,7 @@ Name |  Type |  Description
 **usageModel**|  xsd:string|  The usage model for this license.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -105,22 +105,22 @@ Name |  Type |  Description
 **gracePeriodDays**|  xsd:int|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The grace period in days for subscription slice.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **subscriptionSliceExpiry**|  xsd:dateTime|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The expiry of subscription slice.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **licenseHealth**|  xsd:string|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The license health.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -131,7 +131,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

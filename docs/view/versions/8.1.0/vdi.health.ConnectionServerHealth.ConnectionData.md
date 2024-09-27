@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionData
+    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionData  
 Property of
-     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)
+     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -40,19 +40,19 @@ Name |  Type |  Description
 **numPSGSessions**|  xsd:int|  The number of PCoIP Secure Gateway sessions.   
 
 
-[^1]
+* This property need not be set.
 
   
 **numBSGSessions**|  xsd:int|  The number of Blast Secure Gateway sessions.  **_Since_** Horizon 7.12  
 
 
-[^1]
+* This property need not be set.
 
   
 **numRDPGatewayedSessions**|  xsd:int|  The number of Secure Gateway sessions with the RDP.  **_Since_** Horizon 7.12  
 
 
-[^1]
+* This property need not be set.
 
   
 **sessionThreshold**|  xsd:int|  The maximum load of connections allowed for the connection server through the horizon client. This value represents one of the following. 
@@ -63,14 +63,12 @@ Name |  Type |  Description
 **_Since_** Horizon 7.10  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

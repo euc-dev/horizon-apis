@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData  
 Property of
-     [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)
+     [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)  
 See also
-     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
 Since 
     Horizon 7.0
 
@@ -32,28 +32,28 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of this enrollment server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **networkAddress**|  xsd:string|  DNS name network address of this enrollment server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **version**|  xsd:string|  Version number of this enrollment server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  The status of this enrollment server.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -64,22 +64,20 @@ Name |  Type |  Description
 **connectors**| [CertificateSSOConnectorId[]](vdi.entity.CertificateSSOConnectorId.md)|  CertSSO connectors, if any, associated with this enrollment server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **domains**| [CertificateSSOCertificateDomainData[]](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md)|  Collection of domain data available to this enrollment server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

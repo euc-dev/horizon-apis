@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData  
 Property of
-     [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail)
+     [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail)  
 See also
-     [CustomizationSpecIncompatibleReasons](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md)
+     [CustomizationSpecIncompatibleReasons](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md)  
 Since 
     Horizon View 6.0
 
@@ -36,34 +36,32 @@ Name |  Type |  Description
 **name**|  xsd:string|  Customization Spec name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **description**|  xsd:string|  Customization Spec description   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **guestOS**|  xsd:string|  Guest OS   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **incompatibleReasons**| [CustomizationSpecIncompatibleReasons](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md)|  Reasons that may preclude this CustomizationSpec from being used in desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData
+    com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData  
 Property of
-     [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md#field_detail)
+     [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md#field_detail)  
 Parameter to
-     [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create)
+     [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create)  
 Since 
     Horizon 7.4
 
@@ -34,38 +34,36 @@ Name |  Type |  Description
 **group**|  xsd:boolean|  Whether or not this is a group or a user.   
 
 
-[^1]
+* This property need not be set.
 
   
 **domain**|  xsd:string|  The domain the user or group is in. This will be the DNS name of the domain.   
 
 
-[^1]
+* This property need not be set.
 
   
 **name**|  xsd:string|  Name of the user or group.   
 
 
-[^1]
+* This property need not be set.
 
   
 **phone**|  xsd:string|  Phone number of the user or group.   
 
 
-[^1]
+* This property need not be set.
 
   
 **email**|  xsd:string|  Email address of the user or group.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

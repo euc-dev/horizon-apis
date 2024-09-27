@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.util.SecureString
+    com.vmware.vdi.vlsi.binding.vdi.util.SecureString  
 Property of
-     [ADUserChangePasswordSpec](vdi.users.ADUserOrGroup.ADUserChangePasswordSpec.md#field_detail), [ADUserCredentialSpec](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#field_detail), [AuxiliaryAccountUpdateData](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md#field_detail), [ConnectionServerSecurityServerPairingData](vdi.infrastructure.ConnectionServer.SecurityServerPairingData.md#field_detail), [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md#field_detail), [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md#field_detail), [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md#field_detail), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md#field_detail), [SecondaryCredentialsSpec](vdi.users.SecondaryCredentials.SecondaryCredentialsSpec.md#field_detail), [ServerSpec](vdi.utils.Certificate.ServerSpec.md#field_detail), [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md#field_detail), [SyslogFileData](vdi.infrastructure.Syslog.FileData.md#field_detail), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md#field_detail), [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md#field_detail)
+     [ADUserChangePasswordSpec](vdi.users.ADUserOrGroup.ADUserChangePasswordSpec.md#field_detail), [ADUserCredentialSpec](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#field_detail), [AuxiliaryAccountUpdateData](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md#field_detail), [ConnectionServerSecurityServerPairingData](vdi.infrastructure.ConnectionServer.SecurityServerPairingData.md#field_detail), [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md#field_detail), [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md#field_detail), [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md#field_detail), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md#field_detail), [SecondaryCredentialsSpec](vdi.users.SecondaryCredentials.SecondaryCredentialsSpec.md#field_detail), [ServerSpec](vdi.utils.Certificate.ServerSpec.md#field_detail), [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md#field_detail), [SyslogFileData](vdi.infrastructure.Syslog.FileData.md#field_detail), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md#field_detail), [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md#field_detail)  
 Parameter to
-     [AuthenticationManager_Login](vdi.AuthenticationManager.md#login), [PodFederation_Join](vdi.federation.PodFederation.md#join)
+     [AuthenticationManager_Login](vdi.AuthenticationManager.md#login), [PodFederation_Join](vdi.federation.PodFederation.md#join)  
 Since 
     Horizon View 6.0
 
@@ -37,9 +37,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

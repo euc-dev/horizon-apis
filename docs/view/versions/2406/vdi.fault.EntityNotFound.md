@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.EntityNotFound
+    com.vmware.vdi.vlsi.binding.vdi.fault.EntityNotFound  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 See also
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 

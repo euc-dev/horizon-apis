@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo  
 Returned by
-     [CEIP_Get](vdi.infrastructure.CEIP.md#get)
+     [CEIP_Get](vdi.infrastructure.CEIP.md#get)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **companySize**|  xsd:string|  The size of the company.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -47,7 +47,7 @@ Name |  Type |  Description
 **geolocation**|  xsd:string|  The geolocation of the company.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -63,7 +63,7 @@ Name |  Type |  Description
 **vertical**|  xsd:string|  The vertical of the company.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

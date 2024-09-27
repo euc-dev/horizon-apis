@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo  
 Returned by
-     [CertificateSSOConnectorHealth_Get](vdi.health.CertificateSSOConnectorHealth.md#get), [CertificateSSOConnectorHealth_List](vdi.health.CertificateSSOConnectorHealth.md#list)
+     [CertificateSSOConnectorHealth_Get](vdi.health.CertificateSSOConnectorHealth.md#get), [CertificateSSOConnectorHealth_List](vdi.health.CertificateSSOConnectorHealth.md#list)  
 See also
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
 Since 
     Horizon 7.0
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  The display name of the connector.   
 
 
-[^1]
+* This property need not be set.
 
   
 **enabled**|  xsd:boolean|  Whether or not the connector is enabled.   
@@ -44,14 +44,12 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this CertSSO connector.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

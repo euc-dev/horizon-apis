@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo  
 Returned by
-     [Cluster_GetPublicKey](vdi.utils.Cluster.md#getPublicKey)
+     [Cluster_GetPublicKey](vdi.utils.Cluster.md#getPublicKey)  
 Since 
     Horizon View 6.0
 

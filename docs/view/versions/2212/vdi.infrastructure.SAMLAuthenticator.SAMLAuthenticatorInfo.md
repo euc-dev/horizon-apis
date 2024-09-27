@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo  
 Returned by
-     [SAMLAuthenticator_Get](vdi.infrastructure.SAMLAuthenticator.md#get), [SAMLAuthenticator_List](vdi.infrastructure.SAMLAuthenticator.md#list)
+     [SAMLAuthenticator_Get](vdi.infrastructure.SAMLAuthenticator.md#get), [SAMLAuthenticator_List](vdi.infrastructure.SAMLAuthenticator.md#list)  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)  
 Since 
     Horizon View 6.0
 
@@ -38,21 +38,19 @@ Name |  Type |  Description
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  The certificate override for the SAML authenticator.   
 
 
-[^1]
+* This property need not be set.
 
   
 **refId**|  xsd:string|  Reference ID used for this SAML Authenticator.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics
+    com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics  
 Returned by
-     [VirtualCenterStatistics_getSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#getSummaryStatistics), [VirtualCenterStatistics_listSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#listSummaryStatistics)
+     [VirtualCenterStatistics_getSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#getSummaryStatistics), [VirtualCenterStatistics_listSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#listSummaryStatistics)  
 See also
-     [DataStoreSummaryStatistics](vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics.md), [HostSummaryStatistics](vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DataStoreSummaryStatistics](vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics.md), [HostSummaryStatistics](vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.8
 
@@ -32,49 +32,47 @@ Name |  Type |  Description
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The ID of the virtual center server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  The name of the Virtual Center server.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **instanceUuid**|  xsd:string|  Virtual center instance uuid.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **version**|  xsd:string|  The version of the Virtual Center server.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **hostSummaryStatistics**| [HostSummaryStatistics[]](vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics.md)|  Statistics information about each host managed by the Virtual Center server.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **dataStoreSummaryStatistics**| [DataStoreSummaryStatistics[]](vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics.md)|  Statistics information about each data store managed by the Virtual Center server.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

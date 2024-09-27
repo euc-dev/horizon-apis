@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventSummaryView  
 See also
-     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.13
 
@@ -94,37 +94,37 @@ Name |  Type |  Description
 **machineDnsName**|  xsd:string|  FQDN of the machine in the Pod that has logged this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **desktopId**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop pool associated with this event. Will be unset if there is no desktop association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **applicationId**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application associated with this event. Will be unset if there is no Application association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  Machine associated with this event. Will be unset if there is no machine association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  Session associated with this event. Will be unset if there is no Session association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **message**|  xsd:string|  Event message. Language of this message will be dependent on the locale. Locale can be set at request or session level. Request level locale can be provided by adding X-VIEW-LOCALE request header and session level locale can be set by invoking [AuthenticationManager_SetLocale](vdi.AuthenticationManager.md#setLocale) method after login. Request level locale will be given priority over session level locale. If not set explicitly, locale will default to English language.   
@@ -132,32 +132,30 @@ Name |  Type |  Description
 **userDisplayName**|  xsd:string|  Display name of the user associated with this event. Will be unset if there is no User association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **persistentDiskId**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **persistentDiskRefId**|  xsd:string|  Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event.  **_Since_** Horizon 8.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **userSid**|  xsd:string|  Sid of the user associated with this event. Will be unset if there is no User association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

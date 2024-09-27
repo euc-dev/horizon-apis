@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopBase
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopBase  
 Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,14 +32,14 @@ Name |  Type |  Description
 **name**|  xsd:string|  The desktop name is the unique name used to identify this desktop.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property must contain only alphanumerics, underscores, and dashes. The maximum length is 64 characters. 
 
   
 **displayName**|  xsd:string|  The display name is the name that users will see when they connect to view client. If the display name is left blank, the identifier will be used.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 256 characters. 
 
   
@@ -48,13 +48,13 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description is a set of notes about the desktop.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

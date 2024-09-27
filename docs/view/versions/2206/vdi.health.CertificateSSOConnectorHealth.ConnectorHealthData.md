@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData
+    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData  
 Property of
-     [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md#field_detail)
+     [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md#field_detail)  
 See also
-     [CertificateSSOConnectorHealthEnrollmentServerCertificateServerHealthData](vdi.health.CertificateSSOConnectorHealth.CertificateServerHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerDomainHealthData](vdi.health.CertificateSSOConnectorHealth.DomainHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerTemplateHealthData](vdi.health.CertificateSSOConnectorHealth.TemplateHealthData.md)
+     [CertificateSSOConnectorHealthEnrollmentServerCertificateServerHealthData](vdi.health.CertificateSSOConnectorHealth.CertificateServerHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerDomainHealthData](vdi.health.CertificateSSOConnectorHealth.DomainHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md), [CertificateSSOConnectorHealthEnrollmentServerTemplateHealthData](vdi.health.CertificateSSOConnectorHealth.TemplateHealthData.md)  
 Since 
     Horizon 7.0
 
@@ -45,7 +45,7 @@ Name |  Type |  Description
 **secondaryEnrollmentServerHealth**| [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md)|  The secondary enrollment server health.   
 
 
-[^1]
+* This property need not be set.
 
   
 **domainHealth**| [CertificateSSOConnectorHealthEnrollmentServerDomainHealthData](vdi.health.CertificateSSOConnectorHealth.DomainHealthData.md)|  The health of the domain.   
@@ -56,9 +56,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

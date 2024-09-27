@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewayInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewayInfo  
 Returned by
-     [Gateway_Get](vdi.infrastructure.Gateway.md#get), [Gateway_List](vdi.infrastructure.Gateway.md#list)
+     [Gateway_Get](vdi.infrastructure.Gateway.md#get), [Gateway_List](vdi.infrastructure.Gateway.md#list)  
 See also
-     [GatewayGeneralData](vdi.infrastructure.Gateway.GeneralData.md), [GatewayId](vdi.entity.GatewayId.md)
+     [GatewayGeneralData](vdi.infrastructure.Gateway.GeneralData.md), [GatewayId](vdi.entity.GatewayId.md)  
 Since 
     Horizon 7.7
 
@@ -36,8 +36,8 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this Gateway.  **_Since_** Horizon 8.8  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

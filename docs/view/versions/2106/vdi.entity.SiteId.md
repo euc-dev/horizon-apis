@@ -7,23 +7,21 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.SiteId
+    com.vmware.vdi.vlsi.binding.vdi.entity.SiteId  
 Property of
-     [PodFederationData](vdi.federation.PodFederation.PodFederationData.md#field_detail), [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md#field_detail), [UserHomeSiteResolutionData](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md#field_detail)
+     [PodFederationData](vdi.federation.PodFederation.PodFederationData.md#field_detail), [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md#field_detail), [UserHomeSiteResolutionData](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md#field_detail)  
 Parameter to
-     [Site_Delete](vdi.federation.Site.md#delete), [Site_Get](vdi.federation.Site.md#get), [Site_Update](vdi.federation.Site.md#update)
+     [Site_Delete](vdi.federation.Site.md#delete), [Site_Get](vdi.federation.Site.md#get), [Site_Update](vdi.federation.Site.md#update)  
 Returned by
-     [Site_Create](vdi.federation.Site.md#create)
+     [Site_Create](vdi.federation.Site.md#create)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 
@@ -46,9 +44,7 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

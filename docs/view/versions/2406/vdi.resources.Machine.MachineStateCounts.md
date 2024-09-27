@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateCounts
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateCounts  
 Returned by
-     [Machine_GetStateCounts](vdi.resources.Machine.md#getMachineStateCounts)
+     [Machine_GetStateCounts](vdi.resources.Machine.md#getMachineStateCounts)  
 See also
-     [StateCount](vdi.resources.Machine.StateCount.md)
+     [StateCount](vdi.resources.Machine.StateCount.md)  
 Since 
     Horizon 8.4
 

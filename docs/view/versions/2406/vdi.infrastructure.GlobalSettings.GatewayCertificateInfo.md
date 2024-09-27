@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateInfo  
 Returned by
-     [GlobalSettings_ListGatewayCertificates](vdi.infrastructure.GlobalSettings.md#listGatewayCertificates)
+     [GlobalSettings_ListGatewayCertificates](vdi.infrastructure.GlobalSettings.md#listGatewayCertificates)  
 Since 
     Horizon 8.6
 

@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection  
 See also
-     [MapEntry](vdi.util.MapEntry.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md)
+     [MapEntry](vdi.util.MapEntry.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md)  
 Since 
     Horizon 7.0
 
@@ -301,9 +299,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

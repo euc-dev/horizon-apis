@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentInfo  
 Returned by
-     [PodAssignment_Get](vdi.federation.PodAssignment.md#get), [PodAssignment_GetInfos](vdi.federation.PodAssignment.md#getInfos)
+     [PodAssignment_Get](vdi.federation.PodAssignment.md#get), [PodAssignment_GetInfos](vdi.federation.PodAssignment.md#getInfos)  
 See also
-     [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md), [PodAssignmentId](vdi.entity.PodAssignmentId.md)
+     [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md), [PodAssignmentId](vdi.entity.PodAssignmentId.md)  
 Since 
     Horizon View 6.0
 
@@ -46,20 +46,20 @@ Name |  Type |  Description
 **id**| [PodAssignmentId](vdi.entity.PodAssignmentId.md)|  Id of the pod assignment configuration   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **data**| [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md)|  Data for the pod assignment configuration.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this pod assignment.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

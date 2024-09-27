@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.ServerData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.ServerData  
 Property of
-     [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md#field_detail), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md#field_detail)
+     [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md#field_detail), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md#field_detail)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon View 6.0
 
@@ -74,13 +74,13 @@ Name |  Type |  Description
 **realmPrefix**|  xsd:string|  The realm prefix of the RADIUS authentication server.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **realmSuffix**|  xsd:string|  The realm suffix of the RADIUS authentication server.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

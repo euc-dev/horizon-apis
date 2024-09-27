@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopSpec  
 Property of
-     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
 See also
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -61,7 +61,7 @@ This option is only valid for Automated Desktop.
 **partnerDesktopSetting**| [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)|  Partner desktop settings.  **_Since_** Horizon 8.13  
 
 
-[^1]
+ * This property need not be set.
 
   
   

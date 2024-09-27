@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec  
 Parameter to
-     [ViewComposerDomainAdministrator_Create](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#create)
+     [ViewComposerDomainAdministrator_Create](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#create)  
 See also
-     [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Entity id for the virtual center related to the view composer server.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Basic data about a view composer domain administrator.   

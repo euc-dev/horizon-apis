@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualMachineNamingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualMachineNamingSettings  
 Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)
+     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)  
 See also
-     [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md), [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)
+     [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md), [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **namingMethod**|  xsd:string|  Determines how the VMs in the desktop are named.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -43,22 +43,20 @@ Name |  Type |  Description
 **patternNamingSettings**| [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md)|  Naming pattern settings.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if namingMethod is set to "PATTERN".
 
   
 **specificNamingSettings**| [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)|  Specified name settings.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if namingMethod is set to "SPECIFIED".
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

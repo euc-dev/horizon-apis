@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData  
 Property of
-     [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md#field_detail)
+     [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmId](vdi.entity.FarmId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmId](vdi.entity.FarmId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -68,8 +68,8 @@ This option is only valid for Automated Desktop.
 **imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -91,7 +91,7 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the desktops in your organization. They can also be used for delegated administration. For RDS Desktop, this has to be same as that of the corresponding Farm.   
@@ -99,25 +99,25 @@ This option is only valid for Automated Desktop.
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global entitlement for this desktop. This member will be null if not set or caller does not have global read permissions.   
 
 
-[^1]
+* This property need not be set.
 
   
 **globalEntitlementName**|  xsd:string|  Name of global entitlement for this desktop pool. This member will be populated even if caller does not have global read permissions.  **_Since_** Horizon 8.2  
 
 
-[^1]
+* This property need not be set.
 
   
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **provisioningEnabled**|  xsd:boolean|  Determines if provisioning is enabled   
 
 
-[^1]
+* This property need not be set.
 
   
 **numMachines**|  xsd:int|  Number of machines in the desktop. The machines may be queried using the query service for Machine. This field does not apply to RDS desktops. The RDS servers associated with an RDS desktop may be queried using the query service for RDSServer.   
@@ -127,32 +127,32 @@ This option is only valid for Automated Desktop.
 **userGroupCount**|  xsd:int|  Count of users and groups that are associated with this desktop pool.  **_Since_** Horizon 8.3  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **farm**| [FarmId](vdi.entity.FarmId.md)|  EntityId of Farm that is associated with the Machine. This value is populated only when it is an RDS Desktop, and optional otherwise.   
 
 
-[^1]
+* This property need not be set.
 
   
 **supportedDomains**|  xsd:string[]|  Supported domains for the desktop. Applicable only for automated desktops.  **_Since_** Horizon 7.4  
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
 **lastProvisioningError**|  xsd:string|  String message detailing the last provisioning error on this desktop while [stopProvisioningOnError](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#stopProvisioningOnError) is enabled. This will be cleared when [enableProvisioning](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#enableProvisioning) is updated to true. This field is only applicable to automated desktops.  **_Since_** Horizon 7.5  
 
 
-[^1]
+* This property need not be set.
 
   
 **categoryFolderName**|  xsd:string|  Name of the category folder in the user's OS containing a shortcut to the desktop. Unset if the desktop does not belong to a category.  **_Since_** Horizon 7.6  
 
 
-[^1]
+* This property need not be set.
   * This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\dir2, dir1\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names. 
 
   
@@ -160,21 +160,21 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **applicationCount**|  xsd:int|  Count of all the applications that belong to the application remoting enabled Desktop which are in the machines of the desktop.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **supportedSessionType**|  xsd:string|  Supported session types for this desktop.  **_Since_** Horizon 7.9  
 
 
   * This property has a default value of "DESKTOP".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -189,30 +189,28 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services.  **_Since_** Horizon 7.11  
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **cloudBrokered**|  xsd:boolean|  Indicates whether the desktop pool is brokered by cloud broker. This will be null for non-RDS Desktop pools.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings.LogoffSettings
+    com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings.LogoffSettings  
 Property of
-     [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md#field_detail)
+     [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md#field_detail)  
 Since 
     Horizon 7.6
 
@@ -31,25 +31,25 @@ Name |  Type |  Description
 
 
   * This property has a default value of 5.
-[^2]
+ * This property cannot be updated.
 
   
 **forcedLogoffMessage**|  xsd:string|  The warning to be displayed before logging off the user.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **displayWarningBeforeForcedLogoff**|  xsd:boolean|  Displays a warning message when users are forced to log off because a scheduled or immediate update such as a machine-refresh operation is about to start.  **_Since_** Horizon 7.7  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

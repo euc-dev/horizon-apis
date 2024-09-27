@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionNamesData
+    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionNamesData  
 Property of
-     [SessionGlobalNamesData](vdi.users.Session.SessionGlobalNamesData.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)
+     [SessionGlobalNamesData](vdi.users.Session.SessionGlobalNamesData.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -30,47 +30,47 @@ Name |  Type |  Description
 **userName**|  xsd:string|  User for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineOrRDSServerName**|  xsd:string|  Machine or RDSServer name for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineOrRDSServerDNS**|  xsd:string|  Machine or RDSServer DNS name for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **agentVersion**|  xsd:string|  The agent version.  **_Since_** Horizon 7.3  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **desktopPoolCN**|  xsd:string|  Desktop Pool cn if this is a Desktop session, unset otherwise.  
 **Note:** This will not be set for RDS desktop session when using GlobalSessionQueryService.  **_Since_** Horizon 7.5  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **desktopName**|  xsd:string|  Desktop display name if this is a Desktop session, unset otherwise.  
 **Note:** When using GlobalSessionQueryService, for RDS pool this is set as the [farmName](vdi.users.Session.SessionNamesData.md#farmName).   
 
 
-[^1]
+* This property need not be set.
 
   
 **desktopType**|  xsd:string|  Desktop type if this is a Desktop session, unset otherwise.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -82,7 +82,7 @@ Name |  Type |  Description
 **desktopSource**|  xsd:string|  Desktop machine source if this is a Desktop session, unset otherwise.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -100,20 +100,20 @@ This option is only valid for Automated Desktop.
 **farmName**|  xsd:string|  Farm display name for this RDS Desktop or Application session, unset otherwise.   
 
 
-[^1]
+* This property need not be set.
 
   
 **clientLocationID**|  xsd:string|  Client Location for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **clientType**|  xsd:string|  Client type for this session.  **_Since_** Horizon 7.7  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -129,38 +129,38 @@ This option is only valid for Automated Desktop.
 **clientAddress**|  xsd:string|  IP address of the client machine for this session.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
 
   
 **clientName**|  xsd:string|  Client machine name for this session.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
 
   
 **clientVersion**|  xsd:string|  Client version for this session.  **_Since_** Horizon 7.3  
 
 
-[^1]
+* This property need not be set.
 
   
 **securityGatewayDNS**|  xsd:string|  Computer machine name or DNS name of the security gateway.   
 
 
-[^1]
+* This property need not be set.
 
   
 **securityGatewayAddress**|  xsd:string|  IP address of the security gateway.  **_Since_** Horizon 7.3  
 
 
-[^1]
+* This property need not be set.
 
   
 **securityGatewayLocation**|  xsd:string|  Location of the security gateway.  **_Since_** Horizon 7.7  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -172,13 +172,13 @@ This option is only valid for Automated Desktop.
 **applicationNames**|  xsd:string[]|  Names of the Applications launched in this session. This will be only set when [sessionType](vdi.users.Session.SessionData.md#sessionType) is set to APPLICATION.  **_Since_** Horizon 7.11  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

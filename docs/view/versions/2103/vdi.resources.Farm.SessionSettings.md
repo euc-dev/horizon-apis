@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SessionSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SessionSettings  
 Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 **disconnectedSessionTimeoutMinutes**|  xsd:int|  Disconnected sessions timeout (in minutes). An empty disconnected session is logged off after the timeout.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if disconnectedSessionTimeoutPolicy is set to "AFTER".
 
@@ -63,7 +63,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 1.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if emptySessionTimeoutPolicy is set to "AFTER".
 
@@ -77,7 +77,7 @@ Name |  Type |  Description
 **preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -88,16 +88,14 @@ Name |  Type |  Description
 **preLaunchSessionTimeoutMinutes**|  xsd:int|  Application pre-launch session timeout (in minutes). A pre-launch session is disconnected after the timeout.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 10. 
   * This property is required if preLaunchSessionTimeoutPolicy is set to "AFTER".
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

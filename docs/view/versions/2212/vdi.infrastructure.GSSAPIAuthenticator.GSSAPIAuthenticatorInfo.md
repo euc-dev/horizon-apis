@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo  
 Returned by
-     [GSSAPIAuthenticator_Get](vdi.infrastructure.GSSAPIAuthenticator.md#get), [GSSAPIAuthenticator_List](vdi.infrastructure.GSSAPIAuthenticator.md#list)
+     [GSSAPIAuthenticator_Get](vdi.infrastructure.GSSAPIAuthenticator.md#get), [GSSAPIAuthenticator_List](vdi.infrastructure.GSSAPIAuthenticator.md#list)  
 See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md), [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)
+     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md), [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)  
 Since 
     Horizon 7.13
 
@@ -36,22 +36,20 @@ Name |  Type |  Description
 **connectionServers**| [ConnectionServerId[]](vdi.entity.ConnectionServerId.md)|  The list of Connection Servers for which this GSSAPI authenticator is enabled.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
 **refId**|  xsd:string|  Reference ID used for this GSSAPI Authenticator.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

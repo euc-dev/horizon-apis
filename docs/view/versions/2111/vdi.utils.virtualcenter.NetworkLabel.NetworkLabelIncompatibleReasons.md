@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons  
 Property of
-     [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md#field_detail)
+     [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -34,26 +34,24 @@ Name |  Type |  Description
 **notConfiguredOnAllHosts**|  xsd:boolean|  Whether or not the network label is configured on all hosts in a cluster. If true, this network label cannot be used in desktop configuration.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **dvsUplinkPort**|  xsd:boolean|  Whether or not the network label has the standard name of the distributed virtual switch uplink port, which cannot be assigned to virtual machines. If true, this network label cannot be used in desktop configuration.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **vmcNetworks**|  xsd:boolean|  Whether or not network label belongs to "VMC Networks". If true, this network label cannot be used in desktop configuration.  **_Since_** Horizon 7.8  
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

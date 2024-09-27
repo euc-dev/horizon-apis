@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig  
 Property of
-     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)
+     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)  
 See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.1
 
@@ -32,21 +32,21 @@ Name |  Type |  Description
 **defaultUser**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Default user for unauthenticated access in this connection server. It is optional when the unauthenticated access is being enabled and no unauthenticated access users were created.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **userIdleTimeout**|  xsd:int|  Unauthenticated Access user idle session timeout in minutes. The default value is 10 minutes.   
 
 
   * This property has a default value of 10.
-[^1]
+ * This property need not be set.
 
   
 **clientPuzzleDifficulty**|  xsd:int|  Client puzzle difficulty for DoS attack prevention for Unauthenticated Access. Higher difficulty might increase login time and affect user experience. The default value is 21.  **_Since_** Horizon 7.6  
 
 
   * This property has a default value of 21.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 14. 
   * This property has a maximum value of 31. 
 
@@ -55,7 +55,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
   

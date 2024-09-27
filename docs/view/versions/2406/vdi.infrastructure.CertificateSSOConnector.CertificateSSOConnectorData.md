@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData  
 Property of
-     [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md#field_detail), [CertificateSSOConnectorSpec](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec.md#field_detail)
+     [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md#field_detail), [CertificateSSOConnectorSpec](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec.md#field_detail)  
 See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)
+     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)  
 Since 
     Horizon 7.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  Description of this connector.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -53,13 +53,13 @@ Name |  Type |  Description
 **secondaryEnrollmentServer**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  The secondary enrollment server if the primary isn't available. This cannot be the same as the primary.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  The AD domain that this connector applies to. This domain must be unique among all connectors. This domain must be accessible to all enrollment servers configured on this connector. This cannot be changed once created.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **templateName**|  xsd:string|  Name of the certificate template to use for this domain. This template must be accessible to all enrollment servers configured on this connector.   

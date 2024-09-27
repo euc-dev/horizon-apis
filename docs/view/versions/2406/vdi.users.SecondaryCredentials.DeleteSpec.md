@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec
+    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec  
 Parameter to
-     [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete)
+     [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete)  
 See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 

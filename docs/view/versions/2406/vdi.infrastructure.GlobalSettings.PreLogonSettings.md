@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings  
 Returned by
-     [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)
+     [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)  
 Since 
     Horizon 7.5
 
@@ -36,7 +36,7 @@ Non UI based clients should ignore this property.
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
 
   
   

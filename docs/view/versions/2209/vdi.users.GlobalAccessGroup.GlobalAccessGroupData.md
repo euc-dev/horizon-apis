@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData
+    com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData  
 Property of
-     [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail)
+     [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail)  
 See also
-     [PermissionId](vdi.entity.PermissionId.md)
+     [PermissionId](vdi.entity.PermissionId.md)  
 Since 
     Horizon 8.2
 
@@ -32,21 +32,19 @@ Name |  Type |  Description
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and role) for this global access group.   
 
 
-[^1]
+* This property need not be set.
 
   
 **isDeletable**|  xsd:boolean|  If true, the global access group can be deleted, else not. For root global access group, the value will always be false.   
 
 
   * This property has a default value of false.
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

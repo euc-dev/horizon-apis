@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSpec  
 Parameter to
-     [Desktop_Create](vdi.resources.Desktop.md#create)
+     [Desktop_Create](vdi.resources.Desktop.md#create)  
 See also
-     [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md), [DesktopRDSDesktopSpec](vdi.resources.Desktop.RDSDesktopSpec.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)
+     [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md), [DesktopRDSDesktopSpec](vdi.resources.Desktop.RDSDesktopSpec.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **desktopSettings**| [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)|  Configuration settings for the desktop. Sets default and/or required values if unset.   
 
 
-[^1]
+* This property need not be set.
 
   
 **type**|  xsd:string|  Type of desktop.   
@@ -51,33 +51,33 @@ Name |  Type |  Description
 **automatedDesktopSpec**| [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md)|  Automated desktop spec.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if type is set to "AUTOMATED".
 
   
 **manualDesktopSpec**| [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md)|  Manual desktop spec.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if type is set to "MANUAL".
 
   
 **rdsDesktopSpec**| [DesktopRDSDesktopSpec](vdi.resources.Desktop.RDSDesktopSpec.md)|  RDS Desktop spec.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if type is set to "RDS".
 
   
 **globalEntitlementData**| [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md)|  Global entitlement data. Sets default values if unset.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

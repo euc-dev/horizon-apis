@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastPerformanceData
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastPerformanceData  
 Property of
-     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md#field_detail)
+     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md#field_detail)  
 See also
-     [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md), [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md), [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md), [BlastSessionStatistics](vdi.helpdesk.Performance.BlastSessionStatistics.md)
+     [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md), [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md), [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md), [BlastSessionStatistics](vdi.helpdesk.Performance.BlastSessionStatistics.md)  
 Since 
     Horizon 7.2
 
@@ -32,62 +32,62 @@ Name |  Type |  Description
 **estimatedThroughput**|  xsd:long| **Deprecated.**_use #BlastSessionStatistics.bytesTransmitted instead of this estimatedThroughput._ Estimated throughput of BLAST data that have been received since the session started. The unit is kilobits.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **estimatedFPS**|  xsd:long| **Deprecated.**_use #blastImagingStatistics.framesPerSecond instead of this estimatedFPS._ Estimated number of frames per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **estimatedRTT**|  xsd:long| **Deprecated.**_use #BlastSessionStatistics.roundTripTime instead of this estimatedRTT._ Estimated round trip time in milliseconds between the server and the client.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **estimatedBandwidth**|  xsd:long| **Deprecated.**_use #BlastSessionStatistics.bandwidthUplink instead of this estimatedRTT._ Estimated overall bandwidth averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **blastSessionStatistics**| [BlastSessionStatistics](vdi.helpdesk.Performance.BlastSessionStatistics.md)|  The session statistics about Blast protocol.  **_Since_** Horizon 7.3  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **blastImagingStatistics**| [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md)|  The image statistics about Blast protocol.  **_Since_** Horizon 7.3  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **blastAudioStatistics**| [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md)|  The audio statistics about Blast protocol.  **_Since_** Horizon 7.3  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **blastCDRStatistics**| [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md)|  The CDR statistics about Blast protocol.  **_Since_** Horizon 7.3  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

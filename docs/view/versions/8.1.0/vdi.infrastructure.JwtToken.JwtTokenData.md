@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData  
 Parameter to
-     [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)
+     [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)  
 Since 
     Horizon 7.4
 
@@ -31,9 +31,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

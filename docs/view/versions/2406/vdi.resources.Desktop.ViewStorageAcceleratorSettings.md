@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewStorageAcceleratorSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewStorageAcceleratorSettings  
 Property of
-     [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)
+     [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)  
 See also
-     [DesktopBlackoutTime](vdi.resources.Desktop.BlackoutTime.md)
+     [DesktopBlackoutTime](vdi.resources.Desktop.BlackoutTime.md)  
 Since 
     Horizon View 6.0
 
@@ -42,7 +42,7 @@ This value cannot be updated for Instant Clone Engine sourced desktops.
 
 
   * This property has a default value of "OS_DISKS".
-[^1]
+ * This property need not be set.
   * This property is required if useViewStorageAccelerator is set to true.
   * This property will be one of:  
 |  Value |  Description   
@@ -55,7 +55,7 @@ This value cannot be updated for Instant Clone Engine sourced desktops.
 
 
   * This property has a default value of 7.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 999. 
   * This property is required if useViewStorageAccelerator is set to true.
@@ -64,7 +64,7 @@ This value cannot be updated for Instant Clone Engine sourced desktops.
 **blackoutTimes**| [DesktopBlackoutTime[]](vdi.resources.Desktop.BlackoutTime.md)|  A list of blackout times. Storage accelerator regeneration and VM disk space reclamation do not occur during blackout times. The same blackout policy applies to both operations. If unset, no blackout times are used. This should not be set for Instant Clone Engine sourced desktops.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

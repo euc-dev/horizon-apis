@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.FileTypeData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.FileTypeData  
 Property of
-     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail)
+     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail)  
 Since 
     Horizon View 6.1
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  Friendly name for the file type - for example, "Microsoft Word document". If unset, no friendly name will be displayed.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   

@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials
+    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials  
 See also
-     [MapEntry](vdi.util.MapEntry.md), [SecondaryCredentialsDeleteSpec](vdi.users.SecondaryCredentials.DeleteSpec.md), [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md), [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md), [SecondaryCredentialsSpec](vdi.users.SecondaryCredentials.SecondaryCredentialsSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [MapEntry](vdi.util.MapEntry.md), [SecondaryCredentialsDeleteSpec](vdi.users.SecondaryCredentials.DeleteSpec.md), [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md), [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md), [SecondaryCredentialsSpec](vdi.users.SecondaryCredentials.SecondaryCredentialsSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.7
 
@@ -308,9 +306,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.LocalConnectionServerStatus
+    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.LocalConnectionServerStatus  
 Property of
-     [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md#field_detail)
+     [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md#field_detail)  
 See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [MapEntry](vdi.util.MapEntry.md)
+     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon View 6.0
 
@@ -49,25 +49,25 @@ Name |  Type |  Description
 **pendingPercentage**|  xsd:int|  Value between 0 and 100 representing completion percentage when Connection Server status is pending. Null in other status states.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errorMessage**|  xsd:string|  The Multi-DataCenter View error message for this Connection Server, if any is populated, or a success message.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errorMessageId**|  xsd:string|  Message ID of the error message.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errorMessageValues**| [MapEntry[]](vdi.util.MapEntry.md)|  The error message values.   
 
 
-[^1]
+ * This property need not be set.
   * This property is a set of entries with unique "key" members.
 
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.CertificateSSOData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.CertificateSSOData  
 Property of
-     [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md#field_detail)
+     [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -44,7 +44,7 @@ Name |  Type |  Description
 **passwordMode**|  xsd:string|  If Certificate SSO is triggered and a password is present in the SAML assertion, how to handle it.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if triggerMode is set to "ENABLE_ALWAYS"or "REQUIRE_ALWAYS".
   * This property will be one of:  
 |  Value |  Description   

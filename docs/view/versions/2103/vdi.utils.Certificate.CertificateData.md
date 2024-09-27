@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData
+    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData  
 Returned by
-     [Certificate_Validate](vdi.utils.Certificate.md#validate), [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)
+     [Certificate_Validate](vdi.utils.Certificate.md#validate), [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)  
 Since 
     Horizon View 6.0
 
@@ -36,19 +36,19 @@ Name |  Type |  Description
 **thumbprint**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Certificate thumbprint and corresponding algorithm.   
 
 
-[^1]
+* This property need not be set.
 
   
 **certificate**|  xsd:string|  The certificate in a string form.   
 
 
-[^1]
+* This property need not be set.
 
   
 **certificateEncoding**|  xsd:string|  The encoding of the certificate.  **_Since_** Horizon 7.8  
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -73,9 +73,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

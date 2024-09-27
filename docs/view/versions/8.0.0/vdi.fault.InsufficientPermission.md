@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InsufficientPermission
+    com.vmware.vdi.vlsi.binding.vdi.fault.InsufficientPermission  
 Extends
-     [SecurityError](vmodl.fault.SecurityError.md)
+     [SecurityError](vmodl.fault.SecurityError.md)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [EntityId](vdi.EntityId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **resource**| [EntityId](vdi.EntityId.md)|  The id, if any, of the resource that the user has insufficient permissions for.   
 
 
-[^1]
+*  This property need not be set.
 
   
 **privileges**|  xsd:string[]|  The insufficent privileges.   
@@ -274,7 +274,7 @@ Name |  Type |  Description
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  If the resource is located in an access group, the id of that access group.   
 
 
-[^1]
+*  This property need not be set.
 
   
 Properties inherited from [SecurityError](vmodl.fault.SecurityError.md)  
@@ -285,9 +285,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

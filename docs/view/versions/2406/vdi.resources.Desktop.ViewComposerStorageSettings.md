@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewComposerStorageSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewComposerStorageSettings  
 Property of
-     [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)
+     [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)  
 See also
-     [DatastoreId](vdi.entity.DatastoreId.md), [DesktopNonPersistentDiskSettings](vdi.resources.Desktop.NonPersistentDiskSettings.md), [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md), [DesktopSpaceReclamationSettings](vdi.resources.Desktop.SpaceReclamationSettings.md)
+     [DatastoreId](vdi.entity.DatastoreId.md), [DesktopNonPersistentDiskSettings](vdi.resources.Desktop.NonPersistentDiskSettings.md), [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md), [DesktopSpaceReclamationSettings](vdi.resources.Desktop.SpaceReclamationSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -50,7 +50,7 @@ Name |  Type |  Description
   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if useSeparateDatastoresReplicaAndOSDisks is set to true.
 
   

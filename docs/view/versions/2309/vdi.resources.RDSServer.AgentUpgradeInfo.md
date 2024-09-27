@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentUpgradeInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentUpgradeInfo  
 Property of
-     [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md#field_detail)
+     [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md#field_detail)  
 Since 
     Horizon 8.11
 
@@ -28,8 +28,8 @@ Name |  Type |  Description
 **agentUpgradeState**|  xsd:string|  State of the agent upgrade.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -45,8 +45,8 @@ Name |  Type |  Description
 **agentUpgradeResult**|  xsd:string|  Result of the agent upgrade.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -66,13 +66,13 @@ Name |  Type |  Description
 **agentUpgradeErrorMessage**|  xsd:string|  Error message of the agent upgrade failure.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

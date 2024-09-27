@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceData
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceData  
 Property of
-     [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md#field_detail)
+     [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md#field_detail)  
 Since 
     Horizon 7.2
 
@@ -30,29 +30,27 @@ Name |  Type |  Description
 **cpu**|  xsd:double|  The cpu utilization.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **memory**|  xsd:double|  The memory utilization.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **disk**|  xsd:double|  The disk utilization.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

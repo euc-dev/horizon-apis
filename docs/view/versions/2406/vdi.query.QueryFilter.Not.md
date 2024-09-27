@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Not
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Not  
 Extends
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 See also
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon View 6.0
 

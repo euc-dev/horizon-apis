@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationResponse
+    com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationResponse  
 Returned by
-     [Validator_validateName](vdi.utils.Validator.md#validateName)
+     [Validator_validateName](vdi.utils.Validator.md#validateName)  
 
 ## Data Object Description 
 
@@ -28,14 +28,12 @@ Name |  Type |  Description
 **isUnique**|  xsd:boolean|  Whether the value is unique.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

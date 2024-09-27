@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord  
 Returned by
-     [AuditEventDetails](vdi.infrastructure.AuditEvent.md#auditEventDetails)
+     [AuditEventDetails](vdi.infrastructure.AuditEvent.md#auditEventDetails)  
 See also
-     [RDSServerId](vdi.entity.RDSServerId.md)
+     [RDSServerId](vdi.entity.RDSServerId.md)  
 
 ## Data Object Description 
 
@@ -30,102 +30,102 @@ Name |  Type |  Description
 **desktopName**|  xsd:string|  Name of the Desktop associated with this event. This refers to the unique name used to identify the Desktop. Will be unset if there is no Desktop association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **desktopDisplayName**|  xsd:string|  Display name of the Desktop associated with this event. Will be unset if there is no Desktop association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **applicationName**|  xsd:string|  Name of the Application associated with this event. This refers to the unique name used to identify the Application. Will be unset if there is no Application association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **applicationDisplayName**|  xsd:string|  Display name of the Application associated with this event. Will be unset if there is no Application association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineName**|  xsd:string|  Name of the Machine associated with this event. Will be unset if there is no Machine association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineGuid**|  xsd:string|  Guid of the Machine associated with this event. Will be unset if there is no Machine association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **farmName**|  xsd:string|  Name of the Farm associated with this event. Will be unset if there is no Farm association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **farmDisplayName**|  xsd:string|  Display name of the Farm associated with this event. Will be unset if there is no Farm association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **endUserDisplayName**|  xsd:string|  Display name of the end user associated with this event. Will be unset if there is no End User association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **thinappDisplayName**|  xsd:string|  Display name of the Thinapp associated with this event. Will be unset if there is no Thinapp association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **processId**|  xsd:int|  Id of the remote process associated with this event. Will be unset if there is no process association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **processName**|  xsd:string|  Name of the remote process associated with this event. Will be unset if there is no process association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **remoteApplicationDescription**|  xsd:string|  Description of the remote application associated with this event. Will be unset if there is no application association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **remoteApplicationId**|  xsd:string|  Id of the remote application associated with this event. Will be unset if there is no application association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **persistentDiskName**|  xsd:string|  Name of the Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **rdsServerId**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS Server associated with this event. Will be unset if there is no RDS server association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

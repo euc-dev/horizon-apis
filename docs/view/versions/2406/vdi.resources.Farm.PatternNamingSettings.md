@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.PatternNamingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.PatternNamingSettings  
 Property of
-     [FarmRDSServerNamingSettings](vdi.resources.Farm.RDSServerNamingSettings.md#field_detail), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md#field_detail)
+     [FarmRDSServerNamingSettings](vdi.resources.Farm.RDSServerNamingSettings.md#field_detail), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md#field_detail)  
 Since 
     Horizon View 6.2
 

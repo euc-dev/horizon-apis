@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter.DatacenterInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter.DatacenterInfo  
 Returned by
-     [Datacenter_List](vdi.utils.virtualcenter.Datacenter.md#list)
+     [Datacenter_List](vdi.utils.virtualcenter.Datacenter.md#list)  
 See also
-     [DatacenterBase](vdi.utils.virtualcenter.Datacenter.DatacenterBase.md), [DatacenterId](vdi.entity.DatacenterId.md)
+     [DatacenterBase](vdi.utils.virtualcenter.Datacenter.DatacenterBase.md), [DatacenterId](vdi.entity.DatacenterId.md)  
 
 ## Data Object Description 
 
@@ -31,9 +31,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

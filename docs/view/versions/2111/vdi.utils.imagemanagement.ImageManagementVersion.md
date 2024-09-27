@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md), [MapEntry](vdi.util.MapEntry.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon 7.10
 
@@ -299,9 +297,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec  
 Parameter to
-     [InstantCloneEngineDomainAdministrator_Create](vdi.utils.InstantCloneEngineDomainAdministrator.md#create)
+     [InstantCloneEngineDomainAdministrator_Create](vdi.utils.InstantCloneEngineDomainAdministrator.md#create)  
 See also
-     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)
+     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)  
 Since 
     Horizon 7.0
 

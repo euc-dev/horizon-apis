@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine  
 See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualMachineInfo](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo.md)
+     [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualMachineInfo](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo.md)  
 Since 
     Horizon View 6.0
 
@@ -82,9 +80,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

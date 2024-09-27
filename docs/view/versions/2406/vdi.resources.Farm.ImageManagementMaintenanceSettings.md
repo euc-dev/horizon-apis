@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ImageManagementMaintenanceSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ImageManagementMaintenanceSettings  
 Property of
-     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail)
+     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)  
 Since 
     Horizon 7.10
 

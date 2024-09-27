@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineBase
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineBase  
 Property of
-     [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)
+     [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineAgentUpgradeInfo](vdi.resources.Machine.MachineAgentUpgradeInfo.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineAgentUpgradeInfo](vdi.resources.Machine.MachineAgentUpgradeInfo.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,67 +32,67 @@ Name |  Type |  Description
 **name**|  xsd:string|  The name of the Machine.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **dnsName**|  xsd:string|  DNS name for the Machine.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)| **Deprecated.**_use[users](vdi.resources.Machine.MachineBase.md#users) instead. This field will not be populated for machine belonging to pool which support multiple assignment. _ The user assigned to the Machine. This cannot be a group.  
   
 
 
-[^1]
+ * This property need not be set.
 
   
 **users**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  The users assigned to the Machine. This cannot be a group.  **_Since_** Horizon 7.12  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **aliases**| [MachineAlias[]](vdi.resources.Machine.MachineAlias.md)|  Machine aliases for all the assigned users.  **_Since_** Horizon 7.13  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group of this Machine.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop that the machine belongs to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **desktopName**|  xsd:string|  The name of the desktop that the machine belongs to.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **session**| [SessionId](vdi.entity.SessionId.md)|  The ID of the session on the machine (if one exists).   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **basicState**|  xsd:string|  The basic state of the Machine. For a Virtual Machine based Machine, the complete state is determined by basicState, isMissingInVCenter, operationState and isInHoldCustomization. In the Admin UI, the last three states are shown in brackets in the Machine State.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -131,7 +131,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  The type of Machine   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -142,8 +142,8 @@ Name |  Type |  Description
 **operatingSystem**|  xsd:string|  The guest operating system.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -173,8 +173,8 @@ Name |  Type |  Description
 **operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture.  **_Since_** Horizon 7.5  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -186,56 +186,54 @@ Name |  Type |  Description
 **agentVersion**|  xsd:string|  The agent version.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentBuildNumber**|  xsd:string|  The agent build number   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **remoteExperienceAgentVersion**|  xsd:string|  The remote experience agent version   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **remoteExperienceAgentBuildNumber**|  xsd:string|  The remote experience agent build number   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this machine.  **_Since_** Horizon 7.12  
 
 
-[^1]
+ * This property need not be set.
 
   
 **held**|  xsd:boolean|  Held status of the machine  **_Since_** Horizon 8.8  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentUpgradeInfo**| [MachineAgentUpgradeInfo](vdi.resources.Machine.MachineAgentUpgradeInfo.md)|  Information about agent upgrade on the machine  **_Since_** Horizon 8.8  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ImageMaintenanceSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ImageMaintenanceSettings  
 Property of
-     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail)
+     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md)  
 Since 
     Horizon 7.1
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo  
 Property of
-     [LogLevelInfo](vdi.utils.logcollector.LogCollector.LogLevelInfo.md#field_detail)
+     [LogLevelInfo](vdi.utils.logcollector.LogCollector.LogLevelInfo.md#field_detail)  
 Since 
     Horizon 8.4
 
@@ -36,16 +36,14 @@ Name |  Type |  Description
 **associatedFeatureList**|  xsd:string[]|  List of feature keys associated with this particular feature.   
 
 
-[^1]
+* This property need not be set.
 
   
 **supportedLogLevels**|  xsd:string[]|  List of log levels supported by this feature.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

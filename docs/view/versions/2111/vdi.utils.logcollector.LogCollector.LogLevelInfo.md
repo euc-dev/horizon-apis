@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo  
 Returned by
-     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)
+     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)  
 See also
-     [FeatureLogLevelInfo](vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo.md), [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)
+     [FeatureLogLevelInfo](vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo.md), [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)  
 Since 
     Horizon 8.4
 
@@ -41,15 +41,13 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 0. 
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

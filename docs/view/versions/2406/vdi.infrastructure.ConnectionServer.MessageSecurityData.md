@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.MessageSecurityData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.MessageSecurityData  
 Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
 Since 
     Horizon View 6.1
 
@@ -30,22 +30,22 @@ Name |  Type |  Description
 **messageSecurityEnhancedModeSupported**|  xsd:boolean|  Indicates whether ENHANCED message security mode is currently supported by this Connection Server.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **routerSslThumbprints**|  xsd:string[]|  The JMS router SSL thumbprints  **_Since_** Horizon 7.7  
 
 
-[^1]
+ * This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+ * This property cannot be updated.
 
   
 **msgSecurityPublicKey**|  xsd:string|  The JMS message security public key.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

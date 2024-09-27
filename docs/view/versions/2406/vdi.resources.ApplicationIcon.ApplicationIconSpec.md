@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec  
 Parameter to
-     [ApplicationIcon_CreateAndAssociate](vdi.resources.ApplicationIcon.md#createAndAssociate)
+     [ApplicationIcon_CreateAndAssociate](vdi.resources.ApplicationIcon.md#createAndAssociate)  
 See also
-     [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)
+     [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)  
 Since 
     Horizon 7.1
 

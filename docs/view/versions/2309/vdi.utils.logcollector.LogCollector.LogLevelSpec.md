@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelSpec  
 Parameter to
-     [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)
+     [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)  
 See also
-     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)
+     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)  
 Since 
     Horizon 8.4
 
@@ -35,7 +35,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **featureKey**|  xsd:string|  Short name of feature for which log level needs to be configured. Following is the component wise feature keys supported, currently. 
@@ -75,14 +75,14 @@ watermark | Watermark
 Note: The supported feature list is subject to change as and when new features get added. Use getLogLevels(LogCollectorComponentIdentifier) to get list of installed features and its log levels.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if reset is set to false.
 
   
 **logLevel**|  xsd:string|  New log level for the provided feature.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if reset is set to false.
   * This property will be one of:  
 |  Value |  Description   
@@ -95,7 +95,7 @@ Note: The supported feature list is subject to change as and when new features g
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

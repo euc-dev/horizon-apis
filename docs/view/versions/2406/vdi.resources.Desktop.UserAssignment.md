@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.UserAssignment
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.UserAssignment  
 Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail)
+     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **userAssignment**|  xsd:string|  User assignment scheme.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -42,7 +42,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
   * This property is required if userAssignment is set to "DEDICATED".
 
   
@@ -50,7 +50,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.GeneralData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.GeneralData  
 Property of
-     [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail)
+     [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail)  
 See also
-     [SAMLAuthenticatorCertificateSSOData](vdi.infrastructure.SAMLAuthenticator.CertificateSSOData.md)
+     [SAMLAuthenticatorCertificateSSOData](vdi.infrastructure.SAMLAuthenticator.CertificateSSOData.md)  
 Since 
     Horizon View 6.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description of this SAML authenticator.   
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -46,9 +46,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

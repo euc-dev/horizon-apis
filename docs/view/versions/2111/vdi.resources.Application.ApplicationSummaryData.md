@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryData  
 Property of
-     [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md#field_detail)
+     [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md#field_detail)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
 Since 
     Horizon 7.2
 
@@ -34,63 +34,61 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  Application display name.   
 
 
-[^1]
+* This property need not be set.
 
   
 **description**|  xsd:string|  Application description.   
 
 
-[^1]
+* This property need not be set.
 
   
 **enabled**|  xsd:boolean|  Indicates if Application is enabled.   
 
 
-[^1]
+* This property need not be set.
 
   
 **version**|  xsd:string|  Application version.   
 
 
-[^1]
+* This property need not be set.
 
   
 **publisher**|  xsd:string|  Application publisher.   
 
 
-[^1]
+* This property need not be set.
 
   
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm to which this Application is associated with. Either this or [desktop](vdi.resources.Application.ApplicationSummaryData.md#desktop) should be set.   
 
 
-[^1]
+* This property need not be set.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop to which this Application is associated with. Either this or [farm](vdi.resources.Application.ApplicationSummaryData.md#farm) should be set.  **_Since_** Horizon 7.9  
 
 
-[^1]
+* This property need not be set.
 
   
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Global Application Entitlement for this Application. This member will be null if not set or caller does not have global read permissions.   
 
 
-[^1]
+* This property need not be set.
 
   
 **cloudBrokered**|  xsd:boolean|  Indicates whether the application pool is brokered by cloud broker  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

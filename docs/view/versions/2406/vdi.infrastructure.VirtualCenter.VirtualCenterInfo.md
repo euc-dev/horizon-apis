@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterInfo  
 Returned by
-     [VirtualCenter_Get](vdi.infrastructure.VirtualCenter.md#get), [VirtualCenter_List](vdi.infrastructure.VirtualCenter.md#list)
+     [VirtualCenter_Get](vdi.infrastructure.VirtualCenter.md#get), [VirtualCenter_List](vdi.infrastructure.VirtualCenter.md#list)  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ServerSpec](vdi.utils.Certificate.ServerSpec.md), [VirtualCenterConcurrentOperationLimits](vdi.infrastructure.VirtualCenter.ConcurrentOperationLimits.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ServerSpec](vdi.utils.Certificate.ServerSpec.md), [VirtualCenterConcurrentOperationLimits](vdi.infrastructure.VirtualCenter.ConcurrentOperationLimits.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)  
 Since 
     Horizon View 6.0
 
@@ -36,33 +36,33 @@ Name |  Type |  Description
 **description**|  xsd:string|  Human readable description of the virtual center instance.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
 **displayName**|  xsd:string|  Human readable display name of the virtual center instance.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 256 characters. 
 
   
 **version**|  xsd:string|  Virtual center version.  **_Since_** Horizon 7.2  
 
 
-[^1]
+ * This property need not be set.
 
   
 **instanceUuid**|  xsd:string|  Virtual center instanceUuid.  **_Since_** Horizon 7.4  
 
 
-[^1]
+ * This property need not be set.
 
   
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Virtual center certificate thumbprint should the client choose to override an invalid certificate.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **limits**| [VirtualCenterConcurrentOperationLimits](vdi.infrastructure.VirtualCenter.ConcurrentOperationLimits.md)|  Virtual center and view composer limits for the number of concurrent operations.   
@@ -72,8 +72,8 @@ Name |  Type |  Description
 **viewComposerData**| [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View composer details.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **seSparseReclamationEnabled**|  xsd:boolean|  Is Storage Efficiency Sparse (seSparse) reclamation enabled?   
@@ -84,20 +84,20 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **isDeletable**|  xsd:boolean|  If true, Virtual Center can be deletable otherwise not. A Virtual Center cannot be deleted if there is atleast one Desktop and/or Farm associated with it.  **_Since_** Horizon 7.8  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **maintenanceMode**|  xsd:boolean|  If maintenance or upgrade task is scheduled on Virtual center or hosts. For example, set this flag when upgrading hosts using VMware vSphere Update Manager (VUM).  **_Since_** Horizon 7.13  
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **instantCloneDebugEnabled**|  xsd:boolean|  Enables instant clone debug mode in vCenter server to preserve internal template machines when an error occurs in it.  **_Since_** Horizon 8.10  
@@ -110,16 +110,16 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **deploymentType**|  xsd:string|  Describes the type of Horizon deployment.  **_Since_** Horizon 8.0  
 
 
   * This property has a default value of "GENERAL".
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -134,8 +134,8 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this Virtual Center.  **_Since_** Horizon 8.11  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

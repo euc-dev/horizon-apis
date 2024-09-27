@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskStorageData
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskStorageData  
 Property of
-     [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail)
+     [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail)  
 See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,20 +34,20 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Virtual Center server.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **datastoreName**|  xsd:string|  The datastore containing the persistent disk.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **capacityMB**|  xsd:long|  The capacity of the persistent disk in MB.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

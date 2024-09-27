@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SecurityServerPairingData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SecurityServerPairingData  
 Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon View 6.0
 

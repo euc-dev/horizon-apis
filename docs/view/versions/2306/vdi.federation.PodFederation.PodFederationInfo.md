@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo  
 Returned by
-     [PodFederation_Get](vdi.federation.PodFederation.md#get)
+     [PodFederation_Get](vdi.federation.PodFederation.md#get)  
 See also
-     [PodFederationData](vdi.federation.PodFederation.PodFederationData.md), [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)
+     [PodFederationData](vdi.federation.PodFederation.PodFederationData.md), [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)  
 Since 
     Horizon View 6.0
 
@@ -35,18 +35,18 @@ Name |  Type |  Description
 3\. Required read privileges are not met.   
 
 
-[^1]
+* This property need not be set.
 
   
 **localPodStatus**| [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)|  Multi-DataCenter View status for the local Pod.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

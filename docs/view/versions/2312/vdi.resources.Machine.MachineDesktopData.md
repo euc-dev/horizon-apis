@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDesktopData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDesktopData  
 Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md)
+     [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon 7.7
 
@@ -32,20 +32,20 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop that the machine belongs to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **name**|  xsd:string|  The name of the desktop that the machine belongs to.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **type**|  xsd:string|  Type of desktop.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -57,7 +57,7 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of machines.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -75,7 +75,7 @@ This option is only valid for Automated Desktop.
 **userAssignment**|  xsd:string|  User assignment scheme.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -85,9 +85,7 @@ This option is only valid for Automated Desktop.
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

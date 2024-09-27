@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView  
 See also
-     [FarmBase](vdi.resources.Farm.FarmBase.md), [FarmId](vdi.entity.FarmId.md), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)
+     [FarmBase](vdi.resources.Farm.FarmBase.md), [FarmId](vdi.entity.FarmId.md), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)  
 Since 
     Horizon 7.10
 
@@ -54,13 +54,13 @@ Name |  Type |  Description
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -75,7 +75,7 @@ This option is only valid for Automated Farm.
 **operatingSystem**|  xsd:string|  The guest operating system.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -92,8 +92,8 @@ This option is only valid for Automated Farm.
 **operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -105,27 +105,25 @@ This option is only valid for Automated Farm.
 **base**| [FarmBase](vdi.resources.Farm.FarmBase.md)|  Farm identification information.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **virtualCenterData**| [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)|  Paths for Virtual Center entities associated with this Farm.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

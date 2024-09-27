@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec  
 Parameter to
-     [Application_Create](vdi.resources.Application.md#create)
+     [Application_Create](vdi.resources.Application.md#create)  
 See also
-     [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)
+     [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)  
 Since 
     Horizon View 6.0
 
@@ -35,9 +35,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

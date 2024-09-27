@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementBase
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementBase  
 Property of
-     [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail), [GlobalEntitlementSummaryView](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md#field_detail)
+     [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail), [GlobalEntitlementSummaryView](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md#field_detail)  
 Parameter to
-     [GlobalEntitlement_Create](vdi.federation.GlobalEntitlement.md#create)
+     [GlobalEntitlement_Create](vdi.federation.GlobalEntitlement.md#create)  
 See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
 Since 
     Horizon View 6.0
 
@@ -40,14 +40,14 @@ Name |  Type |  Description
 **aliasName**|  xsd:string|  The alias name is the name that users will see when they connect using Horizon View Client. If the alias name is left blank, while creating or updating the Global Entitlement alias name value will be same as display name.  **_Since_** Horizon 8.0  
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 64 characters. 
 
   
 **description**|  xsd:string|  Description of Global Entitlement.   
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -55,7 +55,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "ANY".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -77,7 +77,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of "NONE".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -88,7 +88,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 **dedicated**|  xsd:boolean|  If this is a dedicated entitlement. If so, only dedicated desktops can be associated with this Global Entitlement. Otherwise, only floating desktops, can be associated with it. Can only be set at time of creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **fromHome**|  xsd:boolean|  This value defines the starting location for resource placement and search. When true, a pod in the user's home site is used to start the search. When false, the current site is used.   
@@ -103,9 +103,9 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of ["PCOIP", "RDP", "BLAST"].
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -118,7 +118,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of "PCOIP".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -131,16 +131,16 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of true.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **allowUsersToResetMachines**|  xsd:boolean|  Whether users are allowed to reset/restart their machines. If set to true, the desktops that are associated with this GlobalEntitlement must also allow users to reset/restart machines with [allowUsersToResetMachines](vdi.resources.Desktop.LogoffSettings.md#allowUsersToResetMachines).   
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. If set to true, the desktops that are associated with this GlobalEntitlement must also have HTML Access enabled with [enableHTMLAccess](vdi.resources.Desktop.DisplayProtocolSettings.md#enableHTMLAccess). Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#supportedDisplayProtocols).  
@@ -148,26 +148,26 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **allowMultipleSessionsPerUser**|  xsd:boolean|  Whether users can have multiple sessions when accessed from different client devices, this is also called Class room mode and applicable only to floating user assignment. If value is set to true, the desktops that are associated with this GlobalEntitlement must also allow users to have multiple sessions with [allowMultipleSessionsPerUser](vdi.resources.Desktop.LogoffSettings.md#allowMultipleSessionsPerUser) **_Since_** Horizon 7.1  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **connectionServerRestrictions**|  xsd:string[]|  Connection server restrictions. This is a list of tags that access to the entitlement is restricted to. No list means that the entitlement can be accessed from any connection server.  **_Since_** Horizon 7.1  
 
 
-[^1]
+* This property need not be set.
 
   
 **categoryFolderName**|  xsd:string|  Name of the category folder in the user's OS containing a shortcut to the entitlement. Unset if the entitlement does not belong to a category.  **_Since_** Horizon 7.3  
 
 
-[^1]
+* This property need not be set.
   * This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\dir2, dir1\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names. 
 
   
@@ -175,57 +175,57 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **enableCollaboration**|  xsd:boolean|  Enable session collaboration feature. Session collaboration allows a user to share their remote session with other users. Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#supportedDisplayProtocols). If set to true, the desktops that are associated with this GlobalEntitlement must also have session collaboration enabled with [enableCollaboration](vdi.resources.Desktop.DisplayProtocolSettings.md#enableCollaboration).  **_Since_** Horizon 7.4  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **shortcutLocations**|  xsd:string[]|  Locations of the category folder in the user's OS containing a shortcut to the desktop. The value must be set if [categoryFolderName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#categoryFolderName) is provided.  **_Since_** Horizon 7.5  
 
 
-[^1]
+* This property need not be set.
 
   
 **cloudManaged**|  xsd:boolean|  Indicates whether this global entitlement is managed from cloud.  **_Since_** Horizon 7.9  
 
 
-[^1]
+* This property need not be set.
 
   
 **backupGE**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Indicates the Global Entitlement that can be used as backup for this Global Entitlement.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
 **displayAssignedMachineName**|  xsd:boolean|  Indicates whether users should see the hostname of the machine assigned to them instead of [displayName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayName) when they connect using View Client. This is applicable for dedicated Global Entitlements only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client.  **_Since_** Horizon 7.12  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **displayMachineAlias**|  xsd:boolean|  Indicates whether users should see the machine alias of the machine assigned to them instead of [displayName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayName) when they connect using View Client. This is applicable for dedicated Global Entitlements only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client. If both [displayAssignedMachineName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayAssignedMachineName) and this property is set to true, machine alias of the assigned machine is displayed if the user has machine alias set. Otherwise hostname will be displayed.  **_Since_** Horizon 7.13  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **globalAccessGroupId**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  Global access groups can organize the global desktop entitlements in your organization. They can also be used for delegated administration.  **_Since_** Horizon 8.2  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo  
 Returned by
-     [InstantCloneEngineDomainAdministrator_Get](vdi.utils.InstantCloneEngineDomainAdministrator.md#get), [InstantCloneEngineDomainAdministrator_List](vdi.utils.InstantCloneEngineDomainAdministrator.md#list)
+     [InstantCloneEngineDomainAdministrator_Get](vdi.utils.InstantCloneEngineDomainAdministrator.md#get), [InstantCloneEngineDomainAdministrator_List](vdi.utils.InstantCloneEngineDomainAdministrator.md#list)  
 See also
-     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)
+     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)  
 Since 
     Horizon 7.0
 
@@ -32,14 +32,14 @@ Name |  Type |  Description
 **id**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)|  Entity id for the Instant Clone Engine domain administrator.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **siteName**|  xsd:string|  Name of the default AD Site.  **_Since_** Horizon 8.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **base**| [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)|  Basic data about Instant Clone Engine domain administrator.   
@@ -47,12 +47,12 @@ Name |  Type |  Description
 **namesData**| [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)|  Additional data about Instant Clone Engine domain administrator.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

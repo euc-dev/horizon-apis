@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionRemoteApplicationStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionRemoteApplicationStatistics  
 See also
-     [RemoteApplicationStatistics](vdi.helpdesk.Performance.RemoteApplicationStatistics.md), [SessionId](vdi.entity.SessionId.md)
+     [RemoteApplicationStatistics](vdi.helpdesk.Performance.RemoteApplicationStatistics.md), [SessionId](vdi.entity.SessionId.md)  
 Since 
     Horizon 8.1
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **applicationStatistics**| [RemoteApplicationStatistics[]](vdi.helpdesk.Performance.RemoteApplicationStatistics.md)|  The performance data for a remote application running during the session on virtual desktop. The value will be null if error occurs while retrieving the data.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errorMsg**|  xsd:string|  The error encoutered if any in fetching session info for each session. This value will be populated only if an error has occured and will be null otherwise.  **_Since_** Horizon 8.2  
 
 
-[^1]
+ * This property need not be set.
 
   
   

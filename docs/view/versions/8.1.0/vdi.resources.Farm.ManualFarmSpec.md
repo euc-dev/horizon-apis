@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec  
 Property of
-     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
 See also
-     [RDSServerId](vdi.entity.RDSServerId.md)
+     [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon View 6.2
 
@@ -33,9 +33,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

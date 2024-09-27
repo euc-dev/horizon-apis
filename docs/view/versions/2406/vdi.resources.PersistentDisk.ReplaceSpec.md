@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.ReplaceSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.ReplaceSpec  
 Parameter to
-     [PersistentDisk_Replace](vdi.resources.PersistentDisk.md#replace)
+     [PersistentDisk_Replace](vdi.resources.PersistentDisk.md#replace)  
 See also
-     [DatastorePathId](vdi.entity.DatastorePathId.md), [MachineId](vdi.entity.MachineId.md)
+     [DatastorePathId](vdi.entity.DatastorePathId.md), [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon View 6.0
 

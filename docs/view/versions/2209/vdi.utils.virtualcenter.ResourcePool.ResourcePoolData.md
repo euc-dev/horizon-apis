@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool.ResourcePoolData
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool.ResourcePoolData  
 Property of
-     [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md#field_detail)
+     [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -34,19 +34,19 @@ Name |  Type |  Description
 **name**|  xsd:string|  ResourcePool display name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **path**|  xsd:string|  ResourcePool path   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **type**|  xsd:string|  The type of this resource pool node. Some types may not be suitable for desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -58,14 +58,12 @@ Name |  Type |  Description
 **isCluster**|  xsd:boolean|  Whether the Resource Pool is a Cluster Node.  **_Since_** Horizon 7.9  
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

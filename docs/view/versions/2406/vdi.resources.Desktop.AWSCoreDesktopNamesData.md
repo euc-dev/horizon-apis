@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopNamesData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopNamesData  
 Property of
-     [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md#field_detail)
+     [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md#field_detail)  
 Since 
     Horizon 8.13
 

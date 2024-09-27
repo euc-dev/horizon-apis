@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec  
 Parameter to
-     [GSSAPIAuthenticator_Create](vdi.infrastructure.GSSAPIAuthenticator.md#create)
+     [GSSAPIAuthenticator_Create](vdi.infrastructure.GSSAPIAuthenticator.md#create)  
 See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md)
+     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md)  
 Since 
     Horizon 7.13
 

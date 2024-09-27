@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleData
+    com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleData  
 Property of
-     [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)
+     [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)  
 See also
-     [PermissionId](vdi.entity.PermissionId.md)
+     [PermissionId](vdi.entity.PermissionId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,21 +34,21 @@ Name |  Type |  Description
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and access group) for this role.   
 
 
-[^1]
+* This property need not be set.
 
   
 **appliesToAccessGroup**|  xsd:boolean|  Specifies whether access group is applicable for this role. This will be true when the role contains atleast one object specific privilege.  **_Since_** Horizon 7.8  
 
 
   * This property has a default value of false.
-[^2]
+* This property cannot be updated.
 
   
 **type**|  xsd:string|  The role type. It will be null for custom roles.  **_Since_** Horizon 7.8  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -69,14 +69,12 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

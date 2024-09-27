@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopSettings  
 Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail)
+     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail)  
 See also
-     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)
+     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)  
 Since 
     Horizon 8.13
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **awsCoreDesktopSettings**| [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)|  Specification for an AWS core desktop.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter  
 Property of
-     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)
+     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)  
 Returned by
-     [Monitoring_GetHealthCounters](vdi.health.Monitoring.md#getHealthCounters)
+     [Monitoring_GetHealthCounters](vdi.health.Monitoring.md#getHealthCounters)  
 See also
-     [MapEntry](vdi.util.MapEntry.md)
+     [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon View 6.0
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **category**|  xsd:string|  Component category.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -59,42 +59,42 @@ Name |  Type |  Description
 **totalCount**|  xsd:int|  Total number of items of the category.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **healthyCount**|  xsd:int|  Number of healthy items of the category.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **errorCount**|  xsd:int|  Number of items in the system those are in error state.  **_Since_** Horizon 7.12  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **warningCount**|  xsd:int|  Number of items in the system those are in warning state.  **_Since_** Horizon 7.12  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **unknownCount**|  xsd:int|  Number of items in the system those are in unknown state.  **_Since_** Horizon 7.12  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **details**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerAgentData
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerAgentData  
 Property of
-     [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md#field_detail)
+     [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md#field_detail)  
 See also
-     [RDSServerAgentUpgradeInfo](vdi.resources.RDSServer.AgentUpgradeInfo.md)
+     [RDSServerAgentUpgradeInfo](vdi.resources.RDSServer.AgentUpgradeInfo.md)  
 Since 
     Horizon View 6.0
 
@@ -32,15 +32,15 @@ Name |  Type |  Description
 **dnsName**|  xsd:string|  RDS server DNS name   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **operatingSystem**|  xsd:string|  OS version   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -70,41 +70,41 @@ Name |  Type |  Description
 **agentVersion**|  xsd:string|  Agent version   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentBuildNumber**|  xsd:string|  Agent build number   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **remoteExperienceAgentVersion**|  xsd:string|  Remote experience agent version   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **remoteExperienceAgentBuildNumber**|  xsd:string|  Remote experience agent build number   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentUpgradeInfo**| [RDSServerAgentUpgradeInfo](vdi.resources.RDSServer.AgentUpgradeInfo.md)|  Information about agent upgrade.  **_Since_** Horizon 8.11  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

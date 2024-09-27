@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementData
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementData  
 Property of
-     [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail)
+     [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail)  
 See also
-     [PodId](vdi.entity.PodId.md)
+     [PodId](vdi.entity.PodId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,45 +32,43 @@ Name |  Type |  Description
 **localDesktopCount**|  xsd:int|  Count of desktops local to this pod that are associated with this Global Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **remoteDesktopCount**|  xsd:int|  Count of desktops on remote pods that are associated with this Global Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userCount**|  xsd:int|  Count of users that are associated with this Global Entitlement. This value will be populated only in #get(GlobalEntitlementId).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userGroupCount**|  xsd:int|  Count of users and groups that are associated with this Global Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userGroupSiteOverrideCount**|  xsd:int|  Count of all User Home Site overrides associated with this Global Entitlement (for either users or groups). This value will be populated only in #get(GlobalEntitlementId).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **memberPods**| [PodId[]](vdi.entity.PodId.md)|  Pods that have desktops associated with this Global Entitlement.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

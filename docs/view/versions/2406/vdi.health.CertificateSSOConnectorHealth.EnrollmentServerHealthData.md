@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData
+    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData  
 Property of
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)
+     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)  
 See also
-     [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)
+     [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)  
 Since 
     Horizon 7.0
 
@@ -46,7 +46,7 @@ Name |  Type |  Description
 **stateReasons**|  xsd:string[]|  Reasons for the state, if any.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

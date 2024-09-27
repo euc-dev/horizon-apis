@@ -7,21 +7,19 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOEnrollmentServerId
+    com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOEnrollmentServerId  
 Property of
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md#field_detail), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md#field_detail), [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)
+     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md#field_detail), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md#field_detail), [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)  
 Parameter to
-     [CertificateSSOEnrollmentServer_Get](vdi.infrastructure.CertificateSSOEnrollmentServer.md#get)
+     [CertificateSSOEnrollmentServer_Get](vdi.infrastructure.CertificateSSOEnrollmentServer.md#get)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon 7.0
 
@@ -44,9 +42,7 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

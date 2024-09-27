@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MirageConfigurationOverrides
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MirageConfigurationOverrides  
 Property of
-     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)
+     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -41,22 +41,20 @@ Name |  Type |  Description
 **enabled**|  xsd:boolean|  Whether a Mirage server is enabled.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if overrideGlobalSetting is set to true.
 
   
 **url**|  xsd:string|  The URL of the Mirage server. This should be in the form "<(DNS name)|(IPv4)|(IPv6)><:(port)>". IPv6 addresses must be enclosed in square brackets.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if enabled is set to true.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

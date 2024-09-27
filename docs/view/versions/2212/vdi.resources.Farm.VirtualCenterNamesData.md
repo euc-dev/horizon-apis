@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNamesData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNamesData  
 Property of
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail)
+     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail)  
 Since 
     Horizon View 6.2
 
@@ -30,88 +30,86 @@ Name |  Type |  Description
 **parentVmPath**|  xsd:string|  Base image path for View Composer RDS Servers. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **snapshotPath**|  xsd:string|  Base image snapshot path for View Composer RDS Servers. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **imageManagementStreamName**|  xsd:string|  Name of image management stream used in instant clone farm when created from image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **imageManagementTagName**|  xsd:string|  Name of image management tag used in instant clone farm when created from image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **datacenterPath**|  xsd:string|  Datacenter path within which this Automated Farm is configured. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **vmFolderPath**|  xsd:string|  VM folder path to deploy the RDS Servers to. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **hostOrClusterPath**|  xsd:string|  Host or cluster path to deploy the RDS Servers in. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **resourcePoolPath**|  xsd:string|  Resource pool path to deploy the RDS Servers. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **datastorePaths**|  xsd:string[]|  Paths of the datastores. The names are the last element of the paths.   
 
 
-[^1]
+* This property need not be set.
 
   
 **replicaDiskDatastorePath**|  xsd:string|  Path of the replica disk datastore. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
 
   
 **nicNames**|  xsd:string[]|  Names of the network interface cards.   
 
 
-[^1]
+* This property need not be set.
 
   
 **networkLabelNames**|  xsd:string[]|  Names of the network labels.   
 
 
-[^1]
+* This property need not be set.
 
   
 **customizationSpecName**|  xsd:string|  The customization spec name.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

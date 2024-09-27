@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine
+    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine  
 See also
-     [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md), [RegisteredPhysicalMachineRegisterResult](vdi.resources.RegisteredPhysicalMachine.RegisterResult.md), [RegisteredPhysicalMachineRegisterSpec](vdi.resources.RegisteredPhysicalMachine.RegisterSpec.md)
+     [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md), [RegisteredPhysicalMachineRegisterResult](vdi.resources.RegisteredPhysicalMachine.RegisterResult.md), [RegisteredPhysicalMachineRegisterSpec](vdi.resources.RegisteredPhysicalMachine.RegisterSpec.md)  
 Since 
     Horizon View 6.0
 
@@ -191,9 +189,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

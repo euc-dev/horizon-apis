@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationSpec  
 Parameter to
-     [Validator_validateName](vdi.utils.Validator.md#validateName)
+     [Validator_validateName](vdi.utils.Validator.md#validateName)  
 Since 
     Horizon View 6.0
 

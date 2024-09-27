@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.UnsupportedDesktopOrFarmDetails
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.UnsupportedDesktopOrFarmDetails  
 Returned by
-     [VirtualCenter_ListUnsupportedDesktopsAndFarmsForVMC](vdi.infrastructure.VirtualCenter.md#listUnsupportedDesktopsAndFarmsForVMC)
+     [VirtualCenter_ListUnsupportedDesktopsAndFarmsForVMC](vdi.infrastructure.VirtualCenter.md#listUnsupportedDesktopsAndFarmsForVMC)  
 Since 
     Horizon 7.8
 
@@ -30,39 +30,39 @@ Name |  Type |  Description
 **name**|  xsd:string|  The desktop name is the unique name used to identify this desktop or farm.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **displayName**|  xsd:string|  The display name is the name that users will see when they connect to view client. If the display name is left blank, the identifier will be used.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **description**|  xsd:string|  The description is a set of notes about the desktop.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **isFarm**|  xsd:boolean|  If true, it indicates a farm else it is a desktop   
 
 
   * This property has a default value of false.
-[^2]
+ * This property cannot be updated.
 
   
 **numMachines**|  xsd:int|  Number of machines attached to a desktop pool or farm.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

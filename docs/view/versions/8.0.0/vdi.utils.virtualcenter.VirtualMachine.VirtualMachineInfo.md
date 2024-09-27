@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo  
 Returned by
-     [VirtualMachine_List](vdi.utils.virtualcenter.VirtualMachine.md#list)
+     [VirtualMachine_List](vdi.utils.virtualcenter.VirtualMachine.md#list)  
 See also
-     [MachineId](vdi.entity.MachineId.md), [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)
+     [MachineId](vdi.entity.MachineId.md), [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)  
 Since 
     Horizon View 6.0
 
@@ -32,26 +32,26 @@ Name |  Type |  Description
 **id**| [MachineId](vdi.entity.MachineId.md)|  VM Id   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  VM name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **path**|  xsd:string|  VM path   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **operatingSystem**|  xsd:string|  Operating system enumeration as known to View.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -80,35 +80,33 @@ Name |  Type |  Description
 **operatingSystemDisplayName**|  xsd:string|  Operating system display name from Virtual Center.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **hardwareVersion**|  xsd:int|  VM hardware version.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **vGPUType**|  xsd:string|  NVIDIA GRID vGPU type configured on this virtual machine, if any.  **_Since_** Horizon View 6.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **incompatibleReasons**| [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)|  Reasons that may preclude this VirtualMachine from being used in manual desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

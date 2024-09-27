@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring  
 See also
-     [APIMetricsInfo](vdi.health.Monitoring.APIMetricsInfo.md), [DesktopCounter](vdi.health.Monitoring.DesktopCounter.md), [DesktopId](vdi.entity.DesktopId.md), [GECounter](vdi.health.Monitoring.GECounter.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [HealthCounter](vdi.health.Monitoring.HealthCounter.md), [PodSessionCounter](vdi.health.Monitoring.PodSessionCounter.md), [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md)
+     [APIMetricsInfo](vdi.health.Monitoring.APIMetricsInfo.md), [DesktopCounter](vdi.health.Monitoring.DesktopCounter.md), [DesktopId](vdi.entity.DesktopId.md), [GECounter](vdi.health.Monitoring.GECounter.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [HealthCounter](vdi.health.Monitoring.HealthCounter.md), [PodSessionCounter](vdi.health.Monitoring.PodSessionCounter.md), [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md)  
 Since 
     Horizon 7.9
 
@@ -286,9 +284,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

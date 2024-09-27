@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterData  
 Property of
-     [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail)
+     [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.10
 
@@ -32,98 +32,96 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **parentVmPath**|  xsd:string|  Base image path for View Composer RDS Servers or current image parent VM path for instant clone RDS Servers. The name is the last element of the path.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **snapshotPath**|  xsd:string|  Base image snapshot path for View Composer RDS Servers or current image snapshot path for instant clone RDS Servers. The name is the last element of the path.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **parentVmMoid**|  xsd:string|  MOID of base image for View Composer RDS Servers or MOID of current image parent VM for instant clone RDS Servers.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **snapshotMoid**|  xsd:string|  MOID of base image snapshot for View Composer RDS Servers or MOID of current image snapshot for instant clone RDS Servers.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageParentVmPath**|  xsd:string|  Pending base image VM path for Instant clone farms. This is used to return the information about the parent VM of the pending Image.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageSnapshotPath**|  xsd:string|  Pending base image snapshot path for Instant clone farms. This is used to return the information about the snapshot of the pending Image.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageParentVmMoid**|  xsd:string|  MOID of pending base image VM for Instant clone farms. This is used to return the information about the parent VM of the pending image.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageSnapshotMoid**|  xsd:string|  MOID of pending base image snapshot for Instant clone farms. This is used to return the information about the snapshot of the pending image.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image Management Stream associated with instant clone farms if source is image catalog.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Image Management Tag associated with instant clone farms if source is image catalog.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Pending Image Management Stream associated with instant clone farms if source is image catalog.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **pendingImageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Pending Image Management Tag associated with instant clone farms if source is image catalog.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

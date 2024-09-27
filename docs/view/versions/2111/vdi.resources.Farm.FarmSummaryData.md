@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryData  
 Property of
-     [FarmSummaryView](vdi.resources.Farm.FarmSummaryView.md#field_detail)
+     [FarmSummaryView](vdi.resources.Farm.FarmSummaryView.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  Type of Farm.  **_Since_** Horizon View 6.2  
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -43,8 +43,8 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property is required if type is set to "AUTOMATED".
   * This property will be one of:  
 |  Value |  Description   
@@ -60,8 +60,8 @@ This option is only valid for Automated Farm.
 **imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -72,83 +72,83 @@ This option is only valid for Automated Farm.
 **name**|  xsd:string|  Farm name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **displayName**|  xsd:string|  Farm display name.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **description**|  xsd:string|  Farm description  **_Since_** Horizon View 6.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the farms in your organization. They can also be used for delegated administration.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **accessGroupName**|  xsd:string|  View access group name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **enabled**|  xsd:boolean|  Indicates if Farm is enabled   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **provisioningEnabled**|  xsd:boolean|  Indicates if provisioning is enabled for the Farm  **_Since_** Horizon 7.2  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **deleting**|  xsd:boolean|  Indicates if the farm is in the process of being deleted. Only applicable for automated farms.  **_Since_** Horizon View 6.2  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  RDS Desktop EntityId   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **desktopName**|  xsd:string|  RDS Desktop display name   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **rdsServerCount**|  xsd:int|  Count of RDS servers that belong to the Farm   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **applicationCount**|  xsd:int|  Count of Applications that belong to the Farm   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **maxSessionsType**|  xsd:string|  Farm max sessions type   
 
 
   * This property has a default value of "LIMITED".
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -159,17 +159,15 @@ This option is only valid for Automated Farm.
 **maximumNumberOfSessions**|  xsd:long|  Sum of maximum number of sessions of all RDS servers that belong to the Farm.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property has a minimum value of 1. 
   * This property is required if maxSessionsType is set to "LIMITED".
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

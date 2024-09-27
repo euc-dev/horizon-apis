@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup
+    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup  
 See also
-     [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md), [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md), [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md), [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md), [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -301,9 +299,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

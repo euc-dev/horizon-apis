@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterResult
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterResult  
 Returned by
-     [RDSServer_Register](vdi.resources.RDSServer.md#register)
+     [RDSServer_Register](vdi.resources.RDSServer.md#register)  
 See also
-     [RDSServerId](vdi.entity.RDSServerId.md)
+     [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon View 6.0
 

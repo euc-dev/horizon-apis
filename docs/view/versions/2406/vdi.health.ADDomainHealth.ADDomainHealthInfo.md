@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo  
 Returned by
-     [ADDomainHealth_List](vdi.health.ADDomainHealth.md#list)
+     [ADDomainHealth_List](vdi.health.ADDomainHealth.md#list)  
 See also
-     [ADDomainHealthConnectionServerConnectionData](vdi.health.ADDomainHealth.ConnectionServerConnectionData.md), [ServiceAccount](vdi.health.ADDomainHealth.ServiceAccount.md)
+     [ADDomainHealthConnectionServerConnectionData](vdi.health.ADDomainHealth.ConnectionServerConnectionData.md), [ServiceAccount](vdi.health.ADDomainHealth.ServiceAccount.md)  
 Since 
     Horizon View 6.0
 
@@ -39,7 +39,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "CONNECTION_SERVER_DOMAIN".
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -50,8 +50,8 @@ Name |  Type |  Description
 **serviceAccounts**| [ServiceAccount[]](vdi.health.ADDomainHealth.ServiceAccount.md)|  Service accounts for the domain.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **connectionServerState**| [ADDomainHealthConnectionServerConnectionData[]](vdi.health.ADDomainHealth.ConnectionServerConnectionData.md)|  The status of the connection to the domain for each connection server.   

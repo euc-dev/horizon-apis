@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.StorageAcceleratorHostOverride
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.StorageAcceleratorHostOverride  
 Property of
-     [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md#field_detail)
+     [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md#field_detail)  
 Since 
     Horizon View 6.0
 

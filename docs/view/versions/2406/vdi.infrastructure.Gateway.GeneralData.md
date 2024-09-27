@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GeneralData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GeneralData  
 Property of
-     [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)
+     [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -30,31 +30,31 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of the gateway   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **address**|  xsd:string|  IP address of the gateway.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **gatewayZoneInternal**|  xsd:boolean|  Flag to determine whether the gateway is internal.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **version**|  xsd:string|  Version of the gateway.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **type**|  xsd:string|  Type of the gateway. It will identify different types of gateways.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

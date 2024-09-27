@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vim.binding.vmodl.LocalizedMethodFault
+    com.vmware.vim.binding.vmodl.LocalizedMethodFault  
 See also
-     [MethodFault](vmodl.MethodFault.md)
+     [MethodFault](vmodl.MethodFault.md)  
 Since 
     vmodl.version.version0
 
@@ -36,14 +36,12 @@ Name |  Type |  Description
 **localizedMessage**|  xsd:string|  The localized message that would be sent in the faultstring element of the SOAP Fault. It is optional so that clients are not required to send a localized message to the server, but servers are required to send the localized message to clients.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

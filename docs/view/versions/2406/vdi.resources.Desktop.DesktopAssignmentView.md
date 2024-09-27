@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentView  
 See also
-     [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md), [DesktopId](vdi.entity.DesktopId.md)
+     [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md), [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon 7.9
 
@@ -49,8 +49,8 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics  
 Property of
-     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)
+     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)  
 Since 
     Horizon 7.3
 
@@ -30,36 +30,34 @@ Name |  Type |  Description
 **roundTripTime**|  xsd:long|  The round trip time in milliseconds between the server and the client.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **bandwidthUplink**|  xsd:long|  Uplink bandwidth averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **packetLossUplink**|  xsd:long|  Network packet loss for uplink.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **bytesTransmitted**|  xsd:long|  Transmitted bytes on the connection.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

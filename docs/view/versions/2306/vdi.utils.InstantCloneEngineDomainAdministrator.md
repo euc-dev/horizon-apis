@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator
+    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator  
 See also
-     [ADSiteInfo](vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md), [InstantCloneEngineDomainAdministratorSpec](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec.md), [MapEntry](vdi.util.MapEntry.md)
+     [ADSiteInfo](vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md), [InstantCloneEngineDomainAdministratorSpec](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon 7.0
 
@@ -345,9 +343,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

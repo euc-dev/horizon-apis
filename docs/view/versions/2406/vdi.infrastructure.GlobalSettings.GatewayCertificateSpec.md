@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateSpec  
 Parameter to
-     [GlobalSettings_AddGatewayCertificate](vdi.infrastructure.GlobalSettings.md#addGatewayCertificate)
+     [GlobalSettings_AddGatewayCertificate](vdi.infrastructure.GlobalSettings.md#addGatewayCertificate)  
 Since 
     Horizon 8.6
 

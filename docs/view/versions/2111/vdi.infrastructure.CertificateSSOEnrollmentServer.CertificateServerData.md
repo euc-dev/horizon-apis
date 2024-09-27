@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData  
 Property of
-     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail)
+     [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **networkAddress**|  xsd:string|  DNS name network address of this certificate server.   
 
 
-[^1]
+* This property need not be set.
 
   
 **connectionStatus**|  xsd:string|  The status of the enrollment server's connection to the certificate server.   
@@ -50,7 +50,7 @@ Name |  Type |  Description
 **connectionStatusReason**|  xsd:string|  Additional non-localized explanation of the connection status.   
 
 
-[^1]
+* This property need not be set.
 
   
 **certificateStatus**|  xsd:string|  The status of the certificate server's certificate.   
@@ -70,16 +70,14 @@ Name |  Type |  Description
 **templateNames**|  xsd:string[]|  Collection of certificate template names available to this certificate server.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

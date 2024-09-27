@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsInfo
+    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsInfo  
 Returned by
-     [SecondaryCredentials_Get](vdi.users.SecondaryCredentials.md#get), [SecondaryCredentials_List](vdi.users.SecondaryCredentials.md#list)
+     [SecondaryCredentials_Get](vdi.users.SecondaryCredentials.md#get), [SecondaryCredentials_List](vdi.users.SecondaryCredentials.md#list)  
 See also
-     [SecondaryCredentialsData](vdi.users.SecondaryCredentials.SecondaryCredentialsData.md), [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)
+     [SecondaryCredentialsData](vdi.users.SecondaryCredentials.SecondaryCredentialsData.md), [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)  
 Since 
     Horizon 7.7
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **id**| [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)|  Secondary credentials id.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **data**| [SecondaryCredentialsData](vdi.users.SecondaryCredentials.SecondaryCredentialsData.md)|  Secondary Credentials Data Object.   
@@ -40,13 +40,13 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this Secondary credential.  **_Since_** Horizon 8.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

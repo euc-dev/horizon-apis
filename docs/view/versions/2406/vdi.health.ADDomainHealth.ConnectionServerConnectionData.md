@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData
+    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData  
 Property of
-     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)
+     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)  
 See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md)
+     [ConnectionServerId](vdi.entity.ConnectionServerId.md)  
 Since 
     Horizon View 6.0
 
@@ -76,14 +76,14 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID of the connection server.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

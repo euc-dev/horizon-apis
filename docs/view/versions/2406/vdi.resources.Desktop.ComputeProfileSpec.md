@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec  
 Property of
-     [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail)
+     [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail)  
 Since 
     Horizon 8.6
 
@@ -45,7 +45,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 1.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
 
   

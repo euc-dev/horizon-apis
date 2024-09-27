@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo  
 Returned by
-     [EventDatabaseHealth_Get](vdi.health.EventDatabaseHealth.md#get)
+     [EventDatabaseHealth_Get](vdi.health.EventDatabaseHealth.md#get)  
 See also
-     [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md), [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)
+     [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md), [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)  
 Since 
     Horizon View 6.0
 
@@ -34,22 +34,20 @@ Name |  Type |  Description
 **data**| [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md)|  Information about the health of the event database   
 
 
-[^1]
+* This property need not be set.
   * This property is required if configured is set to true.
 
   
 **eventStatistics**| [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)|  Event statistics.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

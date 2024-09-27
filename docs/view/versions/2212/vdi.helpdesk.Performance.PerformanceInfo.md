@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo  
 Returned by
-     [Performance_Get](vdi.helpdesk.Performance.md#get)
+     [Performance_Get](vdi.helpdesk.Performance.md#get)  
 See also
-     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [PerformanceData](vdi.helpdesk.Performance.PerformanceData.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md)
+     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [PerformanceData](vdi.helpdesk.Performance.PerformanceData.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md)  
 Since 
     Horizon 7.2
 
@@ -32,34 +32,32 @@ Name |  Type |  Description
 **timestamp**|  xsd:long|  The time stamp when the last PerformanceData was obtained.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **overallPerformance**| [PerformanceData[]](vdi.helpdesk.Performance.PerformanceData.md)|  Overall performance data for a machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **processesPerformance**| [ProcessPerformanceData[]](vdi.helpdesk.Performance.ProcessPerformanceData.md)|  Performance data for processes in a machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **displayProtocolPerformance**| [DisplayProtocolPerformanceData[]](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md)|  Performance data for the current session display protocol.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

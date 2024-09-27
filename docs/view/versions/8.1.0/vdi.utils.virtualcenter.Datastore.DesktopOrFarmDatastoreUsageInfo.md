@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo  
 Returned by
-     [Datastore_GetUsage](vdi.utils.virtualcenter.Datastore.md#getUsage)
+     [Datastore_GetUsage](vdi.utils.virtualcenter.Datastore.md#getUsage)  
 Since 
     Horizon 7.9
 
@@ -30,21 +30,21 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of the Desktop or Farm.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **isFarm**|  xsd:boolean|  Represents if this is a Farm.   
 
 
   * This property has a default value of false.
-[^2]
+* This property cannot be updated.
 
   
 **source**|  xsd:string|  The Source or the Provisioning Type of machines in this Desktop or Farm.   
 **Note:** The value FULL_CLONE is not applicable in case of farms.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -57,28 +57,26 @@ Name |  Type |  Description
 Can be ignored in case of Farm.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **usedSpaceMB**|  xsd:long|  Used capacity of the datastore (in MB) for this Desktop or Farm.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **otherDatastoreNames**|  xsd:string[]|  Other datastore(s) in-use for this Desktop or Farm.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

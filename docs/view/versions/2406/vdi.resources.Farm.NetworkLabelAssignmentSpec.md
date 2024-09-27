@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkLabelAssignmentSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkLabelAssignmentSpec  
 Property of
-     [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md#field_detail)
+     [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md#field_detail)  
 See also
-     [NetworkLabelId](vdi.entity.NetworkLabelId.md)
+     [NetworkLabelId](vdi.entity.NetworkLabelId.md)  
 Since 
     Horizon View 6.2
 
@@ -50,7 +50,7 @@ Name |  Type |  Description
 **maxLabel**|  xsd:int|  The maximum number of times this label can be assigned to a machine. Note this count only encompasses this spec. That is, this label may be used for other NICs and in other farms, but those assignments will not be counted towards this total. This count also does not include assignments of this label to machines not under the control of View.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if maxLabelType is set to "LIMITED".
 

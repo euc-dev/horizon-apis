@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath  
 See also
-     [DatastoreId](vdi.entity.DatastoreId.md), [DatastorePathInfo](vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DatastoreId](vdi.entity.DatastoreId.md), [DatastorePathInfo](vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -84,9 +82,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

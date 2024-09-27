@@ -12,15 +12,15 @@ hide:
 
 Java Class
 
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo  
 
 Returned by
 
-    [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)
+    [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)  
 
 See also
 
-    [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)
+    [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)  
 
 Since 
 
@@ -50,12 +50,11 @@ Properties
 
 Name |  Type |  Description   
 ---|---|---  
-**id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)| Id of the user home site configuration[^1]
+**id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)| Id of the user home site configuration * This property need not be set.
 **base**| [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)| Base data for user home site configuration. 
-**refId**| xsd:string| Reference ID used for this user home site.  **_Since_** Horizon 8.1 [^2][^3]
+**refId**| xsd:string| Reference ID used for this user home site.  **_Since_** Horizon 8.1  
 
-[^1]This property cannot be updated.
-[^2]This property need not be set.
-[^3]This property cannot be updated.
+ * This property need not be set.
+ * This property cannot be updated.
   
 [Back to Home](index.md)

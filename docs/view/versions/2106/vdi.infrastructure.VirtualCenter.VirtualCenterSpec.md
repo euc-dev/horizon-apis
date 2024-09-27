@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterSpec  
 Parameter to
-     [VirtualCenter_Create](vdi.infrastructure.VirtualCenter.md#create)
+     [VirtualCenter_Create](vdi.infrastructure.VirtualCenter.md#create)  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ServerSpec](vdi.utils.Certificate.ServerSpec.md), [VirtualCenterConcurrentOperationLimits](vdi.infrastructure.VirtualCenter.ConcurrentOperationLimits.md), [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ServerSpec](vdi.utils.Certificate.ServerSpec.md), [VirtualCenterConcurrentOperationLimits](vdi.infrastructure.VirtualCenter.ConcurrentOperationLimits.md), [VirtualCenterStorageAcceleratorData](vdi.infrastructure.VirtualCenter.StorageAcceleratorData.md), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)  
 Since 
     Horizon View 6.0
 
@@ -34,21 +34,21 @@ Name |  Type |  Description
 **description**|  xsd:string|  Human readable description of the virtual center instance.   
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
 **displayName**|  xsd:string|  Human readable display name of the virtual center instance.   
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 256 characters. 
 
   
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Virtual center certificate thumbprint should the client choose to override an invalid certificate. Populate sslCertThumbprint with [certificate](vdi.utils.Certificate.CertificateData.md#certificate) and sslCertThumbprintAlgorithm with [certificateEncoding](vdi.utils.Certificate.CertificateData.md#certificateEncoding) returned by [Certificate_Validate](vdi.utils.Certificate.md#validate).   
 
 
-[^1]
+* This property need not be set.
 
   
 **disableVCInventoryLicenseAlarm**|  xsd:boolean| **Deprecated.**_This should always be set to true_ Should the virtual center inventory license alarm be disabled?   
@@ -64,8 +64,8 @@ Name |  Type |  Description
 **viewComposerData**| [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View composer details.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **seSparseReclamationEnabled**|  xsd:boolean|  Is Storage Efficiency Sparse (seSparse) reclamation enabled?   
@@ -74,13 +74,13 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **deploymentType**|  xsd:string|  Describes the type of VCenter deployment.  **_Since_** Horizon 8.3  
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -94,9 +94,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo  
 Returned by
-     [Datastore_ListDatastoreClustersByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoreClustersByHostOrCluster)
+     [Datastore_ListDatastoreClustersByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoreClustersByHostOrCluster)  
 See also
-     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md), [DatastoreId](vdi.entity.DatastoreId.md)
+     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md), [DatastoreId](vdi.entity.DatastoreId.md)  
 Since 
     Horizon 7.2
 
@@ -32,20 +32,20 @@ Name |  Type |  Description
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore Id   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **datastoreClusterData**| [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md)|  Datastore cluster data   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this datastore cluster.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmSpec  
 Property of
-     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
 See also
-     [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md), [FarmRDSServerMaxSessionsData](vdi.resources.Farm.RDSServerMaxSessionsData.md), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md), [FarmVirtualCenterManagedCommonSettings](vdi.resources.Farm.VirtualCenterManagedCommonSettings.md), [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md), [FarmRDSServerMaxSessionsData](vdi.resources.Farm.RDSServerMaxSessionsData.md), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md), [FarmVirtualCenterManagedCommonSettings](vdi.resources.Farm.VirtualCenterManagedCommonSettings.md), [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.2
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

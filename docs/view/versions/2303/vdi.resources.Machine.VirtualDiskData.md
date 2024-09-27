@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.VirtualDiskData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.VirtualDiskData  
 Property of
-     [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail)
+     [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -30,24 +30,24 @@ Name |  Type |  Description
 **path**|  xsd:string|  The disk path.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **datastorePath**|  xsd:string|  The disk's datastore.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **capacityMB**|  xsd:long|  The disk capacity, in MB.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

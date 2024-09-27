@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo  
 Returned by
-     [LogCollector_GetDownloadURL](vdi.utils.logcollector.LogCollector.md#getDownloadURL)
+     [LogCollector_GetDownloadURL](vdi.utils.logcollector.LogCollector.md#getDownloadURL)  
 See also
-     [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)
+     [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)  
 Since 
     Horizon 7.10
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **logCollectorBundleProfile**|  xsd:string[]|  Provides additional information about the log collection bundle.  **_Since_** Horizon 7.12  
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
   * This property will be one of:  
 |  Value |  Description   
@@ -46,9 +46,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

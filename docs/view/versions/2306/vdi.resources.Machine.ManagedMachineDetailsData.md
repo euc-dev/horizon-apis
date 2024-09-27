@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineDetailsData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineDetailsData  
 Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
 See also
-     [MachineVirtualDiskData](vdi.resources.Machine.VirtualDiskData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [MachineVirtualDiskData](vdi.resources.Machine.VirtualDiskData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.7
 
@@ -32,59 +32,59 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Id of the Virtual Center managing this Machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **hostName**|  xsd:string|  The name of the host on which this virtual machine is registered.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **datastorePaths**|  xsd:string[]|  The name(s) of the datastore(s) occupied by the virtual machine.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **virtualDisks**| [MachineVirtualDiskData[]](vdi.resources.Machine.VirtualDiskData.md)|  The virtual disk(s) comprising the virtual machine.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **persistentDisks**| [PersistentDiskId[]](vdi.entity.PersistentDiskId.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ The persistent disk(s) attached to this machine. This will be populated only for Linked clone provisioned machine.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **persistentDiskRefIds**|  xsd:string[]|  Reference IDs of the persistent disk(s)  **_Since_** Horizon 8.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **lastMaintenanceTime**|  xsd:dateTime|  The time of last maintenance operation. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **operation**|  xsd:string|  The current maintenance operation. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -101,8 +101,8 @@ Name |  Type |  Description
 **operationState**|  xsd:string|  The maintenance operation state. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -120,8 +120,8 @@ Name |  Type |  Description
 **autoRefreshLogOffSetting**|  xsd:string|  The logoff setting for auto refresh operation. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -132,95 +132,95 @@ Name |  Type |  Description
 **inHoldCustomization**|  xsd:boolean|  While a machine is in a particular basic state, it can be subject to further conditions. This condition determines if this virtual machine should hold before customization is started.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **missingInVCenter**|  xsd:boolean|  While a machine is in a particular basic state, it can be subject to further conditions. This condition determines if the virtual machine is missing in vCenter Server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **createTime**|  xsd:dateTime|  Time the machine was created.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **cloneErrorMessage**|  xsd:string|  Cloning error message for this machine. This will be set for machine belonging to automated desktops when the machine's [basicState](vdi.resources.Machine.MachineData.md#basicState) is in PROVISIONING_ERROR or ERROR state.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **cloneErrorTime**|  xsd:dateTime|  Cloning error time for this machine. This will be set for machine belonging to automated desktops when the machine's [basicState](vdi.resources.Machine.MachineData.md#basicState) is in PROVISIONING_ERROR or ERROR state.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **baseImagePath**|  xsd:string|  The base image. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **baseImageSnapshotPath**|  xsd:string|  The base image snapshot. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingBaseImagePath**|  xsd:string|  The pending base image. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingBaseImageSnapshotPath**|  xsd:string|  The pending base image snapshot. This will be populated only for Linked clone or Instant clone provisioned machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **imageManagementStreamName**|  xsd:string|  Name of the image management stream. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **imageManagementTagName**|  xsd:string|  Name of the image management tag. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementStreamName**|  xsd:string|  Name of the pending image management stream. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementTagName**|  xsd:string|  Name of the pending image management tag. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo
+    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo  
 Property of
-     [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md#field_detail)
+     [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md#field_detail)  
 See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalAccessGroupSummaryView](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md)
+     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalAccessGroupSummaryView](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md)  
 Since 
     Horizon 8.2
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **globalAccessGroupId**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  The global access group id.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **globalAccessGroupName**|  xsd:string|  The global access group name.   
@@ -40,18 +40,18 @@ Name |  Type |  Description
 **privileges**|  xsd:string[]|  The set of privileges on the current global access group.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **children**| [GlobalAccessGroupSummaryView[]](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md)|  Child access groups associated with current global access group.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

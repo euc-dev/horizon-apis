@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo  
 Returned by
-     [GlobalApplicationEntitlement_Get](vdi.federation.GlobalApplicationEntitlement.md#get), [GlobalEntitlement_ListCompatibleBackupGAEs](vdi.federation.GlobalApplicationEntitlement.md#listCompatibleBackupGAEs)
+     [GlobalApplicationEntitlement_Get](vdi.federation.GlobalApplicationEntitlement.md#get), [GlobalEntitlement_ListCompatibleBackupGAEs](vdi.federation.GlobalApplicationEntitlement.md#listCompatibleBackupGAEs)  
 See also
-     [ApplicationIconId](vdi.entity.ApplicationIconId.md), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md), [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md), [GlobalApplicationEntitlementExecutionData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+     [ApplicationIconId](vdi.entity.ApplicationIconId.md), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md), [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md), [GlobalApplicationEntitlementExecutionData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
 Since 
     Horizon View 6.2
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **id**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Identifier for Global Application Entitlement.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md)|  Global Application Entitlement base data.   
@@ -44,7 +44,7 @@ Name |  Type |  Description
 **data**| [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md)|  Data about members of the Global Application Entitlement.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **executionData**| [GlobalApplicationEntitlementExecutionData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData.md)|  Global Application Entitlement execution data.   
@@ -52,30 +52,28 @@ Name |  Type |  Description
 **icons**| [ApplicationIconId[]](vdi.entity.ApplicationIconId.md)|  Icons associated with the Global Application Entitlement   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **primaryGAE**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Indicates the Global Application Entitlement for which this Global Application Entitlement acts as backup.  **_Since_** Horizon 7.11  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this Global Application Entitlement.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

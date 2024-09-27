@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-    com.vmware.vim.binding.vmodl.DynamicArray
+    com.vmware.vim.binding.vmodl.DynamicArray  
 Since 
     vmodl.version.version0
 

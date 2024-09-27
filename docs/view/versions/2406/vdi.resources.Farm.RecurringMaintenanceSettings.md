@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecurringMaintenanceSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecurringMaintenanceSettings  
 Property of
-     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md#field_detail)
+     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md#field_detail)  
 Since 
     Horizon 7.1
 
@@ -47,7 +47,7 @@ Name |  Type |  Description
 **startInt**|  xsd:int|  Start index for weekly or monthly maintenance. Weekly: 1-7 (Sun-Sat), Monthly: 1-31   
 
 
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 31. 
   * This property is required if maintenancePeriod is set to "WEEKLY"or "MONTHLY".
@@ -57,7 +57,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 1.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 100. 
 

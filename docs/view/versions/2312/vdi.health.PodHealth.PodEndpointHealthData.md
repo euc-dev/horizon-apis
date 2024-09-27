@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodEndpointHealthData
+    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodEndpointHealthData  
 Property of
-     [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail)
+     [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail)  
 See also
-     [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md)
+     [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md)  
 Since 
     Horizon View 6.0
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **endpointInfo**| [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md)|  The PodEndpointInfo   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **state**|  xsd:string|  Health state of this PodEndpoint   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -50,22 +50,20 @@ Name |  Type |  Description
 **roundTripTime**|  xsd:long|  Round trip time (in milliseconds) for ping request between the local podEndpoint and the remote pod.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

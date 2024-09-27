@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryDefinition
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryDefinition  
 Parameter to
-     [QueryService_Create](vdi.query.QueryService.md#create), [QueryService_GetCount](vdi.query.QueryService.md#getCount), [QueryService_Query](vdi.query.QueryService.md#query)
+     [QueryService_Create](vdi.query.QueryService.md#create), [QueryService_GetCount](vdi.query.QueryService.md#getCount), [QueryService_Query](vdi.query.QueryService.md#query)  
 See also
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon View 6.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **filter**| [QueryFilter](vdi.query.QueryFilter.Filter.md)|  Any filter criteria for this query.   
 
 
-[^1]
+* This property need not be set.
 
   
 **sortBy**|  xsd:string|  Member names to sort by, if any. This attribute must be able to be filtered upon and be one of these types: 
@@ -53,38 +53,36 @@ Name |  Type |  Description
   
 
 
-[^1]
+* This property need not be set.
 
   
 **sortDescending**|  xsd:boolean|  Sort order: false (ascending) by default.   
 
 
-[^1]
+* This property need not be set.
 
   
 **startingOffset**|  xsd:int|  0-based starting offset for returned results, defaults to 0.   
 
 
-[^1]
+* This property need not be set.
 
   
 **limit**|  xsd:int|  Maximum count of items this query should produce, defaults to all.   
 
 
-[^1]
+* This property need not be set.
 
   
 **maxPageSize**|  xsd:int|  Maximum page size to return (the server may use a smaller size).   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

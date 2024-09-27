@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData  
 Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)
+     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)  
 See also
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -49,8 +49,8 @@ This option is only valid for Automated Desktop.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **userAssignment**| [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md)|  User assignment scheme.   
@@ -62,40 +62,40 @@ This option is only valid for Automated Desktop.
 **virtualCenterManagedCommonSettings**| [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md)|  Common settings for Desktops managed by Virtual Center sources.  **_Since_** Horizon View 6.1  
 
 
-[^1]
+ * This property need not be set.
 
   
 **virtualCenterNamesData**| [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md)|  Naming data for Virtual Center entities associated with this Desktop.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **provisioningStatusData**| [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md)|  Provisioning status data about this desktop.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **customizationSettings**| [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md)|  Customization settings for this desktop.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **partnerDesktopSetting**| [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)|  Partner desktop settings for AWSCORE pools  **_Since_** Horizon 8.13  
 
 
-[^1]
+ * This property need not be set.
 
   
 **partnerDesktopNamesData**| [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md)|  Naming data for partner desktop entities associated with this Desktop.  **_Since_** Horizon 8.13  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

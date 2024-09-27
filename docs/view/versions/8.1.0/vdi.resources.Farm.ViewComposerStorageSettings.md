@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewComposerStorageSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewComposerStorageSettings  
 Property of
-     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)
+     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)  
 See also
-     [DatastoreId](vdi.entity.DatastoreId.md), [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md)
+     [DatastoreId](vdi.entity.DatastoreId.md), [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md)  
 Since 
     Horizon View 6.2
 
@@ -43,7 +43,7 @@ Name |  Type |  Description
   
 
 
-[^1]
+* This property need not be set.
   * This property is required if useSeparateDatastoresReplicaAndOSDisks is set to true.
 
   
@@ -57,9 +57,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

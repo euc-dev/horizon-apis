@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineNamesView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineNamesView  
 See also
-     [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineManagedMachineNamesData](vdi.resources.Machine.ManagedMachineNamesData.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineNamesData](vdi.resources.Machine.NamesData.md)
+     [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineManagedMachineNamesData](vdi.resources.Machine.ManagedMachineNamesData.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineNamesData](vdi.resources.Machine.NamesData.md)  
 Since 
     Horizon View 6.0
 
@@ -60,12 +60,12 @@ Name |  Type |  Description
 **managedMachineNamesData**| [MachineManagedMachineNamesData](vdi.resources.Machine.ManagedMachineNamesData.md)|  Information applicable only to Managed Machines.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

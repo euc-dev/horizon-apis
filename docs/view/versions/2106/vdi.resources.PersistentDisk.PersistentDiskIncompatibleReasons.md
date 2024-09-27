@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons  
 Returned by
-     [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines)
+     [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines)  
 See also
-     [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+     [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
 Since 
     Horizon 7.8
 
@@ -36,14 +36,14 @@ Name |  Type |  Description
 **compatible**|  xsd:boolean|  True if the machine can be recreated with PersistentDisk. If the value is false, incompatible reasons are available at [incompatibleReasons](vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons.md#incompatibleReasons)   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **incompatibleReasons**|  xsd:string[]|  Incompatible reasons for recreating machine with the persistent disk.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -66,9 +66,7 @@ Type: Error - Machine can not be recreated with this incompatibility
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

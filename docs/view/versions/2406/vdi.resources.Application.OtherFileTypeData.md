@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.OtherFileTypeData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.OtherFileTypeData  
 Property of
-     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail)
+     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  Friendly name for the other file type - for example, "Http Web URL". If unset, no friendly name will be displayed.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   

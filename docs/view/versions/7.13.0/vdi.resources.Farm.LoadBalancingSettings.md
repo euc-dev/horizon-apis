@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings  
 Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
 See also
-     [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)
+     [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)  
 Since 
     Horizon 7.8
 
@@ -33,21 +33,19 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **lbMetricsSettings**| [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)|  Metrics used for load balancing. This will be used only when [useCustomScript](vdi.resources.Farm.LoadBalancingSettings.md#useCustomScript) is set to false.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if useCustomScript is set to false.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

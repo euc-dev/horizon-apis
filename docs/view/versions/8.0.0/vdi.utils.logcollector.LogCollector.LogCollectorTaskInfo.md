@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo  
 Returned by
-     [LogCollector_Collect](vdi.utils.logcollector.LogCollector.md#collect), [LogCollector_GetTaskInfo](vdi.utils.logcollector.LogCollector.md#getTaskInfo), [LogCollector_GetTaskInfoById](vdi.utils.logcollector.LogCollector.md#getTaskInfoById), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)
+     [LogCollector_Collect](vdi.utils.logcollector.LogCollector.md#collect), [LogCollector_GetTaskInfo](vdi.utils.logcollector.LogCollector.md#getTaskInfo), [LogCollector_GetTaskInfoById](vdi.utils.logcollector.LogCollector.md#getTaskInfoById), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)  
 See also
-     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.10
 
@@ -32,25 +32,25 @@ Name |  Type |  Description
 **logCollectorComponentId**| [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)|  Log component identifier.   
 
 
-[^1]
+* This property need not be set.
 
   
 **id**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)|  Unique identifier of a log collector task.   
 
 
-[^1]
+* This property need not be set.
 
   
 **startTime**|  xsd:dateTime|  Start time of the log collection.   
 
 
-[^1]
+* This property need not be set.
 
   
 **endTime**|  xsd:dateTime|  End time of the log collection.   
 
 
-[^1]
+* This property need not be set.
 
   
 **initiatedBy**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User identity information.   
@@ -73,9 +73,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

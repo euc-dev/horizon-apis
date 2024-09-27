@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAlias
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAlias  
 Property of
-     [MachineAliasUpdateSpec](vdi.resources.Machine.MachineAliasUpdateSpec.md#field_detail), [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)
+     [MachineAliasUpdateSpec](vdi.resources.Machine.MachineAliasUpdateSpec.md#field_detail), [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)  
 See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.13
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **alias**|  xsd:string|  Machine alias of the assigned user. If no machine alias is set for the user, then the value will be null.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

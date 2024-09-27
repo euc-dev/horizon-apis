@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Policies
+    com.vmware.vdi.vlsi.binding.vdi.users.Policies  
 See also
-     [EntityId](vdi.EntityId.md), [MapEntry](vdi.util.MapEntry.md), [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [EntityId](vdi.EntityId.md), [MapEntry](vdi.util.MapEntry.md), [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -356,9 +354,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.TemplateHealthData
+    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.TemplateHealthData  
 Property of
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)
+     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -43,7 +43,7 @@ Name |  Type |  Description
 **primaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the primary enrollment server, if any.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -56,7 +56,7 @@ Name |  Type |  Description
 **secondaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the secondary enrollment server, if any.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -68,7 +68,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFilter
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFilter  
 Property of
-     [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md#field_detail)
+     [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md#field_detail)  
 Since 
     Horizon 7.10
 
@@ -43,8 +43,8 @@ Name |  Type |  Description
 **stickyLogCollection**|  xsd:boolean|  Indicates the connection server processing the [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md) becomes the download owner.  **_Since_** Horizon 7.12  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **featureList**|  xsd:string[]|  List of features for which the logs need to be collected. Feature wise log collection is supported only for AGENT and AGENT_RDS. Following is the list of currently supported features. 
@@ -79,12 +79,12 @@ Note: The supported feature list is subject to change as and when new features g
 **_Since_** Horizon 8.4  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

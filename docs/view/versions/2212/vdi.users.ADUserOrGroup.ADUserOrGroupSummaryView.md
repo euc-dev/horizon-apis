@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView  
 Property of
-     [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md#field_detail)
+     [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md#field_detail)  
 Returned by
-     [ADUserOrGroup_GetSummaryView](vdi.users.ADUserOrGroup.md#getSummaryView), [ADUserOrGroup_GetSummaryViews](vdi.users.ADUserOrGroup.md#getSummaryViews), [ADUserOrGroup_Refresh](vdi.users.ADUserOrGroup.md#refresh), [ADUserOrGroup_RefreshUsersOrGroups](vdi.users.ADUserOrGroup.md#refreshUsersOrGroups)
+     [ADUserOrGroup_GetSummaryView](vdi.users.ADUserOrGroup.md#getSummaryView), [ADUserOrGroup_GetSummaryViews](vdi.users.ADUserOrGroup.md#getSummaryViews), [ADUserOrGroup_Refresh](vdi.users.ADUserOrGroup.md#refresh), [ADUserOrGroup_RefreshUsersOrGroups](vdi.users.ADUserOrGroup.md#refreshUsersOrGroups)  
 See also
-     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -65,9 +65,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

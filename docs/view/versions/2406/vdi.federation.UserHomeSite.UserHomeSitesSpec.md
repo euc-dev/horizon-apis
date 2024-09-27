@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSitesSpec
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSitesSpec  
 Parameter to
-     [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate)
+     [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate)  
 See also
-     [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)
+     [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)  
 Since 
     Horizon 7.9
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **allowUpdate**|  xsd:boolean|  determines whether the api can override an existing homesite.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **bases**| [UserHomeSiteBase[]](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  List of Base data for user home site configuration.   

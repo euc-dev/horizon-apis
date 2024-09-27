@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail  
 Returned by
-     [NetworkProxyConfiguration_Get](vdi.infrastructure.NetworkProxyConfiguration.md#get)
+     [NetworkProxyConfiguration_Get](vdi.infrastructure.NetworkProxyConfiguration.md#get)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon 7.3
 
@@ -34,14 +34,14 @@ Name |  Type |  Description
 **networkProxyHostname**|  xsd:string|  Network proxy host name.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if networkAutoProxy is set to false.
 
   
 **networkProxyPort**|  xsd:int|  Network proxy port.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 65535. 
   * This property is required if networkAutoProxy is set to false.
@@ -50,13 +50,13 @@ Name |  Type |  Description
 **networkProxyUsername**|  xsd:string|  Network proxy user name.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **networkProxyPassword**| [SecureString](vdi.util.SecureString.md)|  Network proxy password.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

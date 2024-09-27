@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.EntityInUse
+    com.vmware.vdi.vlsi.binding.vdi.fault.EntityInUse  
 Thrown by
-     [Farm_Create](vdi.resources.Farm.md#create), [ImageManagementAsset_Delete](vdi.utils.imagemanagement.ImageManagementAsset.md#delete), [ImageManagementStream_Delete](vdi.utils.imagemanagement.ImageManagementStream.md#delete), [ImageManagementTag_Delete](vdi.utils.imagemanagement.ImageManagementTag.md#delete), [InstantCloneEngineDomainAdministrator_Delete](vdi.utils.InstantCloneEngineDomainAdministrator.md#delete), [RADIUSAuthenticator_Delete](vdi.infrastructure.RADIUSAuthenticator.md#delete), [SAMLAuthenticator_Delete](vdi.infrastructure.SAMLAuthenticator.md#delete)
+     [Farm_Create](vdi.resources.Farm.md#create), [ImageManagementAsset_Delete](vdi.utils.imagemanagement.ImageManagementAsset.md#delete), [ImageManagementStream_Delete](vdi.utils.imagemanagement.ImageManagementStream.md#delete), [ImageManagementTag_Delete](vdi.utils.imagemanagement.ImageManagementTag.md#delete), [InstantCloneEngineDomainAdministrator_Delete](vdi.utils.InstantCloneEngineDomainAdministrator.md#delete), [RADIUSAuthenticator_Delete](vdi.infrastructure.RADIUSAuthenticator.md#delete), [SAMLAuthenticator_Delete](vdi.infrastructure.SAMLAuthenticator.md#delete)  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 See also
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 
@@ -43,9 +43,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

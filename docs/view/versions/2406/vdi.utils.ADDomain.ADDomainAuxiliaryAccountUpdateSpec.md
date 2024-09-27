@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec  
 Parameter to
-     [ADDomain_UpdateAuxiliaryAccounts](vdi.utils.ADDomain.md#updateAuxiliaryAccounts)
+     [ADDomain_UpdateAuxiliaryAccounts](vdi.utils.ADDomain.md#updateAuxiliaryAccounts)  
 See also
-     [AuxiliaryAccountUpdateData](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md)
+     [AuxiliaryAccountUpdateData](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md)  
 Since 
     Horizon 8.1
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipAudioStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipAudioStatistics  
 Property of
-     [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)
+     [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)  
 Since 
     Horizon 7.2
 
@@ -30,36 +30,36 @@ Name |  Type |  Description
 **bytesReceived**|  xsd:long|  Total number of bytes of audio data that have been received since the PCoIP session started.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **bytesSent**|  xsd:long|  Total number of bytes of audio data that have been sent since the PCoIP session started.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **rxBandwidth**|  xsd:long|  Bandwidth for ingoing audio packets averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **txBandwidth**|  xsd:long|  Bandwidth for outgoing audio packets averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **txBandwidthLimit**|  xsd:long|  Transmission bandwidth limit in kilobits per second for outgoing audio packets. The limit is defined by a GPO setting.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

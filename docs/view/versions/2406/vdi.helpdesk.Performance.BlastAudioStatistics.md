@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastAudioStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastAudioStatistics  
 Property of
-     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)
+     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)  
 Since 
     Horizon 7.3
 
@@ -30,15 +30,15 @@ Name |  Type |  Description
 **bytesReceived**|  xsd:long|  The number of bytes of audio data that have been received.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **bytesTransmitted**|  xsd:long|  The number of bytes of audio data that have been transmitted.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

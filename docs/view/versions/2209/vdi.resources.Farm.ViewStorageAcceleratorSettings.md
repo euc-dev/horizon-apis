@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewStorageAcceleratorSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewStorageAcceleratorSettings  
 Property of
-     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)
+     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)  
 Since 
     Horizon 7.2
 
@@ -34,14 +34,12 @@ This value cannot be updated for Instant Clone Engine sourced farms.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

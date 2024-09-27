@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec  
 Parameter to
-     [RADIUSAuthenticator_Create](vdi.infrastructure.RADIUSAuthenticator.md#create)
+     [RADIUSAuthenticator_Create](vdi.infrastructure.RADIUSAuthenticator.md#create)  
 See also
-     [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)
+     [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)  
 Since 
     Horizon View 6.0
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **secondaryServer**| [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)|  Information about the (optional) secondary server for this RADIUS authenticator.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

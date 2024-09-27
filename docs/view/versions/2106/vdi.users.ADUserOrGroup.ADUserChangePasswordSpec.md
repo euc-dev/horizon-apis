@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserChangePasswordSpec
+    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserChangePasswordSpec  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon 7.11
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **domain**|  xsd:string|  The domain of user. Note that domain is optional if UPN is supplied.   
 
 
-[^1]
+* This property need not be set.
 
   
 **username**|  xsd:string|  The username or UPN.   
@@ -42,20 +42,18 @@ Name |  Type |  Description
 **protectedPasswordKey**|  xsd:string|  Decryption key for the password. This key is itself encrypted with cluster's SSO keypair. Pls note that if this key is specified, it means passwords are sent in encrypted form else it is in plain text.   
 
 
-[^1]
+* This property need not be set.
 
   
 **keyId**|  xsd:string|  The keyId of the cluster's SSO KeyPair used to encrypt the [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserChangePasswordSpec.md#protectedPasswordKey). Pls note that this is required if [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserChangePasswordSpec.md#protectedPasswordKey) is specified.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

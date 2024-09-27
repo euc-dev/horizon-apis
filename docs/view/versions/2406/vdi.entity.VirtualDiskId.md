@@ -7,19 +7,17 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.VirtualDiskId
+    com.vmware.vdi.vlsi.binding.vdi.entity.VirtualDiskId  
 Property of
-     [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md#field_detail), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)
+     [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md#field_detail), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 

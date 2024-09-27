@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData  
 Property of
-     [DesktopAssignmentView](vdi.resources.Desktop.DesktopAssignmentView.md#field_detail)
+     [DesktopAssignmentView](vdi.resources.Desktop.DesktopAssignmentView.md#field_detail)  
 See also
-     [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+     [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
 Since 
     Horizon 7.9
 
@@ -66,7 +66,7 @@ This option is only valid for Automated Desktop.
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global entitlement for this desktop. This member will be null if not set or caller does not have global read permissions.   
 
 
-[^1]
+* This property need not be set.
 
   
 **numMachines**|  xsd:int|  Number of machines in the desktop. The machines may be queried using the query service for Machine. This field does not apply to RDS desktops. The RDS servers associated with an RDS desktop may be queried using the query service for RDSServer.   
@@ -74,7 +74,7 @@ This option is only valid for Automated Desktop.
 **operatingSystem**|  xsd:string|  The guest operating system. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -104,7 +104,7 @@ This option is only valid for Automated Desktop.
 **operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -143,7 +143,7 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **allowUsersToResetMachines**|  xsd:boolean|  Whether users are allowed to reset/restart their machines.   
@@ -168,14 +168,14 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **enableCollaboration**|  xsd:boolean|  Enable session collaboration feature. Session collaboration allows a user to share their remote session with other users. Blast must be configured as a supported protocol in #supportedDisplayProtocols.   
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **userAssignment**|  xsd:string|  User assignment scheme.   
@@ -194,30 +194,28 @@ This option is only valid for Automated Desktop.
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services.  **_Since_** Horizon 7.11  
 
 
   * This property has a default value of false.
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **numAssignedMachines**|  xsd:int|  Number of machines in the desktop which are assigned to users. The value will be zero for floating assignment desktop.  **_Since_** Horizon 7.11  
 
 
   * This property has a default value of 0.
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

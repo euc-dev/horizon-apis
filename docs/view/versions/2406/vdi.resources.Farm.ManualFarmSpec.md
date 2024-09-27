@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec  
 Property of
-     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
 See also
-     [RDSServerId](vdi.entity.RDSServerId.md)
+     [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon View 6.2
 

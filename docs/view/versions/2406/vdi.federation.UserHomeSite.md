@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite  
 See also
-     [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md), [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md), [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -589,9 +587,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

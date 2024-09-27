@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData  
 Property of
-     [FarmProvisioningStatusData](vdi.resources.Farm.ProvisioningStatusData.md#field_detail)
+     [FarmProvisioningStatusData](vdi.resources.Farm.ProvisioningStatusData.md#field_detail)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)  
 Since 
     Horizon 7.1
 
@@ -46,13 +46,13 @@ Name |  Type |  Description
 **operationTime**|  xsd:dateTime|  Time of the operation that instant clone farm is undergoing  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the farm.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -66,7 +66,7 @@ Name |  Type |  Description
 **instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -79,88 +79,86 @@ Name |  Type |  Description
 **pendingImageParentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Pending base image VM for Instant clone farms. This is used to return the information about the parent VM of the pending Image. To update base image VM of instant clone farms use Farm#scheduleRecurringMaintenance method.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "CANCEL_SCHEDULED_MAINTENANCE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageSnapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Pending base image snapshot for Instant clone farms. This is used to return the information about the snapshot of the pending Image. To update base image snapshot of instant clone farms use Farm#scheduleRecurringMaintenance method.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "CANCEL_SCHEDULED_MAINTENANCE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageParentVmPath**|  xsd:string|  Pending [pendingImageParentVm](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#pendingImageParentVm) path. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "CANCEL_SCHEDULED_MAINTENANCE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageSnapshotPath**|  xsd:string|  Pending [pendingImageSnapshot](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#pendingImageSnapshot) path. The name is the last element of the path.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if operation is set to "INITIAL_PUBLISH", "CANCEL_SCHEDULED_MAINTENANCE", or "INFRASTRUCTURE_CHANGE".
 
   
 **pendingImageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Pending image management stream for Instant clone farms. To update image management stream of instant clone farms use Farm#scheduleRecurringMaintenance method.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Pending image management tag for Instant clone farms. To update image management tag of instant clone farms use Farm#scheduleRecurringMaintenance method.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementStreamName**|  xsd:string|  Pending [pendingImageManagementStream](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#pendingImageManagementStream) name.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **pendingImageManagementTagName**|  xsd:string|  Pending [pendingImageManagementTag](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#pendingImageManagementTag) name.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **scheduledMaintenanceData**| [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md)|  Scheduled maintenance settings for automated instant clone farm.   
 
 
-[^1]
+* This property need not be set.
 
   
 **pendingImageError**|  xsd:string|  This represents the error message if publishing of PushImage is failed.  **_Since_** Horizon 7.8  
 
 
-[^1]
+* This property need not be set.
 
   
 **pendingImageProgress**|  xsd:int|  This represents the pending image publish progress in percentage for an instant clone farm.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
 **pendingComputeProfile**| [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md)|  Pending compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

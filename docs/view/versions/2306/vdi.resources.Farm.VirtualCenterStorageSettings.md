@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterStorageSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterStorageSettings  
 Property of
-     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)
+     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)  
 See also
-     [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md), [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md), [FarmVirtualCenterDatastoreSettings](vdi.resources.Farm.VirtualCenterDatastoreSettings.md)
+     [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md), [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md), [FarmVirtualCenterDatastoreSettings](vdi.resources.Farm.VirtualCenterDatastoreSettings.md)  
 Since 
     Horizon View 6.2
 
@@ -45,18 +45,18 @@ Name |  Type |  Description
 **viewComposerStorageSettings**| [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md)|  View Composer storage settings. This must be set for RDS servers in Automated Farms.   
 
 
-[^1]
+* This property need not be set.
 
   
 **viewStorageAcceleratorSettings**| [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md)|  View Storage Accelerator settings.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

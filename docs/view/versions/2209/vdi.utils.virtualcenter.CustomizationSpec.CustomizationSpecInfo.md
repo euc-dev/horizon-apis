@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo  
 Returned by
-     [CustomizationSpec_List](vdi.utils.virtualcenter.CustomizationSpec.md#list)
+     [CustomizationSpec_List](vdi.utils.virtualcenter.CustomizationSpec.md#list)  
 See also
-     [CustomizationSpecData](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData.md), [CustomizationSpecId](vdi.entity.CustomizationSpecId.md)
+     [CustomizationSpecData](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData.md), [CustomizationSpecId](vdi.entity.CustomizationSpecId.md)  
 Since 
     Horizon View 6.0
 
@@ -36,27 +36,25 @@ Name |  Type |  Description
 **id**| [CustomizationSpecId](vdi.entity.CustomizationSpecId.md)|  CustomizationSpec Id   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **customizationSpecData**| [CustomizationSpecData](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData.md)|  CustomizationSpecInfo data   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this customization specification.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

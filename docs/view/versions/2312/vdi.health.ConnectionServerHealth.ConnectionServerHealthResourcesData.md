@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData
+    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData  
 Property of
-     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)
+     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)  
 Since 
     Horizon 7.11
 
@@ -30,20 +30,18 @@ Name |  Type |  Description
 **cpuUsagePercentage**|  xsd:int|  Percentage of the CPU being used.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **memoryUsagePercentage**|  xsd:int|  Percentage of the memory being used.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

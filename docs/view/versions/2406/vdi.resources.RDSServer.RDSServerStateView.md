@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateView
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateView  
 See also
-     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [RDSServerId](vdi.entity.RDSServerId.md)
+     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon 7.7
 
@@ -45,28 +45,28 @@ Name |  Type |  Description
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  The id of the RDSServer.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **farm**| [FarmId](vdi.entity.FarmId.md)|  The farm id of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop id of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  The status of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -104,8 +104,8 @@ Name |  Type |  Description
 **machinePowerState**|  xsd:string|  PowerState of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -117,29 +117,29 @@ Name |  Type |  Description
 **ipV4**|  xsd:string|  IPV4 address of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **ipV6**|  xsd:string|  IPV6 address of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **dnsName**|  xsd:string|  DNS name of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **agentId**|  xsd:string|  ViewAgent Identity of the RDSServer.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

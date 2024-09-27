@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionInfo  
 Returned by
-     [URLRedirection_Get](vdi.infrastructure.URLRedirection.md#get), [URLRedirection_List](vdi.infrastructure.URLRedirection.md#list)
+     [URLRedirection_Get](vdi.infrastructure.URLRedirection.md#get), [URLRedirection_List](vdi.infrastructure.URLRedirection.md#list)  
 See also
-     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md)
+     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md)  
 Since 
     Horizon 7.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **id**| [URLRedirectionId](vdi.entity.URLRedirectionId.md)|  URLRedirection entity ID.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **urlRedirectionData**| [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md)|  URLRedirection Data Object.   

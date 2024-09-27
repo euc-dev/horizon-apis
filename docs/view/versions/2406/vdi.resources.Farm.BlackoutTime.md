@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.BlackoutTime
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.BlackoutTime  
 Property of
-     [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md#field_detail)
+     [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md#field_detail)  
 Since 
     Horizon View 6.2
 

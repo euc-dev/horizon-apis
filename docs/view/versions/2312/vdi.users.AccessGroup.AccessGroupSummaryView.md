@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupSummaryView  
 Property of
-     [AdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md#field_detail)
+     [AdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md)  
 Since 
     Horizon 7.6
 
@@ -32,21 +32,19 @@ Name |  Type |  Description
 **name**|  xsd:string|  The access group name.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property must contain only alphanumerics, spaces, underscores, and dashes. The maximum length is 32 characters. 
 
   
 **id**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group id.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

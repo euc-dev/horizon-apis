@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.MessageClient.MessageClientInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.MessageClient.MessageClientInfo  
 Returned by
-     [MessageClient_Create](vdi.utils.MessageClient.md#create), [MessageClient_Delete](vdi.utils.MessageClient.md#delete), [MessageClient_Get](vdi.utils.MessageClient.md#get), [MessageClient_Update](vdi.utils.MessageClient.md#update)
+     [MessageClient_Create](vdi.utils.MessageClient.md#create), [MessageClient_Delete](vdi.utils.MessageClient.md#delete), [MessageClient_Get](vdi.utils.MessageClient.md#get), [MessageClient_Update](vdi.utils.MessageClient.md#update)  
 See also
-     [MessageClientId](vdi.entity.MessageClientId.md)
+     [MessageClientId](vdi.entity.MessageClientId.md)  
 Since 
     Horizon 7.7
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **id**| [MessageClientId](vdi.entity.MessageClientId.md)|  The identity of the client.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **clientType**|  xsd:string|  The type of the client.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -48,14 +48,12 @@ Name |  Type |  Description
 **pemCertificates**|  xsd:string[]|  The client certificates in PEM format.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo  
 Returned by
-     [PodHealth_Get](vdi.health.PodHealth.md#get), [PodHealth_List](vdi.health.PodHealth.md#list)
+     [PodHealth_Get](vdi.health.PodHealth.md#get), [PodHealth_List](vdi.health.PodHealth.md#list)  
 See also
-     [PodHealthData](vdi.health.PodHealth.PodHealthData.md), [PodId](vdi.entity.PodId.md)
+     [PodHealthData](vdi.health.PodHealth.PodHealthData.md), [PodId](vdi.entity.PodId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,31 +32,31 @@ Name |  Type |  Description
 **id**| [PodId](vdi.entity.PodId.md)|  Id for the Pod   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **displayName**|  xsd:string|  Display name for the pod.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **data**| [PodHealthData](vdi.health.PodHealth.PodHealthData.md)|  Health data for this pod.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this pod.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData
+    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData  
 Property of
-     [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)
+     [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)  
 See also
-     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,19 +32,19 @@ Name |  Type |  Description
 **ownerId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The owner of secondary credentials.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **domain**|  xsd:string|  One way or two way trusted domain. This will be the DNS name of the domain.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **username**|  xsd:string|  Username for secondary credentials account.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **password**| [SecureString](vdi.util.SecureString.md)|  Password for secondary credentials account.  **_Since_** Horizon 8.8  
@@ -53,7 +53,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

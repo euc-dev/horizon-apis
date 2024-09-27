@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderInfo  
 Property of
-     [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md#field_detail)
+     [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md#field_detail)  
 Returned by
-     [VmFolder_GetVmFolderTree](vdi.utils.virtualcenter.VmFolder.md#getVmFolderTree)
+     [VmFolder_GetVmFolderTree](vdi.utils.virtualcenter.VmFolder.md#getVmFolderTree)  
 See also
-     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md), [VmFolderId](vdi.entity.VmFolderId.md), 
+     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md), [VmFolderId](vdi.entity.VmFolderId.md),   
 Since 
     Horizon View 6.0
 
@@ -38,27 +38,27 @@ Name |  Type |  Description
 **id**| [VmFolderId](vdi.entity.VmFolderId.md)|  VmFolder Id   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **folderData**| [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md)|  Folder display data   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **children**| [VmFolderInfo[]](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md)|  Children nodes of the tree-structure   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this vm folder.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

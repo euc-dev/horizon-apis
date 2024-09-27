@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager.ServerKeyDerivationInfo
+    com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager  .ServerKeyDerivationInfo  
 Returned by
-     [AuthenticationManager_GenerateKeyMaterial](vdi.AuthenticationManager.md#generateKeyMaterial)
+     [AuthenticationManager_GenerateKeyMaterial](vdi.AuthenticationManager.md#generateKeyMaterial)  
 Since 
     Horizon 8.4
 

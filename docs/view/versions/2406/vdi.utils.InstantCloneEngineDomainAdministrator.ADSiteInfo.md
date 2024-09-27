@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo  
 Returned by
-     [InstantCloneEngineDomainAdministrator_GetADSitesInfo](vdi.utils.InstantCloneEngineDomainAdministrator.md#getADSitesInfo)
+     [InstantCloneEngineDomainAdministrator_GetADSitesInfo](vdi.utils.InstantCloneEngineDomainAdministrator.md#getADSitesInfo)  
 Since 
     Horizon 8.9
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **siteName**|  xsd:string|  Name of the AD Site.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

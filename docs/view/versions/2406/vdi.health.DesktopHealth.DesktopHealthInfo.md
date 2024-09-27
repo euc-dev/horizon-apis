@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo  
 Returned by
-     [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)
+     [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon View 6.0
 
@@ -44,19 +44,19 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop entity ID   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **name**|  xsd:string|  Desktop name   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **type**|  xsd:string|  Desktop type   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -68,7 +68,7 @@ Name |  Type |  Description
 **health**|  xsd:string|  Desktop health   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -81,8 +81,8 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of machines.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property is required if type is set to "AUTOMATED".
   * This property will be one of:  
 |  Value |  Description   
@@ -102,21 +102,21 @@ This option is only valid for Automated Desktop.
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group associated with this Desktop.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **enableAppRemoting**|  xsd:boolean|  True, if this desktop can be used for application pool creation.   
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **applicationStatus**| [ApplicationStatusInfo[]](vdi.health.DesktopHealth.ApplicationStatusInfo.md)|  Application status   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

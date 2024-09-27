@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskGeneralData
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskGeneralData  
 Property of
-     [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail)
+     [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,38 +34,38 @@ Name |  Type |  Description
 **name**|  xsd:string|  The name of the persistent disk. This is the filename of the virtual disk on Virtual Center.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop associated with the persistent disk.   
 
 
-[^1]
+* This property need not be set.
 
   
 **desktopName**|  xsd:string|  Desktop Name corresponding to [desktop](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md#desktop) **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user owning the persistent disk. This cannot be a group.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machine**| [MachineId](vdi.entity.MachineId.md)|  The machine the disk is attached to. MachineIds of this type originate from the [Machine](vdi.resources.Machine.md) service.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **machineName**|  xsd:string|  Name of the machine corresponding to [machine](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md#machine) **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group of the virtual disk.   
@@ -73,7 +73,7 @@ Name |  Type |  Description
 **usage**|  xsd:string|  The usage of the persistent disk.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -86,7 +86,7 @@ Name |  Type |  Description
 **status**|  xsd:string|  The status of the persistent disk.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -102,13 +102,13 @@ Name |  Type |  Description
 **lastAttachedTime**|  xsd:dateTime|  If detached, when this persistent disk was either last attached to a machine or created from a Virtual Disk. It will be unset otherwise.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

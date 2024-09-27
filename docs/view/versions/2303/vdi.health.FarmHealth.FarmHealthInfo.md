@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.FarmHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.FarmHealthInfo  
 Returned by
-     [FarmHealth_Get](vdi.health.FarmHealth.md#get)
+     [FarmHealth_Get](vdi.health.FarmHealth.md#get)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmHealthMissingApplicationInfo](vdi.health.FarmHealth.MissingApplicationInfo.md), [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md), [FarmId](vdi.entity.FarmId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmHealthMissingApplicationInfo](vdi.health.FarmHealth.MissingApplicationInfo.md), [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md), [FarmId](vdi.entity.FarmId.md)  
 Since 
     Horizon View 6.0
 
@@ -46,19 +46,19 @@ Name |  Type |  Description
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  Farm name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **type**|  xsd:string|  Farm type  **_Since_** Horizon View 6.2  
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -69,7 +69,7 @@ Name |  Type |  Description
 **health**|  xsd:string|  Farm health   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -85,8 +85,8 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.6  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property is required if type is set to "AUTOMATED".
   * This property will be one of:  
 |  Value |  Description   
@@ -102,45 +102,45 @@ This option is only valid for Automated Farm.
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group associated with this Farm.  **_Since_** Horizon 7.6  
 
 
-[^2]
+* This property cannot be updated.
 
   
 **rdsServerHealth**| [FarmHealthRDSServerHealthInfo[]](vdi.health.FarmHealth.RDSServerHealthInfo.md)|  RDS server health information of the servers that belong to the Farm   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **numApplications**|  xsd:int|  Number of applications published from this Farm.  **_Since_** Horizon 7.9  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID of the Farm.  **_Since_** Horizon 7.10  
 
 
-[^1]
+* This property need not be set.
 
   
 **missingAVApplications**| [FarmHealthMissingApplicationInfo[]](vdi.health.FarmHealth.MissingApplicationInfo.md)|  Missing Application info for those Applications that are missing on the associated App volumes manager.  **_Since_** Horizon 8.8  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **avmAccessible**|  xsd:boolean|  Indicates if App volumes manager is accessible. This will be set only if App volumes published applications are present.  **_Since_** Horizon 8.8  
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

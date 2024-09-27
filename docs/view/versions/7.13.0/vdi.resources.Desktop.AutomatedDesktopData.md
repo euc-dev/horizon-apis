@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData  
 Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)
+     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)  
 See also
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -48,7 +48,7 @@ This option is only valid for Automated Desktop.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **userAssignment**| [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md)|  User assignment scheme.   
@@ -62,22 +62,20 @@ This option is only valid for Automated Desktop.
 **virtualCenterNamesData**| [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md)|  Naming data for Virtual Center entities associated with this Desktop.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **provisioningStatusData**| [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md)|  Provisioning status data about this desktop.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **customizationSettings**| [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md)|  Customization settings for this desktop.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

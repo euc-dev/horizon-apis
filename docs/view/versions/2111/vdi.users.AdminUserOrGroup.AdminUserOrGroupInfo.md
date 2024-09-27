@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo
+    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo  
 Property of
-     [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)
+     [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)  
 Returned by
-     [AdminUserOrGroup_Get](vdi.users.AdminUserOrGroup.md#get), [AdminUserOrGroup_List](vdi.users.AdminUserOrGroup.md#list)
+     [AdminUserOrGroup_Get](vdi.users.AdminUserOrGroup.md#get), [AdminUserOrGroup_List](vdi.users.AdminUserOrGroup.md#list)  
 See also
-     [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md), [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md), [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,26 +34,24 @@ Name |  Type |  Description
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **permissionData**| [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md)|  Administrative permission data relevant to this user or group.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

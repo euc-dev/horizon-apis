@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData
+    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData  
 Property of
-     [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md#field_detail)
+     [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md#field_detail)  
 See also
-     [SecureString](vdi.util.SecureString.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)
+     [SecureString](vdi.util.SecureString.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)  
 Since 
     Horizon 8.1
 
@@ -33,7 +33,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

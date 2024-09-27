@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseSettings  
 Property of
-     [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)
+     [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon View 6.0
 
@@ -54,14 +54,14 @@ Name |  Type |  Description
 **tablePrefix**|  xsd:string|  If present, all tables for this instance will start with this prefix. This allows multiple brokers to use the same events database without trampling on other broker data.   
 
 
-[^1]
+ * This property need not be set.
   * This property must start with a letter, may only contain letters, numbers, and the characters @, $, #, and _, and may not be longer than 6 characters. 
 
   
 **queryTimeout**|  xsd:int|  Query execution timeout  **_Since_** Horizon 7.9  
 
 
-[^1]
+ * This property need not be set.
 
   
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord  
 Returned by
-     [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)
+     [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)  
 Since 
     Horizon View 6.0
 

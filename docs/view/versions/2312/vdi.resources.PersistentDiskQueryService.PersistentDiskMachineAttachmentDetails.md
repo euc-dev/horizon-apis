@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails  
 See also
-     [MachineId](vdi.entity.MachineId.md)
+     [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon 7.8
 
@@ -32,31 +32,31 @@ Name |  Type |  Description
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **machineName**|  xsd:string|  The name of the machine   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **desktopName**|  xsd:string|  The name of the desktop that the machine belongs to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userName**|  xsd:string|  Name of the user assigned to the machine   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **machineBasicState**|  xsd:string|  The basic state of the Machine. For a Virtual Machine based Machine, the complete state is determined by basicState, isMissingInVCenter, operationState and isInHoldCustomization. In the Admin UI, the last three states are shown in brackets in the Machine State.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -95,14 +95,14 @@ Name |  Type |  Description
 **compatible**|  xsd:boolean|  True if the machine can be attached to PersistentDisk. If the value is false, incompatible reasons are available at [incompatibleReasons](vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails.md#incompatibleReasons)   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **incompatibleReasons**|  xsd:string[]|  Incompatible reasons for attach machine to the persistent disk.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -116,9 +116,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo  
 Returned by
-     [RADIUSAuthenticator_Get](vdi.infrastructure.RADIUSAuthenticator.md#get), [RADIUSAuthenticator_List](vdi.infrastructure.RADIUSAuthenticator.md#list)
+     [RADIUSAuthenticator_Get](vdi.infrastructure.RADIUSAuthenticator.md#get), [RADIUSAuthenticator_List](vdi.infrastructure.RADIUSAuthenticator.md#list)  
 See also
-     [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)
+     [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)  
 Since 
     Horizon View 6.0
 
@@ -38,14 +38,14 @@ Name |  Type |  Description
 **secondaryServer**| [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)|  Information about the (optional) secondary server for this RADIUS authenticator.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **refId**|  xsd:string|  Reference ID used for this RADIUS Authenticator.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo  
 Returned by
-     [ImageManagementTag_Get](vdi.utils.imagemanagement.ImageManagementTag.md#get), [ImageManagementTag_ListBySpec](vdi.utils.imagemanagement.ImageManagementTag.md#listBySpec)
+     [ImageManagementTag_Get](vdi.utils.imagemanagement.ImageManagementTag.md#get), [ImageManagementTag_ListBySpec](vdi.utils.imagemanagement.ImageManagementTag.md#listBySpec)  
 See also
-     [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)
+     [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)  
 Since 
     Horizon 7.10
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **id**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Entity id image management tag.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md)|  Basic data about a image management tag.   
@@ -40,15 +40,13 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this image management tag.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

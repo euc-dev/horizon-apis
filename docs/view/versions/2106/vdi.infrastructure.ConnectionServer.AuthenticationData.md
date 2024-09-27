@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.AuthenticationData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.AuthenticationData  
 Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
 See also
-     [ConnectionServerGSSAPIData](vdi.infrastructure.ConnectionServer.GSSAPIData.md), [ConnectionServerRADIUSData](vdi.infrastructure.ConnectionServer.RADIUSData.md), [ConnectionServerRSASecureIdData](vdi.infrastructure.ConnectionServer.RSASecureIdData.md), [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md), [UnauthenticatedAccessConfig](vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig.md)
+     [ConnectionServerGSSAPIData](vdi.infrastructure.ConnectionServer.GSSAPIData.md), [ConnectionServerRADIUSData](vdi.infrastructure.ConnectionServer.RADIUSData.md), [ConnectionServerRSASecureIdData](vdi.infrastructure.ConnectionServer.RSASecureIdData.md), [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md), [UnauthenticatedAccessConfig](vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig.md)  
 Since 
     Horizon View 6.0
 
@@ -44,7 +44,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **logoffWhenRemoveSmartCard**|  xsd:boolean|  Whether user is logged off on removal of Smart Card.   
@@ -72,9 +72,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

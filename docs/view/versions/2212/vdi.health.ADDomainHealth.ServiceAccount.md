@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ServiceAccount
+    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ServiceAccount  
 Property of
-     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)
+     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)  
 See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 8.2
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **ownerId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The owner of secondary credentials.   
 
 
-[^1]
+* This property need not be set.
 
   
 **username**|  xsd:string|  Service account username.   
@@ -48,9 +48,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

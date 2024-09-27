@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord  
 Returned by
-     [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)
+     [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)  
 
 ## Data Object Description 
 
@@ -29,9 +29,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

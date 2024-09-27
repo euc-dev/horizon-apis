@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.EntityAlreadyExists
+    com.vmware.vdi.vlsi.binding.vdi.fault.EntityAlreadyExists  
 Thrown by
-     [Farm_Create](vdi.resources.Farm.md#create)
+     [Farm_Create](vdi.resources.Farm.md#create)  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 See also
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 
@@ -41,9 +41,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

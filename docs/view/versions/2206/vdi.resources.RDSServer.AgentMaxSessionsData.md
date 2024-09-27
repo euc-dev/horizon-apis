@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentMaxSessionsData
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentMaxSessionsData  
 Property of
-     [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)
+     [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -31,7 +31,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "LIMITED".
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -42,17 +42,15 @@ Name |  Type |  Description
 **maxSessionsSeenByAgent**|  xsd:int|  Maximum number of sessions on an RDS server as seen by the agent.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property has a minimum value of 1. 
   * This property is required if maxSessionsType is set to "LIMITED".
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

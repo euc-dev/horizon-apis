@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerMaxSessionsData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerMaxSessionsData  
 Property of
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)
+     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)  
 Since 
     Horizon View 6.2
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **maxSessions**|  xsd:int|    
 
 
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if maxSessionsType is set to "LIMITED".
 

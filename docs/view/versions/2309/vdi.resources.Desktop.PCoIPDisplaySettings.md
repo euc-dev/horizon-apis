@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PCoIPDisplaySettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PCoIPDisplaySettings  
 Property of
-     [DesktopDisplayProtocolSettings](vdi.resources.Desktop.DisplayProtocolSettings.md#field_detail)
+     [DesktopDisplayProtocolSettings](vdi.resources.Desktop.DisplayProtocolSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -45,21 +45,21 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^2]
+ * This property cannot be updated.
 
   
 **vGPUGridProfile**|  xsd:string|  NVIDIA GRID vGPUs might have multiple profiles and any one of the available profiles can be applied to newly created instant clone desktop. The profile specified in this field will be used in the newly created instant clone desktop.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **vRamSizeMB**|  xsd:int|  VRAM size for View managed 3D rendering. More VRAM can improve 3D performance. Size is in MB. On ESXi 5.0 hosts, the renderer allows a maximum VRAM size of 128MB. On ESXi 5.1 and later hosts, the maximum VRAM size is 512MB. For Instant Clones, this value is inherited from snapshot of Master VM.   
 
 
   * This property has a default value of 96.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 64. 
   * This property has a maximum value of 512. 
   * This property is required if renderer3D is set to "AUTOMATIC", "SOFTWARE", or "HARDWARE".
@@ -68,15 +68,15 @@ Name |  Type |  Description
 **vRamSizeKB**|  xsd:long|  VRAM size in KB for Instant Clone desktops. This field is populated after reading VRAM size from snapshot of MasterVM in the backend. It is applicable only when 3D is disabled.  **_Since_** Horizon 7.2  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **maxNumberOfMonitors**|  xsd:int|  When 3D is disabled, the 'Max number of monitors' and 'Max resolution of any one monitor' settings determine the amount of vRAM assigned to machines in this desktop. The greater these values are, the more memory will be consumed on the associated ESX hosts. Existing virtual machines must be powered off and subsequently powered on for the change to take effect. A restart will not cause the changes to take effect. If 3D is enabled and managed by View, the maximum number of monitors must be 1 or 2. For Instant Clones, this value is inherited from snapshot of Master VM.   
 
 
   * This property has a default value of 2.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 4. 
   * This property is required if renderer3D is set to "AUTOMATIC", "SOFTWARE", "HARDWARE", or "DISABLED".
@@ -86,7 +86,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "WUXGA".
-[^1]
+ * This property need not be set.
   * This property is required if renderer3D is set to "AUTOMATIC", "SOFTWARE", "HARDWARE", or "DISABLED".
   * This property will be one of:  
 |  Value |  Description   
@@ -101,7 +101,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo  
 Returned by
-     [RemoteAssistantTicket_Get](vdi.helpdesk.RemoteAssistantTicket.md#get)
+     [RemoteAssistantTicket_Get](vdi.helpdesk.RemoteAssistantTicket.md#get)  
 Since 
     Horizon 7.2
 
@@ -30,14 +30,12 @@ Name |  Type |  Description
 **ticket**|  xsd:string|    
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics
+    com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics  
 Property of
-     [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md#field_detail)
+     [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md#field_detail)  
 Since 
     Horizon 7.8
 
@@ -30,20 +30,20 @@ Name |  Type |  Description
 **name**|  xsd:string|  The name of the Virtual Center host.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **version**|  xsd:string|  The version of the Virtual Center host.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  The status of the Virtual Center host.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -55,36 +55,36 @@ Name |  Type |  Description
 **numCpuCores**|  xsd:int|  Number of physical CPU cores on the host.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **cpuMhz**|  xsd:int|  CPU speed per core. This might be an averaged value if the speed is not uniform across all cores. The total CPU speed of the box is defined as cpuMhz * numCpuCores   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **overallCpuUsage**|  xsd:int|  Aggregated CPU usage across all cores on the host, in MHz.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **memorySizeBytes**|  xsd:long|  The physical memory size, in bytes.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **overallMemoryUsageMB**|  xsd:int|  Physical memory usage on the host, in MBs.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

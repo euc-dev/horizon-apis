@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCounters
+    com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCounters  
 Property of
-     [UsageStatisticsLicensingCountersInfo](vdi.statistics.UsageStatistics.LicensingCountersInfo.md#field_detail)
+     [UsageStatisticsLicensingCountersInfo](vdi.statistics.UsageStatistics.LicensingCountersInfo.md#field_detail)  
 
 ## Data Object Description 
 
@@ -28,63 +28,61 @@ Name |  Type |  Description
 **totalConcurrentConnections**|  xsd:int|  Concurrent connection user count.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **totalNamedUsers**|  xsd:int|  The number of unique users that have accessed the Horizon environment since the Horizon deployment was first configured or since the last Named Users Count reset. As highest count is not applicable, the value will be empty in [highestUsage](vdi.statistics.UsageStatistics.LicensingCountersInfo.md#highestUsage).   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **totalConcurrentSessions**|  xsd:int|  The number of connected sessions.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **concurrentFullVmSessions**|  xsd:int|  The number of concurrent sessions for full virtual machines.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **concurrentLinkedCloneSessions**|  xsd:int| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ The number of concurrent linked clone sessions.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **concurrentUnmanagedVmSessions**|  xsd:int|  The number of concurrent sessions for unmanaged machines.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **concurrentApplicationSessions**|  xsd:int|  The number of concurrent application sessions.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **concurrentCollaborativeSessions**|  xsd:int|  The number of sessions where a session owner has invited one or more users for session collaboration.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **totalCollaborators**|  xsd:int|  The total number of users that are connected to a collaborative session, including the session owner and any collaborators.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

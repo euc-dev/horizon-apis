@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenGenerationSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenGenerationSpec  
 Parameter to
-     [JwtToken_Generate](vdi.infrastructure.JwtToken.md#generate)
+     [JwtToken_Generate](vdi.infrastructure.JwtToken.md#generate)  
 Since 
     Horizon 7.4
 
@@ -31,14 +31,12 @@ Name |  Type |  Description
 
 
   * This property has a default value of 30.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

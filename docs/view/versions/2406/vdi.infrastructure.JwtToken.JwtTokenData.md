@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData  
 Parameter to
-     [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)
+     [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)  
 Since 
     Horizon 7.4
 

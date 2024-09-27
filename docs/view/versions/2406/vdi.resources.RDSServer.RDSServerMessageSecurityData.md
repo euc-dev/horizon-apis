@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMessageSecurityData
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMessageSecurityData  
 Property of
-     [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md#field_detail)
+     [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md#field_detail)  
 Since 
     Horizon View 6.1
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **messageSecurityMode**|  xsd:string|  The current JMS message security mode used by this RDS Server.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -43,7 +43,7 @@ Name |  Type |  Description
 **messageSecurityEnhancedModeSupported**|  xsd:boolean|  Indicates whether ENHANCED message security mode is currently supported by this RDS Server.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

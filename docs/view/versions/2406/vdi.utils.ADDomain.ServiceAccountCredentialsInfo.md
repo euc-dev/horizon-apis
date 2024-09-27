@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentialsInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentialsInfo  
 Property of
-     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail)
+     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail)  
 See also
-     [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)
+     [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)  
 Since 
     Horizon 8.1
 

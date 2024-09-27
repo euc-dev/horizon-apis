@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.ServerData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.ServerData  
 Property of
-     [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail)
+     [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -31,7 +31,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of "DYNAMIC".
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -42,26 +42,26 @@ Name |  Type |  Description
 **metadataURL**|  xsd:string|  The metadata URL that this SAML authenticator uses to fetch metadata. This must specify a protocol (scheme) of https. It must be unique among all other SAML authenticators.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if authenticatorType is set to "DYNAMIC".
 
   
 **administratorURL**|  xsd:string|  The administrator URL for this SAML authenticator. This must specify a protocol (scheme) of http or https.   
 
 
-[^1]
+* This property need not be set.
 
   
 **staticMetadata**|  xsd:string|  **_Since_** Horizon 7.0  
 
 
-[^1]
+* This property need not be set.
   * This property is required if authenticatorType is set to "STATIC".
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

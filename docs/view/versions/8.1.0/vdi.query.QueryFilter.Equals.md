@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Equals
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Equals  
 Extends
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon View 6.0
 
@@ -41,16 +41,14 @@ Name |  Type |  Description
 **value**|  xsd:anyType|  The value to be compared against.   
 
 
-[^1]
+* This property need not be set.
 
   
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

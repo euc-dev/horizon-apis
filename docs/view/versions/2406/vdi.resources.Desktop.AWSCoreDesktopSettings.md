@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopSettings  
 Property of
-     [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md#field_detail)
+     [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md#field_detail)  
 See also
-     [AWSCoreWorkspacePowerPolicySettings](vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings.md)
+     [AWSCoreWorkspacePowerPolicySettings](vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings.md)  
 Since 
     Horizon 8.13
 

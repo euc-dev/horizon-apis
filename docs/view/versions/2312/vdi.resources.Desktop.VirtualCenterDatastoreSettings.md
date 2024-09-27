@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterDatastoreSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterDatastoreSettings  
 Property of
-     [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)
+     [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)  
 See also
-     [DatastoreId](vdi.entity.DatastoreId.md)
+     [DatastoreId](vdi.entity.DatastoreId.md)  
 Since 
     Horizon View 6.0
 
@@ -35,7 +35,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **storageOvercommit**|  xsd:string|  Storage overcommit determines how view places new VMs on the selected datastores. With an aggressive overcommit level, view reserves less space for sparse disk growth, but fits more VMs on the datastore. Note(s) :-  
@@ -59,9 +59,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

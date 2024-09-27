@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsSpec
+    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsSpec  
 Parameter to
-     [SecondaryCredentials_Create](vdi.users.SecondaryCredentials.md#create)
+     [SecondaryCredentials_Create](vdi.users.SecondaryCredentials.md#create)  
 See also
-     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 

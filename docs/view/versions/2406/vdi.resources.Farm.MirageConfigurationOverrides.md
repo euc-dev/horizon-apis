@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MirageConfigurationOverrides
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MirageConfigurationOverrides  
 Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -36,14 +36,14 @@ Name |  Type |  Description
 **enabled**|  xsd:boolean|  Whether a Mirage server is enabled.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if overrideGlobalSetting is set to true.
 
   
 **url**|  xsd:string|  The URL of the Mirage server. This should be in the form "<(DNS name)|(IPv4)|(IPv6)><:(port)>". IPv6 addresses must be enclosed in square brackets.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if enabled is set to true.
 
   

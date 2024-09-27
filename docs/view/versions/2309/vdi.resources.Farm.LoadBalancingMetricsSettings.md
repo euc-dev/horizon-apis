@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingMetricsSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingMetricsSettings  
 Property of
-     [RDSHLoadBalancingSettings](vdi.resources.Farm.LoadBalancingSettings.md#field_detail)
+     [RDSHLoadBalancingSettings](vdi.resources.Farm.LoadBalancingSettings.md#field_detail)  
 Since 
     Horizon 7.8
 
@@ -31,14 +31,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
 
   
 **cpuThreshold**|  xsd:int|  Represents threshold of CPU usage, in percentage. If the value is 0, then this metric will not be considered for load balancing.   
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
   * This property has a maximum value of 100. 
 
@@ -47,7 +47,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
   * This property has a maximum value of 100. 
 
@@ -56,7 +56,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
 
   
@@ -64,7 +64,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
 
   
@@ -72,13 +72,13 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo  
 Returned by
-     [CertificateSSOConnector_Get](vdi.infrastructure.CertificateSSOConnector.md#get), [CertificateSSOConnector_List](vdi.infrastructure.CertificateSSOConnector.md#list)
+     [CertificateSSOConnector_Get](vdi.infrastructure.CertificateSSOConnector.md#get), [CertificateSSOConnector_List](vdi.infrastructure.CertificateSSOConnector.md#list)  
 See also
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
 Since 
     Horizon 7.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **id**| [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)|  Reference to this connector.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **data**| [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)|  Configuration data for a Certificate SSO Connector.   
@@ -40,8 +40,8 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this Certificate SSO Connector.  **_Since_** Horizon 8.11  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

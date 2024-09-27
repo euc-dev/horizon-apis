@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionProtocolStatistics
+    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionProtocolStatistics  
 Property of
-     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)
+     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)  
 Since 
     Horizon 7.7
 
@@ -30,25 +30,25 @@ Name |  Type |  Description
 **numBlastSessions**|  xsd:int|  The number of sessions using blast.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numPcoipSessions**|  xsd:int|  The number of sessions using pcoip.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numRdpSessions**|  xsd:int|  The number of sessions using RDP.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numOtherProtocols**|  xsd:int|  The number of sessions using protocol not belonging to blast, pcoip, RDP.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmBase
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmBase  
 Property of
-     [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail)
+     [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail)  
 Since 
     Horizon 7.10
 
@@ -30,14 +30,14 @@ Name |  Type |  Description
 **name**|  xsd:string|  Unique name for the Farm   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **displayName**|  xsd:string|  Farm display name.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

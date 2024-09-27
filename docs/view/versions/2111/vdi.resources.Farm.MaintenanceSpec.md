@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec  
 Parameter to
-     [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance), [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance)
+     [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance), [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance)  
 See also
-     [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md), [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md), [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md), [RDSServerId](vdi.entity.RDSServerId.md)
+     [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md), [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md), [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md), [RDSServerId](vdi.entity.RDSServerId.md)  
 Since 
     Horizon 7.1
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 **scheduledTime**|  xsd:dateTime|  When to actually perform the next maintenance. For IMMEDIATE if unset, maintenance will begin immediately. For RECURRING If unset, will be calculated based on current recurring maintenance configuration. If in the past, maintenance will begin immediately.   
 
 
-[^1]
+* This property need not be set.
 
   
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on machines which have an active session.   
@@ -59,46 +59,44 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **recurringMaintenanceSettings**| [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)|  Recurring maintenance configuration settings. Required only if maintenanceMode == RECURRING   
 
 
-[^1]
+* This property need not be set.
   * This property is required if maintenanceMode is set to "RECURRING".
 
   
 **imageMaintenanceSettings**| [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md)|  Settings for the Image maintenance. This is required only if maintenance is triggered using [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance) API.   
 
 
-[^1]
+* This property need not be set.
 
   
 **imageManagementMaintenanceSettings**| [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md)|  Settings for the Image maintenance if farm is created using image catalog. This is required only if maintenance is triggered using [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance) API.  **_Since_** Horizon 7.10  
 
 
-[^1]
+* This property need not be set.
 
   
 **selectiveScheduleMaintenance**|  xsd:boolean|  Set to true for selective schedule maintenance. Indicates if the new image should be applied to a subset of the rds servers in the farm. The image published with this option, will be held as a pending Image, unless it is either promoted canceled.  **_Since_** Horizon 8.4  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  The list of rds servers from the farm on which new image is to be applied  **_Since_** Horizon 8.4  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

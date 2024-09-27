@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData
+    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData  
 Property of
-     [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)
+     [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)  
 Since 
     Horizon 7.4
 
@@ -46,37 +46,37 @@ Name |  Type |  Description
 **description**|  xsd:string|  Description of desktop task   
 
 
-[^1]
+ * This property need not be set.
 
   
 **scheduleTime**|  xsd:dateTime|  Time at which desktop task is scheduled to start   
 
 
-[^1]
+ * This property need not be set.
 
   
 **remaining**|  xsd:int|  Total VMs on which task is scheduled or running   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errors**|  xsd:int|  Number of VMs whose task is in fault state   
 
 
-[^1]
+ * This property need not be set.
 
   
 **halted**|  xsd:int|  Number of VMs whose task is in holding state   
 
 
-[^1]
+ * This property need not be set.
 
   
 **cancelled**|  xsd:int|  Number of VMs whose task is in cancelled state   
 
 
-[^1]
+ * This property need not be set.
 
   
   

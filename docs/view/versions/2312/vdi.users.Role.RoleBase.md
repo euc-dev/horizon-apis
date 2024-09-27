@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleBase
+    com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleBase  
 Property of
-     [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)
+     [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)  
 Parameter to
-     [Role_Create](vdi.users.Role.md#create)
+     [Role_Create](vdi.users.Role.md#create)  
 Since 
     Horizon View 6.0
 
@@ -32,21 +32,21 @@ Name |  Type |  Description
 **name**|  xsd:string|  The role name.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property must contain only alphanumerics, spaces, underscores, and dashes. The maximum length is 32 characters. 
 
   
 **description**|  xsd:string|  The role description.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 400 characters. 
 
   
 **privileges**|  xsd:string[]|  Privileges for this role. When being created or updated, input non-selectable privileges are ignored.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -307,9 +307,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

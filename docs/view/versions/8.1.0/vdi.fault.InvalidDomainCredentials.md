@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials
+    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [EntityId](vdi.EntityId.md)
+     [ADDomainId](vdi.entity.ADDomainId.md), [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,25 +32,25 @@ Name |  Type |  Description
 **id**| [EntityId](vdi.EntityId.md)|  Entity, if any, whose access caused the error.   
 
 
-[^1]
+* This property need not be set.
 
   
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  Domain that caused the error, if known.   
 
 
-[^1]
+* This property need not be set.
 
   
 **netbiosDomainName**|  xsd:string|  Netbios domain name of domain that caused the error, if known.   
 
 
-[^1]
+* This property need not be set.
 
   
 **dnsDomainName**|  xsd:string|  DNS domain name of domain that caused the error, if known.   
 
 
-[^1]
+* This property need not be set.
 
   
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
@@ -61,9 +61,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

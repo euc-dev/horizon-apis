@@ -7,21 +7,19 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.QueryId
+    com.vmware.vdi.vlsi.binding.vdi.entity.QueryId  
 Property of
-     [QueryResults](vdi.query.QueryResults.md#field_detail)
+     [QueryResults](vdi.query.QueryResults.md#field_detail)  
 Parameter to
-     [GlobalSessionQueryService_Delete](vdi.users.GlobalSessionQueryService.md#delete), [GlobalSessionQueryService_GetNext](vdi.users.GlobalSessionQueryService.md#getNext), [QueryService_Delete](vdi.query.QueryService.md#delete), [QueryService_DeleteByIds](vdi.query.QueryService.md#deleteByIds), [QueryService_GetNext](vdi.query.QueryService.md#getNext)
+     [GlobalSessionQueryService_Delete](vdi.users.GlobalSessionQueryService.md#delete), [GlobalSessionQueryService_GetNext](vdi.users.GlobalSessionQueryService.md#getNext), [QueryService_Delete](vdi.query.QueryService.md#delete), [QueryService_DeleteByIds](vdi.query.QueryService.md#deleteByIds), [QueryService_GetNext](vdi.query.QueryService.md#getNext)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon View 6.0
 

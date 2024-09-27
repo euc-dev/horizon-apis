@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault
+    com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault  
 Thrown by
-     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)
+     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)  
 Extends
-     [ViewServerFault](vdi.fault.ViewServerFault.md)
+     [ViewServerFault](vdi.fault.ViewServerFault.md)  
 See also
-     [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.10
 
@@ -59,19 +59,19 @@ Name |  Type |  Description
 **logCollectorTaskId**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)|    
 
 
-[^1]
+* This property need not be set.
 
   
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|    
 
 
-[^1]
+* This property need not be set.
 
   
 **logCollectorTaskState**|  xsd:string|    
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -88,7 +88,7 @@ Name |  Type |  Description
 **logComponentIdentifier**| [EntityId](vdi.EntityId.md)|    
 
 
-[^1]
+* This property need not be set.
 
   
 Properties inherited from [ViewServerFault](vdi.fault.ViewServerFault.md)  
@@ -97,9 +97,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

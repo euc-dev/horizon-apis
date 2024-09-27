@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Between
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Between  
 Extends
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon 7.3
 
@@ -39,22 +39,20 @@ Name |  Type |  Description
 **fromValue**|  xsd:anyType|  Start value of the range.   
 
 
-[^1]
+* This property need not be set.
 
   
 **toValue**|  xsd:anyType|  End value of the range.   
 
 
-[^1]
+* This property need not be set.
 
   
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

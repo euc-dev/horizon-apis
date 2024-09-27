@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings
+    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings  
 Property of
-     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail)
+     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail)  
 Since 
     Horizon 8.1
 
@@ -43,21 +43,19 @@ Name |  Type |  Description
 **adDomainControllers**|  xsd:string[]|  One or more AD domain controllers. Auto discovery, AD domain controllers and preferred site name are mutually exclusive. Only one of them can be defined at a time.   
 
 
-[^1]
+* This property need not be set.
   * This property must be a valid IP address or DNS name 
 
   
 **adDomainPreferredSite**|  xsd:string|  ADDomain preferred domain site. Auto discovery, AD domain controllers and preferred site name are mutually exclusive. Only one of them can be defined at a time.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

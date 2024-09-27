@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo  
 Returned by
-     [Farm_Get](vdi.resources.Farm.md#get), [Farm_GetByNamingPattern](vdi.resources.Farm.md#getByNamingPattern)
+     [Farm_Get](vdi.resources.Farm.md#get), [Farm_GetByNamingPattern](vdi.resources.Farm.md#getByNamingPattern)  
 See also
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmId](vdi.entity.FarmId.md)
+     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmId](vdi.entity.FarmId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **type**|  xsd:string|  Type of farm.  **_Since_** Horizon View 6.2  
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -49,8 +49,8 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property is required if type is set to "AUTOMATED".
   * This property will be one of:  
 |  Value |  Description   
@@ -66,8 +66,8 @@ This option is only valid for Automated Farm.
 **imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -80,22 +80,20 @@ This option is only valid for Automated Farm.
 **automatedFarmData**| [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md)|  Automated farm data.  **_Since_** Horizon View 6.2  
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "AUTOMATED".
 
   
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

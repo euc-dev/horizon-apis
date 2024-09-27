@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopInfo  
 Returned by
-     [Desktop_Get](vdi.resources.Desktop.md#get), [Desktop_GetByNamingPattern](vdi.resources.Desktop.md#getByNamingPattern)
+     [Desktop_Get](vdi.resources.Desktop.md#get), [Desktop_GetByNamingPattern](vdi.resources.Desktop.md#getByNamingPattern)  
 See also
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md), [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)
+     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md), [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  Type of desktop.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -50,7 +50,7 @@ Name |  Type |  Description
 **source**|  xsd:string|  Source of machines.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -68,8 +68,8 @@ This option is only valid for Automated Desktop.
 **imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -80,21 +80,21 @@ This option is only valid for Automated Desktop.
 **automatedDesktopData**| [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md)|  Automated desktop data.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "AUTOMATED".
 
   
 **manualDesktopData**| [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md)|  Manual desktop data.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "MANUAL".
 
   
 **rdsDesktopData**| [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md)|  RDS Desktop data.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "RDS".
 
   
@@ -103,13 +103,13 @@ This option is only valid for Automated Desktop.
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventData  
 Property of
-     [EventSummaryView](vdi.infrastructure.EventDatabase.EventSummaryView.md#field_detail)
+     [EventSummaryView](vdi.infrastructure.EventDatabase.EventSummaryView.md#field_detail)  
 See also
-     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [RDSServerId](vdi.entity.RDSServerId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [RDSServerId](vdi.entity.RDSServerId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.3
 
@@ -69,68 +69,66 @@ Name |  Type |  Description
 **node**|  xsd:string|  FQDN of the machine in the Pod that has logged this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **desktopId**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop pool associated with this event. Will be unset if there is no desktop association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **applicationId**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application associated with this event. Will be unset if there is no Application association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  Machine associated with this event. Will be unset if there is no machine association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **rdsServerId**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS Server associated with this event. Will be unset if there is no RDS server association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **farmId**| [FarmId](vdi.entity.FarmId.md)|  Farm associated with this event. Will be unset if there is no Farm association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  Session associated with this event. Will be unset if there is no Session association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **logonTiming**|  xsd:string|  Logon timing profiler tree. Will be unset if there is no timing profiler tree association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **persistentDiskId**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event.  **_Since_** Horizon 7.9  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

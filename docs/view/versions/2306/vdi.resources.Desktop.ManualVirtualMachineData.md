@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineData  
 Returned by
-     [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)
+     [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)  
 Since 
     Horizon 7.4
 
@@ -32,19 +32,19 @@ Name |  Type |  Description
 **userName**|  xsd:string|  Virtual Machine user   
 
 
-[^1]
+* This property need not be set.
 
   
 **sid**|  xsd:string|  The user's sid   
 
 
-[^1]
+* This property need not be set.
 
   
 **manualVirtualMachineErrors**|  xsd:string[]|  Errors captured after validation   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -57,7 +57,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNetworkingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNetworkingSettings  
 Property of
-     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)
+     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)  
 See also
-     [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md)
+     [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md)  
 Since 
     Horizon View 6.2
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **nics**| [FarmNetworkInterfaceCardSettings[]](vdi.resources.Farm.NetworkInterfaceCardSettings.md)|  Network interface card settings for RDS Servers provisioned for this farm. A NIC may appear at most once in these settings and must be present on this RDS Server's parent's snapshot. Not all NICs need be configured. Any that are not will use default settings.   
 
 
-[^1]
+ * This property need not be set.
   * This property is an unordered array of unique values.
 
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec  
 Parameter to
-     [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage)
+     [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md), [MachineId](vdi.entity.MachineId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md), [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon 7.0
 
@@ -39,26 +39,24 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  The list of machines from the pool on which the new image is to be applied  **_Since_** Horizon 8.4  
 
 
-[^1]
+* This property need not be set.
 
   
 **computeProfile**| [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

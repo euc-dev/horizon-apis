@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent  
 See also
-     [AuditEventDetailsRecord](vdi.infrastructure.AuditEvent.AuditEventDetailsRecord.md)
+     [AuditEventDetailsRecord](vdi.infrastructure.AuditEvent.AuditEventDetailsRecord.md)  
 Since 
     Horizon 7.13
 
@@ -71,9 +69,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

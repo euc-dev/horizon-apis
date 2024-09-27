@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData  
 Property of
-     [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail)
+     [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail)  
 See also
-     [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)
+     [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)  
 Since 
     Horizon 7.1
 
@@ -32,14 +32,14 @@ Name |  Type |  Description
 **nextScheduledTime**|  xsd:dateTime|  Time when next scheduled maintenance would happen.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **immediateMaintenanceScheduled**|  xsd:boolean|  True if immediate maintenance is scheduled.  **_Since_** Horizon 7.4  
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on RDS servers which have an active session.  **_Since_** Horizon 7.4  
@@ -61,7 +61,7 @@ Name |  Type |  Description
 **recurringMaintenanceSettings**| [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)|  Settings for recurring maintenance operations.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

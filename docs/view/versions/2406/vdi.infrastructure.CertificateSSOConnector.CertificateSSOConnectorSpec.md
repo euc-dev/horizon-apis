@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec  
 Parameter to
-     [CertificateSSOConnector_Create](vdi.infrastructure.CertificateSSOConnector.md#create)
+     [CertificateSSOConnector_Create](vdi.infrastructure.CertificateSSOConnector.md#create)  
 See also
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)
+     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)  
 Since 
     Horizon 7.0
 

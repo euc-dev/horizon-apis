@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalReferenceData
+    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalReferenceData  
 Property of
-     [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)
+     [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [RDSServerId](vdi.entity.RDSServerId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [RDSServerId](vdi.entity.RDSServerId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,13 +34,13 @@ Name |  Type |  Description
 **brokerUser**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User Id for the broker user associated with the session. Will be unset for non-broker sessions.   
 
 
-[^1]
+* This property need not be set.
 
   
 **groups**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  All group ids associated with this session's user.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
@@ -49,32 +49,30 @@ Name |  Type |  Description
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop Id for this Desktop session. This is unset if the session is not brokered through a Desktop, such as for Application sessions or direct console access.   
 
 
-[^1]
+* This property need not be set.
 
   
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm Id for this Application or RDS Desktop session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machine**| [MachineId](vdi.entity.MachineId.md)|  Machine Id for this session. This is unset for Application or RDS Desktop sessions. If [desktop](vdi.users.Session.SessionLocalReferenceData.md#desktop) is unset, MachineIds of this type originate from the [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) service. Otherwise, MachineIds of this type originate from the [Machine](vdi.resources.Machine.md) service.   
 
 
-[^1]
+* This property need not be set.
 
   
 **rdsServer**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS Server Id for this RDS Desktop or Application session.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

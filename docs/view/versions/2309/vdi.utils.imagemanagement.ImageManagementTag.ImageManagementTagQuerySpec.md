@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagQuerySpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagQuerySpec  
 Parameter to
-     [ImageManagementTag_ListBySpec](vdi.utils.imagemanagement.ImageManagementTag.md#listBySpec)
+     [ImageManagementTag_ListBySpec](vdi.utils.imagemanagement.ImageManagementTag.md#listBySpec)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.10
 
@@ -33,13 +33,13 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **provisioningType**|  xsd:string|  Provisioning type of the desktop/farm.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -54,7 +54,7 @@ This option is only valid for Automated Desktop.
 **resourceType**|  xsd:string|  Type of resource.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -68,7 +68,7 @@ This option is only valid for Automated Desktop.
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

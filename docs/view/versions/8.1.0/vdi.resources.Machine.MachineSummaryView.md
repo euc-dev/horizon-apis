@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView  
 Returned by
-     [Machine_GetSummaryView](vdi.resources.Machine.md#getSummaryView), [Machine_GetSummaryViews](vdi.resources.Machine.md#getSummaryViews)
+     [Machine_GetSummaryView](vdi.resources.Machine.md#getSummaryView), [Machine_GetSummaryViews](vdi.resources.Machine.md#getSummaryViews)  
 See also
-     [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineSummaryData](vdi.resources.Machine.SummaryData.md)
+     [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineSummaryData](vdi.resources.Machine.SummaryData.md)  
 Since 
     Horizon View 6.0
 
@@ -51,7 +51,7 @@ Name |  Type |  Description
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [MachineBase](vdi.resources.Machine.MachineBase.md)|  Basic Machine information.   
@@ -61,14 +61,12 @@ Name |  Type |  Description
 **summaryData**| [MachineSummaryData](vdi.resources.Machine.SummaryData.md)|  Machine summary data.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

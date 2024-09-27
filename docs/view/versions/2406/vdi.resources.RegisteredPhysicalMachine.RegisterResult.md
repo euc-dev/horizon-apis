@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisterResult
+    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisterResult  
 Returned by
-     [RegisteredPhysicalMachine_Register](vdi.resources.RegisteredPhysicalMachine.md#register)
+     [RegisteredPhysicalMachine_Register](vdi.resources.RegisteredPhysicalMachine.md#register)  
 See also
-     [MachineId](vdi.entity.MachineId.md)
+     [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon View 6.0
 

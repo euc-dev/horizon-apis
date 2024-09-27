@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance  
 See also
-     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md), [ProcessFilter](vdi.helpdesk.Performance.ProcessFilter.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md), [RemoteApplicationStatistics](vdi.helpdesk.Performance.RemoteApplicationStatistics.md), [SessionId](vdi.entity.SessionId.md)
+     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md), [ProcessFilter](vdi.helpdesk.Performance.ProcessFilter.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md), [RemoteApplicationStatistics](vdi.helpdesk.Performance.RemoteApplicationStatistics.md), [SessionId](vdi.entity.SessionId.md)  
 Since 
     Horizon 7.2
 
@@ -339,9 +337,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

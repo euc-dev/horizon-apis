@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings  
 Returned by
-     [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)
+     [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)  
 Since 
     Horizon 7.5
 
@@ -36,12 +36,12 @@ Non UI based clients should ignore this property.
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

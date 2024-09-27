@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryView  
 Returned by
-     [Desktop_GetSummaryView](vdi.resources.Desktop.md#getSummaryView), [Desktop_GetSummaryViews](vdi.resources.Desktop.md#getSummaryViews), [Desktop_ListGECompatibleDesktops](vdi.resources.Desktop.md#listGECompatibleDesktops)
+     [Desktop_GetSummaryView](vdi.resources.Desktop.md#getSummaryView), [Desktop_GetSummaryViews](vdi.resources.Desktop.md#getSummaryViews), [Desktop_ListGECompatibleDesktops](vdi.resources.Desktop.md#listGECompatibleDesktops)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md)
+     [DesktopId](vdi.entity.DesktopId.md), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md)  
 Since 
     Horizon View 6.0
 
@@ -51,15 +51,13 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineData  
 Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.7
 
@@ -32,20 +32,20 @@ Name |  Type |  Description
 **name**|  xsd:string|  The name of the Machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **dnsName**|  xsd:string|  The DNS name for the Machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **type**|  xsd:string|  The type of Machine.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -56,20 +56,20 @@ Name |  Type |  Description
 **agentVersion**|  xsd:string|  Horizon agent version installed on this Machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group of the Machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **basicState**|  xsd:string|  The basic state of the Machine. For a Virtual Machine based Machine, the complete state is determined by basicState, isMissingInVCenter, operationState and isInHoldCustomization. In the Admin UI, the last three states are shown in brackets in the Machine State.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -108,47 +108,45 @@ Name |  Type |  Description
   
 
 
-[^1]
+* This property need not be set.
 
   
 **assignedUserName**|  xsd:string| **Deprecated.**_use[assignedUserNames](vdi.resources.Machine.MachineData.md#assignedUserNames) instead. This field will not be populated for machine belonging to pool which support multiple assignment. _ Name of the user assigned to this Machine. This cannot be a group.  
   
 
 
-[^1]
+* This property need not be set.
 
   
 **assignedUsers**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  Ids of the users assigned to this Machine. This cannot be a group.  **_Since_** Horizon 7.12  
 
 
-[^1]
+* This property need not be set.
 
   
 **assignedUserNames**|  xsd:string[]|  Names of the users assigned to this Machine. Names in this array maps to the ids in [assignedUsers](vdi.resources.Machine.MachineData.md#assignedUsers) array.  **_Since_** Horizon 7.12  
 
 
-[^1]
+* This property need not be set.
 
   
 **aliases**| [MachineAlias[]](vdi.resources.Machine.MachineAlias.md)|  Machine aliases for all the assigned users.  **_Since_** Horizon 7.13  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **agentBuildNumber**|  xsd:string|  Horizon agent build number installed on this Machine.  **_Since_** Horizon 7.8  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

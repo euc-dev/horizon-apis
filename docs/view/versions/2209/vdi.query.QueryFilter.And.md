@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.And
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.And  
 Extends
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 See also
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon View 6.0
 
@@ -39,9 +39,7 @@ Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
 None  
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

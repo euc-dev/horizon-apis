@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings  
 See also
-     [EnvironmentSettings](vdi.infrastructure.GlobalSettings.EnvironmentSettings.md), [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalPreLogonSettings](vdi.infrastructure.GlobalSettings.PreLogonSettings.md), [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md), [MapEntry](vdi.util.MapEntry.md)
+     [EnvironmentSettings](vdi.infrastructure.GlobalSettings.EnvironmentSettings.md), [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalPreLogonSettings](vdi.infrastructure.GlobalSettings.PreLogonSettings.md), [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon View 6.0
 
@@ -246,9 +244,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

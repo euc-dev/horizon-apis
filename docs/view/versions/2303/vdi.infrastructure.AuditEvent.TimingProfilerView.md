@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.TimingProfilerView
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.TimingProfilerView  
 See also
-     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 8.2
 
@@ -53,7 +53,7 @@ Name |  Type |  Description
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **eventType**|  xsd:string|  Type of the Timing Profiler event. For example: TIMING_PROFILER_DESKTOP_RECONNECT, TIMING_PROFILER_GET_LAUNCH_ITEMS etc.   
@@ -61,24 +61,24 @@ Name |  Type |  Description
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  Session associated with this event. Will be unset if there is no Session association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **logonTiming**|  xsd:string|  Logon timing profiler tree. Will be unset if there is no timing profiler tree association for this event.   
 
 
-[^1]
+* This property need not be set.
 
   
 **properties**|  xsd:string|  Json containing various attributes associated with this timing profiler event.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

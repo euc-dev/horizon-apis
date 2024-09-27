@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView  
 Returned by
-     [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)
+     [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)  
 See also
-     [RDSNetworkLabelData](vdi.resources.RDSServer.NetworkLabelData.md), [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)
+     [RDSNetworkLabelData](vdi.resources.RDSServer.NetworkLabelData.md), [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)  
 Since 
     Horizon View 6.0
 
@@ -52,57 +52,57 @@ Name |  Type |  Description
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS server entity ID   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **base**| [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md)|  RDS server base   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **messageSecurityData**| [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md)|  RDS Server message security data  **_Since_** Horizon View 6.1  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **summaryData**| [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)|  RDS server summary data   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **agentData**| [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md)|  RDSServer agent information   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **settings**| [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md)|  RDS server settings   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **runtimeData**| [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md)|  RDSServer runtime information   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this RDS Server.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **networkLabels**| [RDSNetworkLabelData[]](vdi.resources.RDSServer.NetworkLabelData.md)|  The network label(s) associated with this Farm. The network label(s) automatically assigned by Connection Server to this Machine. These may differ from the actual labels if manually changed after automatic assignment or if there was an error in assignment.  **_Since_** Horizon 8.11  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

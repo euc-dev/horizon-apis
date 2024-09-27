@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionHistoricalPerformanceData
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionHistoricalPerformanceData  
 See also
-     [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [SessionId](vdi.entity.SessionId.md)
+     [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [SessionId](vdi.entity.SessionId.md)  
 Since 
     Horizon 8.1
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **historicalPerformanceData**| [HistoricalPerformanceData[]](vdi.helpdesk.Performance.HistoricalPerformanceData.md)|  The historical performance data for overall machine. The value will be null if error occurs while retrieving the data.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **errorMsg**|  xsd:string|  The error encoutered if any in fetching session info for each session. This value will be populated only if an error has occured and will be null otherwise.  **_Since_** Horizon 8.2  
 
 
-[^1]
+ * This property need not be set.
 
   
   

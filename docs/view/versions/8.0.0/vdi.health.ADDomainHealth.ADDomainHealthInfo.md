@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo  
 Returned by
-     [ADDomainHealth_List](vdi.health.ADDomainHealth.md#list)
+     [ADDomainHealth_List](vdi.health.ADDomainHealth.md#list)  
 See also
-     [ADDomainHealthConnectionServerConnectionData](vdi.health.ADDomainHealth.ConnectionServerConnectionData.md)
+     [ADDomainHealthConnectionServerConnectionData](vdi.health.ADDomainHealth.ConnectionServerConnectionData.md)  
 Since 
     Horizon View 6.0
 
@@ -39,9 +39,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

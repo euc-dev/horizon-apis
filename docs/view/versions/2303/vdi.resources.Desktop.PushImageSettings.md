@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSettings  
 Property of
-     [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md#field_detail), [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail)
+     [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md#field_detail), [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail)  
 Since 
     Horizon 7.0
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **startTime**|  xsd:dateTime|  When to start the operation. If unset or the time is in the past, the operation will begin immediately.   
 
 
-[^1]
+* This property need not be set.
 
   
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on machines which have an active session.   
@@ -53,12 +53,12 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

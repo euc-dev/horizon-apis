@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase  
 Property of
-     [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md#field_detail)
+     [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md#field_detail)  
 Parameter to
-     [ImageManagementVersion_CreateVersions](vdi.utils.imagemanagement.ImageManagementVersion.md#createVersions)
+     [ImageManagementVersion_CreateVersions](vdi.utils.imagemanagement.ImageManagementVersion.md#createVersions)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [MapEntry](vdi.util.MapEntry.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon 7.10
 
@@ -40,7 +40,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description is a set of notes about the version.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
@@ -64,18 +64,18 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image management stream id for this image version   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management version.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

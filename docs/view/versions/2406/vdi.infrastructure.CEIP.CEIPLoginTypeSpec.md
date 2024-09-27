@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPLoginTypeSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPLoginTypeSpec  
 Parameter to
-     [CEIP_SetLoginType](vdi.infrastructure.CEIP.md#setLoginType)
+     [CEIP_SetLoginType](vdi.infrastructure.CEIP.md#setLoginType)  
 Since 
     Horizon 7.4
 

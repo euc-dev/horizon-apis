@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo  
 Property of
-     [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md#field_detail)
+     [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md#field_detail)  
 See also
-     [ApplicationId](vdi.entity.ApplicationId.md)
+     [ApplicationId](vdi.entity.ApplicationId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application Entity Id   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  Application Status   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

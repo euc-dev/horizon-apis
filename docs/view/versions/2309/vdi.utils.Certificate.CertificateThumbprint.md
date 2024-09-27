@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateThumbprint
+    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateThumbprint  
 Property of
-     [CertificateData](vdi.utils.Certificate.CertificateData.md#field_detail), [RCXClientSpec](vdi.infrastructure.RCX.RCXClientSpec.md#field_detail), [RCXServerInfo](vdi.infrastructure.RCX.RCXServerInfo.md#field_detail), [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail), [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md#field_detail), [VirtualCenterInfo](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md#field_detail), [VirtualCenterSpec](vdi.infrastructure.VirtualCenter.VirtualCenterSpec.md#field_detail), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md#field_detail)
+     [CertificateData](vdi.utils.Certificate.CertificateData.md#field_detail), [RCXClientSpec](vdi.infrastructure.RCX.RCXClientSpec.md#field_detail), [RCXServerInfo](vdi.infrastructure.RCX.RCXServerInfo.md#field_detail), [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail), [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md#field_detail), [VirtualCenterInfo](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md#field_detail), [VirtualCenterSpec](vdi.infrastructure.VirtualCenter.VirtualCenterSpec.md#field_detail), [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -37,7 +37,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

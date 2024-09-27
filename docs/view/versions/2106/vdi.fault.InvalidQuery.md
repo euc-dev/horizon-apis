@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidQuery
+    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidQuery  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 Since 
     Horizon View 6.0
 
@@ -40,9 +38,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

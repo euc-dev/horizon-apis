@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec  
 Parameter to
-     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)
+     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)  
 Since 
     Horizon 7.6
 
@@ -32,13 +32,13 @@ Name |  Type |  Description
 **desktopId**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop Id to be supplied when editing a Desktop Pool.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **farmId**| [FarmId](vdi.entity.FarmId.md)|  Farm Id to be supplied when editing a Farm.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **isFarm**|  xsd:boolean|  Set to true when creating/editing a Farm.   
@@ -63,7 +63,7 @@ Name |  Type |  Description
 Applicable in case of Linked Clones and Instant Clones.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if source is set to "VIEW_COMPOSER"or "INSTANT_CLONE_ENGINE".
 
   
@@ -71,7 +71,7 @@ Applicable in case of Linked Clones and Instant Clones.
 Applicable in case of Linked Clones and Instant Clones.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if source is set to "VIEW_COMPOSER"or "INSTANT_CLONE_ENGINE".
 
   
@@ -79,7 +79,7 @@ Applicable in case of Linked Clones and Instant Clones.
 Applicable in case of Full Clones.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if source is set to "FULL_CLONE".
 
   
@@ -100,7 +100,7 @@ Ignored in case of Farm.
   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if isPersistent is set to true.
 
   
@@ -132,7 +132,7 @@ Set to true when Virtual SAN is configured and in use for the pool.
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

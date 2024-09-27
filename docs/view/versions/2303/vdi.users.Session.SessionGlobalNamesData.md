@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionGlobalNamesData
+    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionGlobalNamesData  
 Property of
-     [SessionGlobalSummaryView](vdi.users.Session.SessionGlobalSummaryView.md#field_detail)
+     [SessionGlobalSummaryView](vdi.users.Session.SessionGlobalSummaryView.md#field_detail)  
 See also
-     [SessionNamesData](vdi.users.Session.SessionNamesData.md)
+     [SessionNamesData](vdi.users.Session.SessionNamesData.md)  
 Since 
     Horizon View 6.0
 
@@ -34,36 +34,36 @@ Name |  Type |  Description
 **entitlementName**|  xsd:string|  Global Entitlement for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **applicationEntitlementNames**|  xsd:string[]|  Global Application Entitlements for this session.  **_Since_** Horizon 7.2  
 
 
-[^1]
+* This property need not be set.
 
   
 **siteName**|  xsd:string|  Site for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **brokeringPodName**|  xsd:string|  Brokering Pod for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
 **podName**|  xsd:string|  Pod for this session.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

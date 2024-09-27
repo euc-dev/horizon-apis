@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase
+    com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase  
 Property of
-     [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md#field_detail), [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md#field_detail)
+     [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md#field_detail), [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md#field_detail)  
 Parameter to
-     [ViewComposerDomainAdministrator_CreateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#createByServerDefinition)
+     [ViewComposerDomainAdministrator_CreateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#createByServerDefinition)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon View 6.0
 
@@ -36,7 +36,7 @@ Name |  Type |  Description
 **domain**|  xsd:string|  Fully qualified domain name for the domain administrator account.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **userName**|  xsd:string|  Logon user name.   
@@ -45,9 +45,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.ResumeTaskSpec
+    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.ResumeTaskSpec  
 Parameter to
-     [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)
+     [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)  
 Since 
     Horizon 7.4
 
@@ -31,19 +31,19 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **stopOnError**|  xsd:boolean|  Whether to stop the task at first error   
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP  
 See also
-     [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md), [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md), [MapEntry](vdi.util.MapEntry.md)
+     [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md), [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon View 6.0
 
@@ -176,9 +174,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

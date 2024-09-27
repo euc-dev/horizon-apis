@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec  
 Parameter to
-     [PersistentDisk_Create](vdi.resources.PersistentDisk.md#create)
+     [PersistentDisk_Create](vdi.resources.PersistentDisk.md#create)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)  
 Since 
     Horizon View 6.0
 
@@ -38,13 +38,13 @@ Name |  Type |  Description
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop to associate this persistent disk with.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user who owns the persistent disk.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

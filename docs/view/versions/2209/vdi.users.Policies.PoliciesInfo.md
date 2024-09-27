@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo
+    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo  
 Returned by
-     [Policies_Get](vdi.users.Policies.md#get), [Policies_List](vdi.users.Policies.md#list), [Policies_ListUnentitledPolicies](vdi.users.Policies.md#listUnentitledPolicies)
+     [Policies_Get](vdi.users.Policies.md#get), [Policies_List](vdi.users.Policies.md#list), [Policies_ListUnentitledPolicies](vdi.users.Policies.md#listUnentitledPolicies)  
 See also
-     [EntityId](vdi.EntityId.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [EntityId](vdi.EntityId.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,34 +34,32 @@ Name |  Type |  Description
 **resource**| [EntityId](vdi.EntityId.md)|  Entity Id of a resource which may have some set of overrides applied to it. If the resourceId is specified, resourcePolicies may be populated with overrides specific to that resource. Note that it is possible for a resource to have no overrides, but a user or group for that resource may have overrides.   
 
 
-[^1]
+* This property need not be set.
 
   
 **resourcePolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Resource policies object. Describes default policies for all users or groups in this resource if no user or group overrides are specified.   
 
 
-[^1]
+* This property need not be set.
 
   
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group which may have some set of overrides applied to it. If the userId is specified, the resourceId must be specified as well. Note that is is possible for a resource to have no overrides, but a user or group for that resource may have overrides.   
 
 
-[^1]
+* This property need not be set.
 
   
 **userPolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  User policies object. Describes policies for the given user or group Id.   
 
 
-[^1]
+* This property need not be set.
 
   
 **effectivePolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Effective policies object. The result of applying any resource or user overrides (if present) to the global policies. Will always be set.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

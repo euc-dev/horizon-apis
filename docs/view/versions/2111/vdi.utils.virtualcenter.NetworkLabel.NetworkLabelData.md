@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData  
 Property of
-     [NetworkLabelInfo](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelInfo.md#field_detail)
+     [NetworkLabelInfo](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelInfo.md#field_detail)  
 See also
-     [NetworkLabelIncompatibleReasons](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons.md)
+     [NetworkLabelIncompatibleReasons](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons.md)  
 Since 
     Horizon View 6.0
 
@@ -36,14 +36,14 @@ Name |  Type |  Description
 **name**|  xsd:string|  The network label's VC display name.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **switchType**|  xsd:string|  The network label's switch type.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -55,14 +55,14 @@ Name |  Type |  Description
 **incompatibleReasons**| [NetworkLabelIncompatibleReasons](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons.md)|  Reasons that may preclude this NetworkLabel from being used in desktop configuration.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **labelType**|  xsd:string|  The network label's type.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -74,22 +74,20 @@ Name |  Type |  Description
 **maxNumOfPort**|  xsd:int|  The total number of ports present.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **availablePorts**|  xsd:int|  Available ports in network label.  **_Since_** Horizon 7.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

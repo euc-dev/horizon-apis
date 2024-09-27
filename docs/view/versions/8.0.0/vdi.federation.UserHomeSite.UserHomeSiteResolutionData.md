@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionData
+    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionData  
 Property of
-     [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md#field_detail)
+     [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md#field_detail)  
 See also
-     [SiteId](vdi.entity.SiteId.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [SiteId](vdi.entity.SiteId.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.8
 
@@ -32,39 +32,39 @@ Name |  Type |  Description
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  Id of the user home site configuration   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **group**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The group via which the user gets this site as the home site.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **groupName**|  xsd:string|  Name of the group via which the user gets this site as the home site.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **site**| [SiteId](vdi.entity.SiteId.md)|  Home Site Id   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **siteName**|  xsd:string|  Name of the home site.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **type**|  xsd:string|  Indicates whether the home site is assigned to the user or a group and is associate with the global entitlement or not   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -76,9 +76,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

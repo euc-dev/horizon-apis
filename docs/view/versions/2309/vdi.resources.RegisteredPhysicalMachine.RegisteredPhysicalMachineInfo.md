@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo  
 Returned by
-     [RegisteredPhysicalMachine_Get](vdi.resources.RegisteredPhysicalMachine.md#get)
+     [RegisteredPhysicalMachine_Get](vdi.resources.RegisteredPhysicalMachine.md#get)  
 See also
-     [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineBase](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase.md), [RegisteredPhysicalMachineMessageSecurityData](vdi.resources.RegisteredPhysicalMachine.MessageSecurityData.md)
+     [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineBase](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase.md), [RegisteredPhysicalMachineMessageSecurityData](vdi.resources.RegisteredPhysicalMachine.MessageSecurityData.md)  
 Since 
     Horizon View 6.0
 
@@ -36,13 +36,13 @@ Name |  Type |  Description
 **id**| [MachineId](vdi.entity.MachineId.md)|  Client reference to a specific RegisteredPhysicalMachine instance.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **status**|  xsd:string|  The status of the Machine.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -66,25 +66,25 @@ Name |  Type |  Description
 **machineBase**| [RegisteredPhysicalMachineBase](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase.md)|  The MachineBase attributes.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **messageSecurityData**| [RegisteredPhysicalMachineMessageSecurityData](vdi.resources.RegisteredPhysicalMachine.MessageSecurityData.md)|  Message security data for this registered physical machine.  **_Since_** Horizon View 6.1  
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this machine.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec  
 Parameter to
-     [SAMLAuthenticator_Create](vdi.infrastructure.SAMLAuthenticator.md#create)
+     [SAMLAuthenticator_Create](vdi.infrastructure.SAMLAuthenticator.md#create)  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)  
 Since 
     Horizon View 6.0
 
@@ -36,13 +36,13 @@ Name |  Type |  Description
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  The certificate override for the SAML authenticator.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **connectionServers**| [ConnectionServerId[]](vdi.entity.ConnectionServerId.md)|  The list of Connection Servers for which this SAML authenticator is enabled.  **_Since_** Horizon 7.8  
 
 
-[^1]
+ * This property need not be set.
 
   
   

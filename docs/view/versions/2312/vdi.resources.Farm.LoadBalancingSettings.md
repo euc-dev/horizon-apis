@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings  
 Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
 See also
-     [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)
+     [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)  
 Since 
     Horizon 7.8
 
@@ -33,14 +33,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **connectingSessionThreshold**|  xsd:int|  This value will be used for handling logon storm. The configured threshold specifies the maximum number of sessions that can concurrently log into each RDSH agent machine in the farm, exempting reconnecting sessions. By default, this threshold is disabled and does not deny session logins.  **_Since_** Horizon 8.4  
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
   * This property has a maximum value of 150. 
 
@@ -49,7 +49,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
   * This property has a maximum value of 100. 
 
@@ -57,15 +57,13 @@ Name |  Type |  Description
 **lbMetricsSettings**| [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)|  Metrics used for load balancing. This will be used only when [useCustomScript](vdi.resources.Farm.LoadBalancingSettings.md#useCustomScript) is set to false.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if useCustomScript is set to false.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

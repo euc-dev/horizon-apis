@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.MethodMetrics
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.MethodMetrics  
 Property of
-     [APIMetrics](vdi.health.Monitoring.APIMetrics.md#field_detail)
+     [APIMetrics](vdi.health.Monitoring.APIMetrics.md#field_detail)  
 Since 
     Horizon 7.13
 
@@ -30,20 +30,18 @@ Name |  Type |  Description
 **methodName**|  xsd:string|  Name of the method.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **count**|  xsd:int|  Number of times the method is called.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

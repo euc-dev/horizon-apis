@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipUSBStatistics
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipUSBStatistics  
 Property of
-     [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)
+     [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)  
 Since 
     Horizon 7.2
 
@@ -30,29 +30,29 @@ Name |  Type |  Description
 **bytesReceived**|  xsd:long|  Total number of bytes of USB data that have been received since the PCoIP session started.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **bytesSent**|  xsd:long|  Total number of bytes of USB data that have been transmitted since the PCoIP session started.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **rxBandwidth**|  xsd:long|  Bandwidth for incoming USB packets averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **txBandwidth**|  xsd:long|  Bandwidth for outgoing USB packets averaged over the sampling period, in kilobits per second.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

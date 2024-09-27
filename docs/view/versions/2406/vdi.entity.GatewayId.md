@@ -7,23 +7,21 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.GatewayId
+    com.vmware.vdi.vlsi.binding.vdi.entity.GatewayId  
 Property of
-     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)
+     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)  
 Parameter to
-     [Gateway_Get](vdi.infrastructure.Gateway.md#get), [Gateway_Unregister](vdi.infrastructure.Gateway.md#unregister), [GatewayHealth_Get](vdi.health.GatewayHealth.md#get)
+     [Gateway_Get](vdi.infrastructure.Gateway.md#get), [Gateway_Unregister](vdi.infrastructure.Gateway.md#unregister), [GatewayHealth_Get](vdi.health.GatewayHealth.md#get)  
 Returned by
-     [Gateway_Register](vdi.infrastructure.Gateway.md#register)
+     [Gateway_Register](vdi.infrastructure.Gateway.md#register)  
 Extends
-     [EntityId](vdi.EntityId.md)
+     [EntityId](vdi.EntityId.md)  
 Since 
     Horizon 7.7
 
@@ -46,9 +44,7 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

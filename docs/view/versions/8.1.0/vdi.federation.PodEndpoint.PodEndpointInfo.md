@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodEndpoint.PodEndpointInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.PodEndpoint.PodEndpointInfo  
 Property of
-     [PodEndpointHealthData](vdi.health.PodHealth.PodEndpointHealthData.md#field_detail)
+     [PodEndpointHealthData](vdi.health.PodHealth.PodEndpointHealthData.md#field_detail)  
 Returned by
-     [PodEndpoint_Get](vdi.federation.PodEndpoint.md#get), [PodEndpoint_List](vdi.federation.PodEndpoint.md#list)
+     [PodEndpoint_Get](vdi.federation.PodEndpoint.md#get), [PodEndpoint_List](vdi.federation.PodEndpoint.md#list)  
 See also
-     [PodEndpointId](vdi.entity.PodEndpointId.md)
+     [PodEndpointId](vdi.entity.PodEndpointId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,38 +34,36 @@ Name |  Type |  Description
 **id**| [PodEndpointId](vdi.entity.PodEndpointId.md)|  Unique identifier for a PodEndpoint   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  Name for the podEndpoint   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **serverAddress**|  xsd:string|  The URL for the PodEndpoint. This address and special port will be used for inter-pod communication.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **enabled**|  xsd:boolean|  Indicate whether an endpoint is enabled. A disabled endpoint will be excluded from participating inter-pod communication.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this PodEndpoint.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MessageSecurityData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MessageSecurityData  
 Property of
-     [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)
+     [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)  
 Since 
     Horizon View 6.1
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **messageSecurityMode**|  xsd:string|  The current JMS message security mode used by this machine.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -43,7 +43,7 @@ Name |  Type |  Description
 **messageSecurityEnhancedModeSupported**|  xsd:boolean|  Indicates whether ENHANCED message security mode is currently supported by this machine.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

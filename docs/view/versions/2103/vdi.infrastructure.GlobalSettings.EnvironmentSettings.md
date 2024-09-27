@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.EnvironmentSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.EnvironmentSettings  
 Returned by
-     [GlobalSettings_GetEnvironmentSettings](vdi.infrastructure.GlobalSettings.md#getEnvironmentSettings)
+     [GlobalSettings_GetEnvironmentSettings](vdi.infrastructure.GlobalSettings.md#getEnvironmentSettings)  
 Since 
     Horizon 7.6
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **ipMode**|  xsd:string|  Indicates the IP mode of the environment.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -42,38 +42,38 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **clusterName**|  xsd:string|  The name of a group of connection servers sharing the same configuration.  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **clusterGuid**|  xsd:string|  The GUID of a group of connection servers sharing the same configuration.  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **localPodName**|  xsd:string|  The name of the current pod in the Multi-DataCenter View Pod, the value will be null when PodFederation is not initialized.  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **timezoneOffset**|  xsd:int|  Represents this Connection Server's time zone offset from UTC in seconds.  **_Since_** Horizon 7.7  
 
 
-[^1]
+* This property need not be set.
 
   
 **deploymentType**|  xsd:string|  Describes the type of Horizon deployment.  **_Since_** Horizon 8.0  
 
 
   * This property has a default value of "GENERAL".
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -87,9 +87,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

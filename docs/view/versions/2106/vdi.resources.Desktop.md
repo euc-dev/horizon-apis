@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop  
 See also
-     [ApplicationDiscoveryData](vdi.resources.Application.ApplicationDiscoveryData.md), [DesktopDeleteSpec](vdi.resources.Desktop.DesktopDeleteSpec.md), [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md), [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md), [DesktopManualVirtualMachineData](vdi.resources.Desktop.ManualVirtualMachineData.md), [DesktopManualVirtualMachineDefinition](vdi.resources.Desktop.ManualVirtualMachineDefinition.md), [DesktopMissingApplicationInstallationData](vdi.resources.Desktop.MissingApplicationInstallationData.md), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md), [DesktopRebalanceSpec](vdi.resources.Desktop.RebalanceSpec.md), [DesktopRecomposeSpec](vdi.resources.Desktop.RecomposeSpec.md), [DesktopRefreshSpec](vdi.resources.Desktop.RefreshSpec.md), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md), [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md), [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [MachineId](vdi.entity.MachineId.md), [MapEntry](vdi.util.MapEntry.md)
+     [ApplicationDiscoveryData](vdi.resources.Application.ApplicationDiscoveryData.md), [DesktopDeleteSpec](vdi.resources.Desktop.DesktopDeleteSpec.md), [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md), [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md), [DesktopManualVirtualMachineData](vdi.resources.Desktop.ManualVirtualMachineData.md), [DesktopManualVirtualMachineDefinition](vdi.resources.Desktop.ManualVirtualMachineDefinition.md), [DesktopMissingApplicationInstallationData](vdi.resources.Desktop.MissingApplicationInstallationData.md), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md), [DesktopRebalanceSpec](vdi.resources.Desktop.RebalanceSpec.md), [DesktopRecomposeSpec](vdi.resources.Desktop.RecomposeSpec.md), [DesktopRefreshSpec](vdi.resources.Desktop.RefreshSpec.md), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md), [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md), [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [MachineId](vdi.entity.MachineId.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon View 6.0
 
@@ -1345,9 +1343,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

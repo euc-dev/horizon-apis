@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GlobalSettingsInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GlobalSettingsInfo  
 Returned by
-     [GlobalSettings_Get](vdi.infrastructure.GlobalSettings.md#get)
+     [GlobalSettings_Get](vdi.infrastructure.GlobalSettings.md#get)  
 See also
-     [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md), [GlobalSettingsDataRecoveryPasswordData](vdi.infrastructure.GlobalSettings.DataRecoveryPasswordData.md), [GlobalSettingsGeneralData](vdi.infrastructure.GlobalSettings.GeneralData.md), [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md), [GlobalSettingsMirageConfiguration](vdi.infrastructure.GlobalSettings.MirageConfiguration.md), [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md)
+     [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md), [GlobalSettingsDataRecoveryPasswordData](vdi.infrastructure.GlobalSettings.DataRecoveryPasswordData.md), [GlobalSettingsGeneralData](vdi.infrastructure.GlobalSettings.GeneralData.md), [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md), [GlobalSettingsMirageConfiguration](vdi.infrastructure.GlobalSettings.MirageConfiguration.md), [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md)  
 Since 
     Horizon View 6.0
 
@@ -40,19 +40,19 @@ Name |  Type |  Description
 **jmpConfiguration**| [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md)| **Deprecated.**_This is being deprecated since JMP configuration will no longer be supported in future releases._ The JMP configuration data.  **_Since_** Horizon 7.4  
 
 
-[^1]
+ * This property need not be set.
 
   
 **clientRestrictionConfiguration**| [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md)|  The Client restriction configuration data.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
 **featureSettings**| [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md)|  The feature settings data.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
   

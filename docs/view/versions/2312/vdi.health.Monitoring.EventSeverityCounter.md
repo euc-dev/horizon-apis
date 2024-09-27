@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.EventSeverityCounter
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.EventSeverityCounter  
 Property of
-     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)
+     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)  
 Since 
     Horizon 7.12
 
@@ -30,20 +30,18 @@ Name |  Type |  Description
 **errorCount**|  xsd:int|  Number of events with the "Error" severity.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **warningCount**|  xsd:int|  Number of events with the "Warn" severity.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData
+    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData  
 Property of
-     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)
+     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)  
 Since 
     Horizon 7.8
 
@@ -34,32 +34,32 @@ Name |  Type |  Description
 **userOrGroupName**|  xsd:string|  Name of the user or group for this permission.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **roleName**|  xsd:string|  Name of the role for this permission.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **accessGroupName**|  xsd:string|  Name of the access group for this permission.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **globalAccessGroupName**|  xsd:string|  Name of the global access group for this permission.  **_Since_** Horizon 8.2  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

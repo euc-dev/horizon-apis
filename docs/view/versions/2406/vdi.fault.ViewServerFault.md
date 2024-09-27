@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.ViewServerFault
+    com.vmware.vdi.vlsi.binding.vdi.fault.ViewServerFault  
 Extended by
      [LogCollectorFault](vdi.fault.LogCollectorFault.md), [PartialFailureFault](vdi.fault.PartialFailureFault.md)
 Extends
-     [MethodFault](vmodl.MethodFault.md)
+     [MethodFault](vmodl.MethodFault.md)  
 Since 
     Horizon View 6.0
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskInfo
+    com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskInfo  
 Returned by
-     [PodFederation_Initialize](vdi.federation.PodFederation.md#initialize), [PodFederation_Join](vdi.federation.PodFederation.md#join), [PodFederation_Uninitialize](vdi.federation.PodFederation.md#uninitialize), [PodFederation_Unjoin](vdi.federation.PodFederation.md#unjoin), [Task_Get](vdi.task.Task.md#get)
+     [PodFederation_Initialize](vdi.federation.PodFederation.md#initialize), [PodFederation_Join](vdi.federation.PodFederation.md#join), [PodFederation_Uninitialize](vdi.federation.PodFederation.md#uninitialize), [PodFederation_Unjoin](vdi.federation.PodFederation.md#unjoin), [Task_Get](vdi.task.Task.md#get)  
 See also
-     [TaskId](vdi.entity.TaskId.md), [TaskResult](vdi.task.Task.TaskResult.md)
+     [TaskId](vdi.entity.TaskId.md), [TaskResult](vdi.task.Task.TaskResult.md)  
 Since 
     Horizon View 6.0
 
@@ -44,13 +44,13 @@ Name |  Type |  Description
 **id**| [TaskId](vdi.entity.TaskId.md)|  The ID of the task.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **taskCategory**|  xsd:string|  The category of the task.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -60,7 +60,7 @@ Name |  Type |  Description
 **taskType**|  xsd:string|  The type of the task.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -73,13 +73,13 @@ Name |  Type |  Description
 **cancellable**|  xsd:boolean|  Whether the task can be cancelled or not.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **state**|  xsd:string|  The state of the task.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -94,22 +94,20 @@ Name |  Type |  Description
 **percentageComplete**|  xsd:int|  How complete the task is as a percentage.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **result**| [TaskResult](vdi.task.Task.TaskResult.md)|  The result of a task, only available when task is completed.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

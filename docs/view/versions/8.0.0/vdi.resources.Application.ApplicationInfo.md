@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo  
 Returned by
-     [Application_Get](vdi.resources.Application.md#get)
+     [Application_Get](vdi.resources.Application.md#get)  
 See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md), [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)
+     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md), [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)  
 Since 
     Horizon View 6.0
 
@@ -46,7 +46,7 @@ Name |  Type |  Description
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application Entity ID   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **data**| [ApplicationData](vdi.resources.Application.ApplicationData.md)|  Application Data to read/update an Application entry.   
@@ -56,36 +56,34 @@ Name |  Type |  Description
 **icons**| [ApplicationIconId[]](vdi.entity.ApplicationIconId.md)|  Array of icon entityIds associated with the Application   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **customizedIcons**| [ApplicationIconId[]](vdi.entity.ApplicationIconId.md)|  Array of customized icon entityIds associated with the Application  **_Since_** Horizon 7.9  
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
-[^2]
+* This property cannot be updated.
 
   
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the Applications in your organization. They can also be used for delegated administration. For Application, this is the same as that of the Farm that the Application belongs to.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **runtimeData**| [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)|  Application runtime information  **_Since_** Horizon 7.12  
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

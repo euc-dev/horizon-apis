@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView  
 See also
-     [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)
+     [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)  
 Since 
     Horizon 7.10
 
@@ -54,13 +54,13 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop entity ID.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -77,7 +77,7 @@ This option is only valid for Automated Desktop.
 **operatingSystem**|  xsd:string|  The guest operating system.   
 
 
-[^1]
+ * This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -107,8 +107,8 @@ This option is only valid for Automated Desktop.
 **operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -120,26 +120,26 @@ This option is only valid for Automated Desktop.
 **base**| [DesktopBase](vdi.resources.Desktop.DesktopBase.md)|  Desktop identification information.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **virtualCenterData**| [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md)|  Paths for Virtual Center entities associated with this Desktop.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **partnerDesktopSetting**| [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)|  Partner desktop settings for AWSCORE pools  **_Since_** Horizon 8.13  
 
 
-[^1]
+ * This property need not be set.
 
   
   

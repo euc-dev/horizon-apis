@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailData  
 Property of
-     [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md#field_detail)
+     [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md#field_detail)  
 Since 
     Horizon 7.4
 
@@ -61,7 +61,7 @@ Name |  Type |  Description
 **operatingSystem**|  xsd:string|  The guest operating system. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -91,7 +91,7 @@ Name |  Type |  Description
 **operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -103,52 +103,52 @@ Name |  Type |  Description
 **avmEndpoints**|  xsd:string[]|  App Volumes manager endpoints. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
 **supportedDomains**|  xsd:string[]|  Supported domains for the desktop. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
   * This property is an unordered array of unique values.
 
   
 **uemAgentVersion**|  xsd:string|  UEM agent version. Applicable only for automated desktops.   
 
 
-[^1]
+* This property need not be set.
 
   
 **vcenterUrl**|  xsd:string|  URL of associated Vcenter for this desktop.   
 
 
-[^1]
+* This property need not be set.
 
   
 **creationTime**|  xsd:dateTime|  Desktop creation time.   
 
 
-[^1]
+* This property need not be set.
 
   
 **lastModifiedTime**|  xsd:dateTime|  Desktop last modified time.   
 
 
-[^1]
+* This property need not be set.
 
   
 **numOfEntitledUsers**|  xsd:int|  Number of entitled users for the desktop.   
 
 
-[^1]
+* This property need not be set.
 
   
 **numMachines**|  xsd:int|  Number of machines in the desktop. The machines may be queried using the query service for Machine. This field does not apply to RDS desktops. The RDS servers associated with an RDS desktop may be queried using the query service for RDSServer.   
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GeneralData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GeneralData  
 Property of
-     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)
+     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 600.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 5. 
   * This property is required if clientMaxSessionTimePolicy is set to "TIMEOUT_AFTER".
 
@@ -62,7 +62,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 15.
-[^1]
+* This property need not be set.
   * This property is required if clientIdleSessionTimeoutPolicy is set to "TIMEOUT_AFTER".
 
   
@@ -87,7 +87,7 @@ Name |  Type |  Description
 **desktopSSOTimeoutMinutes**|  xsd:int|  SSO is disabled the specified number of minutes after a user connects to View Connection Server.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if desktopSSOTimeoutPolicy is set to "DISABLE_AFTER".
 
@@ -107,7 +107,7 @@ Name |  Type |  Description
 **applicationSSOTimeoutMinutes**|  xsd:int|  The time allowed (in minutes) to elapse after a user has authenticated before the application SSO credentials are locked unless the user's client supports idle sessions and the user remains active.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if applicationSSOTimeoutPolicy is set to "DISABLE_AFTER".
 
@@ -125,13 +125,13 @@ This change will take effect on next login for each user.  **_Since_** Horizon 7
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **preLoginMessage**|  xsd:string|  Displays a disclaimer or another message to View Client users when they log in. No message will be displayed if this is null.   
 
 
-[^1]
+* This property need not be set.
 
   
 **displayWarningBeforeForcedLogoff**|  xsd:boolean|  Displays a warning message when users are forced to log off because a scheduled or immediate update such as a machine-refresh operation is about to start.   
@@ -139,7 +139,7 @@ This change will take effect on next login for each user.  **_Since_** Horizon 7
 **forcedLogoffTimeoutMinutes**|  xsd:int|  The number of minutes to wait after the warning is displayed and before logging off the user.   
 
 
-[^1]
+* This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if displayWarningBeforeForcedLogoff is set to true.
 
@@ -147,7 +147,7 @@ This change will take effect on next login for each user.  **_Since_** Horizon 7
 **forcedLogoffMessage**|  xsd:string|  The warning to be displayed before logging off the user.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if displayWarningBeforeForcedLogoff is set to true.
 
   
@@ -174,21 +174,21 @@ Non UI based clients should ignore this property.  **_Since_** Horizon 7.5
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **consoleSessionTimeoutMinutes**|  xsd:int|  Determines how long (in minutes) an idle admin console session continues before the session times out.  **_Since_** Horizon 7.5  
 
 
   * This property has a default value of 30.
-[^1]
+* This property need not be set.
 
   
 **enableAutomaticStatusUpdates**|  xsd:boolean|  Enable updation of the global status of the application periodically. The Dashboard Information is also updated at regular intervals when Dashboard page is active.  **_Since_** Horizon 7.9  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **sendDomainList**|  xsd:boolean|  Indicates whether the domain list will be sent to the client.  
@@ -196,21 +196,21 @@ Since domain list will be sent before user is authenticated with server, it coul
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **enableCredentialCleanupForHTMLAccess**|  xsd:boolean|  Indicates whether to clean up broker session credentials when one tab connecting to remote desktop/app is closed.  **_Since_** Horizon 7.9  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **hideServerInformationInClient**|  xsd:boolean|  Indicates whether to hide the server URL in the client user interface.  **_Since_** Horizon 7.9  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **hideDomainListInClient**|  xsd:boolean|  Whether to hide the list of domains in the client user interface.  
@@ -218,21 +218,19 @@ If value set to true, the user will need to provide a UPN (e.g. user@domain) or 
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
 **enableMultiFactorReAuth**|  xsd:boolean|  Enable/Disable multifactor re-authentication. Enabling this would prompt end user with RSA/RADIUS screen after idle session timeout during unlock. This would have no effect if 2-factor authentication is disabled.  **_Since_** Horizon 7.11  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

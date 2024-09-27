@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.MessageSecurityData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.MessageSecurityData  
 Property of
-     [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)
+     [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)  
 Since 
     Horizon View 6.1
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **messageSecurityMode**|  xsd:string|  The current JMS message security mode used by this Security Server.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -45,12 +45,12 @@ Name |  Type |  Description
 **messageSecurityEnhancedModeSupported**|  xsd:boolean|  Indicates whether ENHANCED message security mode is currently supported by this Security Server.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

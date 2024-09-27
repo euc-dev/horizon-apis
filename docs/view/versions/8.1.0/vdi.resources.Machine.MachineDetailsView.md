@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDetailsView
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDetailsView  
 See also
-     [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineData](vdi.resources.Machine.MachineData.md), [MachineDesktopData](vdi.resources.Machine.MachineDesktopData.md), [MachineId](vdi.entity.MachineId.md), [MachineSessionData](vdi.resources.Machine.MachineSessionData.md), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineData](vdi.resources.Machine.MachineData.md), [MachineDesktopData](vdi.resources.Machine.MachineDesktopData.md), [MachineId](vdi.entity.MachineId.md), [MachineSessionData](vdi.resources.Machine.MachineSessionData.md), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.7
 
@@ -54,13 +54,13 @@ Name |  Type |  Description
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **groupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The id of the group. Required for querying the machines assigned to the users of this group.   
 
 
-[^1]
+* This property need not be set.
 
   
 **data**| [MachineData](vdi.resources.Machine.MachineData.md)|  Information about the Machine.   
@@ -70,26 +70,24 @@ Name |  Type |  Description
 **sessionData**| [MachineSessionData](vdi.resources.Machine.MachineSessionData.md)|  Information about the active session on the Machine. This will be unset when there is no active session on this Machine.   
 
 
-[^1]
+* This property need not be set.
 
   
 **managedMachineDetailsData**| [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md)|  Information applicable only to Managed Machines.   
 
 
-[^1]
+* This property need not be set.
 
   
 **machineAgentPairingData**| [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md)|  Agent pairing data for this Machine.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

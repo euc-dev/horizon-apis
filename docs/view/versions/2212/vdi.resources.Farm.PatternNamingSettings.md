@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.PatternNamingSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.PatternNamingSettings  
 Property of
-     [FarmRDSServerNamingSettings](vdi.resources.Farm.RDSServerNamingSettings.md#field_detail), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md#field_detail)
+     [FarmRDSServerNamingSettings](vdi.resources.Farm.RDSServerNamingSettings.md#field_detail), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md#field_detail)  
 Since 
     Horizon View 6.2
 
@@ -44,9 +44,7 @@ If {n} is specified with no size, a size of 2 is automatically used and if no {}
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

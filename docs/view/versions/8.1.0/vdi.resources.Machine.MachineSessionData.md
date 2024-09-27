@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSessionData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSessionData  
 Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
 See also
-     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.7
 
@@ -32,25 +32,25 @@ Name |  Type |  Description
 **id**| [SessionId](vdi.entity.SessionId.md)|  Session id.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id of the user involved in this session.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **userName**|  xsd:string|  Name of the user involved in this session.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -63,9 +63,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

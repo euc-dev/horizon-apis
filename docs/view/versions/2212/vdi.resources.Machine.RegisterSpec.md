@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.RegisterSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.RegisterSpec  
 Parameter to
-     [Machine_Register](vdi.resources.Machine.md#register)
+     [Machine_Register](vdi.resources.Machine.md#register)  
 See also
-     [DesktopId](vdi.entity.DesktopId.md)
+     [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon View 6.0
 
@@ -65,15 +65,13 @@ Name |  Type |  Description
 **source**|  xsd:string|  An optional string that describes how and why this machine was registered. This will appear in the agent logs.   
 
 
-[^1]
+* This property need not be set.
   * If specified, this property is limited to letters, numbers, punctuation, spaces, and tabs. 
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

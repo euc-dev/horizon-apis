@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.PreparedMachineCount
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.PreparedMachineCount  
 Property of
-     [StateCount](vdi.resources.Machine.StateCount.md#field_detail)
+     [StateCount](vdi.resources.Machine.StateCount.md#field_detail)  
 Since 
     Horizon 8.4
 
@@ -30,30 +30,30 @@ Name |  Type |  Description
 **available**|  xsd:int|  Number of machines which are in AVAILABLE [basicState](vdi.resources.Machine.MachineBase.md#basicState).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **provisioned**|  xsd:int|  Number of machines which are in PROVISIONED [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable for VC managed virtual machines.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **connected**|  xsd:int|  Number of machines which are in CONNECTED [basicState](vdi.resources.Machine.MachineBase.md#basicState).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **disconnected**|  xsd:int|  Number of machines which are in DISCONNECTED [basicState](vdi.resources.Machine.MachineBase.md#basicState).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

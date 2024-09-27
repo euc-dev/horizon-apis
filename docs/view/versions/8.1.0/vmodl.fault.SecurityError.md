@@ -7,19 +7,17 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vim.binding.vmodl.fault.SecurityError
+    com.vmware.vim.binding.vmodl.fault.SecurityError  
 Extended by
      [InsufficientPermission](vdi.fault.InsufficientPermission.md)
 Extends
-     [RuntimeFault](vmodl.RuntimeFault.md)
+     [RuntimeFault](vmodl.RuntimeFault.md)  
 
 ## Fault Description 
 
@@ -38,9 +36,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

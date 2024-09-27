@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PersistentDiskSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PersistentDiskSettings  
 Property of
-     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail)
+     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail)  
 See also
-     [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)
+     [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -38,21 +38,21 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^2]
+* This property cannot be updated.
 
   
 **useSeparateDatastoresPersistentAndOSDisks**|  xsd:boolean|  Whether to use separate datastores for persistent and OS disks. This must be false if [redirectWindowsProfile](vdi.resources.Desktop.PersistentDiskSettings.md#redirectWindowsProfile) is false.   
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
   * This property is required if redirectWindowsProfile is set to true.
 
   
 **persistentDiskDatastores**| [DesktopVirtualCenterDatastoreSettings[]](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)|  Datastores to store persistent disks for View Composer VMs.   
 
 
-[^1]
+* This property need not be set.
   * This property is required if useSeparateDatastoresPersistentAndOSDisks is set to true.
 
   
@@ -60,7 +60,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 2048.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 128. 
   * This property is required if redirectWindowsProfile is set to true.
 
@@ -69,16 +69,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of D.
-[^1]
+* This property need not be set.
   * This property must be single letters from D to Z. 
   * This property is required if redirectWindowsProfile is set to true.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

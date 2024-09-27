@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter
+    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter  
 Parameter to
-     [Performance_GetProcessPerformanceData](vdi.helpdesk.Performance.md#getProcessPerformanceData)
+     [Performance_GetProcessPerformanceData](vdi.helpdesk.Performance.md#getProcessPerformanceData)  
 Since 
     Horizon 7.6
 
@@ -30,8 +30,8 @@ Name |  Type |  Description
 **processSessionFilter**|  xsd:string|  Filter process by process session info   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  

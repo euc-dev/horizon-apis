@@ -7,19 +7,17 @@ hide:
 ---
 
   
-| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidRequest
+    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidRequest  
 Thrown by
-     [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator), [EventDatabase_Update](vdi.infrastructure.EventDatabase.md#update), [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create), [GatewayAccessUserOrGroup_Delete](vdi.users.GatewayAccessUserOrGroup.md#delete), [GlobalApplicationEntitlement_Delete](vdi.federation.GlobalApplicationEntitlement.md#delete), [GlobalApplicationEntitlement_Update](vdi.federation.GlobalApplicationEntitlement.md#update), [GlobalEntitlement_Delete](vdi.federation.GlobalEntitlement.md#delete), [GlobalEntitlement_Update](vdi.federation.GlobalEntitlement.md#update), [GlobalSessionQueryService_GetCountWithSpec](vdi.users.GlobalSessionQueryService.md#getCountWithSpec), [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec), [Machine_Register](vdi.resources.Machine.md#register), [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec), [Pod_Update](vdi.federation.Pod.md#update), [PodFederation_Update](vdi.federation.PodFederation.md#update), [Site_Update](vdi.federation.Site.md#update), [Syslog_Update](vdi.infrastructure.Syslog.md#update), [Task_Cancel](vdi.task.Task.md#cancel), [UnauthenticatedAccessUser_Create](vdi.users.UnauthenticatedAccessUser.md#create), [UnauthenticatedAccessUser_Delete](vdi.users.UnauthenticatedAccessUser.md#delete), [UnauthenticatedAccessUser_Update](vdi.users.UnauthenticatedAccessUser.md#update), [UserEntitlement_CreateUserEntitlements](vdi.users.UserEntitlement.md#createUserEntitlements), [UserHomeSite_Create](vdi.federation.UserHomeSite.md#create), [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate), [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate)
+     [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator), [EventDatabase_Update](vdi.infrastructure.EventDatabase.md#update), [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create), [GatewayAccessUserOrGroup_Delete](vdi.users.GatewayAccessUserOrGroup.md#delete), [GlobalApplicationEntitlement_Delete](vdi.federation.GlobalApplicationEntitlement.md#delete), [GlobalApplicationEntitlement_Update](vdi.federation.GlobalApplicationEntitlement.md#update), [GlobalEntitlement_Delete](vdi.federation.GlobalEntitlement.md#delete), [GlobalEntitlement_Update](vdi.federation.GlobalEntitlement.md#update), [GlobalSessionQueryService_GetCountWithSpec](vdi.users.GlobalSessionQueryService.md#getCountWithSpec), [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec), [Machine_Register](vdi.resources.Machine.md#register), [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec), [Pod_Update](vdi.federation.Pod.md#update), [PodFederation_Update](vdi.federation.PodFederation.md#update), [Site_Update](vdi.federation.Site.md#update), [Syslog_Update](vdi.infrastructure.Syslog.md#update), [Task_Cancel](vdi.task.Task.md#cancel), [UnauthenticatedAccessUser_Create](vdi.users.UnauthenticatedAccessUser.md#create), [UnauthenticatedAccessUser_Delete](vdi.users.UnauthenticatedAccessUser.md#delete), [UnauthenticatedAccessUser_Update](vdi.users.UnauthenticatedAccessUser.md#update), [UserEntitlement_CreateUserEntitlements](vdi.users.UserEntitlement.md#createUserEntitlements), [UserHomeSite_Create](vdi.federation.UserHomeSite.md#create), [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate), [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate)  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 Since 
     Horizon View 6.0
 
@@ -42,9 +40,7 @@ Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None  
   
   
-Top of page| | |   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

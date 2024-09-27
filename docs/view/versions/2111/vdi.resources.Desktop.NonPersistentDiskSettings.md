@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NonPersistentDiskSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NonPersistentDiskSettings  
 Property of
-     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail)
+     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -36,14 +36,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^2]
+* This property cannot be updated.
 
   
 **diskSizeMB**|  xsd:int|  Size of the non persistent disk in MB.   
 
 
   * This property has a default value of 4096.
-[^1]
+* This property need not be set.
   * This property has a minimum value of 512. 
   * This property is required if redirectDisposableFiles is set to true.
 
@@ -52,16 +52,14 @@ Name |  Type |  Description
 
 
   * This property has a default value of Auto.
-[^1]
+* This property need not be set.
   * This property must be single letters from D to Z or the word Auto. 
   * This property is required if redirectDisposableFiles is set to true.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

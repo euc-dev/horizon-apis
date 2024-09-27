@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView  
 Returned by
-     [Session_GetLocalSummaryView](vdi.users.Session.md#getLocalSummaryView)
+     [Session_GetLocalSummaryView](vdi.users.Session.md#getLocalSummaryView)  
 See also
-     [SessionData](vdi.users.Session.SessionData.md), [SessionId](vdi.entity.SessionId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SessionNamesData](vdi.users.Session.SessionNamesData.md)
+     [SessionData](vdi.users.Session.SessionData.md), [SessionId](vdi.entity.SessionId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SessionNamesData](vdi.users.Session.SessionNamesData.md)  
 Since 
     Horizon View 6.0
 
@@ -55,8 +55,8 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this session.  **_Since_** Horizon 8.4  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   

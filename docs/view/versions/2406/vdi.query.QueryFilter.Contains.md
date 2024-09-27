@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Contains
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Contains  
 Extends
-     [QueryFilter](vdi.query.QueryFilter.Filter.md)
+     [QueryFilter](vdi.query.QueryFilter.Filter.md)  
 Since 
     Horizon View 6.0
 
@@ -41,7 +41,7 @@ Name |  Type |  Description
 **value**|  xsd:anyType|  The value that the member must contain.   
 
 
-[^1]
+ * This property need not be set.
 
   
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)  

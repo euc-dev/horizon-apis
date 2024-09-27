@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterDatastoreSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterDatastoreSettings  
 Property of
-     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)
+     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)  
 See also
-     [DatastoreId](vdi.entity.DatastoreId.md)
+     [DatastoreId](vdi.entity.DatastoreId.md)  
 Since 
     Horizon View 6.2
 
@@ -47,9 +47,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

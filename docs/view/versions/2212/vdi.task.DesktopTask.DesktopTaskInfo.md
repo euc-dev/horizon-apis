@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskInfo
+    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskInfo  
 Returned by
-     [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_List](vdi.task.DesktopTask.md#list)
+     [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_List](vdi.task.DesktopTask.md#list)  
 See also
-     [DesktopTaskData](vdi.task.DesktopTask.DesktopTaskData.md), [DesktopTaskId](vdi.entity.DesktopTaskId.md)
+     [DesktopTaskData](vdi.task.DesktopTask.DesktopTaskData.md), [DesktopTaskId](vdi.entity.DesktopTaskId.md)  
 Since 
     Horizon 7.4
 
@@ -35,9 +35,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

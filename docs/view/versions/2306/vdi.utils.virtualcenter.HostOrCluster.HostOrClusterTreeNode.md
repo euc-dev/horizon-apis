@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode  
 Property of
-     [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md#field_detail)
+     [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md#field_detail)  
 Returned by
-     [HostOrCluster_GetHostOrClusterTree](vdi.utils.virtualcenter.HostOrCluster.md#getHostOrClusterTree)
+     [HostOrCluster_GetHostOrClusterTree](vdi.utils.virtualcenter.HostOrCluster.md#getHostOrClusterTree)  
 See also
-     [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md), [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)
+     [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md), [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)  
 Since 
     Horizon View 6.0
 
@@ -38,26 +38,26 @@ Name |  Type |  Description
 **container**|  xsd:boolean|  Whether or not this node is a container or a legitimate host or cluster.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **treeContainer**| [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)|  Set only if this node represents a container.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **info**| [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md)|  Set only if this node represents a host or cluster.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

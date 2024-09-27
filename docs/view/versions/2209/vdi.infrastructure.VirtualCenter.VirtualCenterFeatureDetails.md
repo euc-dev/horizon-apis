@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails  
 Returned by
-     [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)
+     [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)  
 Since 
     Horizon 8.0
 
@@ -30,7 +30,7 @@ Name |  Type |  Description
 **storageAcceleratorStatus**|  xsd:string|  Determines the storage accelerator status of the given virtual center.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -41,7 +41,7 @@ Name |  Type |  Description
 **spaceReclamationStatus**|  xsd:string|  Determines the space reclamation status of the given virtual center.   
 
 
-[^2]
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -54,14 +54,12 @@ Name |  Type |  Description
 **version**|  xsd:string|  Version of the virtual center.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer  
 Property of
-     [HostOrClusterTreeNode](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md#field_detail)
+     [HostOrClusterTreeNode](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md#field_detail)  
 See also
-     [HostOrClusterTreeNode](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md)
+     [HostOrClusterTreeNode](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md)  
 Since 
     Horizon View 6.0
 
@@ -36,19 +36,19 @@ Name |  Type |  Description
 **name**|  xsd:string|  Host or cluster container node display name.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **path**|  xsd:string|  Host or cluster container node path.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **type**|  xsd:string|  Type of container.   
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -60,15 +60,13 @@ Name |  Type |  Description
 **children**| [HostOrClusterTreeNode[]](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md)|  Contents of the container. These may be hosts or clusters or further nested containers.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachinesSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachinesSpec  
 Property of
-     [DesktopManualVirtualMachineDefinition](vdi.resources.Desktop.ManualVirtualMachineDefinition.md#field_detail)
+     [DesktopManualVirtualMachineDefinition](vdi.resources.Desktop.ManualVirtualMachineDefinition.md#field_detail)  
 Since 
     Horizon 7.4
 
@@ -32,14 +32,12 @@ Name |  Type |  Description
 **userName**|  xsd:string|  The name of the user entitled to the VM, used only in case of persistent desktops.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

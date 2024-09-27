@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec  
 Parameter to
-     [Desktop_Recompose](vdi.resources.Desktop.md#recompose)
+     [Desktop_Recompose](vdi.resources.Desktop.md#recompose)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [MachineId](vdi.entity.MachineId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [MachineId](vdi.entity.MachineId.md)  
 Since 
     Horizon View 6.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **startTime**|  xsd:dateTime|  When to start the operation. If unset the operation will begin immediately.   
 
 
-[^1]
+* This property need not be set.
 
   
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on machines which have an active session.   
@@ -63,12 +63,12 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

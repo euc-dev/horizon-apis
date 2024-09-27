@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidType
+    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidType  
 Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
 Since 
     Horizon View 6.0
 
@@ -30,13 +30,13 @@ Name |  Type |  Description
 **parameterName**|  xsd:string|  The name of the invalid parameter   
 
 
-[^1]
+ * This property need not be set.
 
   
 **expectedType**|  xsd:string|  The expected type of the parameter.   
 
 
-[^1]
+ * This property need not be set.
 
   
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  

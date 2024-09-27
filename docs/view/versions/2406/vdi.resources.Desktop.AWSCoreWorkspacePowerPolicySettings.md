@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings  
 Property of
-     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md#field_detail)
+     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md#field_detail)  
 See also
-     [AWSCoreWorkspaceSchedule](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)
+     [AWSCoreWorkspaceSchedule](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)  
 Since 
     Horizon 8.13
 
@@ -43,7 +43,7 @@ Name |  Type |  Description
 **workspaceSchedules**| [AWSCoreWorkspaceSchedule[]](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)|  The Schedules for workspace power policy can only be set for workspaces where the running mode is set to MANUAL.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

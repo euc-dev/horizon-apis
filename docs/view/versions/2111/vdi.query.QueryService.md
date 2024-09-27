@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryService
+    com.vmware.vdi.vlsi.binding.vdi.query.QueryService  
 See also
-     [QueryDefinition](vdi.query.QueryDefinition.md), [QueryId](vdi.entity.QueryId.md), [QueryResults](vdi.query.QueryResults.md)
+     [QueryDefinition](vdi.query.QueryDefinition.md), [QueryId](vdi.entity.QueryId.md), [QueryResults](vdi.query.QueryResults.md)  
 Since 
     Horizon View 6.0
 
@@ -306,9 +304,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

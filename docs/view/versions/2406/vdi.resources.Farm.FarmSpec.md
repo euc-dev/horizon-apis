@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec  
 Parameter to
-     [Farm_Create](vdi.resources.Farm.md#create)
+     [Farm_Create](vdi.resources.Farm.md#create)  
 See also
-     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)
+     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)  
 Since 
     Horizon View 6.2
 
@@ -44,14 +44,14 @@ Name |  Type |  Description
 **automatedFarmSpec**| [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md)|  Automated farm spec.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "AUTOMATED".
 
   
 **manualFarmSpec**| [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)|  Manual Farm spec   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "MANUAL".
 
   

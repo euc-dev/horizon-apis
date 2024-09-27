@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSettings
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSettings  
 Property of
-     [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)
+     [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -53,7 +53,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 2000.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
 
   
@@ -61,7 +61,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 7.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property has a maximum value of 7. 
 

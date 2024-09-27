@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentUpgradeInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentUpgradeInfo  
 Property of
-     [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)
+     [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)  
 Since 
     Horizon 8.8
 
@@ -28,8 +28,8 @@ Name |  Type |  Description
 **agentUpgradeState**|  xsd:string|  State of the agent upgrade on the machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -45,8 +45,8 @@ Name |  Type |  Description
 **agentUpgradeResult**|  xsd:string|  Result of the agent upgrade on the machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -66,15 +66,13 @@ Name |  Type |  Description
 **agentUpgradeErrorMessage**|  xsd:string|  Error message of the agent upgrade failure on the machine.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

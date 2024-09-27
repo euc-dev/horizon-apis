@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.QuerySpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.QuerySpec  
 Parameter to
-     [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec)
+     [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec)  
 See also
-     [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+     [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
 
 ## Data Object Description 
 
@@ -34,27 +34,25 @@ Name |  Type |  Description
 **sortBy**|  xsd:string|  sortBy Member name to sort results by.   
 
 
-[^1]
+* This property need not be set.
 
   
 **sortDescending**|  xsd:boolean|  sortDescending Sort order: false (ascending) by default.   
 
 
-[^1]
+* This property need not be set.
 
   
 **maxPageSize**|  xsd:int|  maxPageSize Maximum page size to return.   
 
 
   * This property has a default value of 1000.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase  
 Property of
-     [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)
+     [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)  
 Parameter to
-     [ImageManagementTag_CreateTags](vdi.utils.imagemanagement.ImageManagementTag.md#createTags)
+     [ImageManagementTag_CreateTags](vdi.utils.imagemanagement.ImageManagementTag.md#createTags)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md)  
 Since 
     Horizon 7.10
 
@@ -40,7 +40,7 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Entity id of image management stream to which this tag belongs.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Entity id of image management version to which this tag is assigned.   
@@ -48,12 +48,12 @@ Name |  Type |  Description
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management tag.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

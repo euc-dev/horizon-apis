@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.SecurityServerInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.SecurityServerInfo  
 Returned by
-     [SecurityServer_Get](vdi.infrastructure.SecurityServer.md#get), [SecurityServer_List](vdi.infrastructure.SecurityServer.md#list)
+     [SecurityServer_Get](vdi.infrastructure.SecurityServer.md#get), [SecurityServer_List](vdi.infrastructure.SecurityServer.md#list)  
 See also
-     [SecurityServerGeneralData](vdi.infrastructure.SecurityServer.GeneralData.md), [SecurityServerId](vdi.entity.SecurityServerId.md), [SecurityServerMessageSecurityData](vdi.infrastructure.SecurityServer.MessageSecurityData.md)
+     [SecurityServerGeneralData](vdi.infrastructure.SecurityServer.GeneralData.md), [SecurityServerId](vdi.entity.SecurityServerId.md), [SecurityServerMessageSecurityData](vdi.infrastructure.SecurityServer.MessageSecurityData.md)  
 Since 
     Horizon View 6.0
 
@@ -39,9 +39,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

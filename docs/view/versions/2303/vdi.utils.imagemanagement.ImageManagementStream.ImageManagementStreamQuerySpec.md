@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamQuerySpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamQuerySpec  
 Parameter to
-     [ImageManagementStream_ListBySpec](vdi.utils.imagemanagement.ImageManagementStream.md#listBySpec)
+     [ImageManagementStream_ListBySpec](vdi.utils.imagemanagement.ImageManagementStream.md#listBySpec)  
 See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.10
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **status**|  xsd:string|  Image management stream status.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -48,7 +48,7 @@ Name |  Type |  Description
 **provisioningType**|  xsd:string|  Provisioning type of the desktop/farm.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -63,7 +63,7 @@ This option is only valid for Automated Desktop.
 **resourceType**|  xsd:string|  Type of resource.   
 
 
-[^1]
+* This property need not be set.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -74,12 +74,12 @@ This option is only valid for Automated Desktop.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Entity id of virtual center.   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

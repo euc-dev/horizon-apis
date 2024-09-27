@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSessionSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSessionSettings  
 Property of
-     [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md#field_detail), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)
+     [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md#field_detail), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)  
 Since 
     Horizon View 6.0
 
@@ -42,7 +42,7 @@ Name |  Type |  Description
 **maxSessionsSetByAdmin**|  xsd:int|  Maximum number of sessions on an RDS server as set by the admin.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 1. 
   * This property is required if maxSessionsType is set to "LIMITED".
 

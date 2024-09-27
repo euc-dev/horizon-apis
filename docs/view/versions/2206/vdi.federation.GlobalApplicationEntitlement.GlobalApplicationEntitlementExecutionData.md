@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData  
 Property of
-     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)
+     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)  
 Since 
     Horizon View 6.2
 
@@ -30,26 +30,24 @@ Name |  Type |  Description
 **executablePath**|  xsd:string|  Path to Application executable.   
 
 
-[^1]
+* This property need not be set.
 
   
 **publisher**|  xsd:string|  Application publisher   
 
 
-[^1]
+* This property need not be set.
 
   
 **version**|  xsd:string|  Application version   
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

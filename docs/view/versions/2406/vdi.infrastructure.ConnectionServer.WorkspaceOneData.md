@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.WorkspaceOneData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.WorkspaceOneData  
 Property of
-     [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md#field_detail)
+     [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md#field_detail)  
 Since 
     Horizon 7.2
 
@@ -31,13 +31,13 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **workspaceOneHostName**|  xsd:string|  The hostname of the Workspace ONE Server.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if workspaceOneModeEnabled is set to true.
 
   
@@ -45,7 +45,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
   

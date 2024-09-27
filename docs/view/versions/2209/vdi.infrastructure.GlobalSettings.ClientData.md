@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientData  
 Property of
-     [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md#field_detail)
+     [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md#field_detail)  
 Since 
     Horizon 7.11
 
@@ -49,7 +49,7 @@ Name |  Type |  Description
   
 
 
-[^1]
+* This property need not be set.
 
   
 **warnSpecificVersions**|  xsd:string|  Warn users when connecting with the Horizon client having version that matches any of the comma separated specified versions. This is applicable only for Horizon Clients 8.0.0 or later 
@@ -60,7 +60,7 @@ Name |  Type |  Description
 **_Since_** Horizon 8.0  
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 128 characters. 
 
   
@@ -73,15 +73,13 @@ Name |  Type |  Description
 **_Since_** Horizon 8.0  
 
 
-[^1]
+* This property need not be set.
   * This property has a maximum length of 128 characters. 
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

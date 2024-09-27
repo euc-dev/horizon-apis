@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopNamesData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopNamesData  
 Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)
+     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)  
 See also
-     [AWSCoreDesktopNamesData](vdi.resources.Desktop.AWSCoreDesktopNamesData.md)
+     [AWSCoreDesktopNamesData](vdi.resources.Desktop.AWSCoreDesktopNamesData.md)  
 Since 
     Horizon 8.13
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **awsCoreDesktopNamesData**| [AWSCoreDesktopNamesData](vdi.resources.Desktop.AWSCoreDesktopNamesData.md)|  Naming data for AWS desktop entities.   
 
 
-[^1]
+ * This property need not be set.
 
   
   

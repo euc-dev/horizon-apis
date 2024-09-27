@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec
+    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec  
 Parameter to
-     [ADUserOrGroup_ValidateCredentials](vdi.users.ADUserOrGroup.md#validateCredentials)
+     [ADUserOrGroup_ValidateCredentials](vdi.users.ADUserOrGroup.md#validateCredentials)  
 See also
-     [SecureString](vdi.util.SecureString.md)
+     [SecureString](vdi.util.SecureString.md)  
 Since 
     Horizon 7.7
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **domain**|  xsd:string|  The domain of user. Note that domain is optional if UPN is supplied.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **username**|  xsd:string|  The username or UPN.   
@@ -42,13 +42,13 @@ Name |  Type |  Description
 **protectedPasswordKey**|  xsd:string|  Decryption key for the password. This key is itself encrypted with cluster's SSO keypair. Pls note that if this key is specified, it means password is sent in encrypted form else it is in plain text.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
 **keyId**|  xsd:string|  The keyId of the cluster's SSO KeyPair used to encrypt the [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#protectedPasswordKey). Pls note that this is required if [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#protectedPasswordKey) is specified.  **_Since_** Horizon 7.11  
 
 
-[^1]
+ * This property need not be set.
 
   
   

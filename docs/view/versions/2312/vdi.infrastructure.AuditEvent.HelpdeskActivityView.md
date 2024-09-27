@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.HelpdeskActivityView
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.HelpdeskActivityView  
 See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.13
 
@@ -66,58 +66,56 @@ Name |  Type |  Description
 **userDisplayName**|  xsd:string|  Display name of the user associated with this event. Will be unset if there is no User association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **desktopDisplayName**|  xsd:string|  Display name of the Desktop associated with this event. Will be unset if there is no Desktop association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **applicationDisplayName**|  xsd:string|  Display name of the Application associated with this event. Will be unset if there is no Application association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **machineName**|  xsd:string|  Name of the Machine associated with this event. Will be unset if there is no Machine association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **farmDisplayName**|  xsd:string|  Display name of the Farm associated with this event. Will be unset if there is no Farm association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **thinappDisplayName**|  xsd:string|  Display name of the Thinapp associated with this event. Will be unset if there is no Thinapp association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **processName**|  xsd:string|  Name of the remote process associated with this event. Will be unset if there is no process association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **eventType**|  xsd:string|  Event name that corresponds to an item in the message catalog. For example: BROKER_USERLOGGEDIN, AGENT_CONNECTED etc.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

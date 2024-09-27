@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo
+    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo  
 Returned by
-     [Monitoring_GetAPIMetrics](vdi.health.Monitoring.md#getAPIMetrics)
+     [Monitoring_GetAPIMetrics](vdi.health.Monitoring.md#getAPIMetrics)  
 See also
-     [APIMetrics](vdi.health.Monitoring.APIMetrics.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md)
+     [APIMetrics](vdi.health.Monitoring.APIMetrics.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md)  
 Since 
     Horizon 7.13
 
@@ -32,24 +32,24 @@ Name |  Type |  Description
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Connection Server Id.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **hostName**|  xsd:string|  Fully qualified host name   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **apiMetrics**| [APIMetrics[]](vdi.health.Monitoring.APIMetrics.md)|  Information on the frequency of the APIs.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

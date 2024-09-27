@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo  
 Returned by
-     [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list), [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter)
+     [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list), [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter)  
 See also
-     [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateId](vdi.entity.VmTemplateId.md), [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md)
+     [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateId](vdi.entity.VmTemplateId.md), [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md)  
 Since 
     Horizon View 6.0
 
@@ -36,26 +36,26 @@ Name |  Type |  Description
 **id**| [VmTemplateId](vdi.entity.VmTemplateId.md)|  VM template Id   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **name**|  xsd:string|  VM template name   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **path**|  xsd:string|  VM template path   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **operatingSystem**|  xsd:string|  Operating system enumeration as known to View.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -84,69 +84,67 @@ Name |  Type |  Description
 **operatingSystemDisplayName**|  xsd:string|  Operating system display name from Virtual Center.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this template   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id for this template   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **hardwareVersion**|  xsd:int|  Template hardware version.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **vGPUType**|  xsd:string|  NVIDIA GRID vGPU type configured on this template, if any.  **_Since_** Horizon View 6.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **incompatibleReasons**| [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md)|  Reasons that may preclude this VmTemplate from being used in full clone desktop creation.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **memoryMB**|  xsd:int|  Memory size of the template, in MB.  **_Since_** Horizon 7.4  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **diskSizeInBytes**|  xsd:long|  Sum of capacities of all the virtual disks in the template, in bytes.  **_Since_** Horizon 7.4  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this vm template.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

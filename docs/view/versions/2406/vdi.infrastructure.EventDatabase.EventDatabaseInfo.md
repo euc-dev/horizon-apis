@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseInfo  
 Returned by
-     [EventDatabase_Get](vdi.infrastructure.EventDatabase.md#get)
+     [EventDatabase_Get](vdi.infrastructure.EventDatabase.md#get)  
 See also
-     [EventDatabaseEventSettings](vdi.infrastructure.EventDatabase.EventSettings.md), [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md)
+     [EventDatabaseEventSettings](vdi.infrastructure.EventDatabase.EventSettings.md), [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -34,14 +34,14 @@ Name |  Type |  Description
 **database**| [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md)|  How to reach and log into the database server, plus database settings to use   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if eventDatabaseSet is set to true.
 
   
 **settings**| [EventDatabaseEventSettings](vdi.infrastructure.EventDatabase.EventSettings.md)|  Event persistence settings   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if eventDatabaseSet is set to true.
 
   

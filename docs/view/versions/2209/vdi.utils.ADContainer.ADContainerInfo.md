@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo  
 Returned by
-     [ADContainer_ListByDomain](vdi.utils.ADContainer.md#listByDomain), [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator)
+     [ADContainer_ListByDomain](vdi.utils.ADContainer.md#listByDomain), [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator)  
 See also
-     [ADContainerId](vdi.entity.ADContainerId.md)
+     [ADContainerId](vdi.entity.ADContainerId.md)  
 Since 
     Horizon View 6.0
 
@@ -39,9 +39,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec  
 Parameter to
-     [Gateway_Register](vdi.infrastructure.Gateway.md#register)
+     [Gateway_Register](vdi.infrastructure.Gateway.md#register)  
 Since 
     Horizon View 6.0
 

@@ -11,13 +11,13 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreInfo  
 Property of
-     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md#field_detail)
+     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md#field_detail)  
 Returned by
-     [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm), [Datastore_ListDatastoresByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoresByHostOrCluster)
+     [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm), [Datastore_ListDatastoresByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoresByHostOrCluster)  
 See also
-     [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md), [DatastoreId](vdi.entity.DatastoreId.md)
+     [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md), [DatastoreId](vdi.entity.DatastoreId.md)  
 Since 
     Horizon View 6.0
 
@@ -34,27 +34,25 @@ Name |  Type |  Description
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore Id   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **datastoreData**| [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md)|  Datastore data   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this datastore.  **_Since_** Horizon 8.1  
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

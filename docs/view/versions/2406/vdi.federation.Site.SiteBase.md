@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteBase
+    com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteBase  
 Property of
-     [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail)
+     [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail)  
 Parameter to
-     [Site_Create](vdi.federation.Site.md#create)
+     [Site_Create](vdi.federation.Site.md#create)  
 Since 
     Horizon View 6.0
 
@@ -38,14 +38,14 @@ Name |  Type |  Description
 **description**|  xsd:string|  Detailed description of the site.   
 
 
-[^1]
+ * This property need not be set.
   * This property has a maximum length of 1024 characters. 
 
   
 **siteURL**|  xsd:string|  The URL of the site. This must specify a protocol (scheme) of http or https.  **_Since_** Horizon 8.13  
 
 
-[^1]
+ * This property need not be set.
 
   
   

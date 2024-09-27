@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData
+    com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData  
 Property of
-     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail)
+     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail)  
 Since 
     Horizon 7.7
 
@@ -31,7 +31,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^2]
+ * This property cannot be updated.
   * This property has a minimum value of 0. 
 
   
@@ -39,7 +39,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^2]
+ * This property cannot be updated.
   * This property has a minimum value of 0. 
 
   
@@ -47,41 +47,41 @@ Name |  Type |  Description
 
 
   * This property has a default value of 0.
-[^2]
+ * This property cannot be updated.
   * This property has a minimum value of 0. 
 
   
 **unrecognizedPcoipRequestsCount**|  xsd:int|  Number of unrecognized PCoIP Secure Gateway requests.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **unrecognizedBlastRequestsCount**|  xsd:int|  Number of unrecognized Blast Secure Gateway requests.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **unrecognizedTunnelRequestsCount**|  xsd:int|  Number of unrecognized tunnel requests.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **unrecognizedXMLApiRequestsCount**|  xsd:int|  Number of unrecognized XML API requests.  **_Since_** Horizon 8.7  
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

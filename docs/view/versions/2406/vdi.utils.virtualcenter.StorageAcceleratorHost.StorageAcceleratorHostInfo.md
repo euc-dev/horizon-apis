@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo
+    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo  
 Returned by
-     [StorageAcceleratorHost_ListByServerDefinition](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByServerDefinition), [StorageAcceleratorHost_ListByVirtualCenter](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByVirtualCenter)
+     [StorageAcceleratorHost_ListByServerDefinition](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByServerDefinition), [StorageAcceleratorHost_ListByVirtualCenter](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByVirtualCenter)  
 Since 
     Horizon View 6.0
 
@@ -38,7 +38,7 @@ Name |  Type |  Description
 **hostVersion**|  xsd:string|  Version of the host.  **_Since_** Horizon 8.0  
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo  
 See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [RCXServerId](vdi.entity.RCXServerId.md)
+     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [RCXServerId](vdi.entity.RCXServerId.md)  
 Since 
     Horizon 7.11
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **thumbprints**| [CertificateThumbprint[]](vdi.utils.Certificate.CertificateThumbprint.md)|  Thumbprints of the RCX server certificates.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **port**|  xsd:int|  RCX server's port.   
@@ -52,7 +52,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

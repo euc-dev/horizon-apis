@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings  
 Property of
-     [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)
+     [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)  
 See also
-     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)
+     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)  
 Since 
     Horizon View 6.0
 
@@ -46,16 +46,14 @@ Name |  Type |  Description
 **viewComposerStorageSettings**| [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md)|  View Composer storage settings. This must be set for View Composer sourced desktops.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **viewStorageAcceleratorSettings**| [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md)|  View Storage Accelerator settings.   
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

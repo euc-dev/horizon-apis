@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec  
 Parameter to
-     [Machine_Delete](vdi.resources.Machine.md#delete), [Machine_DeleteMachines](vdi.resources.Machine.md#deleteMachines)
+     [Machine_Delete](vdi.resources.Machine.md#delete), [Machine_DeleteMachines](vdi.resources.Machine.md#deleteMachines)  
 See also
-     [DatastorePathId](vdi.entity.DatastorePathId.md)
+     [DatastorePathId](vdi.entity.DatastorePathId.md)  
 Since 
     Horizon View 6.0
 
@@ -33,40 +33,38 @@ Name |  Type |  Description
 Note :- If this is true, then machine being deleted must not have any active user session, otherwise delete operation would fail.   
 
 
-[^1]
+* This property need not be set.
 
   
 **archivePersistentDisk**|  xsd:boolean|  Determines whether to detach the persistent user disk and save it for future use. This can only be specified for linked-clone desktops with [redirectWindowsProfile](vdi.resources.Desktop.PersistentDiskSettings.md#redirectWindowsProfile) enabled, in which case it defaults to true.   
 
 
-[^1]
+* This property need not be set.
 
   
 **archiveDatastorePath**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  Determines the location where the persistent user disk will be saved for future use. If this is unset and [archivePersistentDisk](vdi.resources.Machine.DeleteSpec.md#archivePersistentDisk) is specified, the persistent disk is archived in place.   
 
 
-[^1]
+* This property need not be set.
 
   
 **allowDeleteFromMultiDesktops**|  xsd:boolean|  Determines whether the machines from different desktops can be deleted. This defaults to false in which case only machines belonging to single desktop pool can be deleted. If true, machines from different desktops can be deleted.  **_Since_** Horizon 7.5  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
 **forceLogoffSession**|  xsd:boolean|  Determines whether active session on the machine to be logged off before deletion. This is only applicable for managed machines. If true, active session on the machine will be logged off before Machine delete. Otherwise,it will result in an exception.  **_Since_** Horizon 7.7  
 
 
   * This property has a default value of false.
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

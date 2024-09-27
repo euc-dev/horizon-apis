@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecificNamingSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecificNamingSpec  
 Property of
-     [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md#field_detail)
+     [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md#field_detail)  
 See also
-     [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md)
+     [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md)  
 Since 
     Horizon View 6.0
 

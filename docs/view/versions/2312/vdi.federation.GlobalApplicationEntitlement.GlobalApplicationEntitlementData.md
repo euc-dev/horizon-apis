@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData
+    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData  
 Property of
-     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)
+     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)  
 See also
-     [PodId](vdi.entity.PodId.md)
+     [PodId](vdi.entity.PodId.md)  
 Since 
     Horizon View 6.2
 
@@ -32,45 +32,43 @@ Name |  Type |  Description
 **localApplicationCount**|  xsd:int|  Count of Applications local to this pod that are associated with this Global Application Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **remoteApplicationCount**|  xsd:int|  Count of Applications on remote pods that are associated with this Global Application Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userCount**|  xsd:int|  Count of users that are associated with this Global Application Entitlement. This value will be populated only in #get(GlobalApplicationEntitlementId).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userGroupCount**|  xsd:int|  Count of users and groups that are associated with this Global Application Entitlement.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **userGroupSiteOverrideCount**|  xsd:int|  Count of all User Home Site overrides associated with this Global Application Entitlement (for either users or groups). This value will be populated only in #get(GlobalApplicationEntitlementId).   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **memberPods**| [PodId[]](vdi.entity.PodId.md)|  Pods that have Applications associated with this Global Application Entitlement.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

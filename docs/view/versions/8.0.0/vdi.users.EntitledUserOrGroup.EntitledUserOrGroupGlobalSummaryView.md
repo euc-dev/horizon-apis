@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView  
 Returned by
-     [EntitledUserOrGroup_GetGlobalSummaryView](vdi.users.EntitledUserOrGroup.md#getGlobalSummaryView), [EntitledUserOrGroup_GetGlobalSummaryViews](vdi.users.EntitledUserOrGroup.md#getGlobalSummaryViews)
+     [EntitledUserOrGroup_GetGlobalSummaryView](vdi.users.EntitledUserOrGroup.md#getGlobalSummaryView), [EntitledUserOrGroup_GetGlobalSummaryViews](vdi.users.EntitledUserOrGroup.md#getGlobalSummaryViews)  
 See also
-     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md), [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md), [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon View 6.0
 
@@ -52,27 +52,25 @@ Name |  Type |  Description
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group, from a global cache.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **globalData**| [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md)|  Global entitlement data.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **sessionData**| [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md)|  Data relevant to sessions for this user or group.   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+
   
   
 

@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionStateStatistics
+    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionStateStatistics  
 Property of
-     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)
+     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)  
 Since 
     Horizon 7.7
 
@@ -30,25 +30,25 @@ Name |  Type |  Description
 **numActiveSessions**|  xsd:int|  The number of active sessions.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numIdleSessions**|  xsd:int|  The number of idle sessions.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numDisconnectedSessions**|  xsd:int|  The number of disconnected sessions.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **numPendingSessions**|  xsd:int|  The number of pending sessions.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
   

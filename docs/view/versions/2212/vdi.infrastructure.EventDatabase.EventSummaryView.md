@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSummaryView
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSummaryView  
 See also
-     [EventData](vdi.infrastructure.EventDatabase.EventData.md), [EventNamesData](vdi.infrastructure.EventDatabase.EventNamesData.md)
+     [EventData](vdi.infrastructure.EventDatabase.EventData.md), [EventNamesData](vdi.infrastructure.EventDatabase.EventNamesData.md)  
 Since 
     Horizon 7.3
 
@@ -66,9 +66,7 @@ Name |  Type |  Description
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

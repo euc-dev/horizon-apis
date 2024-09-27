@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo
+    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo  
 Returned by
-     [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)
+     [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)  
 See also
-     [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+     [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
 Since 
     Horizon 7.8
 

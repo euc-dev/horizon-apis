@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationDiscoveryData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationDiscoveryData  
 Returned by
-     [Desktop_DiscoverInstalledApplications](vdi.resources.Desktop.md#discoverInstalledApplications), [Farm_DiscoverInstalledApplications](vdi.resources.Farm.md#discoverInstalledApplications)
+     [Desktop_DiscoverInstalledApplications](vdi.resources.Desktop.md#discoverInstalledApplications), [Farm_DiscoverInstalledApplications](vdi.resources.Farm.md#discoverInstalledApplications)  
 See also
-     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)
+     [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)  
 Since 
     Horizon View 6.0
 
@@ -34,15 +34,13 @@ Name |  Type |  Description
 **name**|  xsd:string|  Application name information, as sent by RDSServer during app. discovery.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

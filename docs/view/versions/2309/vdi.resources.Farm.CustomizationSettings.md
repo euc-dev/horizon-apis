@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CustomizationSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CustomizationSettings  
 Property of
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)
+     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)  
 See also
-     [ADContainerId](vdi.entity.ADContainerId.md), [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md), [FarmCustomizationScriptSettings](vdi.resources.Farm.CustomizationScriptSettings.md), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)
+     [ADContainerId](vdi.entity.ADContainerId.md), [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md), [FarmCustomizationScriptSettings](vdi.resources.Farm.CustomizationScriptSettings.md), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)  
 Since 
     Horizon View 6.2
 
@@ -42,25 +42,25 @@ Name |  Type |  Description
 **domainAdministrator**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)| **Deprecated.**_This property is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View Composer domain administrator. This is the administrator which will add the RDS Servers to its domain upon creation. This must be set for linked-clone RDS Servers.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **instantCloneEngineDomainAdministrator**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)|  Instant Clone Engine domain administrator. This is the administrator which will add the machines to its domain upon creation. This must be set for instant clone RDS Servers.  **_Since_** Horizon 8.3  
 
 
-[^1]
+ * This property need not be set.
 
   
 **adSiteName**|  xsd:string|  The AD Site, associated with [instantCloneEngineDomainAdministrator](vdi.resources.Farm.CustomizationSettings.md#instantCloneEngineDomainAdministrator), which will be used for instant clone pool provisioning. This attribute is valid for only instant clone automated farms.  **_Since_** Horizon 8.9  
 
 
-[^1]
+ * This property need not be set.
 
   
 **adContainer**| [ADContainerId](vdi.entity.ADContainerId.md)|  View Composer Active Directory container for QuickPrep. If unset, this will default to the AD container "CN=Computers".   
 
 
-[^1]
+ * This property need not be set.
 
   
 **reusePreExistingAccounts**|  xsd:boolean|  Whether to allow the use of existing AD computer accounts when the VM names of newly created RDS Servers match the existing computer account names. This is applicable only for Automated Farms.   
@@ -73,31 +73,31 @@ Name |  Type |  Description
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **customizationScriptSettings**| [FarmCustomizationScriptSettings](vdi.resources.Farm.CustomizationScriptSettings.md)|  Customization scripts to run on a cloned VM.  **_Since_** Horizon 8.11  
 
 
-[^1]
+ * This property need not be set.
 
   
 **sysprepCustomizationSettings**| [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md)|  Settings when Sysprep customization is requested.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if customizationType is set to "SYS_PREP".
 
   
 **cloneprepCustomizationSettings**| [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md)|  Settings when ClonePrep customization is requested.  **_Since_** Horizon 7.1  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

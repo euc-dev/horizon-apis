@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings
+    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings  
 Property of
-     [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail)
+     [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail)  
 Parameter to
-     [Policies_Set](vdi.users.Policies.md#set)
+     [Policies_Set](vdi.users.Policies.md#set)  
 Since 
     Horizon View 6.0
 
@@ -76,7 +76,7 @@ Name |  Type |  Description
 **pcoipHardwareAccelerationPriority**|  xsd:string|  Determines priority for hardware acceleration. Ignored if PCoIP hardware acceleration is not allowed. The default value is medium priority.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if allowPCoIPHardwareAcceleration is set to "Allow".
   * This property will be one of:  
 |  Value |  Description   

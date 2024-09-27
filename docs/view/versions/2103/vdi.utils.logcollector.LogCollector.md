@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector
+    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector  
 See also
-     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorDownloadURLInfo](vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo.md), [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorDownloadURLInfo](vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo.md), [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
 Since 
     Horizon 7.10
 
@@ -436,9 +434,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

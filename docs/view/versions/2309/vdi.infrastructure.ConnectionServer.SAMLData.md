@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SAMLData
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SAMLData  
 Property of
-     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)
+     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)  
 See also
-     [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)
+     [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)  
 Since 
     Horizon View 6.0
 
@@ -45,14 +45,14 @@ Name |  Type |  Description
 **samlAuthenticator**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)| **Deprecated.**_use[samlAuthenticators](vdi.infrastructure.ConnectionServer.SAMLData.md#samlAuthenticators) instead of this samlAuthenticator. _   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if samlSupport is set to "ENABLED"or "REQUIRED".
 
   
 **samlAuthenticators**| [SAMLAuthenticatorId[]](vdi.entity.SAMLAuthenticatorId.md)|  List of SamlAuthenticators to use.  **_Since_** Horizon 7.0  
 
 
-[^1]
+ * This property need not be set.
   * This property is an unordered array of unique values.
   * This property is required if samlSupport is set to "MULTI_ENABLED"or "MULTI_REQUIRED".
 
@@ -60,12 +60,12 @@ Name |  Type |  Description
 **workspaceOneData**| [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md)|  Workspace ONE data to use.  **_Since_** Horizon 7.2  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

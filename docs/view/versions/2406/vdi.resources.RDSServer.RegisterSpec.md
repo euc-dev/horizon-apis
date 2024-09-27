@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec  
 Parameter to
-     [RDSServer_Register](vdi.resources.RDSServer.md#register)
+     [RDSServer_Register](vdi.resources.RDSServer.md#register)  
 See also
-     [FarmId](vdi.entity.FarmId.md)
+     [FarmId](vdi.entity.FarmId.md)  
 Since 
     Horizon View 6.0
 
@@ -54,13 +54,13 @@ Name |  Type |  Description
 **farm**| [FarmId](vdi.entity.FarmId.md)|  If specified, will add the machine to the specified Farm.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **source**|  xsd:string|  An optional string that describes how and why this machine was registered. This will appear in the agent logs.   
 
 
-[^1]
+ * This property need not be set.
   * If specified, this property is limited to letters, numbers, punctuation, spaces, and tabs. 
 
   

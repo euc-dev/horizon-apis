@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec
+    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec  
 Parameter to
-     [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)
+     [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)  
 See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
 Since 
     Horizon 7.10
 
@@ -70,51 +70,51 @@ Name |  Type |  Description
 **vmTemplateMoid**|  xsd:string|  MOID of virtual machine template.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **vmMoid**|  xsd:string|  MOID of virtual machine. Must be set if [vmTemplateMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmTemplateMoid) is unset.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **vmSnapshotMoid**|  xsd:string|  MOID of virtual machine snapshot. Must be set if [vmTemplateMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmTemplateMoid) is unset and [vmMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmMoid) is set.   
 
 
-[^1]
-[^2]
+ * This property need not be set.
+ * This property cannot be updated.
 
   
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image management stream to which this asset belongs to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Image management version to which this asset belongs to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center where this asset is created.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management asset.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SpaceReclamationSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SpaceReclamationSettings  
 Property of
-     [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md#field_detail)
+     [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md#field_detail)  
 See also
-     [FarmBlackoutTime](vdi.resources.Farm.BlackoutTime.md)
+     [FarmBlackoutTime](vdi.resources.Farm.BlackoutTime.md)  
 Since 
     Horizon View 6.2
 
@@ -39,7 +39,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of 1.
-[^1]
+ * This property need not be set.
   * This property has a minimum value of 0. 
   * This property is required if reclaimVmDiskSpace is set to true.
 
@@ -47,14 +47,12 @@ Name |  Type |  Description
 **blackoutTimes**| [FarmBlackoutTime[]](vdi.resources.Farm.BlackoutTime.md)|  A list of blackout times. RDS Server disk space reclamation do not occur during blackout times. If unset, no blackout times are used.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

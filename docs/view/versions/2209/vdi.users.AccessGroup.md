@@ -7,17 +7,15 @@ hide:
 ---
 
   
-| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
 
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup
+    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup  
 See also
-     [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupId](vdi.entity.AccessGroupId.md), [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md)
+     [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupId](vdi.entity.AccessGroupId.md), [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md)  
 Since 
     Horizon View 6.0
 
@@ -237,9 +235,7 @@ Show WSDL type definition
   
   
   
-Top of page| | | Local Methods  
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+  
   
   
 

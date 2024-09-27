@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteInfo
+    com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteInfo  
 Returned by
-     [Site_Get](vdi.federation.Site.md#get), [Site_List](vdi.federation.Site.md#list)
+     [Site_Get](vdi.federation.Site.md#get), [Site_List](vdi.federation.Site.md#list)  
 See also
-     [PodId](vdi.entity.PodId.md), [SiteBase](vdi.federation.Site.SiteBase.md), [SiteId](vdi.entity.SiteId.md)
+     [PodId](vdi.entity.PodId.md), [SiteBase](vdi.federation.Site.SiteBase.md), [SiteId](vdi.entity.SiteId.md)  
 Since 
     Horizon View 6.0
 
@@ -32,7 +32,7 @@ Name |  Type |  Description
 **id**| [SiteId](vdi.entity.SiteId.md)|  Unique identifier for a Site   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **base**| [SiteBase](vdi.federation.Site.SiteBase.md)|  Site base data, this includes displayName and description   
@@ -40,21 +40,19 @@ Name |  Type |  Description
 **pods**| [PodId[]](vdi.entity.PodId.md)|  Member pods for this site. To update the site of a pod, use Pod.update().   
 
 
-[^1]
-[^2]
+* This property need not be set.
+* This property cannot be updated.
 
   
 **refId**|  xsd:string|  Reference ID used for this site.  **_Since_** Horizon 7.11  
 
 
-[^1]
+* This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+ 
   
   
 

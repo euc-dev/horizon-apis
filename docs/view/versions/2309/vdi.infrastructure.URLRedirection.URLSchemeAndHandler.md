@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLSchemeAndHandler
+    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLSchemeAndHandler  
 Property of
-     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md#field_detail)
+     [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md#field_detail)  
 See also
-     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md)
+     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md)  
 Since 
     Horizon 7.0
 
@@ -34,7 +34,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  **_Since_** Horizon 7.0.2  
 
 
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -45,20 +45,20 @@ Name |  Type |  Description
 **urlSchemeHandler**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application that can handle this URL Scheme.  **_Since_** Horizon 7.0.2  
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "APPLICATION".
 
   
 **desktopSchemeHandler**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop Pool that should be used to launch URLs with this Scheme.  **_Since_** Horizon 7.0.2  
 
 
-[^1]
+ * This property need not be set.
   * This property is required if type is set to "DESKTOP".
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

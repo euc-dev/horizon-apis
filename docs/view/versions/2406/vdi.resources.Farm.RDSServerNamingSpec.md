@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSpec
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSpec  
 Property of
-     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)
+     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)  
 See also
-     [FarmPatternNamingSettings](vdi.resources.Farm.PatternNamingSettings.md)
+     [FarmPatternNamingSettings](vdi.resources.Farm.PatternNamingSettings.md)  
 Since 
     Horizon View 6.2
 
@@ -41,7 +41,7 @@ Name |  Type |  Description
 **patternNamingSettings**| [FarmPatternNamingSettings](vdi.resources.Farm.PatternNamingSettings.md)|  Naming pattern settings.   
 
 
-[^1]
+ * This property need not be set.
   * This property is required if namingMethod is set to "PATTERN".
 
   

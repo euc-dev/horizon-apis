@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateCount
+    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateCount  
 Returned by
-     [RDSServer_GetStateCounts](vdi.resources.RDSServer.md#getRDSServerStateCounts)
+     [RDSServer_GetStateCounts](vdi.resources.RDSServer.md#getRDSServerStateCounts)  
 See also
-     [PreparedCount](vdi.resources.RDSServer.PreparedCount.md), [ProblemCount](vdi.resources.RDSServer.ProblemCount.md), [UnderConstructionCount](vdi.resources.RDSServer.UnderConstructionCount.md)
+     [PreparedCount](vdi.resources.RDSServer.PreparedCount.md), [ProblemCount](vdi.resources.RDSServer.ProblemCount.md), [UnderConstructionCount](vdi.resources.RDSServer.UnderConstructionCount.md)  
 Since 
     Horizon 8.4
 
@@ -30,26 +30,24 @@ Name |  Type |  Description
 **problemCount**| [ProblemCount](vdi.resources.RDSServer.ProblemCount.md)|  Counts of the RDS server machines which are in problem state.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **underConstructionCount**| [UnderConstructionCount](vdi.resources.RDSServer.UnderConstructionCount.md)|  Counts of the RDS server machines which are in under construction state.   
 
 
-[^2]
+* This property cannot be updated.
 
   
 **preparedCount**| [PreparedCount](vdi.resources.RDSServer.PreparedCount.md)|  Counts of the RDS server machines which are in prepared state.   
 
 
-[^2]
+* This property cannot be updated.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 

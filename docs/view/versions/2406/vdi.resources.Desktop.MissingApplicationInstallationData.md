@@ -11,9 +11,9 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MissingApplicationInstallationData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MissingApplicationInstallationData  
 Returned by
-     [Desktop_ValidateInstalledApplications](vdi.resources.Desktop.md#validateInstalledApplications)
+     [Desktop_ValidateInstalledApplications](vdi.resources.Desktop.md#validateInstalledApplications)  
 Since 
     Horizon 7.9
 

@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DisplayProtocolSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DisplayProtocolSettings  
 Property of
-     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)
+     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)  
 See also
-     [DesktopPCoIPDisplaySettings](vdi.resources.Desktop.PCoIPDisplaySettings.md)
+     [DesktopPCoIPDisplaySettings](vdi.resources.Desktop.PCoIPDisplaySettings.md)  
 Since 
     Horizon View 6.0
 
@@ -33,7 +33,7 @@ Name |  Type |  Description
 
 
   * This property has a default value of ["PCOIP", "RDP", "BLAST"].
-[^2]
+ * This property cannot be updated.
   * This property will be one of:  
 |  Value |  Description   
 ---|---  
@@ -64,7 +64,7 @@ Name |  Type |  Description
 **pcoipDisplaySettings**| [DesktopPCoIPDisplaySettings](vdi.resources.Desktop.PCoIPDisplaySettings.md)|  Settings specific to 3D rendering when allowed protocol is PCOIP or BLAST.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.resources.Desktop.DisplayProtocolSettings.md#supportedDisplayProtocols).  
@@ -72,21 +72,21 @@ Name |  Type |  Description
 
 
   * This property has a default value of true.
-[^1]
+ * This property need not be set.
 
   
 **enableCollaboration**|  xsd:boolean|  Enable session collaboration feature. Session collaboration allows a user to share their remote session with other users. Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.resources.Desktop.DisplayProtocolSettings.md#supportedDisplayProtocols).  **_Since_** Horizon 7.4  
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
 **enablePcoipUltraProtocol**|  xsd:boolean|  Enable Pcoip ULTRA protocol. If enabled Pcoip ULTRA can be used as a display protocol for VDI sessions.  **_Since_** Horizon 8.13  
 
 
   * This property has a default value of false.
-[^1]
+ * This property need not be set.
 
   
   

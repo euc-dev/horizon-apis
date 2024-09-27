@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterProvisioningData
+    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterProvisioningData  
 Property of
-     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)
+     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)  
 See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DatacenterId](vdi.entity.DatacenterId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ResourcePoolId](vdi.entity.ResourcePoolId.md), [VmFolderId](vdi.entity.VmFolderId.md)
+     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DatacenterId](vdi.entity.DatacenterId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ResourcePoolId](vdi.entity.ResourcePoolId.md), [VmFolderId](vdi.entity.VmFolderId.md)  
 Since 
     Horizon View 6.2
 
@@ -32,25 +32,25 @@ Name |  Type |  Description
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Base image VM for RDS Servers. Applicable only to View Composer sourced RDS Servers.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Base image snapshot for RDS Servers. Applicable only to View Composer sourced RDS Servers.   
 
 
-[^1]
+ * This property need not be set.
 
   
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter within which the RDS Servers are configured.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **vmFolder**| [VmFolderId](vdi.entity.VmFolderId.md)|  VM folder to deploy the RDS Servers to.   
 
 
-[^2]
+ * This property cannot be updated.
 
   
 **hostOrCluster**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  Host or cluster to deploy the RDS Servers in. Note(s) :-  
@@ -66,24 +66,24 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image Management Stream to be used in Farm creation when Image Management feature is enabled. This is applicable for Instant clone Farms only. This is required when [parentVm](vdi.resources.Farm.VirtualCenterProvisioningData.md#parentVm) and [snapshot](vdi.resources.Farm.VirtualCenterProvisioningData.md#snapshot) are unset.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Image Management Tag associated with the selected image management stream to be used in Farm creation when Image Management feature is enabled. This is applicable for Instant clone Farms only. This is required when [imageManagementStream](vdi.resources.Farm.VirtualCenterProvisioningData.md#imageManagementStream) is set.  **_Since_** Horizon 7.10  
 
 
-[^1]
+ * This property need not be set.
 
   
 **computeProfile**| [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6  
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
+ | Local Properties|   
 ---|---|---|---  
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   

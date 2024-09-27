@@ -11,11 +11,11 @@ hide:
 
 
 Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NetworkInterfaceCardSettings
+    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NetworkInterfaceCardSettings  
 Property of
-     [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md#field_detail)
+     [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md#field_detail)  
 See also
-     [DesktopNetworkLabelAssignmentSpec](vdi.resources.Desktop.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)
+     [DesktopNetworkLabelAssignmentSpec](vdi.resources.Desktop.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)  
 Since 
     Horizon View 6.0
 
@@ -40,14 +40,12 @@ Starting at the _alphabetically_ first network label spec in the list that has n
 NOTE: Any changes to these settings will be applicable only to machines provisioned after the change. Already provisioned machines will never have their network label assignments altered by this feature.   
 
 
-[^1]
+ * This property need not be set.
 
   
   
   
-Top of page| | Local Properties|   
----|---|---|---  
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
+   
   
   
 
