@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData  
-Property of
-     [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md#field_detail), [CertificateSSOConnectorSpec](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec.md#field_detail)  
-See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData`
+
+Property of  
+> [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md#field_detail), [CertificateSSOConnectorSpec](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec.md#field_detail)
+
+See also  
+> [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -75,4 +79,3 @@ Name |  Type |  Description
    
   
   
-

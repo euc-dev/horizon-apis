@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup  
-See also
-     [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md), [ADUserCredentialSpec](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md), [ADUserOrGroupInfo](vdi.users.ADUserOrGroup.ADUserOrGroupInfo.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup`
+
+See also  
+> [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md), [ADUserCredentialSpec](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md), [ADUserOrGroupInfo](vdi.users.ADUserOrGroup.ADUserOrGroupInfo.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -438,4 +441,3 @@ Show WSDL type definition
   
   
   
-

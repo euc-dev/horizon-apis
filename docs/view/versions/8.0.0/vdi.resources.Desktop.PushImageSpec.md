@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec  
-Parameter to
-     [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage)  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec`
+
+Parameter to  
+> [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage)
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -40,4 +44,3 @@ Name |  Type |  Description
 
   
   
-

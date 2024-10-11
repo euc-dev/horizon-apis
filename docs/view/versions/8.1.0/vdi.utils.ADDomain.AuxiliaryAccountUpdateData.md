@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData  
-Property of
-     [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md#field_detail)  
-See also
-     [SecureString](vdi.util.SecureString.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)  
-Since 
-    Horizon 8.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData`
+
+Property of  
+> [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md#field_detail)
+
+See also  
+> [SecureString](vdi.util.SecureString.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)
+
+Since  
+> Horizon 8.1
+
 
 ## Data Object Description 
 
@@ -36,4 +40,3 @@ Name |  Type |  Description
   
   
   
-

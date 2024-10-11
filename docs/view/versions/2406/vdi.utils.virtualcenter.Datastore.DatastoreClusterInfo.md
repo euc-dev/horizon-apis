@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo  
-Returned by
-     [Datastore_ListDatastoreClustersByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoreClustersByHostOrCluster)  
-See also
-     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md), [DatastoreId](vdi.entity.DatastoreId.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo`
+
+Returned by  
+> [Datastore_ListDatastoreClustersByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoreClustersByHostOrCluster)
+
+See also  
+> [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md), [DatastoreId](vdi.entity.DatastoreId.md)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -51,4 +55,3 @@ Name |  Type |  Description
   
 
   
-

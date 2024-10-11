@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData  
-Property of
-     [NetworkInterfaceCardInfo](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData`
+
+Property of  
+> [NetworkInterfaceCardInfo](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -60,4 +63,3 @@ Name |  Type |  Description
   
 
   
-

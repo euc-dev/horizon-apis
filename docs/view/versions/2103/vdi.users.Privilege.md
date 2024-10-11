@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Privilege  
-See also
-     [PrivilegeInfo](vdi.users.Privilege.PrivilegeInfo.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Privilege`
+
+See also  
+> [PrivilegeInfo](vdi.users.Privilege.PrivilegeInfo.md)
+
+Since  
+> Horizon 7.8
+
 
   
 
@@ -80,4 +83,3 @@ Show WSDL type definition
   
   
   
-

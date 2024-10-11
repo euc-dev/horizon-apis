@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo  
-See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [RCXServerId](vdi.entity.RCXServerId.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo`
+
+See also  
+> [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [RCXServerId](vdi.entity.RCXServerId.md)
+
+Since  
+> Horizon 7.11
+
 
 ## Data Object Description 
 
@@ -53,4 +56,3 @@ Name |  Type |  Description
   
 
   
-

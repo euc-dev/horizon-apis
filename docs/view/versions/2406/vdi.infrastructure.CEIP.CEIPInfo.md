@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo  
-Returned by
-     [CEIP_Get](vdi.infrastructure.CEIP.md#get)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo`
+
+Returned by  
+> [CEIP_Get](vdi.infrastructure.CEIP.md#get)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -95,4 +98,3 @@ Name |  Type |  Description
   
 
   
-

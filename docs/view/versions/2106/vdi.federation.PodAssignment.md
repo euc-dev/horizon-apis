@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment    
-See also
-     [PodAssignmentId](vdi.entity.PodAssignmentId.md), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md)    
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment`
+
+See also  
+> [PodAssignmentId](vdi.entity.PodAssignmentId.md), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -130,4 +133,3 @@ Show WSDL type definition
   
   
   
-

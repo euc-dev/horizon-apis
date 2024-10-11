@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager    
-See also
-     [ClientKeyDerivationSpec](vdi.AuthenticationManager.ClientKeyDerivationSpec.md), [JwtTokenData](vdi.infrastructure.JwtToken.JwtTokenData.md), [SecureString](vdi.util.SecureString.md), [ServerKeyDerivationInfo](vdi.AuthenticationManager.ServerKeyDerivationInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager`
+
+See also  
+> [ClientKeyDerivationSpec](vdi.AuthenticationManager.ClientKeyDerivationSpec.md), [JwtTokenData](vdi.infrastructure.JwtToken.JwtTokenData.md), [SecureString](vdi.util.SecureString.md), [ServerKeyDerivationInfo](vdi.AuthenticationManager.ServerKeyDerivationInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -242,4 +245,3 @@ Show WSDL type definition
   
   
   
-

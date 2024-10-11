@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SessionSettings  
-Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SessionSettings`
+
+Property of  
+> [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -98,4 +101,3 @@ Name |  Type |  Description
 
   
   
-

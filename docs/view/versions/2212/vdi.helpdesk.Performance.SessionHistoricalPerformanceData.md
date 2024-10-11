@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionHistoricalPerformanceData  
-See also
-     [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [SessionId](vdi.entity.SessionId.md)  
-Since 
-    Horizon 8.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionHistoricalPerformanceData`
+
+See also  
+> [HistoricalPerformanceData](vdi.helpdesk.Performance.HistoricalPerformanceData.md), [SessionId](vdi.entity.SessionId.md)
+
+Since  
+> Horizon 8.1
+
 
 ## Data Object Description 
 
@@ -46,4 +49,3 @@ Name |  Type |  Description
   
   
   
-

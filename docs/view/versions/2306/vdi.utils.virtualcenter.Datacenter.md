@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter  
-See also
-     [DatacenterInfo](vdi.utils.virtualcenter.Datacenter.DatacenterInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter`
+
+See also  
+> [DatacenterInfo](vdi.utils.virtualcenter.Datacenter.DatacenterInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon 7.8
+
 
   
 
@@ -82,4 +85,3 @@ Show WSDL type definition
   
   
   
-

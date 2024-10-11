@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAlias  
-Property of
-     [MachineAliasUpdateSpec](vdi.resources.Machine.MachineAliasUpdateSpec.md#field_detail), [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)  
-See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAlias`
+
+Property of  
+> [MachineAliasUpdateSpec](vdi.resources.Machine.MachineAliasUpdateSpec.md#field_detail), [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)
+
+See also  
+> [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -42,4 +46,3 @@ Name |  Type |  Description
  
   
   
-

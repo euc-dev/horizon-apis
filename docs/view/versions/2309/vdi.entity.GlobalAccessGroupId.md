@@ -12,18 +12,24 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.GlobalAccessGroupId  
-Property of
-     [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md#field_detail), [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail), [GlobalAccessGroupSummaryView](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md#field_detail), [GlobalAdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md#field_detail), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#field_detail), [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#field_detail), [InsufficientPermission](vdi.fault.InsufficientPermission.md#field_detail), [PermissionBase](vdi.users.Permission.PermissionBase.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail)  
-Parameter to
-     [GlobalAccessGroup_Delete](vdi.users.GlobalAccessGroup.md#delete), [GlobalAccessGroup_Get](vdi.users.GlobalAccessGroup.md#get)  
-Returned by
-     [GlobalAccessGroup_Create](vdi.users.GlobalAccessGroup.md#create)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.GlobalAccessGroupId`
+
+Property of  
+> [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md#field_detail), [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail), [GlobalAccessGroupSummaryView](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md#field_detail), [GlobalAdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md#field_detail), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#field_detail), [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#field_detail), [InsufficientPermission](vdi.fault.InsufficientPermission.md#field_detail), [PermissionBase](vdi.users.Permission.PermissionBase.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail)
+
+Parameter to  
+> [GlobalAccessGroup_Delete](vdi.users.GlobalAccessGroup.md#delete), [GlobalAccessGroup_Get](vdi.users.GlobalAccessGroup.md#get)
+
+Returned by  
+> [GlobalAccessGroup_Create](vdi.users.GlobalAccessGroup.md#create)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -47,4 +53,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 
   
   
-

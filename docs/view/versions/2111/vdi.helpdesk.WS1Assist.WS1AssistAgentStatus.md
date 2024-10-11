@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistAgentStatus  
-Returned by
-     [WS1Assist_GetWS1AgentAssistStatus](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentStatus)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistAgentStatus`
+
+Returned by  
+> [WS1Assist_GetWS1AgentAssistStatus](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentStatus)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -47,4 +50,3 @@ null| The Workspace One Assist Agent doesn't support this version of OS.
    
   
   
-

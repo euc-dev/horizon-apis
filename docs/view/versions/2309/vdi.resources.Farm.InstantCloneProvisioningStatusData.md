@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData  
-Property of
-     [FarmProvisioningStatusData](vdi.resources.Farm.ProvisioningStatusData.md#field_detail)  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData`
+
+Property of  
+> [FarmProvisioningStatusData](vdi.resources.Farm.ProvisioningStatusData.md#field_detail)
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -163,4 +167,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

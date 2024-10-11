@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData  
-Property of
-     [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail)  
-See also
-     [PermissionId](vdi.entity.PermissionId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData`
+
+Property of  
+> [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail)
+
+See also  
+> [PermissionId](vdi.entity.PermissionId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -47,4 +51,3 @@ Name |  Type |  Description
   
   
   
-

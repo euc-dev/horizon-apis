@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo  
-Returned by
-     [Farm_Get](vdi.resources.Farm.md#get), [Farm_GetByNamingPattern](vdi.resources.Farm.md#getByNamingPattern)  
-See also
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmId](vdi.entity.FarmId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo`
+
+Returned by  
+> [Farm_Get](vdi.resources.Farm.md#get), [Farm_GetByNamingPattern](vdi.resources.Farm.md#getByNamingPattern)
+
+See also  
+> [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmId](vdi.entity.FarmId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -94,4 +98,3 @@ This option is only valid for Automated Farm.
   
 
   
-

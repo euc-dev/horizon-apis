@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailData  
-Property of
-     [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md#field_detail)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailData`
+
+Property of  
+> [DesktopDetailView](vdi.resources.Desktop.DesktopDetailView.md#field_detail)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -150,4 +153,3 @@ Name |  Type |  Description
 
   
   
-

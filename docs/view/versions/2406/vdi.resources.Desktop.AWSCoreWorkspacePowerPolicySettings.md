@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings  
-Property of
-     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md#field_detail)  
-See also
-     [AWSCoreWorkspaceSchedule](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)  
-Since 
-    Horizon 8.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings`
+
+Property of  
+> [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md#field_detail)
+
+See also  
+> [AWSCoreWorkspaceSchedule](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)
+
+Since  
+> Horizon 8.13
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
   
 
   
-

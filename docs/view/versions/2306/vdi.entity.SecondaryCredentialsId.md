@@ -12,18 +12,24 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.SecondaryCredentialsId  
-Property of
-     [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)  
-Parameter to
-     [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete), [SecondaryCredentials_Get](vdi.users.SecondaryCredentials.md#get), [SecondaryCredentials_Update](vdi.users.SecondaryCredentials.md#update)  
-Returned by
-     [SecondaryCredentials_Create](vdi.users.SecondaryCredentials.md#create)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.SecondaryCredentialsId`
+
+Property of  
+> [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)
+
+Parameter to  
+> [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete), [SecondaryCredentials_Get](vdi.users.SecondaryCredentials.md#get), [SecondaryCredentials_Update](vdi.users.SecondaryCredentials.md#update)
+
+Returned by  
+> [SecondaryCredentials_Create](vdi.users.SecondaryCredentials.md#create)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -47,4 +53,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
   
   
   
-

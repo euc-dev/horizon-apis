@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFinishAck  
-See also
-     [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFinishAck`
+
+See also  
+> [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -32,4 +35,3 @@ Name |  Type |  Description
   
 
   
-

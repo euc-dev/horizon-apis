@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement  
-Returned by
-     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement`
+
+Returned by  
+> [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)
+
+Since  
+> Horizon 7.6
+
 
 ## Data Object Description 
 
@@ -64,4 +67,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.GatewayHealthInfo  
-Returned by
-     [GatewayHealth_Get](vdi.health.GatewayHealth.md#get), [GatewayHealth_List](vdi.health.GatewayHealth.md#list)  
-See also
-     [GatewayHealthConnectionData](vdi.health.GatewayHealth.ConnectionData.md), [GatewayId](vdi.entity.GatewayId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.GatewayHealthInfo`
+
+Returned by  
+> [GatewayHealth_Get](vdi.health.GatewayHealth.md#get), [GatewayHealth_List](vdi.health.GatewayHealth.md#list)
+
+See also  
+> [GatewayHealthConnectionData](vdi.health.GatewayHealth.ConnectionData.md), [GatewayId](vdi.entity.GatewayId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -105,4 +109,3 @@ Name |  Type |  Description
   
 
   
-

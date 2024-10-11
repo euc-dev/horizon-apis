@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo  
-Returned by
-     [CertificateSSOConnectorHealth_Get](vdi.health.CertificateSSOConnectorHealth.md#get), [CertificateSSOConnectorHealth_List](vdi.health.CertificateSSOConnectorHealth.md#list)  
-See also
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo`
+
+Returned by  
+> [CertificateSSOConnectorHealth_Get](vdi.health.CertificateSSOConnectorHealth.md#get), [CertificateSSOConnectorHealth_List](vdi.health.CertificateSSOConnectorHealth.md#list)
+
+See also  
+> [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
   
 
   
-

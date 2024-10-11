@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RDSDesktopSpec  
-Property of
-     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
-See also
-     [FarmId](vdi.entity.FarmId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RDSDesktopSpec`
+
+Property of  
+> [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+
+See also  
+> [FarmId](vdi.entity.FarmId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -47,4 +51,3 @@ Name |  Type |  Description
 
   
   
-

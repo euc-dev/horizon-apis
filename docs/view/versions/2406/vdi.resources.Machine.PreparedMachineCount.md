@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.PreparedMachineCount  
-Property of
-     [StateCount](vdi.resources.Machine.StateCount.md#field_detail)  
-Since 
-    Horizon 8.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.PreparedMachineCount`
+
+Property of  
+> [StateCount](vdi.resources.Machine.StateCount.md#field_detail)
+
+Since  
+> Horizon 8.4
+
 
 ## Data Object Description 
 
@@ -54,4 +57,3 @@ Name |  Type |  Description
   
 
   
-

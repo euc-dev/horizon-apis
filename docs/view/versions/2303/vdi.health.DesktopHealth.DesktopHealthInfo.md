@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo  
-Returned by
-     [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo`
+
+Returned by  
+> [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)
+
 
 ## Data Object Description 
 
@@ -123,4 +126,3 @@ This option is only valid for Automated Desktop.
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

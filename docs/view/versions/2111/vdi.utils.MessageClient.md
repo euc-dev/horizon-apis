@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.MessageClient  
-See also
-     [MessageClientId](vdi.entity.MessageClientId.md), [MessageClientInfo](vdi.utils.MessageClient.MessageClientInfo.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.MessageClient`
+
+See also  
+> [MessageClientId](vdi.entity.MessageClientId.md), [MessageClientInfo](vdi.utils.MessageClient.MessageClientInfo.md)
+
+Since  
+> Horizon 7.7
+
 
   
 
@@ -251,4 +254,3 @@ Show WSDL type definition
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineBase  
-Property of
-     [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineBase`
+
+Property of  
+> [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail), [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [MachineAlias](vdi.resources.Machine.MachineAlias.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -220,4 +224,3 @@ Name |  Type |  Description
    
   
   
-

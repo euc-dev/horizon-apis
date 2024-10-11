@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo  
-Returned by
-     [EventDatabaseHealth_Get](vdi.health.EventDatabaseHealth.md#get)  
-See also
-     [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md), [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo`
+
+Returned by  
+> [EventDatabaseHealth_Get](vdi.health.EventDatabaseHealth.md#get)
+
+See also  
+> [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md), [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
 
   
   
-

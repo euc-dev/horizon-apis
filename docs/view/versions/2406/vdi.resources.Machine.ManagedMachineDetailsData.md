@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineDetailsData  
-Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
-See also
-     [MachineNetworkLabelData](vdi.resources.Machine.NetworkLabelData.md), [MachineVirtualDiskData](vdi.resources.Machine.VirtualDiskData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineDetailsData`
+
+Property of  
+> [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+
+See also  
+> [MachineNetworkLabelData](vdi.resources.Machine.NetworkLabelData.md), [MachineVirtualDiskData](vdi.resources.Machine.VirtualDiskData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -228,4 +232,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GeneralData  
-Property of
-     [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GeneralData`
+
+Property of  
+> [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -70,4 +73,3 @@ Name |  Type |  Description
    
   
   
-

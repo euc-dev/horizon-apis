@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo  
-Returned by
-     [Application_Get](vdi.resources.Application.md#get)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md), [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo`
+
+Returned by  
+> [Application_Get](vdi.resources.Application.md#get)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md), [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -95,4 +99,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

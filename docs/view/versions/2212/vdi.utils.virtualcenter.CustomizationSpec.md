@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec  
-See also
-     [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec`
+
+See also  
+> [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -83,4 +86,3 @@ Show WSDL type definition
   
   
   
-

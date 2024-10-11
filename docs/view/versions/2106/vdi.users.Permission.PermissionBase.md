@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionBase  
-Property of
-     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)  
-Parameter to
-     [Permission_Create](vdi.users.Permission.md#create), [Permission_CreatePermissions](vdi.users.Permission.md#createPermissions)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [RoleId](vdi.entity.RoleId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionBase`
+
+Property of  
+> [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)
+
+Parameter to  
+> [Permission_Create](vdi.users.Permission.md#create), [Permission_CreatePermissions](vdi.users.Permission.md#createPermissions)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [RoleId](vdi.entity.RoleId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -66,4 +71,3 @@ Name |  Type |  Description
 
   
   
-

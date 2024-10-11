@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.QuerySpec  
-Parameter to
-     [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.QuerySpec`
+
+Parameter to  
+> [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -110,4 +114,3 @@ Either [globalEntitlement](vdi.users.GlobalSessionQueryService.QuerySpec.md#glob
   
 
   
-

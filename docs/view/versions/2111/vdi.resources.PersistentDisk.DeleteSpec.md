@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.DeleteSpec  
-Parameter to
-     [PersistentDisk_Delete](vdi.resources.PersistentDisk.md#delete)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.DeleteSpec`
+
+Parameter to  
+> [PersistentDisk_Delete](vdi.resources.PersistentDisk.md#delete)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -41,4 +44,3 @@ Name |  Type |  Description
    
   
   
-

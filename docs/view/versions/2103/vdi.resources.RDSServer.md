@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md), [RDSServerRegisterResult](vdi.resources.RDSServer.RegisterResult.md), [RDSServerRegisterSpec](vdi.resources.RDSServer.RegisterSpec.md), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md), [RDSServerRegisterResult](vdi.resources.RDSServer.RegisterResult.md), [RDSServerRegisterSpec](vdi.resources.RDSServer.RegisterSpec.md), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -418,4 +421,3 @@ Show WSDL type definition
   
   
   
-

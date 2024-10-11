@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.RecreateMachineSpec  
-Parameter to
-     [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines), [PersistentDisk_RecreateMachine](vdi.resources.PersistentDisk.md#recreateMachine), [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)  
-See also
-     [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.RecreateMachineSpec`
+
+Parameter to  
+> [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines), [PersistentDisk_RecreateMachine](vdi.resources.PersistentDisk.md#recreateMachine), [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)
+
+See also  
+> [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
  
   
   
-

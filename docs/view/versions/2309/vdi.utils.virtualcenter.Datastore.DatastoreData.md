@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreData  
-Property of
-     [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md#field_detail)  
-See also
-     [DatacenterId](vdi.entity.DatacenterId.md), [DatastoreIncompatibleReasons](vdi.utils.virtualcenter.Datastore.DatastoreIncompatibleReasons.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreData`
+
+Property of  
+> [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md#field_detail)
+
+See also  
+> [DatacenterId](vdi.entity.DatacenterId.md), [DatastoreIncompatibleReasons](vdi.utils.virtualcenter.Datastore.DatastoreIncompatibleReasons.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -131,4 +135,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

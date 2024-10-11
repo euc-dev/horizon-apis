@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo  
-Returned by
-     [PodFederation_Get](vdi.federation.PodFederation.md#get)  
-See also
-     [PodFederationData](vdi.federation.PodFederation.PodFederationData.md), [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo`
+
+Returned by  
+> [PodFederation_Get](vdi.federation.PodFederation.md#get)
+
+See also  
+> [PodFederationData](vdi.federation.PodFederation.PodFederationData.md), [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -47,4 +51,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.AuthenticationData  
-Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
-See also
-     [ConnectionServerGSSAPIData](vdi.infrastructure.ConnectionServer.GSSAPIData.md), [ConnectionServerRADIUSData](vdi.infrastructure.ConnectionServer.RADIUSData.md), [ConnectionServerRSASecureIdData](vdi.infrastructure.ConnectionServer.RSASecureIdData.md), [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md), [UnauthenticatedAccessConfig](vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.AuthenticationData`
+
+Property of  
+> [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+
+See also  
+> [ConnectionServerGSSAPIData](vdi.infrastructure.ConnectionServer.GSSAPIData.md), [ConnectionServerRADIUSData](vdi.infrastructure.ConnectionServer.RADIUSData.md), [ConnectionServerRSASecureIdData](vdi.infrastructure.ConnectionServer.RSASecureIdData.md), [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md), [UnauthenticatedAccessConfig](vdi.infrastructure.ConnectionServer.UnauthenticatedAccessConfig.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -77,4 +81,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

@@ -12,16 +12,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.PodAssignmentId  
-Property of
-     [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)  
-Parameter to
-     [PodAssignment_Get](vdi.federation.PodAssignment.md#get), [PodAssignment_GetInfos](vdi.federation.PodAssignment.md#getInfos)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.PodAssignmentId`
+
+Property of  
+> [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)
+
+Parameter to  
+> [PodAssignment_Get](vdi.federation.PodAssignment.md#get), [PodAssignment_GetInfos](vdi.federation.PodAssignment.md#getInfos)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -45,4 +50,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
  
   
   
-

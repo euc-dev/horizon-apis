@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData  
-Property of
-     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData`
+
+Property of  
+> [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -50,4 +53,3 @@ Name |  Type |  Description
  
   
   
-

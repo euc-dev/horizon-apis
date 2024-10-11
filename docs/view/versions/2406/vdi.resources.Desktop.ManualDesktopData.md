@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualDesktopData  
-Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)  
-See also
-     [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualDesktopData`
+
+Property of  
+> [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)
+
+See also  
+> [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -62,4 +66,3 @@ Name |  Type |  Description
   
 
   
-

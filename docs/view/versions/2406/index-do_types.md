@@ -663,4 +663,3 @@ To quickly find any entry, search this page or start typing its name in the **Se
 [WS1AssistAgentId](vdi.helpdesk.WS1Assist.WS1AssistAgentId.md "WS1AssistAgentId")   
 [WS1AssistAgentStatus](vdi.helpdesk.WS1Assist.WS1AssistAgentStatus.md "WS1AssistAgentStatus")   
 [WS1AssistSessionSpec](vdi.helpdesk.WS1Assist.WS1AssistSessionSpec.md "WS1AssistSessionSpec")   
-

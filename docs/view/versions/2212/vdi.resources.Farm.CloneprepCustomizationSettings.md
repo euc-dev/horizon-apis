@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CloneprepCustomizationSettings  
-Property of
-     [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md#field_detail)  
-See also
-     [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CloneprepCustomizationSettings`
+
+Property of  
+> [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md#field_detail)
+
+See also  
+> [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -70,4 +74,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView  
-Returned by
-     [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)  
-See also
-     [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSummaryView`
+
+Returned by  
+> [RDSServer_GetSummaryView](vdi.resources.RDSServer.md#getSummaryView)
+
+See also  
+> [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md), [RDSServerRuntimeData](vdi.resources.RDSServer.RDSServerRuntimeData.md), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md), [RDSServerSummaryData](vdi.resources.RDSServer.RDSServerSummaryData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -103,4 +107,3 @@ Name |  Type |  Description
    
   
   
-

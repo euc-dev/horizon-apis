@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData  
-Property of
-     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData`
+
+Property of  
+> [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -82,4 +85,3 @@ Name |  Type |  Description
   
 
   
-

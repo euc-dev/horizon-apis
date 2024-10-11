@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GeneralData  
-Property of
-     [GSSAPIAuthenticatorInfo](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md#field_detail), [GSSAPIAuthenticatorSpec](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GeneralData`
+
+Property of  
+> [GSSAPIAuthenticatorInfo](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md#field_detail), [GSSAPIAuthenticatorSpec](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -66,4 +69,3 @@ Name |  Type |  Description
   
 
   
-

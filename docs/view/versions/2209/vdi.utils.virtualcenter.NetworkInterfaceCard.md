@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [NetworkInterfaceCardInfo](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo.md), [VmTemplateId](vdi.entity.VmTemplateId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard`
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [NetworkInterfaceCardInfo](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo.md), [VmTemplateId](vdi.entity.VmTemplateId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -130,4 +133,3 @@ Show WSDL type definition
   
   
   
-

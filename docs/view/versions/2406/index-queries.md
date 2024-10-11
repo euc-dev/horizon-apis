@@ -69,4 +69,3 @@ To quickly find any entry, search this page or start typing its name in the **Se
 [TaskInfo](vdi.task.Task.TaskInfo.md "TaskInfo")   
 [TimingProfilerView](vdi.infrastructure.AuditEvent.TimingProfilerView.md "TimingProfilerView")   
 [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md "UserHomeSiteInfo")   
-

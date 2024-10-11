@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application  
-See also
-     [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md), [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application`
+
+See also  
+> [ApplicationId](vdi.entity.ApplicationId.md), [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md), [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -450,4 +453,3 @@ Show WSDL type definition
   
   
   
-

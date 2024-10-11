@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vim.binding.vmodl.fault.SecurityError  
-Extended by
-     [InsufficientPermission](vdi.fault.InsufficientPermission.md)
-Extends
-     [RuntimeFault](vmodl.RuntimeFault.md)  
+Java Class  
+> `com.vmware.vim.binding.vmodl.fault.SecurityError`
+
+Extended by  
+> [InsufficientPermission](vdi.fault.InsufficientPermission.md)
+
+Extends  
+> [RuntimeFault](vmodl.RuntimeFault.md)
+
 
 ## Fault Description 
 
@@ -39,4 +42,3 @@ None
 
   
   
-

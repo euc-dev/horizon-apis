@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSpec  
-Property of
-     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)  
-See also
-     [FarmPatternNamingSettings](vdi.resources.Farm.PatternNamingSettings.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSpec`
+
+Property of  
+> [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)
+
+See also  
+> [FarmPatternNamingSettings](vdi.resources.Farm.PatternNamingSettings.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
  
   
   
-

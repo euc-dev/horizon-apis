@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNetworkingSettings  
-Property of
-     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)  
-See also
-     [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterNetworkingSettings`
+
+Property of  
+> [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)
+
+See also  
+> [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -39,4 +43,3 @@ Name |  Type |  Description
   
 
   
-

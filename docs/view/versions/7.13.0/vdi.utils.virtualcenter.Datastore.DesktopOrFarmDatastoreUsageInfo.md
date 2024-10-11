@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo  
-Returned by
-     [Datastore_GetUsage](vdi.utils.virtualcenter.Datastore.md#getUsage)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo`
+
+Returned by  
+> [Datastore_GetUsage](vdi.utils.virtualcenter.Datastore.md#getUsage)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -79,4 +82,3 @@ Can be ignored in case of Farm.
 
   
   
-

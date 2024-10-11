@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth  
-See also
-     [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth`
+
+See also  
+> [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+
+Since  
+> Horizon 7.0
+
 
   
 
@@ -110,4 +113,3 @@ Show WSDL type definition
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GSSAPIData  
-Property of
-     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)  
-See also
-     [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GSSAPIData`
+
+Property of  
+> [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)
+
+See also  
+> [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
 
   
   
-

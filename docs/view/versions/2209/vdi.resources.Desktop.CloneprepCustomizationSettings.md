@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.CloneprepCustomizationSettings  
-Property of
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md#field_detail)  
-See also
-     [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.CloneprepCustomizationSettings`
+
+Property of  
+> [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md#field_detail)
+
+See also  
+> [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -70,4 +74,3 @@ Name |  Type |  Description
  
   
   
-

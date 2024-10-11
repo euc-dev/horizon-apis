@@ -12,16 +12,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.SecurityServerId  
-Property of
-     [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail), [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)  
-Parameter to
-     [SecurityServer_Get](vdi.infrastructure.SecurityServer.md#get), [SecurityServer_Update](vdi.infrastructure.SecurityServer.md#update), [SecurityServerHealth_Get](vdi.health.SecurityServerHealth.md#get)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.SecurityServerId`
+
+Property of  
+> [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail), [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)
+
+Parameter to  
+> [SecurityServer_Get](vdi.infrastructure.SecurityServer.md#get), [SecurityServer_Update](vdi.infrastructure.SecurityServer.md#update), [SecurityServerHealth_Get](vdi.health.SecurityServerHealth.md#get)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -47,4 +52,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 
   
   
-

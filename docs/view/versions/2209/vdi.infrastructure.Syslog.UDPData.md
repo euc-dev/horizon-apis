@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.UDPData  
-Property of
-     [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.UDPData`
+
+Property of  
+> [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -40,4 +43,3 @@ Name |  Type |  Description
  
   
   
-

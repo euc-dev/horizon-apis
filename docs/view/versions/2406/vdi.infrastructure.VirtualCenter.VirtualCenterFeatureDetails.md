@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails  
-Returned by
-     [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)  
-Since 
-    Horizon 8.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails`
+
+Returned by  
+> [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)
+
+Since  
+> Horizon 8.0
+
 
 ## Data Object Description 
 
@@ -60,4 +63,3 @@ Name |  Type |  Description
   
 
   
-

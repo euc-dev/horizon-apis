@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodEndpoint.PodEndpointInfo  
-Property of
-     [PodEndpointHealthData](vdi.health.PodHealth.PodEndpointHealthData.md#field_detail)  
-Returned by
-     [PodEndpoint_Get](vdi.federation.PodEndpoint.md#get), [PodEndpoint_List](vdi.federation.PodEndpoint.md#list)  
-See also
-     [PodEndpointId](vdi.entity.PodEndpointId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.PodEndpoint.PodEndpointInfo`
+
+Property of  
+> [PodEndpointHealthData](vdi.health.PodHealth.PodEndpointHealthData.md#field_detail)
+
+Returned by  
+> [PodEndpoint_Get](vdi.federation.PodEndpoint.md#get), [PodEndpoint_List](vdi.federation.PodEndpoint.md#list)
+
+See also  
+> [PodEndpointId](vdi.entity.PodEndpointId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -68,4 +73,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

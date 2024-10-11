@@ -140,4 +140,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [VmFolder](vdi.utils.virtualcenter.VmFolder.md "VmFolder")   
 [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md "VmTemplate")   
 [WS1Assist](vdi.helpdesk.WS1Assist.md "WS1Assist")   
-

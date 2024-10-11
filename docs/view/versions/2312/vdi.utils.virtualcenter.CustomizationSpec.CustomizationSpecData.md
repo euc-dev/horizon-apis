@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData  
-Property of
-     [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail)  
-See also
-     [CustomizationSpecIncompatibleReasons](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData`
+
+Property of  
+> [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail)
+
+See also  
+> [CustomizationSpecIncompatibleReasons](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -64,4 +68,3 @@ Name |  Type |  Description
    
   
   
-

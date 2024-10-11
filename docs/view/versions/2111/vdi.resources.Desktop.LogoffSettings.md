@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings  
-Property of
-     [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings`
+
+Property of  
+> [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -193,4 +196,3 @@ Name |  Type |  Description
    
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastPerformanceData  
-Property of
-     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md#field_detail)  
-See also
-     [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md), [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md), [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md), [BlastSessionStatistics](vdi.helpdesk.Performance.BlastSessionStatistics.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastPerformanceData`
+
+Property of  
+> [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md#field_detail)
+
+See also  
+> [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md), [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md), [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md), [BlastSessionStatistics](vdi.helpdesk.Performance.BlastSessionStatistics.md)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -90,4 +94,3 @@ Name |  Type |  Description
   
   
   
-

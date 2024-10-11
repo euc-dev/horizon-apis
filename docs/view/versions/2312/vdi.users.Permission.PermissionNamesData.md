@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData  
-Property of
-     [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData`
+
+Property of  
+> [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -62,4 +65,3 @@ Name |  Type |  Description
    
   
   
-

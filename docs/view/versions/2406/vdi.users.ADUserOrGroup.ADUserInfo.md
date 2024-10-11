@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserInfo  
-See also
-     [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserInfo`
+
+See also  
+> [ADGroupInfo](vdi.users.ADUserOrGroup.ADGroupInfo.md)
+
+Since  
+> Horizon 7.11
+
 
 ## Data Object Description 
 
@@ -64,4 +67,3 @@ Name |  Type |  Description
   
 
   
-

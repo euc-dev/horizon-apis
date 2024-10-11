@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkInterfaceCardSettings  
-Property of
-     [FarmVirtualCenterNetworkingSettings](vdi.resources.Farm.VirtualCenterNetworkingSettings.md#field_detail)  
-See also
-     [FarmNetworkLabelAssignmentSpec](vdi.resources.Farm.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkInterfaceCardSettings`
+
+Property of  
+> [FarmVirtualCenterNetworkingSettings](vdi.resources.Farm.VirtualCenterNetworkingSettings.md#field_detail)
+
+See also  
+> [FarmNetworkLabelAssignmentSpec](vdi.resources.Farm.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -46,4 +50,3 @@ NOTE: Any changes to these settings will be applicable only to machines provisio
   
 
   
-

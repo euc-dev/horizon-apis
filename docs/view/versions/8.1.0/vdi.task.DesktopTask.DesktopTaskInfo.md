@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskInfo  
-Returned by
-     [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_List](vdi.task.DesktopTask.md#list)  
-See also
-     [DesktopTaskData](vdi.task.DesktopTask.DesktopTaskData.md), [DesktopTaskId](vdi.entity.DesktopTaskId.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskInfo`
+
+Returned by  
+> [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_List](vdi.task.DesktopTask.md#list)
+
+See also  
+> [DesktopTaskData](vdi.task.DesktopTask.DesktopTaskData.md), [DesktopTaskId](vdi.entity.DesktopTaskId.md)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -38,4 +42,3 @@ Name |  Type |  Description
   
   
   
-

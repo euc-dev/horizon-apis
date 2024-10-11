@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec  
-Property of
-     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
-See also
-     [RDSServerId](vdi.entity.RDSServerId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec`
+
+Property of  
+> [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+
+See also  
+> [RDSServerId](vdi.entity.RDSServerId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -34,4 +38,3 @@ Name |  Type |  Description
   
 
   
-

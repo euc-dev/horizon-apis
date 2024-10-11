@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.LocalPodStatus  
-Property of
-     [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md#field_detail)  
-See also
-     [PodFederationLocalConnectionServerStatus](vdi.federation.PodFederation.LocalConnectionServerStatus.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.LocalPodStatus`
+
+Property of  
+> [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md#field_detail)
+
+See also  
+> [PodFederationLocalConnectionServerStatus](vdi.federation.PodFederation.LocalConnectionServerStatus.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -53,4 +57,3 @@ Name |  Type |  Description
 
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ComputeProfileSpec  
-Property of
-     [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail), [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md#field_detail)  
-Since 
-    Horizon 8.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ComputeProfileSpec`
+
+Property of  
+> [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail), [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md#field_detail)
+
+Since  
+> Horizon 8.6
+
 
 ## Data Object Description 
 
@@ -52,4 +55,3 @@ Name |  Type |  Description
   
 
   
-

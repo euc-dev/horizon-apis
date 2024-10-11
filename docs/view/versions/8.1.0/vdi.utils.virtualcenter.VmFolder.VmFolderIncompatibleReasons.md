@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderIncompatibleReasons  
-Property of
-     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderIncompatibleReasons`
+
+Property of  
+> [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +51,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData  
-Property of
-     [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail)  
-See also
-     [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData`
+
+Property of  
+> [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail)
+
+See also  
+> [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -69,4 +73,3 @@ Name |  Type |  Description
   
   
   
-

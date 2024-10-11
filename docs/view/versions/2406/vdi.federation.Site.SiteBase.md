@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteBase  
-Property of
-     [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail)  
-Parameter to
-     [Site_Create](vdi.federation.Site.md#create)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteBase`
+
+Property of  
+> [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail)
+
+Parameter to  
+> [Site_Create](vdi.federation.Site.md#create)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -51,4 +55,3 @@ Name |  Type |  Description
   
 
   
-

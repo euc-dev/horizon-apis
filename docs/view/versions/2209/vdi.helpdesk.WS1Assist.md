@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist  
-See also
-     [SessionId](vdi.entity.SessionId.md), [WS1AssistAgentId](vdi.helpdesk.WS1Assist.WS1AssistAgentId.md), [WS1AssistAgentStatus](vdi.helpdesk.WS1Assist.WS1AssistAgentStatus.md), [WS1AssistSessionSpec](vdi.helpdesk.WS1Assist.WS1AssistSessionSpec.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist`
+
+See also  
+> [SessionId](vdi.entity.SessionId.md), [WS1AssistAgentId](vdi.helpdesk.WS1Assist.WS1AssistAgentId.md), [WS1AssistAgentStatus](vdi.helpdesk.WS1Assist.WS1AssistAgentStatus.md), [WS1AssistSessionSpec](vdi.helpdesk.WS1Assist.WS1AssistSessionSpec.md)
+
+Since  
+> Horizon 8.2
+
 
   
 
@@ -139,4 +142,3 @@ Show WSDL type definition
   
   
   
-

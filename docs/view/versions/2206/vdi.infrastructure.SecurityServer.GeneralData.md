@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.GeneralData  
-Property of
-     [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)  
-See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.GeneralData`
+
+Property of  
+> [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)
+
+See also  
+> [ConnectionServerId](vdi.entity.ConnectionServerId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -109,4 +113,3 @@ This should be in the form "<(DNS name)|(IPv4)|(IPv6)>[:(port)]". Unspecified po
  
   
   
-

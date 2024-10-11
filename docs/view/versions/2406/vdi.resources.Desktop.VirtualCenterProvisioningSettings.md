@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterProvisioningSettings  
-Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail)  
-See also
-     [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterProvisioningSettings`
+
+Property of  
+> [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail)
+
+See also  
+> [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -78,4 +82,3 @@ If the naming method is PATTERN, this value must be less than [minNumberOfMachin
   
 
   
-

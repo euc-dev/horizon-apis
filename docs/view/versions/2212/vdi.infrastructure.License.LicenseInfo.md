@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.License.LicenseInfo  
-Returned by
-     [License_Get](vdi.infrastructure.License.md#get)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.License.LicenseInfo`
+
+Returned by  
+> [License_Get](vdi.infrastructure.License.md#get)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -134,4 +137,3 @@ Name |  Type |  Description
   
   
   
-

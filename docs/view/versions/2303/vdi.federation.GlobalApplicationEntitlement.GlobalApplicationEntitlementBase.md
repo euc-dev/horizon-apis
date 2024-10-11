@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase  
-Property of
-     [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)  
-Parameter to
-     [GlobalApplicationEntitlement_Create](vdi.federation.GlobalApplicationEntitlement.md#create)  
-See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase`
+
+Property of  
+> [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)
+
+Parameter to  
+> [GlobalApplicationEntitlement_Create](vdi.federation.GlobalApplicationEntitlement.md#create)
+
+See also  
+> [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -187,4 +192,3 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

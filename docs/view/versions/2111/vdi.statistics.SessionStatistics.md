@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics  
-See also
-     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics`
+
+See also  
+> [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md)
+
+Since  
+> Horizon 7.7
+
 
   
 
@@ -72,4 +75,3 @@ Show WSDL type definition
   
   
   
-

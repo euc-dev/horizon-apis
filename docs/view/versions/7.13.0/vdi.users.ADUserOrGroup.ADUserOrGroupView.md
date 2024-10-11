@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView  
-Returned by
-     [ADUserOrGroup_GetView](vdi.users.ADUserOrGroup.md#getView), [ADUserOrGroup_GetViews](vdi.users.ADUserOrGroup.md#getViews)  
-See also
-     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView`
+
+Returned by  
+> [ADUserOrGroup_GetView](vdi.users.ADUserOrGroup.md#getView), [ADUserOrGroup_GetViews](vdi.users.ADUserOrGroup.md#getViews)
+
+See also  
+> [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md), [ADUserOrGroupSummaryView](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -46,4 +50,3 @@ Name |  Type |  Description
 
   
   
-

@@ -10,10 +10,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec  
-Parameter to
-     [Gateway_Register](vdi.infrastructure.Gateway.md#register)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec`
+
+Parameter to  
+> [Gateway_Register](vdi.infrastructure.Gateway.md#register)
+
 
 ## Data Object Description 
 
@@ -32,4 +34,3 @@ Name |  Type |  Description
 
   
   
-

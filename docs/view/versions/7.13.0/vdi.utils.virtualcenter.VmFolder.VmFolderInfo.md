@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderInfo  
-Property of
-     [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md#field_detail)  
-Returned by
-     [VmFolder_GetVmFolderTree](vdi.utils.virtualcenter.VmFolder.md#getVmFolderTree)  
-See also
-     [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md), [VmFolderId](vdi.entity.VmFolderId.md),   
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderInfo`
+
+Property of  
+> [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md#field_detail)
+
+Returned by  
+> [VmFolder_GetVmFolderTree](vdi.utils.virtualcenter.VmFolder.md#getVmFolderTree)
+
+See also  
+> [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md), [VmFolderId](vdi.entity.VmFolderId.md),
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -59,4 +64,3 @@ Name |  Type |  Description
 
   
   
-

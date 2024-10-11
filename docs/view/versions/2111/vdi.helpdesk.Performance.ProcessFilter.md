@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter  
-Parameter to
-     [Performance_GetProcessPerformanceData](vdi.helpdesk.Performance.md#getProcessPerformanceData)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter`
+
+Parameter to  
+> [Performance_GetProcessPerformanceData](vdi.helpdesk.Performance.md#getProcessPerformanceData)
+
+Since  
+> Horizon 7.6
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Name |  Type |  Description
    
   
   
-

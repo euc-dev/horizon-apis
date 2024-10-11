@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData  
-Property of
-     [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md#field_detail)  
-See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOCertificateServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData.md), [CertificateSSOTemplateData](vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData`
+
+Property of  
+> [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md#field_detail)
+
+See also  
+> [ADDomainId](vdi.entity.ADDomainId.md), [CertificateSSOCertificateServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData.md), [CertificateSSOTemplateData](vdi.infrastructure.CertificateSSOEnrollmentServer.TemplateData.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -110,4 +114,3 @@ Name |  Type |  Description
    
   
   
-

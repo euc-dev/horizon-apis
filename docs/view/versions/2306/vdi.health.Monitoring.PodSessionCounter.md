@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.PodSessionCounter  
-Returned by
-     [Monitoring_ListPodSessionCounters](vdi.health.Monitoring.md#listPodSessionCounters)  
-See also
-     [PodId](vdi.entity.PodId.md)  
-Since 
-    Horizon 7.12
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.PodSessionCounter`
+
+Returned by  
+> [Monitoring_ListPodSessionCounters](vdi.health.Monitoring.md#listPodSessionCounters)
+
+See also  
+> [PodId](vdi.entity.PodId.md)
+
+Since  
+> Horizon 7.12
+
 
 ## Data Object Description 
 
@@ -68,4 +72,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

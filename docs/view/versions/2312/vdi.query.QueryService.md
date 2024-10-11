@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryService  
-See also
-     [QueryDefinition](vdi.query.QueryDefinition.md), [QueryId](vdi.entity.QueryId.md), [QueryResults](vdi.query.QueryResults.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.query.QueryService`
+
+See also  
+> [QueryDefinition](vdi.query.QueryDefinition.md), [QueryId](vdi.entity.QueryId.md), [QueryResults](vdi.query.QueryResults.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -307,4 +310,3 @@ Show WSDL type definition
   
   
   
-

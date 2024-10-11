@@ -12,14 +12,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.VirtualDiskId  
-Property of
-     [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md#field_detail), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.VirtualDiskId`
+
+Property of  
+> [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md#field_detail), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -43,4 +47,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 
   
   
-

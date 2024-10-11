@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskResult  
-Property of
-     [TaskInfo](vdi.task.Task.TaskInfo.md#field_detail)  
-See also
-     [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskResult`
+
+Property of  
+> [TaskInfo](vdi.task.Task.TaskInfo.md#field_detail)
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -65,4 +69,3 @@ Name |  Type |  Description
    
   
   
-

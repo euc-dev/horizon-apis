@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.JmpConfiguration  
-Property of
-     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.JmpConfiguration`
+
+Property of  
+> [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -40,4 +43,3 @@ Name |  Type |  Description
  
   
   
-

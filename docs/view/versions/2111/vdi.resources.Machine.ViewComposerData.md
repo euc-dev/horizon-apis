@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ViewComposerData  
-Property of
-     [MachineManagedMachineData](vdi.resources.Machine.ManagedMachineData.md#field_detail)  
-See also
-     [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ViewComposerData`
+
+Property of  
+> [MachineManagedMachineData](vdi.resources.Machine.ManagedMachineData.md#field_detail)
+
+See also  
+> [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -162,4 +166,3 @@ Name |  Type |  Description
    
   
   
-

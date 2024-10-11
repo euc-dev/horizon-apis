@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Cluster  
-See also
-     [Cluster_KeyInfo](vdi.utils.Cluster.KeyInfo.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.Cluster`
+
+See also  
+> [Cluster_KeyInfo](vdi.utils.Cluster.KeyInfo.md)
+
+Since  
+> Horizon 7.11
+
 
   
 
@@ -72,4 +75,3 @@ Show WSDL type definition
   
   
   
-

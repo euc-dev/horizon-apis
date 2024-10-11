@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo  
-Returned by
-     [RemoteAssistantTicket_Get](vdi.helpdesk.RemoteAssistantTicket.md#get)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo`
+
+Returned by  
+> [RemoteAssistantTicket_Get](vdi.helpdesk.RemoteAssistantTicket.md#get)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -38,4 +41,3 @@ Name |  Type |  Description
  
   
   
-

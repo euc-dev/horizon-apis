@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.MessageSecurityData  
-Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
-Since 
-    Horizon View 6.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.MessageSecurityData`
+
+Property of  
+> [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+
+Since  
+> Horizon View 6.1
+
 
 ## Data Object Description 
 
@@ -53,4 +56,3 @@ Name |  Type |  Description
   
   
   
-

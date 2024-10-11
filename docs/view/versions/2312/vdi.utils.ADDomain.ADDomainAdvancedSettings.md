@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings  
-Property of
-     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail)  
-Since 
-    Horizon 8.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings`
+
+Property of  
+> [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail)
+
+Since  
+> Horizon 8.1
+
 
 ## Data Object Description 
 
@@ -58,4 +61,3 @@ Name |  Type |  Description
    
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo  
-Returned by
-     [Policies_Get](vdi.users.Policies.md#get), [Policies_List](vdi.users.Policies.md#list), [Policies_ListUnentitledPolicies](vdi.users.Policies.md#listUnentitledPolicies)  
-See also
-     [EntityId](vdi.EntityId.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo`
+
+Returned by  
+> [Policies_Get](vdi.users.Policies.md#get), [Policies_List](vdi.users.Policies.md#list), [Policies_ListUnentitledPolicies](vdi.users.Policies.md#listUnentitledPolicies)
+
+See also  
+> [EntityId](vdi.EntityId.md), [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -64,4 +68,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

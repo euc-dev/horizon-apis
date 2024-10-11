@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo  
-Returned by
-     [RegisteredPhysicalMachine_Get](vdi.resources.RegisteredPhysicalMachine.md#get)  
-See also
-     [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineBase](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase.md), [RegisteredPhysicalMachineMessageSecurityData](vdi.resources.RegisteredPhysicalMachine.MessageSecurityData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo`
+
+Returned by  
+> [RegisteredPhysicalMachine_Get](vdi.resources.RegisteredPhysicalMachine.md#get)
+
+See also  
+> [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineBase](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase.md), [RegisteredPhysicalMachineMessageSecurityData](vdi.resources.RegisteredPhysicalMachine.MessageSecurityData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -87,4 +91,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpResponse  
-Returned by
-     [DiagOperation_Send](vdi.infrastructure.DiagOperation.md#send)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpResponse`
+
+Returned by  
+> [DiagOperation_Send](vdi.infrastructure.DiagOperation.md#send)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -49,4 +52,3 @@ Name |  Type |  Description
   
 
   
-

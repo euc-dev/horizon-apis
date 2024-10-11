@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView  
-See also
-     [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView`
+
+See also  
+> [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -145,4 +148,3 @@ This option is only valid for Automated Desktop.
   
 
   
-

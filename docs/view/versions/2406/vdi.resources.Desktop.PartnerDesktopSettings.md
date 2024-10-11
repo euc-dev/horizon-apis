@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopSettings  
-Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail)  
-See also
-     [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)  
-Since 
-    Horizon 8.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PartnerDesktopSettings`
+
+Property of  
+> [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail), [DesktopProvisioningView](vdi.resources.Desktop.DesktopProvisioningView.md#field_detail)
+
+See also  
+> [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)
+
+Since  
+> Horizon 8.13
+
 
 ## Data Object Description 
 
@@ -40,4 +44,3 @@ Name |  Type |  Description
   
 
   
-

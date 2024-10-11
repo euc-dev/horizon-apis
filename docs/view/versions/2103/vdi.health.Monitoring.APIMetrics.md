@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetrics  
-Property of
-     [APIMetricsInfo](vdi.health.Monitoring.APIMetricsInfo.md#field_detail)  
-See also
-     [MethodMetrics](vdi.health.Monitoring.MethodMetrics.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetrics`
+
+Property of  
+> [APIMetricsInfo](vdi.health.Monitoring.APIMetricsInfo.md#field_detail)
+
+See also  
+> [MethodMetrics](vdi.health.Monitoring.MethodMetrics.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -46,4 +50,3 @@ Name |  Type |  Description
 
   
   
-

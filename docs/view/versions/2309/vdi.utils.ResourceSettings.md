@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings  
-See also
-     [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings`
+
+See also  
+> [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md)
+
+Since  
+> Horizon 7.6
+
 
   
 
@@ -78,4 +81,3 @@ Show WSDL type definition
   
   
   
-

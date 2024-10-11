@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec  
-Parameter to
-     [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)  
-See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec`
+
+Parameter to  
+> [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)
+
+See also  
+> [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -115,4 +119,3 @@ Name |  Type |  Description
   
 
   
-

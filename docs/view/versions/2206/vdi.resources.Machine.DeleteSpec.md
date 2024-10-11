@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec  
-Parameter to
-     [Machine_Delete](vdi.resources.Machine.md#delete), [Machine_DeleteMachines](vdi.resources.Machine.md#deleteMachines)  
-See also
-     [DatastorePathId](vdi.entity.DatastorePathId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec`
+
+Parameter to  
+> [Machine_Delete](vdi.resources.Machine.md#delete), [Machine_DeleteMachines](vdi.resources.Machine.md#deleteMachines)
+
+See also  
+> [DatastorePathId](vdi.entity.DatastorePathId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -67,4 +71,3 @@ Note :- If this is true, then machine being deleted must not have any active use
  
   
   
-

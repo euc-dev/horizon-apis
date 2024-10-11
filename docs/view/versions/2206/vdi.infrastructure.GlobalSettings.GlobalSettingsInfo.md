@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GlobalSettingsInfo  
-Returned by
-     [GlobalSettings_Get](vdi.infrastructure.GlobalSettings.md#get)  
-See also
-     [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md), [GlobalSettingsDataRecoveryPasswordData](vdi.infrastructure.GlobalSettings.DataRecoveryPasswordData.md), [GlobalSettingsGeneralData](vdi.infrastructure.GlobalSettings.GeneralData.md), [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md), [GlobalSettingsMirageConfiguration](vdi.infrastructure.GlobalSettings.MirageConfiguration.md), [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GlobalSettingsInfo`
+
+Returned by  
+> [GlobalSettings_Get](vdi.infrastructure.GlobalSettings.md#get)
+
+See also  
+> [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md), [GlobalSettingsDataRecoveryPasswordData](vdi.infrastructure.GlobalSettings.DataRecoveryPasswordData.md), [GlobalSettingsGeneralData](vdi.infrastructure.GlobalSettings.GeneralData.md), [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md), [GlobalSettingsMirageConfiguration](vdi.infrastructure.GlobalSettings.MirageConfiguration.md), [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -60,4 +64,3 @@ Name |  Type |  Description
  
   
   
-

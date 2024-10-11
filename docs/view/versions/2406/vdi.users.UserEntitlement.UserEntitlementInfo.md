@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementInfo  
-Returned by
-     [UserEntitlement_Get](vdi.users.UserEntitlement.md#get), [UserEntitlement_GetInfos](vdi.users.UserEntitlement.md#getInfos)  
-See also
-     [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md), [UserEntitlementId](vdi.entity.UserEntitlementId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementInfo`
+
+Returned by  
+> [UserEntitlement_Get](vdi.users.UserEntitlement.md#get), [UserEntitlement_GetInfos](vdi.users.UserEntitlement.md#getInfos)
+
+See also  
+> [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md), [UserEntitlementId](vdi.entity.UserEntitlementId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +52,3 @@ Name |  Type |  Description
   
 
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup  
-See also
-     [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupId](vdi.entity.AccessGroupId.md), [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup`
+
+See also  
+> [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupId](vdi.entity.AccessGroupId.md), [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -238,4 +241,3 @@ Show WSDL type definition
   
   
   
-

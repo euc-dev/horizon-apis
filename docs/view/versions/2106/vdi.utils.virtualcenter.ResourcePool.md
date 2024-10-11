@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool  
-See also
-     [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool`
+
+See also  
+> [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -83,4 +86,3 @@ Show WSDL type definition
   
   
   
-

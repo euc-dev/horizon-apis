@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentialsInfo  
-Property of
-     [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail)  
-See also
-     [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)  
-Since 
-    Horizon 8.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentialsInfo`
+
+Property of  
+> [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail)
+
+See also  
+> [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)
+
+Since  
+> Horizon 8.1
+
 
 ## Data Object Description 
 
@@ -38,4 +42,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

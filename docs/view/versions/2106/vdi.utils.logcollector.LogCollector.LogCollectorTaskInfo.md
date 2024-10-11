@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo  
-Returned by
-     [LogCollector_Collect](vdi.utils.logcollector.LogCollector.md#collect), [LogCollector_GetTaskInfo](vdi.utils.logcollector.LogCollector.md#getTaskInfo), [LogCollector_GetTaskInfoById](vdi.utils.logcollector.LogCollector.md#getTaskInfoById), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)  
-See also
-     [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo`
+
+Returned by  
+> [LogCollector_Collect](vdi.utils.logcollector.LogCollector.md#collect), [LogCollector_GetTaskInfo](vdi.utils.logcollector.LogCollector.md#getTaskInfo), [LogCollector_GetTaskInfoById](vdi.utils.logcollector.LogCollector.md#getTaskInfoById), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)
+
+See also  
+> [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -76,4 +80,3 @@ Name |  Type |  Description
 
   
   
-

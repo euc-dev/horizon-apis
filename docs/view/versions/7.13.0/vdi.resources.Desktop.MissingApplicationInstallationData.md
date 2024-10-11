@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MissingApplicationInstallationData  
-Returned by
-     [Desktop_ValidateInstalledApplications](vdi.resources.Desktop.md#validateInstalledApplications)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.MissingApplicationInstallationData`
+
+Returned by  
+> [Desktop_ValidateInstalledApplications](vdi.resources.Desktop.md#validateInstalledApplications)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -36,4 +39,3 @@ Name |  Type |  Description
 
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthInfo  
-Returned by
-     [ViewComposerHealth_Get](vdi.health.ViewComposerHealth.md#get), [ViewComposerHealth_List](vdi.health.ViewComposerHealth.md#list)  
-See also
-     [ViewComposerHealthConnectionServerConnectionData](vdi.health.ViewComposerHealth.ConnectionServerConnectionData.md), [ViewComposerHealthData](vdi.health.ViewComposerHealth.ViewComposerHealthData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthInfo`
+
+Returned by  
+> [ViewComposerHealth_Get](vdi.health.ViewComposerHealth.md#get), [ViewComposerHealth_List](vdi.health.ViewComposerHealth.md#list)
+
+See also  
+> [ViewComposerHealthConnectionServerConnectionData](vdi.health.ViewComposerHealth.ConnectionServerConnectionData.md), [ViewComposerHealthData](vdi.health.ViewComposerHealth.ViewComposerHealthData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
 
   
   
-

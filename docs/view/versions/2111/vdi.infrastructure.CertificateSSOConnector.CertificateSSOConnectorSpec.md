@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec  
-Parameter to
-     [CertificateSSOConnector_Create](vdi.infrastructure.CertificateSSOConnector.md#create)  
-See also
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec`
+
+Parameter to  
+> [CertificateSSOConnector_Create](vdi.infrastructure.CertificateSSOConnector.md#create)
+
+See also  
+> [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -36,4 +40,3 @@ Name |  Type |  Description
    
   
   
-

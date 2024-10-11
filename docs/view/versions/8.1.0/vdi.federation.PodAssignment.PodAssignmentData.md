@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentData  
-Property of
-     [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)  
-See also
-     [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentData`
+
+Property of  
+> [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)
+
+See also  
+> [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -60,4 +64,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.UnsupportedDesktopOrFarmDetails  
-Returned by
-     [VirtualCenter_ListUnsupportedDesktopsAndFarmsForVMC](vdi.infrastructure.VirtualCenter.md#listUnsupportedDesktopsAndFarmsForVMC)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.UnsupportedDesktopOrFarmDetails`
+
+Returned by  
+> [VirtualCenter_ListUnsupportedDesktopsAndFarmsForVMC](vdi.infrastructure.VirtualCenter.md#listUnsupportedDesktopsAndFarmsForVMC)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -63,4 +66,3 @@ Name |  Type |  Description
   
 
   
-

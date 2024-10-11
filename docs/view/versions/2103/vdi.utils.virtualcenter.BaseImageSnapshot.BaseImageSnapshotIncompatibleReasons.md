@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotIncompatibleReasons  
-Property of
-     [BaseImageSnapshotInfo](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotIncompatibleReasons`
+
+Property of  
+> [BaseImageSnapshotInfo](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Name |  Type |  Description
 
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics  
-See also
-     [UsageStatisticsLicensingCountersInfo](vdi.statistics.UsageStatistics.LicensingCountersInfo.md)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics`
+
+See also  
+> [UsageStatisticsLicensingCountersInfo](vdi.statistics.UsageStatistics.LicensingCountersInfo.md)
+
+Since  
+> Horizon 7.9
+
 
   
 
@@ -184,4 +187,3 @@ Show WSDL type definition
   
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord  
-Returned by
-     [AuditEventDetails](vdi.infrastructure.AuditEvent.md#auditEventDetails)  
-See also
-     [RDSServerId](vdi.entity.RDSServerId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord`
+
+Returned by  
+> [AuditEventDetails](vdi.infrastructure.AuditEvent.md#auditEventDetails)
+
+See also  
+> [RDSServerId](vdi.entity.RDSServerId.md)
+
 
 ## Data Object Description 
 
@@ -128,4 +131,3 @@ Name |  Type |  Description
  
   
   
-

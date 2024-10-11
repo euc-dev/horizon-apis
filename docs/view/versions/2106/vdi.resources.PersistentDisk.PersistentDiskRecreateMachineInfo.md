@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo  
-Returned by
-     [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)  
-See also
-     [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo`
+
+Returned by  
+> [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)
+
+See also  
+> [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -40,4 +44,3 @@ Name |  Type |  Description
 
   
   
-

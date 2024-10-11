@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData  
-Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)  
-See also
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData`
+
+Property of  
+> [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)
+
+See also  
+> [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSettings](vdi.resources.Desktop.VirtualMachineNamingSettings.md), [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md), [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -101,4 +105,3 @@ This option is only valid for Automated Desktop.
   
 
   
-

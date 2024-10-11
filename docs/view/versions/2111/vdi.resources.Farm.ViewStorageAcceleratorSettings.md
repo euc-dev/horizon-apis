@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewStorageAcceleratorSettings  
-Property of
-     [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewStorageAcceleratorSettings`
+
+Property of  
+> [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -42,4 +45,3 @@ This value cannot be updated for Instant Clone Engine sourced farms.
    
   
   
-

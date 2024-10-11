@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo  
-Returned by
-     [Monitoring_GetAPIMetrics](vdi.health.Monitoring.md#getAPIMetrics)  
-See also
-     [APIMetrics](vdi.health.Monitoring.APIMetrics.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo`
+
+Returned by  
+> [Monitoring_GetAPIMetrics](vdi.health.Monitoring.md#getAPIMetrics)
+
+See also  
+> [APIMetrics](vdi.health.Monitoring.APIMetrics.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -52,4 +56,3 @@ Name |  Type |  Description
    
   
   
-

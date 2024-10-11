@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.ConnectionServerInfo  
-Returned by
-     [ConnectionServer_Get](vdi.infrastructure.ConnectionServer.md#get), [ConnectionServer_List](vdi.infrastructure.ConnectionServer.md#list)  
-See also
-     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md), [ConnectionServerBackupData](vdi.infrastructure.ConnectionServer.BackupData.md), [ConnectionServerGeneralData](vdi.infrastructure.ConnectionServer.GeneralData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerMessageSecurityData](vdi.infrastructure.ConnectionServer.MessageSecurityData.md), [ConnectionServerSecurityServerPairingData](vdi.infrastructure.ConnectionServer.SecurityServerPairingData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.ConnectionServerInfo`
+
+Returned by  
+> [ConnectionServer_Get](vdi.infrastructure.ConnectionServer.md#get), [ConnectionServer_List](vdi.infrastructure.ConnectionServer.md#list)
+
+See also  
+> [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md), [ConnectionServerBackupData](vdi.infrastructure.ConnectionServer.BackupData.md), [ConnectionServerGeneralData](vdi.infrastructure.ConnectionServer.GeneralData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerMessageSecurityData](vdi.infrastructure.ConnectionServer.MessageSecurityData.md), [ConnectionServerSecurityServerPairingData](vdi.infrastructure.ConnectionServer.SecurityServerPairingData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -59,4 +63,3 @@ Name |  Type |  Description
   
 
   
-

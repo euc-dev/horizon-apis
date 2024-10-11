@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteBase  
-Property of
-     [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md#field_detail), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md#field_detail)  
-Parameter to
-     [UserHomeSite_Create](vdi.federation.UserHomeSite.md#create)  
-See also
-     [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [SiteId](vdi.entity.SiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteBase`
+
+Property of  
+> [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md#field_detail), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md#field_detail)
+
+Parameter to  
+> [UserHomeSite_Create](vdi.federation.UserHomeSite.md#create)
+
+See also  
+> [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [SiteId](vdi.entity.SiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -62,4 +67,3 @@ Name |  Type |  Description
 
   
   
-

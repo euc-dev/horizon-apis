@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo  
-Returned by
-     [UnauthenticatedAccessUser_Get](vdi.users.UnauthenticatedAccessUser.md#get), [UnauthenticatedAccessUser_List](vdi.users.UnauthenticatedAccessUser.md#list)  
-See also
-     [PodId](vdi.entity.PodId.md), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo`
+
+Returned by  
+> [UnauthenticatedAccessUser_Get](vdi.users.UnauthenticatedAccessUser.md#get), [UnauthenticatedAccessUser_List](vdi.users.UnauthenticatedAccessUser.md#list)
+
+See also  
+> [PodId](vdi.entity.PodId.md), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -51,4 +55,3 @@ Name |  Type |  Description
    
   
   
-

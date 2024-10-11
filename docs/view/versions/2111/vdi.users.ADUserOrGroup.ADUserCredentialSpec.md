@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec  
-Parameter to
-     [ADUserOrGroup_ValidateCredentials](vdi.users.ADUserOrGroup.md#validateCredentials)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec`
+
+Parameter to  
+> [ADUserOrGroup_ValidateCredentials](vdi.users.ADUserOrGroup.md#validateCredentials)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -56,4 +60,3 @@ Name |  Type |  Description
    
   
   
-

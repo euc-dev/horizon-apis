@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md)
+
+Since  
+> Horizon 7.3
+
 
   
 
@@ -139,4 +142,3 @@ Show WSDL type definition
   
   
   
-

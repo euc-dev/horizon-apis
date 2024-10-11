@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecifiedName  
-Property of
-     [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md#field_detail), [DesktopSpecificNamingSpec](vdi.resources.Desktop.SpecificNamingSpec.md#field_detail)  
-Parameter to
-     [Desktop_AddMachinesToSpecifiedNamingDesktop](vdi.resources.Desktop.md#addMachinesToSpecifiedNamingDesktop), [Desktop_AddMachineToSpecifiedNamingDesktop](vdi.resources.Desktop.md#addMachineToSpecifiedNamingDesktop)  
-See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecifiedName`
+
+Property of  
+> [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md#field_detail), [DesktopSpecificNamingSpec](vdi.resources.Desktop.SpecificNamingSpec.md#field_detail)
+
+Parameter to  
+> [Desktop_AddMachinesToSpecifiedNamingDesktop](vdi.resources.Desktop.md#addMachinesToSpecifiedNamingDesktop), [Desktop_AddMachineToSpecifiedNamingDesktop](vdi.resources.Desktop.md#addMachineToSpecifiedNamingDesktop)
+
+See also  
+> [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -46,4 +51,3 @@ Name |  Type |  Description
   
 
   
-

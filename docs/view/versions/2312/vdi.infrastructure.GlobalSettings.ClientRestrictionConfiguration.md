@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration  
-Property of
-     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)  
-See also
-     [GlobalSettingsClientData](vdi.infrastructure.GlobalSettings.ClientData.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration`
+
+Property of  
+> [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)
+
+See also  
+> [GlobalSettingsClientData](vdi.infrastructure.GlobalSettings.ClientData.md)
+
+Since  
+> Horizon 7.11
+
 
 ## Data Object Description 
 
@@ -61,4 +65,3 @@ Name |  Type |  Description
    
   
   
-

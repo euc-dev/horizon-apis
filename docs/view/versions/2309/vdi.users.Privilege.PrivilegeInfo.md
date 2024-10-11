@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Privilege.PrivilegeInfo  
-Returned by
-     [Privilege_ListSelectablePrivileges](vdi.users.Privilege.md#listSelectablePrivileges)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Privilege.PrivilegeInfo`
+
+Returned by  
+> [Privilege_ListSelectablePrivileges](vdi.users.Privilege.md#listSelectablePrivileges)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -295,4 +298,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

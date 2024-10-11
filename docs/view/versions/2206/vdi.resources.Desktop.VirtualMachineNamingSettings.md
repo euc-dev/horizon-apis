@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualMachineNamingSettings  
-Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)  
-See also
-     [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md), [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualMachineNamingSettings`
+
+Property of  
+> [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail)
+
+See also  
+> [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md), [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -59,4 +63,3 @@ Name |  Type |  Description
  
   
   
-

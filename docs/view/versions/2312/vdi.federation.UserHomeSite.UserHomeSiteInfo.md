@@ -10,19 +10,23 @@ hide:
 
 
 
-Java Class
+Java Class  
+> ``
 
     com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo  
 
-Returned by
+Returned by  
+> 
 
     [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)  
 
-See also
+See also  
+> 
 
     [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)  
 
-Since 
+Since  
+> 
 
     Horizon View 6.0
 

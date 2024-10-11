@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseSettings  
-Property of
-     [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseSettings`
+
+Property of  
+> [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md#field_detail)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -69,4 +73,3 @@ Name |  Type |  Description
   
   
   
-

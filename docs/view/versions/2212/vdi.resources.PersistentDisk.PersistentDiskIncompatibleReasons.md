@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons  
-Returned by
-     [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines)  
-See also
-     [PersistentDiskId](vdi.entity.PersistentDiskId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons`
+
+Returned by  
+> [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines)
+
+See also  
+> [PersistentDiskId](vdi.entity.PersistentDiskId.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -69,4 +73,3 @@ Type: Error - Machine can not be recreated with this incompatibility
   
   
   
-

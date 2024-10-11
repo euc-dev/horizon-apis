@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupInfo  
-Property of
-     [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md#field_detail), [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)  
-Returned by
-     [AccessGroup_Get](vdi.users.AccessGroup.md#get), [AccessGroup_List](vdi.users.AccessGroup.md#list)  
-See also
-     [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupData](vdi.users.AccessGroup.AccessGroupData.md), [AccessGroupId](vdi.entity.AccessGroupId.md),   
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupInfo`
+
+Property of  
+> [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md#field_detail), [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)
+
+Returned by  
+> [AccessGroup_Get](vdi.users.AccessGroup.md#get), [AccessGroup_List](vdi.users.AccessGroup.md#list)
+
+See also  
+> [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md), [AccessGroupData](vdi.users.AccessGroup.AccessGroupData.md), [AccessGroupId](vdi.entity.AccessGroupId.md),
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -66,4 +71,3 @@ Name |  Type |  Description
   
 
   
-

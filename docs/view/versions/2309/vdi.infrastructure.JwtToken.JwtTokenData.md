@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData  
-Parameter to
-     [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData`
+
+Parameter to  
+> [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -36,4 +39,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

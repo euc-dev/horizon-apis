@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Permission  
-See also
-     [PermissionBase](vdi.users.Permission.PermissionBase.md), [PermissionId](vdi.entity.PermissionId.md), [PermissionInfo](vdi.users.Permission.PermissionInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Permission`
+
+See also  
+> [PermissionBase](vdi.users.Permission.PermissionBase.md), [PermissionId](vdi.entity.PermissionId.md), [PermissionInfo](vdi.users.Permission.PermissionInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -394,4 +397,3 @@ Show WSDL type definition
   
   
   
-

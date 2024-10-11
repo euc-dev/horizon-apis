@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault  
-Thrown by
-     [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list)  
-Extends
-     [ViewServerFault](vdi.fault.ViewServerFault.md)  
-See also
-     [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault`
+
+Thrown by  
+> [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list)
+
+Extends  
+> [ViewServerFault](vdi.fault.ViewServerFault.md)
+
+See also  
+> [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Fault Description 
 
@@ -97,4 +102,3 @@ None
   
   
   
-

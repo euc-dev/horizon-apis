@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings  
-Property of
-     [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail)  
-Parameter to
-     [Policies_Set](vdi.users.Policies.md#set)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings`
+
+Property of  
+> [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail)
+
+Parameter to  
+> [Policies_Set](vdi.users.Policies.md#set)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -91,4 +95,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.TemplateHealthData  
-Property of
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.TemplateHealthData`
+
+Property of  
+> [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -71,4 +74,3 @@ Name |  Type |  Description
  
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth.ConnectionData  
-Property of
-     [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth.ConnectionData`
+
+Property of  
+> [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -38,4 +41,3 @@ Name |  Type |  Description
  
   
   
-

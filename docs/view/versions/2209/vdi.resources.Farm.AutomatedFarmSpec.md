@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmSpec  
-Property of
-     [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
-See also
-     [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md), [FarmRDSServerMaxSessionsData](vdi.resources.Farm.RDSServerMaxSessionsData.md), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md), [FarmVirtualCenterManagedCommonSettings](vdi.resources.Farm.VirtualCenterManagedCommonSettings.md), [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmSpec`
+
+Property of  
+> [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+
+See also  
+> [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md), [FarmRDSServerMaxSessionsData](vdi.resources.Farm.RDSServerMaxSessionsData.md), [FarmRDSServerNamingSpec](vdi.resources.Farm.RDSServerNamingSpec.md), [FarmVirtualCenterManagedCommonSettings](vdi.resources.Farm.VirtualCenterManagedCommonSettings.md), [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -61,4 +65,3 @@ This option is only valid for Automated Farm.
  
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo  
-Returned by
-     [VirtualCenterHealth_Get](vdi.health.VirtualCenterHealth.md#get), [VirtualCenterHealth_List](vdi.health.VirtualCenterHealth.md#list)  
-See also
-     [VirtualCenterHealthConnectionServerConnectionData](vdi.health.VirtualCenterHealth.ConnectionServerConnectionData.md), [VirtualCenterHealthData](vdi.health.VirtualCenterHealth.VirtualCenterHealthData.md), [VirtualCenterHealthDatastoreData](vdi.health.VirtualCenterHealth.DatastoreData.md), [VirtualCenterHealthHostData](vdi.health.VirtualCenterHealth.HostData.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo`
+
+Returned by  
+> [VirtualCenterHealth_Get](vdi.health.VirtualCenterHealth.md#get), [VirtualCenterHealth_List](vdi.health.VirtualCenterHealth.md#list)
+
+See also  
+> [VirtualCenterHealthConnectionServerConnectionData](vdi.health.VirtualCenterHealth.ConnectionServerConnectionData.md), [VirtualCenterHealthData](vdi.health.VirtualCenterHealth.VirtualCenterHealthData.md), [VirtualCenterHealthDatastoreData](vdi.health.VirtualCenterHealth.DatastoreData.md), [VirtualCenterHealthHostData](vdi.health.VirtualCenterHealth.HostData.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -64,4 +68,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

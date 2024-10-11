@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.MessageSecurityData  
-Property of
-     [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md#field_detail)  
-Since 
-    Horizon View 6.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.MessageSecurityData`
+
+Property of  
+> [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md#field_detail)
+
+Since  
+> Horizon View 6.1
+
 
 ## Data Object Description 
 
@@ -51,4 +54,3 @@ Name |  Type |  Description
  
   
   
-

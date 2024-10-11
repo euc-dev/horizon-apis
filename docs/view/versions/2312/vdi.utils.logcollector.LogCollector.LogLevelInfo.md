@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo  
-Returned by
-     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)  
-See also
-     [FeatureLogLevelInfo](vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo.md), [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)  
-Since 
-    Horizon 8.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo`
+
+Returned by  
+> [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)
+
+See also  
+> [FeatureLogLevelInfo](vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo.md), [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)
+
+Since  
+> Horizon 8.4
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
    
   
   
-

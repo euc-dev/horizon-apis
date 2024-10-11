@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo  
-Returned by
-     [GSSAPIAuthenticator_Get](vdi.infrastructure.GSSAPIAuthenticator.md#get), [GSSAPIAuthenticator_List](vdi.infrastructure.GSSAPIAuthenticator.md#list)  
-See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md), [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo`
+
+Returned by  
+> [GSSAPIAuthenticator_Get](vdi.infrastructure.GSSAPIAuthenticator.md#get), [GSSAPIAuthenticator_List](vdi.infrastructure.GSSAPIAuthenticator.md#list)
+
+See also  
+> [ConnectionServerId](vdi.entity.ConnectionServerId.md), [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md), [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -52,4 +56,3 @@ Name |  Type |  Description
   
   
   
-

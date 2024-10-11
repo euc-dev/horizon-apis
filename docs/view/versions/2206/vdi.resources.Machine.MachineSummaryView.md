@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView  
-Returned by
-     [Machine_GetSummaryView](vdi.resources.Machine.md#getSummaryView), [Machine_GetSummaryViews](vdi.resources.Machine.md#getSummaryViews)  
-See also
-     [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineSummaryData](vdi.resources.Machine.SummaryData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView`
+
+Returned by  
+> [Machine_GetSummaryView](vdi.resources.Machine.md#getSummaryView), [Machine_GetSummaryViews](vdi.resources.Machine.md#getSummaryViews)
+
+See also  
+> [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineSummaryData](vdi.resources.Machine.SummaryData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -70,4 +74,3 @@ Name |  Type |  Description
  
   
   
-

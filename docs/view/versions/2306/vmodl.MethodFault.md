@@ -12,14 +12,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vim.binding.vmodl.MethodFault  
-Property of
-     [GlobalSessionPodSessionCounter](vdi.users.GlobalSessionQueryService.PodSessionCounter.md#field_detail), [LocalizedMethodFault](vmodl.LocalizedMethodFault.md#field_detail), [PartialFailureFaultResult](vdi.fault.PartialFailureFault.PartialFailureFaultResult.md#field_detail)  
-Extended by
-     [RuntimeFault](vmodl.RuntimeFault.md), [ViewServerFault](vdi.fault.ViewServerFault.md)
-Since 
-    vmodl.version.version0
+Java Class  
+> `com.vmware.vim.binding.vmodl.MethodFault`
+
+Property of  
+> [GlobalSessionPodSessionCounter](vdi.users.GlobalSessionQueryService.PodSessionCounter.md#field_detail), [LocalizedMethodFault](vmodl.LocalizedMethodFault.md#field_detail), [PartialFailureFaultResult](vdi.fault.PartialFailureFault.PartialFailureFaultResult.md#field_detail)
+
+Extended by  
+> [RuntimeFault](vmodl.RuntimeFault.md), [ViewServerFault](vdi.fault.ViewServerFault.md)
+
+Since  
+> vmodl.version.version0
+
 
 ## Fault Description 
 
@@ -37,4 +41,3 @@ None
   
   
   
-

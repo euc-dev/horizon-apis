@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventStatistics  
-Property of
-     [EventDatabaseHealthInfo](vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo.md#field_detail)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventStatistics`
+
+Property of  
+> [EventDatabaseHealthInfo](vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo.md#field_detail)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Name |  Type |  Description
    
   
   
-

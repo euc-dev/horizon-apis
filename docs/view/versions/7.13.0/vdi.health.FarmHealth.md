@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth  
-See also
-     [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md), [FarmId](vdi.entity.FarmId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth`
+
+See also  
+> [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md), [FarmId](vdi.entity.FarmId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -74,4 +77,3 @@ Show WSDL type definition
   
   
   
-

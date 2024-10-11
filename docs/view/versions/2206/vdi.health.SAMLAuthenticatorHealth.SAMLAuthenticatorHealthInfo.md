@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo  
-Returned by
-     [SAMLAuthenticatorHealth_Get](vdi.health.SAMLAuthenticatorHealth.md#get), [SAMLAuthenticatorHealth_List](vdi.health.SAMLAuthenticatorHealth.md#list)  
-See also
-     [SAMLAuthenticatorHealthConnectionServerConnectionData](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md), [SAMLAuthenticatorHealthData](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo`
+
+Returned by  
+> [SAMLAuthenticatorHealth_Get](vdi.health.SAMLAuthenticatorHealth.md#get), [SAMLAuthenticatorHealth_List](vdi.health.SAMLAuthenticatorHealth.md#list)
+
+See also  
+> [SAMLAuthenticatorHealthConnectionServerConnectionData](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md), [SAMLAuthenticatorHealthData](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
  
   
   
-

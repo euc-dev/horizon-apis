@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo  
-Returned by
-     [ImageManagementStream_Get](vdi.utils.imagemanagement.ImageManagementStream.md#get), [ImageManagementStream_ListBySpec](vdi.utils.imagemanagement.ImageManagementStream.md#listBySpec)  
-See also
-     [ImageManagementStreamBase](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo`
+
+Returned by  
+> [ImageManagementStream_Get](vdi.utils.imagemanagement.ImageManagementStream.md#get), [ImageManagementStream_ListBySpec](vdi.utils.imagemanagement.ImageManagementStream.md#listBySpec)
+
+See also  
+> [ImageManagementStreamBase](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -51,4 +55,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

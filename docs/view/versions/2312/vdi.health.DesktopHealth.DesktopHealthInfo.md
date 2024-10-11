@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo  
-Returned by
-     [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo`
+
+Returned by  
+> [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [ApplicationStatusInfo](vdi.health.DesktopHealth.ApplicationStatusInfo.md), [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -123,4 +127,3 @@ This option is only valid for Automated Desktop.
    
   
   
-

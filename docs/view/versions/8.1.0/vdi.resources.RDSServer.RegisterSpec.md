@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec  
-Parameter to
-     [RDSServer_Register](vdi.resources.RDSServer.md#register)  
-See also
-     [FarmId](vdi.entity.FarmId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec`
+
+Parameter to  
+> [RDSServer_Register](vdi.resources.RDSServer.md#register)
+
+See also  
+> [FarmId](vdi.entity.FarmId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -69,4 +73,3 @@ Name |  Type |  Description
   
   
   
-

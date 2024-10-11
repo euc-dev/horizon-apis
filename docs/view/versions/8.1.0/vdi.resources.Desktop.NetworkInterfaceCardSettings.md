@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NetworkInterfaceCardSettings  
-Property of
-     [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md#field_detail)  
-See also
-     [DesktopNetworkLabelAssignmentSpec](vdi.resources.Desktop.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NetworkInterfaceCardSettings`
+
+Property of  
+> [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md#field_detail)
+
+See also  
+> [DesktopNetworkLabelAssignmentSpec](vdi.resources.Desktop.NetworkLabelAssignmentSpec.md), [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +52,3 @@ NOTE: Any changes to these settings will be applicable only to machines provisio
   
   
   
-

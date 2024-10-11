@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken  
-See also
-     [JwtPublicKeyInfo](vdi.infrastructure.JwtToken.JwtPublicKeyInfo.md), [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md), [JwtTokenInfo](vdi.infrastructure.JwtToken.JwtTokenInfo.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken`
+
+See also  
+> [JwtPublicKeyInfo](vdi.infrastructure.JwtToken.JwtPublicKeyInfo.md), [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md), [JwtTokenInfo](vdi.infrastructure.JwtToken.JwtTokenInfo.md)
+
+Since  
+> Horizon 7.4
+
 
   
 
@@ -123,4 +126,3 @@ Show WSDL type definition
   
   
   
-

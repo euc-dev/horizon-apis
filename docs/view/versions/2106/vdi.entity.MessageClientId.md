@@ -12,16 +12,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.MessageClientId  
-Property of
-     [MessageClientInfo](vdi.utils.MessageClient.MessageClientInfo.md#field_detail)  
-Parameter to
-     [MessageClient_Delete](vdi.utils.MessageClient.md#delete), [MessageClient_Get](vdi.utils.MessageClient.md#get), [MessageClient_Update](vdi.utils.MessageClient.md#update)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.MessageClientId`
+
+Property of  
+> [MessageClientInfo](vdi.utils.MessageClient.MessageClientInfo.md#field_detail)
+
+Parameter to  
+> [MessageClient_Delete](vdi.utils.MessageClient.md#delete), [MessageClient_Get](vdi.utils.MessageClient.md#get), [MessageClient_Update](vdi.utils.MessageClient.md#update)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -45,4 +50,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
  
   
   
-

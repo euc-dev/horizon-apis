@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter  
-Property of
-     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)  
-Returned by
-     [Monitoring_GetHealthCounters](vdi.health.Monitoring.md#getHealthCounters)  
-See also
-     [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter`
+
+Property of  
+> [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)
+
+Returned by  
+> [Monitoring_GetHealthCounters](vdi.health.Monitoring.md#getHealthCounters)
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -99,4 +104,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

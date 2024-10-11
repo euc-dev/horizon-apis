@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.WorkspaceOneData  
-Property of
-     [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md#field_detail)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.WorkspaceOneData`
+
+Property of  
+> [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md#field_detail)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -53,4 +56,3 @@ Name |  Type |  Description
   
   
   
-

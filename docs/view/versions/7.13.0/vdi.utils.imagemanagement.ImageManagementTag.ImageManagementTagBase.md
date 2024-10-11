@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase  
-Property of
-     [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)  
-Parameter to
-     [ImageManagementTag_CreateTags](vdi.utils.imagemanagement.ImageManagementTag.md#createTags)  
-See also
-     [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase`
+
+Property of  
+> [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)
+
+Parameter to  
+> [ImageManagementTag_CreateTags](vdi.utils.imagemanagement.ImageManagementTag.md#createTags)
+
+See also  
+> [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -56,4 +61,3 @@ Name |  Type |  Description
 
   
   
-

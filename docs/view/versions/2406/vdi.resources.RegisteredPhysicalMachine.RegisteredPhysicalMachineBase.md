@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase  
-Property of
-     [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineBase`
+
+Property of  
+> [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -81,4 +84,3 @@ Name |  Type |  Description
   
 
   
-

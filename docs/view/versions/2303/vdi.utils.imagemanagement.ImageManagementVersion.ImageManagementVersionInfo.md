@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo  
-Returned by
-     [ImageManagementVersion_Get](vdi.utils.imagemanagement.ImageManagementVersion.md#get), [ImageManagementVersion_ListByImageManagementStream](vdi.utils.imagemanagement.ImageManagementVersion.md#listByImageManagementStream)  
-See also
-     [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo`
+
+Returned by  
+> [ImageManagementVersion_Get](vdi.utils.imagemanagement.ImageManagementVersion.md#get), [ImageManagementVersion_ListByImageManagementStream](vdi.utils.imagemanagement.ImageManagementVersion.md#listByImageManagementStream)
+
+See also  
+> [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -51,4 +55,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

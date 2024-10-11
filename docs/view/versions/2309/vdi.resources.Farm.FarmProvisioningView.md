@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView  
-See also
-     [FarmBase](vdi.resources.Farm.FarmBase.md), [FarmId](vdi.entity.FarmId.md), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView`
+
+See also  
+> [FarmBase](vdi.resources.Farm.FarmBase.md), [FarmId](vdi.entity.FarmId.md), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -128,4 +131,3 @@ This option is only valid for Automated Farm.
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

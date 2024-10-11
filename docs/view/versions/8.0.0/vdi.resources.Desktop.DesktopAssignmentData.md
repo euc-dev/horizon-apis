@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData  
-Property of
-     [DesktopAssignmentView](vdi.resources.Desktop.DesktopAssignmentView.md#field_detail)  
-See also
-     [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData`
+
+Property of  
+> [DesktopAssignmentView](vdi.resources.Desktop.DesktopAssignmentView.md#field_detail)
+
+See also  
+> [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -217,4 +221,3 @@ This option is only valid for Automated Desktop.
 
   
   
-

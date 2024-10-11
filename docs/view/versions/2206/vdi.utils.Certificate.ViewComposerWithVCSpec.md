@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.ViewComposerWithVCSpec  
-Parameter to
-     [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)  
-See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.ViewComposerWithVCSpec`
+
+Parameter to  
+> [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)
+
+See also  
+> [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -45,4 +49,3 @@ Name |  Type |  Description
  
   
   
-

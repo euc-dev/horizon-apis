@@ -10,10 +10,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo  
-Returned by
-     [Cluster_GetPublicKey](vdi.utils.Cluster.md#getPublicKey)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo`
+
+Returned by  
+> [Cluster_GetPublicKey](vdi.utils.Cluster.md#getPublicKey)
+
 
 ## Data Object Description 
 
@@ -32,4 +34,3 @@ Name |  Type |  Description
 
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation  
-See also
-     [DiagOperationRequest](vdi.infrastructure.DiagOperation.DiagOpRequest.md), [DiagOperationResponse](vdi.infrastructure.DiagOperation.DiagOpResponse.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation`
+
+See also  
+> [DiagOperationRequest](vdi.infrastructure.DiagOperation.DiagOpRequest.md), [DiagOperationResponse](vdi.infrastructure.DiagOperation.DiagOpResponse.md)
+
+Since  
+> Horizon 7.2
+
 
   
 
@@ -91,4 +94,3 @@ Show WSDL type definition
   
   
   
-

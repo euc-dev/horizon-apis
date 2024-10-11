@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo  
-Returned by
-     [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list), [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter)  
-See also
-     [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateId](vdi.entity.VmTemplateId.md), [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo`
+
+Returned by  
+> [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list), [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter)
+
+See also  
+> [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateId](vdi.entity.VmTemplateId.md), [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -148,4 +152,3 @@ Name |  Type |  Description
  
   
   
-

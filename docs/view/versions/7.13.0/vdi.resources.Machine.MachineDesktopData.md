@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDesktopData  
-Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDesktopData`
+
+Property of  
+> [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -88,4 +92,3 @@ This option is only valid for Automated Desktop.
 
   
   
-

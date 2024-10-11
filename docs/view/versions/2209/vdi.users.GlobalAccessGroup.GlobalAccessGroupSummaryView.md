@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView  
-Property of
-     [GlobalAdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md#field_detail)  
-See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView`
+
+Property of  
+> [GlobalAdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md#field_detail)
+
+See also  
+> [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -47,4 +51,3 @@ Name |  Type |  Description
  
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualSAN  
-See also
-     [HostOrClusterId](vdi.entity.HostOrClusterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VsanDatastoreCost](vdi.utils.virtualcenter.VirtualSAN.VsanDatastoreCost.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualSAN`
+
+See also  
+> [HostOrClusterId](vdi.entity.HostOrClusterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VsanDatastoreCost](vdi.utils.virtualcenter.VirtualSAN.VsanDatastoreCost.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -296,4 +299,3 @@ Show WSDL type definition
   
   
   
-

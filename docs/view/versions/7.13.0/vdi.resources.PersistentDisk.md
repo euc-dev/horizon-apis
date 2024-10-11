@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk  
-See also
-     [MachineId](vdi.entity.MachineId.md), [MapEntry](vdi.util.MapEntry.md), [PersistentDiskAttachSpec](vdi.resources.PersistentDisk.AttachSpec.md), [PersistentDiskDeleteSpec](vdi.resources.PersistentDisk.DeleteSpec.md), [PersistentDiskDetachSpec](vdi.resources.PersistentDisk.DetachSpec.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [PersistentDiskIncompatibleReasons](vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons.md), [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md), [PersistentDiskRecreateMachineInfo](vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo.md), [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md), [PersistentDiskReplaceSpec](vdi.resources.PersistentDisk.ReplaceSpec.md), [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk`
+
+See also  
+> [MachineId](vdi.entity.MachineId.md), [MapEntry](vdi.util.MapEntry.md), [PersistentDiskAttachSpec](vdi.resources.PersistentDisk.AttachSpec.md), [PersistentDiskDeleteSpec](vdi.resources.PersistentDisk.DeleteSpec.md), [PersistentDiskDetachSpec](vdi.resources.PersistentDisk.DetachSpec.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [PersistentDiskIncompatibleReasons](vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons.md), [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md), [PersistentDiskRecreateMachineInfo](vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo.md), [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md), [PersistentDiskReplaceSpec](vdi.resources.PersistentDisk.ReplaceSpec.md), [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -598,4 +601,3 @@ Show WSDL type definition
   
   
   
-

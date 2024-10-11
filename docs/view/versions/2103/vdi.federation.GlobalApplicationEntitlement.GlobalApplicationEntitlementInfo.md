@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo  
-Returned by
-     [GlobalApplicationEntitlement_Get](vdi.federation.GlobalApplicationEntitlement.md#get), [GlobalEntitlement_ListCompatibleBackupGAEs](vdi.federation.GlobalApplicationEntitlement.md#listCompatibleBackupGAEs)  
-See also
-     [ApplicationIconId](vdi.entity.ApplicationIconId.md), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md), [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md), [GlobalApplicationEntitlementExecutionData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo`
+
+Returned by  
+> [GlobalApplicationEntitlement_Get](vdi.federation.GlobalApplicationEntitlement.md#get), [GlobalEntitlement_ListCompatibleBackupGAEs](vdi.federation.GlobalApplicationEntitlement.md#listCompatibleBackupGAEs)
+
+See also  
+> [ApplicationIconId](vdi.entity.ApplicationIconId.md), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md), [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md), [GlobalApplicationEntitlementExecutionData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementExecutionData.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -76,4 +80,3 @@ Name |  Type |  Description
 
   
   
-

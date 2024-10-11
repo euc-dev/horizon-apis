@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventData  
-Property of
-     [EventSummaryView](vdi.infrastructure.EventDatabase.EventSummaryView.md#field_detail)  
-See also
-     [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [RDSServerId](vdi.entity.RDSServerId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventData`
+
+Property of  
+> [EventSummaryView](vdi.infrastructure.EventDatabase.EventSummaryView.md#field_detail)
+
+See also  
+> [ApplicationId](vdi.entity.ApplicationId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [MachineId](vdi.entity.MachineId.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [RDSServerId](vdi.entity.RDSServerId.md), [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.3
+
 
 ## Data Object Description 
 
@@ -131,4 +135,3 @@ Name |  Type |  Description
 
   
   
-

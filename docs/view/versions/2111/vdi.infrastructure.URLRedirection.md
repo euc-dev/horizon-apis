@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [URLRedirectionId](vdi.entity.URLRedirectionId.md), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md)
+
+Since  
+> Horizon 7.0
+
 
   
 
@@ -302,4 +305,3 @@ Show WSDL type definition
   
   
   
-

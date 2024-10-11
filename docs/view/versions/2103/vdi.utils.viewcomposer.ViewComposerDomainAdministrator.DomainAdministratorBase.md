@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase  
-Property of
-     [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md#field_detail), [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md#field_detail)  
-Parameter to
-     [ViewComposerDomainAdministrator_CreateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#createByServerDefinition)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase`
+
+Property of  
+> [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md#field_detail), [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md#field_detail)
+
+Parameter to  
+> [ViewComposerDomainAdministrator_CreateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#createByServerDefinition)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +53,3 @@ Name |  Type |  Description
 
   
   
-

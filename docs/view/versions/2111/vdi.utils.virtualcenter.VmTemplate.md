@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate  
-See also
-     [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateInfo](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate`
+
+See also  
+> [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VmTemplateInfo](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -130,4 +133,3 @@ Show WSDL type definition
   
   
   
-

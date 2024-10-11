@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth  
-See also
-     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth`
+
+See also  
+> [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -72,4 +75,3 @@ Show WSDL type definition
   
   
   
-

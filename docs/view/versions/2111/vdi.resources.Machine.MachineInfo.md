@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineInfo  
-Returned by
-     [Machine_Get](vdi.resources.Machine.md#get), [Machine_GetInfos](vdi.resources.Machine.md#getInfos)  
-See also
-     [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineManagedMachineData](vdi.resources.Machine.ManagedMachineData.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineInfo`
+
+Returned by  
+> [Machine_Get](vdi.resources.Machine.md#get), [Machine_GetInfos](vdi.resources.Machine.md#getInfos)
+
+See also  
+> [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineManagedMachineData](vdi.resources.Machine.ManagedMachineData.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -60,4 +64,3 @@ Name |  Type |  Description
    
   
   
-

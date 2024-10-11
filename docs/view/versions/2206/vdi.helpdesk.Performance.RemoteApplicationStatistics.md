@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.RemoteApplicationStatistics  
-Property of
-     [SessionRemoteApplicationStatistics](vdi.helpdesk.Performance.SessionRemoteApplicationStatistics.md#field_detail)  
-Returned by
-     [Performance_GetRemoteApplicationPerformanceData](vdi.helpdesk.Performance.md#getRemoteApplicationPerformanceData), [Performance_GetRemoteApplicationStatistics](vdi.helpdesk.Performance.md#getRemoteApplicationStatistics)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.RemoteApplicationStatistics`
+
+Property of  
+> [SessionRemoteApplicationStatistics](vdi.helpdesk.Performance.SessionRemoteApplicationStatistics.md#field_detail)
+
+Returned by  
+> [Performance_GetRemoteApplicationPerformanceData](vdi.helpdesk.Performance.md#getRemoteApplicationPerformanceData), [Performance_GetRemoteApplicationStatistics](vdi.helpdesk.Performance.md#getRemoteApplicationStatistics)
+
+Since  
+> Horizon 7.3
+
 
 ## Data Object Description 
 
@@ -72,4 +76,3 @@ Name |  Type |  Description
  
   
   
-

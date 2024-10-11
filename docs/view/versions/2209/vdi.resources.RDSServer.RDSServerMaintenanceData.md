@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMaintenanceData  
-Property of
-     [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMaintenanceData`
+
+Property of  
+> [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -137,4 +140,3 @@ Name |  Type |  Description
  
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo  
-Returned by
-     [InstantCloneEngineDomainAdministrator_GetADSitesInfo](vdi.utils.InstantCloneEngineDomainAdministrator.md#getADSitesInfo)  
-Since 
-    Horizon 8.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo`
+
+Returned by  
+> [InstantCloneEngineDomainAdministrator_GetADSitesInfo](vdi.utils.InstantCloneEngineDomainAdministrator.md#getADSitesInfo)
+
+Since  
+> Horizon 8.9
+
 
 ## Data Object Description 
 
@@ -40,4 +43,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

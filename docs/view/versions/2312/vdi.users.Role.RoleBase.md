@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleBase  
-Property of
-     [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)  
-Parameter to
-     [Role_Create](vdi.users.Role.md#create)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleBase`
+
+Property of  
+> [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)
+
+Parameter to  
+> [Role_Create](vdi.users.Role.md#create)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -310,4 +314,3 @@ Name |  Type |  Description
    
   
   
-

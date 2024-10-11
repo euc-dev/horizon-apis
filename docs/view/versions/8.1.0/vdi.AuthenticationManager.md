@@ -12,10 +12,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager    
-See also
-     [JwtTokenData](vdi.infrastructure.JwtToken.JwtTokenData.md), [SecureString](vdi.util.SecureString.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager`
+
+See also  
+> [JwtTokenData](vdi.infrastructure.JwtToken.JwtTokenData.md), [SecureString](vdi.util.SecureString.md)
+
 
   
 
@@ -202,4 +204,3 @@ Show WSDL type definition
   
   
   
-

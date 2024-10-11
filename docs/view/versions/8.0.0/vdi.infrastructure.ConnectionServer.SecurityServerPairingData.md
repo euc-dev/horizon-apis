@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SecurityServerPairingData  
-Property of
-     [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SecurityServerPairingData`
+
+Property of  
+> [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
 
   
   
-

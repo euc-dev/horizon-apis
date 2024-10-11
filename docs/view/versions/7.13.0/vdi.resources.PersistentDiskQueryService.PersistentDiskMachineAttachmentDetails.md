@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails  
-See also
-     [MachineId](vdi.entity.MachineId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails`
+
+See also  
+> [MachineId](vdi.entity.MachineId.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -114,4 +117,3 @@ Name |  Type |  Description
 
   
   
-

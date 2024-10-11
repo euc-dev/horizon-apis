@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopSpec  
-Property of
-     [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
-See also
-     [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopSpec`
+
+Property of  
+> [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+
+See also  
+> [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md), [DesktopUserAssignment](vdi.resources.Desktop.UserAssignment.md), [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md), [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md), [DesktopVirtualMachineNamingSpec](vdi.resources.Desktop.VirtualMachineNamingSpec.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -64,4 +68,3 @@ This option is only valid for Automated Desktop.
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

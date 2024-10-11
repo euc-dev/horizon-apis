@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDetailsView  
-See also
-     [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineData](vdi.resources.Machine.MachineData.md), [MachineDesktopData](vdi.resources.Machine.MachineDesktopData.md), [MachineId](vdi.entity.MachineId.md), [MachineSessionData](vdi.resources.Machine.MachineSessionData.md), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineDetailsView`
+
+See also  
+> [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md), [MachineData](vdi.resources.Machine.MachineData.md), [MachineDesktopData](vdi.resources.Machine.MachineDesktopData.md), [MachineId](vdi.entity.MachineId.md), [MachineSessionData](vdi.resources.Machine.MachineSessionData.md), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -90,4 +93,3 @@ Name |  Type |  Description
    
   
   
-

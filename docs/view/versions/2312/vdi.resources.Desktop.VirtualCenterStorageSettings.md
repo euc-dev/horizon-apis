@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings  
-Property of
-     [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)  
-See also
-     [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings`
+
+Property of  
+> [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)
+
+See also  
+> [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md), [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md), [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -56,4 +60,3 @@ Name |  Type |  Description
    
   
   
-

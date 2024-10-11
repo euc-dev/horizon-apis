@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain  
-See also
-     [ADDomainAuxiliaryAccountSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountSpec.md), [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md), [ADDomainId](vdi.entity.ADDomainId.md), [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md), [MapEntry](vdi.util.MapEntry.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain`
+
+See also  
+> [ADDomainAuxiliaryAccountSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountSpec.md), [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md), [ADDomainId](vdi.entity.ADDomainId.md), [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md), [MapEntry](vdi.util.MapEntry.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -408,4 +411,3 @@ Show WSDL type definition
   
   
   
-

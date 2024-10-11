@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentPairingData  
-Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail), [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail)  
-Since 
-    Horizon 7.5
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentPairingData`
+
+Property of  
+> [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail), [MachineInfo](vdi.resources.Machine.MachineInfo.md#field_detail)
+
+Since  
+> Horizon 7.5
+
 
 ## Data Object Description 
 
@@ -54,4 +57,3 @@ Name |  Type |  Description
   
 
   
-

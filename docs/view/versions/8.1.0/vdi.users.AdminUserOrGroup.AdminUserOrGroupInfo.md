@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo  
-Property of
-     [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)  
-Returned by
-     [AdminUserOrGroup_Get](vdi.users.AdminUserOrGroup.md#get), [AdminUserOrGroup_List](vdi.users.AdminUserOrGroup.md#list)  
-See also
-     [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md), [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo`
+
+Property of  
+> [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)
+
+Returned by  
+> [AdminUserOrGroup_Get](vdi.users.AdminUserOrGroup.md#get), [AdminUserOrGroup_List](vdi.users.AdminUserOrGroup.md#list)
+
+See also  
+> [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md), [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -54,4 +59,3 @@ Name |  Type |  Description
   
   
   
-

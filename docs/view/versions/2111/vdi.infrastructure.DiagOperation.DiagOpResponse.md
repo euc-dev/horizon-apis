@@ -10,10 +10,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpResponse  
-Returned by
-     [DiagOperation_Send](vdi.infrastructure.DiagOperation.md#send)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpResponse`
+
+Returned by  
+> [DiagOperation_Send](vdi.infrastructure.DiagOperation.md#send)
+
 
 ## Data Object Description 
 
@@ -49,4 +51,3 @@ Name |  Type |  Description
    
   
   
-

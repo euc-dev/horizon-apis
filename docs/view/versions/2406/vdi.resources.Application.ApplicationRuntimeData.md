@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationRuntimeData  
-Property of
-     [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail)  
-Since 
-    Horizon 7.12
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationRuntimeData`
+
+Property of  
+> [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail)
+
+Since  
+> Horizon 7.12
+
 
 ## Data Object Description 
 
@@ -37,4 +40,3 @@ Name |  Type |  Description
   
 
   
-

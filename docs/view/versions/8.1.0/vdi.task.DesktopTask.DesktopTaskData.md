@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData  
-Property of
-     [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData`
+
+Property of  
+> [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -84,4 +87,3 @@ Name |  Type |  Description
   
   
   
-

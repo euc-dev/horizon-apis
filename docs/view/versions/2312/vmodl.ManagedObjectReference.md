@@ -10,8 +10,9 @@ hide:
 
 
 
-Java Class
-    com.vmware.vim.binding.vmodl.ManagedObjectReference  
+Java Class  
+> `com.vmware.vim.binding.vmodl.ManagedObjectReference`
+
 
 ## Data Object Description 
 
@@ -146,4 +147,3 @@ Name |  Type |  Description
    
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec  
-Parameter to
-     [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec`
+
+Parameter to  
+> [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)
+
+Since  
+> Horizon 7.6
+
 
 ## Data Object Description 
 
@@ -133,4 +137,3 @@ Set to true when Virtual SAN is configured and in use for the pool.
   
 
   
-

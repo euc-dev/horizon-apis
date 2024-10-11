@@ -754,4 +754,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [VmTemplateIncompatibleReasons](vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons.md "VmTemplateIncompatibleReasons")   
 [VmTemplateInfo](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md "VmTemplateInfo")   
 [VsanDatastoreCost](vdi.utils.virtualcenter.VirtualSAN.VsanDatastoreCost.md "VsanDatastoreCost")   
-

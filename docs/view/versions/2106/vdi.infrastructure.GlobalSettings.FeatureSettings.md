@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.FeatureSettings  
-Property of
-     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)  
-Returned by
-     [GlobalSettings_GetFeatureSettings](vdi.infrastructure.GlobalSettings.md#getFeatureSettings)  
-Since 
-    Horizon 7.5
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.FeatureSettings`
+
+Property of  
+> [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)
+
+Returned by  
+> [GlobalSettings_GetFeatureSettings](vdi.infrastructure.GlobalSettings.md#getFeatureSettings)
+
+Since  
+> Horizon 7.5
+
 
 ## Data Object Description 
 
@@ -57,4 +61,3 @@ Name |  Type |  Description
 
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP  
-See also
-     [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md), [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP`
+
+See also  
+> [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md), [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -177,4 +180,3 @@ Show WSDL type definition
   
   
   
-

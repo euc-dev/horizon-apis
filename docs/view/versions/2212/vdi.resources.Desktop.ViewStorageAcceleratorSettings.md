@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewStorageAcceleratorSettings  
-Property of
-     [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)  
-See also
-     [DesktopBlackoutTime](vdi.resources.Desktop.BlackoutTime.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ViewStorageAcceleratorSettings`
+
+Property of  
+> [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md#field_detail), [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)
+
+See also  
+> [DesktopBlackoutTime](vdi.resources.Desktop.BlackoutTime.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -72,4 +76,3 @@ This value cannot be updated for Instant Clone Engine sourced desktops.
   
   
   
-

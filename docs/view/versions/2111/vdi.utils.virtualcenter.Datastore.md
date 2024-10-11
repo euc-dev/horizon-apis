@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore  
-See also
-     [DatastoreClusterInfo](vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo.md), [DatastoreId](vdi.entity.DatastoreId.md), [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md), [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md), [DatastoreSpaceRequirement](vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement.md), [DatastoreSpec](vdi.utils.virtualcenter.Datastore.DatastoreSpec.md), [DesktopOrFarmDatastoreUsageInfo](vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore`
+
+See also  
+> [DatastoreClusterInfo](vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo.md), [DatastoreId](vdi.entity.DatastoreId.md), [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md), [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md), [DatastoreSpaceRequirement](vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement.md), [DatastoreSpec](vdi.utils.virtualcenter.Datastore.DatastoreSpec.md), [DesktopOrFarmDatastoreUsageInfo](vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -281,4 +284,3 @@ Show WSDL type definition
   
   
   
-

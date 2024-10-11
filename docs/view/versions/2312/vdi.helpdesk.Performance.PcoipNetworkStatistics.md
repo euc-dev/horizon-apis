@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipNetworkStatistics  
-Property of
-     [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipNetworkStatistics`
+
+Property of  
+> [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -91,4 +94,3 @@ The limit is the minimum of the following values.  GPO bandwidth limit for the P
    
   
   
-

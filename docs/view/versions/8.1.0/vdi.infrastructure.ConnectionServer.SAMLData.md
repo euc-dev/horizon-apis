@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SAMLData  
-Property of
-     [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)  
-See also
-     [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.SAMLData`
+
+Property of  
+> [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)
+
+See also  
+> [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -68,4 +72,3 @@ Name |  Type |  Description
   
   
   
-

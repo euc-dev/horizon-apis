@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec  
-Parameter to
-     [ApplicationIcon_CreateAndAssociate](vdi.resources.ApplicationIcon.md#createAndAssociate)  
-See also
-     [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec`
+
+Parameter to  
+> [ApplicationIcon_CreateAndAssociate](vdi.resources.ApplicationIcon.md#createAndAssociate)
+
+See also  
+> [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -34,4 +38,3 @@ Name |  Type |  Description
   
 
   
-

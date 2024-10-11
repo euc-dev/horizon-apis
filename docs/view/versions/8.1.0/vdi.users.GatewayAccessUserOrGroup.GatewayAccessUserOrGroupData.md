@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData  
-Property of
-     [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md#field_detail)  
-Parameter to
-     [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData`
+
+Property of  
+> [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md#field_detail)
+
+Parameter to  
+> [GatewayAccessUserOrGroup_Create](vdi.users.GatewayAccessUserOrGroup.md#create)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -66,4 +70,3 @@ Name |  Type |  Description
   
   
   
-

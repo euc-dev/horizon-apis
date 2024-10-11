@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics  
-Property of
-     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics`
+
+Property of  
+> [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)
+
+Since  
+> Horizon 7.3
+
 
 ## Data Object Description 
 
@@ -82,4 +85,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,10 +10,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord  
-Returned by
-     [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming.LogonSegmentRecord`
+
+Returned by  
+> [LogonTiming_GetLogonSegment](vdi.helpdesk.LogonTiming.md#getLogonSegment)
+
 
 ## Data Object Description 
 
@@ -32,4 +34,3 @@ Name |  Type |  Description
   
   
   
-

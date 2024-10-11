@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterProvisioningData  
-Property of
-     [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DatacenterId](vdi.entity.DatacenterId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ResourcePoolId](vdi.entity.ResourcePoolId.md), [VmFolderId](vdi.entity.VmFolderId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterProvisioningData`
+
+Property of  
+> [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [DatacenterId](vdi.entity.DatacenterId.md), [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ResourcePoolId](vdi.entity.ResourcePoolId.md), [VmFolderId](vdi.entity.VmFolderId.md), [VmTemplateId](vdi.entity.VmTemplateId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -92,4 +96,3 @@ Name |  Type |  Description
    
   
   
-

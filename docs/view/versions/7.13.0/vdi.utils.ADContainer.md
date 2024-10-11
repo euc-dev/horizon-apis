@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer  
-See also
-     [ADContainerInfo](vdi.utils.ADContainer.ADContainerInfo.md), [ADDomainId](vdi.entity.ADDomainId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer`
+
+See also  
+> [ADContainerInfo](vdi.utils.ADContainer.ADContainerInfo.md), [ADDomainId](vdi.entity.ADDomainId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -131,4 +134,3 @@ Show WSDL type definition
   
   
   
-

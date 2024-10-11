@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.GlobalEntitlementData  
-Property of
-     [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)  
-See also
-     [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.GlobalEntitlementData`
+
+Property of  
+> [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail), [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)
+
+See also  
+> [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -46,4 +50,3 @@ Name |  Type |  Description
 
   
   
-

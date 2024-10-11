@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo  
-Returned by
-     [StorageAcceleratorHost_ListByServerDefinition](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByServerDefinition), [StorageAcceleratorHost_ListByVirtualCenter](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByVirtualCenter)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo`
+
+Returned by  
+> [StorageAcceleratorHost_ListByServerDefinition](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByServerDefinition), [StorageAcceleratorHost_ListByVirtualCenter](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByVirtualCenter)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -46,4 +49,3 @@ Name |  Type |  Description
  
   
   
-

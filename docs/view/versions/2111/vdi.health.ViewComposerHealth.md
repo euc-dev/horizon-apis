@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth  
-See also
-     [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth`
+
+See also  
+> [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -116,4 +119,3 @@ Show WSDL type definition
   
   
   
-

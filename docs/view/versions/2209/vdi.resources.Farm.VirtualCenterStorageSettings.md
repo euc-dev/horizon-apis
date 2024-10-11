@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterStorageSettings  
-Property of
-     [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)  
-See also
-     [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md), [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md), [FarmVirtualCenterDatastoreSettings](vdi.resources.Farm.VirtualCenterDatastoreSettings.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterStorageSettings`
+
+Property of  
+> [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md#field_detail)
+
+See also  
+> [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md), [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md), [FarmVirtualCenterDatastoreSettings](vdi.resources.Farm.VirtualCenterDatastoreSettings.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -59,4 +63,3 @@ Name |  Type |  Description
  
   
   
-

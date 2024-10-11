@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo  
-Returned by
-     [GlobalAccessGroup_Get](vdi.users.GlobalAccessGroup.md#get), [GlobalAccessGroup_List](vdi.users.GlobalAccessGroup.md#list)  
-See also
-     [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md), [GlobalAccessGroupData](vdi.users.GlobalAccessGroup.GlobalAccessGroupData.md), [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo`
+
+Returned by  
+> [GlobalAccessGroup_Get](vdi.users.GlobalAccessGroup.md#get), [GlobalAccessGroup_List](vdi.users.GlobalAccessGroup.md#list)
+
+See also  
+> [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md), [GlobalAccessGroupData](vdi.users.GlobalAccessGroup.GlobalAccessGroupData.md), [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -59,4 +63,3 @@ Name |  Type |  Description
 
   
   
-

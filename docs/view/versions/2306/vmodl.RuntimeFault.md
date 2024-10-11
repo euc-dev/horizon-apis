@@ -12,14 +12,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vim.binding.vmodl.RuntimeFault  
-Extended by
-     [SecurityError](vmodl.fault.SecurityError.md), [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
-Extends
-     [MethodFault](vmodl.MethodFault.md)  
-Since 
-    vmodl.version.version0
+Java Class  
+> `com.vmware.vim.binding.vmodl.RuntimeFault`
+
+Extended by  
+> [SecurityError](vmodl.fault.SecurityError.md), [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+
+Extends  
+> [MethodFault](vmodl.MethodFault.md)
+
+Since  
+> vmodl.version.version0
+
 
 ## Fault Description 
 
@@ -39,4 +43,3 @@ None
   
   
   
-

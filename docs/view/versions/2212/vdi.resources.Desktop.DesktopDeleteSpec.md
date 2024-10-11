@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDeleteSpec  
-Parameter to
-     [Desktop_Delete](vdi.resources.Desktop.md#delete)  
-See also
-     [DatastorePathId](vdi.entity.DatastorePathId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDeleteSpec`
+
+Parameter to  
+> [Desktop_Delete](vdi.resources.Desktop.md#delete)
+
+See also  
+> [DatastorePathId](vdi.entity.DatastorePathId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -52,4 +56,3 @@ Name |  Type |  Description
   
   
   
-

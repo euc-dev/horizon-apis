@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming  
-See also
-     [LogonSegmentRecord](vdi.helpdesk.LogonTiming.LogonSegmentRecord.md), [SessionId](vdi.entity.SessionId.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming`
+
+See also  
+> [LogonSegmentRecord](vdi.helpdesk.LogonTiming.LogonSegmentRecord.md), [SessionId](vdi.entity.SessionId.md)
+
+Since  
+> Horizon 7.2
+
 
   
 
@@ -272,4 +275,3 @@ Show WSDL type definition
   
   
   
-

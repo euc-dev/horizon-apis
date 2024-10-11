@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainInfo  
-Returned by
-     [ADDomain_List](vdi.utils.ADDomain.md#list)  
-See also
-     [ADDomainAdvancedSettings](vdi.utils.ADDomain.ADDomainAdvancedSettings.md), [ADDomainId](vdi.entity.ADDomainId.md), [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsInfo](vdi.utils.ADDomain.ServiceAccountCredentialsInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainInfo`
+
+Returned by  
+> [ADDomain_List](vdi.utils.ADDomain.md#list)
+
+See also  
+> [ADDomainAdvancedSettings](vdi.utils.ADDomain.ADDomainAdvancedSettings.md), [ADDomainId](vdi.entity.ADDomainId.md), [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md), [ServiceAccountCredentialsInfo](vdi.utils.ADDomain.ServiceAccountCredentialsInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -77,4 +81,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

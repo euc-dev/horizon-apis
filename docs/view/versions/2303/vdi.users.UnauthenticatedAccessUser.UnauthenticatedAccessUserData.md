@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData  
-Property of
-     [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md#field_detail)  
-Parameter to
-     [UnauthenticatedAccessUser_Create](vdi.users.UnauthenticatedAccessUser.md#create), [UnauthenticatedAccessUser_Update](vdi.users.UnauthenticatedAccessUser.md#update)  
-See also
-     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData`
+
+Property of  
+> [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md#field_detail)
+
+Parameter to  
+> [UnauthenticatedAccessUser_Create](vdi.users.UnauthenticatedAccessUser.md#create), [UnauthenticatedAccessUser_Update](vdi.users.UnauthenticatedAccessUser.md#update)
+
+See also  
+> [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
 
 ## Data Object Description 
 
@@ -73,4 +77,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

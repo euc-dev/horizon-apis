@@ -12,16 +12,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.DesktopTaskId  
-Property of
-     [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)  
-Parameter to
-     [DesktopTask_Cancel](vdi.task.DesktopTask.md#cancel), [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_Pause](vdi.task.DesktopTask.md#pause), [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.DesktopTaskId`
+
+Property of  
+> [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)
+
+Parameter to  
+> [DesktopTask_Cancel](vdi.task.DesktopTask.md#cancel), [DesktopTask_Get](vdi.task.DesktopTask.md#get), [DesktopTask_Pause](vdi.task.DesktopTask.md#pause), [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -45,4 +50,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
   
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [SecurityServerId](vdi.entity.SecurityServerId.md), [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [SecurityServerId](vdi.entity.SecurityServerId.md), [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -195,4 +198,3 @@ Show WSDL type definition
   
   
   
-

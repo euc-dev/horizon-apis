@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateSpec  
-Parameter to
-     [GlobalSettings_AddGatewayCertificate](vdi.infrastructure.GlobalSettings.md#addGatewayCertificate)  
-Since 
-    Horizon 8.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GatewayCertificateSpec`
+
+Parameter to  
+> [GlobalSettings_AddGatewayCertificate](vdi.infrastructure.GlobalSettings.md#addGatewayCertificate)
+
+Since  
+> Horizon 8.6
+
 
 ## Data Object Description 
 
@@ -34,4 +37,3 @@ Name |  Type |  Description
   
 
   
-

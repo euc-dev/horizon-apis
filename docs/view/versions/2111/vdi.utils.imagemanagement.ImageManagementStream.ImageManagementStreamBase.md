@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase  
-Property of
-     [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md#field_detail)  
-Parameter to
-     [ImageManagementStream_CreateStreams](vdi.utils.imagemanagement.ImageManagementStream.md#createStreams)  
-See also
-     [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase`
+
+Property of  
+> [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md#field_detail)
+
+Parameter to  
+> [ImageManagementStream_CreateStreams](vdi.utils.imagemanagement.ImageManagementStream.md#createStreams)
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -129,4 +134,3 @@ For a specific VirtualCenterId, image management tag information will be retriev
    
   
   
-

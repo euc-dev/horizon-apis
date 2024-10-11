@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo  
-Property of
-     [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md#field_detail)  
-See also
-     [ApplicationId](vdi.entity.ApplicationId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo`
+
+Property of  
+> [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md#field_detail)
+
+See also  
+> [ApplicationId](vdi.entity.ApplicationId.md)
+
 
 ## Data Object Description 
 
@@ -54,4 +57,3 @@ Name |  Type |  Description
   
   
   
-

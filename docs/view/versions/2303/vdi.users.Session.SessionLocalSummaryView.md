@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView  
-Returned by
-     [Session_GetLocalSummaryView](vdi.users.Session.md#getLocalSummaryView)  
-See also
-     [SessionData](vdi.users.Session.SessionData.md), [SessionId](vdi.entity.SessionId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SessionNamesData](vdi.users.Session.SessionNamesData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView`
+
+Returned by  
+> [Session_GetLocalSummaryView](vdi.users.Session.md#getLocalSummaryView)
+
+See also  
+> [SessionData](vdi.users.Session.SessionData.md), [SessionId](vdi.entity.SessionId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SessionNamesData](vdi.users.Session.SessionNamesData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -66,4 +70,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient  
-See also
-     [SessionId](vdi.entity.SessionId.md), [ViewClientInfo](vdi.helpdesk.ViewClient.ViewClientInfo.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient`
+
+See also  
+> [SessionId](vdi.entity.SessionId.md), [ViewClientInfo](vdi.helpdesk.ViewClient.ViewClientInfo.md)
+
+Since  
+> Horizon 7.2
+
 
   
 
@@ -84,4 +87,3 @@ Show WSDL type definition
   
   
   
-

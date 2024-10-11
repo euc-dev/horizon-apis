@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData  
-Property of
-     [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md#field_detail)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData`
+
+Property of  
+> [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md#field_detail)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -38,4 +41,3 @@ Name |  Type |  Description
 
   
   
-

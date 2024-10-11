@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode  
-Property of
-     [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md#field_detail)  
-Returned by
-     [HostOrCluster_GetHostOrClusterTree](vdi.utils.virtualcenter.HostOrCluster.md#getHostOrClusterTree)  
-See also
-     [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md), [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode`
+
+Property of  
+> [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md#field_detail)
+
+Returned by  
+> [HostOrCluster_GetHostOrClusterTree](vdi.utils.virtualcenter.HostOrCluster.md#getHostOrClusterTree)
+
+See also  
+> [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md), [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -58,4 +63,3 @@ Name |  Type |  Description
   
 
   
-

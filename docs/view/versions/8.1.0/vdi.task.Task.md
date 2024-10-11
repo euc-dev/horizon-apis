@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.Task  
-See also
-     [TaskId](vdi.entity.TaskId.md), [TaskInfo](vdi.task.Task.TaskInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.Task`
+
+See also  
+> [TaskId](vdi.entity.TaskId.md), [TaskInfo](vdi.task.Task.TaskInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -129,4 +132,3 @@ Show WSDL type definition
   
   
   
-

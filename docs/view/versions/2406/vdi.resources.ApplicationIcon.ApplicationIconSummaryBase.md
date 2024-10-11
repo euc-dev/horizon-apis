@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSummaryBase  
-Property of
-     [ApplicationIconSummaryView](vdi.resources.ApplicationIcon.ApplicationIconSummaryView.md#field_detail)  
-Since 
-    Horizon 7.5
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSummaryBase`
+
+Property of  
+> [ApplicationIconSummaryView](vdi.resources.ApplicationIcon.ApplicationIconSummaryView.md#field_detail)
+
+Since  
+> Horizon 7.5
+
 
 ## Data Object Description 
 
@@ -46,4 +49,3 @@ Name |  Type |  Description
   
 
   
-

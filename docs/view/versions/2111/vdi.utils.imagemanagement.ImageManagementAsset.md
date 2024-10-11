@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset  
-See also
-     [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md), [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md), [ImageManagementAssetSpec](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset`
+
+See also  
+> [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md), [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md), [ImageManagementAssetSpec](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md), [MapEntry](vdi.util.MapEntry.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon 7.10
+
 
   
 
@@ -350,4 +353,3 @@ Show WSDL type definition
   
   
   
-

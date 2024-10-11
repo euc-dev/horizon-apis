@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionGlobalReferenceData  
-Property of
-     [SessionGlobalSummaryView](vdi.users.Session.SessionGlobalSummaryView.md#field_detail)  
-See also
-     [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SiteId](vdi.entity.SiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionGlobalReferenceData`
+
+Property of  
+> [SessionGlobalSummaryView](vdi.users.Session.SessionGlobalSummaryView.md#field_detail)
+
+See also  
+> [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [PodId](vdi.entity.PodId.md), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md), [SiteId](vdi.entity.SiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -86,4 +90,3 @@ Name |  Type |  Description
    
   
   
-

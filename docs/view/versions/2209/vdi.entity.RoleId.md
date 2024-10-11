@@ -12,18 +12,24 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.RoleId  
-Property of
-     [PermissionBase](vdi.users.Permission.PermissionBase.md#field_detail), [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)  
-Parameter to
-     [Role_Delete](vdi.users.Role.md#delete), [Role_Get](vdi.users.Role.md#get), [Role_Update](vdi.users.Role.md#update)  
-Returned by
-     [Role_Create](vdi.users.Role.md#create)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.RoleId`
+
+Property of  
+> [PermissionBase](vdi.users.Permission.PermissionBase.md#field_detail), [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)
+
+Parameter to  
+> [Role_Delete](vdi.users.Role.md#delete), [Role_Get](vdi.users.Role.md#get), [Role_Update](vdi.users.Role.md#update)
+
+Returned by  
+> [Role_Create](vdi.users.Role.md#create)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -47,4 +53,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
  
   
   
-

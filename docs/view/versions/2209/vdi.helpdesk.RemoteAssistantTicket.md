@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket  
-See also
-     [RemoteAssistantTicketInfo](vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo.md), [SessionId](vdi.entity.SessionId.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket`
+
+See also  
+> [RemoteAssistantTicketInfo](vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo.md), [SessionId](vdi.entity.SessionId.md)
+
+Since  
+> Horizon 7.2
+
 
   
 
@@ -94,4 +97,3 @@ Show WSDL type definition
   
   
   
-

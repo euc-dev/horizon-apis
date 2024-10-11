@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreInfo  
-Property of
-     [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md#field_detail)  
-Returned by
-     [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm), [Datastore_ListDatastoresByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoresByHostOrCluster)  
-See also
-     [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md), [DatastoreId](vdi.entity.DatastoreId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreInfo`
+
+Property of  
+> [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md#field_detail)
+
+Returned by  
+> [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm), [Datastore_ListDatastoresByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoresByHostOrCluster)
+
+See also  
+> [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md), [DatastoreId](vdi.entity.DatastoreId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +53,3 @@ Name |  Type |  Description
 
   
   
-

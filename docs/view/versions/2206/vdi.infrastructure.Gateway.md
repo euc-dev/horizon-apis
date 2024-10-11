@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway  
-See also
-     [GatewayId](vdi.entity.GatewayId.md), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md), [GatewaySpec](vdi.infrastructure.Gateway.GatewaySpec.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway`
+
+See also  
+> [GatewayId](vdi.entity.GatewayId.md), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md), [GatewaySpec](vdi.infrastructure.Gateway.GatewaySpec.md)
+
+Since  
+> Horizon 7.7
+
 
   
 
@@ -218,4 +221,3 @@ Show WSDL type definition
   
   
   
-

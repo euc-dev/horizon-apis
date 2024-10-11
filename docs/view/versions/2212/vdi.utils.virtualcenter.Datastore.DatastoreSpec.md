@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpec  
-Parameter to
-     [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpec`
+
+Parameter to  
+> [Datastore_ListDatastoresByDesktopOrFarm](vdi.utils.virtualcenter.Datastore.md#listDatastoresByDesktopOrFarm)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [HostOrClusterId](vdi.entity.HostOrClusterId.md)
+
+Since  
+> Horizon 7.6
+
 
 ## Data Object Description 
 
@@ -53,4 +57,3 @@ This parameter is optional and is taken from [desktopId](vdi.utils.virtualcenter
   
   
   
-

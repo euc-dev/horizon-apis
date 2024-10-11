@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth  
-See also
-     [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md), [GatewayId](vdi.entity.GatewayId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth`
+
+See also  
+> [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md), [GatewayId](vdi.entity.GatewayId.md)
+
+Since  
+> Horizon 7.7
+
 
   
 
@@ -110,4 +113,3 @@ Show WSDL type definition
   
   
   
-

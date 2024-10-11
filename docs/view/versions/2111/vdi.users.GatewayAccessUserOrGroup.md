@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup  
-See also
-     [GatewayAccessUserOrGroupData](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData.md), [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup`
+
+See also  
+> [GatewayAccessUserOrGroupData](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData.md), [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.4
+
 
   
 
@@ -238,4 +241,3 @@ Show WSDL type definition
   
   
   
-

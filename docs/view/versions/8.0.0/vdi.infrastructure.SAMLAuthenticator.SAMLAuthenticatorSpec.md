@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec  
-Parameter to
-     [SAMLAuthenticator_Create](vdi.infrastructure.SAMLAuthenticator.md#create)  
-See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec`
+
+Parameter to  
+> [SAMLAuthenticator_Create](vdi.infrastructure.SAMLAuthenticator.md#create)
+
+See also  
+> [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md), [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
 
   
   
-

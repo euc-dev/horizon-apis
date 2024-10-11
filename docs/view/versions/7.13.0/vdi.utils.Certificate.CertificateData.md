@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData  
-Returned by
-     [Certificate_Validate](vdi.utils.Certificate.md#validate), [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)  
-See also
-     [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData`
+
+Returned by  
+> [Certificate_Validate](vdi.utils.Certificate.md#validate), [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)
+
+See also  
+> [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -76,4 +80,3 @@ Name |  Type |  Description
 
   
   
-

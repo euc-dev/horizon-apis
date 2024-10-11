@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault  
-Thrown by
-     [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)  
-Extends
-     [ViewServerFault](vdi.fault.ViewServerFault.md)  
-See also
-     [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault`
+
+Thrown by  
+> [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)
+
+Extends  
+> [ViewServerFault](vdi.fault.ViewServerFault.md)
+
+See also  
+> [EntityId](vdi.EntityId.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Fault Description 
 
@@ -103,4 +108,3 @@ None
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

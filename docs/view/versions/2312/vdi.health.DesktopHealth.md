@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth  
-See also
-     [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md), [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth`
+
+See also  
+> [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md), [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon 7.9
+
 
   
 
@@ -82,4 +85,3 @@ Show WSDL type definition
   
   
   
-

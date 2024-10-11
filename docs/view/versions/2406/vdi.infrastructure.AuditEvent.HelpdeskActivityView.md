@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.HelpdeskActivityView  
-See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.HelpdeskActivityView`
+
+See also  
+> [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.13
+
 
 ## Data Object Description 
 
@@ -116,4 +119,3 @@ Name |  Type |  Description
   
 
   
-

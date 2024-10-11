@@ -12,14 +12,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidLicense  
-Thrown by
-     [Desktop_Create](vdi.resources.Desktop.md#create), [Farm_Create](vdi.resources.Farm.md#create), [License_Set](vdi.infrastructure.License.md#set)  
-Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidLicense`
+
+Thrown by  
+> [Desktop_Create](vdi.resources.Desktop.md#create), [Farm_Create](vdi.resources.Farm.md#create), [License_Set](vdi.infrastructure.License.md#set)
+
+Extends  
+> [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Fault Description 
 
@@ -43,4 +47,3 @@ None
   
   
   
-

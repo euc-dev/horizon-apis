@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmData  
-Property of
-     [FarmInfo](vdi.resources.Farm.FarmInfo.md#field_detail), [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmDisplayProtocolSettings](vdi.resources.Farm.DisplayProtocolSettings.md), [FarmMirageConfigurationOverrides](vdi.resources.Farm.MirageConfigurationOverrides.md), [FarmSessionSettings](vdi.resources.Farm.SessionSettings.md), [RDSHLoadBalancingSettings](vdi.resources.Farm.LoadBalancingSettings.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmData`
+
+Property of  
+> [FarmInfo](vdi.resources.Farm.FarmInfo.md#field_detail), [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [FarmDisplayProtocolSettings](vdi.resources.Farm.DisplayProtocolSettings.md), [FarmMirageConfigurationOverrides](vdi.resources.Farm.MirageConfigurationOverrides.md), [FarmSessionSettings](vdi.resources.Farm.SessionSettings.md), [RDSHLoadBalancingSettings](vdi.resources.Farm.LoadBalancingSettings.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -110,4 +114,3 @@ Name |  Type |  Description
    
   
   
-

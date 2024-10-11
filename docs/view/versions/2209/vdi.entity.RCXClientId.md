@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.RCXClientId  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.RCXClientId`
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.11
+
 
 ## Data Object Description 
 
@@ -41,4 +44,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
  
   
   
-

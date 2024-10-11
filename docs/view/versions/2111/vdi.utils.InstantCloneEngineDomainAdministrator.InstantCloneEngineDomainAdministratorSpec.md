@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec  
-Parameter to
-     [InstantCloneEngineDomainAdministrator_Create](vdi.utils.InstantCloneEngineDomainAdministrator.md#create)  
-See also
-     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec`
+
+Parameter to  
+> [InstantCloneEngineDomainAdministrator_Create](vdi.utils.InstantCloneEngineDomainAdministrator.md#create)
+
+See also  
+> [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -36,4 +40,3 @@ Name |  Type |  Description
    
   
   
-

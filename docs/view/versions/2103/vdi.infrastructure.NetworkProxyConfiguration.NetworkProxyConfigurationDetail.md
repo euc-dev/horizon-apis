@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail  
-Returned by
-     [NetworkProxyConfiguration_Get](vdi.infrastructure.NetworkProxyConfiguration.md#get)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail`
+
+Returned by  
+> [NetworkProxyConfiguration_Get](vdi.infrastructure.NetworkProxyConfiguration.md#get)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon 7.3
+
 
 ## Data Object Description 
 
@@ -64,4 +68,3 @@ Name |  Type |  Description
 
   
   
-

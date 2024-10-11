@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo  
-Returned by
-     [Performance_Get](vdi.helpdesk.Performance.md#get)  
-See also
-     [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [PerformanceData](vdi.helpdesk.Performance.PerformanceData.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo`
+
+Returned by  
+> [Performance_Get](vdi.helpdesk.Performance.md#get)
+
+See also  
+> [DisplayProtocolPerformanceData](vdi.helpdesk.Performance.DisplayProtocolPerformanceData.md), [PerformanceData](vdi.helpdesk.Performance.PerformanceData.md), [ProcessPerformanceData](vdi.helpdesk.Performance.ProcessPerformanceData.md)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -62,4 +66,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

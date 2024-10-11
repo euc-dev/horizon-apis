@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo  
-Returned by
-     [CertificateSSOConnector_Get](vdi.infrastructure.CertificateSSOConnector.md#get), [CertificateSSOConnector_List](vdi.infrastructure.CertificateSSOConnector.md#list)  
-See also
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo`
+
+Returned by  
+> [CertificateSSOConnector_Get](vdi.infrastructure.CertificateSSOConnector.md#get), [CertificateSSOConnector_List](vdi.infrastructure.CertificateSSOConnector.md#list)
+
+See also  
+> [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md), [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -42,4 +46,3 @@ Name |  Type |  Description
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo  
-Returned by
-     [ImageManagementAsset_Get](vdi.utils.imagemanagement.ImageManagementAsset.md#get), [ImageManagementAsset_GetByImageManagementTagAndVirtualCenter](vdi.utils.imagemanagement.ImageManagementAsset.md#getByImageManagementTagAndVirtualCenter), [ImageManagementAsset_ListByImageManagementVersion](vdi.utils.imagemanagement.ImageManagementAsset.md#listByImageManagementVersion)  
-See also
-     [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md), [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo`
+
+Returned by  
+> [ImageManagementAsset_Get](vdi.utils.imagemanagement.ImageManagementAsset.md#get), [ImageManagementAsset_GetByImageManagementTagAndVirtualCenter](vdi.utils.imagemanagement.ImageManagementAsset.md#getByImageManagementTagAndVirtualCenter), [ImageManagementAsset_ListByImageManagementVersion](vdi.utils.imagemanagement.ImageManagementAsset.md#listByImageManagementVersion)
+
+See also  
+> [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md), [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
 
   
   
-

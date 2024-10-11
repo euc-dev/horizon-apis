@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo  
-Returned by
-     [UnauthenticatedAccessUser_Get](vdi.users.UnauthenticatedAccessUser.md#get), [UnauthenticatedAccessUser_List](vdi.users.UnauthenticatedAccessUser.md#list)  
-See also
-     [PodId](vdi.entity.PodId.md), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo`
+
+Returned by  
+> [UnauthenticatedAccessUser_Get](vdi.users.UnauthenticatedAccessUser.md#get), [UnauthenticatedAccessUser_List](vdi.users.UnauthenticatedAccessUser.md#list)
+
+See also  
+> [PodId](vdi.entity.PodId.md), [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)
+
 
 ## Data Object Description 
 
@@ -49,4 +52,3 @@ Name |  Type |  Description
  
   
   
-

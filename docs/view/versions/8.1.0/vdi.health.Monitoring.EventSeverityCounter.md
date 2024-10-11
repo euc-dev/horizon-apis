@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.EventSeverityCounter  
-Property of
-     [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)  
-Since 
-    Horizon 7.12
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.EventSeverityCounter`
+
+Property of  
+> [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)
+
+Since  
+> Horizon 7.12
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Name |  Type |  Description
   
   
   
-

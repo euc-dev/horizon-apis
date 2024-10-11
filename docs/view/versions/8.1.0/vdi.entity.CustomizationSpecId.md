@@ -12,14 +12,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.CustomizationSpecId  
-Property of
-     [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail), [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md#field_detail), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md#field_detail)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.CustomizationSpecId`
+
+Property of  
+> [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail), [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md#field_detail), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md#field_detail)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -43,4 +47,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 
   
   
-

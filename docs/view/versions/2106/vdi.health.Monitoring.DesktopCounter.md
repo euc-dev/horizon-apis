@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter  
-Returned by
-     [Monitoring_GetDesktopCounters](vdi.health.Monitoring.md#getDesktopCounters)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon 7.11
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter`
+
+Returned by  
+> [Monitoring_GetDesktopCounters](vdi.health.Monitoring.md#getDesktopCounters)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon 7.11
+
 
 ## Data Object Description 
 
@@ -63,4 +67,3 @@ Name |  Type |  Description
 
   
   
-

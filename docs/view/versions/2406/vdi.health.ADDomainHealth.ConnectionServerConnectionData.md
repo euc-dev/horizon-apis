@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData  
-Property of
-     [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)  
-See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData`
+
+Property of  
+> [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)
+
+See also  
+> [ConnectionServerId](vdi.entity.ConnectionServerId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -89,4 +93,3 @@ Name |  Type |  Description
   
 
   
-

@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth  
-See also
-     [SAMLAuthenticatorHealthInfo](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth`
+
+See also  
+> [SAMLAuthenticatorHealthInfo](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -110,4 +113,3 @@ Show WSDL type definition
   
   
   
-

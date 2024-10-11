@@ -10,10 +10,12 @@ hide:
 
 
 
-Java Class
-    com.vmware.vim.binding.vmodl.DynamicProperty  
-Since 
-    vmodl.version.version0
+Java Class  
+> `com.vmware.vim.binding.vmodl.DynamicProperty`
+
+Since  
+> vmodl.version.version0
+
 
 ## Data Object Description 
 
@@ -38,4 +40,3 @@ Name |  Type |  Description
    
   
   
-

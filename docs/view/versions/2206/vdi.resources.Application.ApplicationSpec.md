@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec  
-Parameter to
-     [Application_Create](vdi.resources.Application.md#create)  
-See also
-     [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec`
+
+Parameter to  
+> [Application_Create](vdi.resources.Application.md#create)
+
+See also  
+> [ApplicationData](vdi.resources.Application.ApplicationData.md), [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -38,4 +42,3 @@ Name |  Type |  Description
  
   
   
-

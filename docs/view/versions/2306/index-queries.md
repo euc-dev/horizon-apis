@@ -77,4 +77,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [TaskInfo](vdi.task.Task.TaskInfo.md "TaskInfo")   
 [TimingProfilerView](vdi.infrastructure.AuditEvent.TimingProfilerView.md "TimingProfilerView")   
 [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md "UserHomeSiteInfo")   
-

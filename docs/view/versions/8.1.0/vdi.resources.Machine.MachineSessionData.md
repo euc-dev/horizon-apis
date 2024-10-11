@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSessionData  
-Property of
-     [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)  
-See also
-     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSessionData`
+
+Property of  
+> [MachineDetailsView](vdi.resources.Machine.MachineDetailsView.md#field_detail)
+
+See also  
+> [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -66,4 +70,3 @@ Name |  Type |  Description
   
   
   
-

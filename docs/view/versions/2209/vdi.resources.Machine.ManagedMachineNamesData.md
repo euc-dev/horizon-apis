@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineNamesData  
-Property of
-     [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineNamesData`
+
+Property of  
+> [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -47,4 +50,3 @@ Name |  Type |  Description
  
   
   
-

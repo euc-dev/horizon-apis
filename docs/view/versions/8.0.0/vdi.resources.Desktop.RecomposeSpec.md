@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec  
-Parameter to
-     [Desktop_Recompose](vdi.resources.Desktop.md#recompose)  
-See also
-     [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [MachineId](vdi.entity.MachineId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec`
+
+Parameter to  
+> [Desktop_Recompose](vdi.resources.Desktop.md#recompose)
+
+See also  
+> [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md), [MachineId](vdi.entity.MachineId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -69,4 +73,3 @@ Name |  Type |  Description
 
   
   
-

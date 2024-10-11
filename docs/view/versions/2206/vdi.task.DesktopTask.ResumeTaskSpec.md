@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.ResumeTaskSpec  
-Parameter to
-     [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.ResumeTaskSpec`
+
+Parameter to  
+> [DesktopTask_Resume](vdi.task.DesktopTask.md#resume)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -46,4 +49,3 @@ Name |  Type |  Description
  
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GeneralData  
-Property of
-     [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.GeneralData`
+
+Property of  
+> [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -193,6 +196,7 @@ Non UI based clients should ignore this property.  **_Since_** Horizon 7.5
   
 **sendDomainList**|  xsd:boolean|  Indicates whether the domain list will be sent to the client.  
 Since domain list will be sent before user is authenticated with server, it could disclose domain information to external users.  **_Since_** Horizon 7.9  
+> 
 
 
   * This property has a default value of false.
@@ -292,4 +296,3 @@ If value set to true, the user will need to provide a UPN (e.g. user@domain) or 
   
   
   
-

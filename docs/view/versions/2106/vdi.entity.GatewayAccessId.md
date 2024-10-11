@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.GatewayAccessId  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.0.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.GatewayAccessId`
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.0.2
+
 
 ## Data Object Description 
 
@@ -41,4 +44,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
   
   
   
-

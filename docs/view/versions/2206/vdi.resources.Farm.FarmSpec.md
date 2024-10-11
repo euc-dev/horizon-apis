@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec  
-Parameter to
-     [Farm_Create](vdi.resources.Farm.md#create)  
-See also
-     [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec`
+
+Parameter to  
+> [Farm_Create](vdi.resources.Farm.md#create)
+
+See also  
+> [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md), [FarmData](vdi.resources.Farm.FarmData.md), [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -60,4 +64,3 @@ Name |  Type |  Description
  
   
   
-

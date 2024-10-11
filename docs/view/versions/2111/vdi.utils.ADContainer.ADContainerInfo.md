@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo  
-Returned by
-     [ADContainer_ListByDomain](vdi.utils.ADContainer.md#listByDomain), [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator)  
-See also
-     [ADContainerId](vdi.entity.ADContainerId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo`
+
+Returned by  
+> [ADContainer_ListByDomain](vdi.utils.ADContainer.md#listByDomain), [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator)
+
+See also  
+> [ADContainerId](vdi.entity.ADContainerId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -42,4 +46,3 @@ Name |  Type |  Description
    
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopNamesData  
-Property of
-     [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md#field_detail)  
-Since 
-    Horizon 8.13
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopNamesData`
+
+Property of  
+> [PartnerDesktopNamesData](vdi.resources.Desktop.PartnerDesktopNamesData.md#field_detail)
+
+Since  
+> Horizon 8.13
+
 
 ## Data Object Description 
 
@@ -34,4 +37,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSummaryView  
-Returned by
-     [ApplicationIcon_GetSummaryViewByApplications](vdi.resources.ApplicationIcon.md#getSummaryViewByApplications)  
-See also
-     [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationIconSummaryBase](vdi.resources.ApplicationIcon.ApplicationIconSummaryBase.md)  
-Since 
-    Horizon 7.5
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSummaryView`
+
+Returned by  
+> [ApplicationIcon_GetSummaryViewByApplications](vdi.resources.ApplicationIcon.md#getSummaryViewByApplications)
+
+See also  
+> [ApplicationIconId](vdi.entity.ApplicationIconId.md), [ApplicationIconSummaryBase](vdi.resources.ApplicationIcon.ApplicationIconSummaryBase.md)
+
+Since  
+> Horizon 7.5
+
 
 ## Data Object Description 
 
@@ -42,4 +46,3 @@ Name |  Type |  Description
 
   
   
-

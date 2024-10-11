@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk  
-See also
-     [DatastoreId](vdi.entity.DatastoreId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md), [VirtualDiskListSpec](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk`
+
+See also  
+> [DatastoreId](vdi.entity.DatastoreId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md), [VirtualDiskListSpec](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -136,4 +139,3 @@ Show WSDL type definition
   
   
   
-

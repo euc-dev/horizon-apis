@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.Certificate  
-See also
-     [CertificateData](vdi.utils.Certificate.CertificateData.md), [ViewComposerWithVCSpec](vdi.utils.Certificate.ViewComposerWithVCSpec.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.Certificate`
+
+See also  
+> [CertificateData](vdi.utils.Certificate.CertificateData.md), [ViewComposerWithVCSpec](vdi.utils.Certificate.ViewComposerWithVCSpec.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -133,4 +136,3 @@ Show WSDL type definition
   
   
   
-

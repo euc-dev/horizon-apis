@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo  
-Returned by
-     [InstantCloneEngineDomainAdministrator_Get](vdi.utils.InstantCloneEngineDomainAdministrator.md#get), [InstantCloneEngineDomainAdministrator_List](vdi.utils.InstantCloneEngineDomainAdministrator.md#list)  
-See also
-     [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo`
+
+Returned by  
+> [InstantCloneEngineDomainAdministrator_Get](vdi.utils.InstantCloneEngineDomainAdministrator.md#get), [InstantCloneEngineDomainAdministrator_List](vdi.utils.InstantCloneEngineDomainAdministrator.md#list)
+
+See also  
+> [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -48,4 +52,3 @@ Name |  Type |  Description
   
   
   
-

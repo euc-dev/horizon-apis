@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.DisplayProtocolPerformanceData  
-Property of
-     [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md#field_detail)  
-Returned by
-     [Performance_GetDisplayProtocolPerformanceData](vdi.helpdesk.Performance.md#getDisplayProtocolPerformanceData)  
-See also
-     [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md), [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.DisplayProtocolPerformanceData`
+
+Property of  
+> [PerformanceInfo](vdi.helpdesk.Performance.PerformanceInfo.md#field_detail)
+
+Returned by  
+> [Performance_GetDisplayProtocolPerformanceData](vdi.helpdesk.Performance.md#getDisplayProtocolPerformanceData)
+
+See also  
+> [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md), [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -48,4 +53,3 @@ Name |  Type |  Description
   
 
   
-

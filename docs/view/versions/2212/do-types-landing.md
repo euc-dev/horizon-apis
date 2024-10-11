@@ -29,4 +29,3 @@ For updatable and queryable types a static instance is provided in each class.
 ```
 
 [Back to Home](index.md)
-

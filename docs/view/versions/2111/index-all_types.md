@@ -781,4 +781,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [WS1AssistAgentId](vdi.helpdesk.WS1Assist.WS1AssistAgentId.md "WS1AssistAgentId")   
 [WS1AssistAgentStatus](vdi.helpdesk.WS1Assist.WS1AssistAgentStatus.md "WS1AssistAgentStatus")   
 [WS1AssistSessionSpec](vdi.helpdesk.WS1Assist.WS1AssistSessionSpec.md "WS1AssistSessionSpec")   
-

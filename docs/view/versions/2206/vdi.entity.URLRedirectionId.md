@@ -12,18 +12,24 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.URLRedirectionId  
-Property of
-     [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md#field_detail), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md#field_detail)  
-Parameter to
-     [URLRedirection_Delete](vdi.infrastructure.URLRedirection.md#delete), [URLRedirection_Get](vdi.infrastructure.URLRedirection.md#get), [URLRedirection_Update](vdi.infrastructure.URLRedirection.md#update)  
-Returned by
-     [URLRedirection_Create](vdi.infrastructure.URLRedirection.md#create)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.URLRedirectionId`
+
+Property of  
+> [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md#field_detail), [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md#field_detail)
+
+Parameter to  
+> [URLRedirection_Delete](vdi.infrastructure.URLRedirection.md#delete), [URLRedirection_Get](vdi.infrastructure.URLRedirection.md#get), [URLRedirection_Update](vdi.infrastructure.URLRedirection.md#update)
+
+Returned by  
+> [URLRedirection_Create](vdi.infrastructure.URLRedirection.md#create)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -45,4 +51,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
   
   
   
-

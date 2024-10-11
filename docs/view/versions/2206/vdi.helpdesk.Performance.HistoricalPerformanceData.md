@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.HistoricalPerformanceData  
-Property of
-     [SessionHistoricalPerformanceData](vdi.helpdesk.Performance.SessionHistoricalPerformanceData.md#field_detail)  
-Returned by
-     [Performance_GetHistoricalPerformanceData](vdi.helpdesk.Performance.md#getHistoricalPerformanceData)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.HistoricalPerformanceData`
+
+Property of  
+> [SessionHistoricalPerformanceData](vdi.helpdesk.Performance.SessionHistoricalPerformanceData.md#field_detail)
+
+Returned by  
+> [Performance_GetHistoricalPerformanceData](vdi.helpdesk.Performance.md#getHistoricalPerformanceData)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -104,4 +108,3 @@ Name |  Type |  Description
  
   
   
-

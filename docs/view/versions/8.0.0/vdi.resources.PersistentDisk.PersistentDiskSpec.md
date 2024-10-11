@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec  
-Parameter to
-     [PersistentDisk_Create](vdi.resources.PersistentDisk.md#create)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec`
+
+Parameter to  
+> [PersistentDisk_Create](vdi.resources.PersistentDisk.md#create)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [DesktopId](vdi.entity.DesktopId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
 
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecurringMaintenanceSettings  
-Property of
-     [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md#field_detail)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecurringMaintenanceSettings`
+
+Property of  
+> [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail), [FarmScheduledMaintenanceData](vdi.resources.Farm.ScheduledMaintenanceData.md#field_detail)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -65,4 +68,3 @@ Name |  Type |  Description
   
 
   
-

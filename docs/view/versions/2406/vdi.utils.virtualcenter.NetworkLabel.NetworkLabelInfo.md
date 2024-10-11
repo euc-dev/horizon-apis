@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelInfo  
-Returned by
-     [NetworkLabel_ListByHostOrCluster](vdi.utils.virtualcenter.NetworkLabel.md#listByHostOrCluster), [NetworkLabel_ListByNetworkLabelSpec](vdi.utils.virtualcenter.NetworkLabel.md#listByNetworkLabelSpec)  
-See also
-     [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md), [NetworkLabelId](vdi.entity.NetworkLabelId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelInfo`
+
+Returned by  
+> [NetworkLabel_ListByHostOrCluster](vdi.utils.virtualcenter.NetworkLabel.md#listByHostOrCluster), [NetworkLabel_ListByNetworkLabelSpec](vdi.utils.virtualcenter.NetworkLabel.md#listByNetworkLabelSpec)
+
+See also  
+> [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md), [NetworkLabelId](vdi.entity.NetworkLabelId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -55,4 +59,3 @@ Name |  Type |  Description
   
 
   
-

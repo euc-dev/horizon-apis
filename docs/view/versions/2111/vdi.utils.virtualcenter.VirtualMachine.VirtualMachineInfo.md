@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo  
-Returned by
-     [VirtualMachine_List](vdi.utils.virtualcenter.VirtualMachine.md#list)  
-See also
-     [MachineId](vdi.entity.MachineId.md), [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo`
+
+Returned by  
+> [VirtualMachine_List](vdi.utils.virtualcenter.VirtualMachine.md#list)
+
+See also  
+> [MachineId](vdi.entity.MachineId.md), [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -116,4 +120,3 @@ Name |  Type |  Description
    
   
   
-

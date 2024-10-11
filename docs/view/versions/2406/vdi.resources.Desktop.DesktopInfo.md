@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopInfo  
-Returned by
-     [Desktop_Get](vdi.resources.Desktop.md#get), [Desktop_GetByNamingPattern](vdi.resources.Desktop.md#getByNamingPattern)  
-See also
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md), [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopInfo`
+
+Returned by  
+> [Desktop_Get](vdi.resources.Desktop.md#get), [Desktop_GetByNamingPattern](vdi.resources.Desktop.md#getByNamingPattern)
+
+See also  
+> [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md), [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md), [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md), [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -111,4 +115,3 @@ This option is only valid for Automated Desktop.
   
 
   
-

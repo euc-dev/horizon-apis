@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo  
-Returned by
-     [PodHealth_Get](vdi.health.PodHealth.md#get), [PodHealth_List](vdi.health.PodHealth.md#list)  
-See also
-     [PodHealthData](vdi.health.PodHealth.PodHealthData.md), [PodId](vdi.entity.PodId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo`
+
+Returned by  
+> [PodHealth_Get](vdi.health.PodHealth.md#get), [PodHealth_List](vdi.health.PodHealth.md#list)
+
+See also  
+> [PodHealthData](vdi.health.PodHealth.PodHealthData.md), [PodId](vdi.entity.PodId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -59,4 +63,3 @@ Name |  Type |  Description
   
   
   
-

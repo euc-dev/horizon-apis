@@ -12,16 +12,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOEnrollmentServerId  
-Property of
-     [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md#field_detail), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md#field_detail), [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)  
-Parameter to
-     [CertificateSSOEnrollmentServer_Get](vdi.infrastructure.CertificateSSOEnrollmentServer.md#get)  
-Extends
-     [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOEnrollmentServerId`
+
+Property of  
+> [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md#field_detail), [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md#field_detail), [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md#field_detail)
+
+Parameter to  
+> [CertificateSSOEnrollmentServer_Get](vdi.infrastructure.CertificateSSOEnrollmentServer.md#get)
+
+Extends  
+> [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -45,4 +50,3 @@ Properties inherited from [EntityId](vdi.EntityId.md)
   
   
   
-

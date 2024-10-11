@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost  
-See also
-     [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md), [StorageAcceleratorHostInfo](vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost`
+
+See also  
+> [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md), [StorageAcceleratorHostInfo](vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -130,4 +133,3 @@ Show WSDL type definition
   
   
   
-

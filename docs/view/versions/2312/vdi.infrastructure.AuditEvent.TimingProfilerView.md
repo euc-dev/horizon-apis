@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.TimingProfilerView  
-See also
-     [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.TimingProfilerView`
+
+See also  
+> [SessionId](vdi.entity.SessionId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -81,4 +84,3 @@ Name |  Type |  Description
    
   
   
-

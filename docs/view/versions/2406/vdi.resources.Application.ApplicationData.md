@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationData  
-Property of
-     [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md#field_detail)  
-See also
-     [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationData`
+
+Property of  
+> [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md#field_detail)
+
+See also  
+> [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -174,4 +178,3 @@ Pattern strings may contain wildcard characters. '*' matches zero or more charac
   
 
   
-

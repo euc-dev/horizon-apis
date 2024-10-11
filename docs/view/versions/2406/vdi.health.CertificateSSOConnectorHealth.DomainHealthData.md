@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.DomainHealthData  
-Property of
-     [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)  
-See also
-     [ADDomainId](vdi.entity.ADDomainId.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.DomainHealthData`
+
+Property of  
+> [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)
+
+See also  
+> [ADDomainId](vdi.entity.ADDomainId.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -85,4 +89,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupSummaryView  
-Property of
-     [AdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md#field_detail)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md)  
-Since 
-    Horizon 7.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.AccessGroup.AccessGroupSummaryView`
+
+Property of  
+> [AdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md#field_detail)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md)
+
+Since  
+> Horizon 7.6
+
 
 ## Data Object Description 
 
@@ -47,4 +51,3 @@ Name |  Type |  Description
 
   
   
-

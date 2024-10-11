@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentView  
-See also
-     [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md), [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon 7.9
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentView`
+
+See also  
+> [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md), [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon 7.9
+
 
 ## Data Object Description 
 
@@ -51,4 +54,3 @@ Name |  Type |  Description
 
   
   
-

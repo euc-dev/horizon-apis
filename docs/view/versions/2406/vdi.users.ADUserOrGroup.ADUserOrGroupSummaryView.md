@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView  
-Property of
-     [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md#field_detail)  
-Returned by
-     [ADUserOrGroup_GetSummaryView](vdi.users.ADUserOrGroup.md#getSummaryView), [ADUserOrGroup_GetSummaryViews](vdi.users.ADUserOrGroup.md#getSummaryViews), [ADUserOrGroup_Refresh](vdi.users.ADUserOrGroup.md#refresh), [ADUserOrGroup_RefreshUsersOrGroups](vdi.users.ADUserOrGroup.md#refreshUsersOrGroups)  
-See also
-     [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView`
+
+Property of  
+> [ADUserOrGroupView](vdi.users.ADUserOrGroup.ADUserOrGroupView.md#field_detail)
+
+Returned by  
+> [ADUserOrGroup_GetSummaryView](vdi.users.ADUserOrGroup.md#getSummaryView), [ADUserOrGroup_GetSummaryViews](vdi.users.ADUserOrGroup.md#getSummaryViews), [ADUserOrGroup_Refresh](vdi.users.ADUserOrGroup.md#refresh), [ADUserOrGroup_RefreshUsersOrGroups](vdi.users.ADUserOrGroup.md#refreshUsersOrGroups)
+
+See also  
+> [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -66,4 +71,3 @@ Name |  Type |  Description
   
 
   
-

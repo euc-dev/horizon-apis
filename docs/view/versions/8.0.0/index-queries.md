@@ -74,4 +74,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md "SessionLocalSummaryView")   
 [TaskInfo](vdi.task.Task.TaskInfo.md "TaskInfo")   
 [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md "UserHomeSiteInfo")   
-

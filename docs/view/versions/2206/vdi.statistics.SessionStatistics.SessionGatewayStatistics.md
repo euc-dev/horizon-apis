@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionGatewayStatistics  
-Property of
-     [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionGatewayStatistics`
+
+Property of  
+> [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -50,4 +53,3 @@ Name |  Type |  Description
  
   
   
-

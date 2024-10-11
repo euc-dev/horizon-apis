@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings  
-Returned by
-     [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)  
-Since 
-    Horizon 7.5
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings`
+
+Returned by  
+> [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)
+
+Since  
+> Horizon 7.5
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Non UI based clients should ignore this property.
   
   
   
-

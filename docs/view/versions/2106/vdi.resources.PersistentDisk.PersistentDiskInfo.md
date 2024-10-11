@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskInfo  
-Returned by
-     [PersistentDisk_Get](vdi.resources.PersistentDisk.md#get)  
-See also
-     [PersistentDiskGeneralData](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [PersistentDiskStorageData](vdi.resources.PersistentDisk.PersistentDiskStorageData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskInfo`
+
+Returned by  
+> [PersistentDisk_Get](vdi.resources.PersistentDisk.md#get)
+
+See also  
+> [PersistentDiskGeneralData](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md), [PersistentDiskId](vdi.entity.PersistentDiskId.md), [PersistentDiskStorageData](vdi.resources.PersistentDisk.PersistentDiskStorageData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -48,4 +52,3 @@ Name |  Type |  Description
 
   
   
-

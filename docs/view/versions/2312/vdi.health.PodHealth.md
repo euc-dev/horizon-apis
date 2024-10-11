@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.PodHealth  
-See also
-     [PodHealthInfo](vdi.health.PodHealth.PodHealthInfo.md), [PodId](vdi.entity.PodId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.PodHealth`
+
+See also  
+> [PodHealthInfo](vdi.health.PodHealth.PodHealthInfo.md), [PodId](vdi.entity.PodId.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -132,4 +135,3 @@ Show WSDL type definition
   
   
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec  
-Property of
-     [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail)  
-Since 
-    Horizon 8.6
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec`
+
+Property of  
+> [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail)
+
+Since  
+> Horizon 8.6
+
 
 ## Data Object Description 
 
@@ -54,4 +57,3 @@ Name |  Type |  Description
  
   
   
-

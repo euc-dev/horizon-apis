@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier  
-Property of
-     [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md#field_detail), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md#field_detail)  
-Parameter to
-     [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)  
-See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [MachineId](vdi.entity.MachineId.md), [RDSServerId](vdi.entity.RDSServerId.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier`
+
+Property of  
+> [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md#field_detail), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md#field_detail)
+
+Parameter to  
+> [LogCollector_Purge](vdi.utils.logcollector.LogCollector.md#purge)
+
+See also  
+> [ConnectionServerId](vdi.entity.ConnectionServerId.md), [MachineId](vdi.entity.MachineId.md), [RDSServerId](vdi.entity.RDSServerId.md)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -68,4 +73,3 @@ Name |  Type |  Description
 
   
   
-

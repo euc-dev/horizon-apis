@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.MessageSecurityData  
-Property of
-     [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)  
-Since 
-    Horizon View 6.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.MessageSecurityData`
+
+Property of  
+> [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)
+
+Since  
+> Horizon View 6.1
+
 
 ## Data Object Description 
 
@@ -51,4 +54,3 @@ Name |  Type |  Description
   
 
   
-

@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.PreparedCount  
-Property of
-     [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md#field_detail)  
-Since 
-    Horizon 8.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.PreparedCount`
+
+Property of  
+> [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md#field_detail)
+
+Since  
+> Horizon 8.4
+
 
 ## Data Object Description 
 
@@ -44,4 +47,3 @@ Name |  Type |  Description
  
   
   
-

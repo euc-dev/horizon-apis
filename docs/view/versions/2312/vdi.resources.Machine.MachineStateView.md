@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md)  
-Since 
-    Horizon 7.7
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView`
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md)
+
+Since  
+> Horizon 7.7
+
 
 ## Data Object Description 
 
@@ -139,4 +142,3 @@ Name |  Type |  Description
    
   
   
-

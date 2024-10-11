@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData  
-Property of
-     [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)  
-See also
-     [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData`
+
+Property of  
+> [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)
+
+See also  
+> [SecureString](vdi.util.SecureString.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
 
 ## Data Object Description 
 
@@ -54,4 +57,3 @@ Name |  Type |  Description
   
   
   
-

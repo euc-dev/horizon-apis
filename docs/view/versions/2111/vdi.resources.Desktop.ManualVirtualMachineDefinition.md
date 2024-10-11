@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition  
-Parameter to
-     [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [DesktopManualVirtualMachinesSpec](vdi.resources.Desktop.ManualVirtualMachinesSpec.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition`
+
+Parameter to  
+> [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [DesktopManualVirtualMachinesSpec](vdi.resources.Desktop.ManualVirtualMachinesSpec.md)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -49,4 +53,3 @@ Name |  Type |  Description
    
   
   
-

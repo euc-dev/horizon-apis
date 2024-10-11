@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidType  
-Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidType`
+
+Extends  
+> [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Fault Description 
 
@@ -50,4 +53,3 @@ None
 
   
   
-

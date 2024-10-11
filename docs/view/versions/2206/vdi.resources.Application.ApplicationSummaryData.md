@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryData  
-Property of
-     [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md#field_detail)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryData`
+
+Property of  
+> [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md#field_detail)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -91,4 +95,3 @@ Name |  Type |  Description
  
   
   
-

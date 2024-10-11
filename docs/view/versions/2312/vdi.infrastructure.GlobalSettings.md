@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings  
-See also
-     [EnvironmentSettings](vdi.infrastructure.GlobalSettings.EnvironmentSettings.md), [GatewayCertificateInfo](vdi.infrastructure.GlobalSettings.GatewayCertificateInfo.md), [GatewayCertificateSpec](vdi.infrastructure.GlobalSettings.GatewayCertificateSpec.md), [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalPreLogonSettings](vdi.infrastructure.GlobalSettings.PreLogonSettings.md), [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings`
+
+See also  
+> [EnvironmentSettings](vdi.infrastructure.GlobalSettings.EnvironmentSettings.md), [GatewayCertificateInfo](vdi.infrastructure.GlobalSettings.GatewayCertificateInfo.md), [GatewayCertificateSpec](vdi.infrastructure.GlobalSettings.GatewayCertificateSpec.md), [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md), [GlobalPreLogonSettings](vdi.infrastructure.GlobalSettings.PreLogonSettings.md), [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -399,4 +402,3 @@ Show WSDL type definition
   
   
   
-

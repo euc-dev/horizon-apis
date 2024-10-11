@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.query.QueryResults  
-Returned by
-     [GlobalSessionQueryService_GetNext](vdi.users.GlobalSessionQueryService.md#getNext), [GlobalSessionQueryService_QueryByBrokeringPod](vdi.users.GlobalSessionQueryService.md#queryByBrokeringPod), [GlobalSessionQueryService_QueryByDesktop](vdi.users.GlobalSessionQueryService.md#queryByDesktop), [GlobalSessionQueryService_QueryByPod](vdi.users.GlobalSessionQueryService.md#queryByPod), [GlobalSessionQueryService_QueryByUser](vdi.users.GlobalSessionQueryService.md#queryByUser), [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec), [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec), [QueryService_Create](vdi.query.QueryService.md#create), [QueryService_GetNext](vdi.query.QueryService.md#getNext), [QueryService_Query](vdi.query.QueryService.md#query)  
-See also
-     [QueryId](vdi.entity.QueryId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.query.QueryResults`
+
+Returned by  
+> [GlobalSessionQueryService_GetNext](vdi.users.GlobalSessionQueryService.md#getNext), [GlobalSessionQueryService_QueryByBrokeringPod](vdi.users.GlobalSessionQueryService.md#queryByBrokeringPod), [GlobalSessionQueryService_QueryByDesktop](vdi.users.GlobalSessionQueryService.md#queryByDesktop), [GlobalSessionQueryService_QueryByPod](vdi.users.GlobalSessionQueryService.md#queryByPod), [GlobalSessionQueryService_QueryByUser](vdi.users.GlobalSessionQueryService.md#queryByUser), [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec), [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec), [QueryService_Create](vdi.query.QueryService.md#create), [QueryService_GetNext](vdi.query.QueryService.md#getNext), [QueryService_Query](vdi.query.QueryService.md#query)
+
+See also  
+> [QueryId](vdi.entity.QueryId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -58,4 +62,3 @@ Name |  Type |  Description
 
   
   
-

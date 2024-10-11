@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData  
-Property of
-     [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md#field_detail)  
-See also
-     [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmId](vdi.entity.FarmId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData`
+
+Property of  
+> [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md#field_detail)
+
+See also  
+> [AccessGroupId](vdi.entity.AccessGroupId.md), [FarmId](vdi.entity.FarmId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -219,4 +223,3 @@ This option is only valid for Automated Desktop.
   
 
   
-

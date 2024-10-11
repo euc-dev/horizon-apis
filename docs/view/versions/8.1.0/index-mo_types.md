@@ -138,4 +138,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [VirtualSAN](vdi.utils.virtualcenter.VirtualSAN.md "VirtualSAN")   
 [VmFolder](vdi.utils.virtualcenter.VmFolder.md "VmFolder")   
 [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md "VmTemplate")   
-

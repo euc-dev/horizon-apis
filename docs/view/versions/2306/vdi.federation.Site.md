@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.Site  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [SiteBase](vdi.federation.Site.SiteBase.md), [SiteId](vdi.entity.SiteId.md), [SiteInfo](vdi.federation.Site.SiteInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.Site`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [SiteBase](vdi.federation.Site.SiteBase.md), [SiteId](vdi.entity.SiteId.md), [SiteInfo](vdi.federation.Site.SiteInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -304,4 +307,3 @@ Show WSDL type definition
   
   
   
-

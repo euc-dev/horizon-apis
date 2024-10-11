@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials  
-Extends
-     [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)  
-See also
-     [ADDomainId](vdi.entity.ADDomainId.md), [EntityId](vdi.EntityId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials`
+
+Extends  
+> [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+
+See also  
+> [ADDomainId](vdi.entity.ADDomainId.md), [EntityId](vdi.EntityId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Fault Description 
 
@@ -64,4 +68,3 @@ None
  
   
   
-

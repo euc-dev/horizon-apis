@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer  
-See also
-     [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer`
+
+See also  
+> [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -331,4 +334,3 @@ Show WSDL type definition
   
   
   
-

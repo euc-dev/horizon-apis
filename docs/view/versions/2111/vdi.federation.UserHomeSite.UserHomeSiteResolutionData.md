@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionData  
-Property of
-     [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md#field_detail)  
-See also
-     [SiteId](vdi.entity.SiteId.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteResolutionData`
+
+Property of  
+> [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md#field_detail)
+
+See also  
+> [SiteId](vdi.entity.SiteId.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -79,4 +83,3 @@ Name |  Type |  Description
    
   
   
-

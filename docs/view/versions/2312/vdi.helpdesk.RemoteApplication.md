@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteApplication  
-See also
-     [SessionId](vdi.entity.SessionId.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteApplication`
+
+See also  
+> [SessionId](vdi.entity.SessionId.md)
+
+Since  
+> Horizon 7.4
+
 
   
 
@@ -133,4 +136,3 @@ Show WSDL type definition
   
   
   
-

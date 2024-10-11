@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationExecutionData  
-Property of
-     [ApplicationDiscoveryData](vdi.resources.Application.ApplicationDiscoveryData.md#field_detail), [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md#field_detail)  
-See also
-     [ApplicationFileTypeData](vdi.resources.Application.FileTypeData.md), [ApplicationOtherFileTypeData](vdi.resources.Application.OtherFileTypeData.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationExecutionData`
+
+Property of  
+> [ApplicationDiscoveryData](vdi.resources.Application.ApplicationDiscoveryData.md#field_detail), [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail), [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md#field_detail)
+
+See also  
+> [ApplicationFileTypeData](vdi.resources.Application.FileTypeData.md), [ApplicationOtherFileTypeData](vdi.resources.Application.OtherFileTypeData.md), [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -100,4 +104,3 @@ Name |  Type |  Description
  
   
   
-

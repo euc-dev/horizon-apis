@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionData  
-Property of
-     [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md#field_detail), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md#field_detail)  
-See also
-     [GlobalURLRedirectionSchemeHandler](vdi.infrastructure.URLRedirection.GlobalURLSchemeAndHandler.md), [URLRedirectionSchemeHandler](vdi.infrastructure.URLRedirection.URLSchemeAndHandler.md)  
-Since 
-    Horizon 7.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionData`
+
+Property of  
+> [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md#field_detail), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md#field_detail)
+
+See also  
+> [GlobalURLRedirectionSchemeHandler](vdi.infrastructure.URLRedirection.GlobalURLSchemeAndHandler.md), [URLRedirectionSchemeHandler](vdi.infrastructure.URLRedirection.URLSchemeAndHandler.md)
+
+Since  
+> Horizon 7.0
+
 
 ## Data Object Description 
 
@@ -92,4 +96,3 @@ Name |  Type |  Description
 
   
   
-

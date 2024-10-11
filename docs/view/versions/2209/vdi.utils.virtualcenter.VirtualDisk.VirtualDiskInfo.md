@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo  
-Returned by
-     [VirtualDisk_List](vdi.utils.virtualcenter.VirtualDisk.md#list), [VirtualDisk_ListAllDisks](vdi.utils.virtualcenter.VirtualDisk.md#listAllDisks)  
-See also
-     [VirtualDiskData](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo`
+
+Returned by  
+> [VirtualDisk_List](vdi.utils.virtualcenter.VirtualDisk.md#list), [VirtualDisk_ListAllDisks](vdi.utils.virtualcenter.VirtualDisk.md#listAllDisks)
+
+See also  
+> [VirtualDiskData](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData.md), [VirtualDiskId](vdi.entity.VirtualDiskId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -50,4 +54,3 @@ Name |  Type |  Description
  
   
   
-

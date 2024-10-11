@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.Role  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [RoleBase](vdi.users.Role.RoleBase.md), [RoleId](vdi.entity.RoleId.md), [RoleInfo](vdi.users.Role.RoleInfo.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.Role`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [RoleBase](vdi.users.Role.RoleBase.md), [RoleId](vdi.entity.RoleId.md), [RoleInfo](vdi.users.Role.RoleInfo.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -300,4 +303,3 @@ Show WSDL type definition
   
   
   
-

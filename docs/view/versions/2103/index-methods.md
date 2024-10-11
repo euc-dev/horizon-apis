@@ -495,4 +495,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter "VmTemplate_ListByDatacenter \(in VmTemplate \)") (in [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md "VmTemplate_ListByDatacenter \(in VmTemplate \)") )   
 [WS1Assist_GetWS1AgentAssistStatus](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentStatus "WS1Assist_GetWS1AgentAssistStatus \(in WS1Assist \)") (in [WS1Assist](vdi.helpdesk.WS1Assist.md "WS1Assist_GetWS1AgentAssistStatus \(in WS1Assist \)") )   
 [WS1Assist_GetWS1AssistAgentId](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentId "WS1Assist_GetWS1AssistAgentId \(in WS1Assist \)") (in [WS1Assist](vdi.helpdesk.WS1Assist.md "WS1Assist_GetWS1AssistAgentId \(in WS1Assist \)") )   
-

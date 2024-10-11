@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Machine.NetworkLabelData  
-Property of
-     [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.NetworkLabelData`
+
+Property of  
+> [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -36,4 +39,3 @@ Name |  Type |  Description
    
   
   
-

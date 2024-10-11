@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskInfo  
-Returned by
-     [PodFederation_Initialize](vdi.federation.PodFederation.md#initialize), [PodFederation_Join](vdi.federation.PodFederation.md#join), [PodFederation_Uninitialize](vdi.federation.PodFederation.md#uninitialize), [PodFederation_Unjoin](vdi.federation.PodFederation.md#unjoin), [Task_Get](vdi.task.Task.md#get)  
-See also
-     [TaskId](vdi.entity.TaskId.md), [TaskResult](vdi.task.Task.TaskResult.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskInfo`
+
+Returned by  
+> [PodFederation_Initialize](vdi.federation.PodFederation.md#initialize), [PodFederation_Join](vdi.federation.PodFederation.md#join), [PodFederation_Uninitialize](vdi.federation.PodFederation.md#uninitialize), [PodFederation_Unjoin](vdi.federation.PodFederation.md#unjoin), [Task_Get](vdi.task.Task.md#get)
+
+See also  
+> [TaskId](vdi.entity.TaskId.md), [TaskResult](vdi.task.Task.TaskResult.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -110,4 +114,3 @@ Name |  Type |  Description
  
   
   
-

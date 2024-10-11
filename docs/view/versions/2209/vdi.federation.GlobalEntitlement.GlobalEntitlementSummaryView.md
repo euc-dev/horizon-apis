@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView  
-Returned by
-     [GlobalEntitlement_GetSummaryView](vdi.federation.GlobalEntitlement.md#getSummaryView), [GlobalEntitlement_GetSummaryViews](vdi.federation.GlobalEntitlement.md#getSummaryViews)  
-See also
-     [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView`
+
+Returned by  
+> [GlobalEntitlement_GetSummaryView](vdi.federation.GlobalEntitlement.md#getSummaryView), [GlobalEntitlement_GetSummaryViews](vdi.federation.GlobalEntitlement.md#getSummaryViews)
+
+See also  
+> [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -65,4 +69,3 @@ Name |  Type |  Description
  
   
   
-

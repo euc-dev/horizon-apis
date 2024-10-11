@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData  
-Property of
-     [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData`
+
+Property of  
+> [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)
+
+Since  
+> Horizon 7.10
+
 
 ## Data Object Description 
 
@@ -45,4 +48,3 @@ Name |  Type |  Description
  
   
   
-

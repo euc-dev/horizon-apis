@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag  
-See also
-     [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md), [ImageManagementTagQuerySpec](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagQuerySpec.md), [MapEntry](vdi.util.MapEntry.md)  
-Since 
-    Horizon 7.10
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag`
+
+See also  
+> [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md), [ImageManagementTagId](vdi.entity.ImageManagementTagId.md), [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md), [ImageManagementTagQuerySpec](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagQuerySpec.md), [MapEntry](vdi.util.MapEntry.md)
+
+Since  
+> Horizon 7.10
+
 
   
 
@@ -303,4 +306,3 @@ Show WSDL type definition
   
   
   
-

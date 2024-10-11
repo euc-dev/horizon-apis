@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailView  
-Returned by
-     [Desktop_GetDetailView](vdi.resources.Desktop.md#getDetailView)  
-See also
-     [DesktopDetailData](vdi.resources.Desktop.DesktopDetailData.md), [DesktopId](vdi.entity.DesktopId.md)  
-Since 
-    Horizon 7.4
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailView`
+
+Returned by  
+> [Desktop_GetDetailView](vdi.resources.Desktop.md#getDetailView)
+
+See also  
+> [DesktopDetailData](vdi.resources.Desktop.DesktopDetailData.md), [DesktopId](vdi.entity.DesktopId.md)
+
+Since  
+> Horizon 7.4
+
 
 ## Data Object Description 
 
@@ -45,4 +49,3 @@ Name |  Type |  Description
  
   
   
-

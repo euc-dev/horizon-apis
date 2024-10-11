@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec  
-Parameter to
-     [RADIUSAuthenticator_Create](vdi.infrastructure.RADIUSAuthenticator.md#create)  
-See also
-     [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec`
+
+Parameter to  
+> [RADIUSAuthenticator_Create](vdi.infrastructure.RADIUSAuthenticator.md#create)
+
+See also  
+> [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md), [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -44,4 +48,3 @@ Name |  Type |  Description
    
   
   
-

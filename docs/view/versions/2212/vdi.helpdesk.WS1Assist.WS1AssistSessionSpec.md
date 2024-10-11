@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistSessionSpec  
-Parameter to
-     [WS1Assist_GetWS1AssistAgentId](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentId)  
-See also
-     [SessionId](vdi.entity.SessionId.md)  
-Since 
-    Horizon 8.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistSessionSpec`
+
+Parameter to  
+> [WS1Assist_GetWS1AssistAgentId](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentId)
+
+See also  
+> [SessionId](vdi.entity.SessionId.md)
+
+Since  
+> Horizon 8.2
+
 
 ## Data Object Description 
 
@@ -56,4 +60,3 @@ Name |  Type |  Description
   
   
   
-

@@ -483,4 +483,3 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 [VmFolder_GetVmFolderTree](vdi.utils.virtualcenter.VmFolder.md#getVmFolderTree "VmFolder_GetVmFolderTree \(in VmFolder \)") (in [VmFolder](vdi.utils.virtualcenter.VmFolder.md "VmFolder_GetVmFolderTree \(in VmFolder \)") )   
 [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list "VmTemplate_List \(in VmTemplate \)") (in [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md "VmTemplate_List \(in VmTemplate \)") )   
 [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter "VmTemplate_ListByDatacenter \(in VmTemplate \)") (in [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md "VmTemplate_ListByDatacenter \(in VmTemplate \)") )   
-

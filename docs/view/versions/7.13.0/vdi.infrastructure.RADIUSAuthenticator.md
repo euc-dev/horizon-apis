@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator  
-See also
-     [MapEntry](vdi.util.MapEntry.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator`
+
+See also  
+> [MapEntry](vdi.util.MapEntry.md), [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md), [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md), [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md)
+
+Since  
+> Horizon View 6.0
+
 
   
 
@@ -298,4 +301,3 @@ Show WSDL type definition
   
   
   
-

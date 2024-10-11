@@ -12,12 +12,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics  
-See also
-     [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics`
+
+See also  
+> [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md)
+
+Since  
+> Horizon 7.8
+
 
   
 
@@ -126,4 +129,3 @@ Show WSDL type definition
   
   
   
-

@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.FileData  
-Property of
-     [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)  
-See also
-     [SecureString](vdi.util.SecureString.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.FileData`
+
+Property of  
+> [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)
+
+See also  
+> [SecureString](vdi.util.SecureString.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -65,4 +69,3 @@ This field is required if any of the uncUserName, uncPassword, uncDomain is set.
   
 
   
-

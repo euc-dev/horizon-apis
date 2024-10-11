@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.CustomizationSettings  
-Property of
-     [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail)  
-See also
-     [ADContainerId](vdi.entity.ADContainerId.md), [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md), [DesktopCustomizationScriptSettings](vdi.resources.Desktop.CustomizationScriptSettings.md), [DesktopNoCustomizationSettings](vdi.resources.Desktop.NoCustomizationSettings.md), [DesktopQuickprepCustomizationSettings](vdi.resources.Desktop.QuickprepCustomizationSettings.md), [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.CustomizationSettings`
+
+Property of  
+> [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md#field_detail), [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md#field_detail)
+
+See also  
+> [ADContainerId](vdi.entity.ADContainerId.md), [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md), [DesktopCustomizationScriptSettings](vdi.resources.Desktop.CustomizationScriptSettings.md), [DesktopNoCustomizationSettings](vdi.resources.Desktop.NoCustomizationSettings.md), [DesktopQuickprepCustomizationSettings](vdi.resources.Desktop.QuickprepCustomizationSettings.md), [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -114,4 +118,3 @@ Name |  Type |  Description
   
 
   
-

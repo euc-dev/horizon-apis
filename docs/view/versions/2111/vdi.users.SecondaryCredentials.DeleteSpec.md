@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec  
-Parameter to
-     [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete)  
-See also
-     [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec`
+
+Parameter to  
+> [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete)
+
+See also  
+> [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
 
 ## Data Object Description 
 
@@ -38,4 +41,3 @@ Name |  Type |  Description
    
   
   
-

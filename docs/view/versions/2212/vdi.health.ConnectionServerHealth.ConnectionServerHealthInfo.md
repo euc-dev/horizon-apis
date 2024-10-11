@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo  
-Returned by
-     [ConnectionServerHealth_Get](vdi.health.ConnectionServerHealth.md#get), [ConnectionServerHealth_List](vdi.health.ConnectionServerHealth.md#list)  
-See also
-     [CertificateHealthData](vdi.health.CertificateHealthData.md), [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md), [ConnectionServerHealthLdapReplicationStatusData](vdi.health.ConnectionServerHealth.LdapReplicationStatusData.md), [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerServiceStatus](vdi.health.ConnectionServerHealth.ConnectionServerServiceStatus.md), [ConnectionServerSessionProtocolData](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo`
+
+Returned by  
+> [ConnectionServerHealth_Get](vdi.health.ConnectionServerHealth.md#get), [ConnectionServerHealth_List](vdi.health.ConnectionServerHealth.md#list)
+
+See also  
+> [CertificateHealthData](vdi.health.CertificateHealthData.md), [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md), [ConnectionServerHealthLdapReplicationStatusData](vdi.health.ConnectionServerHealth.LdapReplicationStatusData.md), [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md), [ConnectionServerServiceStatus](vdi.health.ConnectionServerHealth.ConnectionServerServiceStatus.md), [ConnectionServerSessionProtocolData](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -140,4 +144,3 @@ Name |  Type |  Description
   
   
   
-

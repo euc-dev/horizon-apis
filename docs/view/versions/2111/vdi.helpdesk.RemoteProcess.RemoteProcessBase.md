@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase  
-Parameter to
-     [RemoteProcess_EndProcess](vdi.helpdesk.RemoteProcess.md#endProcess)  
-Since 
-    Horizon 7.3
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase`
+
+Parameter to  
+> [RemoteProcess_EndProcess](vdi.helpdesk.RemoteProcess.md#endProcess)
+
+Since  
+> Horizon 7.3
+
 
 ## Data Object Description 
 
@@ -50,4 +53,3 @@ Name |  Type |  Description
    
   
   
-

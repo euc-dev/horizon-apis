@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementBase  
-Property of
-     [UserEntitlementInfo](vdi.users.UserEntitlement.UserEntitlementInfo.md#field_detail)  
-Parameter to
-     [UserEntitlement_Create](vdi.users.UserEntitlement.md#create), [UserEntitlement_CreateUserEntitlements](vdi.users.UserEntitlement.md#createUserEntitlements)  
-See also
-     [EntityId](vdi.EntityId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementBase`
+
+Property of  
+> [UserEntitlementInfo](vdi.users.UserEntitlement.UserEntitlementInfo.md#field_detail)
+
+Parameter to  
+> [UserEntitlement_Create](vdi.users.UserEntitlement.md#create), [UserEntitlement_CreateUserEntitlements](vdi.users.UserEntitlement.md#createUserEntitlements)
+
+See also  
+> [EntityId](vdi.EntityId.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -62,4 +67,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

@@ -10,16 +10,21 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupView  
-Property of
-     [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)  
-Returned by
-     [AdminUserOrGroup_GetView](vdi.users.AdminUserOrGroup.md#getView), [AdminUserOrGroup_ListViews](vdi.users.AdminUserOrGroup.md#listViews)  
-See also
-     [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md), [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md), [PermissionInfo](vdi.users.Permission.PermissionInfo.md), [RoleInfo](vdi.users.Role.RoleInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.users.AdminUserOrGroup.AdminUserOrGroupView`
+
+Property of  
+> [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)
+
+Returned by  
+> [AdminUserOrGroup_GetView](vdi.users.AdminUserOrGroup.md#getView), [AdminUserOrGroup_ListViews](vdi.users.AdminUserOrGroup.md#listViews)
+
+See also  
+> [AccessGroupInfo](vdi.users.AccessGroup.AccessGroupInfo.md), [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md), [PermissionInfo](vdi.users.Permission.PermissionInfo.md), [RoleInfo](vdi.users.Role.RoleInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -68,4 +73,3 @@ Name |  Type |  Description
   
   
   
-

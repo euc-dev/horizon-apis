@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo  
-Returned by
-     [BaseImageVm_Get](vdi.utils.virtualcenter.BaseImageVm.md#get), [BaseImageVm_List](vdi.utils.virtualcenter.BaseImageVm.md#list), [BaseImageVm_ListByDatacenter](vdi.utils.virtualcenter.BaseImageVm.md#listByDatacenter)  
-See also
-     [BaseImageVmId](vdi.entity.BaseImageVmId.md), [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md), [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo`
+
+Returned by  
+> [BaseImageVm_Get](vdi.utils.virtualcenter.BaseImageVm.md#get), [BaseImageVm_List](vdi.utils.virtualcenter.BaseImageVm.md#list), [BaseImageVm_ListByDatacenter](vdi.utils.virtualcenter.BaseImageVm.md#listByDatacenter)
+
+See also  
+> [BaseImageVmId](vdi.entity.BaseImageVmId.md), [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md), [DatacenterId](vdi.entity.DatacenterId.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -132,4 +136,3 @@ Name |  Type |  Description
   
 
   
-

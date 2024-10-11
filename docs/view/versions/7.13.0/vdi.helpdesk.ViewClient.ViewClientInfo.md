@@ -10,12 +10,15 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient.ViewClientInfo  
-Returned by
-     [ViewClient_Get](vdi.helpdesk.ViewClient.md#get)  
-Since 
-    Horizon 7.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient.ViewClientInfo`
+
+Returned by  
+> [ViewClient_Get](vdi.helpdesk.ViewClient.md#get)
+
+Since  
+> Horizon 7.2
+
 
 ## Data Object Description 
 
@@ -102,4 +105,3 @@ Name |  Type |  Description
 
   
   
-

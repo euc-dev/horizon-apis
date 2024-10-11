@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.SystemStatusCounter  
-Returned by
-     [Monitoring_GetSystemStatusCounter](vdi.health.Monitoring.md#getSystemStatusCounter)  
-See also
-     [EventSeverityCounter](vdi.health.Monitoring.EventSeverityCounter.md), [HealthCounter](vdi.health.Monitoring.HealthCounter.md)  
-Since 
-    Horizon 7.12
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.SystemStatusCounter`
+
+Returned by  
+> [Monitoring_GetSystemStatusCounter](vdi.health.Monitoring.md#getSystemStatusCounter)
+
+See also  
+> [EventSeverityCounter](vdi.health.Monitoring.EventSeverityCounter.md), [HealthCounter](vdi.health.Monitoring.HealthCounter.md)
+
+Since  
+> Horizon 7.12
+
 
 ## Data Object Description 
 
@@ -68,4 +72,3 @@ Name |  Type |  Description
 
   
   
-

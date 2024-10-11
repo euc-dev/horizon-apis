@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec  
-Parameter to
-     [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance), [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance)  
-See also
-     [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md), [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md), [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md), [RDSServerId](vdi.entity.RDSServerId.md)  
-Since 
-    Horizon 7.1
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec`
+
+Parameter to  
+> [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance), [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance)
+
+See also  
+> [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md), [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md), [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md), [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md), [RDSServerId](vdi.entity.RDSServerId.md)
+
+Since  
+> Horizon 7.1
+
 
 ## Data Object Description 
 
@@ -107,4 +111,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

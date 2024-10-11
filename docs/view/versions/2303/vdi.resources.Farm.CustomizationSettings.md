@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CustomizationSettings  
-Property of
-     [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)  
-See also
-     [ADContainerId](vdi.entity.ADContainerId.md), [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)  
-Since 
-    Horizon View 6.2
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CustomizationSettings`
+
+Property of  
+> [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)
+
+See also  
+> [ADContainerId](vdi.entity.ADContainerId.md), [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md), [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)
+
+Since  
+> Horizon View 6.2
+
 
 ## Data Object Description 
 
@@ -89,4 +93,3 @@ Name |  Type |  Description
 [Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)  
   
   
-

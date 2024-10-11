@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings  
-Property of
-     [FarmData](vdi.resources.Farm.FarmData.md#field_detail)  
-See also
-     [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)  
-Since 
-    Horizon 7.8
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings`
+
+Property of  
+> [FarmData](vdi.resources.Farm.FarmData.md#field_detail)
+
+See also  
+> [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)
+
+Since  
+> Horizon 7.8
+
 
 ## Data Object Description 
 
@@ -48,4 +52,3 @@ Name |  Type |  Description
 
   
   
-

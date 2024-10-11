@@ -10,14 +10,18 @@ hide:
 
 
 
-Java Class
-    com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryView  
-Returned by
-     [Desktop_GetSummaryView](vdi.resources.Desktop.md#getSummaryView), [Desktop_GetSummaryViews](vdi.resources.Desktop.md#getSummaryViews), [Desktop_ListGECompatibleDesktops](vdi.resources.Desktop.md#listGECompatibleDesktops)  
-See also
-     [DesktopId](vdi.entity.DesktopId.md), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md)  
-Since 
-    Horizon View 6.0
+Java Class  
+> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryView`
+
+Returned by  
+> [Desktop_GetSummaryView](vdi.resources.Desktop.md#getSummaryView), [Desktop_GetSummaryViews](vdi.resources.Desktop.md#getSummaryViews), [Desktop_ListGECompatibleDesktops](vdi.resources.Desktop.md#listGECompatibleDesktops)
+
+See also  
+> [DesktopId](vdi.entity.DesktopId.md), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md)
+
+Since  
+> Horizon View 6.0
+
 
 ## Data Object Description 
 
@@ -60,4 +64,3 @@ Name |  Type |  Description
 
   
   
-
