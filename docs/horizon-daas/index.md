@@ -6,7 +6,7 @@ hide:
   - toc
 ---
 
-This is a API documentation for the VMware Horizon Cloud Service - DaaS (first gen)
+This is a API documentation for the Horizon Cloud Service - DaaS (first gen)
 
 ::cards::
 
