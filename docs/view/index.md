@@ -77,6 +77,5 @@ The View API Reference is set of documents, grouped by platform version. Use the
 
 To quickly find an entry, start typing its name in the **Search Bar** field.
 
-## Notes
-
-* The maximum supported size of any array input to the API is 1000 data objects.
+!!! Note
+    The maximum supported size of any array input to the API is 1000 data objects.
