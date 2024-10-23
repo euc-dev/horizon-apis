@@ -31,8 +31,8 @@ Once you receive your Cloud Services Portal (CSP) invitation link in the email, 
 ### Authentication
 
 !!!Important
-Please take a note of below two steps.
-The same authentication scheme ("Authorization: Bearer") is required for all API calls
+    Please take a note of below two steps.  
+    The same authentication scheme ("Authorization: Bearer") is required for all API calls
 
 ### Obtain a CSP Access Token
 
@@ -48,7 +48,7 @@ The same authentication scheme ("Authorization: Bearer") is required for all API
 These can be found when originally creating the OAuth App within your Organization page, or can be regenerated from the same area.
 
 !!!Note
-OAuth App should have the Horizon Cloud Service listed as a Service Role
+    OAuth App should have the Horizon Cloud Service listed as a Service Role
 
 ##### Create a CSP API Token
 
