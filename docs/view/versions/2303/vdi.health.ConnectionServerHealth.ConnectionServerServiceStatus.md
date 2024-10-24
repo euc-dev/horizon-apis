@@ -28,22 +28,9 @@ Information about the status of Connection Server related Services.
 Properties
 Name |  Type |  Description
 ---|---|---
-**serviceName**|  xsd:string|  Name of the service
-* This property will be one of:
-|  Value |  Description
----|---
-"SECURITY_GATEWAY_COMPONENT"| Security Gateway Component Service.
-"PCOIP_SECURE_GATEWAY"| PCoIP Secure Gateway Service.
-"BLAST_SECURE_GATEWAY"| BLAST Secure Gateway Service.
-**status**|  xsd:string|  Status of the service.
-* This property will be one of:
-|  Value |  Description
----|---
-"UP"| Service is working properly.
-"DOWN"| Service is not working properly.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**serviceName**|  xsd:string|  Name of the service<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SECURITY_GATEWAY_COMPONENT"</td><td>Security Gateway Component Service.</td></tr><tr><td>"PCOIP_SECURE_GATEWAY"</td><td>PCoIP Secure Gateway Service.</td></tr><tr><td>"BLAST_SECURE_GATEWAY"</td><td>BLAST Secure Gateway Service.</td></tr></table>
+**status**|  xsd:string|  Status of the service.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UP"</td><td>Service is working properly.</td></tr><tr><td>"DOWN"</td><td>Service is not working properly.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

@@ -32,9 +32,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  The description of this RADIUS authenticator. [^1] [^13]
 **userNameLabel**|  xsd:string|  The label for the RADIUS authenticator user name.  **_Since_** Horizon 7.11 [^1] [^295]
 **passcodeLabel**|  xsd:string|  The label for the RADIUS authenticator passcode.  **_Since_** Horizon 7.11 [^1] [^295]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

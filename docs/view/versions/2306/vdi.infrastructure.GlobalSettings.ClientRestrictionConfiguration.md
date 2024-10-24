@@ -35,9 +35,7 @@ Name |  Type |  Description
 **message**|  xsd:string|  The message to be shown for the blocked clients. [^1] [^268]
 **blockAdditionalClients**|  xsd:boolean|  Whether additional clients need to be blocked. [^5] [^1]
 **warningMessage**|  xsd:string|  The warning message to be shown to the users when the Horizon client version being used matches any of the restricted versions for the given client type  **_Since_** Horizon 8.0 [^1] [^268]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

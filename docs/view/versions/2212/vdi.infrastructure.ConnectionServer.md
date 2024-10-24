@@ -288,10 +288,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ConnectionServer](vdi.infrastructure.ConnectionServer.md) used to make the method call.
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The Id of the Connection Server.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^249]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^249]
 
 
 

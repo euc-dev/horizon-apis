@@ -42,9 +42,7 @@ Name |  Type |  Description
 "truesso"| TRUESSO: Authentication via TrueSSO
 "unknown"| UNKNOWN: Authentication method is unknown
 **hybridLogonPassword**| [SecureString](vdi.util.SecureString.md)|  User's domain password in encrypted format. This is used if we setup Hybrid logon to use username & password. This is null when Hybrid logon is disabled or used in modes other than password  **_Since_** Horizon 7.7 [^1] [^138]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -38,9 +38,7 @@ Name |  Type |  Description
 ---|---
 "csms"| Message Client is csms. CSMS, abbreviation for Connection Server Monitor Service, runs on Cloud Connector Appliance. It collects messages from Desktop Agent from all Desktop and RDSH servers, and forward them to Cloud Monitoring Service.
 **pemCertificates**|  xsd:string[]|  The client certificates in PEM format. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -64,9 +64,7 @@ Name |  Type |  Description
 **vGPUType**|  xsd:string|  NVIDIA GRID vGPU type configured on this virtual machine, if any.  **_Since_** Horizon View 6.1 [^1] [^2]
 **incompatibleReasons**| [VirtualMachineIncompatibleReasons](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineIncompatibleReasons.md)|  Reasons that may preclude this VirtualMachine from being used in manual desktop creation. [^2]
 **refId**|  xsd:string|  Reference ID used for this virtual machine.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -41,9 +41,7 @@ Name |  Type |  Description
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop to which this Application is associated with. Either this or [farm](vdi.resources.Application.ApplicationSummaryData.md#farm) should be set.  **_Since_** Horizon 7.9 [^1]
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Global Application Entitlement for this Application. This member will be null if not set or caller does not have global read permissions. [^1]
 **cloudBrokered**|  xsd:boolean|  Indicates whether the application pool is brokered by cloud broker  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

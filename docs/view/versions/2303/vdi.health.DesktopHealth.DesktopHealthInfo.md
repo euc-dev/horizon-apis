@@ -42,37 +42,13 @@ Name |  Type |  Description
 ---|---|---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop entity ID [^2]
 **name**|  xsd:string|  Desktop name [^2]
-**type**|  xsd:string|  Desktop type [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated desktop creates virtual machines cloned from a base template or snapshot.
-"MANUAL"| A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.
-"RDS"| An RDS Desktop Desktop.
-**health**|  xsd:string|  Desktop health [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Desktop is enabled and no machines are in WARNING or ERROR state. One or more machine(s) may be DISABLED (including the case where all of them are DISABLED).
-"WARNING"| Desktop is enabled. One or more machine(s) is either in WARNING or ERROR (not exceeding the predefined threshold) state.
-"ERROR"| Desktop is enabled. One or more machine(s) (exceeding the predefined threshold) is in ERROR state, or, for Automated Desktops, there could be a provisioning error.
-"DISABLED"| Desktop is disabled.
-**source**|  xsd:string|  Source of machines. [^1] [^2] [^29]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.
-"VIEW_COMPOSER"| View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Desktop.
-"UNMANAGED"| Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.
-"RDS"| This option is only valid for RDS Desktops.
+**type**|  xsd:string|  Desktop type [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AUTOMATED"</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>"MANUAL"</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>"RDS"</td><td>An RDS Desktop Desktop.</td></tr></table>
+**health**|  xsd:string|  Desktop health [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Desktop is enabled and no machines are in WARNING or ERROR state. One or more machine(s) may be DISABLED (including the case where all of them are DISABLED).</td></tr><tr><td>"WARNING"</td><td>Desktop is enabled. One or more machine(s) is either in WARNING or ERROR (not exceeding the predefined threshold) state.</td></tr><tr><td>"ERROR"</td><td>Desktop is enabled. One or more machine(s) (exceeding the predefined threshold) is in ERROR state, or, for Automated Desktops, there could be a provisioning error.</td></tr><tr><td>"DISABLED"</td><td>Desktop is disabled.</td></tr></table>
+**source**|  xsd:string|  Source of machines. [^1] [^2] [^29]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIRTUAL_CENTER"</td><td>Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.</td></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110] This option is only valid for Automated Desktop.</td></tr><tr><td>"UNMANAGED"</td><td>Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.</td></tr><tr><td>"RDS"</td><td>This option is only valid for RDS Desktops.</td></tr></table>
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group associated with this Desktop. [^2]
 **enableAppRemoting**|  xsd:boolean|  True, if this desktop can be used for application pool creation. [^5] [^1]
 **applicationStatus**| [ApplicationStatusInfo[]](vdi.health.DesktopHealth.ApplicationStatusInfo.md)|  Application status [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

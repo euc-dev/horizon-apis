@@ -71,9 +71,7 @@ Name |  Type |  Description
 **pendingImageError**|  xsd:string|  This represents the error message if publishing of PushImage is failed.  **_Since_** Horizon 7.8 [^1]
 **pendingImageProgress**|  xsd:int|  This represents the pending image publish progress in percentage for an instant clone farm.  **_Since_** Horizon 7.11 [^1]
 **pendingComputeProfile**| [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md)|  Pending compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -36,9 +36,7 @@ Name |  Type |  Description
 **networkProxyPort**|  xsd:int|  Network proxy port. [^1] [^8] [^189] [^293]
 **networkProxyUsername**|  xsd:string|  Network proxy user name. [^1]
 **networkProxyPassword**| [SecureString](vdi.util.SecureString.md)|  Network proxy password. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

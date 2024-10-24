@@ -38,9 +38,7 @@ Name |  Type |  Description
 **minDiskSize**|  xsd:double|  Minimum recommended Disk Space, in GB. [^2]
 **midDiskSize**|  xsd:double|  Recommended Disk Space with 50% utilization, in GB. [^1] [^2]
 **maxDiskSize**|  xsd:double|  Maximum recommended Disk Space, in GB. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -30,9 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **retryFailedVMs**|  xsd:boolean|  Whether to restart the task for virtual machines whose task status is in error state [^5] [^1]
 **stopOnError**|  xsd:boolean|  Whether to stop the task at first error [^6] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

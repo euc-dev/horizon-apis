@@ -54,9 +54,7 @@ Name |  Type |  Description
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services. This can be set to true from cloud session only and only when [cloudManaged](vdi.resources.Desktop.DesktopSettings.md#cloudManaged) is true. This can be changed to false only if there are no entitlements.  **_Since_** Horizon 7.11 [^5] [^1]
 **displayAssignedMachineName**|  xsd:boolean|  Indicates whether users should see the hostname of the machine assigned to them instead of [displayName](vdi.resources.Desktop.DesktopBase.md#displayName) when they connect using View Client. This is applicable for dedicated pools only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client.  **_Since_** Horizon 7.12 [^5] [^1]
 **displayMachineAlias**|  xsd:boolean|  Indicates whether users should see the machine alias of the machine assigned to them instead of [displayName](vdi.resources.Desktop.DesktopBase.md#displayName) when they connect using View Client. This is applicable for dedicated pools only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client. If both [displayAssignedMachineName](vdi.resources.Desktop.DesktopSettings.md#displayAssignedMachineName) and this property is set to true, machine alias of the assigned machine is displayed if the user has machine alias set. Otherwise hostname will be displayed.  **_Since_** Horizon 7.13 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

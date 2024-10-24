@@ -38,9 +38,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  The type of the client installed on endpoint machine. [^1] [^2]
 **brokerDnsName**|  xsd:string|  The DNS name of the connected connection server. [^1] [^2]
 **version**|  xsd:string|  The version of horizon client.  **_Since_** Horizon 7.8 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

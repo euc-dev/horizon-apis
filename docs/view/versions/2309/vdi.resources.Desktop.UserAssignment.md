@@ -36,9 +36,7 @@ Name |  Type |  Description
 "FLOATING"| With floating assignment, a user may return to one of the available virtual machines for the next session.
 **automaticAssignment**|  xsd:boolean|  Automatic assignment of a user the first time they access the machine. [^6] [^1] [^81]
 **allowMultipleAssignments**|  xsd:boolean|  Whether assignment of multiple users to a single machine is allowed. This is only applicable for dedicated pools (except Linked Clone pools) with manual user assignment. If this is true then [automaticAssignment](vdi.resources.Desktop.UserAssignment.md#automaticAssignment) should be false.  **_Since_** Horizon 7.12 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

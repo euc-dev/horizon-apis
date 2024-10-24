@@ -39,9 +39,7 @@ Name |  Type |  Description
 ---|---|---
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user or group for this user entitlement. [^2]
 **resource**| [EntityId](vdi.EntityId.md)|  The resource id for this user entitlement. The valid types of resource ids are: [^311] [^221] [^222] [^223] [^224] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

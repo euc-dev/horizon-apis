@@ -56,9 +56,7 @@ Ignored in case of Farm. [^5]
 Set to true when Virtual SAN is configured and in use for the pool. [^5]
 **useSeparateReplicaAndOSDisk**|  xsd:boolean|  Set to true when separate datastores for replica and OS disks are used. [^173] [^5]
 **useSeparatePersistentAndOSDisk**|  xsd:boolean|  When the Separate datastores for persistent and OS disks are used. [^174] [^175] [^5]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

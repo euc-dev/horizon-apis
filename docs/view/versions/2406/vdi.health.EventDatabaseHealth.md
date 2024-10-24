@@ -45,9 +45,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabaseHealth](vdi.health.EventDatabaseHealth.md) used to make the method call.
-**skipEventStatistics**|  xsd:boolean|  Indicates whether EventStatistics needs to be loaded or not. Default is false.
-
- [^135]
+**skipEventStatistics**|  xsd:boolean|  Indicates whether EventStatistics needs to be loaded or not. Default is false. [^135]
 
 
 

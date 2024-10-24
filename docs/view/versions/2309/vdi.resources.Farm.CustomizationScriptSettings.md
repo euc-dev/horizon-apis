@@ -32,9 +32,7 @@ Name |  Type |  Description
 **powerOffScriptParameters**|  xsd:string|  Power off script parameters. Example: p1 p2 p3 [^1]
 **postSynchronizationScriptName**|  xsd:string|  Post synchronization script. Allows to run a customization script on cloned machines after they are created, recomposed, or refreshed. Provide the path to the script on the parent virtual machine. [^1]
 **postSynchronizationScriptParameters**|  xsd:string|  Post synchronization script parameters. Example: p1 p2 p3 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

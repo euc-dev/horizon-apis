@@ -28,17 +28,9 @@ Information about the protocol sessions of the connection server.
 Properties
 Name |  Type |  Description
 ---|---|---
-**sessionProtocol**|  xsd:string|  Protocol used to launch the session.
-* This property will be one of:
-|  Value |  Description
----|---
-"PCOIP"| Display protocol is PCoIP
-"RDP"| Display protocol is RDP
-"BLAST"| Display protocol is Blast
+**sessionProtocol**|  xsd:string|  Protocol used to launch the session.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PCOIP"</td><td>Display protocol is PCoIP.</td></tr><tr><td>"RDP"</td><td>Display protocol is RDP.</td></tr><tr><td>"BLAST"</td><td>Display protocol is Blast.</td></tr></table>
 **numSessions**|  xsd:int|  Number of active sessions launched using [sessionProtocol](vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData.md#sessionProtocol).
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

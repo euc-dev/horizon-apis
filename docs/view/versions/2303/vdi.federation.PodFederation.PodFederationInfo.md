@@ -31,14 +31,9 @@ Info object for Pod Federation.
 Properties
 Name |  Type |  Description
 ---|---|---
-**data**| [PodFederationData](vdi.federation.PodFederation.PodFederationData.md)|  Data relevant to this Pod Federation. It will be null if:
-1\. The PodFederation has not been initialized or has not been joined.
-2\. The PodFederation is undergoing initialize, uninitialize, join, or unjoin operation.
-3\. Required read privileges are not met. [^1]
+**data**| [PodFederationData](vdi.federation.PodFederation.PodFederationData.md)|  Data relevant to this Pod Federation. It will be null if:<br>1\. The PodFederation has not been initialized or has not been joined.<br>2\. The PodFederation is undergoing initialize, uninitialize, join, or unjoin operation.<br>3\. Required read privileges are not met. [^1]
 **localPodStatus**| [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)|  Multi-DataCenter View status for the local Pod. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

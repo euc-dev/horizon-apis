@@ -39,9 +39,7 @@ Name |  Type |  Description
 **blastImagingStatistics**| [BlastImagingStatistics](vdi.helpdesk.Performance.BlastImagingStatistics.md)|  The image statistics about Blast protocol.  **_Since_** Horizon 7.3 [^1] [^2]
 **blastAudioStatistics**| [BlastAudioStatistics](vdi.helpdesk.Performance.BlastAudioStatistics.md)|  The audio statistics about Blast protocol.  **_Since_** Horizon 7.3 [^1] [^2]
 **blastCDRStatistics**| [BlastCDRStatistics](vdi.helpdesk.Performance.BlastCDRStatistics.md)|  The CDR statistics about Blast protocol.  **_Since_** Horizon 7.3 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

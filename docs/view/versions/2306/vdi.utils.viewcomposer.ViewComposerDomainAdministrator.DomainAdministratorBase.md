@@ -39,9 +39,7 @@ Name |  Type |  Description
 **domain**|  xsd:string|  Fully qualified domain name for the domain administrator account. [^2]
 **userName**|  xsd:string|  Logon user name.
 **password**| [SecureString](vdi.util.SecureString.md)|  Logon password.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

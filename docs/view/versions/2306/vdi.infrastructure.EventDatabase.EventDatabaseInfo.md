@@ -34,9 +34,7 @@ Name |  Type |  Description
 **eventDatabaseSet**|  xsd:boolean|  Whether or not the event database has been set in the backend. This should be effectively treated as read-only, as it will be ignored on update.
 **database**| [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md)|  How to reach and log into the database server, plus database settings to use [^1] [^258]
 **settings**| [EventDatabaseEventSettings](vdi.infrastructure.EventDatabase.EventSettings.md)|  Event persistence settings [^1] [^258]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

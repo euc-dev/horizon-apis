@@ -158,19 +158,8 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
-**locale**|  xsd:string|  The locale of the user messages.
+**locale**|  xsd:string|  The locale of the user messages.<br>* This can take the values:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>de</td><td>German Language</td></tr><tr><td>en</td><td>English Language</td></tr><tr><td>es</td><td>Spanish Language</td></tr><tr><td>fr</td><td>French Language</td></tr><tr><td>ja</td><td>Japanese Language</td></tr><tr><td>ko</td><td>Korean Language</td></tr><tr><td>zh</td><td>Chinese Language</td></tr><tr><td>zh_TW</td><td>Chinese-Taiwan Language</td></tr></tbody></table>
 
-* This can take the values:
-| Value| Description
----|---
-de| German Language
-en| English Language
-es| Spanish Language
-fr| French Language
-ja| Japanese Language
-ko| Korean Language
-zh| Chinese Language
-zh_TW| Chinese-Taiwan Language
 
 
 

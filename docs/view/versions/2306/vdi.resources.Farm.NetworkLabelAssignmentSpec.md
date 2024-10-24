@@ -40,9 +40,7 @@ Name |  Type |  Description
 "UNLIMITED"| The network label assignment spec has no limit on the number of labels to assign.
 "LIMITED"| The network label assignment spec has a limited number of labels to assign.
 **maxLabel**|  xsd:int|  The maximum number of times this label can be assigned to a machine. Note this count only encompasses this spec. That is, this label may be used for other NICs and in other farms, but those assignments will not be counted towards this total. This count also does not include assignments of this label to machines not under the control of View. [^1] [^8] [^54]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

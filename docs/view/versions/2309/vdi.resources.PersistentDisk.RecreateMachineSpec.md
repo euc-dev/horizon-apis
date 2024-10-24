@@ -35,9 +35,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk. This is required when the spec is used in bulk operation apis like recreateMachines etc.  **_Since_** Horizon 7.8 [^1]
 **machineName**|  xsd:string|  This is only valid if the desktop uses specified naming. [^1] [^196]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

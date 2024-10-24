@@ -30,9 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **enableUIUsernameCaching**|  xsd:boolean|  For UI based clients: [^282] [^283]
 Non UI based clients should ignore this property. [^6] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -38,9 +38,7 @@ Name |  Type |  Description
 |  Value |  Description
 ---|---
 "LOG_FILTER_NOT_HONORED"| Indicates only default log collection filter is applied on the logs bundle.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

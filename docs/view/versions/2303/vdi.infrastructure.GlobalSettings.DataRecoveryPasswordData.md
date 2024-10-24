@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **recoveryPasswordSHA256**|  xsd:base64Binary|  The SHA-256 hash of the (UTF-8) recovery password.
 **recoveryPasswordHint**|  xsd:string|  The recovery password hint. [^1] [^267]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

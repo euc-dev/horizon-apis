@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User id of the user for whom this machine alias corresponds to. This cannot be a group.
 **alias**|  xsd:string|  Machine alias of the assigned user. If no machine alias is set for the user, then the value will be null. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

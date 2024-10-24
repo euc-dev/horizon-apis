@@ -43,9 +43,7 @@ This value cannot be updated for Instant Clone Engine sourced desktops. [^5]
 "OS_AND_PERSISTENT_DISKS"| OS and persistent disks.
 **regenerateViewStorageAcceleratorDays**|  xsd:int|  How often to regenerate the View Storage Accelerator cache. Measured in Days. This is not applicable to Instant Clone Engine sourced desktops - the default value should be used. [^93] [^1] [^8] [^94] [^92]
 **blackoutTimes**| [DesktopBlackoutTime[]](vdi.resources.Desktop.BlackoutTime.md)|  A list of blackout times. Storage accelerator regeneration and VM disk space reclamation do not occur during blackout times. The same blackout policy applies to both operations. If unset, no blackout times are used. This should not be set for Instant Clone Engine sourced desktops. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

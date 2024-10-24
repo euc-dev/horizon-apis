@@ -47,9 +47,7 @@ This option is only valid for Automated Desktop.
 **virtualCenterNamesData**| [DesktopVirtualCenterNamesData](vdi.resources.Desktop.VirtualCenterNamesData.md)|  Naming data for Virtual Center entities associated with this Desktop. [^2]
 **provisioningStatusData**| [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md)|  Provisioning status data about this desktop. [^2]
 **customizationSettings**| [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md)|  Customization settings for this desktop.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

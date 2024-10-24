@@ -36,9 +36,7 @@ Name |  Type |  Description
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID that the RDS server (optionally) belongs to [^1] [^2]
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  RDS Desktop Id that the RDS server (optionally) is associated with [^1] [^2]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group associated with this RDS Server. If this RDS Server is in a Farm, this will be the Farm's access group. Otherwise, this will be the Root access group. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

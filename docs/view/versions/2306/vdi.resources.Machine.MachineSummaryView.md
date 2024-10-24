@@ -55,9 +55,7 @@ Name |  Type |  Description
 **base**| [MachineBase](vdi.resources.Machine.MachineBase.md)|  Basic Machine information.
 **messageSecurityData**| [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)|  Message security data for this machine.  **_Since_** Horizon View 6.1
 **summaryData**| [MachineSummaryData](vdi.resources.Machine.SummaryData.md)|  Machine summary data. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

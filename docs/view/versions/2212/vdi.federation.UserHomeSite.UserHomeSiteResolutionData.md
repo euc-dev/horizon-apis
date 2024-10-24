@@ -36,14 +36,7 @@ Name |  Type |  Description
 **groupName**|  xsd:string|  Name of the group via which the user gets this site as the home site. [^1] [^2]
 **site**| [SiteId](vdi.entity.SiteId.md)|  Home Site Id [^2]
 **siteName**|  xsd:string|  Name of the home site. [^2]
-**type**|  xsd:string|  Indicates whether the home site is assigned to the user or a group and is associate with the global entitlement or not [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"DIRECT_USER"| If the home site override is associated with the global entitlement for the user.
-"DIRECT_GROUP"| If the home site override is associated with the global entitlement for the group.
-"DEFAULT_USER"| If the home site is assigned to the user.
-"DEFAULT_GROUP"| If the home site is assigned to the group.
+**type**|  xsd:string|  Indicates whether the home site is assigned to the user or a group and is associate with the global entitlement or not [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DIRECT_USER"</td><td>If the home site override is associated with the global entitlement for the user.</td></tr><tr><td>"DIRECT_GROUP"</td><td>If the home site override is associated with the global entitlement for the group.</td></tr><tr><td>"DEFAULT_USER"</td><td>If the home site is assigned to the user.</td></tr><tr><td>"DEFAULT_GROUP"</td><td>If the home site is assigned to the group.</td></tr></table>
 
 
  [^1]: This property need not be set. 

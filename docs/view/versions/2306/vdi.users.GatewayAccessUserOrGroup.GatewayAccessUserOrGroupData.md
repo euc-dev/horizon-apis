@@ -37,9 +37,7 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of the user or group. [^1]
 **phone**|  xsd:string|  Phone number of the user or group. [^1]
 **email**|  xsd:string|  Email address of the user or group. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -135,9 +135,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CEIP](vdi.infrastructure.CEIP.md) used to make the method call.
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply.
-
- [^245]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply. [^245]
 
 
 

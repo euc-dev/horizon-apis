@@ -48,9 +48,7 @@ Name |  Type |  Description
 "COLLECT_TIMED_OUT"| Log collection task has timed out and the process has been interrupted.
 "ERROR"| Log collection task has ended in error.
 "NON_RESPONSIVE"| In rare occasions, the log collection process becomes non-responsive. A connection server restart is required to remediate it.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -41,9 +41,7 @@ Name |  Type |  Description
 "WAIT_FOR_LOGOFF"| Wait for connected users to disconnect before the task starts. The operation starts immediately on RDS Servers without active sessions.
 **stopOnFirstError**|  xsd:boolean|  Indicates that the operation should stop on first error.  **_Since_** Horizon 7.4 [^6]
 **recurringMaintenanceSettings**| [FarmRecurringMaintenanceSettings](vdi.resources.Farm.RecurringMaintenanceSettings.md)|  Settings for recurring maintenance operations. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

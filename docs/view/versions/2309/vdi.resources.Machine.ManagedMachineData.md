@@ -37,9 +37,7 @@ Name |  Type |  Description
 **cloneErrorMessage**|  xsd:string|  Cloning error message for this machine. This will be set for machine belonging to automated desktops when the machine's [basicState](vdi.resources.Machine.MachineBase.md#basicState) is in PROVISIONING_ERROR or ERROR state.  **_Since_** Horizon 7.5 [^1] [^2]
 **cloneErrorTime**|  xsd:dateTime|  Cloning error time for this machine. This will be set for machine belonging to automated desktops when the machine's [basicState](vdi.resources.Machine.MachineBase.md#basicState) is in PROVISIONING_ERROR or ERROR state.  **_Since_** Horizon 7.5 [^1] [^2]
 **inMaintenanceMode**|  xsd:boolean|  True if the Machine is in maintenance mode.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

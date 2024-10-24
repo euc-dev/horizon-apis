@@ -54,7 +54,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
-
 **desktops**| [DesktopId[]](vdi.entity.DesktopId.md)|  Desktops to be added to the Global Entitlement
 
 
@@ -414,7 +413,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
-
 **desktops**| [DesktopId[]](vdi.entity.DesktopId.md)|  Desktops to be removed from the Global Entitlement
 
 
@@ -473,10 +471,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement to be updated
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^229]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^229]
 
 
 

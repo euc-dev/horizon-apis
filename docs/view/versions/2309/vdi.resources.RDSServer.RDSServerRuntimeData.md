@@ -61,19 +61,9 @@ Name |  Type |  Description
 "BLOCKED_AGENT_VERSION"| The agent version is blocked from establishing sessions.
 "UNKNOWN"| Could not determine the state of the virtual machine.
 **sessionCount**|  xsd:long|  RDS server session count [^1] [^2]
-**loadPreference**|  xsd:string|  Based on the current load of this RDSServer, gives a measure of how preferential this server is to be chosen for new application sessions.  **_Since_** Horizon View 6.2 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"BLOCK"| This RDSServer will not be chosen for new sessions.
-"HEAVY"| This RDSServer is experiencing heavy load and should likely not be chosen for new sessions.
-"NORMAL"| This RDSServer is experiencing normal load and is okay to be chosen for new sessions.
-"LIGHT"| This RDSServer is experiencing light load and is okay to be chosen for new sessions.
-"UNKNOWN"| This RDSServer did not report a load preference. This is potentially a configuration issue if other RDSServers in the same Farm do report load preferences.
+**loadPreference**|  xsd:string|  Based on the current load of this RDSServer, gives a measure of how preferential this server is to be chosen for new application sessions.  **_Since_** Horizon View 6.2 [^1] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"BLOCK"</td><td>This RDSServer will not be chosen for new sessions.</td></tr><tr><td>"HEAVY"</td><td>This RDSServer is experiencing heavy load and should likely not be chosen for new sessions.</td></tr><tr><td>"NORMAL"</td><td>This RDSServer is experiencing normal load and is okay to be chosen for new sessions.</td></tr><tr><td>"LIGHT"</td><td>This RDSServer is experiencing light load and is okay to be chosen for new sessions.</td></tr><tr><td>"UNKNOWN"</td><td>This RDSServer did not report a load preference. This is potentially a configuration issue if other RDSServers in the same Farm do report load preferences.</td></tr></table>
 **loadIndex**|  xsd:int|  Represents the load on the RDSServer in the range of 0-100  **_Since_** Horizon 7.8 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

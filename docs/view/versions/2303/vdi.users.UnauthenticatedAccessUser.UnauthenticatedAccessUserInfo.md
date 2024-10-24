@@ -31,9 +31,7 @@ Name |  Type |  Description
 **userData**| [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)|  Unauthenticated Access User Data Object.
 **sourcePods**| [PodId[]](vdi.entity.PodId.md)|  Pods in which user was created. The value would be null if the cloud pod architecture is not enabled or if the user does not have FEDERATED_LDAP_VIEW privilege. [^1] [^14] [^2]
 **refId**|  xsd:string|  Reference ID for this unauthenticated access user.  **_Since_** Horizon 8.7 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

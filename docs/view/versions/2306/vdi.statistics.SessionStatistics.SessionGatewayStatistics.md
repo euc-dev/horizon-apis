@@ -31,9 +31,7 @@ Name |  Type |  Description
 **numInternalGateways**|  xsd:int|  The number of sessions whose gateway location is internal. [^2]
 **numExternalGateways**|  xsd:int|  The number of sessions whose gateway location is external. [^2]
 **numUnknownGateways**|  xsd:int|  The number of sessions whose gateway location is unknown.If the agent of a session is not upgraded to required version, the gateway location is unknown, this number is for this type of sessions. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

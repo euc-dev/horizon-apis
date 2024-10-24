@@ -53,9 +53,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  ApplicationIcon entityId [^2]
 **base**| [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)|  Summary View of the Application Icon, represents the metadata of the ApplicationIcon.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

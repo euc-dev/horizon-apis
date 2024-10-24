@@ -33,21 +33,9 @@ Name |  Type |  Description
 ---|---|---
 **enrollmentServer**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  The id of the enrollment server.
 **dnsName**|  xsd:string|  The DNS name of the enrollment server.
-**state**|  xsd:string|  The state of the enrollment server health.
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Enrollment server is green.
-"ERROR"| Enrollment server is red.
-**stateReasons**|  xsd:string[]|  Reasons for the state, if any. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"UNREACHABLE_ON_POD"| Error: The enrollment server cannot be contacted by the pod.
-"UNREACHABLE_ON_LOCAL_BROKER"| Error: The enrollment server cannot be contacted by the local broker.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**state**|  xsd:string|  The state of the enrollment server health.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Enrollment server is green.</td></tr><tr><td>"ERROR"</td><td>Enrollment server is red.</td></tr></table>
+**stateReasons**|  xsd:string[]|  Reasons for the state, if any. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNREACHABLE_ON_POD"</td><td>Error: The enrollment server cannot be contacted by the pod.</td></tr><tr><td>"UNREACHABLE_ON_LOCAL_BROKER"</td><td>Error: The enrollment server cannot be contacted by the local broker.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

@@ -254,10 +254,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CertificateSSOConnector](vdi.infrastructure.CertificateSSOConnector.md) used to make the method call.
 **id**| [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)|  The ID of the connector to update.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^246]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^246]
 
 
 

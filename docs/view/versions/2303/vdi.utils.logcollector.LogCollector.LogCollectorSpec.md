@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **logCollectorComponentId**| [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)|  Represents a log component ID
 **logCollectorFilter**| [LogCollectorFilter](vdi.utils.logcollector.LogCollector.LogCollectorFilter.md)|  Defines what level of information to be collected. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

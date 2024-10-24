@@ -41,9 +41,7 @@ Name |  Type |  Description
 **enableCollaboration**|  xsd:boolean|  Enable session collaboration feature. Session collaboration allows a user to share their remote session with other users. Blast must be configured as a supported protocol in #supportedDisplayProtocols.  **_Since_** Horizon 7.4 [^5] [^1]
 **enableGRIDvGPUs**|  xsd:boolean|  If this is true, the host or cluster associated with the farm must support NVIDIA GRID and vGPU types required by the RDSH desktop virtualMachines, VmTemplate, or BaseImageSnapshot. If this is false, RDSH instant clone farm must not support NVIDIA GRID vGPUs.  **_Since_** Horizon 7.4 [^5] [^1] [^2]
 **vGPUGridProfile**|  xsd:string|  NVIDIA GRID vGPUs have multiple profiles and any one of the available profiles can be applied to newly created instant clone RDSH desktop. The profile specified in this field will be used in the newly created instant clone RDSH server.  **_Since_** Horizon 7.4 [^1] [^2] [^112]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

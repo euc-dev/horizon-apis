@@ -35,9 +35,7 @@ Name |  Type |  Description
 **radiusAuthenticator**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The RADIUS Authenticator to use. [^1] [^250]
 **radiusNameMapping**|  xsd:boolean|  Flag to specify if RADIUS name mapping is enabled. [^1]
 **radiusSSO**|  xsd:boolean|  Flag to specify if RADIUS Windows Single Sign-On is enabled. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -37,9 +37,7 @@ Name |  Type |  Description
 "PAIRED_AND_SECURED"| Agent is paired and secured with a Connection Server.
 **configuredByBroker**|  xsd:string|  Name of the connection server the agent is paired with. [^1]
 **attemptedTheftByBroker**|  xsd:string|  Name of the connection server that attempted theft of pairing for this Agent. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

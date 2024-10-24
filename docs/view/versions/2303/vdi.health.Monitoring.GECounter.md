@@ -28,9 +28,7 @@ Name |  Type |  Description
 **localCapacity**|  xsd:int|  Total of number of machines in each local desktop(s) belonging to the global entitlement. [^2]
 **localOccupancy**|  xsd:int|  Represents the occupied local desktop(s) belonging to the global entitlement. [^241] [^242] [^2]
 **localConnectedSessions**|  xsd:int|  Represents the number of connected sessions in local desktop(s) belonging to the global entitlement. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

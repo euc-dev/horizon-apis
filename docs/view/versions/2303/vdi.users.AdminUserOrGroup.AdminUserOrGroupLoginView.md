@@ -36,9 +36,7 @@ Name |  Type |  Description
 **globalPrivilegesInfo**| [GlobalAdminUserOrGroupPrivilegesInfo[]](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md)|  Set of privileges information based on Global Access Groups for this user or group.  **_Since_** Horizon 8.2 [^1]
 **helpdeskAdmin**|  xsd:boolean|  Indicates if the administrator is a Helpdesk administrator. This will be set to true if: [^220]
 **_Since_** Horizon 7.11 [^5]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

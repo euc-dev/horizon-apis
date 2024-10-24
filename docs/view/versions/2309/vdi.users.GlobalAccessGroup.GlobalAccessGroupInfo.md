@@ -35,9 +35,7 @@ Name |  Type |  Description
 **base**| [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md)|  Base data used for global access group creation. [^2]
 **data**| [GlobalAccessGroupData](vdi.users.GlobalAccessGroup.GlobalAccessGroupData.md)|  Readonly data about this global access group. [^2]
 **refId**|  xsd:string|  Reference ID used for this global access group.  **_Since_** Horizon 8.3 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

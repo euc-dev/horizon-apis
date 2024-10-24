@@ -147,10 +147,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Pod](vdi.federation.Pod.md) used to make the method call.
 **id**| [PodId](vdi.entity.PodId.md)|  the id of the pod to be updated.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated. Only displayName and description are permitted for update.
-
- [^230]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated. Only displayName and description are permitted for update. [^230]
 
 
 

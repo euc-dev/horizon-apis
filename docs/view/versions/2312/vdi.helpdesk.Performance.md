@@ -207,10 +207,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Performance](vdi.helpdesk.Performance.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionID to get the process performance data for.
-
-**processFilter**| [ProcessFilter](vdi.helpdesk.Performance.ProcessFilter.md)|  A filter to filter the processes in remote virtual machine.
-
- [^135]
+**processFilter**| [ProcessFilter](vdi.helpdesk.Performance.ProcessFilter.md)|  A filter to filter the processes in remote virtual machine. [^135]
 
 
 

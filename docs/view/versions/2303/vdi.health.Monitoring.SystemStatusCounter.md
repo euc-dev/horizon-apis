@@ -36,9 +36,7 @@ Name |  Type |  Description
 **problemRDSHostsCount**|  xsd:int|  Number of RDS Hosts that are part of a farm and which are in any of the following [status](vdi.resources.RDSServer.RDSServerRuntimeData.md#status) states : AGENT_UNREACHABLE, AGENT_CONFIG_ERROR, UNKNOWN, ALREADY_USED, PROVISIONING_ERROR, ERROR and AGENT_ERR_PROTOCOL_FAILURE. [^1] [^2]
 **eventSeverityCounter**| [EventSeverityCounter](vdi.health.Monitoring.EventSeverityCounter.md)|  Event severity counter. This will be unset if Event database is not configured in the Pod. [^1] [^2]
 **healthCounter**| [HealthCounter](vdi.health.Monitoring.HealthCounter.md)|  The health status information. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

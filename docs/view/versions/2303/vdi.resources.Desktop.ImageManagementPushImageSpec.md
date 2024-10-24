@@ -34,9 +34,7 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  New image management stream for the desktop.
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  New image management tag for the desktop. This tag must be within the stream [imageManagementStream](vdi.resources.Desktop.ImageManagementPushImageSpec.md#imageManagementStream).
 **settings**| [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md)|  Settings for the Push Image operation.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

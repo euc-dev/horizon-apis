@@ -32,18 +32,10 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **endpointInfo**| [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md)|  The PodEndpointInfo [^2]
-**state**|  xsd:string|  Health state of this PodEndpoint [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"ONLINE"| PodEndpoint is online and functional.
-"UNCHECKED"| PodEndpoint was offline and it just came back online but the system has not verified that it is functional.
-"OFFLINE"| PodEndpoint is offline or unreachable.
+**state**|  xsd:string|  Health state of this PodEndpoint [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"ONLINE"</td><td>PodEndpoint is online and functional.</td></tr><tr><td>"UNCHECKED"</td><td>PodEndpoint was offline and it just came back online but the system has not verified that it is functional.</td></tr><tr><td>"OFFLINE"</td><td>PodEndpoint is offline or unreachable.</td></tr></table>
 **roundTripTime**|  xsd:long|  Round trip time (in milliseconds) for ping request between the local podEndpoint and the remote pod. [^1] [^2]
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

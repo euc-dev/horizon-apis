@@ -41,9 +41,7 @@ Name |  Type |  Description
 **message**|  xsd:string|  The result message [^2]
 **messageId**|  xsd:string|  The result message ID. [^2]
 **messageValues**| [MapEntry[]](vdi.util.MapEntry.md)|  The result message values. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

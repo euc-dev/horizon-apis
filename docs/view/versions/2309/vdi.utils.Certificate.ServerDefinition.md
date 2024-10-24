@@ -36,9 +36,7 @@ Name |  Type |  Description
 ---|---|---
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to a server
 **certificateThumbprint**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Certificate thumbprint and corresponding algorithm. If not specified, will assume the certificate has been accepted. If specified, will accept the certificate just for this operation. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -39,9 +39,7 @@ Name |  Type |  Description
 **capacityMB**|  xsd:long|  The capacity of the datastore in megabytes. [^1]
 **freeSpaceMB**|  xsd:long|  The free space on the datastore in megabytes. [^1]
 **url**|  xsd:string|  The unique locator for the datastore.  **_Since_** Horizon 7.7 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

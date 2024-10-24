@@ -90,9 +90,7 @@ This option is only valid for Automated Desktop.
 **cloudManaged**|  xsd:boolean|  Indicates whether this desktop is managed by Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]
 **cloudBrokered**|  xsd:boolean|  Indicates whether the desktop pool is brokered by cloud broker. This will be null for non-RDS Desktop pools.  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

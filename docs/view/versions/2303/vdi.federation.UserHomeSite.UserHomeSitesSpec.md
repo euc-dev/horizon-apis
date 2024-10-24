@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **allowUpdate**|  xsd:boolean|  determines whether the api can override an existing homesite. [^1]
 **bases**| [UserHomeSiteBase[]](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  List of Base data for user home site configuration.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

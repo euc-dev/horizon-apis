@@ -42,9 +42,7 @@ Name |  Type |  Description
 "WAIT_FOR_LOGOFF"| Wait for connected users to disconnect before the task starts. The operation starts immediately on machines without active sessions.
 **stopOnFirstError**|  xsd:boolean|  Indicates that the operation should stop on first error. [^6]
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  The machines to rebalance. These must be associated with the desktop. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service, but not the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

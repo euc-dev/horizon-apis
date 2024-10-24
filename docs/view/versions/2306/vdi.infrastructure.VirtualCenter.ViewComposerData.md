@@ -42,9 +42,7 @@ Name |  Type |  Description
 "STANDALONE"| Denotes when Virtual Center is paired with a standalone View Composer server.
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to the view composer server. [^1] [^179]
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  View composer certificate thumbprint. This is specified if an invalid certificate is overridden by the client. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **data**| [ApplicationData](vdi.resources.Application.ApplicationData.md)|  Application data slice
 **executionData**| [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)|  Application execution data slice
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

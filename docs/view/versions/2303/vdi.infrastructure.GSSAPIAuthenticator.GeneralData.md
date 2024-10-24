@@ -36,9 +36,7 @@ Name |  Type |  Description
 "DISABLED"| Do not use True SSO.
 "OPTIONAL"| If no SSO credentials are provided then use True SSO, otherwise use the supplied SSO credentials.
 "ENABLED"| Always use True SSO even if client supplied SSO credentials.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -41,9 +41,7 @@ Name |  Type |  Description
 **brokeringPod**| [PodId](vdi.entity.PodId.md)|  Pod Id of Pod where session was brokered. [^1]
 **pod**| [PodId](vdi.entity.PodId.md)|  Pod Id of Pod where session was established. [^1]
 **localReferenceData**| [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md)|  References to the local pod's object if this global session residing on the local pod. Unset if this session does not reside on the local pod. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 "UNLIMITED"| RDS Server has no limit on the number of supported sessions
 "LIMITED"| RDS Server has a limit on the number of supported sessions
 **maxSessions**|  xsd:int| [^1] [^8] [^9]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

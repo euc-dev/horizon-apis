@@ -36,9 +36,7 @@ Name |  Type |  Description
 ---|---|---
 **fault**| [MethodFault](vmodl.MethodFault.md)|  The error if the individual operation failed. [^1]
 **result**|  xsd:anyType|  The result (if any) of the function if the individual operation succeeded. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -35,9 +35,7 @@ Name |  Type |  Description
 **replicaDiskDatastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore to store replica disks for View Composer and Instant clone engine RDS Servers. Note(s) :- [^126] [^1] [^86]
 **useNativeSnapshots**|  xsd:boolean|  Native NFS Snapshots (VAAI - vStorage API for Array Integration) is a hardware feature of certain storage arrays. It uses native snapshotting technology to provide linked clone functionality. Only choose this option if you have appropriate hardware devices. All the selected OS disk datastores should support this. [^5]
 **spaceReclamationSettings**| [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md)|  Settings related to the Space Reclamation feature.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

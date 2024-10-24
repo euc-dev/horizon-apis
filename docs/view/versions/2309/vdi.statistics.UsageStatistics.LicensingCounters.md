@@ -37,9 +37,7 @@ Name |  Type |  Description
 **concurrentApplicationSessions**|  xsd:int|  The number of concurrent application sessions. [^2]
 **concurrentCollaborativeSessions**|  xsd:int|  The number of sessions where a session owner has invited one or more users for session collaboration. [^2]
 **totalCollaborators**|  xsd:int|  The total number of users that are connected to a collaborative session, including the session owner and any collaborators. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

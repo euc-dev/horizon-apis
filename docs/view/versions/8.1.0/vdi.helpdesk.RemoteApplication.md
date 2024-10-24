@@ -55,7 +55,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RemoteApplication](vdi.helpdesk.RemoteApplication.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  ID of the session which contains the application to be terminated.
-
 **applicationId**|  xsd:string|  ID of a remote application.
 
 

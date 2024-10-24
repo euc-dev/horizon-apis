@@ -40,9 +40,7 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image Management Stream to be used in Farm creation when Image Management feature is enabled. This is applicable for Instant clone Farms only. This is required when [parentVm](vdi.resources.Farm.VirtualCenterProvisioningData.md#parentVm) and [snapshot](vdi.resources.Farm.VirtualCenterProvisioningData.md#snapshot) are unset.  **_Since_** Horizon 7.10 [^1]
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Image Management Tag associated with the selected image management stream to be used in Farm creation when Image Management feature is enabled. This is applicable for Instant clone Farms only. This is required when [imageManagementStream](vdi.resources.Farm.VirtualCenterProvisioningData.md#imageManagementStream) is set.  **_Since_** Horizon 7.10 [^1]
 **computeProfile**| [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

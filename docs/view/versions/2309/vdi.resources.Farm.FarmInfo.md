@@ -54,9 +54,7 @@ This option is only valid for Automated Farm.
 **data**| [FarmData](vdi.resources.Farm.FarmData.md)|  Farm data
 **automatedFarmData**| [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md)|  Automated farm data.  **_Since_** Horizon View 6.2 [^1] [^29]
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

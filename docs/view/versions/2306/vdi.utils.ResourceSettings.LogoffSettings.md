@@ -31,9 +31,7 @@ Name |  Type |  Description
 **forcedLogoffTimeoutMinutes**|  xsd:int|  The number of minutes to wait after the warning is displayed and before logging off the user. [^164] [^2]
 **forcedLogoffMessage**|  xsd:string|  The warning to be displayed before logging off the user. [^1] [^2]
 **displayWarningBeforeForcedLogoff**|  xsd:boolean|  Displays a warning message when users are forced to log off because a scheduled or immediate update such as a machine-refresh operation is about to start.  **_Since_** Horizon 7.7 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

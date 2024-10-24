@@ -33,9 +33,7 @@ Name |  Type |  Description
 **clearNodeSecret**|  xsd:boolean|  When set to 1 the SecurID Node Secret is cleared [^1]
 **securityFileData**|  xsd:base64Binary|  Binary contents of the SecurID sdconf.rec file [^1]
 **securityFileUploaded**|  xsd:boolean|  If SecurID sdconf.rec file is already uploaded. The client can never download the file. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

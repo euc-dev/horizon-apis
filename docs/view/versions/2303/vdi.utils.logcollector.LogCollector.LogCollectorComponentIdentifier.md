@@ -44,9 +44,7 @@ Name |  Type |  Description
 **csId**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Identifier of a connection server. [^1] [^154]
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  Identifier of a desktop pool machine.  **_Since_** Horizon 7.12 [^1] [^202]
 **rdsServerId**| [RDSServerId](vdi.entity.RDSServerId.md)|  Identifier of a remote desktop services server.  **_Since_** Horizon 7.12 [^1] [^156]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -37,9 +37,7 @@ Name |  Type |  Description
 **virtualCenterProvisioningData**| [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md)|  Virtual center entities used for provisioning.
 **virtualCenterStorageSettings**| [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md)|  Virtual Center storage settings.
 **virtualCenterNetworkingSettings**| [FarmVirtualCenterNetworkingSettings](vdi.resources.Farm.VirtualCenterNetworkingSettings.md)|  Virtual Center networking settings.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

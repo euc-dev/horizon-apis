@@ -35,13 +35,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  The ID for this security server.
 **name**|  xsd:string|  The name of this security server.
-**status**|  xsd:string|  The status of this security server.  **_Since_** Horizon 7.0
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| The connection to the security server is working properly.
-"NOT_RESPONDING"| The security server is not responding.
-"UNKNOWN"| The status of the security server is not known.
+**status**|  xsd:string|  The status of this security server.  **_Since_** Horizon 7.0<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>The connection to the security server is working properly.</td></tr><tr><td>"NOT_RESPONDING"</td><td>The security server is not responding.</td></tr><tr><td>"UNKNOWN"</td><td>The status of the security server is not known.</td></tr></table>
 **version**|  xsd:string|  The version of the Security Server.
 **build**|  xsd:string|  Build number of the security server.
 **connectionData**| [SecurityServerHealthConnectionData](vdi.health.SecurityServerHealth.ConnectionData.md)|  The connection data for this security server.
@@ -49,9 +43,7 @@ Name |  Type |  Description
 **certificateHealth**| [CertificateHealthData](vdi.health.CertificateHealthData.md)|  The certificate data for this security server.
 **ipSecStatus**|  xsd:string|  The status of the IPSec connection to the Connection Server.
 **pcoipControllerStatus**|  xsd:string|  The PCoIP controller status of this security server.  **_Since_** Horizon 7.0
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

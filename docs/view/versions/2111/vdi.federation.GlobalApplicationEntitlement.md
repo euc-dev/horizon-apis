@@ -274,10 +274,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalApplicationEntitlement](vdi.federation.GlobalApplicationEntitlement.md) used to make the method call.
 **id**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  unique identifier for Global Application Entitlement to be updated
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^228]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^228]
 
 
 

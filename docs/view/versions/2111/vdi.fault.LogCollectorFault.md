@@ -57,18 +57,7 @@ Name |  Type |  Description
 "NO_RESPONSE"| No response received for log level operations.
 **logCollectorTaskId**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)| [^1]
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)| [^1]
-**logCollectorTaskState**|  xsd:string| [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"IDLE"| Log Collection task is in IDLE state.
-"COLLECT"| Log Collection task has started collecting logs bundle.
-"COLLECT_COMPLETE"| Log collection task has completed collection of logs bundle.
-"PURGE_COMPLETE"| Log collection task has completed purge operation.
-"PURGE"| Log collection task is in purge operation.
-"COLLECT_TIMED_OUT"| Log collection task has timed out and the process has been interrupted.
-"ERROR"| Log collection task has ended in error.
-"NON_RESPONSIVE"| In rare occasions, the log collection process becomes non-responsive. A connection server restart is required to remediate it.
+**logCollectorTaskState**|  xsd:string| [^1]<br>* This property will be one of:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>"IDLE"</td><td>Log Collection task is in IDLE state.</td></tr><tr><td>"COLLECT"</td><td>Log Collection task has started collecting logs bundle.</td></tr><tr><td>"COLLECT_COMPLETE"</td><td>Log collection task has completed collection of logs bundle.</td></tr><tr><td>"PURGE_COMPLETE"</td><td>Log collection task has completed purge operation.</td></tr><tr><td>"PURGE"</td><td>Log collection task is in purge operation.</td></tr><tr><td>"COLLECT_TIMED_OUT"</td><td>Log collection task has timed out and the process has been interrupted.</td></tr><tr><td>"ERROR"</td><td>Log collection task has ended in error.</td></tr><tr><td>"NON_RESPONSIVE"</td><td>In rare occasions, the log collection process becomes non-responsive. A connection server restart is required to remediate it.</td></tr></tbody></table>
 **logComponentIdentifier**| [EntityId](vdi.EntityId.md)| [^1]
 Properties inherited from [ViewServerFault](vdi.fault.ViewServerFault.md)
 [errorMessage](vdi.fault.ViewServerFault.md#errorMessage)

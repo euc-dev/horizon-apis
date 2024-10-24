@@ -32,9 +32,7 @@ Name |  Type |  Description
 **replicaFactor**|  xsd:int|  Multiplicative factor for replica disk that is needed to account for the extra copies that are created for VSAN. [^10] [^1] [^2]
 **userDataFactor**|  xsd:int|  Multiplicative factor for user data disk that is needed to account for the extra copies that are created for VSAN. [^10] [^1] [^2]
 **fullCloneFactor**|  xsd:int|  Multiplicative factor for full clone disk that is needed to account for the extra copies that are created for VSAN. [^10] [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

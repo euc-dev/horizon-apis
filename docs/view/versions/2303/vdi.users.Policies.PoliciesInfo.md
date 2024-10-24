@@ -37,9 +37,7 @@ Name |  Type |  Description
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group which may have some set of overrides applied to it. If the userId is specified, the resourceId must be specified as well. Note that is is possible for a resource to have no overrides, but a user or group for that resource may have overrides. [^1]
 **userPolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  User policies object. Describes policies for the given user or group Id. [^1]
 **effectivePolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Effective policies object. The result of applying any resource or user overrides (if present) to the global policies. Will always be set.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

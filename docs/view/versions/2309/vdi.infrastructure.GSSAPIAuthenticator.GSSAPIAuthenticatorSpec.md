@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **general**| [GSSAPIAuthenticatorGeneralData](vdi.infrastructure.GSSAPIAuthenticator.GeneralData.md)|  General data on the GSSAPI Authenticator.
 **connectionServers**| [ConnectionServerId[]](vdi.entity.ConnectionServerId.md)|  The list of Connection Servers for which this GSSAPI authenticator is enabled. [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

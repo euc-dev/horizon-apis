@@ -72,9 +72,7 @@ Note: The supported feature list is subject to change as and when new features g
 "DEBUG"| Represents DEBUG log level.
 "TRACE"| Represents TRACE log level.
 "VERBOSE"| Represents VERBOSE log level.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

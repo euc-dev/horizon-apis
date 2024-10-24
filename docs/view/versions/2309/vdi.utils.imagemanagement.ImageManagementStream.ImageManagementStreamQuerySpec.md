@@ -56,9 +56,7 @@ This option is only valid for Automated Desktop.
 "DESKTOP"| Denotes the Desktop Pool.
 "FARM"| Denotes the Farm.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Entity id of virtual center. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

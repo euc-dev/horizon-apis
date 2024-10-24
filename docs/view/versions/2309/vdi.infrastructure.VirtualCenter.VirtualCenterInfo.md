@@ -59,9 +59,7 @@ Name |  Type |  Description
 "GOOGLE"| Denotes Horizon is deployed on Google Cloud.
 "ORACLE"| Denotes Horizon is deployed on Oracle Cloud.
 **refId**|  xsd:string|  Reference ID used for this Virtual Center.  **_Since_** Horizon 8.11 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

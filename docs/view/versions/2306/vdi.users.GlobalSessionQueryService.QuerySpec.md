@@ -51,9 +51,7 @@ Either [globalEntitlement](vdi.users.GlobalSessionQueryService.QuerySpec.md#glob
 **sortBy**|  xsd:string|  sortBy Member name to sort results by. [^1]
 **sortDescending**|  xsd:boolean|  sortDescending Sort order: false (ascending) by default. [^1]
 **maxPageSize**|  xsd:int|  maxPageSize Maximum page size to return (the server may use a smaller size). [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

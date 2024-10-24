@@ -32,9 +32,7 @@ Name |  Type |  Description
 **bytesReceived**|  xsd:long|  The number of bytes of imaging data that have been received. [^1] [^2]
 **bytesTransmitted**|  xsd:long|  The number of bytes of imaging data that have been transmitted. [^1] [^2]
 **encoderType**|  xsd:string|  The codec value for BlastPerformanceData  **_Since_** Horizon 8.7 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

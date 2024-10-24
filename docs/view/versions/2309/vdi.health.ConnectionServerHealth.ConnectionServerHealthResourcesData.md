@@ -30,9 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **cpuUsagePercentage**|  xsd:int|  Percentage of the CPU being used. [^1]
 **memoryUsagePercentage**|  xsd:int|  Percentage of the memory being used. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

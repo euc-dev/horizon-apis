@@ -46,9 +46,7 @@ Name |  Type |  Description
 "Linux Server (other)"| Linux server (other)
 **farm**| [FarmId](vdi.entity.FarmId.md)|  If specified, will add the machine to the specified Farm. [^1]
 **source**|  xsd:string|  An optional string that describes how and why this machine was registered. This will appear in the agent logs. [^1] [^7]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -34,9 +34,7 @@ Name |  Type |  Description
 **gssAPIEnabled**|  xsd:boolean|  Flag to specify if GSSAPI authentication is enabled.
 **allowReceivingNTLM**|  xsd:boolean|  Indicate whether connection server supports NTLM or not. [^5] [^2]
 **gssAPIAuthenticator**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The GSSAPI Authenticator to use. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

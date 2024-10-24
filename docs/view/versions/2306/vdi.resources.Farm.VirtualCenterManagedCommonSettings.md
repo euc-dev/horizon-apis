@@ -36,9 +36,7 @@ Name |  Type |  Description
 "FARM"| Inter-VM page sharing among VMs belonging to the same Automated Farm is permitted.
 "POD"| Inter-VM page sharing among VMs belonging to the same Pod is permitted.
 "GLOBAL"| Inter-VM page sharing among all VMs on the same host is permitted.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -28,15 +28,8 @@ The filter for processes
 Properties
 Name |  Type |  Description
 ---|---|---
-**processSessionFilter**|  xsd:string|  Filter process by process session info [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"CURRENT_USER_SESSION"| The processes which run in the current user session
-"SYSTEM_AND_CURRENT_USER_SESSION"| The union of the system processes and current user session processes.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**processSessionFilter**|  xsd:string|  Filter process by process session info [^1] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CURRENT_USER_SESSION"</td><td>The processes which run in the current user session</td></tr><tr><td>"SYSTEM_AND_CURRENT_USER_SESSION"</td><td>The union of the system processes and current user session processes.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

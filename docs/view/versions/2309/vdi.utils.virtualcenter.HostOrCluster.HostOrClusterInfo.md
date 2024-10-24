@@ -43,9 +43,7 @@ Name |  Type |  Description
 **vGPUTypes**|  xsd:string[]|  Types of NVIDIA GRID vGPUs supported by this host or at least one host on this cluster. If unset, this host or cluster does not support NVIDIA GRID vGPUs and cannot be used for desktop creation with NVIDIA GRID vGPU support enabled.  **_Since_** Horizon View 6.1 [^1] [^14] [^2]
 **incompatibleReasons**| [HostOrClusterIncompatibleReasons](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterIncompatibleReasons.md)|  Reasons that may preclude this HostOrCluster from being used in desktop creation. [^2]
 **refId**|  xsd:string|  Reference ID used for this host or cluster.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

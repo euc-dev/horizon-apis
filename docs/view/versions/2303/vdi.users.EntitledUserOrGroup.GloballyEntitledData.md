@@ -39,9 +39,7 @@ Name |  Type |  Description
 **podAssignments**| [PodAssignmentId[]](vdi.entity.PodAssignmentId.md)|  Pod assignments per global entitlement, if any, for this user or group. If this is a group, this will be null. [^1]
 **urlRedirectionSettings**| [URLRedirectionId[]](vdi.entity.URLRedirectionId.md)|  Global URL Redirection settings associated with user or group.  **_Since_** Horizon 7.0.2 [^1] [^14]
 **urlRedirectionUserEntitlements**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  Global URLRedirection user entitlements for this user or group. The array index will correspond to the same urlRedirection entitlement as the URLRedirectionId array.  **_Since_** Horizon 7.0.2 [^1] [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

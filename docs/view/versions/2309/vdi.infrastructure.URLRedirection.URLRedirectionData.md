@@ -44,9 +44,7 @@ Name |  Type |  Description
 **globalURLSchemeAndHandlers**| [GlobalURLRedirectionSchemeHandler[]](vdi.infrastructure.URLRedirection.GlobalURLSchemeAndHandler.md)|  URL Scheme and Global resource (GE or GAE) mappings.  **_Since_** Horizon 7.0.2 [^1] [^14]
 **urlAgentPatterns**|  xsd:string[]|  List of URL patterns/Regular expression that must be opened on Agent machine. [^1] [^14]
 **urlClientPatterns**|  xsd:string[]|  List of URL patterns/Regular expression that must be opened on client machine. [^1] [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

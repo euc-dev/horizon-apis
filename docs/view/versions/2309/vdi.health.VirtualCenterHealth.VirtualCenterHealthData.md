@@ -36,9 +36,7 @@ Name |  Type |  Description
 **viewComposerConfigured**|  xsd:boolean| **Deprecated.**_This property is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ Whether view composer is added or not.  **_Since_** Horizon 7.10 [^5]
 **numDesktops**|  xsd:int|  Number of Desktops managed by the virtual center.  **_Since_** Horizon 7.10 [^1]
 **numMachines**|  xsd:int|  Number of Machines managed by the virtual center.  **_Since_** Horizon 7.10 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -28,17 +28,7 @@ The EventSettings object.
 Properties
 Name |  Type |  Description
 ---|---|---
-**showEventsForTime**|  xsd:string|  Events will be shown in View Administrator for a time based on the value. Value is interpreted as longevity settings in EventsDatabase.EventLongevity
-* This property will be one of:
-|  Value |  Description
----|---
-"ONE_WEEK"| One week
-"TWO_WEEKS"| Two weeks
-"THREE_WEEKS"| Three weeks
-"ONE_MONTH"| One month
-"TWO_MONTHS"| Two months
-"THREE_MONTHS"| Three months
-"SIX_MONTHS"| Six months
+**showEventsForTime**|  xsd:string|  Events will be shown in View Administrator for a time based on the value. Value is interpreted as longevity settings in EventsDatabase.EventLongevity<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"ONE_WEEK"</td><td>One week</td></tr><tr><td>"TWO_WEEKS"</td><td>Two weeks</td></tr><tr><td>"THREE_WEEKS"</td><td>Three weeks</td></tr><tr><td>"ONE_MONTH"</td><td>One month</td></tr><tr><td>"TWO_MONTHS"</td><td>Two months</td></tr><tr><td>"THREE_MONTHS"</td><td>Three months</td></tr><tr><td>"SIX_MONTHS"</td><td>Six months</td></tr></table>
 **classifyEventsAsNewForDays**|  xsd:int|  Events will be marked as new for a time based on the value. Must be between 1 and 3 days. [^8] [^260]
 **adminEventsCount**|  xsd:int|  Number of events administrator can see in admin console.  **_Since_** Horizon 7.9 [^261] [^1] [^8]
 

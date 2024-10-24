@@ -32,9 +32,7 @@ Name |  Type |  Description
 **folderPath**|  xsd:string|  Storage folder path that will used to store and refresh the CRLs. [^1]
 **refreshPeriodMinutes**|  xsd:int|  Time Interval (in minutes) to refresh CRLs. [^269] [^1] [^8]
 **fileMaxSizeKb**|  xsd:int|  Maximum allowed size for CRL file (in kb). [^176] [^1] [^72]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

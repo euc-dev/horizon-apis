@@ -36,9 +36,7 @@ Name |  Type |  Description
 **password**| [SecureString](vdi.util.SecureString.md)|  The password.
 **protectedPasswordKey**|  xsd:string|  Decryption key for the password. This key is itself encrypted with cluster's SSO keypair. Pls note that if this key is specified, it means password is sent in encrypted form else it is in plain text.  **_Since_** Horizon 7.11 [^1]
 **keyId**|  xsd:string|  The keyId of the cluster's SSO KeyPair used to encrypt the [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#protectedPasswordKey). Pls note that this is required if [protectedPasswordKey](vdi.users.ADUserOrGroup.ADUserCredentialSpec.md#protectedPasswordKey) is specified.  **_Since_** Horizon 7.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

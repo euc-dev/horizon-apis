@@ -44,9 +44,7 @@ Name |  Type |  Description
 **serverErrorThreshold**|  xsd:int|  The minimum number of machines that must be fully operational in order to avoid showing the farm in an error state [^19] [^1] [^72]
 **mirageConfigurationOverrides**| [FarmMirageConfigurationOverrides](vdi.resources.Farm.MirageConfigurationOverrides.md)|  The Mirage configuration overrides for this Farm. [^1]
 **appVolumesManagerGuid**|  xsd:string|  Guid of app volumes manager associated with the farm.  **_Since_** Horizon 8.8 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

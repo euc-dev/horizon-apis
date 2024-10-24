@@ -32,9 +32,7 @@ Name |  Type |  Description
 **problemCount**| [ProblemMachineCount](vdi.resources.Machine.ProblemMachineCount.md)|  Counts of the machines which are in problem state. [^2]
 **underConstructionCount**| [UnderConstructionMachineCount](vdi.resources.Machine.UnderConstructionMachineCount.md)|  Counts of the machines which are in under construction state. [^2]
 **preparedCount**| [PreparedMachineCount](vdi.resources.Machine.PreparedMachineCount.md)|  Counts of the machines which are in prepared state. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

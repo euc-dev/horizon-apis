@@ -37,9 +37,7 @@ Name |  Type |  Description
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group for the newly imported virtual disk.
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop to associate this persistent disk with. [^1]
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user who owns the persistent disk. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

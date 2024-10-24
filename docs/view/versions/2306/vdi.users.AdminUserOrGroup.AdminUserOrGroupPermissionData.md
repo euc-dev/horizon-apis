@@ -32,9 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (roles and access groups) for this user or group. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

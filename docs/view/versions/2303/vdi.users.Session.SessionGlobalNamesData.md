@@ -37,9 +37,7 @@ Name |  Type |  Description
 **siteName**|  xsd:string|  Site for this session. [^1]
 **brokeringPodName**|  xsd:string|  Brokering Pod for this session. [^1]
 **podName**|  xsd:string|  Pod for this session. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

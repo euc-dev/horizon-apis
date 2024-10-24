@@ -53,9 +53,7 @@ Name |  Type |  Description
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group, from a global cache. [^2]
 **globalData**| [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md)|  Global entitlement data. [^2]
 **sessionData**| [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md)|  Data relevant to sessions for this user or group. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

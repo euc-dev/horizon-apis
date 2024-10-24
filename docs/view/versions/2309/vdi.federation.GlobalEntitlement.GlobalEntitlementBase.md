@@ -37,49 +37,18 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  The display name is the unique name used to identify the Global Entitlement. [^128]
 **aliasName**|  xsd:string|  The alias name is the name that users will see when they connect using Horizon View Client. If the alias name is left blank, while creating or updating the Global Entitlement alias name value will be same as display name.  **_Since_** Horizon 8.0 [^1] [^128]
 **description**|  xsd:string|  Description of Global Entitlement. [^1] [^13]
-**scope**|  xsd:string|  Scope for this global entitlement. Visibility and Placement policies are defined by this value. [^129] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"LOCAL"| Local Policy: Local pod will be used for this policy.
-If this policy is for visibility, search for existing session will happen only in local pod.
-If this policy is for placement, session will always be placed on local pod.
-"SITE"| Site Policy: Site will be used for this policy.
-If this policy is for visibility, search for existing session will happen only from site.
-If this policy is for placement, session will be placed on site.
-"ANY"| Any Policy: Any pod can be used for this action.
-If this policy is for visibility, search for existing session will span all pods in LMV set.
-If this policy is for placement, session can be placed on any pod in LMV set.
-**sessionDistributionPolicy**|  xsd:string|  Session distribution policy for this global entitlement  **_Since_** Horizon 8.10 [^130] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"NONE"| Default load distribution to find the nearest resource based on home-site and connecting pod/site. If not found, find from any random pod.
-"SESSION"| Session count based load distribution.
-"LOAD"| Load index based load distribution.
+**scope**|  xsd:string|  Scope for this global entitlement. Visibility and Placement policies are defined by this value. [^129] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"LOCAL"</td><td>Local Policy: Local pod will be used for this policy. If this policy is for visibility, search for existing session will happen only in local pod. If this policy is for placement, session will always be placed on local pod.</td></tr><tr><td>"SITE"</td><td>Site Policy: Site will be used for this policy. If this policy is for visibility, search for existing session will happen only from site. If this policy is for placement, session will be placed on site.</td></tr><tr><td>"ANY"</td><td>Any Policy: Any pod can be used for this action. If this policy is for visibility, search for existing session will span all pods in LMV set. If this policy is for placement, session can be placed on any pod in LMV set.</td></tr></table>
+**sessionDistributionPolicy**|  xsd:string|  Session distribution policy for this global entitlement  **_Since_** Horizon 8.10 [^130] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"NONE"</td><td>Default load distribution to find the nearest resource based on home-site and connecting pod/site. If not found, find from any random pod.</td></tr><tr><td>"SESSION"</td><td>Session count based load distribution.</td></tr><tr><td>"LOAD"</td><td>Load index based load distribution.</td></tr></table>
 **dedicated**|  xsd:boolean|  If this is a dedicated entitlement. If so, only dedicated desktops can be associated with this Global Entitlement. Otherwise, only floating desktops, can be associated with it. Can only be set at time of creation. [^2]
 **fromHome**|  xsd:boolean|  This value defines the starting location for resource placement and search. When true, a pod in the user's home site is used to start the search. When false, the current site is used.
 **requireHomeSite**|  xsd:boolean|  This value determines whether we fail if a home site isn't defined for this Global Entitlement.
 **multipleSessionAutoClean**|  xsd:boolean|  This value is used to determine if automatic session clean up is enabled. This cannot be enabled when this Global Entitlement is associated with a Desktop that has dedicated user assignment.
 **enabled**|  xsd:boolean|  If this Global Entitlement is enabled.
-**supportedDisplayProtocols**|  xsd:string[]|  The set of supported display protocols for the Global Entitlement. All the desktops associated with this Global Entitlement must support these protocols [supportedDisplayProtocols](vdi.resources.Desktop.DisplayProtocolSettings.md#supportedDisplayProtocols) . Clients connecting through this Global Entitlement that are allowed to select their protocol will see these display protocol options. [^30] [^1] [^14] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"RDP"| Microsoft Remote Desktop Protocol.
-"PCOIP"| PC over IP.
-"BLAST"| BLAST.
-**defaultDisplayProtocol**|  xsd:string|  The default display protocol for the Global Entitlement. Must be a protocol in the supportedDisplayProtocols list. Clients connecting through this Global Entitlement that do not specify a protocol will use this value, not the value specified directly on the desktop to which they connect (if different). [^111] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"RDP"| Microsoft Remote Desktop Protocol.
-"PCOIP"| PC over IP.
-"BLAST"| BLAST.
+**supportedDisplayProtocols**|  xsd:string[]|  The set of supported display protocols for the Global Entitlement. All the desktops associated with this Global Entitlement must support these protocols [supportedDisplayProtocols](vdi.resources.Desktop.DisplayProtocolSettings.md#supportedDisplayProtocols) . Clients connecting through this Global Entitlement that are allowed to select their protocol will see these display protocol options. [^30] [^1] [^14] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"RDP"</td><td>Microsoft Remote Desktop Protocol.</td></tr><tr><td>"PCOIP"</td><td>PC over IP.</td></tr><tr><td>"BLAST"</td><td>BLAST.</td></tr></table>
+**defaultDisplayProtocol**|  xsd:string|  The default display protocol for the Global Entitlement. Must be a protocol in the supportedDisplayProtocols list. Clients connecting through this Global Entitlement that do not specify a protocol will use this value, not the value specified directly on the desktop to which they connect (if different). [^111] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"RDP"</td><td>Microsoft Remote Desktop Protocol.</td></tr><tr><td>"PCOIP"</td><td>PC over IP.</td></tr><tr><td>"BLAST"</td><td>BLAST.</td></tr></table>
 **allowUsersToChooseProtocol**|  xsd:boolean|  Whether the users can choose the protocol used. If set to true, the desktops that are associated with this GlobalEntitlement must also allow users to choose display protocol with [allowUsersToChooseProtocol](vdi.resources.Desktop.DisplayProtocolSettings.md#allowUsersToChooseProtocol). [^6] [^1] [^2]
 **allowUsersToResetMachines**|  xsd:boolean|  Whether users are allowed to reset/restart their machines. If set to true, the desktops that are associated with this GlobalEntitlement must also allow users to reset/restart machines with [allowUsersToResetMachines](vdi.resources.Desktop.LogoffSettings.md#allowUsersToResetMachines). [^5] [^1] [^2]
-**enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. If set to true, the desktops that are associated with this GlobalEntitlement must also have HTML Access enabled with [enableHTMLAccess](vdi.resources.Desktop.DisplayProtocolSettings.md#enableHTMLAccess). Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#supportedDisplayProtocols).
-**_Since_** Horizon View 6.2 [^6] [^1]
+**enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. If set to true, the desktops that are associated with this GlobalEntitlement must also have HTML Access enabled with [enableHTMLAccess](vdi.resources.Desktop.DisplayProtocolSettings.md#enableHTMLAccess). Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#supportedDisplayProtocols). **_Since_** Horizon View 6.2 [^6] [^1]
 **allowMultipleSessionsPerUser**|  xsd:boolean|  Whether users can have multiple sessions when accessed from different client devices, this is also called Class room mode and applicable only to floating user assignment. If value is set to true, the desktops that are associated with this GlobalEntitlement must also allow users to have multiple sessions with [allowMultipleSessionsPerUser](vdi.resources.Desktop.LogoffSettings.md#allowMultipleSessionsPerUser) **_Since_** Horizon 7.1 [^5] [^1]
 **connectionServerRestrictions**|  xsd:string[]|  Connection server restrictions. This is a list of tags that access to the entitlement is restricted to. No list means that the entitlement can be accessed from any connection server.  **_Since_** Horizon 7.1 [^1]
 **categoryFolderName**|  xsd:string|  Name of the category folder in the user's OS containing a shortcut to the entitlement. Unset if the entitlement does not belong to a category.  **_Since_** Horizon 7.3 [^1] [^132]
@@ -91,9 +60,7 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 **displayAssignedMachineName**|  xsd:boolean|  Indicates whether users should see the hostname of the machine assigned to them instead of [displayName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayName) when they connect using View Client. This is applicable for dedicated Global Entitlements only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client.  **_Since_** Horizon 7.12 [^5] [^1]
 **displayMachineAlias**|  xsd:boolean|  Indicates whether users should see the machine alias of the machine assigned to them instead of [displayName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayName) when they connect using View Client. This is applicable for dedicated Global Entitlements only. If no machine is assigned to the user then "displayName (No machine assigned)" will be displayed in the client. If both [displayAssignedMachineName](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#displayAssignedMachineName) and this property is set to true, machine alias of the assigned machine is displayed if the user has machine alias set. Otherwise hostname will be displayed.  **_Since_** Horizon 7.13 [^5] [^1]
 **globalAccessGroupId**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  Global access groups can organize the global desktop entitlements in your organization. They can also be used for delegated administration.  **_Since_** Horizon 8.2 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

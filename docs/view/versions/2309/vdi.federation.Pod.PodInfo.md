@@ -42,9 +42,7 @@ Name |  Type |  Description
 **activeGlobalApplicationEntitlements**| [GlobalApplicationEntitlementId[]](vdi.entity.GlobalApplicationEntitlementId.md)|  The list of Global Application Entitlements with mappings to Applications in this pod. This list is maintained by the system and is not modifiable.  **_Since_** Horizon View 6.2 [^1] [^2]
 **cloudManaged**|  xsd:boolean|  Indicates whether this pod is managed from cloud.  **_Since_** Horizon 7.9 [^1]
 **refId**|  xsd:string|  Reference ID for this pod.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

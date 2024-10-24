@@ -40,9 +40,7 @@ Name |  Type |  Description
 **data**| [FarmData](vdi.resources.Farm.FarmData.md)|  Farm data
 **automatedFarmSpec**| [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md)|  Automated farm spec. [^1] [^29]
 **manualFarmSpec**| [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md)|  Manual Farm spec [^1] [^26]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

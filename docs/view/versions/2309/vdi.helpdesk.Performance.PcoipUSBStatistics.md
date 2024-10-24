@@ -32,9 +32,7 @@ Name |  Type |  Description
 **bytesSent**|  xsd:long|  Total number of bytes of USB data that have been transmitted since the PCoIP session started. [^1] [^2]
 **rxBandwidth**|  xsd:long|  Bandwidth for incoming USB packets averaged over the sampling period, in kilobits per second. [^1] [^2]
 **txBandwidth**|  xsd:long|  Bandwidth for outgoing USB packets averaged over the sampling period, in kilobits per second. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -35,9 +35,7 @@ Name |  Type |  Description
 **globalAccessGroupName**|  xsd:string|  The global access group name.
 **privileges**|  xsd:string[]|  The set of privileges on the current global access group. [^1]
 **children**| [GlobalAccessGroupSummaryView[]](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md)|  Child access groups associated with current global access group. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **executionData**| [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)|  Application execution data, fetched during app. discovery.
 **name**|  xsd:string|  Application name information, as sent by RDSServer during app. discovery. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -37,9 +37,7 @@ Name |  Type |  Description
 **selectivePushImage**|  xsd:boolean|  Set to true for selective push image. Indicates if the new image should be applied to a subset of the clones in the pool. The image published with this option, will be held as a pending image, unless it is either promoted or canceled.  **_Since_** Horizon 8.4 [^5] [^1]
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  The list of machines from the pool on which the new image is to be applied  **_Since_** Horizon 8.4 [^1]
 **computeProfile**| [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

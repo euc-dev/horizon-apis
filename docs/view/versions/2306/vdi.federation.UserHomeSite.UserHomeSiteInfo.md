@@ -48,9 +48,7 @@ Name |  Type |  Description
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  Id of the user home site configuration [^2]
 **base**| [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  Base data for user home site configuration.
 **refId**|  xsd:string|  Reference ID used for this user home site.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

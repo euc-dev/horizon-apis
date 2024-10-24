@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global entitlement for this desktop. This member will be null if not set or caller does not have global read permissions. [^1]
 **globalEntitlementName**|  xsd:string|  Name of global entitlement for this desktop pool. This member will be populated even if caller does not have global read permissions.  **_Since_** Horizon 8.2 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

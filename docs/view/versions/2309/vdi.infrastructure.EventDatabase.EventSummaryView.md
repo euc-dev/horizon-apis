@@ -62,9 +62,7 @@ Name |  Type |  Description
 **eventId**|  xsd:int|  ID of the event in Event Database.
 **data**| [EventData](vdi.infrastructure.EventDatabase.EventData.md)|  EventData Object that contains the attributes related to this event.
 **namesData**| [EventNamesData](vdi.infrastructure.EventDatabase.EventNamesData.md)|  EventNamesData object that contains the naming attributes related to this event.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

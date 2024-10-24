@@ -52,9 +52,7 @@ Name |  Type |  Description
 "lateBinding"| deprecated as of vSphere API 5.0 A free DistributedVirtualPort will be selected and assigned to a Virtual Machine when the Virtual Machine is powered on.
 **maxNumOfPort**|  xsd:int|  The total number of ports present.  **_Since_** Horizon 7.1 [^1] [^2]
 **availablePorts**|  xsd:int|  Available ports in network label.  **_Since_** Horizon 7.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

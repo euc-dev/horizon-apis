@@ -30,30 +30,13 @@ Name |  Type |  Description
 ---|---|---
 **serverName**|  xsd:string|  The name of the database server.
 **port**|  xsd:int|  The port of the database server
-**databaseType**|  xsd:string|  The type of the database.
-* This property will be one of:
-|  Value |  Description
----|---
-"ORACLE"| An Oracle database
-"SQLSERVER"| A SQL server database.
-"POSTGRESQL"| A PostgreSQL database
-"UNDEFINED"| An undefined database type.
+**databaseType**|  xsd:string|  The type of the database.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"ORACLE"</td><td>An Oracle database.</td></tr><tr><td>"SQLSERVER"</td><td>A SQL server database.</td></tr><tr><td>"POSTGRESQL"</td><td>A PostgreSQL database.</td></tr><tr><td>"UNDEFINED"</td><td>An undefined database type.</td></tr></table>
 **userName**|  xsd:string|  The username used to connect to the database
 **databaseName**|  xsd:string|  The name of the database.
 **tablePrefix**|  xsd:string|  The prefix of tables within the database.
-**state**|  xsd:string|  The state of the database connection.
-* This property will be one of:
-|  Value |  Description
----|---
-"CONNECTED"| The connection is connected to the database.
-"CONNECTING"| The connection is connecting to the database.
-"DISCONNECTED"| The connection is disconnected from the database.
-"RECONNECTING"| The connection is reconnecting to the database.
-"ERROR"| There is an error with the database connection.
+**state**|  xsd:string|  The state of the database connection.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONNECTED"</td><td>The connection is connected to the database.</td></tr><tr><td>"CONNECTING"</td><td>The connection is connecting to the database.</td></tr><tr><td>"DISCONNECTED"</td><td>The connection is disconnected from the database.</td></tr><tr><td>"RECONNECTING"</td><td>The connection is reconnecting to the database.</td></tr><tr><td>"ERROR"</td><td>There is an error with the database connection.</td></tr></table>
 **error**|  xsd:string|  Any error with the database connection. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

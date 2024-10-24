@@ -44,9 +44,7 @@ Name |  Type |  Description
 "FOLDER"| A folder container.
 "OTHER"| Some other container type.
 **children**| [HostOrClusterTreeNode[]](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md)|  Contents of the container. These may be hosts or clusters or further nested containers. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -50,9 +50,7 @@ Name |  Type |  Description
 "LOCAL_ADMIN"| Local Pod Administration role with full administrative rights
 "LOCAL_ADMIN_READ_ONLY"| Local Pod Administration role with full read-only administrative rights
 **appliesToGlobalAccessGroup**|  xsd:boolean|  Specifies whether global access group is applicable for this role. This will be true when the role contains atleast one of FEDEREATED_LDAP_MANAGE, FEDEREATED_LDAP_VIEW, FEDERATED_SESSIONS_MANAGE or FEDERATED_SESSIONS_VIEW privileges  **_Since_** Horizon 8.2 [^5] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

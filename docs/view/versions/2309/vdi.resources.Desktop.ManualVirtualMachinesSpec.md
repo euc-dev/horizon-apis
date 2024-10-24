@@ -30,9 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **machineName**|  xsd:string|  The virtual machine name.
 **userName**|  xsd:string|  The name of the user entitled to the VM, used only in case of persistent desktops. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

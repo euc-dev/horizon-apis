@@ -55,7 +55,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RemoteProcess](vdi.helpdesk.RemoteProcess.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  ID of the session which contains the process to be terminated.
-
 **process**| [RemoteProcessBase](vdi.helpdesk.RemoteProcess.RemoteProcessBase.md)|  An instance of RemoteProcessBase class. It contains remote process basic information which used to identify a remote process.
 
 

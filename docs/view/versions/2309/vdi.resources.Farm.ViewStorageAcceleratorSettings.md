@@ -32,9 +32,7 @@ Name |  Type |  Description
 This is applicable only to Instant Clone Engine sourced farms and should be true. For other farms this value is ignored.
 If true, VirtualCenter.StorageAcceleratorData#enabled must also be enabled.
 This value cannot be updated for Instant Clone Engine sourced farms. [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **userOrGroupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **data**| [GatewayAccessUserOrGroupData](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData.md)|  Gateway access user or group data.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

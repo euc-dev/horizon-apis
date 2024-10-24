@@ -45,9 +45,7 @@ This option is only valid for Automated Desktop.
 **virtualCenterProvisioningSettings**| [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md)|  Virtual Center provisioning settings for the automated desktop.
 **virtualCenterManagedCommonSettings**| [DesktopVirtualCenterManagedCommonSettings](vdi.resources.Desktop.VirtualCenterManagedCommonSettings.md)|  Common settings for Desktops managed by Virtual Center sources.  **_Since_** Horizon View 6.1
 **customizationSettings**| [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md)|  Customization settings.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

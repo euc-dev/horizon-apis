@@ -43,9 +43,7 @@ Name |  Type |  Description
 **primaryAccount**| [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md)|  Primary service account details. This property will set if domainType is set to "NO_TRUST_DOMAIN".  **_Since_** Horizon 8.1
 **auxiliaryAccounts**| [ServiceAccountCredentialsInfo[]](vdi.utils.ADDomain.ServiceAccountCredentialsInfo.md)|  Auxiliary service account details. This property will set if domainType is set to "NO_TRUST_DOMAIN".  **_Since_** Horizon 8.1 [^1] [^2]
 **adDomainAdvancedSettings**| [ADDomainAdvancedSettings](vdi.utils.ADDomain.ADDomainAdvancedSettings.md)|  Advanced information of No Trust domain. This property will set if domainType is set to "NO_TRUST_DOMAIN".  **_Since_** Horizon 8.1 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

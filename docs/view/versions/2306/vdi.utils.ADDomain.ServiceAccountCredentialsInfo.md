@@ -31,9 +31,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)|  The id of Service account credentials.
 **serviceAccountCredentials**| [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md)|  The service account credentials.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

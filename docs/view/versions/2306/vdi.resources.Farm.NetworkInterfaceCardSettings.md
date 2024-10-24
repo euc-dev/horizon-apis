@@ -36,9 +36,7 @@ Name |  Type |  Description
 If this is unset, the feature is disabled.
 Starting at the _alphabetically_ first network label spec in the list that has not yet been assigned its maximum count for this NIC on this VM, the VM will have its next provisioned machine's NIC assigned that label. If all network labels in this list have reached their maximum count, this VM will have further provisioned machines assigned the last label in the list over capacity, and an error will be logged. Not all labels need be configured.
 NOTE: Any changes to these settings will be applicable only to machines provisioned after the change. Already provisioned machines will never have their network label assignments altered by this feature. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

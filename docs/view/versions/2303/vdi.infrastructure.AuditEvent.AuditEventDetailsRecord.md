@@ -43,9 +43,7 @@ Name |  Type |  Description
 **remoteApplicationId**|  xsd:string|  Id of the remote application associated with this event. Will be unset if there is no application association for this event. [^1]
 **persistentDiskName**|  xsd:string|  Name of the Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event. [^1]
 **rdsServerId**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS Server associated with this event. Will be unset if there is no RDS server association for this event. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

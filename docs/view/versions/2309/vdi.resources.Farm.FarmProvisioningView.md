@@ -82,9 +82,7 @@ This option is only valid for Automated Farm.
 **base**| [FarmBase](vdi.resources.Farm.FarmBase.md)|  Farm identification information. [^2]
 **virtualCenterData**| [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)|  Paths for Virtual Center entities associated with this Farm. [^2]
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

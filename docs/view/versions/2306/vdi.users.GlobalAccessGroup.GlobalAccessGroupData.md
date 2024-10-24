@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and role) for this global access group. [^1]
 **isDeletable**|  xsd:boolean|  If true, the global access group can be deleted, else not. For root global access group, the value will always be false. [^5] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

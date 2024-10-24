@@ -42,9 +42,7 @@ Name |  Type |  Description
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk.
 **general**| [PersistentDiskGeneralData](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md)|  General information on the persistent disk.
 **storage**| [PersistentDiskStorageData](vdi.resources.PersistentDisk.PersistentDiskStorageData.md)|  Storage information on the persistent disk.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

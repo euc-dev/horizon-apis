@@ -218,15 +218,8 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 **remotePodAddress**|  xsd:string|  the ip address or url for the remote pod.
-
-**userName**|  xsd:string|  the user name with sufficient privilege to perform a global LDAP join against the remote pod. If the userName is not supplied, password field will be ignored. In that case, the remote server must be configured to grant sufficient privilege for the computer account for the local system.
-
- [^135]
-
-
-**password**| [SecureString](vdi.util.SecureString.md)|  the password for the user
-
- [^135]
+**userName**|  xsd:string|  the user name with sufficient privilege to perform a global LDAP join against the remote pod. If the userName is not supplied, password field will be ignored. In that case, the remote server must be configured to grant sufficient privilege for the computer account for the local system. [^135]
+**password**| [SecureString](vdi.util.SecureString.md)|  the password for the user [^135]
 
 
 
@@ -401,9 +394,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated. Only displayName is permitted for update.
-
- [^231]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated. Only displayName is permitted for update.[^231]
 
 
 

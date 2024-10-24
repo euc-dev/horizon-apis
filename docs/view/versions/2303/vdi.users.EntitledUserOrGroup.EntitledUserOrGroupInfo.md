@@ -36,9 +36,7 @@ Name |  Type |  Description
 **localData**| [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md)|  Data relevant to locally entitled users. If no local data exists or is not permitted, this will contain only null members. [^1] [^2]
 **sessionData**| [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md)|  Data relevant to sessions for this user or group. [^1] [^2]
 **globalData**| [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md)|  Data relevant to globally entitled users. If Multi-Data Center View is not enabled, this is null. If no global data exists or is not permitted, this will contain only null members. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

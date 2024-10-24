@@ -37,9 +37,7 @@ Name |  Type |  Description
 **version**|  xsd:string|  The version of the Virtual Center server. [^1] [^2]
 **hostSummaryStatistics**| [HostSummaryStatistics[]](vdi.statistics.VirtualCenterStatistics.HostSummaryStatistics.md)|  Statistics information about each host managed by the Virtual Center server. [^1] [^2]
 **dataStoreSummaryStatistics**| [DataStoreSummaryStatistics[]](vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics.md)|  Statistics information about each data store managed by the Virtual Center server. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

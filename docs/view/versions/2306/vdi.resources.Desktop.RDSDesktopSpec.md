@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm needed to create RDS Desktop. This Farm must not already be associated with another RDS desktop. [^2]
 **cloudBrokered**|  xsd:boolean|  Indicates whether the RDS Desktop pool is brokered by cloud broker.  **_Since_** Horizon 8.2 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

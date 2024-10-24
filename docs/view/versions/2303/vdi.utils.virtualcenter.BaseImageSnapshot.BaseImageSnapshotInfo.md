@@ -61,9 +61,7 @@ Name |  Type |  Description
 **carbonBlackScanPercentage**|  xsd:int|  Carbon Black scan completion percentage.  **_Since_** Horizon 8.4 [^1] [^2] [^72] [^115]
 **numCPU**|  xsd:int|  Number of CPU's present on the VM snapshot  **_Since_** Horizon 8.6 [^1]
 **numCoresPerSocket**|  xsd:int|  Number of cores per socket present on the VM snapshot  **_Since_** Horizon 8.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

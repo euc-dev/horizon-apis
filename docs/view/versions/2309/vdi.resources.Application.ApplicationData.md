@@ -57,9 +57,7 @@ Pattern strings may contain wildcard characters. '*' matches zero or more charac
 **cloudBrokered**|  xsd:boolean|  Indicates whether the application pool is brokered by cloud broker.  **_Since_** Horizon 8.2 [^5] [^1]
 **avApplicationPackageGuid**|  xsd:string|  Application package guid for the AV application. This will be set only for application pool published from app volumes manager.  **_Since_** Horizon 8.8 [^2]
 **appLaunchLimitEnabled**|  xsd:boolean|  Indicates whether launch limit is enabled for the application pool. Only one instance of the application can be launched if it is enabled.  **_Since_** Horizon 8.11 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

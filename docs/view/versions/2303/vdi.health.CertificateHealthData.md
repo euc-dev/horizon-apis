@@ -34,9 +34,7 @@ Name |  Type |  Description
 **invalidReason**|  xsd:string|  If the certificate is not valid, the reason why. [^1]
 **connectionServerCertificate**|  xsd:string|  Connection server certificate in PEM format.  **_Since_** Horizon 7.2 [^1]
 **ignoreSecureGatewayCertStatus**|  xsd:boolean|  If true, indicates that the certificate health of the Secure Gateway instances should be ignored when showing the overall health status of a connection server.  **_Since_** Horizon 7.10 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

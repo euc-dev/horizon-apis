@@ -37,9 +37,7 @@ Name |  Type |  Description
 **id**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  DatastorePath entityId [^2]
 **path**|  xsd:string|  Full path of Datastore [^2]
 **refId**|  xsd:string|  Reference ID used for this datastore path.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

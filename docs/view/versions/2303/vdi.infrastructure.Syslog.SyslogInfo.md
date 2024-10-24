@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **fileData**| [SyslogFileData](vdi.infrastructure.Syslog.FileData.md)|  File based logging data.
 **udpData**| [SyslogUDPData](vdi.infrastructure.Syslog.UDPData.md)|  UDP server based logging data.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

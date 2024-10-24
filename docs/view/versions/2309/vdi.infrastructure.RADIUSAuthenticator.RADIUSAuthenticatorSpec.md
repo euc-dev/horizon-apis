@@ -34,9 +34,7 @@ Name |  Type |  Description
 **general**| [RADIUSAuthenticatorGeneralData](vdi.infrastructure.RADIUSAuthenticator.GeneralData.md)|  General data on the RADIUS authenticator.
 **primaryServer**| [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)|  Information about the primary server for this RADIUS authenticator.
 **secondaryServer**| [RADIUSAuthenticatorServerSpec](vdi.infrastructure.RADIUSAuthenticator.ServerData.md)|  Information about the (optional) secondary server for this RADIUS authenticator. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

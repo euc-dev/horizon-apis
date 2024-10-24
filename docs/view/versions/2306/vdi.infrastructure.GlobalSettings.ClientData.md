@@ -43,9 +43,7 @@ Name |  Type |  Description
 **_Since_** Horizon 8.0 [^1] [^267]
 **blockSpecificVersions**|  xsd:string|  Restrict users when connecting with the Horizon client having version that matches any of the comma separated specified versions. This is applicable only for Horizon Clients 4.5.0 or later (or Horizon Client for Chrome 4.8.0 or later) [^264] [^265] [^266]
 **_Since_** Horizon 8.0 [^1] [^267]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

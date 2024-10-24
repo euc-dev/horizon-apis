@@ -52,9 +52,7 @@ Name |  Type |  Description
 "UHD"| 3840x2160
 "UHD_5K"| 5120x2880
 "UHD_8K"| 7680x4320
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

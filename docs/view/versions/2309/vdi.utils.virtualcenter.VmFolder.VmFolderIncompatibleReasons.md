@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **inUse**|  xsd:boolean|  Whether or not the VM folder is in use by another desktop. If true, this VM folder cannot be used in desktop creation. [^2]
 **viewComposerReplicaFolder**|  xsd:boolean|  Whether or not the VM folder currently holds View Composer or Instant Clone Engine replicas. If true, this VM folder cannot be used in linked or instant clone desktop creation. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

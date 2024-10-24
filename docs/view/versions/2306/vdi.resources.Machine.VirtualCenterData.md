@@ -54,9 +54,7 @@ Name |  Type |  Description
 **missingInVCenter**|  xsd:boolean|  While a machine is in a particular basic state, it can be subject to further conditions. This condition determines if the virtual machine is missing in vCenter Server. [^2]
 **inHoldCustomization**|  xsd:boolean|  While a machine is in a particular basic state, it can be subject to further conditions. This condition determines if this virtual machine should hold before customization is started. [^2]
 **networkLabels**| [MachineNetworkLabelData[]](vdi.resources.Machine.NetworkLabelData.md)|  The network label(s) associated with this Machine. The network label(s) automatically assigned by View to this Machine. These may differ from the actual labels if manually changed after automatic assignment or if there was an error in assignment. Labels are only assigned if the feature is enabled on this Machine's Desktop [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

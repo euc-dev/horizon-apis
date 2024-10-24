@@ -29,16 +29,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **serverName**|  xsd:string|  Replica Server name.
-**status**|  xsd:string|  Status of the server.
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| The connection to the connection server is working properly.
-"ERROR"| Error occurred when connecting to connection server.
+**status**|  xsd:string|  Status of the server.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>The connection to the connection server is working properly.</td></tr><tr><td>"ERROR"</td><td>Error occurred when connecting to connection server.</td></tr></table>
 **message**|  xsd:string|  Status message. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

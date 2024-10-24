@@ -35,9 +35,7 @@ Name |  Type |  Description
 ---|---|---
 **vcId**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Virtual Center using a View Composer server which is co-installed.
 **port**|  xsd:int|  Port of the View Composer server instance to connect to. [^8] [^189]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

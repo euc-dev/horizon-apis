@@ -35,9 +35,7 @@ Name |  Type |  Description
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group.
 **extendedData**| [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md)|  Computed data about this user or group.
 **groupSVs**| [ADUserOrGroupSummaryView[]](vdi.users.ADUserOrGroup.ADUserOrGroupSummaryView.md)|  Summary views of the group it belongs to. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

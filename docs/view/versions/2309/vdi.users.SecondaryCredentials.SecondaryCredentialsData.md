@@ -36,9 +36,7 @@ Name |  Type |  Description
 **username**|  xsd:string|  Username for secondary credentials account. [^2]
 **password**| [SecureString](vdi.util.SecureString.md)|  Password for secondary credentials account.  **_Since_** Horizon 8.8
 **adDistinguishedName**|  xsd:string|  DistinguishedName of secondary user account.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -36,9 +36,7 @@ Name |  Type |  Description
 **noSnapshots**|  xsd:boolean|  This BaseImageVm has a supported OS but contains no snapshots. If true, this cannot be used in linked or instant clone desktop or farm creation. [^2]
 **instantInternal**|  xsd:boolean|  This BaseImageVm is a Instant Clone Engine internal virtual machine. If true, this cannot be used in instant clone desktop or farm creation. When this is true, [viewComposerReplica](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md#viewComposerReplica) is also true for retaining backward compatibility.  **_Since_** Horizon 7.6 [^5] [^2]
 **inUseByInstantCloneDesktop**|  xsd:boolean|  This BaseImageVm is already a machine that belongs to a instant clone desktop or farm. If true, this cannot be used in linked or instant clone desktop or farm creation.  **_Since_** Horizon 8.0 [^5] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

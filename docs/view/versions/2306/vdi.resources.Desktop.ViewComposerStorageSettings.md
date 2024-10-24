@@ -37,9 +37,7 @@ Name |  Type |  Description
 **spaceReclamationSettings**| [DesktopSpaceReclamationSettings](vdi.resources.Desktop.SpaceReclamationSettings.md)|  Settings related to the Space Reclamation feature.
 **persistentDiskSettings**| [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md)|  Instant clone preserves the user information on the persistent disk when the OS data is updated. This feature is supported for Instant clone pool from 2303 (8.9) release.
 **nonPersistentDiskSettings**| [DesktopNonPersistentDiskSettings](vdi.resources.Desktop.NonPersistentDiskSettings.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ Changes to this disk are discarded when the user's session ends.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

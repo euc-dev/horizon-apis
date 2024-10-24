@@ -34,9 +34,7 @@ Name |  Type |  Description
 **logCollectorComponentId**| [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)|  Represents a log component ID
 **featurewiseLogLevelsList**| [FeatureLogLevelInfo[]](vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo.md)|  List of log level info where each object in the list represents the log levels for a feature. [^14]
 **lastModifiedTime**|  xsd:long|  The duration in seconds since the last log level modification. [^19] [^1] [^72]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

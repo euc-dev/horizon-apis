@@ -150,9 +150,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabase](vdi.infrastructure.EventDatabase.md) used to make the method call.
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^263]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^263]
 
 
 

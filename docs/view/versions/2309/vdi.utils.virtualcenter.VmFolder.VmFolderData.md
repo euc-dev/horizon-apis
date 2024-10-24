@@ -46,9 +46,7 @@ Name |  Type |  Description
 "FOLDER"| A regular folder suitable for use in desktop creation.
 "OTHER"| Some other resource type that cannot be used in desktop creation.
 **incompatibleReasons**| [VmFolderIncompatibleReasons](vdi.utils.virtualcenter.VmFolder.VmFolderIncompatibleReasons.md)|  Reasons that may preclude this VM folder from being used in desktop creation. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

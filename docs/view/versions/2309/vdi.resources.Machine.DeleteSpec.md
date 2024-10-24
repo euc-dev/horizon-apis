@@ -37,9 +37,7 @@ Note :- If this is true, then machine being deleted must not have any active use
 **archiveDatastorePath**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  Determines the location where the persistent user disk will be saved for future use. If this is unset and [archivePersistentDisk](vdi.resources.Machine.DeleteSpec.md#archivePersistentDisk) is specified, the persistent disk is archived in place. [^1]
 **allowDeleteFromMultiDesktops**|  xsd:boolean|  Determines whether the machines from different desktops can be deleted. This defaults to false in which case only machines belonging to single desktop pool can be deleted. If true, machines from different desktops can be deleted.  **_Since_** Horizon 7.5 [^5] [^1]
 **forceLogoffSession**|  xsd:boolean|  Determines whether active session on the machine to be logged off before deletion. This is only applicable for managed machines. If true, active session on the machine will be logged off before Machine delete. Otherwise,it will result in an exception.  **_Since_** Horizon 7.7 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

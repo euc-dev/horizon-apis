@@ -35,9 +35,7 @@ Name |  Type |  Description
 **capacityMB**|  xsd:long|  The capacity of the data store, in MBs. [^1] [^2]
 **freeSpaceMB**|  xsd:long|  The free space on the data store, in MBs. [^1] [^2]
 **url**|  xsd:string|  The unique locator for the data store. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

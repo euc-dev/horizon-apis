@@ -38,9 +38,7 @@ Name |  Type |  Description
 **success**|  xsd:boolean|  Indicate whether the session count query is successful on the specified pod. [^2]
 **fault**| [MethodFault](vmodl.MethodFault.md)|  The fault that caused the session count to fail. Only present if the success flag is false. [^1] [^2]
 **count**|  xsd:int|  The session count. Only present when the success flag is true. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

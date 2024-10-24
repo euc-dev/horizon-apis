@@ -35,9 +35,7 @@ Name |  Type |  Description
 **packetsSent**|  xsd:long|  Total number of packets that have been transmitted since the PCoIP session started. Not all packets are the same size. [^1] [^2]
 **rxPacketsLost**|  xsd:long|  Total number of received packets that have been lost since the PCoIP session started. [^1] [^2]
 **txPacketsLost**|  xsd:long|  Total number of transmitted packets that have been lost since the PCoIP session started. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

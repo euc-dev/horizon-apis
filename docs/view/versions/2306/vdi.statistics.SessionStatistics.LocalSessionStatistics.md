@@ -39,9 +39,7 @@ Name |  Type |  Description
 **protocolStatistics**| [SessionProtocolStatistics](vdi.statistics.SessionStatistics.SessionProtocolStatistics.md)|  The protocol Statistics for sessions. [^2]
 **clientStatistics**| [SessionClientStatistics](vdi.statistics.SessionStatistics.SessionClientStatistics.md)|  The client Statistics for sessions. [^2]
 **gatewayStatistics**| [SessionGatewayStatistics](vdi.statistics.SessionStatistics.SessionGatewayStatistics.md)|  The gateway Statistics for sessions. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

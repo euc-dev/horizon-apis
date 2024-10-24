@@ -37,9 +37,7 @@ Name |  Type |  Description
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore Id [^2]
 **datastoreData**| [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md)|  Datastore data [^2]
 **refId**|  xsd:string|  Reference ID used for this datastore.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

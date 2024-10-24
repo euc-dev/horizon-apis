@@ -29,29 +29,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  The name of the template.
-**state**|  xsd:string|  The state of the template health, taken as the most severe reported by one of the enrollment servers.
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Template is green.
-"WARN"| Template is yellow.
-"ERROR"| Template is red.
-**primaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the primary enrollment server, if any. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"SUPPORTED_NOT_OPTIMAL"| Warn: This template does not have the ideal properties for CertSSO.
-"NO_CAPABILITY"| Error: This template does not have CertSSO capability.
-"ENABLED_BUT_UNUSABLE"| Error: This template is smartcard logon enabled, but cannot be used (INVALID, MANUAL, or UNSUITABLE).
-"NOT_FOUND"| Error: This template does not exist on the enrollment server domain.
-**secondaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the secondary enrollment server, if any. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"SUPPORTED_NOT_OPTIMAL"| Warn: This template does not have the ideal properties for CertSSO.
-"NO_CAPABILITY"| Error: This template does not have CertSSO capability.
-"ENABLED_BUT_UNUSABLE"| Error: This template is smartcard logon enabled, but cannot be used (INVALID, MANUAL, or UNSUITABLE).
-"NOT_FOUND"| Error: This template does not exist on the enrollment server domain.
+**state**|  xsd:string|  The state of the template health, taken as the most severe reported by one of the enrollment servers.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Template is green.</td></tr><tr><td>"WARN"</td><td>Template is yellow.</td></tr><tr><td>"ERROR"</td><td>Template is red.</td></tr></table>
+**primaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the primary enrollment server, if any. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SUPPORTED_NOT_OPTIMAL"</td><td>Warn: This template does not have the ideal properties for CertSSO.</td></tr><tr><td>"NO_CAPABILITY"</td><td>Error: This template does not have CertSSO capability.</td></tr><tr><td>"ENABLED_BUT_UNUSABLE"</td><td>Error: This template is smartcard logon enabled, but cannot be used (INVALID, MANUAL, or UNSUITABLE).</td></tr><tr><td>"NOT_FOUND"</td><td>Error: This template does not exist on the enrollment server domain.</td></tr></table>
+**secondaryEnrollmentServerStateReasons**|  xsd:string[]|  Reasons for the state from the secondary enrollment server, if any. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SUPPORTED_NOT_OPTIMAL"</td><td>Warn: This template does not have the ideal properties for CertSSO.</td></tr><tr><td>"NO_CAPABILITY"</td><td>Error: This template does not have CertSSO capability.</td></tr><tr><td>"ENABLED_BUT_UNUSABLE"</td><td>Error: This template is smartcard logon enabled, but cannot be used (INVALID, MANUAL, or UNSUITABLE).</td></tr><tr><td>"NOT_FOUND"</td><td>Error: This template does not exist on the enrollment server domain.</td></tr></table>
 
 
  [^1]: This property need not be set. 

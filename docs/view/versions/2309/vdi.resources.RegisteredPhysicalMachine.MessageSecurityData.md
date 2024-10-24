@@ -37,9 +37,7 @@ Name |  Type |  Description
 "ENABLED"| Message security mode is enabled. Unsigned messages are rejected by View components. Message security mode is enabled by default. Note: View components that predate View Manager 3.0 are not allowed to communicate with other View components
 "ENHANCED"| Message Security mode is Enhanced. Message signing and validation is performed based on the current Security Level and desktop Message Security mode.
 **messageSecurityEnhancedModeSupported**|  xsd:boolean|  Indicates whether ENHANCED message security mode is currently supported by this registered physical machine. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

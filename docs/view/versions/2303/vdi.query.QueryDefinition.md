@@ -47,9 +47,7 @@ Name |  Type |  Description
 **startingOffset**|  xsd:int|  0-based starting offset for returned results, defaults to 0. [^1]
 **limit**|  xsd:int|  Maximum count of items this query should produce, defaults to all. [^1]
 **maxPageSize**|  xsd:int|  Maximum page size to return (the server may use a smaller size). [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

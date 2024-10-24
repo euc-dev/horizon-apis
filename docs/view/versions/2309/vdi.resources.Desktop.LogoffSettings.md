@@ -85,9 +85,7 @@ Name |  Type |  Description
 ---|---
 "DEFAULT"| Indicates application sessions will be disconnected either on reaching the global idle timeout or on reaching the max session timeout.
 "NEVER"| Indicates application sessions will not be disconnected either on reaching the global idle timeout or on reaching the max session timeout.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

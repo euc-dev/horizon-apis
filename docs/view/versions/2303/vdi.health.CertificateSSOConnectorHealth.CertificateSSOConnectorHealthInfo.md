@@ -36,9 +36,7 @@ Name |  Type |  Description
 **enabled**|  xsd:boolean|  Whether or not the connector is enabled.
 **data**| [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md)|  Base health information about the CertSSO connector.
 **refId**|  xsd:string|  Reference ID used for this CertSSO connector.  **_Since_** Horizon 7.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

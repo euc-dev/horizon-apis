@@ -79,9 +79,7 @@ Name |  Type |  Description
 "MACHINE_NOT_MANAGED_BY_DISK_VC"| Machine and disk are not in same vCenter.
 "DISK_DATASTORE_NOT_ACCESSIBLE_TO_THE_MACHINE"| Datastore of the disk should be accessible by machine.
 "INSUFFICIENT_PERMISSION_TO_MANAGE_DESKTOP"| Insufficient permission to manage the desktop.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

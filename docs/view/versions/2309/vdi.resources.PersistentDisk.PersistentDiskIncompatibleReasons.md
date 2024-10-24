@@ -54,9 +54,7 @@ Type: Warning - Machine can still be recreated with this incompatibility
 "DISK_USER_ASSIGNED_TO_EXISTING_MACHINE"| Assigned user of the disk is having an Assignment on a machine of the same desktop pool.
 Type: Error - Machine can not be recreated with this incompatibility
 "DESKTOP_SEMI_AUTO_POOL"| Desktop created with specified naming method. Type: Warning - Machine can still be recreated with this incompatibility.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

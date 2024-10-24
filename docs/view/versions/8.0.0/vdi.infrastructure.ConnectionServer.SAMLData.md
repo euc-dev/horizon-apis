@@ -31,15 +31,7 @@ The SAML configuration settings for authentication to a connection server.
 Properties
 Name |  Type |  Description
 ---|---|---
-**samlSupport**|  xsd:string|  SAML support option.
-* This property will be one of:
-|  Value |  Description
----|---
-"ENABLED"| This property is deprecated. Please use MULTI_ENABLED instead of ENABLED. Indicates that the Saml support is enabled but optional.
-"REQUIRED"| This property is deprecated. Please use MULTI_REQUIRED instead of REQUIRED. Indicates that the Saml support is necessary.
-"DISABLED"| Indicates that the Saml support is disabled.
-"MULTI_ENABLED"| Indicates that the Saml multi auth support is enabled.
-"MULTI_REQUIRED"| Indicates that the Saml multi auth support is mandatory.
+**samlSupport**|  xsd:string|  SAML support option.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"ENABLED"</td><td>This property is deprecated. Please use MULTI_ENABLED instead of ENABLED. Indicates that the Saml support is enabled but optional.</td></tr><tr><td>"REQUIRED"</td><td>This property is deprecated. Please use MULTI_REQUIRED instead of REQUIRED. Indicates that the Saml support is necessary.</td></tr><tr><td>"DISABLED"</td><td>Indicates that the Saml support is disabled.</td></tr><tr><td>"MULTI_ENABLED"</td><td>Indicates that the Saml multi auth support is enabled.</td></tr><tr><td>"MULTI_REQUIRED"</td><td>Indicates that the Saml multi auth support is mandatory.</td></tr></table>
 **samlAuthenticator**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)| **Deprecated.**_use[samlAuthenticators](vdi.infrastructure.ConnectionServer.SAMLData.md#samlAuthenticators) instead of this samlAuthenticator. _ [^1] [^251]
 **samlAuthenticators**| [SAMLAuthenticatorId[]](vdi.entity.SAMLAuthenticatorId.md)|  List of SamlAuthenticators to use.  **_Since_** Horizon 7.0 [^1] [^14] [^252]
 **workspaceOneData**| [ConnectionServerWorkspaceOneData](vdi.infrastructure.ConnectionServer.WorkspaceOneData.md)|  Workspace ONE data to use.  **_Since_** Horizon 7.2 [^1]

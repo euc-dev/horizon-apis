@@ -35,9 +35,7 @@ Name |  Type |  Description
 "UNLIMITED"| RDSServer has unlimited number of sessions
 "LIMITED"| RDSServer has a limited number of sessions
 **maxSessionsSeenByAgent**|  xsd:int|  Maximum number of sessions on an RDS server as seen by the agent. [^1] [^2] [^8] [^9]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

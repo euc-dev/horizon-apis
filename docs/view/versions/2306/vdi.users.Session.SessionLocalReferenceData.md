@@ -39,9 +39,7 @@ Name |  Type |  Description
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm Id for this Application or RDS Desktop session. [^1]
 **machine**| [MachineId](vdi.entity.MachineId.md)|  Machine Id for this session. This is unset for Application or RDS Desktop sessions. If [desktop](vdi.users.Session.SessionLocalReferenceData.md#desktop) is unset, MachineIds of this type originate from the [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) service. Otherwise, MachineIds of this type originate from the [Machine](vdi.resources.Machine.md) service. [^1]
 **rdsServer**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS Server Id for this RDS Desktop or Application session. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

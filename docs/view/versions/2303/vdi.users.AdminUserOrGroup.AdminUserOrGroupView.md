@@ -43,9 +43,7 @@ Name |  Type |  Description
 **roles**| [RoleInfo[]](vdi.users.Role.RoleInfo.md)|  Set of roles this user or group has any permissions for. Cross reference with permissions member to determine the actual associated permission. [^1]
 **accessGroups**| [AccessGroupInfo[]](vdi.users.AccessGroup.AccessGroupInfo.md)|  Set of access groups this user or group has any permission for. Cross reference with permissions member to determine the actual associated permission. [^1]
 **groupViews**| [AdminUserOrGroupView[]](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md)|  Full views of this user or group's groups. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

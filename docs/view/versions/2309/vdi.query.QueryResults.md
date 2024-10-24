@@ -38,9 +38,7 @@ Name |  Type |  Description
 **startingOffset**|  xsd:int|  Offset of first result returned (0-based). If there are no matching results, this will still be set to the requested initial offset.
 **remainingCount**|  xsd:int|  Number of results remaining, or null if not supported. See documentation for specific query service. [^1]
 **results**|  xsd:anyType[]|  Result set. Empty if no further results. The runtime type of the returned objects will match the type specified in [queryEntityType](vdi.query.QueryDefinition.md#queryEntityType). [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The ID of the newly registered machine. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 **pairingToken**|  xsd:string|  The pairing token for the machine. This should be passed to the machine.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

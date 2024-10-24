@@ -40,9 +40,7 @@ If {n} is specified with no size, a size of 2 is automatically used and if no {}
 "ON_DEMAND"| Provision machines on demand.
 "UP_FRONT"| Provision all machines up-front.
 **minNumberOfMachines**|  xsd:int|  The minimum number of machines to have provisioned if on demand provisioning is selected. [^19] [^1] [^72] [^73]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

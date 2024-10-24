@@ -40,9 +40,7 @@ Name |  Type |  Description
 **container**|  xsd:boolean|  Whether or not this node is a container or a legitimate host or cluster. [^2]
 **treeContainer**| [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)|  Set only if this node represents a container. [^1] [^2]
 **info**| [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md)|  Set only if this node represents a host or cluster. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

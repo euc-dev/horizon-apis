@@ -259,10 +259,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 **id**| [SiteId](vdi.entity.SiteId.md)|  Id of a site
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  name value pairs for update.
-
- [^232]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  name value pairs for update. [^232]
 
 
 

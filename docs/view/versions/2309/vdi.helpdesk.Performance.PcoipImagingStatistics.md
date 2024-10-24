@@ -39,9 +39,7 @@ Name |  Type |  Description
 **svgaDevTapFrames**|  xsd:long|  Number of frames that were processed in SVGA devtap over one-second sampling. [^1] [^2]
 **negativeAcknowledgements**|  xsd:long|  Number of negative acknowledgements for incoming packets; [^1] [^2]
 **apex2800Offload**|  xsd:long|  The number of times Apex2800 offloading is utilized over a one-second sampling period. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

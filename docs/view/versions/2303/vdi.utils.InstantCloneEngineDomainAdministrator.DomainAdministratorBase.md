@@ -34,9 +34,7 @@ Name |  Type |  Description
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  Domain Id for the domain administrator account. [^2]
 **userName**|  xsd:string|  Logon user name. This user must not be associated with another instant clone domain administrator on the same domain. [^2] [^152]
 **password**| [SecureString](vdi.util.SecureString.md)|  Logon password.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

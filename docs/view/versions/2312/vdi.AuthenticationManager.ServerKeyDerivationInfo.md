@@ -34,14 +34,7 @@ Name |  Type |  Description
 **publicKey**|  xsd:string|  Base64 encoded Diffie Hellman/Elliptic-curve Diffie Hellman public key
 **proof**|  xsd:string|  Base64 encoded proof
 **identifier**|  xsd:string|  Base64 encoded identifier
-**algoSelected**|  xsd:string|  Selected algorithm for key derivation
-* This property will be one of:
-|  Value |  Description
----|---
-"SCHEME-AES1"| Diffie Hellman algo used by low power clients
-"SCHEME-AES2"| Diffie Hellman algo used by high power clients
-"SCHEME-EC-AES1"| Elliptic-curve Diffie Hellman algo used by low power clients
-"SCHEME-EC-AES2"| Elliptic-curve Diffie Hellman algo used by high power clients
+**algoSelected**|  xsd:string|  Selected algorithm for key derivation<br>* This property will be one of:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>"SCHEME-AES1"</td><td>Diffie Hellman algo used by low power clients</td></tr><tr><td>"SCHEME-AES2"</td><td>Diffie Hellman algo used by high power clients</td></tr><tr><td>"SCHEME-EC-AES1"</td><td>Elliptic-curve Diffie Hellman algo used by low power clients</td></tr><tr><td>"SCHEME-EC-AES2"</td><td>Elliptic-curve Diffie Hellman algo used by high power clients</td></tr></tbody></table>
 
 
  [^1]: This property need not be set. 

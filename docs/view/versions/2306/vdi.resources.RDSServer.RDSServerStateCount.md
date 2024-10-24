@@ -32,9 +32,7 @@ Name |  Type |  Description
 **problemCount**| [ProblemCount](vdi.resources.RDSServer.ProblemCount.md)|  Counts of the RDS server machines which are in problem state. [^2]
 **underConstructionCount**| [UnderConstructionCount](vdi.resources.RDSServer.UnderConstructionCount.md)|  Counts of the RDS server machines which are in under construction state. [^2]
 **preparedCount**| [PreparedCount](vdi.resources.RDSServer.PreparedCount.md)|  Counts of the RDS server machines which are in prepared state. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

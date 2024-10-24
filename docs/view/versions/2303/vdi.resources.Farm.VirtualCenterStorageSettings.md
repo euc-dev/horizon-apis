@@ -35,9 +35,7 @@ Name |  Type |  Description
 **useVSan**|  xsd:boolean|  Whether to use vSphere VSAN. This is applicable for vSphere 5.5 or later. [datastores](vdi.resources.Farm.VirtualCenterStorageSettings.md#datastores) must specify exactly one datastore of file system type VSAN. If this RDS Server is sourced from View Composer, [useSeparateDatastoresReplicaAndOSDisks](vdi.resources.Farm.ViewComposerStorageSettings.md#useSeparateDatastoresReplicaAndOSDisks) , and [reclaimVmDiskSpace](vdi.resources.Farm.SpaceReclamationSettings.md#reclaimVmDiskSpace) must be disabled. [^5]
 **viewComposerStorageSettings**| [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md)|  View Composer storage settings. This must be set for RDS servers in Automated Farms. [^1]
 **viewStorageAcceleratorSettings**| [FarmViewStorageAcceleratorSettings](vdi.resources.Farm.ViewStorageAcceleratorSettings.md)|  View Storage Accelerator settings.  **_Since_** Horizon 7.2 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -34,9 +34,7 @@ Name |  Type |  Description
 **specifiedNames**| [DesktopSpecifiedName[]](vdi.resources.Desktop.SpecifiedName.md)|  Initial specified names of machines in the desktop.
 **startMachinesInMaintenanceMode**|  xsd:boolean|  Allows virtual machines to be customized manually before users can log in and access them. This mode must be exited manually. [^5]
 **numUnassignedMachinesKeptPoweredOn**|  xsd:int|  Number of unassigned machines kept powered on. This value must be less than or equal to the number of specified names. [^10] [^8]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

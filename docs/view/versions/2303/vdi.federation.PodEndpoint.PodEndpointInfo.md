@@ -39,9 +39,7 @@ Name |  Type |  Description
 **serverAddress**|  xsd:string|  The URL for the PodEndpoint. This address and special port will be used for inter-pod communication. [^2]
 **enabled**|  xsd:boolean|  Indicate whether an endpoint is enabled. A disabled endpoint will be excluded from participating inter-pod communication. [^2]
 **refId**|  xsd:string|  Reference ID used for this PodEndpoint.  **_Since_** Horizon 7.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

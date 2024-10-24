@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [MachineId](vdi.entity.MachineId.md)|  Unique identifier of the machine for which machine aliases needs to be updated. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 **aliases**| [MachineAlias[]](vdi.resources.Machine.MachineAlias.md)|  Machine aliases of assigned users of the given machine that needs to be updated. If the machine alias for a user needs to be removed, set the [alias](vdi.resources.Machine.MachineAlias.md#alias) field to null.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

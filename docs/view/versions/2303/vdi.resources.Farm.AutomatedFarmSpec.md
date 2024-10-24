@@ -44,9 +44,7 @@ This option is only valid for Automated Farm.
 **virtualCenterManagedCommonSettings**| [FarmVirtualCenterManagedCommonSettings](vdi.resources.Farm.VirtualCenterManagedCommonSettings.md)|  Common settings for RDS Servers managed by Virtual Center sources.
 **customizationSettings**| [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md)|  Customization settings.
 **rdsServerMaxSessionsData**| [FarmRDSServerMaxSessionsData](vdi.resources.Farm.RDSServerMaxSessionsData.md)|  RDS Server max sessions data
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -40,9 +40,7 @@ Name |  Type |  Description
 **incompatibleInstantCloneDesktops**|  xsd:boolean|  Whether or not this cluster and all the hosts in this cluster support instant clone feature. This check validates that the Cluster's version and version of all the hosts in this cluster are at least 6.0 or above. If true, this cluster cannot be used in instant clone desktop creation. Note that only clusters can be selected for instant clone desktops.  **_Since_** Horizon 7.0 [^2]
 **incompatibleStandaloneHostForInstantClone**|  xsd:boolean|  Whether or not this host is part of a cluster. Standalone hosts can not be used for Instant clones. This will be false if [cluster](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md#cluster) is set to true.  **_Since_** Horizon 7.7 [^1] [^2]
 **incompatiblevGPUType**|  xsd:boolean|  Whether or not this host or at least one host on this cluster supports NVIDIA GRID vGPUs.  **_Since_** Horizon 7.7 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  ApplicationIcon entityId [^2]
 **base**| [ApplicationIconSummaryBase](vdi.resources.ApplicationIcon.ApplicationIconSummaryBase.md)|  Metadata of the icon
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

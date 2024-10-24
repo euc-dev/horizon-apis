@@ -73,9 +73,7 @@ Name |  Type |  Description
 "STANDBY"| The operation is on standby for selective push.
 **datastorePaths**|  xsd:string[]|  The name(s) of the datastore(s) occupied by the virtual machine. [^1] [^14] [^2]
 **persistentDisks**| [PersistentDiskId[]](vdi.entity.PersistentDiskId.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ The persistent disk(s). [^1] [^14] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

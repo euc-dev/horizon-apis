@@ -32,30 +32,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **eventType**|  xsd:string|  Event name that corresponds to an item in the message catalog. For example: BROKER_USERLOGGEDIN, AGENT_CONNECTED etc.
-**severity**|  xsd:string|  Severity type of the event.
-* This property will be one of:
-|  Value |  Description
----|---
-"INFO"| INFO type.
-"WARNING"| WARNING type.
-"ERROR"| ERROR type.
-"AUDIT_SUCCESS"| AUDIT SUCCESS type.
-"AUDIT_FAIL"| AUDIT FAILURE type.
+**severity**|  xsd:string|  Severity type of the event.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"INFO"</td><td>INFO type.</td></tr><tr><td>"WARNING"</td><td>WARNING type.</td></tr><tr><td>"ERROR"</td><td>ERROR type.</td></tr><tr><td>"AUDIT_SUCCESS"</td><td>AUDIT SUCCESS type.</td></tr><tr><td>"AUDIT_FAIL"</td><td>AUDIT FAILURE type.</td></tr></table>
 **time**|  xsd:dateTime|  Time at which the event occurred, measured from the epoch (January 1, 1970).
-**module**|  xsd:string|  Horizon View component that has logged this event.
-* This property will be one of:
-|  Value |  Description
----|---
-"Admin"| Admin component.
-"Broker"| Broker component.
-"Client"| Client component.
-"Agent"| Agent component.
-"Vlsi"| Vlsi component.
-"Framework"| Framework component.
-"Tunnel"| Tunnel component.
-"Endpoint"| Endpoint component.
-"TransferServer"| TransferServer component.
-"Rest"| Rest component.
+**module**|  xsd:string|  Horizon View component that has logged this event.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Admin"</td><td>Admin component.</td></tr><tr><td>"Broker"</td><td>Broker component.</td></tr><tr><td>"Client"</td><td>Client component.</td></tr><tr><td>"Agent"</td><td>Agent component.</td></tr><tr><td>"Vlsi"</td><td>Vlsi component.</td></tr><tr><td>"Framework"</td><td>Framework component.</td></tr><tr><td>"Tunnel"</td><td>Tunnel component.</td></tr><tr><td>"Endpoint"</td><td>Endpoint component.</td></tr><tr><td>"TransferServer"</td><td>TransferServer component.</td></tr><tr><td>"Rest"</td><td>Rest component.</td></tr></table>
 **message**|  xsd:string|  Event message. Language of this message will be dependent on the locale of the currently logged-in user. Locale can be set by invoking [AuthenticationManager_SetLocale](vdi.AuthenticationManager.md#setLocale) method after login. If not set explicitly, locale will default to English language.
 **node**|  xsd:string|  FQDN of the machine in the Pod that has logged this event. [^1]
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event. [^1]
@@ -67,9 +46,7 @@ Name |  Type |  Description
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  Session associated with this event. Will be unset if there is no Session association for this event. [^1]
 **logonTiming**|  xsd:string|  Logon timing profiler tree. Will be unset if there is no timing profiler tree association for this event. [^1]
 **persistentDiskId**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  Persistent disk associated with this event. Will be unset if there is no Persistent disk association for this event.  **_Since_** Horizon 7.9 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

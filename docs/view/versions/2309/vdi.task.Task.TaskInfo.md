@@ -70,9 +70,7 @@ Name |  Type |  Description
 "CANCELLED"| The task execution has been cancelled.
 **percentageComplete**|  xsd:int|  How complete the task is as a percentage. [^1] [^2]
 **result**| [TaskResult](vdi.task.Task.TaskResult.md)|  The result of a task, only available when task is completed. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

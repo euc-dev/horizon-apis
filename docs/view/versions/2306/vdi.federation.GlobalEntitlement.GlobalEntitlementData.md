@@ -37,9 +37,7 @@ Name |  Type |  Description
 **userGroupCount**|  xsd:int|  Count of users and groups that are associated with this Global Entitlement. [^2]
 **userGroupSiteOverrideCount**|  xsd:int|  Count of all User Home Site overrides associated with this Global Entitlement (for either users or groups). This value will be populated only in #get(GlobalEntitlementId). [^2]
 **memberPods**| [PodId[]](vdi.entity.PodId.md)|  Pods that have desktops associated with this Global Entitlement. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

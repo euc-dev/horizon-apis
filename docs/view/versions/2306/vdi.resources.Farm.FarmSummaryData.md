@@ -70,9 +70,7 @@ This option is only valid for Automated Farm.
 "LIMITED"| Farm has a limited number of sessions
 **maximumNumberOfSessions**|  xsd:long|  Sum of maximum number of sessions of all RDS servers that belong to the Farm. [^1] [^2] [^8] [^9]
 **appVolumesManagerGuid**|  xsd:string|  Guid of app volumes manager associated with the farm.  **_Since_** Horizon 8.8 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

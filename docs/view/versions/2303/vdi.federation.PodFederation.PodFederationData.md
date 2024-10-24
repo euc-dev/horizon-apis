@@ -34,9 +34,7 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  Description of the Pod Federation. [^1] [^128]
 **sites**| [SiteId[]](vdi.entity.SiteId.md)|  Member sites in the Pod Federation. Pods are member of sites. [^1] [^2]
 **guid**|  xsd:string|  GUID of the pod federation.  **_Since_** Horizon 7.9 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

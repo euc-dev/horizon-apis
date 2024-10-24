@@ -25,9 +25,7 @@ Name |  Type |  Description
 ---|---|---
 **key**|  xsd:string|  The Base 64 encoded public key of the cluster in PEM format.
 **keyId**|  xsd:string|  Key Id to identify the cluster's active key pair
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

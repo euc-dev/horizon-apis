@@ -35,9 +35,7 @@ Name |  Type |  Description
 **accessGroupName**|  xsd:string|  The access group name.
 **privileges**|  xsd:string[]|  The set of privileges on the current access group.
 **children**| [AccessGroupSummaryView[]](vdi.users.AccessGroup.AccessGroupSummaryView.md)|  Child access groups associated with current access group.  **_Since_** Horizon 7.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

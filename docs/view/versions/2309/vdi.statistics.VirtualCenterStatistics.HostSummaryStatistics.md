@@ -42,9 +42,7 @@ Name |  Type |  Description
 **overallCpuUsage**|  xsd:int|  Aggregated CPU usage across all cores on the host, in MHz. [^1] [^2]
 **memorySizeBytes**|  xsd:long|  The physical memory size, in bytes. [^1] [^2]
 **overallMemoryUsageMB**|  xsd:int|  Physical memory usage on the host, in MBs. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

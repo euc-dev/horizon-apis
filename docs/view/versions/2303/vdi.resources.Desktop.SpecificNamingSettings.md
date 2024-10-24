@@ -35,9 +35,7 @@ Name |  Type |  Description
 **numUnassignedMachinesKeptPoweredOn**|  xsd:int|  Number of unassigned machines kept powered on. When updated, this value must be less than or equal to the total number of existing machines in the desktop. [^10] [^8]
 **numMachines**|  xsd:int|  Number of machines in the pool.  **_Since_** Horizon 7.7 [^19] [^72]
 **specifiedNames**| [DesktopSpecifiedName[]](vdi.resources.Desktop.SpecifiedName.md)|  New vm names that could be provided during update.  **_Since_** Horizon 7.7 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

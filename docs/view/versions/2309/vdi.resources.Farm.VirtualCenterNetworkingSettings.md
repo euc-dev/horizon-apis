@@ -32,9 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **nics**| [FarmNetworkInterfaceCardSettings[]](vdi.resources.Farm.NetworkInterfaceCardSettings.md)|  Network interface card settings for RDS Servers provisioned for this farm. A NIC may appear at most once in these settings and must be present on this RDS Server's parent's snapshot. Not all NICs need be configured. Any that are not will use default settings. [^1] [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

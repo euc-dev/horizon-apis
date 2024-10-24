@@ -42,9 +42,7 @@ Name |  Type |  Description
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Global Application Entitlement for this Application. This member will be null if not set or caller does not have global read permissions. [^1]
 **cloudBrokered**|  xsd:boolean|  Indicates whether the application pool is brokered by cloud broker  **_Since_** Horizon 8.2 [^1] [^2]
 **appLaunchLimitEnabled**|  xsd:boolean|  Indicates whether launch limit is enabled for the application pool. Only one instance of the application can be launched if it is enabled.  **_Since_** Horizon 8.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

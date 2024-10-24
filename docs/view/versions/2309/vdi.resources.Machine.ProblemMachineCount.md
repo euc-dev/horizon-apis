@@ -42,9 +42,7 @@ Name |  Type |  Description
 **unknown**|  xsd:int|  Number of machines which are in UNKNOWN [basicState](vdi.resources.Machine.MachineBase.md#basicState). [^2]
 **alreadyUsed**|  xsd:int|  Number of machines which are in ALREADY_USED [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable only for VC managed virtual machines. [^2]
 **blockedAgentVersion**|  xsd:int|  Number of machines which are in BLOCKED_AGENT_VERSION [basicState](vdi.resources.Machine.MachineBase.md#basicState).  **_Since_** Horizon 8.10 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -34,9 +34,7 @@ Name |  Type |  Description
 **diskQueueLengthThreshold**|  xsd:int|  Represents the threshold of average number of both read and write requests that were queued for the selected disk during the sample interval. If the value is 0, then this metric will not be considered for load balancing. [^19] [^1] [^72]
 **diskReadLatencyThreshold**|  xsd:int|  Represents the threshold of average time, in milliseconds, of a read of data from the disk. If the value is 0, then this metric will not be considered for load balancing. [^19] [^1] [^72]
 **diskWriteLatencyThreshold**|  xsd:int|  Represents the threshold of average time, in milliseconds, of a write of data to the disk. If the value is 0, then this metric will not be considered for load balancing. [^19] [^1] [^72]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

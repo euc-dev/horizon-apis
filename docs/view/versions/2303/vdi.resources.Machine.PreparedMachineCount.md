@@ -32,9 +32,7 @@ Name |  Type |  Description
 **provisioned**|  xsd:int|  Number of machines which are in PROVISIONED [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable for VC managed virtual machines. [^2]
 **connected**|  xsd:int|  Number of machines which are in CONNECTED [basicState](vdi.resources.Machine.MachineBase.md#basicState). [^2]
 **disconnected**|  xsd:int|  Number of machines which are in DISCONNECTED [basicState](vdi.resources.Machine.MachineBase.md#basicState). [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

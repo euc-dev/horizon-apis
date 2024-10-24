@@ -47,9 +47,7 @@ Name |  Type |  Description
 **maxAttempts**|  xsd:int|  The maximum number of authentication attempts for the RADIUS authentication server. [^8]
 **realmPrefix**|  xsd:string|  The realm prefix of the RADIUS authentication server. [^1]
 **realmSuffix**|  xsd:string|  The realm suffix of the RADIUS authentication server. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

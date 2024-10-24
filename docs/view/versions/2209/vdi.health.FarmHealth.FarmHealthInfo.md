@@ -47,27 +47,9 @@ Name |  Type |  Description
 ---|---|---
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID [^2]
 **name**|  xsd:string|  Farm name [^2]
-**type**|  xsd:string|  Farm type  **_Since_** Horizon View 6.2 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated farm creates RDS Servers cloned from a snapshot.
-"MANUAL"| A manual farm allows selection and addition of existing RDS Servers to the farm.
-**health**|  xsd:string|  Farm health [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Farm is enabled and no servers are in WARNING or ERROR state. One or more server(s) may be DISABLED (including the case where all of them are DISABLED).
-"WARNING"| Farm is enabled. One or more of the following is true: [^237] [^238]
-"ERROR"| Farm is enabled. One or more server(s) (exceeding the predefined threshold) is in ERROR state, or, for Automated Farms, there could be a provisioning error.
-"DISABLED"| Farm is disabled.
-**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.6 [^1] [^2] [^29]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Farm.
+**type**|  xsd:string|  Farm type  **_Since_** Horizon View 6.2 [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AUTOMATED"</td><td>An automated farm creates RDS Servers cloned from a snapshot.</td></tr><tr><td>"MANUAL"</td><td>A manual farm allows selection and addition of existing RDS Servers to the farm.</td></tr></table>
+**health**|  xsd:string|  Farm health [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Farm is enabled and no servers are in WARNING or ERROR state. One or more server(s) may be DISABLED (including the case where all of them are DISABLED).</td></tr><tr><td>"WARNING"</td><td>Farm is enabled. One or more of the following is true: [^237] [^238]</td></tr><tr><td>"ERROR"</td><td>Farm is enabled. One or more server(s) (exceeding the predefined threshold) is in ERROR state, or, for Automated Farms, there could be a provisioning error.</td></tr><tr><td>"DISABLED"</td><td>Farm is disabled.</td></tr></table>
+**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.6 [^1] [^2] [^29]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110] This option is only valid for Automated Farm.</td></tr></table>
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group associated with this Farm.  **_Since_** Horizon 7.6 [^2]
 **rdsServerHealth**| [FarmHealthRDSServerHealthInfo[]](vdi.health.FarmHealth.RDSServerHealthInfo.md)|  RDS server health information of the servers that belong to the Farm [^1] [^2]
 **numApplications**|  xsd:int|  Number of applications published from this Farm.  **_Since_** Horizon 7.9 [^1] [^2]

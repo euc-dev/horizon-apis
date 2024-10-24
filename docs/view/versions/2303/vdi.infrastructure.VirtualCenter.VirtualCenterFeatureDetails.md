@@ -43,9 +43,7 @@ Name |  Type |  Description
 "SR_RECLAMATION_DISABLED"| The feature has been disabled for the virtual center.
 "SR_FEATURE_DISABLED"| Space reclamation has been disabled globally.
 **version**|  xsd:string|  Version of the virtual center. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

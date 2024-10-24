@@ -34,17 +34,8 @@ Name |  Type |  Description
 **publicKey**|  xsd:string|  Base64 encoded Diffie Hellman/Elliptic-curve Diffie Hellman public key
 **nonce**|  xsd:string|  Base64 encoded nonce
 **identifier**|  xsd:string|  Base64 encoded identifier
-**algoRequested**|  xsd:string[]|  List of client requested algorithms for key derivation
-* This property will be one of:
-|  Value |  Description
----|---
-"SCHEME-AES1"| Diffie Hellman algo used by low power clients
-"SCHEME-AES2"| Diffie Hellman algo used by high power clients
-"SCHEME-EC-AES1"| Elliptic-curve Diffie Hellman algo used by low power clients
-"SCHEME-EC-AES2"| Elliptic-curve Diffie Hellman algo used by high power clients
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**algoRequested**|  xsd:string[]|  List of client requested algorithms for key derivation<br>* This property will be one of:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>"SCHEME-AES1"</td><td>Diffie Hellman algo used by low power clients</td></tr><tr><td>"SCHEME-AES2"</td><td>Diffie Hellman algo used by high power clients</td></tr><tr><td>"SCHEME-EC-AES1"</td><td>Elliptic-curve Diffie Hellman algo used by low power clients</td></tr><tr><td>"SCHEME-EC-AES2"</td><td>Elliptic-curve Diffie Hellman algo used by high power clients</td></tr></tbody></table>
+ 
 
 
  [^1]: This property need not be set. 

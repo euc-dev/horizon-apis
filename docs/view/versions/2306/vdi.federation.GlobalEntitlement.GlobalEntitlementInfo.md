@@ -40,9 +40,7 @@ Name |  Type |  Description
 **data**| [GlobalEntitlementData](vdi.federation.GlobalEntitlement.GlobalEntitlementData.md)|  Data about members of Global entitlement. [^1] [^2]
 **primaryGE**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Indicates the Global Entitlement for which this Global Entitlement acts as backup.  **_Since_** Horizon 7.11 [^1] [^2]
 **refId**|  xsd:string|  Reference ID used for this Global Entitlement.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

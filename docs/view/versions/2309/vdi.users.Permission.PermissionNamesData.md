@@ -35,9 +35,7 @@ Name |  Type |  Description
 **roleName**|  xsd:string|  Name of the role for this permission. [^2]
 **accessGroupName**|  xsd:string|  Name of the access group for this permission. [^1] [^2]
 **globalAccessGroupName**|  xsd:string|  Name of the global access group for this permission.  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -44,9 +44,7 @@ Name |  Type |  Description
 **reusePreExistingAccounts**|  xsd:boolean|  Whether to allow the use of existing AD computer accounts when the VM names of newly created RDS Servers match the existing computer account names. This is applicable only for Automated Farms. [^5]
 **sysprepCustomizationSettings**| [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md)|  Settings when Sysprep customization is requested. [^1] [^24]
 **cloneprepCustomizationSettings**| [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md)|  Settings when ClonePrep customization is requested.  **_Since_** Horizon 7.1 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

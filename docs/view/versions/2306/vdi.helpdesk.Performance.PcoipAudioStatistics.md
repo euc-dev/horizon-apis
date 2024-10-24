@@ -33,9 +33,7 @@ Name |  Type |  Description
 **rxBandwidth**|  xsd:long|  Bandwidth for ingoing audio packets averaged over the sampling period, in kilobits per second. [^1] [^2]
 **txBandwidth**|  xsd:long|  Bandwidth for outgoing audio packets averaged over the sampling period, in kilobits per second. [^1] [^2]
 **txBandwidthLimit**|  xsd:long|  Transmission bandwidth limit in kilobits per second for outgoing audio packets. The limit is defined by a GPO setting. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

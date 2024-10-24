@@ -41,9 +41,7 @@ Name |  Type |  Description
 "RESOURCE_POOL"| A regular resource pool suitable for use in desktop creation.
 "OTHER"| Some other resource type that cannot be used in desktop creation.
 **isCluster**|  xsd:boolean|  Whether the Resource Pool is a Cluster Node.  **_Since_** Horizon 7.9 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -42,9 +42,7 @@ Name |  Type |  Description
 **icons**| [ApplicationIconId[]](vdi.entity.ApplicationIconId.md)|  Icons associated with the Global Application Entitlement [^1] [^14] [^2]
 **primaryGAE**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Indicates the Global Application Entitlement for which this Global Application Entitlement acts as backup.  **_Since_** Horizon 7.11 [^1] [^2]
 **refId**|  xsd:string|  Reference ID used for this Global Application Entitlement.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

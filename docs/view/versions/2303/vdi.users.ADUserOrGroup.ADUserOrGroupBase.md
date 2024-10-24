@@ -49,9 +49,7 @@ Name |  Type |  Description
 **userPrincipalName**|  xsd:string|  User Principal name(UPN) of the user.  **_Since_** Horizon 7.1 [^1] [^2]
 **guid**|  xsd:string| **Deprecated.**_: Use[formattedGuid](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#formattedGuid) since that is in RFC 4122 format. _ GUID of the user or group.  **_Since_** Horizon 7.7 [^1] [^2]
 **formattedGuid**|  xsd:string|  GUID of the user or group (same as [guid](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#guid)) but in RFC 4122 format. example: 5F5A45D9-15C0-4654-8FCF-D589C0EF3ECA  **_Since_** Horizon 7.9 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

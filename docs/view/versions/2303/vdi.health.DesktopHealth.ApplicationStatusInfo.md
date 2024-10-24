@@ -29,17 +29,8 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application Entity Id [^2]
-**status**|  xsd:string|  Application Status [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AVAILABLE"| The application is available in all machines of the desktop.
-"MISSING"| The application is missing in one or more machines in the desktop.
-"UNAVAILABLE"| Could happen in any of following cases: [^235] [^236]
-"DISABLED"| The desktop is disabled and the application is disabled.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**status**|  xsd:string|  Application Status [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AVAILABLE"</td><td>The application is available in all machines of the desktop.</td></tr><tr><td>"MISSING"</td><td>The application is missing in one or more machines in the desktop.</td></tr><tr><td>"UNAVAILABLE"</td><td>Could happen in any of following cases: [^235] [^236]</td></tr><tr><td>"DISABLED"</td><td>The desktop is disabled and the application is disabled.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

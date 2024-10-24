@@ -39,9 +39,7 @@ Name |  Type |  Description
 **capacityMB**|  xsd:long|  Maximum capacity of this datastore cluster, in MB [^2]
 **freeSpaceMB**|  xsd:long|  Available capacity of this datastore cluster, in MB [^2]
 **datastores**| [DatastoreInfo[]](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md)|  Datastores which are members of this datastore cluster [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

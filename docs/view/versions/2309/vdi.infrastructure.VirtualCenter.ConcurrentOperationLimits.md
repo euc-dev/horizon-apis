@@ -33,9 +33,7 @@ Name |  Type |  Description
 **viewComposerProvisioningLimit**|  xsd:int| **Deprecated.**_This property is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ Maximum concurrent view composer provisioning operations. [^208]
 **viewComposerMaintenanceLimit**|  xsd:int|  Maximum concurrent view composer refit operations. [^208] [^8]
 **instantCloneEngineProvisioningLimit**|  xsd:int|  Maximum concurrent instant clone engine provisioning operations.  **_Since_** Horizon 7.0 [^206] [^8]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

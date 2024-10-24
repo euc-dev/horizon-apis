@@ -36,9 +36,7 @@ Name |  Type |  Description
 **persistentDiskDatastores**| [DesktopVirtualCenterDatastoreSettings[]](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)|  Datastores to store persistent disks for View Composer VMs. [^1] [^75]
 **diskSizeMB**|  xsd:int|  Size of the persistent disk in MB. [^76] [^1] [^77] [^74]
 **diskDriveLetter**|  xsd:string|  Persistent disk drive letter. This must be different than [diskDriveLetter](vdi.resources.Desktop.NonPersistentDiskSettings.md#diskDriveLetter) if set. [^78] [^1] [^185] [^74]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

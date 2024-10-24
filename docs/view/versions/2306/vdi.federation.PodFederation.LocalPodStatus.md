@@ -41,9 +41,7 @@ Name |  Type |  Description
 "ENABLE_ERROR"| This status indicates the current Connection Server has failed to reach the ENABLED status in a timely manner. Other Connection Servers in the same Pod were successfully ENABLED. This status may also indicate the current Connection Server was recently installed.
 "DISABLE_ERROR"| This status indicates the current Connection Server has failed to reach the DISABLED status in a timely manner. Other Connection Servers in the same Pod were successfully DISABLED.
 **localConnectionServerStatuses**| [PodFederationLocalConnectionServerStatus[]](vdi.federation.PodFederation.LocalConnectionServerStatus.md)|  Individual Connection Server Multi-DataCenter View statuses for this pod. Null if insufficient permission to read Connection Server settings. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

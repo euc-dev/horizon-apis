@@ -39,9 +39,7 @@ If the naming method is PATTERN, this value must be less than [minNumberOfMachin
 **virtualCenterStorageSettings**| [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md)|  Virtual Center storage settings.
 **virtualCenterNetworkingSettings**| [DesktopVirtualCenterNetworkingSettings](vdi.resources.Desktop.VirtualCenterNetworkingSettings.md)|  Virtual Center networking settings.
 **addVirtualTPM**|  xsd:boolean|  Whether to add Virtual TPM device.  **_Since_** Horizon 7.6 [^5] [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

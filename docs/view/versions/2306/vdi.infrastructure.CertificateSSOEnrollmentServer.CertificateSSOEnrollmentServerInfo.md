@@ -34,9 +34,7 @@ Name |  Type |  Description
 **id**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  Reference to this Enrollment Server. [^2]
 **data**| [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md)|  Configuration data for a Certificate SSO Enrollment Server.
 **refId**|  xsd:string|  Reference ID used for this Certificate SSO Enrollment Server.  **_Since_** Horizon 8.7 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

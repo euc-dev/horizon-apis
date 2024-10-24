@@ -117,9 +117,7 @@ This option is only valid for Automated Desktop.
 **cloudManaged**|  xsd:boolean|  Indicates whether this desktop is managed by Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]
 **numAssignedMachines**|  xsd:int|  Number of machines in the desktop which are assigned to users. The value will be zero for floating assignment desktop.  **_Since_** Horizon 7.11 [^19] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

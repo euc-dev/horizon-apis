@@ -60,9 +60,7 @@ Name |  Type |  Description
 "ARCHIVING"| The persistent disk is being archived.
 "DELETING"| The persistent disk is being deleted.
 **lastAttachedTime**|  xsd:dateTime|  If detached, when this persistent disk was either last attached to a machine or created from a Virtual Disk. It will be unset otherwise. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -32,9 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **guid**|  xsd:string|  GUID of the group in RFC 4122 format. example: 5F5A45D9-15C0-4654-8FCF-D589C0EF3ECA [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

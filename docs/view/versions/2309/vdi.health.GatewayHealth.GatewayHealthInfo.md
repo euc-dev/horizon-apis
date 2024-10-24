@@ -36,24 +36,14 @@ Name |  Type |  Description
 **address**|  xsd:string|  IP address of the gateway. [^2]
 **gatewayZoneInternal**|  xsd:boolean|  Flag to determine whether the gateway is internal. [^2]
 **version**|  xsd:string|  Version of the gateway. [^2]
-**type**|  xsd:string|  Type of the gateway. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AP"| AP type is for UAG.
-"F5"| F5 type is for F5 server.
-"SG"| SG type is for Security Server.
-"SG-cohosted"| SG-cohosted type is for Cohosted CS as gateway.
-"Unknown"| Unknown type is for unrecognized gateway type.
+**type**|  xsd:string|  Type of the gateway. [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AP"</td><td>AP type is for UAG.</td></tr><tr><td>"F5"</td><td>F5 type is for F5 server.</td></tr><tr><td>"SG"</td><td>SG type is for Security Server.</td></tr><tr><td>"SG-cohosted"</td><td>SG-cohosted type is for Cohosted CS as gateway.</td></tr><tr><td>"Unknown"</td><td>Unknown type is for unrecognized gateway type.</td></tr></table>
 **connectionData**| [GatewayHealthConnectionData](vdi.health.GatewayHealth.ConnectionData.md)|  The connection data of the gateway.
 **gatewayStatusActive**|  xsd:boolean|  Flag to indicate gateway status. [^2]
 **gatewayStatusStale**|  xsd:boolean|  Flag to indicate whether gateway is staled or not. [^2]
 **gatewayContacted**|  xsd:boolean|  Flag to indicate whether gateway has contacted connection server. [^2]
 **refId**|  xsd:string|  Reference ID of the gateway.  **_Since_** Horizon 7.10 [^1]
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

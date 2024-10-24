@@ -38,9 +38,7 @@ Name |  Type |  Description
 **jmpConfiguration**| [GlobalSettingsJmpConfiguration](vdi.infrastructure.GlobalSettings.JmpConfiguration.md)| **Deprecated.**_This is being deprecated since JMP configuration will no longer be supported in future releases._ The JMP configuration data.  **_Since_** Horizon 7.4 [^1]
 **clientRestrictionConfiguration**| [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md)|  The Client restriction configuration data.  **_Since_** Horizon 7.11 [^1]
 **featureSettings**| [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md)|  The feature settings data.  **_Since_** Horizon 7.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

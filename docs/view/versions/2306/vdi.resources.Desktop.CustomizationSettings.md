@@ -48,9 +48,7 @@ Name |  Type |  Description
 **sysprepCustomizationSettings**| [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md)|  Settings when Sysprep customization is requested. [^1] [^24]
 **quickprepCustomizationSettings**| [DesktopQuickprepCustomizationSettings](vdi.resources.Desktop.QuickprepCustomizationSettings.md)|  Settings when QuickPrep customization is requested. [^1] [^25]
 **cloneprepCustomizationSettings**| [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md)|  Settings when ClonePrep customization is requested.  **_Since_** Horizon 7.0 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

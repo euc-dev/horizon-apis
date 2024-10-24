@@ -36,9 +36,7 @@ Name |  Type |  Description
 **cloudManaged**|  xsd:boolean|  Indicates whether this cluster/pod is managed by Horizon Cloud Services for Broker.Next use case. This can be set to false, only when there are no cloud managed desktops.  **_Since_** Horizon 7.11 [^5] [^1]
 **agentLogCollectionAllowed**|  xsd:boolean|  Indicates agent log collection is allowed or not. If connection server is installed in Non-FIPS mode default value of this field is true, in case if connection server is installed in FIPS mode default value of this field is set to false.  **_Since_** Horizon 8.6 [^2]
 **enableSysprepDomainJoin**|  xsd:boolean|  Indicates whether Microsoft Sysprep process initiates domain join for all instant clone virtual machines when using sysprep customization. When enabled, Microsoft SysPrep process creates computer accounts and perform domain join on instant clone VMs.  **_Since_** Horizon 8.11 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

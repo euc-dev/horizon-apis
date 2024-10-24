@@ -31,9 +31,7 @@ Name |  Type |  Description
 **type**|  xsd:string|  Type of the OtherFileType currently supported. Other types can be added in future. Examples ApplicationConstants.OtherFileType.URL [^20]
 **name**|  xsd:string|  The name for OtherFileType data. For eg. An object of OtheFileTypeData with type URL can have names http, https or skype. [^20]
 **description**|  xsd:string|  Friendly name for the other file type - for example, "Http Web URL". If unset, no friendly name will be displayed. [^1] [^13]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -56,9 +56,7 @@ Pattern strings may contain wildcard characters. '*' matches zero or more charac
 **maxMultiSessions**|  xsd:int|  Maximum number of multi-sessions a user can have in this application pool.  **_Since_** Horizon 7.7 [^10] [^1] [^8] [^18]
 **cloudBrokered**|  xsd:boolean|  Indicates whether the application pool is brokered by cloud broker.  **_Since_** Horizon 8.2 [^5] [^1]
 **avApplicationPackageGuid**|  xsd:string|  Application package guid for the AV application. This will be set only for application pool published from app volumes manager.  **_Since_** Horizon 8.8 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -37,9 +37,7 @@ Name |  Type |  Description
 **port**|  xsd:int|  the port number configured for the View Composer server [^1]
 **data**| [ViewComposerHealthData](vdi.health.ViewComposerHealth.ViewComposerHealthData.md)|  Basic information about the View Composer server.
 **connectionServerData**| [ViewComposerHealthConnectionServerConnectionData[]](vdi.health.ViewComposerHealth.ConnectionServerConnectionData.md)|  Information about the View Composer connections from each connection server. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

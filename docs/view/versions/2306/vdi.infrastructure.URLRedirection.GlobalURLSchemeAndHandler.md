@@ -40,9 +40,7 @@ Name |  Type |  Description
 "DESKTOP"| Desktop Pool.
 **gaeSchemeHandler**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Global Application Entitlement that can handle this URL Scheme. [^1] [^203]
 **geSchemeHandler**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global Entitlement that should be used to launch URLs with this Scheme. [^1] [^204]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

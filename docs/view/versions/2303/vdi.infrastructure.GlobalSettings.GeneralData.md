@@ -89,9 +89,7 @@ If value set to true, the user will need to provide a UPN (e.g. user@domain) or 
 **preLoginAdminBannerMessage**|  xsd:string|  The banner message to be displayed before user logins to Horizon Admin Console.  **_Since_** Horizon 8.7 [^307] [^1] [^289]
 **enforceCsrfProtection**|  xsd:boolean|  Restricts XML-API usage to safer clients which support CSRF protection.  **_Since_** Horizon 8.8 [^5] [^1]
 **enforceE2EEncryption**|  xsd:boolean|  Restricts XML-API usage to safer clients which support E2E encryption.  **_Since_** Horizon 8.8 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

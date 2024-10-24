@@ -31,9 +31,7 @@ Name |  Type |  Description
 **numCPU**|  xsd:int|  The number of CPUs to configure on clones [^10] [^8]
 **ram**|  xsd:int|  The RAM in MB to configure on clones [^10] [^8]
 **coresPerSocket**|  xsd:int|  Number of cores per socket for the CPU, the number CPU must be a multiple of coresPerSocket [^10] [^1] [^8]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

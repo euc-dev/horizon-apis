@@ -33,14 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The ID of the connection server.
 **connectionServerName**|  xsd:string|  The name of the connection server.
-**status**|  xsd:string|  The status of the connection to the domain.
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Domain is accepting LDAP bind operations and has full functionality.
-"WARN"| Domain is only accepting LDAP ping operations and has limited functionality. This may indicate a one-way trust relationship with this domain.
-"ERROR"| Domain can not be contacted.
-"UNKNOWN"| Domain health could not be determined.
+**status**|  xsd:string|  The status of the connection to the domain.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Domain is accepting LDAP bind operations and has full functionality.</td></tr><tr><td>"WARN"</td><td>Domain is only accepting LDAP ping operations and has limited functionality. This may indicate a one-way trust relationship with this domain.</td></tr><tr><td>"ERROR"</td><td>Domain can not be contacted.</td></tr><tr><td>"UNKNOWN"</td><td>Domain health could not be determined.</td></tr></table>
 **trustRelationship**|  xsd:string|  The trust relationship for the domain.
 * This property will be one of:
 |  Value |  Description
@@ -52,14 +45,7 @@ Name |  Type |  Description
 "TWOWAY_FOREST"| The domain is in the same forest as the broker domain, implies two way trust.
 "MANUAL"| The domain was manually configured (the trust has not been detected).
 "UNKNOWN"| The trust relationship could not be determined
-**contactable**|  xsd:string|  Whether the domain can be contacted.
-* This property will be one of:
-|  Value |  Description
----|---
-"UNCONTACTABLE"| No domain controllers appear to be present on the network for this domain.
-"FULLYACCESSIBLE"| The domain controller(s) are accepting bind operations.
-"CANNOTBIND"| The domain controller(s) are only accepting LDAP ping operations.
-"UNKNOWN"| Cannot determine accessibility.
+**contactable**|  xsd:string|  Whether the domain can be contacted.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNCONTACTABLE"</td><td>No domain controllers appear to be present on the network for this domain.</td></tr><tr><td>"FULLYACCESSIBLE"</td><td>The domain controller(s) are accepting bind operations.</td></tr><tr><td>"CANNOTBIND"</td><td>The domain controller(s) are only accepting LDAP ping operations.</td></tr><tr><td>"UNKNOWN"</td><td>Cannot determine accessibility.</td></tr></table>
 **refId**|  xsd:string|  Reference ID of the connection server.  **_Since_** Horizon 7.10 [^1]
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12 [^1] [^2]
 

@@ -64,9 +64,7 @@ Name |  Type |  Description
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Image management version to which this asset belongs to. [^2]
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center where this asset is created. [^2]
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management asset. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

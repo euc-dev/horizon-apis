@@ -53,9 +53,7 @@ Name |  Type |  Description
 **rdsServerMaintenanceData**| [RDSServerMaintenanceData](vdi.resources.RDSServer.RDSServerMaintenanceData.md)|  Maintenance details about the RDS Server. The data will be populated only for Linked clone or Instant clone provisioned RDS Server.  **_Since_** Horizon 7.9 [^1] [^2]
 **refId**|  xsd:string|  Reference ID used for this RDS Server.  **_Since_** Horizon 8.1 [^1] [^2]
 **networkLabels**| [RDSNetworkLabelData[]](vdi.resources.RDSServer.NetworkLabelData.md)|  The network label(s) associated with this Farm. The network label(s) automatically assigned by Connection Server to this Machine. These may differ from the actual labels if manually changed after automatic assignment or if there was an error in assignment.  **_Since_** Horizon 8.11 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

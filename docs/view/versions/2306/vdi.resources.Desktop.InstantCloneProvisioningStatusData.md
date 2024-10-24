@@ -71,9 +71,7 @@ Name |  Type |  Description
 **pushImageSettings**| [DesktopPushImageSettings](vdi.resources.Desktop.PushImageSettings.md)|  If the current operation is a push image, the settings for that operation. [^1] [^32]
 **pendingImageError**|  xsd:string|  This represents the error message if publishing of PushImage is failed.  **_Since_** Horizon 7.8 [^1]
 **pendingImageProgress**|  xsd:int|  This represents the pending image publish progress in percentage for an instant clone desktop pool.  **_Since_** Horizon 7.11 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -39,9 +39,7 @@ Name |  Type |  Description
 "PATTERN"| Naming pattern.
 **patternNamingSettings**| [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md)|  Naming pattern settings. [^1] [^102]
 **specificNamingSettings**| [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md)|  Specified name settings. [^1] [^103]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

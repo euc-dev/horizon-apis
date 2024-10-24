@@ -28,16 +28,9 @@ Diagnostic operation response
 Properties
 Name |  Type |  Description
 ---|---|---
-**status**|  xsd:string|  Diagnostic operation status [^257] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"SUCCESS"| Diagnostic operation is done successfully.
-"ERROR"| Diagnostic operation has failed.
+**status**|  xsd:string|  Diagnostic operation status [^257] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SUCCESS"</td><td>Diagnostic operation is done successfully.</td></tr><tr><td>"ERROR"</td><td>Diagnostic operation has failed.</td></tr></table>
 **message**|  xsd:string|  Message received from Horizon Diagnostic Agent. If the status is ERROR then the value would be error message. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

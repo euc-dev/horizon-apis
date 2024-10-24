@@ -38,9 +38,7 @@ Name |  Type |  Description
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Entity id of image management stream to which this tag belongs. [^2]
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Entity id of image management version to which this tag is assigned.
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management tag. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

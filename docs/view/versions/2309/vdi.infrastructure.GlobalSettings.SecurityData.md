@@ -55,9 +55,7 @@ Name |  Type |  Description
 **enableIPSecForSecurityServerPairing**|  xsd:boolean| **Deprecated.**_This property is being deprecated since Security Server will no longer be supported in future releases. Please consider using Unified Access Gateway (UAG) instead._ Determines whether to use Internet Protocol Security (IPSec) for connections between security servers and View Connection Server instances. By default, secure connections (using IPSec) for security server connections is enabled.
 **certAuthData**| [GlobalSettingsCertificateAuthenticationData](vdi.infrastructure.GlobalSettings.CertificateAuthenticationData.md)|  Certificate authentication Data.  **_Since_** Horizon 8.10
 **crlPrefetchConfiguration**| [GlobalSettingsCrlPrefetchConfiguration](vdi.infrastructure.GlobalSettings.CrlPrefetchConfiguration.md)|  CRL Prefetch Service Configuration  **_Since_** Horizon 8.11
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

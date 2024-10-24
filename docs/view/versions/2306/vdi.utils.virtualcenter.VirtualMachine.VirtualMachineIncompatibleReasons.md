@@ -36,9 +36,7 @@ Name |  Type |  Description
 **incompatableGRIDvGPUs**|  xsd:boolean|  This VirtualMachine is on a host that doesn't support NVIDIA GRID vGPUs or the vGPU type required by this VirtualMachine. If true, this cannot be used in manual desktop creation with NVIDIA GRID vGPUs enabled.  **_Since_** Horizon View 6.1 [^2]
 **instantInternal**|  xsd:boolean|  This VirtualMachine is a Instant Clone Engine internal virtual machine. If true, this cannot be used in manual desktop creation.  **_Since_** Horizon 7.6 [^5] [^2]
 **instantCloneBaseImage**|  xsd:boolean|  This VirtualMachine is an Instant Clone base image parent machine. If true, this cannot be used in manual desktop creation.  **_Since_** Horizon 7.7 [^5] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

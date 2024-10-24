@@ -32,21 +32,9 @@ Name |  Type |  Description
 **minimumKeyLength**|  xsd:int|  Minimum key-length of the private/public key associated with the certificate. [^1]
 **hashAlgorithm**|  xsd:string|  Hash algorithm used in the certificate signing request. [^1]
 **validitySeconds**|  xsd:long|  Length of time, in seconds, that certificates issues with this template remain valid. [^1]
-**status**|  xsd:string|  The status of this template.
-* This property will be one of:
-|  Value |  Description
----|---
-"SUPPORTED_OPTIMAL"| This template has the optimal properties for CertSSO.
-"SUPPORTED_NOT_OPTIMAL"| This template does not have the ideal properties for CertSSO.
-"UNKNOWN"| This status of this template is unknown. A template with this status cannot be used in connector creation.
-"NO_CAPABILITY"| This template is not configured to perform CertSSO. A template with this status cannot be used in connector creation.
-"INVALID"| This template is smartcard logon enabled, but some setting is invalid. A template with this status cannot be used in connector creation.
-"MANUAL"| This template is smartcard logon enabled, but manual enrollment is needed. A template with this status cannot be used in connector creation.
-"UNSUITABLE"| This template is smartcard logon enabled, but is unsuitable. A template with this status cannot be used in connector creation.
+**status**|  xsd:string|  The status of this template.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SUPPORTED_OPTIMAL"</td><td>This template has the optimal properties for CertSSO.</td></tr><tr><td>"SUPPORTED_NOT_OPTIMAL"</td><td>This template does not have the ideal properties for CertSSO.</td></tr><tr><td>"UNKNOWN"</td><td>This status of this template is unknown. A template with this status cannot be used in connector creation.</td></tr><tr><td>"NO_CAPABILITY"</td><td>This template is not configured to perform CertSSO. A template with this status cannot be used in connector creation.</td></tr><tr><td>"INVALID"</td><td>This template is smartcard logon enabled, but some setting is invalid. A template with this status cannot be used in connector creation.</td></tr><tr><td>"MANUAL"</td><td>This template is smartcard logon enabled, but manual enrollment is needed. A template with this status cannot be used in connector creation.</td></tr><tr><td>"UNSUITABLE"</td><td>This template is smartcard logon enabled, but is unsuitable. A template with this status cannot be used in connector creation.</td></tr></table>
 **statusReason**|  xsd:string|  Additional non-localized explanation of the status. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

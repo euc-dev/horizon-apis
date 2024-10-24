@@ -36,9 +36,7 @@ Name |  Type |  Description
 **esx65AndMoreThan64Hosts**|  xsd:boolean|  This Datastore is ESX version 6.5 or greater, but belongs to a cluster with more than 64 hosts. If true, this cannot be used as a replica disk in linked clone desktop creation.  **_Since_** Horizon 8.1 [^2]
 **notEsx51AndMoreThan8Hosts**|  xsd:boolean|  This Datastore is not ESX version 5.1 and belongs to a cluster with more than 8 hosts. If true, this cannot be used as a replica disk in linked clone desktop creation. [^2]
 **incompatibleNativeSnapshots**|  xsd:boolean|  Whether or not the datastore is incompatible with the native snapshot feature. If true, this datastore cannot be used as a replica or OS disk for linked clone desktop creation with native snapshots enabled. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

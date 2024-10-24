@@ -46,9 +46,7 @@ At most one of the [user](vdi.users.GlobalSessionQueryService.CountSpec.md#user)
 At most one of the [user](vdi.users.GlobalSessionQueryService.CountSpec.md#user), [pod](vdi.users.GlobalSessionQueryService.CountSpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.CountSpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.CountSpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.CountSpec.md#clientName) values must be set to non null value.  **_Since_** Horizon 7.2 [^1]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  GlobalEntitlement unique identifier for global entitlement. Either [globalEntitlement](vdi.users.GlobalSessionQueryService.CountSpec.md#globalEntitlement) or [globalApplicationEntitlement](vdi.users.GlobalSessionQueryService.CountSpec.md#globalApplicationEntitlement) can be set. At most one of these fields can be set. [^1]
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  GlobalEntitlement unique identifier for global application entitlement. Either [globalEntitlement](vdi.users.GlobalSessionQueryService.CountSpec.md#globalEntitlement) or [globalApplicationEntitlement](vdi.users.GlobalSessionQueryService.CountSpec.md#globalApplicationEntitlement) can be set. At most one of these fields can be set. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -137,9 +137,7 @@ Name |  Type |  Description
 "VmTemplate"|  \- [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md) Service.
 "WS1Assist"|  \- [WS1Assist](vdi.helpdesk.WS1Assist.md) Service.
 **value**|  xsd:string|  The name of the service.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -45,9 +45,7 @@ Name |  Type |  Description
 **stopOnFirstError**|  xsd:boolean|  Indicates that the operation should stop on first error. [^6]
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  The machines to recompose. These must be associated with the desktop. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service, but not the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services.
 **changeImageForNewVMs**|  xsd:boolean|  Change the default image for new machines. If this flag set to TRUE, existing machines in the pool get re-composed to the selected snapshot and new machines creates from the latest snapshot. If this flag is set to FALSE, existing machines in the pool gets re-composed to the selected snapshot and new machines creates from the older snapshot which is selected while creating pool  **_Since_** Horizon 7.7 [^6] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  New image management stream for the farm.
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  New image management tag for the farm. This tag must be within the [imageManagementStream](vdi.resources.Farm.ImageManagementMaintenanceSettings.md#imageManagementStream).
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

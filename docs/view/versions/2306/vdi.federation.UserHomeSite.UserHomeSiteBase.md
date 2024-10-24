@@ -38,9 +38,7 @@ Name |  Type |  Description
 **site**| [SiteId](vdi.entity.SiteId.md)|  Home Site Id [^2]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  If set, the specified site is the overriding home site for this GlobalEntitlement. If both globalEntitlement and globalApplicationEntitlement are unset, the specified site is the global configured home site. [^1] [^2]
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  If set, the specified site is the overriding home site for this GlobalApplicationEntitlement. If both globalEntitlement and globalApplicationEntitlement are unset, the specified site is the global configured home site.  **_Since_** Horizon View 6.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

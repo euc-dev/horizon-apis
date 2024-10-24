@@ -35,9 +35,7 @@ Name |  Type |  Description
 **server**| [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)|  Data on the SAML authenticator server
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  The certificate override for the SAML authenticator. [^1]
 **connectionServers**| [ConnectionServerId[]](vdi.entity.ConnectionServerId.md)|  The list of Connection Servers for which this SAML authenticator is enabled.  **_Since_** Horizon 7.8 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

@@ -54,9 +54,7 @@ Name |  Type |  Description
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  Session associated with this event. Will be unset if there is no Session association for this event. [^1]
 **logonTiming**|  xsd:string|  Logon timing profiler tree. Will be unset if there is no timing profiler tree association for this event. [^1]
 **properties**|  xsd:string|  Json containing various attributes associated with this timing profiler event. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

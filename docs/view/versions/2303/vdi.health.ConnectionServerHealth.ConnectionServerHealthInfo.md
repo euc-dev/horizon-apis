@@ -33,15 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The ID for this connection server.
 **name**|  xsd:string|  The name of this connection server.
-**status**|  xsd:string|  The status of this connection server.  **_Since_** Horizon 7.0
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| The connection to the connection server is working properly.
-"NOT_RESPONDING"| The connection server is not responding.
-"UNKNOWN"| The status of the connection server is not known.
-"ERROR"| Error occurred when connecting to connection server.
-"RESTART_REQUIRED"| Connection server needs a restart
+**status**|  xsd:string|  The status of this connection server.  **_Since_** Horizon 7.0<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>The connection to the connection server is working properly.</td></tr><tr><td>"NOT_RESPONDING"</td><td>The connection server is not responding.</td></tr><tr><td>"UNKNOWN"</td><td>The status of the connection server is not known.</td></tr><tr><td>"ERROR"</td><td>Error occurred when connecting to connection server.</td></tr><tr><td>"RESTART_REQUIRED"</td><td>Connection server needs a restart.</td></tr></table>
 **version**|  xsd:string|  The version of the Connection Server.
 **build**|  xsd:string|  Build number of the connection server.
 **connectionData**| [ConnectionServerHealthConnectionData](vdi.health.ConnectionServerHealth.ConnectionData.md)|  The connection data for this connection server. [^1]
@@ -58,9 +50,7 @@ Name |  Type |  Description
 **refId**|  xsd:string|  Reference ID used for this connection server.  **_Since_** Horizon 7.10 [^1]
 **resourcesData**| [ConnectionServerHealthResourcesData](vdi.health.ConnectionServerHealth.ConnectionServerHealthResourcesData.md)|  Resources data of the connection server.  **_Since_** Horizon 7.11 [^1]
 **lastUpdatedTimestamp**|  xsd:long|  The timestamp in milliseconds when the last update was obtained. Measured as epoch time.  **_Since_** Horizon 7.12 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

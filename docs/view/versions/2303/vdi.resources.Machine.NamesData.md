@@ -31,9 +31,7 @@ Name |  Type |  Description
 **desktopName**|  xsd:string|  The name of the Desktop to which this Machine belongs. [^2]
 **userName**|  xsd:string| **Deprecated.**_use[userNames](vdi.resources.Machine.NamesData.md#userNames) instead. This field will not be populated for machine belonging to pool which support multiple assignment. _ The name of the user to whom this Machine has been assigned. [^1] [^2]
 **userNames**|  xsd:string[]|  Names of the users assigned to this Machine. This cannot be a group.  **_Since_** Horizon 7.12 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

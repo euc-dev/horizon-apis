@@ -41,9 +41,7 @@ Name |  Type |  Description
 **base**| [PermissionBase](vdi.users.Permission.PermissionBase.md)|  Base data used for permission creation. [^2]
 **namesData**| [PermissionNamesData](vdi.users.Permission.PermissionNamesData.md)|  Names data of User, Role and AccessGroup involved in this permission.  **_Since_** Horizon 7.8 [^1] [^2]
 **refId**|  xsd:string|  Reference ID for this permission.  **_Since_** Horizon 8.6 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

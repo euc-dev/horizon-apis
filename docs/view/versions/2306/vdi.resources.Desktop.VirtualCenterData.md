@@ -46,9 +46,7 @@ Name |  Type |  Description
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Image Management Tag associated with full clone and instant clone desktops if source is image catalog. [^1] [^2]
 **pendingImageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Pending Image Management Stream associated with instant clone desktops if source is image catalog. [^1] [^2]
 **pendingImageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Pending Image Management Tag associated with instant clone desktops if source is image catalog. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

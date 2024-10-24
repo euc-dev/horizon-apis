@@ -30,9 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **applicationExePath**|  xsd:string|  Details of the missing Application exePath
 **rdsServerNames**|  xsd:string[]|  Array of RDS server names that this application has not been installed on
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

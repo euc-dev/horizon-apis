@@ -72,9 +72,7 @@ Name |  Type |  Description
 "DistributedVirtualPortgroup"| DVS port group
 **refId**|  xsd:string|  Reference ID used for this base image VM.  **_Since_** Horizon 8.1 [^1] [^2]
 **numNics**|  xsd:int|  Number of network interface cards in this base image VM.  **_Since_** Horizon 8.8 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

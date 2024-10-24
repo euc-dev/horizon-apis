@@ -34,9 +34,7 @@ Name |  Type |  Description
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  Entity id of image management asset. [^2]
 **base**| [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md)|  Basic data about a image management asset.
 **refId**|  xsd:string|  Reference ID used for this image management asset.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

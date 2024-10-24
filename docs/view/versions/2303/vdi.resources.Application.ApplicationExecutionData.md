@@ -42,9 +42,7 @@ Name |  Type |  Description
 **autoUpdateFileTypes**|  xsd:boolean|  Whether or not the file types supported by this application should be allowed to automatically update to reflect changes reported by the agent. Typically this should be set to false if the application has manually configured supported file types.  **_Since_** Horizon View 6.2 [^6]
 **otherFileTypes**| [ApplicationOtherFileTypeData[]](vdi.resources.Application.OtherFileTypeData.md)|  If set, set of different type of file types reported by Application that can be passed from agent to client via broker or as specified by the administrator (if this application is manually configured). If unset, this application does not present any other file type support.  **_Since_** Horizon 7.0 [^1] [^14]
 **autoUpdateOtherFileTypes**|  xsd:boolean|  Whether or not the other file types supported by this application should be allowed to automatically update to reflect changes reported by the agent. Typically this should be set to false if the application has manually configured supported file types.  **_Since_** Horizon 7.0 [^6]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

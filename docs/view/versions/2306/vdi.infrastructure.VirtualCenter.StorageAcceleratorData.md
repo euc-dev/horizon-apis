@@ -34,9 +34,7 @@ Name |  Type |  Description
 **enabled**|  xsd:boolean|  Is View Storage Accelerator enabled? [^5]
 **defaultCacheSizeMB**|  xsd:int|  Default size of the cache in megabytes. For vCenter version 7.0 or above maximum supported cache size is 32 GB, otherwise it will be 2 GB. [^176] [^1] [^177] [^178] [^53]
 **hostOverrides**| [VirtualCenterStorageAcceleratorHostOverride[]](vdi.infrastructure.VirtualCenter.StorageAcceleratorHostOverride.md)|  Cache size overrides for hosts which support View Storage Accelerator. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

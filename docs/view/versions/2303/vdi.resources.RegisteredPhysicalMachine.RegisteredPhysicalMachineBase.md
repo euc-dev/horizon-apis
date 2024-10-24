@@ -56,9 +56,7 @@ Name |  Type |  Description
 "Linux (Red Hat Enterprise Linux)"| Linux (Red Hat Enterprise)
 "Linux (SUSE Linux Enterprise Server)"| Linux (Suse)
 "Linux (CentOS)"| Linux (CentOS)
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

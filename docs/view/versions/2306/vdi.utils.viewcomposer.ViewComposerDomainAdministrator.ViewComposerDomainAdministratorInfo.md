@@ -35,9 +35,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  Entity id for the view composer domain administrator. [^2]
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Basic data about a view composer domain administrator.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

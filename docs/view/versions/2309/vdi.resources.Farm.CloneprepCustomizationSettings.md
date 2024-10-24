@@ -37,9 +37,7 @@ Name |  Type |  Description
 **postSynchronizationScriptName**|  xsd:string| **Deprecated.**_since Horizon 2309. Use[postSynchronizationScriptName](vdi.resources.Farm.CustomizationScriptSettings.md#postSynchronizationScriptName) _ Post synchronization script. ClonePrep can run a customization script on instant-clone machines after they are created or recovered or a new image is pushed. Provide the path to the script on the parent virtual machine. [^1]
 **postSynchronizationScriptParameters**|  xsd:string| **Deprecated.**_since Horizon 2309. Use[postSynchronizationScriptParameters](vdi.resources.Farm.CustomizationScriptSettings.md#postSynchronizationScriptParameters) _ Post synchronization script parameters. Example: p1 p2 p3 [^1]
 **primingComputerAccount**|  xsd:string|  Instant Clone publishing needs an additional computer account in the same AD domain as the clones. This field accepts the pre-created computer accounts.This field is ignored when reusePreExistingAccounts is false.  **_Since_** Horizon 7.8 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

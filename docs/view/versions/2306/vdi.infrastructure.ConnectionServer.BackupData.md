@@ -28,35 +28,14 @@ Class for Ldap Backup Configuration.
 Properties
 Name |  Type |  Description
 ---|---|---
-**ldapBackupFrequencyTime**|  xsd:string|  Ldap Backup Frequency.
-* This property will be one of:
-|  Value |  Description
----|---
-"HOUR_1"| Backup every 1 hour.
-"HOUR_6"| Backup every 6 hours.
-"HOUR_12"| Backup every 12 hours.
-"DAY_1"| Backup every 1 day.
-"DAY_2"| Backup every 2 days.
-"WEEK_1"| Backup every 1 week.
-"WEEK_2"| Backup every 2 weeks.
-"HOUR_0"| Never Backup.
+**ldapBackupFrequencyTime**|  xsd:string|  Ldap Backup Frequency.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"HOUR_1"</td><td>Backup every 1 hour.</td></tr><tr><td>"HOUR_6"</td><td>Backup every 6 hours.</td></tr><tr><td>"HOUR_12"</td><td>Backup every 12 hours.</td></tr><tr><td>"DAY_1"</td><td>Backup every 1 day.</td></tr><tr><td>"DAY_2"</td><td>Backup every 2 days.</td></tr><tr><td>"WEEK_1"</td><td>Backup every 1 week.</td></tr><tr><td>"WEEK_2"</td><td>Backup every 2 weeks.</td></tr><tr><td>"HOUR_0"</td><td>Never Backup.</td></tr></table>
 **ldapBackupMaxNumber**|  xsd:int|  Maximum number of backups. [^8]
 **ldapBackupFolder**|  xsd:string|  Location of the backup folder.
 **lastLdapBackupTime**|  xsd:dateTime|  Last Ldap Backup Time.  **_Since_** Horizon 7.8 [^1] [^2]
-**lastLdapBackupStatus**|  xsd:string|  Last Ldap Backup Status.  **_Since_** Horizon 7.8 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Indicates that the status is OK
-"DiskFull"| Indicates that Disk is full for LDAP to be backed up
-"UnableCreateDir"| Unable to create directory
-"ViewComposerBackupFailed"| View composer backup failed
-"ERROR_UNKNOWN"| Indicates that the error is unknown
+**lastLdapBackupStatus**|  xsd:string|  Last Ldap Backup Status.  **_Since_** Horizon 7.8 [^1] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Indicates that the status is OK</td></tr><tr><td>"DiskFull"</td><td>Indicates that Disk is full for LDAP to be backed up</td></tr><tr><td>"UnableCreateDir"</td><td>Unable to create directory</td></tr><tr><td>"ViewComposerBackupFailed"</td><td>View composer backup failed</td></tr><tr><td>"ERROR_UNKNOWN"</td><td>Indicates that the error is unknown</td></tr></table>
 **isBackupInProgress**|  xsd:boolean|  Indicates if the backup is in progress.  **_Since_** Horizon 7.8 [^5] [^2]
 **ldapBackupTimeOffset**|  xsd:int|  Ldap backup time offset in minutes.  **_Since_** Horizon 7.8 [^19] [^72] [^247]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

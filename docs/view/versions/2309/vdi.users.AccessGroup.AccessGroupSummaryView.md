@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  The access group name. [^2] [^3]
 **id**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group id. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

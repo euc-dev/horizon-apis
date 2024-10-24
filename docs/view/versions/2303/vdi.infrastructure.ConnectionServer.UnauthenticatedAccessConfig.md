@@ -34,9 +34,7 @@ Name |  Type |  Description
 **userIdleTimeout**|  xsd:int|  Unauthenticated Access user idle session timeout in minutes. The default value is 10 minutes. [^45] [^1]
 **clientPuzzleDifficulty**|  xsd:int|  Client puzzle difficulty for DoS attack prevention for Unauthenticated Access. Higher difficulty might increase login time and affect user experience. The default value is 21.  **_Since_** Horizon 7.6 [^254] [^1] [^255] [^119]
 **blockUnsupportedClients**|  xsd:boolean|  Block older clients which don't support client puzzles to prevent DOS attack on RDSH servers for Unauthenticated Access. The default value is false.  **_Since_** Horizon 7.6 [^5] [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

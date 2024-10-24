@@ -40,15 +40,7 @@ Name |  Type |  Description
 **userName**|  xsd:string|  The username used to connect to the database
 **databaseName**|  xsd:string|  The name of the database.
 **tablePrefix**|  xsd:string|  The prefix of tables within the database.
-**state**|  xsd:string|  The state of the database connection.
-* This property will be one of:
-|  Value |  Description
----|---
-"CONNECTED"| The connection is connected to the database.
-"CONNECTING"| The connection is connecting to the database.
-"DISCONNECTED"| The connection is disconnected from the database.
-"RECONNECTING"| The connection is reconnecting to the database.
-"ERROR"| There is an error with the database connection.
+**state**|  xsd:string|  The state of the database connection.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONNECTED"</td><td>The connection is connected to the database.</td></tr><tr><td>"CONNECTING"</td><td>The connection is connecting to the database.</td></tr><tr><td>"DISCONNECTED"</td><td>The connection is disconnected from the database.</td></tr><tr><td>"RECONNECTING"</td><td>The connection is reconnecting to the database.</td></tr><tr><td>"ERROR"</td><td>There is an error with the database connection.</td></tr></table>
 **error**|  xsd:string|  Any error with the database connection. [^1]
 
 

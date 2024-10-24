@@ -29,17 +29,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **certAuthMapping**|  xsd:string[]|  Indicates the custom certificate mapping and certificate validation will be done based on all the strings given in certAuthMapping. [^1]
-**certAuthMappingControl**|  xsd:string[]|  Indicates the types of mapping to validate certificate. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"SID"| Denotes certificate validation on SID.
-"CUSTOM"| Denotes certificate validation on custom mapping.
-"LEGACY"| Denotes legacy certificate validation. In LEGACY mode, the certificate validation is based on User Principal Names(UPN) first, if UPN is unavailable we match X509IssuerSubject or X509SubjectOnly present at altSecurityIdentities attribute of the users Object.
+**certAuthMappingControl**|  xsd:string[]|  Indicates the types of mapping to validate certificate. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SID"</td><td>Denotes certificate validation on SID.</td></tr><tr><td>"CUSTOM"</td><td>Denotes certificate validation on custom mapping.</td></tr><tr><td>"LEGACY"</td><td>Denotes legacy certificate validation. In LEGACY mode, the certificate validation is based on User Principal Names(UPN) first, if UPN is unavailable we match X509IssuerSubject or X509SubjectOnly present at altSecurityIdentities attribute of the users Object.</td></tr></table>
 **certAuthMappingNames**|  xsd:string[]|  List of all supported certificate mapping properties. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

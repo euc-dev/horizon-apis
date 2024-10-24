@@ -42,9 +42,7 @@ Name |  Type |  Description
 "ALL"| All seven days of the week
 **startTime**|  xsd:string|  Starting time for the blackout. [^22]
 **endTime**|  xsd:string|  Ending time for the blackout. [^22]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

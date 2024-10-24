@@ -32,9 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  Entity IDs of RDS Servers in the Manual Farm
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

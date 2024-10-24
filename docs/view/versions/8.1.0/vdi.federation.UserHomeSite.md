@@ -442,7 +442,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id for an individual user whose home site to be resolved. UserOrGroupId for group is not supported.
-
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  The Id of the GlobalEntitlement the UserOrGroup is entitled to.
 
 

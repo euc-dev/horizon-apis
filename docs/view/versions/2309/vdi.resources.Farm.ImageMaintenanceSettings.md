@@ -33,9 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  New base image VM for the farm. This must be in the same datacenter as the base image of the farm.
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  New base image snapshot for the farm. This must be a snapshot of the [parentVm](vdi.resources.Farm.ImageMaintenanceSettings.md#parentVm).
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

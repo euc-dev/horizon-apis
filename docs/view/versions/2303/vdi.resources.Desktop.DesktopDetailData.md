@@ -87,9 +87,7 @@ Name |  Type |  Description
 **lastModifiedTime**|  xsd:dateTime|  Desktop last modified time. [^1]
 **numOfEntitledUsers**|  xsd:int|  Number of entitled users for the desktop. [^1]
 **numMachines**|  xsd:int|  Number of machines in the desktop. The machines may be queried using the query service for Machine. This field does not apply to RDS desktops. The RDS servers associated with an RDS desktop may be queried using the query service for RDSServer.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

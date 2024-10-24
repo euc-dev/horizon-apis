@@ -71,9 +71,7 @@ Name |  Type |  Description
 **memoryMB**|  xsd:int|  Memory size of the template, in MB.  **_Since_** Horizon 7.4 [^1] [^2]
 **diskSizeInBytes**|  xsd:long|  Sum of capacities of all the virtual disks in the template, in bytes.  **_Since_** Horizon 7.4 [^1] [^2]
 **refId**|  xsd:string|  Reference ID used for this vm template.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

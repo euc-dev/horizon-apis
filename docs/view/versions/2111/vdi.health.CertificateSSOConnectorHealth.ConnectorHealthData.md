@@ -31,13 +31,7 @@ The health data for a CertSSO connector.
 Properties
 Name |  Type |  Description
 ---|---|---
-**overallState**|  xsd:string|  The overall state of the connector. This represents the most severe state of all the component health states.
-* This property will be one of:
-|  Value |  Description
----|---
-"OK"| Overall state is green.
-"WARN"| Overall state is yellow.
-"ERROR"| Overall state is red.
+**overallState**|  xsd:string|  The overall state of the connector. This represents the most severe state of all the component health states.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Overall state is green.</td></tr><tr><td>"WARN"</td><td>Overall state is yellow.</td></tr><tr><td>"ERROR"</td><td>Overall state is red.</td></tr></table>
 **primaryEnrollmentServerHealth**| [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md)|  The primary enrollment server health.
 **secondaryEnrollmentServerHealth**| [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md)|  The secondary enrollment server health. [^1]
 **domainHealth**| [CertificateSSOConnectorHealthEnrollmentServerDomainHealthData](vdi.health.CertificateSSOConnectorHealth.DomainHealthData.md)|  The health of the domain.

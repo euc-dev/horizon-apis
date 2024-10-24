@@ -30,17 +30,8 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **agentId**|  xsd:string|  The agent ID for Workspace ONE Assist. [^1] [^2]
-**errorCode**|  xsd:int|  Error code for failing to get agent ID. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-null| There is no error.
-null| the View Agent version (Helpdesk Plugin) is lower than required version.
-null| The Workspace One Assist Agent isn't installed.
-null| The Workspace One Assist Agent doesn't support this version of OS.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**errorCode**|  xsd:int|  Error code for failing to get agent ID. [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>null</td><td>There is no error.</td></tr><tr><td>null</td><td>the View Agent version (Helpdesk Plugin) is lower than required version.</td></tr><tr><td>null</td><td>The Workspace One Assist Agent isn't installed.</td></tr><tr><td>null</td><td>The Workspace One Assist Agent doesn't support this version of OS.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

@@ -35,9 +35,7 @@ Name |  Type |  Description
 **connectingSessionThreshold**|  xsd:int|  This value will be used for handling logon storm. The configured threshold specifies the maximum number of sessions that can concurrently log into each RDSH agent machine in the farm, exempting reconnecting sessions. By default, this threshold is disabled and does not deny session logins.  **_Since_** Horizon 8.4 [^19] [^1] [^72] [^116]
 **loadIndexThreshold**|  xsd:int|  This value will be used for handling logon storm. The configured threshold specifies the minimum load index at which each RDSH agent machine in the farm will start denying session logins, exempting reconnecting sessions. By default, this threshold is disabled and does not deny session logins.  **_Since_** Horizon 8.4 [^19] [^1] [^72] [^115]
 **lbMetricsSettings**| [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)|  Metrics used for load balancing. This will be used only when [useCustomScript](vdi.resources.Farm.LoadBalancingSettings.md#useCustomScript) is set to false. [^1] [^117]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

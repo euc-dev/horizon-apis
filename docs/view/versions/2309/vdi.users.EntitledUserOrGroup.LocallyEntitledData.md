@@ -40,9 +40,7 @@ Name |  Type |  Description
 **applicationUserEntitlements**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  Local application user entitlements for this user or group. The array index will correspond to the same application entitlement as the ApplicationId array. [^1]
 **urlRedirectionSettings**| [URLRedirectionId[]](vdi.entity.URLRedirectionId.md)|  Local URL Redirection settings associated with user or group.  **_Since_** Horizon 7.0 [^1] [^14]
 **urlRedirectionUserEntitlements**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  URLRedirection user entitlements for this user or group. The array index will correspond to the same urlRedirection entitlement as the URLRedirectionId array.  **_Since_** Horizon 7.0 [^1] [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

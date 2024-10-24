@@ -51,9 +51,7 @@ Name |  Type |  Description
 **selectiveScheduleMaintenance**|  xsd:boolean|  Set to true for selective schedule maintenance. Indicates if the new image should be applied to a subset of the rds servers in the farm. The image published with this option, will be held as a pending Image, unless it is either promoted canceled.  **_Since_** Horizon 8.4 [^5] [^1]
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  The list of rds servers from the farm on which new image is to be applied  **_Since_** Horizon 8.4 [^1]
 **computeProfile**| [FarmComputeProfileSpec](vdi.resources.Farm.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

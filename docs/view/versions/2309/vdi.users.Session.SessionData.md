@@ -58,9 +58,7 @@ Name |  Type |  Description
 **unauthenticated**|  xsd:boolean|  Indicates if this session is of unauthenticated access user.  **_Since_** Horizon 7.1 [^1]
 **idleDuration**|  xsd:long|  Idle time duration in minutes. Indicates how long the end user of this session has been idle.  **_Since_** Horizon 7.4 [^1]
 **foreverSession**|  xsd:boolean|  Indicates whether the application session will be disconnected or not either on reaching the global idle timeout or on reaching the max session timeout.  **_Since_** Horizon 8.3 [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

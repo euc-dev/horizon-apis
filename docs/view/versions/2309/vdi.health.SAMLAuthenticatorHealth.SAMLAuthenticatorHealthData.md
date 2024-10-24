@@ -32,18 +32,8 @@ Name |  Type |  Description
 **metadataURL**|  xsd:string|  The metadata URL of the SAML Authenticator. [^1]
 **administratorURL**|  xsd:string|  The administrator URL for the SAML authenticator. This must specify a protocol (scheme) of http or https.  **_Since_** Horizon 7.9 [^1] [^2]
 **description**|  xsd:string|  The description of the SAML authenticator.  **_Since_** Horizon 7.10 [^1]
-**certificateSsoTriggerMode**|  xsd:string|  How to trigger Certificate SSO on sessions using this authenticator.  **_Since_** Horizon 8.7 [^17] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"DISABLED"| Do not use Certificate SSO.
-"ENABLE_IF_NO_PASSWORD"| If no password is supplied, use a valid (domain matching) connector if it exists.
-"REQUIRE_IF_NO_PASSWORD"| If no password is supplied, use and require a valid (domain matching) connector.
-"ENABLE_ALWAYS"| Regardless of a password, use a valid (domain matching) connector if it exists.
-"REQUIRE_ALWAYS"| Regardless of a password, use and require a valid (domain matching) connector.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+**certificateSsoTriggerMode**|  xsd:string|  How to trigger Certificate SSO on sessions using this authenticator.  **_Since_** Horizon 8.7 [^17] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DISABLED"</td><td>Do not use Certificate SSO.</td></tr><tr><td>"ENABLE_IF_NO_PASSWORD"</td><td>If no password is supplied, use a valid (domain matching) connector if it exists.</td></tr><tr><td>"REQUIRE_IF_NO_PASSWORD"</td><td>If no password is supplied, use and require a valid (domain matching) connector.</td></tr><tr><td>"ENABLE_ALWAYS"</td><td>Regardless of a password, use a valid (domain matching) connector if it exists.</td></tr><tr><td>"REQUIRE_ALWAYS"</td><td>Regardless of a password, use and require a valid (domain matching) connector.</td></tr></table>
+ 
 
 
  [^1]: This property need not be set. 

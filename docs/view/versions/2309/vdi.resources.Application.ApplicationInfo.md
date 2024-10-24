@@ -53,9 +53,7 @@ Name |  Type |  Description
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the Applications in your organization. They can also be used for delegated administration. For Application, this is the same as that of the Farm that the Application belongs to. [^2]
 **runtimeData**| [ApplicationRuntimeData](vdi.resources.Application.ApplicationRuntimeData.md)|  Application runtime information  **_Since_** Horizon 7.12 [^2]
 **refId**|  xsd:string|  Reference ID used for this application pool.  **_Since_** Horizon 8.1 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

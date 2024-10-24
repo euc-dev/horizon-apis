@@ -51,9 +51,7 @@ Name |  Type |  Description
 "REPLICATING"| Copying the specialized images across all virtual centers.
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Image management stream id for this image version [^2]
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management version. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

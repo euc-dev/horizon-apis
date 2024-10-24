@@ -36,9 +36,7 @@ Name |  Type |  Description
 **messageSecurityData**| [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)|  Message security data for this machine.  **_Since_** Horizon View 6.1 [^2]
 **managedMachineData**| [MachineManagedMachineData](vdi.resources.Machine.ManagedMachineData.md)|  Information applicable only to Managed Machines. [^1]
 **machineAgentPairingData**| [MachineAgentPairingData](vdi.resources.Machine.MachineAgentPairingData.md)|  Agent pairing data for this Machine.  **_Since_** Horizon 7.5 [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

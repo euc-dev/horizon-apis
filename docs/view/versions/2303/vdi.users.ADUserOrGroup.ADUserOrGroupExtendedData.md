@@ -34,9 +34,7 @@ Name |  Type |  Description
 **groupMemberships**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  The groups this user or group belongs to, or null if none. [^1] [^2]
 **userCount**|  xsd:int|  Number of users in this group within this domain, or 0 if not a group. [^2]
 **subgroupCount**|  xsd:int|  Number of subgroups in this group within this domain, or 0 if not a group. [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

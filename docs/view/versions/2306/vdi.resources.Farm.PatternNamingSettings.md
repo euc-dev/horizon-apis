@@ -32,9 +32,7 @@ Name |  Type |  Description
 RDS Server names are constrained to a maximum size of 15 characters including the unique number. Therefore, care must be taken when choosing a pattern. If the maximum farm size is 9 RDS servers, the pattern must be at most 14 characters. For 99 RDS servers, 13 characters, for 999 RDS servers, 12 characters. For 9999 RDS servers, 11 characters. If using a fixed size token, use a maximum of 14 characters for "n=1", 13 characters for "n=2", 12 characters for "n=3", and 11 characters for "n=4".
 If {n} is specified with no size, a size of 2 is automatically used and if no {} is specified, {n=2} is automatically appended to the end of the pattern [^70]
 **maxNumberOfRDSServers**|  xsd:int|  Maximum number of RDS Servers in the farm. [^10] [^8]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

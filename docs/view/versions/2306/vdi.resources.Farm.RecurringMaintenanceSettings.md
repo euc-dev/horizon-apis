@@ -38,9 +38,7 @@ Name |  Type |  Description
 "MONTHLY"| Monthly recurring maintenance
 **startInt**|  xsd:int|  Start index for weekly or monthly maintenance. Weekly: 1-7 (Sun-Sat), Monthly: 1-31 [^1] [^8] [^119] [^120]
 **everyInt**|  xsd:int|  How frequently to repeat maintenance, expressed as a multiple of the maintenance period. e.g. Every 2 weeks. [^10] [^1] [^8] [^115]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

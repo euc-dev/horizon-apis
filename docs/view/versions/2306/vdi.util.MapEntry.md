@@ -39,9 +39,7 @@ Name |  Type |  Description
 ---|---|---
 **key**|  xsd:string|  Represents the canonical name of the field.
 **value**|  xsd:anyType|  The value of the field. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

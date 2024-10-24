@@ -38,9 +38,7 @@ Name |  Type |  Description
 **securityServerPairing**| [ConnectionServerSecurityServerPairingData](vdi.infrastructure.ConnectionServer.SecurityServerPairingData.md)| **Deprecated.**_This property is being deprecated since Security Server will no longer be supported in future releases. Please consider using Unified Access Gateway (UAG) instead._ Security Server pairing data for the Connection Server. [^1]
 **messageSecurity**| [ConnectionServerMessageSecurityData](vdi.infrastructure.ConnectionServer.MessageSecurityData.md)|  The message security data for the Connection Server.  **_Since_** Horizon View 6.1
 **refId**|  xsd:string|  Reference ID used for this Connection Server.  **_Since_** Horizon 8.7 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

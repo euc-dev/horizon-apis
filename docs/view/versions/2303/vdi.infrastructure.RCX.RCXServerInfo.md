@@ -38,9 +38,7 @@ Name |  Type |  Description
 "DOWN"| RCX server is down.
 "UNKNOWN"| RCX server status is unknown.
 **version**|  xsd:string|  Version information of RCX server.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

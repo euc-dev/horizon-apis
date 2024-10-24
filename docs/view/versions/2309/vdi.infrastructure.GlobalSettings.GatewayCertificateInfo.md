@@ -33,9 +33,7 @@ Name |  Type |  Description
 **issuer**|  xsd:string|  Issuer of the certificate. Represented by issuer field of the X509 certificate.
 **expiryDate**|  xsd:dateTime|  Time after which the certificate is no longer considered valid. Represented by Not Valid After field of the X509 certificate.
 **serialNum**|  xsd:string|  Unique serial number issued by the certificate authority. Represented by Serial Number field of the X509 certificate.
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

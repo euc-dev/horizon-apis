@@ -39,9 +39,7 @@ Name |  Type |  Description
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  The AD domain that this connector applies to. This domain must be unique among all connectors. This domain must be accessible to all enrollment servers configured on this connector. This cannot be changed once created. [^2]
 **templateName**|  xsd:string|  Name of the certificate template to use for this domain. This template must be accessible to all enrollment servers configured on this connector.
 **certificateServerNames**|  xsd:string[]|  Specifies the certificate server (common) names to send certificate signing requests to. The enrollment service will round-robin the requests to available certificate servers. [^14]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

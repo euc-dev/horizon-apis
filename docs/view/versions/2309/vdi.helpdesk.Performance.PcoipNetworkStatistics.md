@@ -37,9 +37,7 @@ Name |  Type |  Description
 **txBandwidthLimit**|  xsd:long|  Transmission bandwidth limit in kilobits per second for outgoing packets.
 The limit is the minimum of the following values.  GPO bandwidth limit for the PCoIP client  GPO bandwidth limit for the PCoIP server  Bandwidth limit for the local network connection  Negotiated bandwidth limit for the Zero Client firmware based on encryption limits [^1] [^2]
 **txPacketLoss**|  xsd:long|  Percentage of transmitted packets lost during a sampling period. [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

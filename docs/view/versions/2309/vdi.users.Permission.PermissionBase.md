@@ -41,9 +41,7 @@ Name |  Type |  Description
 **role**| [RoleId](vdi.entity.RoleId.md)|  The role for this permission. [^2]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group for this permission. If the role is not applicable to access groups, specify the root access group. [^1] [^2]
 **globalAccessGroup**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  The global access group for this permission. If the role is applicable to global access groups, then it is required.  **_Since_** Horizon 8.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

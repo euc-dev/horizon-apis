@@ -35,9 +35,7 @@ Name |  Type |  Description
 **pod**| [PodId](vdi.entity.PodId.md)|  The pod id associated with this pod assignment. [^2]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  The global entitlement id associated with this pod assignment. Only one of [globalEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalEntitlement) and [globalApplicationEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalApplicationEntitlement) may be set. [^1] [^2]
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  The global application entitlement id associated with this pod assignment. Only one of [globalEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalEntitlement) and [globalApplicationEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalApplicationEntitlement) may be set.  **_Since_** Horizon View 6.2 [^1] [^2]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 

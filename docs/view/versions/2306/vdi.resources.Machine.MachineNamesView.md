@@ -55,9 +55,7 @@ Name |  Type |  Description
 **namesData**| [MachineNamesData](vdi.resources.Machine.NamesData.md)|  Names of entities related to this Machine
 **messageSecurityData**| [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)|  Message security data for this machine.  **_Since_** Horizon View 6.1
 **managedMachineNamesData**| [MachineManagedMachineNamesData](vdi.resources.Machine.ManagedMachineNamesData.md)|  Information applicable only to Managed Machines. [^1]
-| Local Properties|
----|---|---|---
-[Service Types](index-mo_types.md)| [Data Object Types](index-do_types.md)| [All Properties](index-properties.md)| [All Methods](index-methods.md)
+ 
 
 
  [^1]: This property need not be set. 
