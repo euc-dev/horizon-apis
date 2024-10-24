@@ -156,9 +156,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **height**|  xsd:int|  Icon height.
-
 **width**|  xsd:int|  Icon width.
-
 **ids**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications whose ApplicationIcons are being requested.
 
 
@@ -253,9 +251,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **height**|  xsd:int|  Icon height.
-
 **width**|  xsd:int|  Icon width.
-
 **ids**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications whose ApplicationIconSummaryViews are being requested.
 
 
@@ -305,7 +301,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  The entityId of the ApplicationIcon.
-
 **applications**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications to which association needs to be removed.
 
 
@@ -363,7 +358,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  The entityId of the ApplicationIcon to be updated.
-
 **applications**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications to which association needs to be updated.
 
 

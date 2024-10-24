@@ -98,7 +98,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [License](vdi.infrastructure.License.md) used to make the method call.
 **licenseKey**|  xsd:string|  The license key to set.
-
 **consent**|  xsd:boolean|  Consent for perpetual key.
 
 

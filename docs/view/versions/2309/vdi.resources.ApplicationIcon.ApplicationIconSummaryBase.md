@@ -31,11 +31,7 @@ Name |  Type |  Description
 **width**|  xsd:long|  Icon width
 **height**|  xsd:long|  Icon height
 **iconHash**|  xsd:string|  Icon hash, to enable quick icon lookup
-**iconSource**|  xsd:string|  Source of the ApplicationIcon. If icon is from RDS Agent, iconSource will be Unset. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"BROKER"| supported ApplicationIcon sources
+**iconSource**|  xsd:string|  Source of the ApplicationIcon. If icon is from RDS Agent, iconSource will be Unset. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"BROKER"</td><td>supported ApplicationIcon sources</td></tr></table>
  
 
 

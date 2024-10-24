@@ -28,12 +28,7 @@ Environment settings information.
 Properties
 Name |  Type |  Description
 ---|---|---
-**ipMode**|  xsd:string|  Indicates the IP mode of the environment. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"IPv4"| This Connection Server is running in IPv4 environment.
-"IPv6"| This Connection Server is running in IPv6 environment.
+**ipMode**|  xsd:string|  Indicates the IP mode of the environment. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"IPv4"</td><td>This Connection Server is running in IPv4 environment.</td></tr><tr><td>"IPv6"</td><td>This Connection Server is running in IPv6 environment.</td></tr></table>
 **fipsModeEnabled**|  xsd:boolean|  Indicates if FIPS mode is enabled. [^5] [^1]
 **clusterName**|  xsd:string|  The name of a group of connection servers sharing the same configuration.  **_Since_** Horizon 7.7 [^1]
 **clusterGuid**|  xsd:string|  The GUID of a group of connection servers sharing the same configuration.  **_Since_** Horizon 7.7 [^1]

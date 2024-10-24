@@ -152,10 +152,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServer](vdi.infrastructure.SecurityServer.md) used to make the method call.
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  The Id of the Security Server.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^302]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^302]
 
 
 

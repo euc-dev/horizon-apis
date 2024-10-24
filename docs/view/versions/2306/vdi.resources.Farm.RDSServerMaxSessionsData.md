@@ -26,12 +26,7 @@ Since
 Properties
 Name |  Type |  Description
 ---|---|---
-**maxSessionsType**|  xsd:string|
-* This property will be one of:
-|  Value |  Description
----|---
-"UNLIMITED"| RDS Server has no limit on the number of supported sessions
-"LIMITED"| RDS Server has a limit on the number of supported sessions
+**maxSessionsType**|  xsd:string| <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNLIMITED"</td><td>RDS Server has no limit on the number of supported sessions</td></tr><tr><td>"LIMITED"</td><td>RDS Server has a limit on the number of supported sessions</td></tr></table>
 **maxSessions**|  xsd:int| [^1] [^8] [^9]
  
 

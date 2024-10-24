@@ -31,20 +31,8 @@ Settings for the networking protocol to display the remote machine.
 Properties
 Name |  Type |  Description
 ---|---|---
-**supportedDisplayProtocols**|  xsd:string[]|  The list of supported display protocols for the desktop. [^30] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"RDP"| Microsoft Remote Desktop Protocol.
-"PCOIP"| PC over IP.
-"BLAST"| BLAST.
-**defaultDisplayProtocol**|  xsd:string|  The default display protocol for the desktop. For a managed desktop, this will default to "PCOIP". For an unmanaged desktop, this will default to "RDP".
-* This property will be one of:
-|  Value |  Description
----|---
-"RDP"| Microsoft Remote Desktop Protocol.
-"PCOIP"| PC over IP.
-"BLAST"| BLAST.
+**supportedDisplayProtocols**|  xsd:string[]|  The list of supported display protocols for the desktop. [^30] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>RDP</td><td>Microsoft Remote Desktop Protocol.</td></tr><tr><td>PCOIP</td><td>PC over IP.</td></tr><tr><td>BLAST</td><td>BLAST.</td></tr></table>
+**defaultDisplayProtocol**|  xsd:string|  The default display protocol for the desktop. For a managed desktop, this will default to "PCOIP". For an unmanaged desktop, this will default to "RDP".<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>RDP</td><td>Microsoft Remote Desktop Protocol.</td></tr><tr><td>PCOIP</td><td>PC over IP.</td></tr><tr><td>BLAST</td><td>BLAST.</td></tr></table>
 **allowUsersToChooseProtocol**|  xsd:boolean|  Whether the users can choose the protocol. [^6]
 **pcoipDisplaySettings**| [DesktopPCoIPDisplaySettings](vdi.resources.Desktop.PCoIPDisplaySettings.md)|  Settings specific to 3D rendering when allowed protocol is PCOIP or BLAST.
 **enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. Also, Blast must be configured as a supported protocol in [supportedDisplayProtocols](vdi.resources.Desktop.DisplayProtocolSettings.md#supportedDisplayProtocols). [^6] [^1]

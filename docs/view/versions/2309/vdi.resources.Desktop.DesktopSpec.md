@@ -33,13 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **base**| [DesktopBase](vdi.resources.Desktop.DesktopBase.md)|  Desktop identification information.
 **desktopSettings**| [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)|  Configuration settings for the desktop. Sets default and/or required values if unset. [^1]
-**type**|  xsd:string|  Type of desktop.
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated desktop creates virtual machines cloned from a base template or snapshot.
-"MANUAL"| A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.
-"RDS"| An RDS Desktop Desktop.
+**type**|  xsd:string|  Type of desktop.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>MANUAL</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>RDS</td><td>An RDS Desktop.</td></tr></table>
 **automatedDesktopSpec**| [DesktopAutomatedDesktopSpec](vdi.resources.Desktop.AutomatedDesktopSpec.md)|  Automated desktop spec. [^1] [^29]
 **manualDesktopSpec**| [DesktopManualDesktopSpec](vdi.resources.Desktop.ManualDesktopSpec.md)|  Manual desktop spec. [^1] [^26]
 **rdsDesktopSpec**| [DesktopRDSDesktopSpec](vdi.resources.Desktop.RDSDesktopSpec.md)|  RDS Desktop spec. [^1] [^27]

@@ -350,10 +350,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualCenter](vdi.infrastructure.VirtualCenter.md) used to make the method call.
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for virtual center entry
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^209]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^209]
 
 
 

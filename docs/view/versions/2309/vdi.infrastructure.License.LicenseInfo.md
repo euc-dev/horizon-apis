@@ -41,44 +41,12 @@ Name |  Type |  Description
 **helpDeskEnabled**|  xsd:boolean|  Whether Help Desk is enabled.  **_Since_** Horizon 7.3
 **collaborationEnabled**|  xsd:boolean|  Whether Session Collaboration is enabled.  **_Since_** Horizon 7.4
 **agentAutoUpgradeEnabled**|  xsd:boolean|  Whether Agent Auto Upgrade is enabled.  **_Since_** Horizon 8.8
-**licenseEdition**|  xsd:string|  The license edition.  **_Since_** Horizon 7.9 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"HORIZON_STANDARD_CONCURRENT_USER"| VMware Horizon Standard for View (Concurrent User).
-"HORIZON_ADVANCED_NAMED_USER"| VMware Horizon Advanced for View (Named User)
-"HORIZON_ADVANCED_CONCURRENT_USER"| VMware Horizon Advanced for View (Concurrent User).
-"HORIZON_ENTERPRISE_NAMED_USER"| Horizon Enterprise (Named User).
-"HORIZON_ENTERPRISE_CONCURRENT_USER"| Horizon Enterprise (Concurrent User).
-"ENTERPRISE_CONCURRENT_USER"| VMware View Enterprise.
-"HORIZON_APPS_STANDARD_NAMED_USER"| VMware Horizon Apps 7 Standard for View (Named User).
-"HORIZON_APPS_STANDARD_CONCURRENT_USER"| VMware Horizon Apps 7 Standard for View (Concurrent User).
-"HORIZON_APPS_ADVANCED_NAMED_USER"| VMware Horizon Apps 7 Advanced for View (Named User).
-"HORIZON_APPS_ADVANCED_CONCURRENT_USER"| VMware Horizon Apps 7 Advanced for View (Concurrent User).
-"WS1_ENTERPRISE_NAMED_USER"| Workspace ONE Enterprise.
-"WS1_ENTERPRISE_WITH_VDI_NAMED_USER"| Workspace ONE Enterprise with VDI.
-**usageModel**|  xsd:string|  The usage model for this license. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"CONCURRENT_USER"| The is the license usage model for a standalone install.
-"NAMED_USER"| This is the license mode for an install as part of a suite.
-**licenseMode**|  xsd:string|  The license mode used.  **_Since_** Horizon 7.6
-* This property will be one of:
-|  Value |  Description
----|---
-"DEFAULT"| Perpetual license is in use.
-"SUBSCRIPTION"| Cloud subscription license is in use.
-"PERPETUAL_ONLY"| Perpetual license is in use.
+**licenseEdition**|  xsd:string|  The license edition.  **_Since_** Horizon 7.9 [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"HORIZON_STANDARD_CONCURRENT_USER"</td><td>VMware Horizon Standard for View (Concurrent User).</td></tr><tr><td>"HORIZON_ADVANCED_NAMED_USER"</td><td>VMware Horizon Advanced for View (Named User)</td></tr><tr><td>"HORIZON_ADVANCED_CONCURRENT_USER"</td><td>VMware Horizon Advanced for View (Concurrent User).</td></tr><tr><td>"HORIZON_ENTERPRISE_NAMED_USER"</td><td>Horizon Enterprise (Named User).</td></tr><tr><td>"HORIZON_ENTERPRISE_CONCURRENT_USER"</td><td>Horizon Enterprise (Concurrent User).</td></tr><tr><td>"ENTERPRISE_CONCURRENT_USER"</td><td>VMware View Enterprise.</td></tr><tr><td>"HORIZON_APPS_STANDARD_NAMED_USER"</td><td>VMware Horizon Apps 7 Standard for View (Named User).</td></tr><tr><td>"HORIZON_APPS_STANDARD_CONCURRENT_USER"</td><td>VMware Horizon Apps 7 Standard for View (Concurrent User).</td></tr><tr><td>"HORIZON_APPS_ADVANCED_NAMED_USER"</td><td>VMware Horizon Apps 7 Advanced for View (Named User).</td></tr><tr><td>"HORIZON_APPS_ADVANCED_CONCURRENT_USER"</td><td>VMware Horizon Apps 7 Advanced for View (Concurrent User).</td></tr><tr><td>"WS1_ENTERPRISE_NAMED_USER"</td><td>Workspace ONE Enterprise.</td></tr><tr><td>"WS1_ENTERPRISE_WITH_VDI_NAMED_USER"</td><td>Workspace ONE Enterprise with VDI.</td></tr></table>
+**usageModel**|  xsd:string|  The usage model for this license. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONCURRENT_USER"</td><td>The is the license usage model for a standalone install.</td></tr><tr><td>"NAMED_USER"</td><td>This is the license mode for an install as part of a suite.</td></tr></table>
+**licenseMode**|  xsd:string|  The license mode used.  **_Since_** Horizon 7.6<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DEFAULT"</td><td>Perpetual license is in use.</td></tr><tr><td>"SUBSCRIPTION"</td><td>Cloud subscription license is in use.</td></tr><tr><td>"PERPETUAL_ONLY"</td><td>Perpetual license is in use.</td></tr></table>
 **gracePeriodDays**|  xsd:int|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The grace period in days for subscription slice.  **_Since_** Horizon 7.6 [^1] [^2]
 **subscriptionSliceExpiry**|  xsd:dateTime|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The expiry of subscription slice.  **_Since_** Horizon 7.6 [^1] [^2]
-**licenseHealth**|  xsd:string|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The license health.  **_Since_** Horizon 7.6 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"RED"| License is expired.
-"GREEN"| License is not expired and License update is missed but not more than 7 days.
-"YELLOW"| License is not expired and License update is missed for more than 7 days.
+**licenseHealth**|  xsd:string|  Set only when [licenseMode](vdi.infrastructure.License.LicenseInfo.md#licenseMode) is set to SUBSCRIPTION value. The license health.  **_Since_** Horizon 7.6 [^1] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"RED"</td><td>License is expired.</td></tr><tr><td>"GREEN"</td><td>License is not expired and License update is missed but not more than 7 days.</td></tr><tr><td>"YELLOW"</td><td>License is not expired and License update is missed for more than 7 days.</td></tr></table>
  
 
 

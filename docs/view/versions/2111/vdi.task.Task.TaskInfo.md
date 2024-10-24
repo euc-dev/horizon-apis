@@ -44,30 +44,10 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **id**| [TaskId](vdi.entity.TaskId.md)|  The ID of the task. [^2]
-**taskCategory**|  xsd:string|  The category of the task. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"POD_FEDERATION_CATEGORY"| Category for PodFederation related tasks
-**taskType**|  xsd:string|  The type of the task. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"POD_FEDERATION_INITIALIZING"| A task performing PodFederation initialize operation
-"POD_FEDERATION_UNINITIALIZING"| A task performing PodFederation uninitialize operation
-"POD_FEDERATION_JOINING"| A task performing PodFederation join operation
-"POD_FEDERATION_UNJOINING"| A task performing PodFederation unjoin operation
+**taskCategory**|  xsd:string|  The category of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>POD_FEDERATION_CATEGORY</td><td>Category for PodFederation related tasks</td></tr></table>
+**taskType**|  xsd:string|  The type of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>POD_FEDERATION_INITIALIZING</td><td>A task performing PodFederation initialize operation</td></tr><tr><td>POD_FEDERATION_UNINITIALIZING</td><td>A task performing PodFederation uninitialize operation</td></tr><tr><td>POD_FEDERATION_JOINING</td><td>A task performing PodFederation join operation</td></tr><tr><td>POD_FEDERATION_UNJOINING</td><td>A task performing PodFederation unjoin operation</td></tr></table>
 **cancellable**|  xsd:boolean|  Whether the task can be cancelled or not. [^2]
-**state**|  xsd:string|  The state of the task. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"RUNNING"| The task is currently running.
-"WAITING"| The task is currently waiting to execute.
-"COMPLETED"| The task execution has completed.
-"FAILED"| The task execution has failed.
-"PAUSED"| The task execution has been paused.
-"CANCELLED"| The task execution has been cancelled.
+**state**|  xsd:string|  The state of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>RUNNING</td><td>The task is currently running.</td></tr><tr><td>WAITING</td><td>The task is currently waiting to execute.</td></tr><tr><td>COMPLETED</td><td>The task execution has completed.</td></tr><tr><td>FAILED</td><td>The task execution has failed.</td></tr><tr><td>PAUSED</td><td>The task execution has been paused.</td></tr><tr><td>CANCELLED</td><td>The task execution has been cancelled.</td></tr></table>
 **percentageComplete**|  xsd:int|  How complete the task is as a percentage. [^1] [^2]
 **result**| [TaskResult](vdi.task.Task.TaskResult.md)|  The result of a task, only available when task is completed. [^1] [^2]
 

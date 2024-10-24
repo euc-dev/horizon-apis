@@ -54,7 +54,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  array of machineIds to add. MachineIds of this type must originate from the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services, but not the [Machine](vdi.resources.Machine.md) service.
 
 
@@ -112,7 +111,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **specifiedNames**| [DesktopSpecifiedName[]](vdi.resources.Desktop.SpecifiedName.md)|  array of SpecifiedNames to add
 
 
@@ -170,7 +168,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **machine**| [MachineId](vdi.entity.MachineId.md)|  machineId to add. MachineIds of this type must originate from the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services, but not the [Machine](vdi.resources.Machine.md) service.
 
 
@@ -359,10 +356,7 @@ Type |  Description
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
-[InvalidLicense](vdi.fault.InvalidLicense.md)| Thrown in one of the following cases during Instant Clone Desktop creation:
- [^105] [^106] [^107]
-
-
+[InvalidLicense](vdi.fault.InvalidLicense.md)| Thrown in one of the following cases during Instant Clone Desktop creation: <br> [^105] [^106] [^107]
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
@@ -400,9 +394,7 @@ Name| Type| Description
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
 
-**spec**| [DesktopDeleteSpec](vdi.resources.Desktop.DesktopDeleteSpec.md)|  attributes needed to delete a desktop. If unset, default values will be used.
-
- [^135]
+**spec**| [DesktopDeleteSpec](vdi.resources.Desktop.DesktopDeleteSpec.md)|  attributes needed to delete a desktop. If unset, default values will be used. [^135]
 
 
 
@@ -1207,9 +1199,7 @@ Name| Type| Description
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
 
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^108]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^108]
 
 
 

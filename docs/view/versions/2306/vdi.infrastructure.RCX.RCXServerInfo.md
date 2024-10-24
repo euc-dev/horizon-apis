@@ -30,13 +30,7 @@ Name |  Type |  Description
 **host**|  xsd:string|  FQDN/IP address of the RCX server.
 **thumbprints**| [CertificateThumbprint[]](vdi.utils.Certificate.CertificateThumbprint.md)|  Thumbprints of the RCX server certificates. [^1]
 **port**|  xsd:int|  RCX server's port.
-**status**|  xsd:string|  This indicates the current status of RCX server.
-* This property will be one of:
-|  Value |  Description
----|---
-"UP"| RCX server is running.
-"DOWN"| RCX server is down.
-"UNKNOWN"| RCX server status is unknown.
+**status**|  xsd:string|  This indicates the current status of RCX server.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UP"</td><td>RCX server is running.</td></tr><tr><td>"DOWN"</td><td>RCX server is down.</td></tr><tr><td>"UNKNOWN"</td><td>RCX server status is unknown.</td></tr></table>
 **version**|  xsd:string|  Version information of RCX server.
  
 

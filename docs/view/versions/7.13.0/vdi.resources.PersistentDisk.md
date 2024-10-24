@@ -54,7 +54,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to attach.
-
 **spec**| [PersistentDiskAttachSpec](vdi.resources.PersistentDisk.AttachSpec.md)|  The specification of how to attach the disk.
 
 
@@ -166,10 +165,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to delete.
-
-**spec**| [PersistentDiskDeleteSpec](vdi.resources.PersistentDisk.DeleteSpec.md)|  The specification for deleting the persistent disk.
-
- [^135]
+**spec**| [PersistentDiskDeleteSpec](vdi.resources.PersistentDisk.DeleteSpec.md)|  The specification for deleting the persistent disk. [^135]
 
 
 
@@ -227,7 +223,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to detach.
-
 **spec**| [PersistentDiskDetachSpec](vdi.resources.PersistentDisk.DetachSpec.md)|  The specification of how to detach the disk.
 
 
@@ -378,10 +373,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to associate with the new machine.
-
-**spec**| [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md)|  The specification of how to recreate the machine.
-
- [^135]
+**spec**| [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md)|  The specification of how to recreate the machine. [^135]
 
 
 
@@ -495,7 +487,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to replace.
-
 **spec**| [PersistentDiskReplaceSpec](vdi.resources.PersistentDisk.ReplaceSpec.md)|  The specification of how to replace the existing disk.
 
 
@@ -552,10 +543,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to update.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^195]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^195]
 
 
 

@@ -32,25 +32,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID [^2]
-**type**|  xsd:string|  Type of farm.  **_Since_** Horizon View 6.2 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated farm creates RDS Servers cloned from a snapshot.
-"MANUAL"| A manual farm allows selection and addition of existing RDS Servers to the farm.
-**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1 [^1] [^2] [^29]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Farm.
-**imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Image was created in virtual center.
-"IMAGE_CATALOG"| Image was created in image catalog.
+**type**|  xsd:string|  Type of farm.  **_Since_** Horizon View 6.2 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated farm creates RDS Servers cloned from a snapshot.</td></tr><tr><td>MANUAL</td><td>A manual farm allows selection and addition of existing RDS Servers to the farm.</td></tr></table>
+**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1 [^1] [^2] [^29] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]. This option is only valid for Automated Farm.</td></tr></table>
+**imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIRTUAL_CENTER"</td><td>Image was created in virtual center.</td></tr><tr><td>"IMAGE_CATALOG"</td><td>Image was created in image catalog.</td></tr></table>
 **data**| [FarmData](vdi.resources.Farm.FarmData.md)|  Farm data
 **automatedFarmData**| [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md)|  Automated farm data.  **_Since_** Horizon View 6.2 [^1] [^29]
 **refId**|  xsd:string|  Reference ID used for this farm.  **_Since_** Horizon 8.2 [^1] [^2]

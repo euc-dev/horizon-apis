@@ -29,13 +29,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **startTime**|  xsd:string|  Configured start time for the recurring maintenance. [^22]
-**maintenancePeriod**|  xsd:string|  This represents the frequency at which to perform recurring maintenance.
-* This property will be one of:
-|  Value |  Description
----|---
-"DAILY"| Daily recurring maintenance
-"WEEKLY"| Weekly recurring maintenance
-"MONTHLY"| Monthly recurring maintenance
+**maintenancePeriod**|  xsd:string|  This represents the frequency at which to perform recurring maintenance. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DAILY"</td><td>Daily recurring maintenance</td></tr><tr><td>"WEEKLY"</td><td>Weekly recurring maintenance</td></tr><tr><td>"MONTHLY"</td><td>Monthly recurring maintenance</td></tr></table>
 **startInt**|  xsd:int|  Start index for weekly or monthly maintenance. Weekly: 1-7 (Sun-Sat), Monthly: 1-31 [^1] [^8] [^119] [^120]
 **everyInt**|  xsd:int|  How frequently to repeat maintenance, expressed as a multiple of the maintenance period. e.g. Every 2 weeks. [^10] [^1] [^8] [^115]
  

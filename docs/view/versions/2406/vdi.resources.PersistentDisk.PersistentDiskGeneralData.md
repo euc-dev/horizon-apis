@@ -40,25 +40,8 @@ Name |  Type |  Description
 **machine**| [MachineId](vdi.entity.MachineId.md)|  The machine the disk is attached to. MachineIds of this type originate from the [Machine](vdi.resources.Machine.md) service. [^1] [^2]
 **machineName**|  xsd:string|  Name of the machine corresponding to [machine](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md#machine) **_Since_** Horizon 7.7 [^1]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group of the virtual disk.
-**usage**|  xsd:string|  The usage of the persistent disk. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"PRIMARY"| This data disk is attached to a Virtual Machine and the user profile is redirected to it.
-"SECONDARY"| This data disk is attached to a Virtual Machine.
-"UNATTACHED"| This data disk is not attached to a Virtual Machine.
-"DELETING"| This data disk is in the process of being deleted or archived.
-**status**|  xsd:string|  The status of the persistent disk. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"IN_USE"| This persistent disk is in use.
-"UNATTACHED"| The persistent disk is not in use and available to attach to a virtual machine.
-"ATTACHING"| The persistent disk is attaching to a virtual machine.
-"DETACHING"| The persistent disk is being detached from a virtual machine.
-"REPLACING"| The persistent disk is being replaced.
-"ARCHIVING"| The persistent disk is being archived.
-"DELETING"| The persistent disk is being deleted.
+**usage**|  xsd:string|  The usage of the persistent disk. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PRIMARY"</td><td>This data disk is attached to a Virtual Machine and the user profile is redirected to it.</td></tr><tr><td>"SECONDARY"</td><td>This data disk is attached to a Virtual Machine.</td></tr><tr><td>"UNATTACHED"</td><td>This data disk is not attached to a Virtual Machine.</td></tr><tr><td>"DELETING"</td><td>This data disk is in the process of being deleted or archived.</td></tr></table>
+**status**|  xsd:string|  The status of the persistent disk. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"IN_USE"</td><td>This persistent disk is in use.</td></tr><tr><td>"UNATTACHED"</td><td>The persistent disk is not in use and available to attach to a virtual machine.</td></tr><tr><td>"ATTACHING"</td><td>The persistent disk is attaching to a virtual machine.</td></tr><tr><td>"DETACHING"</td><td>The persistent disk is being detached from a virtual machine.</td></tr><tr><td>"REPLACING"</td><td>The persistent disk is being replaced.</td></tr><tr><td>"ARCHIVING"</td><td>The persistent disk is being archived.</td></tr><tr><td>"DELETING"</td><td>The persistent disk is being deleted.</td></tr></table>
 **lastAttachedTime**|  xsd:dateTime|  If detached, when this persistent disk was either last attached to a machine or created from a Virtual Disk. It will be unset otherwise. [^1] [^2]
 
 

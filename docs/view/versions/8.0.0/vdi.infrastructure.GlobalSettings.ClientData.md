@@ -26,18 +26,7 @@ Since
 Properties
 Name |  Type |  Description
 ---|---|---
-**type**|  xsd:string|  The type of the client.
-* This property will be one of:
-|  Value |  Description
----|---
-"WINDOWS"| Client type is Windows client
-"MAC"| Client type is Mac client
-"HTMLACCESS"| Client type is web client
-"LINUX"| Client type is Linux client
-"IOS"| Client type is iOS client
-"ANDROID"| Client type is Android client
-"WINSTORE"| Client type is UWP client
-"CHROME"| Client type is chrome client
+**type**|  xsd:string|  The type of the client.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"WINDOWS"</td><td>Client type is Windows client</td></tr><tr><td>"MAC"</td><td>Client type is Mac client</td></tr><tr><td>"HTMLACCESS"</td><td>Client type is web client</td></tr><tr><td>"LINUX"</td><td>Client type is Linux client</td></tr><tr><td>"IOS"</td><td>Client type is iOS client</td></tr><tr><td>"ANDROID"</td><td>Client type is Android client</td></tr><tr><td>"WINSTORE"</td><td>Client type is UWP client</td></tr><tr><td>"CHROME"</td><td>Client type is chrome client</td></tr></table>
 **version**|  xsd:string|  Restrict access for all the Horizon clients that have version less than the [version](vdi.infrastructure.GlobalSettings.ClientData.md#version). This is applicable only for Horizon Clients 4.5.0 or later (or Horizon Client for Chrome 4.8.0 or later) [^264] [^265] [^1]
 **warnSpecificVersions**|  xsd:string|  Warn users when connecting with the Horizon client having version that matches any of the comma separated specified versions. This is applicable only for Horizon Clients 8.0.0 or later [^264]
 * This property cannot be used for [type](vdi.infrastructure.GlobalSettings.ClientData.md#type) "WINSTORE", "HTMLACCESS" and "CHROME".

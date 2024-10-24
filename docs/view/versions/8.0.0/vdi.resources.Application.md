@@ -407,10 +407,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  The entity Id of the Application to be updated
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated
-
- [^182]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated [^182]
 
 
 

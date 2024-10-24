@@ -259,10 +259,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [URLRedirection](vdi.infrastructure.URLRedirection.md) used to make the method call.
 **id**| [URLRedirectionId](vdi.entity.URLRedirectionId.md)|  The entityId of the URLRedirection to be updated.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated.
-
- [^205]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated. [^205]
 
 
 

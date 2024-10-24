@@ -33,12 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  The name of the Machine. [^2]
 **dnsName**|  xsd:string|  The DNS name for the Machine. [^1] [^2]
-**type**|  xsd:string|  The type of Machine. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"MANAGED_VIRTUAL_MACHINE"| The machine is a managed virtual machine.
-"UNMANAGED_MACHINE"| The machine is an unmanaged physical or virtual machine.
+**type**|  xsd:string|  The type of Machine. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"MANAGED_VIRTUAL_MACHINE"</td><td>The machine is a managed virtual machine.</td></tr><tr><td>"UNMANAGED_MACHINE"</td><td>The machine is an unmanaged physical or virtual machine.</td></tr></table>
 **agentVersion**|  xsd:string|  Horizon agent version installed on this Machine. [^1] [^2]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group of the Machine. [^2]
 **basicState**|  xsd:string|  The basic state of the Machine. For a Virtual Machine based Machine, the complete state is determined by basicState, isMissingInVCenter, operationState and isInHoldCustomization. In the Admin UI, the last three states are shown in brackets in the Machine State. [^2]

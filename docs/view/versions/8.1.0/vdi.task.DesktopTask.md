@@ -238,10 +238,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  unique id of desktopTask
-
-**resumeTaskSpec**| [ResumeTaskSpec](vdi.task.DesktopTask.ResumeTaskSpec.md)|  ResumeTaskSpec object for additional params
-
- [^135]
+**resumeTaskSpec**| [ResumeTaskSpec](vdi.task.DesktopTask.ResumeTaskSpec.md)|  ResumeTaskSpec object for additional params [^135]
 
 
 

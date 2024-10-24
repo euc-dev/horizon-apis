@@ -32,12 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **urlScheme**|  xsd:string|  URL Scheme/protocol used by View Client for URL Filtering.
-**type**|  xsd:string|  **_Since_** Horizon 7.0.2 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"APPLICATION"| Application Pool.
-"DESKTOP"| Desktop Pool.
+**type**|  xsd:string|  **_Since_** Horizon 7.0.2 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"APPLICATION"</td><td>Application Pool.</td></tr><tr><td>"DESKTOP"</td><td>Desktop Pool.</td></tr></table>
 **urlSchemeHandler**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application that can handle this URL Scheme.  **_Since_** Horizon 7.0.2 [^1] [^203]
 **desktopSchemeHandler**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop Pool that should be used to launch URLs with this Scheme.  **_Since_** Horizon 7.0.2 [^1] [^204]
 

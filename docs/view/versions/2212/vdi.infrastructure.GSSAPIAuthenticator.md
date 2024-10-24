@@ -253,10 +253,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 **id**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The ID of the GSSAPI authenticator to update.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^291]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^291]
 
 
 

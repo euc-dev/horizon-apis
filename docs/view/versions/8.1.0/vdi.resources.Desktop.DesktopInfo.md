@@ -34,29 +34,9 @@ Name |  Type |  Description
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Client reference to a specific desktop instance.
 **base**| [DesktopBase](vdi.resources.Desktop.DesktopBase.md)|  Desktop identification information.
 **desktopSettings**| [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)|  Configuration settings for the desktop.
-**type**|  xsd:string|  Type of desktop. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated desktop creates virtual machines cloned from a base template or snapshot.
-"MANUAL"| A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.
-"RDS"| An RDS Desktop Desktop.
-**source**|  xsd:string|  Source of machines. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.
-"VIEW_COMPOSER"| View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Desktop.
-"UNMANAGED"| Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.
-"RDS"| This option is only valid for RDS Desktops.
-**imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Image was created in virtual center.
-"IMAGE_CATALOG"| Image was created in image catalog.
+**type**|  xsd:string|  Type of desktop. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>MANUAL</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>RDS</td><td>An RDS Desktop.</td></tr></table>
+**source**|  xsd:string|  Source of machines. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.</td></tr><tr><td>VIEW_COMPOSER</td><td>View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones. This option is only valid for Automated Desktop.</td></tr><tr><td>UNMANAGED</td><td>Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.</td></tr><tr><td>RDS</td><td>This option is only valid for RDS Desktops.</td></tr></table>
+**imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Image was created in virtual center.</td></tr><tr><td>IMAGE_CATALOG</td><td>Image was created in image catalog.</td></tr></table>
 **automatedDesktopData**| [DesktopAutomatedDesktopData](vdi.resources.Desktop.AutomatedDesktopData.md)|  Automated desktop data. [^1] [^29]
 **manualDesktopData**| [DesktopManualDesktopData](vdi.resources.Desktop.ManualDesktopData.md)|  Manual desktop data. [^1] [^26]
 **rdsDesktopData**| [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md)|  RDS Desktop data. [^1] [^27]

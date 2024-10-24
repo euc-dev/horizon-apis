@@ -31,33 +31,10 @@ Read-only operation and provisioning status data for instant clone farms.
 Properties
 Name |  Type |  Description
 ---|---|---
-**operation**|  xsd:string|  The operation that this instant clone farm is undergoing.
-* This property will be one of:
-|  Value |  Description
----|---
-"NONE"| There is no current operation on the farm.
-"INITIAL_PUBLISH"| The farm has just been created and is undergoing initial publishing.
-"RECURRING_SCHEDULED_MAINTENANCE"| A recurring maintenance operation is scheduled on the farm.
-"CANCEL_SCHEDULED_MAINTENANCE"| The recurring maintenance operation on the farm is being cancelled.
-"INFRASTRUCTURE_CHANGE"| A cluster or datastore change operation was requested for the farm.
-"FINAL_UNPUBLISH"| A farm has been deleted and is undergoing final unpublishing.
+**operation**|  xsd:string|  The operation that this instant clone farm is undergoing. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"NONE"</td><td>There is no current operation on the farm.</td></tr><tr><td>"INITIAL_PUBLISH"</td><td>The farm has just been created and is undergoing initial publishing.</td></tr><tr><td>"RECURRING_SCHEDULED_MAINTENANCE"</td><td>A recurring maintenance operation is scheduled on the farm.</td></tr><tr><td>"CANCEL_SCHEDULED_MAINTENANCE"</td><td>The recurring maintenance operation on the farm is being cancelled.</td></tr><tr><td>"INFRASTRUCTURE_CHANGE"</td><td>A cluster or datastore change operation was requested for the farm.</td></tr><tr><td>"FINAL_UNPUBLISH"</td><td>A farm has been deleted and is undergoing final unpublishing.</td></tr></table>
 **operationTime**|  xsd:dateTime|  Time of the operation that instant clone farm is undergoing  **_Since_** Horizon 7.7 [^1]
-**instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the farm. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"PENDING_PUBLISH"| This is the initial transient state of the pending image before instant clone farm creation operation has started.
-"PUBLISHING"| This is the transient state of the pending image when creation of instant clone farm operation is going on.
-"READY"| This is the state of the pending image after successful publish of the pending image and before that image has been upgraded to the current image. This is normally seen after successful publish for a push image which has been scheduled to trigger at a later time.
-"FAILED"| This is the state of the pending image if creation of instant clone farm operation has failed or timed out.
-**instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"READY"| This is the state of the current image after successful completion of farm creation operation. At this stage the current image is ready to be used to create the instant clones. Please note that this state is also reached from {@link InstantCloneCurrentImageStates#UNPUBLISHING} state on successful completion of editing of cluster or editing of datastore(s) operations.
-"FAILED"| This is the state of the current image if instant clone farm delete operation has failed or timed out.
-"PENDING_UNPUBLISH"| This is the state of the current image before instant clone farm delete or cluster edit or datastore(s) edit operation(s) begins.
-"UNPUBLISHING"| This is the transient state of the current image when instant clone farm delete or cluster edit or datastore(s) edit operation(s) is going on.
+**instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the farm. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PENDING_PUBLISH"</td><td>This is the initial transient state of the pending image before instant clone farm creation operation has started.</td></tr><tr><td>"PUBLISHING"</td><td>This is the transient state of the pending image when creation of instant clone farm operation is going on.</td></tr><tr><td>"READY"</td><td>This is the state of the pending image after successful publish of the pending image and before that image has been upgraded to the current image. This is normally seen after successful publish for a push image which has been scheduled to trigger at a later time.</td></tr><tr><td>"FAILED"</td><td>This is the state of the pending image if creation of instant clone farm operation has failed or timed out.</td></tr></table>
+**instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"READY"</td><td>This is the state of the current image after successful completion of farm creation operation. At this stage the current image is ready to be used to create the instant clones. Please note that this state is also reached from {@link InstantCloneCurrentImageStates#UNPUBLISHING} state on successful completion of editing of cluster or editing of datastore(s) operations.</td></tr><tr><td>"FAILED"</td><td>This is the state of the current image if instant clone farm delete operation has failed or timed out.</td></tr><tr><td>"PENDING_UNPUBLISH"</td><td>This is the state of the current image before instant clone farm delete or cluster edit or datastore(s) edit operation(s) begins.</td></tr><tr><td>"UNPUBLISHING"</td><td>This is the transient state of the current image when instant clone farm delete or cluster edit or datastore(s) edit operation(s) is going on.</td></tr></table>
 **pendingImageParentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Pending base image VM for Instant clone farms. This is used to return the information about the parent VM of the pending Image. To update base image VM of instant clone farms use Farm#scheduleRecurringMaintenance method. [^1] [^114]
 **pendingImageSnapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Pending base image snapshot for Instant clone farms. This is used to return the information about the snapshot of the pending Image. To update base image snapshot of instant clone farms use Farm#scheduleRecurringMaintenance method. [^1] [^114]
 **pendingImageParentVmPath**|  xsd:string|  Pending [pendingImageParentVm](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#pendingImageParentVm) path. The name is the last element of the path. [^1] [^114]

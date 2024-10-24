@@ -32,13 +32,7 @@ Name |  Type |  Description
 **allowLegacyClients**|  xsd:boolean|  Indicate whether the legacy Horizon clients will be allowed to use login as current user. [^6]
 **allowNTLMFallback**|  xsd:boolean|  Indicate whether NTLM is allowed for GSS API authentication. If kerberos authentication fails when the client does not have access to the domain controllers in the hosted environment, clients can fall back to NTLM authentication if allowNTLMFallback is set to true. [^5]
 **enforceChannelBindings**|  xsd:boolean|  Indicate whether channel bindings is supported or not. [^6]
-**triggerMode**|  xsd:string|  Indicates True SSO trigger mode on sessions using this authenticator. [^17]
-* This property will be one of:
-|  Value |  Description
----|---
-"DISABLED"| Do not use True SSO.
-"OPTIONAL"| If no SSO credentials are provided then use True SSO, otherwise use the supplied SSO credentials.
-"ENABLED"| Always use True SSO even if client supplied SSO credentials.
+**triggerMode**|  xsd:string|  Indicates True SSO trigger mode on sessions using this authenticator. [^17]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DISABLED"</td><td>Do not use True SSO.</td></tr><tr><td>"OPTIONAL"</td><td>If no SSO credentials are provided then use True SSO, otherwise use the supplied SSO credentials.</td></tr><tr><td>"ENABLED"</td><td>Always use True SSO even if client supplied SSO credentials.</td></tr></table>
 
 
  [^1]: This property need not be set. 

@@ -97,9 +97,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [NetworkProxyConfiguration](vdi.infrastructure.NetworkProxyConfiguration.md) used to make the method call.
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply.
-
- [^292]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply. [^292]
 
 
 

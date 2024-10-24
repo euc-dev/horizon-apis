@@ -54,10 +54,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Policies](vdi.users.Policies.md) used to make the method call.
 **resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to clear policy overrides for.
-
-**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to clear policy overrides for.
-
- [^135]
+**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to clear policy overrides for. [^135]
 
 
 
@@ -105,14 +102,8 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Policies](vdi.users.Policies.md) used to make the method call.
-**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to get policies for.
-
- [^135]
-
-
-**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to get policies for.
-
- [^135]
+**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to get policies for. [^135]
+**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to get policies for. [^135]
 
 
 
@@ -250,16 +241,8 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Policies](vdi.users.Policies.md) used to make the method call.
-**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to set policies for.
-
- [^135]
-
-
-**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to set policies for.
-
- [^135]
-
-
+**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to set policies for. [^135]
+**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to set policies for. [^135]
 **settings**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Policies object to use as overrides.
 
 
@@ -307,19 +290,9 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Policies](vdi.users.Policies.md) used to make the method call.
-**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to apply this update to.
-
- [^135]
-
-
-**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to apply this update to.
-
- [^135]
-
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Update map.
-
- [^200]
+**resource**| [EntityId](vdi.EntityId.md)|  Entity Id of resource to apply this update to. [^135]
+**userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or Group Id of user or group to apply this update to. [^135]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Update map. [^200]
 
 
 

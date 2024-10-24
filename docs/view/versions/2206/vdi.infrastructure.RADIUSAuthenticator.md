@@ -255,10 +255,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 **id**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The ID of the RADIUS authenticator to update.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^296]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^296]
 
 
 

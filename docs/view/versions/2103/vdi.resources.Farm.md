@@ -54,7 +54,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  The entityId of the Farm.
-
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  The array of RDSServerIds to be added to the Farm.
 
 
@@ -112,7 +111,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  unique identifier for a farm entry.
-
 **maintenanceMode**|  xsd:string|  scheduled maintenance mode (IMMEDIATE, RECURRING) to be deleted.
 
 
@@ -190,10 +188,7 @@ Type |  Description
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
-[InvalidLicense](vdi.fault.InvalidLicense.md)| Thrown in one of the following cases during Instant Clone Farm creation:
- [^105] [^106] [^107]
-
-
+[InvalidLicense](vdi.fault.InvalidLicense.md)| Thrown in one of the following cases during Instant Clone Farm creation: [^105] [^106] [^107]
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
@@ -469,7 +464,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  unique identifier for a farm entry.
-
 **spec**| [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md)|  The specification for the scheduled maintenance operation.
 
 
@@ -526,7 +520,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  unique identifier for a farm entry
-
 **spec**| [FarmRecomposeSpec](vdi.resources.Farm.RecomposeSpec.md)|  The specification for the recompose operation.
 
 
@@ -586,7 +579,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  The entityId of the Farm.
-
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  The array of RDSServerIds to be removed from the Farm.
 
 
@@ -643,7 +635,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  unique identifier for a farm entry.
-
 **spec**| [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md)|  The specification for the scheduled maintenance operation.
 
 
@@ -702,10 +693,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  The entityId of the Farm to be updated
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated
-
- [^186]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated [^186]
 
 
 
@@ -762,7 +750,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Farm](vdi.resources.Farm.md) used to make the method call.
 **id**| [FarmId](vdi.entity.FarmId.md)|  The entityId of the Farm on which to validate installed applications
-
 **applicationExePaths**|  xsd:string[]|  Array of applicationExePaths for the applications to be validated
 
 

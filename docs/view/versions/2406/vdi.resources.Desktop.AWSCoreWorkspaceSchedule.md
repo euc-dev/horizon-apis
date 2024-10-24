@@ -31,10 +31,8 @@ Name |  Type |  Description
 **name**|  xsd:string|  Name of the schedule
 **timezone**|  xsd:string|  Time-zone of the schedule.
 **daysOfTheWeek**|  xsd:string[]|  Days of the week
-**resumeTime**|  xsd:string|  Workspace resume time
-* This property must contain the time in 24 hours format. e.g. 14:30
-**suspendTime**|  xsd:string|  Workspace suspend time
-* This property must contain the time in 24 hours format. e.g. 14:30
+**resumeTime**|  xsd:string|  Workspace resume time<br>* This property must contain the time in 24 hours format. e.g. 14:30
+**suspendTime**|  xsd:string|  Workspace suspend time<br>* This property must contain the time in 24 hours format. e.g. 14:30
 
 
  [^1]: This property need not be set. 

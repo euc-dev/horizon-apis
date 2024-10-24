@@ -181,9 +181,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
-**id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get.
-
- [^135]
+**id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get. [^135]
 
 
 

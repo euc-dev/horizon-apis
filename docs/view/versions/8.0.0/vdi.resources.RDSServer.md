@@ -375,10 +375,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RDSServer](vdi.resources.RDSServer.md) used to make the method call.
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  The entity Id of the RDS server to be updated
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated
-
- [^198]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated [^198]
 
 
 

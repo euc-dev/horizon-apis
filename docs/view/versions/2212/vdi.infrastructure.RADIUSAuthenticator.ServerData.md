@@ -34,14 +34,7 @@ Name |  Type |  Description
 **hostname**|  xsd:string|  The hostname of the RADIUS authentication server.
 **authenticationPort**|  xsd:int|  The authentication port of the RADIUS authentication server. [^8] [^189]
 **accountingPort**|  xsd:int|  The accounting port of the RADIUS authentication server. [^72] [^189]
-**authenticationType**|  xsd:string|  The authentication type of the RADIUS authentication server.
-* This property will be one of:
-|  Value |  Description
----|---
-"PAP"| Password authentication protocol
-"CHAP"| Challenge-handshake authentication protocol
-"MSCHAP1"| Microsoft challenge-handshake authentication protocol, version 1
-"MSCHAP2"| Microsoft challenge-handshake authentication protocol, version 2
+**authenticationType**|  xsd:string|  The authentication type of the RADIUS authentication server.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PAP"</td><td>Password authentication protocol</td></tr><tr><td>"CHAP"</td><td>Challenge-handshake authentication protocol</td></tr><tr><td>"MSCHAP1"</td><td>Microsoft challenge-handshake authentication protocol, version 1</td></tr><tr><td>"MSCHAP2"</td><td>Microsoft challenge-handshake authentication protocol, version 2</td></tr></table>
 **sharedSecret**| [SecureString](vdi.util.SecureString.md)|  The shared secret of the RADIUS authentication server.
 **serverTimeoutSeconds**|  xsd:int|  The server timeout (in seconds) of the RADIUS authentication server. [^8]
 **maxAttempts**|  xsd:int|  The maximum number of authentication attempts for the RADIUS authentication server. [^8]

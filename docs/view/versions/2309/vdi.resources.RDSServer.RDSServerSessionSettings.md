@@ -28,13 +28,7 @@ RDS Server session settings
 Properties
 Name |  Type |  Description
 ---|---|---
-**maxSessionsType**|  xsd:string|  RDSServer max sessions type. If RDS Server is part of automated farm, this value is inherited from farm configuration. [^134]
-* This property will be one of:
-|  Value |  Description
----|---
-"UNLIMITED"| RDSServer has unlimited number of sessions
-"LIMITED"| RDSServer has a limited number of sessions
-"UNCONFIGURED"| The max number of sessions has not yet been defined for the RDSServer
+**maxSessionsType**|  xsd:string|  RDSServer max sessions type. If RDS Server is part of automated farm, this value is inherited from farm configuration. [^134] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>UNLIMITED</td><td>RDSServer has unlimited number of sessions</td></tr><tr><td>LIMITED</td><td>RDSServer has a limited number of sessions</td></tr><tr><td>UNCONFIGURED</td><td>The max number of sessions has not yet been defined for the RDSServer</td></tr></table>
 **maxSessionsSetByAdmin**|  xsd:int|  Maximum number of sessions on an RDS server as set by the admin. [^1] [^8] [^9]
  
 

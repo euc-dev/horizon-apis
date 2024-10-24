@@ -36,13 +36,7 @@ Name |  Type |  Description
 ---|---|---
 **queryEntityType**|  xsd:string|  Name of the type of object to be returned. The exact list of queryable data objects is defined here: [Queryable Data Objects](index-queries.md)
 **filter**| [QueryFilter](vdi.query.QueryFilter.Filter.md)|  Any filter criteria for this query. [^1]
-**sortBy**|  xsd:string|  Member names to sort by, if any. This attribute must be able to be filtered upon and be one of these types:
-* xsd:boolean
-* xsd:int
-* xsd:long
-* xsd:string
-* xsd:dateTime
-* [EntityId](vdi.EntityId.md) [^1]
+**sortBy**|  xsd:string|  Member names to sort by, if any. This attribute must be able to be filtered upon and be one of these types:<br>* xsd:boolean<br>* xsd:int<br>* xsd:long<br>* xsd:string<br>* xsd:dateTime<br>* [EntityId](vdi.EntityId.md) [^1]
 **sortDescending**|  xsd:boolean|  Sort order: false (ascending) by default. [^1]
 **startingOffset**|  xsd:int|  0-based starting offset for returned results, defaults to 0. [^1]
 **limit**|  xsd:int|  Maximum count of items this query should produce, defaults to all. [^1]

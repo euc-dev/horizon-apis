@@ -31,12 +31,7 @@ Settings related to the naming of the VMs in the desktop for creation.
 Properties
 Name |  Type |  Description
 ---|---|---
-**namingMethod**|  xsd:string|  Determines how the VMs in the desktop are named. Note(s) :- [^104]
-* This property will be one of:
-|  Value |  Description
----|---
-"SPECIFIED"| List of specified names. All provisioning is done up-front.
-"PATTERN"| Naming pattern.
+**namingMethod**|  xsd:string|  Determines how the VMs in the desktop are named. Note(s) :- [^104] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>SPECIFIED</td><td>List of specified names. All provisioning is done up-front.</td></tr><tr><td>PATTERN</td><td>Naming pattern.</td></tr></table>
 **patternNamingSettings**| [DesktopPatternNamingSettings](vdi.resources.Desktop.PatternNamingSettings.md)|  Naming pattern settings. [^1] [^102]
 **specificNamingSpec**| [DesktopSpecificNamingSpec](vdi.resources.Desktop.SpecificNamingSpec.md)|  Specified name settings. [^1] [^103]
 

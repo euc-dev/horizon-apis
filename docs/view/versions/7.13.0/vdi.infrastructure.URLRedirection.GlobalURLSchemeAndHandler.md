@@ -32,12 +32,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **urlScheme**|  xsd:string|  URL Scheme/protocol used by View Client for URL Filtering.
-**type**|  xsd:string| [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"APPLICATION"| Application Pool.
-"DESKTOP"| Desktop Pool.
+**type**|  xsd:string| [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"APPLICATION"</td><td>Application Pool.</td></tr><tr><td>"DESKTOP"</td><td>Desktop Pool.</td></tr></table>
 **gaeSchemeHandler**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Global Application Entitlement that can handle this URL Scheme. [^1] [^203]
 **geSchemeHandler**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global Entitlement that should be used to launch URLs with this Scheme. [^1] [^204]
 

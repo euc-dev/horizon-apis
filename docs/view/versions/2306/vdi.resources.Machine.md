@@ -172,9 +172,7 @@ Name| Type| Description
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Machine](vdi.resources.Machine.md) used to make the method call.
 **id**| [MachineId](vdi.entity.MachineId.md)|  unique identifier of the machine to delete. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 
-**spec**| [MachineDeleteSpec](vdi.resources.Machine.DeleteSpec.md)|  attributes needed to delete the Machine.
-
- [^135]
+**spec**| [MachineDeleteSpec](vdi.resources.Machine.DeleteSpec.md)|  attributes needed to delete the Machine. [^135]
 
 
 
@@ -234,9 +232,7 @@ Name| Type| Description
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Machine](vdi.resources.Machine.md) used to make the method call.
 **ids**| [MachineId[]](vdi.entity.MachineId.md)|  Array of unique identifiers of the machines to delete. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 
-**spec**| [MachineDeleteSpec](vdi.resources.Machine.DeleteSpec.md)|  attributes needed to delete the Machines.
-
- [^135]
+**spec**| [MachineDeleteSpec](vdi.resources.Machine.DeleteSpec.md)|  attributes needed to delete the Machines. [^135]
 
 
 
@@ -1330,9 +1326,7 @@ Name| Type| Description
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Machine](vdi.resources.Machine.md) used to make the method call.
 **id**| [MachineId](vdi.entity.MachineId.md)|  The ID of the machine to update. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply
-
- [^219]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply [^219]
 
 
 

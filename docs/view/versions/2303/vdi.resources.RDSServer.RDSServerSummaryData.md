@@ -30,13 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **farmName**|  xsd:string|  Farm name that the RDS server (optionally) belongs to [^1] [^2]
 **desktopName**|  xsd:string|  Desktop name that the RDS server (optionally) is associated with [^1] [^2]
-**farmType**|  xsd:string|  Represents the Farm type that RDS Server is part of.  **_Since_** Horizon 7.6 [^130] [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| This RDS Server is part of Automated Farm.
-"MANUAL"| This RDS Server is part of Manual Farm.
-"NONE"| This RDS Server is not part of any Farm.
+**farmType**|  xsd:string|  Represents the Farm type that RDS Server is part of.  **_Since_** Horizon 7.6 [^130] [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>This RDS Server is part of Automated Farm.</td></tr><tr><td>MANUAL</td><td>This RDS Server is part of Manual Farm.</td></tr><tr><td>NONE</td><td>This RDS Server is not part of any Farm.</td></tr></table>
  
 
 

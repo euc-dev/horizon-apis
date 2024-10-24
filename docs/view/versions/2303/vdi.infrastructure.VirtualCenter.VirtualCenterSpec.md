@@ -41,16 +41,7 @@ Name |  Type |  Description
 **viewComposerData**| [VirtualCenterViewComposerData](vdi.infrastructure.VirtualCenter.ViewComposerData.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View composer details. [^1] [^2]
 **seSparseReclamationEnabled**|  xsd:boolean|  Is Storage Efficiency Sparse (seSparse) reclamation enabled?
 **vmcDeployment**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. The deployment type can now be checked with the[deploymentType](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md#deploymentType) field. For VMC deployment [deploymentType](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md#deploymentType) will be set to AWS. _ Is Virtual center deployed in VMC?  **_Since_** Horizon 7.6 [^5] [^1]
-**deploymentType**|  xsd:string|  Describes the type of VCenter deployment.  **_Since_** Horizon 8.3 [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"GENERAL"| Denotes Horizon is deployed on-premises.
-"AWS"| Denotes Horizon is deployed on AWS.
-"AZURE"| Denotes Horizon is deployed on Azure.
-"DELLEMC"| Denotes Horizon is deployed on Dell EMC.
-"GOOGLE"| Denotes Horizon is deployed on Google Cloud.
-"ORACLE"| Denotes Horizon is deployed on Oracle Cloud.
+**deploymentType**|  xsd:string|  Describes the type of VCenter deployment.  **_Since_** Horizon 8.3 [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"GENERAL"</td><td>Denotes Horizon is deployed on-premises.</td></tr><tr><td>"AWS"</td><td>Denotes Horizon is deployed on AWS.</td></tr><tr><td>"AZURE"</td><td>Denotes Horizon is deployed on Azure.</td></tr><tr><td>"DELLEMC"</td><td>Denotes Horizon is deployed on Dell EMC.</td></tr><tr><td>"GOOGLE"</td><td>Denotes Horizon is deployed on Google Cloud.</td></tr><tr><td>"ORACLE"</td><td>Denotes Horizon is deployed on Oracle Cloud.</td></tr></table>
  
 
 

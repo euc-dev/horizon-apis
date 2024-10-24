@@ -28,22 +28,8 @@ Certificate SSO data for a SAML authenticator.
 Properties
 Name |  Type |  Description
 ---|---|---
-**triggerMode**|  xsd:string|  How to trigger Certificate SSO on sessions using this authenticator. [^17]
-* This property will be one of:
-|  Value |  Description
----|---
-"DISABLED"| Do not use Certificate SSO.
-"ENABLE_IF_NO_PASSWORD"| If no password is supplied, use a valid (domain matching) connector if it exists.
-"REQUIRE_IF_NO_PASSWORD"| If no password is supplied, use and require a valid (domain matching) connector.
-"ENABLE_ALWAYS"| Regardless of a password, use a valid (domain matching) connector if it exists.
-"REQUIRE_ALWAYS"| Regardless of a password, use and require a valid (domain matching) connector.
-**passwordMode**|  xsd:string|  If Certificate SSO is triggered and a password is present in the SAML assertion, how to handle it. [^1] [^308]
-* This property will be one of:
-|  Value |  Description
----|---
-"REMOVE"| Remove any passwords.
-"PASSTHRU"| Pass through any passwords.
-"ERROR"| Error if there is a password.
+**triggerMode**|  xsd:string|  How to trigger Certificate SSO on sessions using this authenticator. [^17]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DISABLED"</td><td>Do not use Certificate SSO.</td></tr><tr><td>"ENABLE_IF_NO_PASSWORD"</td><td>If no password is supplied, use a valid (domain matching) connector if it exists.</td></tr><tr><td>"REQUIRE_IF_NO_PASSWORD"</td><td>If no password is supplied, use and require a valid (domain matching) connector.</td></tr><tr><td>"ENABLE_ALWAYS"</td><td>Regardless of a password, use a valid (domain matching) connector if it exists.</td></tr><tr><td>"REQUIRE_ALWAYS"</td><td>Regardless of a password, use and require a valid (domain matching) connector.</td></tr></table>
+**passwordMode**|  xsd:string|  If Certificate SSO is triggered and a password is present in the SAML assertion, how to handle it. [^1] [^308]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"REMOVE"</td><td>Remove any passwords.</td></tr><tr><td>"PASSTHRU"</td><td>Pass through any passwords.</td></tr><tr><td>"ERROR"</td><td>Error if there is a password.</td></tr></table>
  
 
 

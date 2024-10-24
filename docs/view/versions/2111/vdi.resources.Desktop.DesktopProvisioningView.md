@@ -53,14 +53,7 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop entity ID. [^2]
-**provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.
-"VIEW_COMPOSER"| View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Desktop.
+**provisioningType**|  xsd:string|  The Source or the Provisioning Type of machines. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.</td></tr><tr><td>VIEW_COMPOSER</td><td>View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones; these clones take very little time for provisioning. Instant clones have many similarities to linked clones. This option is only valid for Automated Desktop.</td></tr></table>
 **operatingSystem**|  xsd:string|  The guest operating system. [^1]
 * This property will be one of:
 |  Value |  Description
@@ -85,13 +78,7 @@ This option is only valid for Automated Desktop.
 "Linux (Red Hat Enterprise Linux)"| Linux (Red Hat Enterprise)
 "Linux (SUSE Linux Enterprise Server)"| Linux (Suse)
 "Linux (CentOS)"| Linux (CentOS)
-**operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Unknown"| Operating System cannot be determined.
-"32_bit"| 32 bit Operating System Architecture.
-"64_bit"| 64 bit Operating System Architecture.
+**operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Unknown</td><td>Operating System cannot be determined.</td></tr><tr><td>32_bit</td><td>32 bit Operating System Architecture.</td></tr><tr><td>64_bit</td><td>64 bit Operating System Architecture.</td></tr></table>
 **base**| [DesktopBase](vdi.resources.Desktop.DesktopBase.md)|  Desktop identification information. [^2]
 **virtualCenterData**| [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md)|  Paths for Virtual Center entities associated with this Desktop. [^2]
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1 [^1] [^2]

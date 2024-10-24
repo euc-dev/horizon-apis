@@ -47,16 +47,7 @@ Name |  Type |  Description
 **isDeletable**|  xsd:boolean|  If true, Virtual Center can be deletable otherwise not. A Virtual Center cannot be deleted if there is atleast one Desktop and/or Farm associated with it.  **_Since_** Horizon 7.8 [^2]
 **maintenanceMode**|  xsd:boolean|  If maintenance or upgrade task is scheduled on Virtual center or hosts. For example, set this flag when upgrading hosts using VMware vSphere Update Manager (VUM).  **_Since_** Horizon 7.13 [^5] [^1]
 **hasVirtualTPMPools**|  xsd:boolean|  If there is any instant clone Desktop pool associated with this Virtual Center which has addVirtualTPM set.  **_Since_** Horizon 7.13 [^5] [^1] [^2]
-**deploymentType**|  xsd:string|  Describes the type of Horizon deployment.  **_Since_** Horizon 8.0 [^180] [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"GENERAL"| Denotes Horizon is deployed on-premises.
-"AWS"| Denotes Horizon is deployed on AWS.
-"AZURE"| Denotes Horizon is deployed on Azure.
-"DELLEMC"| Denotes Horizon is deployed on Dell EMC.
-"GOOGLE"| Denotes Horizon is deployed on Google Cloud.
-"ORACLE"| Denotes Horizon is deployed on Oracle Cloud.
+**deploymentType**|  xsd:string|  Describes the type of Horizon deployment.  **_Since_** Horizon 8.0 [^180] [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"GENERAL"</td><td>Denotes Horizon is deployed on-premises.</td></tr><tr><td>"AWS"</td><td>Denotes Horizon is deployed on AWS.</td></tr><tr><td>"AZURE"</td><td>Denotes Horizon is deployed on Azure.</td></tr><tr><td>"DELLEMC"</td><td>Denotes Horizon is deployed on Dell EMC.</td></tr><tr><td>"GOOGLE"</td><td>Denotes Horizon is deployed on Google Cloud.</td></tr><tr><td>"ORACLE"</td><td>Denotes Horizon is deployed on Oracle Cloud.</td></tr></table>
 
 
  [^1]: This property need not be set. 

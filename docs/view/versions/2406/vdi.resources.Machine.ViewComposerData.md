@@ -40,37 +40,9 @@ Name |  Type |  Description
 **pendingImageManagementStreamName**|  xsd:string|  Name of the pending image management stream. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10 [^1] [^2]
 **pendingImageManagementTagName**|  xsd:string|  Name of the pending image management tag. This will be populated only for instant clone machines provisioned from pools created using image catalog.  **_Since_** Horizon 7.10 [^1] [^2]
 **lastMaintenanceTime**|  xsd:dateTime|  The time of last maintenance operation. [^1] [^2]
-**operation**|  xsd:string|  The current maintenance operation. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"REFRESH"| A refresh operation.
-"RESYNC"| A resync operation.
-"REBALANCE"| A rebalance operation.
-"ATTACH"| A persistent disk attach operation.
-"DETACH"| A persistent disk detach operation.
-"REPLACE"| A persistent disk replace operation.
-"CHECKPOINT"| A checkpoint operation.
-"PUSH_IMAGE"| A push image operation (Instant Clone Engine only).
-**autoRefreshLogOffSetting**|  xsd:string|  The logoff setting for auto refresh operation.  **_Since_** Horizon 7.4 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"FORCE_LOGOFF"| Users will be forced to log off when the system is ready to operate on their virtual machines. Before being forcibly logged off, users may have a grace period in which to save their work (Global Settings).
-"WAIT_FOR_LOGOFF"| Wait for connected users to disconnect before the task starts. The operation starts immediately on machines without active sessions.
-**operationState**|  xsd:string|  The maintenance operation state. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"UNDEFINED"| The operation state is unrecognized.
-"SCHEDULED"| The operation is scheduled for future execution.
-"PROGRESSING"| The operation is in progress.
-"COMPLETED"| The operation has completed.
-"FAULT"| The operation has encountered an error.
-"CANCELLING"| The operation has been cancelled.
-"HOLDING"| The operation has been paused.
-"CREATE"| The operation is being initiated.
-"STANDBY"| The operation is on standby for selective push.
+**operation**|  xsd:string|  The current maintenance operation. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"REFRESH"</td><td>A refresh operation.</td></tr><tr><td>"RESYNC"</td><td>A resync operation.</td></tr><tr><td>"REBALANCE"</td><td>A rebalance operation.</td></tr><tr><td>"ATTACH"</td><td>A persistent disk attach operation.</td></tr><tr><td>"DETACH"</td><td>A persistent disk detach operation.</td></tr><tr><td>"REPLACE"</td><td>A persistent disk replace operation.</td></tr><tr><td>"CHECKPOINT"</td><td>A checkpoint operation.</td></tr><tr><td>"PUSH_IMAGE"</td><td>A push image operation (Instant Clone Engine only).</td></tr></table>
+**autoRefreshLogOffSetting**|  xsd:string|  The logoff setting for auto refresh operation.  **_Since_** Horizon 7.4 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"FORCE_LOGOFF"</td><td>Users will be forced to log off when the system is ready to operate on their virtual machines. Before being forcibly logged off, users may have a grace period in which to save their work (Global Settings).</td></tr><tr><td>"WAIT_FOR_LOGOFF"</td><td>Wait for connected users to disconnect before the task starts. The operation starts immediately on machines without active sessions.</td></tr></table>
+**operationState**|  xsd:string|  The maintenance operation state. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNDEFINED"</td><td>The operation state is unrecognized.</td></tr><tr><td>"SCHEDULED"</td><td>The operation is scheduled for future execution.</td></tr><tr><td>"PROGRESSING"</td><td>The operation is in progress.</td></tr><tr><td>"COMPLETED"</td><td>The operation has completed.</td></tr><tr><td>"FAULT"</td><td>The operation has encountered an error.</td></tr><tr><td>"CANCELLING"</td><td>The operation has been cancelled.</td></tr><tr><td>"HOLDING"</td><td>The operation has been paused.</td></tr><tr><td>"CREATE"</td><td>The operation is being initiated.</td></tr><tr><td>"STANDBY"</td><td>The operation is on standby for selective push.</td></tr></table>
 **datastorePaths**|  xsd:string[]|  The name(s) of the datastore(s) occupied by the virtual machine. [^1] [^14] [^2]
 **persistentDisks**| [PersistentDiskId[]](vdi.entity.PersistentDiskId.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ The persistent disk(s). [^1] [^14] [^2]
 **persistentDiskRefIds**|  xsd:string[]|  Reference IDs of the persistent disk(s)  **_Since_** Horizon 8.10 [^1] [^2]

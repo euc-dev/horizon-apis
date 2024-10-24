@@ -31,33 +31,10 @@ Read-only operation and provisioning status data for instant clone desktops.
 Properties
 Name |  Type |  Description
 ---|---|---
-**operation**|  xsd:string|  The operation that this instant clone desktop is undergoing.
-* This property will be one of:
-|  Value |  Description
----|---
-"NONE"| There is no current operation on the desktop.
-"INITIAL_PUBLISH"| The desktop has just been created and is undergoing initial publishing.
-"SCHEDULE_PUSH_IMAGE"| The push operation is scheduled on the desktop
-"CANCEL_SCHEDULED_PUSH_IMAGE"| The scheduled push operation on the desktop is being cancelled.
-"INFRASTRUCTURE_CHANGE"| A cluster or datastore change operation was requested for the desktop.
-"FINAL_UNPUBLISH"| A desktop has been deleted and is undergoing final unpublishing.
-**instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the desktop. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"PENDING_PUBLISH"| This is the initial transient state of the pending image before instant clone pool creation operation has started.
-"PUBLISHING"| This is the transient state of the pending image when creation of instant clone pool operation is going on.
-"READY"| This is the state of the pending image after successful publish of the pending image and before that image has been upgraded to the current image. This is normally seen after successful publish for a push image which has been scheduled to trigger at a later time.
-"FAILED"| This is the state of the pending image if creation of instant clone pool operation has failed or timed out.
+**operation**|  xsd:string|  The operation that this instant clone desktop is undergoing. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>NONE</td><td>There is no current operation on the desktop.</td></tr><tr><td>INITIAL_PUBLISH</td><td>The desktop has just been created and is undergoing initial publishing.</td></tr><tr><td>SCHEDULE_PUSH_IMAGE</td><td>The push operation is scheduled on the desktop.</td></tr><tr><td>CANCEL_SCHEDULED_PUSH_IMAGE</td><td>The scheduled push operation on the desktop is being cancelled.</td></tr><tr><td>INFRASTRUCTURE_CHANGE</td><td>A cluster or datastore change operation was requested for the desktop.</td></tr><tr><td>FINAL_UNPUBLISH</td><td>A desktop has been deleted and is undergoing final unpublishing.</td></tr></table>
+**instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the desktop. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>PENDING_PUBLISH</td><td>This is the initial transient state of the pending image before instant clone pool creation operation has started.</td></tr><tr><td>PUBLISHING</td><td>This is the transient state of the pending image when creation of instant clone pool operation is going on.</td></tr><tr><td>READY</td><td>This is the state of the pending image after successful publish of the pending image and before that image has been upgraded to the current image. This is normally seen after successful publish for a push image which has been scheduled to trigger at a later time.</td></tr><tr><td>FAILED</td><td>This is the state of the pending image if creation of instant clone pool operation has failed or timed out.</td></tr></table>
 "UNPUBLISHING"| This is the transient state of the pending image when instant clone pool push image operation fails or is cancelled.
-**instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"READY"| This is the state of the current image after successful completion of pool creation operation. At this stage the current image is ready to be used to create the instant clones. Please note that this state is also reached from {@link InstantCloneCurrentImageStates#UNPUBLISHING} state on successful completion of editing of cluster or editing of datastore(s) operations.
-"FAILED"| This is the state of the current image if instant clone pool delete operation has failed or timed out.
-"PENDING_UNPUBLISH"| This is the state of the current image before instant clone pool delete or cluster edit or datastore(s) edit operation(s) begins.
-"UNPUBLISHING"| This is the transient state of the current image when instant clone pool delete or cluster edit or datastore(s) edit operation(s) is going on.
+**instantCloneCurrentImageState**|  xsd:string|  This represents the state of the current image. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>READY</td><td>This is the state of the current image after successful completion of pool creation operation. At this stage the current image is ready to be used to create the instant clones. Please note that this state is also reached from {@link InstantCloneCurrentImageStates#UNPUBLISHING} state on successful completion of editing of cluster or editing of datastore(s) operations.</td></tr><tr><td>FAILED</td><td>This is the state of the current image if instant clone pool delete operation has failed or timed out.</td></tr><tr><td>PENDING_UNPUBLISH</td><td>This is the state of the current image before instant clone pool delete or cluster edit or datastore(s) edit operation(s) begins.</td></tr><tr><td>UNPUBLISHING</td><td>This is the transient state of the current image when instant clone pool delete or cluster edit or datastore(s) edit operation(s) is going on.</td></tr></table>
 **pendingImageParentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Pending base image VM for Instant clone desktops. This is used to return the information about the parent VM of the pending Image. To update base image VM of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method. [^1] [^31]
 **pendingImageSnapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Pending base image snapshot for Instant clone desktops. This is used to return the information about the snapshot of the pending Image. To update base image snapshot of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method. [^1] [^31]
 **pendingImageParentVmPath**|  xsd:string|  Pending [pendingImageParentVm](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#pendingImageParentVm) path. The name is the last element of the path. [^1] [^31]

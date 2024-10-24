@@ -45,9 +45,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [JwtToken](vdi.infrastructure.JwtToken.md) used to make the method call.
-**spec**| [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md)|
-
- [^135]
+**spec**| [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md)| [^135]
 
 
 

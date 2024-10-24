@@ -33,13 +33,7 @@ View composer related attributes
 Properties
 Name |  Type |  Description
 ---|---|---
-**viewComposerType**|  xsd:string|  Denotes the View Composer type to use. [^17]
-* This property will be one of:
-|  Value |  Description
----|---
-"DISABLED"| Denotes when View Composer is disabled for this VC.
-"LOCAL_TO_VC"| Denotes the Virtual Center is using a View Composer server which is co-installed.
-"STANDALONE"| Denotes when Virtual Center is paired with a standalone View Composer server.
+**viewComposerType**|  xsd:string|  Denotes the View Composer type to use. [^17] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DISABLED"</td><td>Denotes when View Composer is disabled for this VC.</td></tr><tr><td>"LOCAL_TO_VC"</td><td>Denotes the Virtual Center is using a View Composer server which is co-installed.</td></tr><tr><td>"STANDALONE"</td><td>Denotes when Virtual Center is paired with a standalone View Composer server.</td></tr></table>
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to the view composer server. [^1] [^179]
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  View composer certificate thumbprint. This is specified if an invalid certificate is overridden by the client. [^1]
 

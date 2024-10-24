@@ -53,32 +53,9 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID [^2]
-**provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Farm.
-**operatingSystem**|  xsd:string|  The guest operating system. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"Unknown"|
-"Windows Server 2003"| Windows Server 2003
-"Windows Server 2008"| Windows Server 2008
-"Windows Server 2008R2"| Windows Server 2008R2
-"Windows Server 2012"| Windows Server 2012
-"Windows Server 2012R2"| Windows Server 2012R2
-"Windows Server 2016"| null
-"Linux Server (other)"| Linux server (other)
-**operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Unknown"| Operating System cannot be determined.
-"32_bit"| 32 bit Operating System Architecture.
-"64_bit"| 64 bit Operating System Architecture.
+**provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIEW_COMPOSER</td><td>View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110] This option is only valid for Automated Farm.</td></tr></table>
+**operatingSystem**|  xsd:string|  The guest operating system. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Unknown"</td><td></td></tr><tr><td>"Windows Server 2003"</td><td>Windows Server 2003</td></tr><tr><td>"Windows Server 2008"</td><td>Windows Server 2008</td></tr><tr><td>"Windows Server 2008R2"</td><td>Windows Server 2008R2</td></tr><tr><td>"Windows Server 2012"</td><td>Windows Server 2012</td></tr><tr><td>"Windows Server 2012R2"</td><td>Windows Server 2012R2</td></tr><tr><td>"Windows Server 2016"</td><td>null</td></tr><tr><td>"Linux Server (other)"</td><td>Linux server (other)</td></tr></table>
+**operatingSystemArchitecture**|  xsd:string|  The guest operating system architecture. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Unknown</td><td>Operating System cannot be determined.</td></tr><tr><td>32_bit</td><td>32 bit Operating System Architecture.</td></tr><tr><td>64_bit</td><td>64 bit Operating System Architecture.</td></tr></table>
 **base**| [FarmBase](vdi.resources.Farm.FarmBase.md)|  Farm identification information. [^2]
 **virtualCenterData**| [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)|  Paths for Virtual Center entities associated with this Farm. [^2]
 

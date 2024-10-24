@@ -31,25 +31,9 @@ Farm summary Data
 Properties
 Name |  Type |  Description
 ---|---|---
-**type**|  xsd:string|  Type of Farm.  **_Since_** Horizon View 6.2 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated farm creates RDS Servers cloned from a snapshot.
-"MANUAL"| A manual farm allows selection and addition of existing RDS Servers to the farm.
-**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1 [^1] [^2] [^29]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Farm.
-**imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Image was created in virtual center.
-"IMAGE_CATALOG"| Image was created in image catalog.
+**type**|  xsd:string|  Type of farm.  **_Since_** Horizon View 6.2 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated farm creates RDS Servers cloned from a snapshot.</td></tr><tr><td>MANUAL</td><td>A manual farm allows selection and addition of existing RDS Servers to the farm.</td></tr></table>
+**source**|  xsd:string|  Source of farm machines.  **_Since_** Horizon 7.1 [^1] [^2] [^29] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]. This option is only valid for Automated Farm.</td></tr></table>
+**imageSource**|  xsd:string|  Source of image used in the farm. Applicable for automated farm.  **_Since_** Horizon 7.10 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIRTUAL_CENTER"</td><td>Image was created in virtual center.</td></tr><tr><td>"IMAGE_CATALOG"</td><td>Image was created in image catalog.</td></tr></table>
 **name**|  xsd:string|  Farm name [^2]
 **displayName**|  xsd:string|  Farm display name. [^2]
 **description**|  xsd:string|  Farm description  **_Since_** Horizon View 6.2 [^1] [^2]
@@ -62,12 +46,7 @@ This option is only valid for Automated Farm.
 **desktopName**|  xsd:string|  RDS Desktop display name [^1] [^2]
 **rdsServerCount**|  xsd:int|  Count of RDS servers that belong to the Farm [^2]
 **applicationCount**|  xsd:int|  Count of Applications that belong to the Farm [^2]
-**maxSessionsType**|  xsd:string|  Farm max sessions type [^113] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"UNLIMITED"| Farm has unlimited number of sessions
-"LIMITED"| Farm has a limited number of sessions
+**maxSessionsType**|  xsd:string|  Farm max sessions type [^113] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNLIMITED"</td><td>Farm has unlimited number of sessions</td></tr><tr><td>"LIMITED"</td><td>Farm has a limited number of sessions</td></tr></table>
 **maximumNumberOfSessions**|  xsd:long|  Sum of maximum number of sessions of all RDS servers that belong to the Farm. [^1] [^2] [^8] [^9]
 **appVolumesManagerGuid**|  xsd:string|  Guid of app volumes manager associated with the farm.  **_Since_** Horizon 8.8 [^2]
  

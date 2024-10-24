@@ -34,12 +34,7 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  The URLRedirection name is the display name for this Setting. [^12]
 **description**|  xsd:string|  The description is set of notes about the URLRedirection Setting. [^1] [^13]
 **enabled**|  xsd:boolean|  Whether or not this URLRedirection Setting is enabled or not. [^6]
-**scope**|  xsd:string|  Represent whether this URL Redirection setting is local (LOCAL) or global (GLOBAL) level.  **_Since_** Horizon 7.0.2 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"LOCAL"| Local URL Redirection Setting.
-"GLOBAL"| Global URL Redirection Setting.
+**scope**|  xsd:string|  Represent whether this URL Redirection setting is local (LOCAL) or global (GLOBAL) level.  **_Since_** Horizon 7.0.2 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"LOCAL"</td><td>Local URL Redirection Setting.</td></tr><tr><td>"GLOBAL"</td><td>Global URL Redirection Setting.</td></tr></table>
 **urlSchemeAndHandlers**| [URLRedirectionSchemeHandler[]](vdi.infrastructure.URLRedirection.URLSchemeAndHandler.md)|  URL Scheme and Local resource (Desktop or Application Pool) mappings. [^1] [^14]
 **globalURLSchemeAndHandlers**| [GlobalURLRedirectionSchemeHandler[]](vdi.infrastructure.URLRedirection.GlobalURLSchemeAndHandler.md)|  URL Scheme and Global resource (GE or GAE) mappings.  **_Since_** Horizon 7.0.2 [^1] [^14]
 **urlAgentPatterns**|  xsd:string[]|  List of URL patterns/Regular expression that must be opened on Agent machine. [^1] [^14]

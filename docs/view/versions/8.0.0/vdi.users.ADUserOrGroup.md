@@ -367,9 +367,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ADUserOrGroup](vdi.users.ADUserOrGroup.md) used to make the method call.
-**ids**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  UserOrGroupIds of entities to refresh.
-
- [^135]
+**ids**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  UserOrGroupIds of entities to refresh. [^135]
 
 
 

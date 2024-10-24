@@ -28,29 +28,12 @@ Farm session settings
 Properties
 Name |  Type |  Description
 ---|---|---
-**disconnectedSessionTimeoutPolicy**|  xsd:string|  Log-off policy after disconnected session [^121]
-* This property will be one of:
-|  Value |  Description
----|---
-"IMMEDIATE"| Logoff immediately after disconnect.
-"NEVER"| Do not logoff after disconnect.
-"AFTER"| Logoff the specified number of minutes after disconnect.
+**disconnectedSessionTimeoutPolicy**|  xsd:string|  Log-off policy after disconnected session [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"IMMEDIATE"</td><td>Logoff immediately after disconnect.</td></tr><tr><td>"NEVER"</td><td>Do not logoff after disconnect.</td></tr><tr><td>"AFTER"</td><td>Logoff the specified number of minutes after disconnect.</td></tr></table>
 **disconnectedSessionTimeoutMinutes**|  xsd:int|  Disconnected sessions timeout (in minutes). An empty disconnected session is logged off after the timeout. [^1] [^8] [^122]
-**emptySessionTimeoutPolicy**|  xsd:string|  Application empty session timeout policy. [^184]
-* This property will be one of:
-|  Value |  Description
----|---
-"IMMEDIATE"| Empty session is disconnected immediately.
-"NEVER"| Empty session is never disconnected.
-"AFTER"| Empty session is disconnected after specified number of minutes.
+**emptySessionTimeoutPolicy**|  xsd:string|  Application empty session timeout policy. [^184] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"IMMEDIATE"</td><td>Empty session is disconnected immediately.</td></tr><tr><td>"NEVER"</td><td>Empty session is never disconnected.</td></tr><tr><td>"AFTER"</td><td>Empty session is disconnected after specified number of minutes.</td></tr></table>
 **emptySessionTimeoutMinutes**|  xsd:int|  Application empty session timeout (in minutes). An empty session (that has no remote-able window) is disconnected after the timeout. [^10] [^1] [^8] [^44]
 **logoffAfterTimeout**|  xsd:boolean|  Indicates whether the empty application sessions are logged off (true) or disconnected (false) after timeout. [^5]
-**preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.2 [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"NEVER"| Pre-launched session is never disconnected.
-"AFTER"| Pre-launched session is disconnected after specified number of minutes.
+**preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.2 [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"NEVER"</td><td>Pre-launched session is never disconnected.</td></tr><tr><td>"AFTER"</td><td>Pre-launched session is disconnected after specified number of minutes.</td></tr></table>
 **preLaunchSessionTimeoutMinutes**|  xsd:int|  Application pre-launch session timeout (in minutes). A pre-launch session is disconnected after the timeout.  **_Since_** Horizon 7.2 [^1] [^123] [^47]
 
 

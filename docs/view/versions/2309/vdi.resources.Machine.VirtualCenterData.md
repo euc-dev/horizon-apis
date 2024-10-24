@@ -34,21 +34,8 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Id of the Virtual Center managing this Machine. [^2]
 **hostname**|  xsd:string|  The name of the host on which this virtual machine is registered. [^1] [^2]
 **path**|  xsd:string|  The virtual machine path. [^2]
-**virtualMachinePowerState**|  xsd:string|  The virtual machine state. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"POWERED_OFF"|
-"POWERED_ON"| The virtual machine is powered on.
-"SUSPENDED"| The virtual machine is suspended.
-**viewStorageAcceleratorState**|  xsd:string|  The View Storage Accelerator state. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"OFF"|
-"CURRENT"| The virtual machine cached data are current.
-"OUTOFDATE"| The virtual machine cached data are not current and require regeneration.
-"ERROR"| View Storage Accelerator has encountered an error.
+**virtualMachinePowerState**|  xsd:string|  The virtual machine state. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"POWERED_OFF"</td><td></td></tr><tr><td>"POWERED_ON"</td><td>The virtual machine is powered on.</td></tr><tr><td>"SUSPENDED"</td><td>The virtual machine is suspended.</td></tr></table>
+**viewStorageAcceleratorState**|  xsd:string|  The View Storage Accelerator state. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OFF"</td><td></td></tr><tr><td>"CURRENT"</td><td>The virtual machine cached data are current.</td></tr><tr><td>"OUTOFDATE"</td><td>The virtual machine cached data are not current and require regeneration.</td></tr><tr><td>"ERROR"</td><td>View Storage Accelerator has encountered an error.</td></tr></table>
 **memoryMB**|  xsd:int|  The virtual machine memory in MB. [^1] [^2]
 **virtualDisks**| [MachineVirtualDiskData[]](vdi.resources.Machine.VirtualDiskData.md)|  The virtual disks comprising the virtual machine. [^1] [^14] [^2]
 **missingInVCenter**|  xsd:boolean|  While a machine is in a particular basic state, it can be subject to further conditions. This condition determines if the virtual machine is missing in vCenter Server. [^2]

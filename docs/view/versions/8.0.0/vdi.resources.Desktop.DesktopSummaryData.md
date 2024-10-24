@@ -35,35 +35,10 @@ Name |  Type |  Description
 **displayName**|  xsd:string|  Desktop display name.
 **enabled**|  xsd:boolean|  Determines if the desktop is enabled
 **deleting**|  xsd:boolean|  Determines if the desktop is in the process of being deleted.
-**type**|  xsd:string|  Type of desktop.
-* This property will be one of:
-|  Value |  Description
----|---
-"AUTOMATED"| An automated desktop creates virtual machines cloned from a base template or snapshot.
-"MANUAL"| A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.
-"RDS"| An RDS Desktop Desktop.
-**source**|  xsd:string|  Source of machines.
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.
-"VIEW_COMPOSER"| View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Desktop.
-"UNMANAGED"| Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.
-"RDS"| This option is only valid for RDS Desktops.
-**imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Image was created in virtual center.
-"IMAGE_CATALOG"| Image was created in image catalog.
-**userAssignment**|  xsd:string|  User assignment scheme.
-* This property will be one of:
-|  Value |  Description
----|---
-"DEDICATED"| With dedicated assignment, a user returns to the same machine at each session.
-"FLOATING"| With floating assignment, a user may return to one of the available virtual machines for the next session.
+**type**|  xsd:string|  Type of desktop.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>MANUAL</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>RDS</td><td>An RDS Desktop.</td></tr></table>
+**source**|  xsd:string|  Source of machines.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.</td></tr><tr><td>VIEW_COMPOSER</td><td>View composer linked clones managed as view machines. They share the same base image and use less storage space than full virtual machines. The user profile for linked clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes. This option is only valid for Automated Desktop.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones. This option is only valid for Automated Desktop.</td></tr><tr><td>UNMANAGED</td><td>Non-vCenter Server virtual machines managed as view machines. These can include physical computers, non-vCenter Server virtual machines, and blade PCs. This option is only valid for Manual Desktops.</td></tr><tr><td>RDS</td><td>This option is only valid for RDS Desktops.</td></tr></table>
+**imageSource**|  xsd:string|  Source of image used in the desktop. Applicable for automated desktop.  **_Since_** Horizon 7.10 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Image was created in virtual center.</td></tr><tr><td>IMAGE_CATALOG</td><td>Image was created in image catalog.</td></tr></table>
+**userAssignment**|  xsd:string|  User assignment scheme.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DEDICATED</td><td>With dedicated assignment, a user returns to the same machine at each session.</td></tr><tr><td>FLOATING</td><td>With floating assignment, a user may return to one of the available virtual machines for the next session.</td></tr></table>
 **allowMultipleAssignments**|  xsd:boolean|  Whether assignment of multiple users to a single machine is allowed.  **_Since_** Horizon 7.12 [^5] [^1]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the desktops in your organization. They can also be used for delegated administration. For RDS Desktop, this has to be same as that of the corresponding Farm.
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global entitlement for this desktop. This member will be null if not set or caller does not have global read permissions. [^1]
@@ -78,13 +53,7 @@ This option is only valid for Automated Desktop.
 * This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\dir2, dir1\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names.
 **enableAppRemoting**|  xsd:boolean|  True, if this desktop can be used for application pool creation. This will be useful when the machines in the pool support application remoting.  **_Since_** Horizon 7.9 [^5] [^1]
 **applicationCount**|  xsd:int|  Count of all the applications that belong to the application remoting enabled Desktop which are in the machines of the desktop.  **_Since_** Horizon 7.9 [^1] [^2]
-**supportedSessionType**|  xsd:string|  Supported session types for this desktop.  **_Since_** Horizon 7.9 [^28] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"DESKTOP"| Only desktop sessions are supported for this desktop.
-"APPLICATION"| Only application sessions are supported for this desktop.
-"DESKTOP_AND_APPLICATION"| Both desktop and application sessions are supported for this desktop.
+**supportedSessionType**|  xsd:string|  Supported session types for this desktop.  **_Since_** Horizon 7.9 [^28] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DESKTOP</td><td>Only desktop sessions are supported for this desktop.</td></tr><tr><td>APPLICATION</td><td>Only application sessions are supported for this desktop.</td></tr><tr><td>DESKTOP_AND_APPLICATION</td><td>Both desktop and application sessions are supported for this desktop.</td></tr></table>
 **numApplicationSessions**|  xsd:int|  Number of application sessions of the Desktop when applications are associated with it.  **_Since_** Horizon 7.10
 **cloudManaged**|  xsd:boolean|  Indicates whether this desktop is managed by Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]
 **cloudAssigned**|  xsd:boolean|  Indicates whether this desktop is assigned to a workspace in Horizon Cloud Services.  **_Since_** Horizon 7.11 [^5] [^1] [^2]

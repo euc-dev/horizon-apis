@@ -28,28 +28,9 @@ Session data.
 Properties
 Name |  Type |  Description
 ---|---|---
-**sessionType**|  xsd:string|  Type of this session.
-* This property will be one of:
-|  Value |  Description
----|---
-"DESKTOP"| Desktop or RDS Desktop session
-"APPLICATION"| Application session
-**sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"PCOIP"| Display protocol is PCoIP
-"RDP"| Display protocol is RDP
-"BLAST"| Display protocol is Blast
-"CONSOLE"| Display protocol is Console
-"UNKNOWN"| Display protocol is unknown
-**sessionState**|  xsd:string|  State of this session. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"CONNECTED"| CONNECTED: Session is connected
-"DISCONNECTED"| DISCONNECTED: Session is disconnected
-"PENDING"| PENDING: Session is pending
+**sessionType**|  xsd:string|  Type of this session. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DESKTOP"</td><td>Desktop or RDS Desktop session</td></tr><tr><td>"APPLICATION"</td><td>Application session</td></tr></table>
+**sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PCOIP"</td><td>Display protocol is PCoIP</td></tr><tr><td>"RDP"</td><td>Display protocol is RDP</td></tr><tr><td>"BLAST"</td><td>Display protocol is Blast</td></tr><tr><td>"CONSOLE"</td><td>Display protocol is Console</td></tr><tr><td>"UNKNOWN"</td><td>Display protocol is unknown</td></tr></table>
+**sessionState**|  xsd:string|  State of this session. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONNECTED"</td><td>CONNECTED: Session is connected</td></tr><tr><td>"DISCONNECTED"</td><td>DISCONNECTED: Session is disconnected</td></tr><tr><td>"PENDING"</td><td>PENDING: Session is pending</td></tr></table>
 **startTime**|  xsd:dateTime|  Time when this session was originally logged in. The lifecycle of a session begins at login and ends at logout, with any number of connect and disconnect occurrences between. The first connection time will be shortly after this time. [^1]
 **disconnectTime**|  xsd:dateTime|  Time when the session was last disconnected. This will be unset on error or if the session has never been disconnected. [^1]
 **lastSessionDurationMS**|  xsd:long|  Duration of the last connection period of the session in milliseconds. If the session is currently connected, this is the duration that the session has been in connected state. If the session is currently disconnected, this is the duration of its previous connection period. This will be unset on error. [^1]

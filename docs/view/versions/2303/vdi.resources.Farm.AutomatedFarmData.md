@@ -31,13 +31,7 @@ Data for an automated farm. An automated farm is a pool that contains one or mor
 Properties
 Name |  Type |  Description
 ---|---|---
-**provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Farm.
+**provisioningType**|  xsd:string|  The Source or the Provisioning Type of RDS Servers. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIEW_COMPOSER</td><td>View composer linked clones managed as view RDS Servers. They share the same base image and use less storage space than full RDS Servers.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view RDS Servers. Instant clone engine uses vmfork technology to create the instant clones, these clones take much less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110] This option is only valid for Automated Farm.</td></tr></table>
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server. [^2]
 **rdsServerNamingSettings**| [FarmRDSServerNamingSettings](vdi.resources.Farm.RDSServerNamingSettings.md)|  Specifies the naming scheme for the RDS Servers in the automated farm.
 **virtualCenterProvisioningSettings**| [FarmVirtualCenterProvisioningSettings](vdi.resources.Farm.VirtualCenterProvisioningSettings.md)|  Virtual Center provisioning settings for the automated farm.

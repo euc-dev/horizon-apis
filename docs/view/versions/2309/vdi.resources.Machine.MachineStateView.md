@@ -78,13 +78,7 @@ Name |  Type |  Description
 "VALIDATING"| The connection server is synchronizing state information with the agent.
 "BLOCKED_AGENT_VERSION"| The agent version is blocked from establishing sessions.
 "UNKNOWN"| Could not determine the state of the virtual machine.
-**machinePowerState**|  xsd:string|  PowerState of the machine. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"POWERED_OFF"|
-"POWERED_ON"| The virtual machine is powered on.
-"SUSPENDED"| The virtual machine is suspended.
+**machinePowerState**|  xsd:string|  PowerState of the machine. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"POWERED_OFF"</td><td></td></tr><tr><td>"POWERED_ON"</td><td>The virtual machine is powered on.</td></tr><tr><td>"SUSPENDED"</td><td>The virtual machine is suspended.</td></tr></table>
 **ipV4**|  xsd:string|  IPV4 address of the machine. [^1] [^2]
 **ipV6**|  xsd:string|  IPV6 address of the machine. [^1] [^2]
 **dnsName**|  xsd:string|  DNS name of the machine. [^1] [^2]

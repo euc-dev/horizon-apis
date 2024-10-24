@@ -28,70 +28,24 @@ Settings determine how a virtual machine behaves when the user logs off of the a
 Properties
 Name |  Type |  Description
 ---|---|---
-**powerPolicy**|  xsd:string|  Power policy for the machines in the desktop after logoff. This setting is only relevant for managed machines. Note(s) :- [^33] [^34]
-* This property will be one of:
-|  Value |  Description
----|---
-"TAKE_NO_POWER_ACTION"| Take no power action. The power state will not be changed when a user logs off or when a desktop is no longer keeping a machine as a spare.
-"ALWAYS_POWERED_ON"| Ensure machines are always powered on. The connection server will monitor and power on machines as necessary.
-"SUSPEND"| Suspend when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.
-"POWER_OFF"| Power off when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.
-**automaticLogoffPolicy**|  xsd:string|  Automatically log-off policy after disconnect. [^121]
-* This property will be one of:
-|  Value |  Description
----|---
-"IMMEDIATELY"| Logoff immediately after disconnect.
-"NEVER"| Do not logoff after disconnect.
-"AFTER"| Logoff 'x' minutes after disconnect.
+**powerPolicy**|  xsd:string|  Power policy for the machines in the desktop after logoff. This setting is only relevant for managed machines. Note(s) :- [^33] [^34] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>TAKE_NO_POWER_ACTION</td><td>Take no power action. The power state will not be changed when a user logs off or when a desktop is no longer keeping a machine as a spare.</td></tr><tr><td>ALWAYS_POWERED_ON</td><td>Ensure machines are always powered on. The connection server will monitor and power on machines as necessary.</td></tr><tr><td>SUSPEND</td><td>Suspend when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.</td></tr><tr><td>POWER_OFF</td><td>Power off when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.</td></tr></table>
+**automaticLogoffPolicy**|  xsd:string|  Automatically log-off policy after disconnect. [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>IMMEDIATELY</td><td>Logoff immediately after disconnect.</td></tr><tr><td>NEVER</td><td>Do not logoff after disconnect.</td></tr><tr><td>AFTER</td><td>Logoff 'x' minutes after disconnect.</td></tr></table>
 **automaticLogoffMinutes**|  xsd:int|  The timeout in minutes for automatic log-off after disconnect. [^36] [^1] [^8] [^37]
 **allowUsersToResetMachines**|  xsd:boolean|  Whether users are allowed to reset/restart their machines. [^5]
 **allowMultipleSessionsPerUser**|  xsd:boolean|  Whether multiple sessions are allowed per user in case of Floating User Assignment. [^5]
-**deleteOrRefreshMachineAfterLogoff**|  xsd:string|  Whether machines are to be deleted or refreshed after logoff in case of Floating User Assignment. Note(s) :- [^38] [^39] [^121]
-* This property will be one of:
-|  Value |  Description
----|---
-"NEVER"| Never delete or refresh the machine.
-"DELETE"| Delete the machine.
-"REFRESH"| Refresh the machine. Only applicable when the machine source for the automated desktop is VIEW_COMPOSER or when it is an instant clone pool.
-**refreshOsDiskAfterLogoff**|  xsd:string|  Whether and when to refresh the OS disks for dedicated-assignment, linked-clone and instant-clone machines. [^121]
-* This property will be one of:
-|  Value |  Description
----|---
-"NEVER"| The OS disk is never refreshed.
-"ALWAYS"| The OS disk is refreshed every time the user logs off.
-"EVERY"| THE OS disk is refreshed at regular intervals of a specified number of days. The number of days is counted from the last refresh, or from the initial provisioning if no refresh has occurred yet. For example, if the specified value is 3 days, and three days have passed since the last refresh, the machine is refreshed after the user logs off.
-"AT_SIZE"| The OS disk is refreshed when its current size reaches a specified percentage of its maximum allowable size. The maximum size of a linked clone's OS disk is the size of the replica's OS disk. With this option, the size of the linked clone's OS disk in the datastore is compared to maximum allowable size. This disk-utilization percentage does not reflect disk usage that you might see inside the machine's guest operating system.
+**deleteOrRefreshMachineAfterLogoff**|  xsd:string|  Whether machines are to be deleted or refreshed after logoff in case of Floating User Assignment. Note(s) :- [^38] [^39] [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>NEVER</td><td>Never delete or refresh the machine.</td></tr><tr><td>DELETE</td><td>Delete the machine.</td></tr><tr><td>REFRESH</td><td>Refresh the machine. Only applicable when the machine source for the automated desktop is VIEW_COMPOSER or when it is an instant clone pool.</td></tr></table>
+**refreshOsDiskAfterLogoff**|  xsd:string|  Whether and when to refresh the OS disks for dedicated-assignment, linked-clone and instant-clone machines. [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>NEVER</td><td>The OS disk is never refreshed.</td></tr><tr><td>ALWAYS</td><td>The OS disk is refreshed every time the user logs off.</td></tr><tr><td>EVERY</td><td>THE OS disk is refreshed at regular intervals of a specified number of days. The number of days is counted from the last refresh, or from the initial provisioning if no refresh has occurred yet. For example, if the specified value is 3 days, and three days have passed since the last refresh, the machine is refreshed after the user logs off.</td></tr><tr><td>AT_SIZE</td><td>The OS disk is refreshed when its current size reaches a specified percentage of its maximum allowable size. The maximum size of a linked clone's OS disk is the size of the replica's OS disk. With this option, the size of the linked clone's OS disk in the datastore is compared to maximum allowable size. This disk-utilization percentage does not reflect disk usage that you might see inside the machine's guest operating system.</td></tr></table>
 **refreshPeriodDaysForReplicaOsDisk**|  xsd:int|  Regular interval at which to refresh the OS disk. [^1] [^8] [^40]
 **refreshThresholdPercentageForReplicaOsDisk**|  xsd:int|  With the 'AT_SIZE' option for refreshOsDiskAfterLogoff, the size of the linked clone's OS disk in the datastore is compared to its maximum allowable size. This disk-utilization percentage does not reflect disk usage that you might see inside the machine's guest operating system. [^1] [^8] [^115] [^42]
-**emptySessionTimeoutPolicy**|  xsd:string|  Application empty session timeout policy.  **_Since_** Horizon 7.9 [^184] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"IMMEDIATE"| Empty session is disconnected immediately.
-"NEVER"| Empty session is never disconnected.
-"AFTER"| Empty session is disconnected after specified number of minutes.
+**emptySessionTimeoutPolicy**|  xsd:string|  Application empty session timeout policy.  **_Since_** Horizon 7.9 [^184] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>IMMEDIATE</td><td>Empty session is disconnected immediately.</td></tr><tr><td>NEVER</td><td>Empty session is never disconnected.</td></tr><tr><td>AFTER</td><td>Empty session is disconnected after specified number of minutes.</td></tr></table>
 **emptySessionTimeoutMinutes**|  xsd:int|  Application empty session timeout (in minutes). An empty session (that has no remote-able window) is disconnected after the timeout.  **_Since_** Horizon 7.9 [^10] [^1] [^8] [^44]
 **logoffAfterTimeout**|  xsd:boolean|  Indicates whether the empty application sessions are logged off (true) or disconnected (false) after timeout.  **_Since_** Horizon 7.9 [^5] [^1]
-**preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.12 [^184] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"NEVER"| Pre-launched session is never disconnected.
-"AFTER"| Pre-launched session is disconnected after specified number of minutes.
+**preLaunchSessionTimeoutPolicy**|  xsd:string|  Application pre-launch session timeout policy.  **_Since_** Horizon 7.12 [^184] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>NEVER</td><td>Pre-launched session is never disconnected.</td></tr><tr><td>AFTER</td><td>Pre-launched session is disconnected after specified number of minutes.</td></tr></table>
 **preLaunchSessionTimeoutMinutes**|  xsd:int|  Application pre-launch session timeout (in minutes). A pre-launch session is disconnected after the timeout.  **_Since_** Horizon 7.12 [^45] [^1] [^123] [^47]
-**sessionTimeoutPolicy**|  xsd:string|  Specifies the session timeout policy for the applications published from the Desktop. This policy indicates whether the launched application session is a forever application session or not.  **_Since_** Horizon 8.3 [^48] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"DEFAULT"| Indicates application sessions will be disconnected either on reaching the global idle timeout or on reaching the max session timeout.
-"NEVER"| Indicates application sessions will not be disconnected either on reaching the global idle timeout or on reaching the max session timeout.
-**usedVMPolicy**|  xsd:string|  Specifies the used VM policy for the desktop pool.  **_Since_** Horizon 8.12 [^49] [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"BLOCK_ACCESS"| Mark desktop that were not cleanly logged off as "Already used" and block user access to them.
-"ALLOW_WITHOUT_REFRESH"| Allow desktop that were not cleanly logged off to become available without being refreshed.
-"AUTO_REFRESH"| Automatically refresh desktop that were not cleanly logged off and make desktop available.
+**sessionTimeoutPolicy**|  xsd:string|  Specifies the session timeout policy for the applications published from the Desktop. This policy indicates whether the launched application session is a forever application session or not.  **_Since_** Horizon 8.3 [^48] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DEFAULT</td><td>Indicates application sessions will be disconnected either on reaching the global idle timeout or on reaching the max session timeout.</td></tr><tr><td>NEVER</td><td>Indicates application sessions will not be disconnected either on reaching the global idle timeout or on reaching the max session timeout.</td></tr></table>
+**usedVMPolicy**|  xsd:string|  Specifies the used VM policy for the desktop pool.  **_Since_** Horizon 8.12 [^49] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>BLOCK_ACCESS</td><td>Mark desktop that were not cleanly logged off as "Already used" and block user access to them.</td></tr><tr><td>ALLOW_WITHOUT_REFRESH</td><td>Allow desktop that were not cleanly logged off to become available without being refreshed.</td></tr><tr><td>AUTO_REFRESH</td><td>Automatically refresh desktop that were not cleanly logged off and make desktop available.</td></tr></table>
+
+
 
 
  [^1]: This property need not be set. 
