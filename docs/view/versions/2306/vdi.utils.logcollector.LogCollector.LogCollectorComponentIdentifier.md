@@ -34,13 +34,7 @@ Represents identifier of a log collector component.
 Properties
 Name |  Type |  Description
 ---|---|---
-**logCollectorComponentType**|  xsd:string|  Type of the log collector component.
-* This property will be one of:
-|  Value |  Description
----|---
-"CONNECTION_SERVER"| Log component type is Connection Server.
-"AGENT"| Log component type is agent machine from desktop pool.
-"AGENT_RDS"| Log component type is agent RDSH server from farm.
+**logCollectorComponentType**|  xsd:string|  Type of the log collector component. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>CONNECTION_SERVER</td><td>Log component type is Connection Server.</td></tr><tr><td>AGENT</td><td>Log component type is agent machine from desktop pool.</td></tr><tr><td>AGENT_RDS</td><td>Log component type is agent RDSH server from farm.</td></tr></table>
 **csId**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Identifier of a connection server. [^1] [^154]
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  Identifier of a desktop pool machine.  **_Since_** Horizon 7.12 [^1] [^202]
 **rdsServerId**| [RDSServerId](vdi.entity.RDSServerId.md)|  Identifier of a remote desktop services server.  **_Since_** Horizon 7.12 [^1] [^156]

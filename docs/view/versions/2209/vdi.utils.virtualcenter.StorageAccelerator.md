@@ -63,13 +63,7 @@ Return Value
 
 Type |  Description
 ---|---
-xsd:string| String that determines whether storage accelerator is supported.
-
-* This property will be one of:
-|  Value |  Description
----|---
-"SA_VALIDATION_OK"| Virtual center supports View Storage Accelerator.
-"SA_UNSUPPORTED_VC"| Virtual center does not support View Storage Accelerator.
+xsd:string| String that determines whether storage accelerator is supported.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SA_VALIDATION_OK"</td><td>Virtual center supports View Storage Accelerator.</td></tr><tr><td>"SA_UNSUPPORTED_VC"</td><td>Virtual center does not support View Storage Accelerator.</td></tr></table>
 
 
 
@@ -118,13 +112,7 @@ Return Value
 
 Type |  Description
 ---|---
-xsd:string| String that determines whether storage accelerator is supported.
-
-* This property will be one of:
-|  Value |  Description
----|---
-"SA_VALIDATION_OK"| Virtual center supports View Storage Accelerator.
-"SA_UNSUPPORTED_VC"| Virtual center does not support View Storage Accelerator.
+xsd:string| String that determines whether storage accelerator is supported.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SA_VALIDATION_OK"</td><td>Virtual center supports View Storage Accelerator.</td></tr><tr><td>"SA_UNSUPPORTED_VC"</td><td>Virtual center does not support View Storage Accelerator.</td></tr></table>
 
 
 

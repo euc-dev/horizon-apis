@@ -39,15 +39,7 @@ Name |  Type |  Description
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore entityId that the VirtualDisk belongs to [^2]
 **attached**|  xsd:boolean|  Indicates if the VirtualDisk is attached to a linked-clone VM. [^2]
 **compatible**|  xsd:boolean|  Set true if disk is compatible for persistent disk else set to false  **_Since_** Horizon 7.8 [^2]
-**incompatibleReason**|  xsd:string|  Incompatible reason for the persistent disk  **_Since_** Horizon 7.8 [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"REPLICA_DISK"| Replica Disks are not compatible to be used as Persistent disk
-"INTERNAL_DISK"| Internal disk are not compatible to be used as Persistent disk
-"DISPOSABLE_DISK"| Disposable disk are not compatible to be used as Persistent disk
-"DISK_ALREADY_IN_USE"| Disk already imported as persistent disk
-"INSTANT_CLONE_INTERNAL_DISK"| Instant clone internal disk is not compatible to be a Persistent disk
+**incompatibleReason**|  xsd:string|  Incompatible reason for the persistent disk  **_Since_** Horizon 7.8 [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"REPLICA_DISK"</td><td>Replica Disks are not compatible to be used as Persistent disk</td></tr><tr><td>"INTERNAL_DISK"</td><td>Internal disk are not compatible to be used as Persistent disk</td></tr><tr><td>"DISPOSABLE_DISK"</td><td>Disposable disk are not compatible to be used as Persistent disk</td></tr><tr><td>"DISK_ALREADY_IN_USE"</td><td>Disk already imported as persistent disk</td></tr><tr><td>"INSTANT_CLONE_INTERNAL_DISK"</td><td>Instant clone internal disk is not compatible to be a Persistent disk</td></tr></table>
  
 
 

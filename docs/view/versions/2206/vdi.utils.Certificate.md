@@ -53,8 +53,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Certificate](vdi.utils.Certificate.md) used to make the method call.
-**spec**|  xsd:anyType|  attributes needed to connect to the server. The valid types for this parameter are:
- [^225] [^226]
+**spec**|  xsd:anyType|  attributes needed to connect to the server. The valid types for this parameter are: [^225] [^226]
 
 
 

@@ -74,10 +74,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^159] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^159] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 
@@ -133,10 +130,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^161] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^161] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 
@@ -191,10 +185,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^161] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^161] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 
@@ -247,10 +238,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^161] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^161] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 Show WSDL type definition
@@ -297,10 +285,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^161] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^161] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 Show WSDL type definition
@@ -327,9 +312,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [LogCollector](vdi.utils.logcollector.LogCollector.md) used to make the method call.
-**userOrGroupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  \- Optional field to filter the task information based on the user or group.
-
- [^135]
+**userOrGroupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  \- Optional field to filter the task information based on the user or group. [^135]
 
 
 
@@ -339,8 +322,7 @@ Return Value
 
 Type |  Description
 ---|---
-[LogCollectorTaskInfo[]](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md)| Array of [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md)
- [^162] [^163]
+[LogCollectorTaskInfo[]](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md)| Array of [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md) [^162] [^163]
 
 
 
@@ -402,10 +384,7 @@ Type |  Description
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
 [InvalidType](vdi.fault.InvalidType.md)| Thrown if the type of any specified argument is invalid.
-[PartialFailureFault](vdi.fault.PartialFailureFault.md)|
- [^161] [^160]
-
-
+[PartialFailureFault](vdi.fault.PartialFailureFault.md)| [^161] [^160]
 [UnexpectedFault](vdi.fault.UnexpectedFault.md)| Thrown if an unexpected error occurs while performing the operation.
 
 

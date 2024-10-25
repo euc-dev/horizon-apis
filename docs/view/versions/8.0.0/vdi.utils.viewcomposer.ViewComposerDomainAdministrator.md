@@ -108,7 +108,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
-
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Domain administrator details to be added.
 
 
@@ -218,7 +217,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry.
-
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
 
 
@@ -460,10 +458,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^166]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^166]
 
 
 
@@ -519,12 +514,8 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry.
-
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^166]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^166]
 
 
 

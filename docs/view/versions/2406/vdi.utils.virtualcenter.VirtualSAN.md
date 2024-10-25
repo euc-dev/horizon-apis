@@ -55,7 +55,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualSAN](vdi.utils.virtualcenter.VirtualSAN.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for the vc
-
 **isPersistent**|  xsd:boolean|  cost factor for a persistent pool
 
 
@@ -104,7 +103,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualSAN](vdi.utils.virtualcenter.VirtualSAN.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for the vc
-
 **isPersistent**|  xsd:boolean|  cost factor for a persistent pool
 
 
@@ -153,7 +151,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualSAN](vdi.utils.virtualcenter.VirtualSAN.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for the vc
-
 **isPersistent**|  xsd:boolean|  cost factor for a persistent pool
 
 
@@ -210,15 +207,9 @@ Return Value
 
 Type |  Description
 ---|---
-xsd:string| A code that determines whether virtual SAN is supported.
+xsd:string| A code that determines whether virtual SAN is supported. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VSAN_VALIDATION_OK"</td><td>VirtualSAN has been validated to be supported.</td></tr><tr><td>"VSAN_UNSUPPORTED_VC"</td><td>VirtualSAN is only supported on Virtual Center version 5.5 and greater.</td></tr><tr><td>"VSAN_UNSUPPORTED_HOST_OR_CLUSTER"</td><td>VirtualSAN is only supported on hosts or clusters version 5.5 and greater.</td></tr><tr><td>"VSAN_NOT_CONFIGURED"</td><td>VirtualSAN is only supported on Virtual Centers and hosts or clusters with at least one VSAN datastore present.</td></tr></table>
 
-* This property will be one of:
-|  Value |  Description
----|---
-"VSAN_VALIDATION_OK"| VirtualSAN has been validated to be supported.
-"VSAN_UNSUPPORTED_VC"| VirtualSAN is only supported on Virtual Center version 5.5 and greater.
-"VSAN_UNSUPPORTED_HOST_OR_CLUSTER"| VirtualSAN is only supported on hosts or clusters version 5.5 and greater.
-"VSAN_NOT_CONFIGURED"| VirtualSAN is only supported on Virtual Centers and hosts or clusters with at least one VSAN datastore present.
+
 
 
 
@@ -267,14 +258,9 @@ Return Value
 
 Type |  Description
 ---|---
-xsd:string| A code that determines whether virtual SAN is supported.
+xsd:string| A code that determines whether virtual SAN is supported.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VSAN_VALIDATION_OK"</td><td>VirtualSAN has been validated to be supported.</td></tr><tr><td>"VSAN_UNSUPPORTED_VC"</td><td>VirtualSAN is only supported on Virtual Center version 5.5 and greater.</td></tr><tr><td>"VSAN_NOT_CONFIGURED"</td><td>VirtualSAN is only supported on Virtual Centers and hosts or clusters with at least one VSAN datastore present.</td></tr></table>
 
-* This property will be one of:
-|  Value |  Description
----|---
-"VSAN_VALIDATION_OK"| VirtualSAN has been validated to be supported.
-"VSAN_UNSUPPORTED_VC"| VirtualSAN is only supported on Virtual Center version 5.5 and greater.
-"VSAN_NOT_CONFIGURED"| VirtualSAN is only supported on Virtual Centers and hosts or clusters with at least one VSAN datastore present.
+
 
 
 

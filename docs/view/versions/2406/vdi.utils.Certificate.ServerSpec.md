@@ -36,12 +36,9 @@ Name |  Type |  Description
 **useSSL**|  xsd:boolean|  Should SSL be used when connecting to the server?
 **userName**|  xsd:string|  User name to use for the connection.
 **password**| [SecureString](vdi.util.SecureString.md)|  Password to use for the connection. Can be unset if the server got added prior to this. [^1]
-**serverType**|  xsd:string|  The type of server.
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Denotes the virtual center server.
-"VIEW_COMPOSER"| Denotes the view Composer server.
+**serverType**|  xsd:string|  The type of server. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Denotes the virtual center server.</td></tr><tr><td>VIEW_COMPOSER</td><td>Denotes the view Composer server.</td></tr></table>
+
+
 
 
  [^1]: This property need not be set. 

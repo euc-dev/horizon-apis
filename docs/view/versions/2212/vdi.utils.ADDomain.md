@@ -163,7 +163,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ADDomain](vdi.utils.ADDomain.md) used to make the method call.
 **id**| [ADDomainId](vdi.entity.ADDomainId.md)|  Entity id for the no-trust domain.
-
 **ids**| [ServiceAccountCredentialsId[]](vdi.entity.ServiceAccountCredentialsId.md)|  Entity Id's for the auxiliary service accounts
 
 
@@ -311,10 +310,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ADDomain](vdi.utils.ADDomain.md) used to make the method call.
 **id**| [ADDomainId](vdi.entity.ADDomainId.md)|  Entity id for the no-trust domain.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated.
-
- [^190]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^190]
 
 
 

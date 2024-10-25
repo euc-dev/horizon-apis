@@ -55,10 +55,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualDisk](vdi.utils.virtualcenter.VirtualDisk.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
-
-**datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  datastore entityId (optional)
-
- [^135]
+**datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  datastore entityId (optional) [^135]
 
 
 

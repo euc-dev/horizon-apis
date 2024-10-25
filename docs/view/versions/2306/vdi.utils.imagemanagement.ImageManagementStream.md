@@ -260,10 +260,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **id**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  entity id of the image management stream entry.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^147]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^147]
 
 
 

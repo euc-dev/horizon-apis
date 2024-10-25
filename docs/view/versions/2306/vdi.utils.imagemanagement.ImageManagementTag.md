@@ -260,10 +260,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementTag](vdi.utils.imagemanagement.ImageManagementTag.md) used to make the method call.
 **id**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  entity id of the image management tag entry.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^149]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^149]
 
 
 

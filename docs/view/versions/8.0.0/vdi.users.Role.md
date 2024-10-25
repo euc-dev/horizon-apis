@@ -257,10 +257,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Role](vdi.users.Role.md) used to make the method call.
 **id**| [RoleId](vdi.entity.RoleId.md)|  RoleId of entity to update.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^188]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^188]
 
 
 

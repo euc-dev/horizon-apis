@@ -53,11 +53,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdvancedSettings](vdi.utils.AdvancedSettings.md) used to make the method call.
-**id**| [EntityId](vdi.EntityId.md)|  The (optional) ID of the entity to manage.
-
- [^135]
-
-
+**id**| [EntityId](vdi.EntityId.md)|  The (optional) ID of the entity to manage. [^135]
 **keys**|  xsd:string[]|  The keys of the settings to retrieve.
 
 
@@ -104,16 +100,9 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdvancedSettings](vdi.utils.AdvancedSettings.md) used to make the method call.
-**id**| [EntityId](vdi.EntityId.md)|  The entity to set advanced settings on.
-
- [^135]
-
-
+**id**| [EntityId](vdi.EntityId.md)|  The entity to set advanced settings on. [^135]
 **operationName**|  xsd:string|  The name of the operation to perform.
-
-**parameters**| [MapEntry[]](vdi.util.MapEntry.md)|  A map from key to value of the parameters of the operation.
-
- [^135]
+**parameters**| [MapEntry[]](vdi.util.MapEntry.md)|  A map from key to value of the parameters of the operation. [^135]
 
 
 

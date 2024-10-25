@@ -257,10 +257,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [InstantCloneEngineDomainAdministrator](vdi.utils.InstantCloneEngineDomainAdministrator.md) used to make the method call.
 **id**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)|  entity id for the Instant Clone Engine domain administrator entry.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^153]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^153]
 
 
 

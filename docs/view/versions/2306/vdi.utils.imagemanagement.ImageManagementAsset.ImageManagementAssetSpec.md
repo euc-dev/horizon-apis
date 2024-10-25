@@ -31,32 +31,9 @@ Data required for creating an Image Management Asset.
 Properties
 Name |  Type |  Description
 ---|---|---
-**status**|  xsd:string|  Image management asset status.
-* This property will be one of:
-|  Value |  Description
----|---
-"AVAILABLE"| Image management asset is available for pools/farms to be created.
-"DELETED"| Image management asset has been deleted.
-"DEPLOYING_VM"| Image management asset is deploying VM on the virtual center.
-"DEPLOYMENT_DONE"| Image management asset VM deployed on the virtual center.
-"DISABLED"| Image management asset has been disabled and no further pool/farm operation can be done using the same.
-"FAILED"| Image management asset creation has failed.
-"REPLICATING"| Copying the specialized images across all virtual centers.
-"RETRY_PENDING"| When image management asset creation has failed, retry action is pending for asset to be created.
-"SPECIALIZING_VM"| Image management asset is being published and specialized internally like installing agents etc.
-**cloneType**|  xsd:string|  Image management asset clone type.
-* This property will be one of:
-|  Value |  Description
----|---
-"FULL_CLONE"| Image management asset to be used in full clone automated desktop.
-"INSTANT_CLONE"| Image management asset to be used in instant clone desktop/farm.
-**imageType**|  xsd:string|  Image management asset image type.
-* This property will be one of:
-|  Value |  Description
----|---
-"RDSH_APP"| Image management asset to be used for farm creation which is be used in application.
-"RDSH_DESKTOP"| Image management asset is for farm creation to be created.
-"VDI_DESKTOP"| Image management asset is available for desktops/farms to be created.
+**status**|  xsd:string|  Image management asset status. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AVAILABLE</td><td>Image management asset is available for pools/farms to be created.</td></tr><tr><td>DELETED</td><td>Image management asset has been deleted.</td></tr><tr><td>DEPLOYING_VM</td><td>Image management asset is deploying VM on the virtual center.</td></tr><tr><td>DEPLOYMENT_DONE</td><td>Image management asset VM deployed on the virtual center.</td></tr><tr><td>DISABLED</td><td>Image management asset has been disabled and no further pool/farm operation can be done using the same.</td></tr><tr><td>FAILED</td><td>Image management asset creation has failed.</td></tr><tr><td>REPLICATING</td><td>Copying the specialized images across all virtual centers.</td></tr><tr><td>RETRY_PENDING</td><td>When image management asset creation has failed, retry action is pending for asset to be created.</td></tr><tr><td>SPECIALIZING_VM</td><td>Image management asset is being published and specialized internally like installing agents etc.</td></tr></table>
+**cloneType**|  xsd:string|  Image management asset clone type. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>FULL_CLONE</td><td>Image management asset to be used in full clone automated desktop.</td></tr><tr><td>INSTANT_CLONE</td><td>Image management asset to be used in instant clone desktop/farm.</td></tr></table>
+**imageType**|  xsd:string|  Image management asset image type. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>RDSH_APP</td><td>Image management asset to be used for farm creation which is be used in application.</td></tr><tr><td>RDSH_DESKTOP</td><td>Image management asset is for farm creation to be created.</td></tr><tr><td>VDI_DESKTOP</td><td>Image management asset is available for desktops/farms to be created.</td></tr></table>
 **vmTemplateMoid**|  xsd:string|  MOID of virtual machine template. [^1] [^2]
 **vmMoid**|  xsd:string|  MOID of virtual machine. Must be set if [vmTemplateMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmTemplateMoid) is unset. [^1] [^2]
 **vmSnapshotMoid**|  xsd:string|  MOID of virtual machine snapshot. Must be set if [vmTemplateMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmTemplateMoid) is unset and [vmMoid](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#vmMoid) is set. [^1] [^2]

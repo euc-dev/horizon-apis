@@ -30,16 +30,8 @@ Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  Name of the Desktop or Farm. [^2]
 **isFarm**|  xsd:boolean|  Represents if this is a Farm. [^5] [^2]
-**source**|  xsd:string|  The Source or the Provisioning Type of machines in this Desktop or Farm.
-**Note:** The value FULL_CLONE is not applicable in case of farms. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIEW_COMPOSER"| View composer linked clones managed as view machines.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines.
-"FULL_CLONE"| Full Virtual Machines that are created from a vCenter Server template.
-**isPersistent**|  xsd:boolean|  User assignment of the Destop: Dedicated (Persistent) / Floating.
-Can be ignored in case of Farm. [^1] [^2]
+**source**|  xsd:string|  The Source or the Provisioning Type of machines in this Desktop or Farm.<br>**Note:** The value FULL_CLONE is not applicable in case of farms. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view machines.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view machines.</td></tr><tr><td>"FULL_CLONE"</td><td>Full Virtual Machines that are created from a vCenter Server template.</td></tr></table>
+**isPersistent**|  xsd:boolean|  User assignment of the Destop: Dedicated (Persistent) / Floating.<br>Can be ignored in case of Farm. [^1] [^2]
 **usedSpaceMB**|  xsd:long|  Used capacity of the datastore (in MB) for this Desktop or Farm. [^2]
 **otherDatastoreNames**|  xsd:string[]|  Other datastore(s) in-use for this Desktop or Farm. [^1] [^2]
 

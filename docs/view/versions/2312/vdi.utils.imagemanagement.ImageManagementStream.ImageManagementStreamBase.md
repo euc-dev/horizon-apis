@@ -36,54 +36,12 @@ Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  The stream name is the unique name used to identify this stream. [^148]
 **description**|  xsd:string|  The description is a set of notes about the stream. [^1] [^13]
-**operatingSystem**|  xsd:string|  The guest operating system.
-* This property will be one of:
-|  Value |  Description
----|---
-"Unknown"|
-"Windows XP"| Windows XP
-"Windows Vista"| Windows Vista
-"Windows 7"| Windows 7
-"Windows 8"| Windows 8
-"Windows 10"| Windows 10
-"Windows 11"| Windows 11
-"Windows Server 2003"| Windows Server 2003
-"Windows Server 2008"| Windows Server 2008
-"Windows Server 2008R2"| Windows Server 2008R2
-"Windows Server 2012"| Windows Server 2012
-"Windows Server 2012R2"| Windows Server 2012R2
-"Windows Server 10"| null
-"Windows Server 2016"| null
-"Windows Server 2016 or above"| Windows Server 2016 or above
-"Linux (other)"| Linux (other)
-"Linux Server (other)"| Linux server (other)
-"Linux (Ubuntu)"| Linux (Ubuntu)
-"Linux (Red Hat Enterprise Linux)"| Linux (Red Hat Enterprise)
-"Linux (SUSE Linux Enterprise Server)"| Linux (Suse)
-"Linux (CentOS)"| Linux (CentOS)
-**status**|  xsd:string|  Image management stream status.
-* This property will be one of:
-|  Value |  Description
----|---
-"AVAILABLE"| Image management stream is available for pools/farms to be created.
-"DELETED"| Image management stream is deleted.
-"DISABLED"| Image management stream is disabled and no further pools/farms can be created using the same.
-"FAILED"| Image management stream creation has failed.
-"IN_PROGRESS"| Image management stream creation is in progress.
-"PARTIALLY_AVAILABLE"| Image management version could not be created in one or more environments.
-"PENDING"| Image management stream is in pending state to be created by a task.
-**source**|  xsd:string|  Source of image management stream.
-* This property will be one of:
-|  Value |  Description
----|---
-"MARKET_PLACE"| Image management stream is from market place.
-"UPLOADED"| Image management stream is uploaded.
-"COPIED_FROM_STREAM"| Image management stream is copied from another stream.
-"COPIED_FROM_VERSION"| Image management stream is copied from a version.
+**operatingSystem**|  xsd:string|  The guest operating system. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Unknown</td><td></td></tr><tr><td>Windows XP</td><td>Windows XP</td></tr><tr><td>Windows Vista</td><td>Windows Vista</td></tr><tr><td>Windows 7</td><td>Windows 7</td></tr><tr><td>Windows 8</td><td>Windows 8</td></tr><tr><td>Windows 10</td><td>Windows 10</td></tr><tr><td>Windows 11</td><td>Windows 11</td></tr><tr><td>Windows Server 2003</td><td>Windows Server 2003</td></tr><tr><td>Windows Server 2008</td><td>Windows Server 2008</td></tr><tr><td>Windows Server 2008R2</td><td>Windows Server 2008R2</td></tr><tr><td>Windows Server 2012</td><td>Windows Server 2012</td></tr><tr><td>Windows Server 2012R2</td><td>Windows Server 2012R2</td></tr><tr><td>Windows Server 10</td><td>null</td></tr><tr><td>Windows Server 2016</td><td>null</td></tr><tr><td>Windows Server 2016 or above</td><td>Windows Server 2016 or above</td></tr><tr><td>Linux (other)</td><td>Linux (other)</td></tr><tr><td>Linux Server (other)</td><td>Linux server (other)</td></tr><tr><td>Linux (Ubuntu)</td><td>Linux (Ubuntu)</td></tr><tr><td>Linux (Red Hat Enterprise Linux)</td><td>Linux (Red Hat Enterprise)</td></tr><tr><td>Linux (SUSE Linux Enterprise Server)</td><td>Linux (Suse)</td></tr><tr><td>Linux (CentOS)</td><td>Linux (CentOS)</td></tr></table>
+**status**|  xsd:string|  Image management stream status. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AVAILABLE</td><td>Image management stream is available for pools/farms to be created.</td></tr><tr><td>DELETED</td><td>Image management stream is deleted.</td></tr><tr><td>DISABLED</td><td>Image management stream is disabled and no further pools/farms can be created using the same.</td></tr><tr><td>FAILED</td><td>Image management stream creation has failed.</td></tr><tr><td>IN_PROGRESS</td><td>Image management stream creation is in progress.</td></tr><tr><td>PARTIALLY_AVAILABLE</td><td>Image management version could not be created in one or more environments.</td></tr><tr><td>PENDING</td><td>Image management stream is in pending state to be created by a task.</td></tr></table>
+**source**|  xsd:string|  Source of image management stream. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>MARKET_PLACE</td><td>Image management stream is from market place.</td></tr><tr><td>UPLOADED</td><td>Image management stream is uploaded.</td></tr><tr><td>COPIED_FROM_STREAM</td><td>Image management stream is copied from another stream.</td></tr><tr><td>COPIED_FROM_VERSION</td><td>Image management stream is copied from a version.</td></tr></table>
 **publisher**|  xsd:string|  Image management stream publisher. [^1]
 **additionalDetails**| [MapEntry[]](vdi.util.MapEntry.md)|  Additional details about image management stream. [^1]
-**tagAvailable**|  xsd:boolean|  This will be set to true when: [^144] [^145] [^146].
-For a specific VirtualCenterId, image management tag information will be retrieved [^1] [^2]
+**tagAvailable**|  xsd:boolean|  This will be set to true when: [^144] [^145] [^146]. <br>For a specific VirtualCenterId, image management tag information will be retrieved [^1] [^2]
 
 
  [^1]: This property need not be set. 

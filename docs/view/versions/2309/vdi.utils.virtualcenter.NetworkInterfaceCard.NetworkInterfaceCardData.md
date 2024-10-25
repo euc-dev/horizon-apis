@@ -33,13 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **name**|  xsd:string|  The network interface card's VC display name. [^1] [^2]
 **macAddress**|  xsd:string|  The network interface card's MAC address. [^1] [^2]
-**networkType**|  xsd:string|  Type of network interface card.  **_Since_** Horizon 8.4 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Network"| Standard network
-"OpaqueNetwork"| Opaque network
-"DistributedVirtualPortgroup"| DVS port group
+**networkType**|  xsd:string|  Type of network interface card.  **_Since_** Horizon 8.4 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Network"</td><td>Standard network</td></tr><tr><td>"OpaqueNetwork"</td><td>Opaque network</td></tr><tr><td>"DistributedVirtualPortgroup"</td><td>DVS port group</td></tr></table>
  
 
 

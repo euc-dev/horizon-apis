@@ -34,42 +34,12 @@ Name |  Type |  Description
 **id**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  VM id [^2]
 **name**|  xsd:string|  VM name [^2]
 **path**|  xsd:string|  VM path [^2]
-**operatingSystem**|  xsd:string|  Operating system enumeration as known to View. [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Unknown"|
-"Windows XP"| Windows XP
-"Windows Vista"| Windows Vista
-"Windows 7"| Windows 7
-"Windows 8"| Windows 8
-"Windows 10"| Windows 10
-"Windows 11"| Windows 11
-"Windows Server 2003"| Windows Server 2003
-"Windows Server 2008"| Windows Server 2008
-"Windows Server 2008R2"| Windows Server 2008R2
-"Windows Server 2012"| Windows Server 2012
-"Windows Server 2012R2"| Windows Server 2012R2
-"Windows Server 10"| null
-"Windows Server 2016"| null
-"Windows Server 2016 or above"| Windows Server 2016 or above
-"Linux (other)"| Linux (other)
-"Linux Server (other)"| Linux server (other)
-"Linux (Ubuntu)"| Linux (Ubuntu)
-"Linux (Red Hat Enterprise Linux)"| Linux (Red Hat Enterprise)
-"Linux (SUSE Linux Enterprise Server)"| Linux (Suse)
-"Linux (CentOS)"| Linux (CentOS)
+**operatingSystem**|  xsd:string|  Operating system enumeration as known to View. [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Unknown"</td><td></td></tr><tr><td>"Windows XP"</td><td>Windows XP</td></tr><tr><td>"Windows Vista"</td><td>Windows Vista</td></tr><tr><td>"Windows 7"</td><td>Windows 7</td></tr><tr><td>"Windows 8"</td><td>Windows 8</td></tr><tr><td>"Windows 10"</td><td>Windows 10</td></tr><tr><td>"Windows 11"</td><td>Windows 11</td></tr><tr><td>"Windows Server 2003"</td><td>Windows Server 2003</td></tr><tr><td>"Windows Server 2008"</td><td>Windows Server 2008</td></tr><tr><td>"Windows Server 2008R2"</td><td>Windows Server 2008R2</td></tr><tr><td>"Windows Server 2012"</td><td>Windows Server 2012</td></tr><tr><td>"Windows Server 2012R2"</td><td>Windows Server 2012R2</td></tr><tr><td>"Windows Server 10"</td><td>null</td></tr><tr><td>"Windows Server 2016"</td><td>null</td></tr><tr><td>"Windows Server 2016 or above"</td><td>Windows Server 2016 or above</td></tr><tr><td>"Linux (other)"</td><td>Linux (other)</td></tr><tr><td>"Linux Server (other)"</td><td>Linux server (other)</td></tr><tr><td>"Linux (Ubuntu)"</td><td>Linux (Ubuntu)</td></tr><tr><td>"Linux (Red Hat Enterprise Linux)"</td><td>Linux (Red Hat Enterprise)</td></tr><tr><td>"Linux (SUSE Linux Enterprise Server)"</td><td>Linux (Suse)</td></tr><tr><td>"Linux (CentOS)"</td><td>Linux (CentOS)</td></tr></table>
 **operatingSystemDisplayName**|  xsd:string|  Operating system display name from Virtual Center. [^1] [^2]
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this VM [^2]
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id for this VM [^1] [^2]
 **incompatibleReasons**| [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md)|  Reasons that may preclude this BaseImageVm from having its snapshots used in linked clone desktop or farm creation. [^2]
-**networkType**|  xsd:string|  Type of network base image vm belongs to.  **_Since_** Horizon 7.9 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Network"| Standard network
-"OpaqueNetwork"| Opaque network
-"DistributedVirtualPortgroup"| DVS port group
+**networkType**|  xsd:string|  Type of network base image vm belongs to.  **_Since_** Horizon 7.9 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Network"</td><td>Standard network</td></tr><tr><td>"OpaqueNetwork"</td><td>Opaque network</td></tr><tr><td>"DistributedVirtualPortgroup"</td><td>DVS port group</td></tr></table>
 **refId**|  xsd:string|  Reference ID used for this base image VM.  **_Since_** Horizon 8.1 [^1] [^2]
 **numNics**|  xsd:int|  Number of network interface cards in this base image VM.  **_Since_** Horizon 8.8 [^2]
  

@@ -62,13 +62,7 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this VM [^2]
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id for this VM [^1] [^2]
 **incompatibleReasons**| [BaseImageVmIncompatibleReasons](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons.md)|  Reasons that may preclude this BaseImageVm from having its snapshots used in linked clone desktop or farm creation. [^2]
-**networkType**|  xsd:string|  Type of network base image vm belongs to.  **_Since_** Horizon 7.9 [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"Network"| Standard network
-"OpaqueNetwork"| Opaque network
-"DistributedVirtualPortgroup"| DVS port group
+**networkType**|  xsd:string|  Type of network base image vm belongs to.  **_Since_** Horizon 7.9 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Network"</td><td>Standard network</td></tr><tr><td>"OpaqueNetwork"</td><td>Opaque network</td></tr><tr><td>"DistributedVirtualPortgroup"</td><td>DVS port group</td></tr></table>
 **refId**|  xsd:string|  Reference ID used for this base image VM.  **_Since_** Horizon 8.1 [^1] [^2]
 
 

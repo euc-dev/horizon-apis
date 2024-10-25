@@ -43,15 +43,7 @@ Name |  Type |  Description
 **totalVideoMemoryMB**|  xsd:double|  Total video memory in MB set in SVGA settings for the snapshot in vCenter.  **_Since_** Horizon 7.4 [^1] [^2]
 **maxResolutionOfAnyOneMonitor**|  xsd:string|  Maximum resolution of any one monitor set in SVGA settings for the snapshot in vCenter.  **_Since_** Horizon 7.4 [^1] [^2]
 **enable3DSupport**|  xsd:boolean|  Flag to indicate whether the virtual video card for the snapshot supports 3D functions.  **_Since_** Horizon 7.6 [^1] [^2]
-**renderer3D**|  xsd:string|  Indicate how the virtual video device for the snapshot renders 3D graphics. Will be set only if [enable3DSupport](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo.md#enable3DSupport) is true.  **_Since_** Horizon 7.6 [^17] [^1] [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"MANAGE_BY_VSPHERE_CLIENT"| 3D rendering managed by vSphere Client.
-"AUTOMATIC"| 3D rendering is automatic.
-"SOFTWARE"| 3D rendering is software dependent. The software renderer is supported (at minimum) on virtual hardware version 8 in a vSphere 5.0 environment.
-"HARDWARE"| 3D rendering is hardware dependent. The hardware-based renderer is supported (at minimum) on virtual hardware version 9 in a vSphere 5.1 environment.
-"DISABLED"| 3D rendering is disabled.
+**renderer3D**|  xsd:string|  Indicate how the virtual video device for the snapshot renders 3D graphics. Will be set only if [enable3DSupport](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo.md#enable3DSupport) is true.  **_Since_** Horizon 7.6 [^17] [^1] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"MANAGE_BY_VSPHERE_CLIENT"</td><td>3D rendering managed by vSphere Client.</td></tr><tr><td>"AUTOMATIC"</td><td>3D rendering is automatic.</td></tr><tr><td>"SOFTWARE"</td><td>3D rendering is software dependent. The software renderer is supported (at minimum) on virtual hardware version 8 in a vSphere 5.0 environment.</td></tr><tr><td>"HARDWARE"</td><td>3D rendering is hardware dependent. The hardware-based renderer is supported (at minimum) on virtual hardware version 9 in a vSphere 5.1 environment.</td></tr><tr><td>"DISABLED"</td><td>3D rendering is disabled.</td></tr></table>
 **incompatibleReasons**| [BaseImageSnapshotIncompatibleReasons](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotIncompatibleReasons.md)|  Reasons that may preclude this BaseImageSnapshot from being used in linked clone desktop or farm creation. [^2]
 **memoryMB**|  xsd:int|  Memory size of the snapshot, in MB.  **_Since_** Horizon 7.4 [^1] [^2]
 **diskSizeInBytes**|  xsd:long|  Sum of capacities of all the virtual disks in the snapshot, in bytes.  **_Since_** Horizon 7.4 [^1] [^2]

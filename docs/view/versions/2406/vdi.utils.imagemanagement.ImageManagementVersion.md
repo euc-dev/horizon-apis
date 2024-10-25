@@ -257,10 +257,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **id**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  entity id for the image management version entry.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^151]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^151]
 
 
 

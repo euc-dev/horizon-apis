@@ -32,19 +32,8 @@ Properties
 Name |  Type |  Description
 ---|---|---
 **fetchAvailableAssetsOnly**|  xsd:boolean|  When set to true, tags filtered would be having stream and version in AVAILABLE or PARTIALLY_AVAILABLE status and asset in AVAILABLE status. [^5] [^1]
-**provisioningType**|  xsd:string|  Provisioning type of the desktop/farm. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"VIRTUAL_CENTER"| Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.
-"INSTANT_CLONE_ENGINE"| Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]
-This option is only valid for Automated Desktop.
-**resourceType**|  xsd:string|  Type of resource. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"DESKTOP"| Denotes the Desktop Pool.
-"FARM"| Denotes the Farm.
+**provisioningType**|  xsd:string|  Provisioning type of the desktop/farm. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VIRTUAL_CENTER</td><td>Virtual center virtual machines managed as view machines. This option is valid for Automated and Manual Desktop. In case of Automated Desktop, these refer to Full Virtual Machines that are created from a vCenter Server template.</td></tr><tr><td>INSTANT_CLONE_ENGINE</td><td>Instant clone engine created 'instant clones' managed as view machines. Instant clone engine uses vmfork technology to create the instant clones, these clones take very less time for provisioning. Instant clones have many similarities to linked clones like :- [^109] [^110]. This option is only valid for Automated Desktop.</td></tr></table>
+**resourceType**|  xsd:string|  Type of resource. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DESKTOP</td><td>Denotes the Desktop Pool.</td></tr><tr><td>FARM</td><td>Denotes the Farm.</td></tr></table>
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Entity Id of image management stream.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Entity id of virtual center.
 

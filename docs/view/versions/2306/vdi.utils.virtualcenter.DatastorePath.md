@@ -55,7 +55,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DatastorePath](vdi.utils.virtualcenter.DatastorePath.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
-
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  datastore entityId
 
 

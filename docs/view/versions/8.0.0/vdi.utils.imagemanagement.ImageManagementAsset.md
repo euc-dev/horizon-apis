@@ -213,7 +213,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  entity id of the image management tag entry.
-
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  entity id of the virtual center entry.
 
 
@@ -307,10 +306,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  entity id of the image management asset entry.
-
-**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated
-
- [^191]
+**updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^191]
 
 
 

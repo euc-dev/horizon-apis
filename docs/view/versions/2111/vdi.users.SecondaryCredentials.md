@@ -108,14 +108,8 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecondaryCredentials](vdi.users.SecondaryCredentials.md) used to make the method call.
-**id**| [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)|  The entityId of the SecondaryCredentials to be deleted.
-
- [^135]
-
-
-**spec**| [SecondaryCredentialsDeleteSpec](vdi.users.SecondaryCredentials.DeleteSpec.md)|  The specification for deleting the SecondaryCredentials.
-
- [^135]
+**id**| [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)|  The entityId of the SecondaryCredentials to be deleted. [^135]
+**spec**| [SecondaryCredentialsDeleteSpec](vdi.users.SecondaryCredentials.DeleteSpec.md)|  The specification for deleting the SecondaryCredentials. [^135]
 
 
 

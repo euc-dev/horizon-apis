@@ -36,22 +36,8 @@ Name |  Type |  Description
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this datastore [^2]
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id for this datastore [^1] [^2]
 **hostOrCluster**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  HostOrCluster id for this datastore [^2]
-**diskType**|  xsd:string|  If the [fileSystemType](vdi.utils.virtualcenter.Datastore.DatastoreData.md#fileSystemType) is VMFS, the SSD disk type of the datastore. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"SSD"| SSD disk type
-"NON_SSD"| NON-SSD disk type
-"UNKNOWN"| Unknown disk type
-"NON_VMFS"| NON-VMFS disk type
-**fileSystemType**|  xsd:string|  File system type of the datastore. VSAN disk types can only be used in desktop creation that enables VSAN. [^2]
-* This property will be one of:
-|  Value |  Description
----|---
-"VMFS"| VMFS
-"NFS"| NFS
-"VSAN"| VSAN
-"VVOL"| VVOL
+**diskType**|  xsd:string|  If the [fileSystemType](vdi.utils.virtualcenter.Datastore.DatastoreData.md#fileSystemType) is VMFS, the SSD disk type of the datastore. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SSD"</td><td>SSD disk type</td></tr><tr><td>"NON_SSD"</td><td>NON-SSD disk type</td></tr><tr><td>"UNKNOWN"</td><td>Unknown disk type</td></tr><tr><td>"NON_VMFS"</td><td>NON-VMFS disk type</td></tr></table>
+**fileSystemType**|  xsd:string|  File system type of the datastore. VSAN disk types can only be used in desktop creation that enables VSAN. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VMFS"</td><td>VMFS</td></tr><tr><td>"NFS"</td><td>NFS</td></tr><tr><td>"VSAN"</td><td>VSAN</td></tr><tr><td>"VVOL"</td><td>VVOL</td></tr></table>
 **vmfsMajorVersion**|  xsd:string|  If the [fileSystemType](vdi.utils.virtualcenter.Datastore.DatastoreData.md#fileSystemType) is VMFS, the VMFS major version number. [^1] [^2]
 **incompatibleReasons**| [DatastoreIncompatibleReasons](vdi.utils.virtualcenter.Datastore.DatastoreIncompatibleReasons.md)|  Reasons that may preclude this Datastore from being used in desktop creation. [^2]
 **localDatastore**|  xsd:boolean|  Whether or not this datastore is local to a single host. [^2]

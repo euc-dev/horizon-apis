@@ -690,18 +690,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
-
-**msgType**|  xsd:string|  Message type: Warning, Info or Error
-
-
-* This parameter will be one of:
-|  Value |  Description
----|---
-"WARNING"| WARNING: Message is a warning
-"ERROR"| ERROR: Message is an error
-"INFO"| INFO: Message is an info
-
-
+**msgType**|  xsd:string|  Message type: Warning, Info or Error <br>* This parameter will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>WARNING</td><td>WARNING: Message is a warning</td></tr><tr><td>ERROR</td><td>ERROR: Message is an error</td></tr><tr><td>INFO</td><td>INFO: Message is an info</td></tr></table>
 **message**|  xsd:string|  Text in message
 
 

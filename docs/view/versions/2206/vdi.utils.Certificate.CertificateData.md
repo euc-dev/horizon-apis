@@ -36,23 +36,8 @@ Name |  Type |  Description
 ---|---|---
 **thumbprint**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Certificate thumbprint and corresponding algorithm. [^1]
 **certificate**|  xsd:string|  The certificate in a string form. [^1]
-**certificateEncoding**|  xsd:string|  The encoding of the certificate.  **_Since_** Horizon 7.8 [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"DER_BASE64_PEM"| Denotes the Base64 encoded DER certificate.
-**invalidReasons**|  xsd:string[]|  The reason(s) why the certificate could not be validated.
-* This property will be one of:
-|  Value |  Description
----|---
-"EXPIRED"| Denotes an expired certificate.
-"INVALID_USAGE"| Denotes an invalid usage of a certificate.
-"NAME_MISMATCH"| Denotes a name mismatch with the name in the certificate.
-"NOT_TRUSTED"| Denotes that the certificate is not trusted.
-"NOT_YET_VALID"| Denotes that the certificate is not yet trusted.
-"REVOKED"| Denotes that the certificate has been revoked.
-"CANT_CHECK_REVOKED"| Denotes that the server is unable to check whether the certificate has been revoked.
-"OTHER"| Denotes that the certificate has been considered invalid for a reason other than one listed above.
+**certificateEncoding**|  xsd:string|  The encoding of the certificate.  **_Since_** Horizon 7.8 [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DER_BASE64_PEM</td><td>Denotes the Base64 encoded DER certificate.</td></tr></table>
+**invalidReasons**|  xsd:string[]|  The reason(s) why the certificate could not be validated. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>EXPIRED</td><td>Denotes an expired certificate.</td></tr><tr><td>INVALID_USAGE</td><td>Denotes an invalid usage of a certificate.</td></tr><tr><td>NAME_MISMATCH</td><td>Denotes a name mismatch with the name in the certificate.</td></tr><tr><td>NOT_TRUSTED</td><td>Denotes that the certificate is not trusted.</td></tr><tr><td>NOT_YET_VALID</td><td>Denotes that the certificate is not yet trusted.</td></tr><tr><td>REVOKED</td><td>Denotes that the certificate has been revoked.</td></tr><tr><td>CANT_CHECK_REVOKED</td><td>Denotes that the server is unable to check whether the certificate has been revoked.</td></tr><tr><td>OTHER</td><td>Denotes that the certificate has been considered invalid for a reason other than one listed above.</td></tr></table>
 **allowAdminOverride**|  xsd:boolean|  Reserved for fututre use  **_Since_** Horizon 8.6 [^6]
 
 
