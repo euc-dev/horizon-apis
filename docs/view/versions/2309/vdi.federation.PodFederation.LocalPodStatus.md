@@ -31,15 +31,7 @@ Multi-DataCenter View status for the local Pod.
 Properties
 Name |  Type |  Description
 ---|---|---
-**status**|  xsd:string|  The Multi-DataCenter View status for the local Pod.
-* This property will be one of:
-|  Value |  Description
----|---
-"ENABLED"| Multi-DataCenter View is enabled.
-"DISABLED"| Multi-DataCenter View is disabled.
-"PENDING"| Multi-DataCenter View is undergoing an operation related to initialization, uninitialization, joining, or unjoining.
-"ENABLE_ERROR"| This status indicates the current Connection Server has failed to reach the ENABLED status in a timely manner. Other Connection Servers in the same Pod were successfully ENABLED. This status may also indicate the current Connection Server was recently installed.
-"DISABLE_ERROR"| This status indicates the current Connection Server has failed to reach the DISABLED status in a timely manner. Other Connection Servers in the same Pod were successfully DISABLED.
+**status**|  xsd:string|  The Multi-DataCenter View status for the local Pod.<br>* This property will be one of:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>"ENABLED"</td><td>Multi-DataCenter View is enabled.</td></tr><tr><td>"DISABLED"</td><td>Multi-DataCenter View is disabled.</td></tr><tr><td>"PENDING"</td><td>Multi-DataCenter View is undergoing an operation related to initialization, uninitialization, joining, or unjoining.</td></tr><tr><td>"ENABLE_ERROR"</td><td>This status indicates the current Connection Server has failed to reach the ENABLED status in a timely manner. Other Connection Servers in the same Pod were successfully ENABLED. This status may also indicate the current Connection Server was recently installed.</td></tr><tr><td>"DISABLE_ERROR"</td><td>This status indicates the current Connection Server has failed to reach the DISABLED status in a timely manner. Other Connection Servers in the same Pod were successfully DISABLED.</td></tr></tbody></table>
 **localConnectionServerStatuses**| [PodFederationLocalConnectionServerStatus[]](vdi.federation.PodFederation.LocalConnectionServerStatus.md)|  Individual Connection Server Multi-DataCenter View statuses for this pod. Null if insufficient permission to read Connection Server settings. [^1]
  
 

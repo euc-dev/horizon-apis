@@ -30,13 +30,7 @@ Name |  Type |  Description
 ---|---|---
 **serverName**|  xsd:string|  The name of the database server.
 **port**|  xsd:int|  The port of the database server
-**databaseType**|  xsd:string|  The type of the database.
-* This property will be one of:
-|  Value |  Description
----|---
-"ORACLE"| An Oracle database
-"SQLSERVER"| A SQL server database.
-"UNDEFINED"| An undefined database type.
+**databaseType**|  xsd:string|  The type of the database. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>ORACLE</td><td>An Oracle database</td></tr><tr><td>SQLSERVER</td><td>A SQL server database.</td></tr><tr><td>UNDEFINED</td><td>An undefined database type.</td></tr></table>
 **userName**|  xsd:string|  The username used to connect to the database
 **databaseName**|  xsd:string|  The name of the database.
 **tablePrefix**|  xsd:string|  The prefix of tables within the database.

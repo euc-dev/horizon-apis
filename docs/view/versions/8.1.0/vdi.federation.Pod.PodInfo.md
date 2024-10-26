@@ -34,8 +34,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [PodId](vdi.entity.PodId.md)|  Unique identifier for a Pod [^2]
 **site**| [SiteId](vdi.entity.SiteId.md)|  The Id of the site this pod belongs to
-**displayName**|  xsd:string|  Display name for the pod.
-* This property has a maximum length of 64 characters.
+**displayName**|  xsd:string|  Display name for the pod. <br>* This property has a maximum length of 64 characters.
 **description**|  xsd:string|  Detailed description of the pod. [^1] [^13]
 **localPod**|  xsd:boolean|  Indicates whether this is the local pod that the Pod service request is made. Only one pod out of the PodFederation will return true. [^2]
 **endpoints**| [PodEndpointId[]](vdi.entity.PodEndpointId.md)|  The list of pod endpoints within this pod. An endpoint is basically a connection server in that pod. This list is maintained by the system and is not modifiable. [^1] [^2]

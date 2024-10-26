@@ -34,24 +34,7 @@ Fault for log collector method invocations.
 Properties
 Name |  Type |  Description
 ---|---|---
-**logCollectorFaultCode**|  xsd:string|
-* This property will be one of:
-|  Value |  Description
----|---
-"COLLECT_OPERATION_TIMED_OUT"| Log collection operation has timed out.
-"LOG_COLLECT_PROCESS_NON_RESPONSIVE"| Log collection process has become non responsive.
-"LOW_DISK_SPACE"| Not enough disk space available to proceed with logs collection operation.
-"INTERNAL_SERVER_ERROR"| An internal server error has occurred.
-"LOG_COLLECTOR_TASK_ID_NOT_FOUND"| Log collection task identifier not found.
-"USER_NOT_OWNS_LOG_COLLECTOR_TASK_ID"| Log collection task identifier is not owned by the user.
-"SERVER_BUSY_REJECTS_COLLECT_REQUEST"| Request for log collection is rejected with busy error.
-"PURGE_ELIGIBLE_LOG_COLLECTOR_TASK_NOT_FOUND"| Purge operation not performed as none are eligible.
-"SERVER_CLEAN_REJECTS_PURGE_REQUEST"| Purge operation not performed as none.
-"LOG_COLLECTOR_COMPONENT_ID_NOT_FOUND"| Log component identifier not found.
-"LOG_COLLECTOR_COMPONENT_TYPE_INVALID"| Log component type is invalid or unknown.
-"LOG_BUNDLE_DOWNLOAD_URL_NOT_FOUND"| Log component download URL not found.
-"LOG_COLLECTOR_USER_ID_NOT_FOUND"| User identifier not found.
-"LOG_COLLECTOR_FILTER_TYPE_INVALID"| Log collection filter type in invalid.
+**logCollectorFaultCode**|  xsd:string| * This property will be one of:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>"COLLECT_OPERATION_TIMED_OUT"</td><td>Log collection operation has timed out.</td></tr><tr><td>"LOG_COLLECT_PROCESS_NON_RESPONSIVE"</td><td>Log collection process has become non responsive.</td></tr><tr><td>"LOW_DISK_SPACE"</td><td>Not enough disk space available to proceed with logs collection operation.</td></tr><tr><td>"INTERNAL_SERVER_ERROR"</td><td>An internal server error has occurred.</td></tr><tr><td>"LOG_COLLECTOR_TASK_ID_NOT_FOUND"</td><td>Log collection task identifier not found.</td></tr><tr><td>"USER_NOT_OWNS_LOG_COLLECTOR_TASK_ID"</td><td>Log collection task identifier is not owned by the user.</td></tr><tr><td>"SERVER_BUSY_REJECTS_COLLECT_REQUEST"</td><td>Request for log collection is rejected with busy error.</td></tr><tr><td>"PURGE_ELIGIBLE_LOG_COLLECTOR_TASK_NOT_FOUND"</td><td>Purge operation not performed as none are eligible.</td></tr><tr><td>"SERVER_CLEAN_REJECTS_PURGE_REQUEST"</td><td>Purge operation not performed as none.</td></tr><tr><td>"LOG_COLLECTOR_COMPONENT_ID_NOT_FOUND"</td><td>Log component identifier not found.</td></tr><tr><td>"LOG_COLLECTOR_COMPONENT_TYPE_INVALID"</td><td>Log component type is invalid or unknown.</td></tr><tr><td>"LOG_BUNDLE_DOWNLOAD_URL_NOT_FOUND"</td><td>Log component download URL not found.</td></tr><tr><td>"LOG_COLLECTOR_USER_ID_NOT_FOUND"</td><td>User identifier not found.</td></tr><tr><td>"LOG_COLLECTOR_FILTER_TYPE_INVALID"</td><td>Log collection filter type in invalid.</td></tr></tbody></table>
 "LOG_LEVEL_INVALID_PARAMETER"| Invalid parameter passed for log level operations.
 "LOG_LEVEL_INVALID_DATA"| Invalid response received for log level operations.
 "NO_RESPONSE"| No response received for log level operations.

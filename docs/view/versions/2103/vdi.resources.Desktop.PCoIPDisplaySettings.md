@@ -34,14 +34,9 @@ Name |  Type |  Description
 **vRamSizeMB**|  xsd:int|  VRAM size for View managed 3D rendering. More VRAM can improve 3D performance. Size is in MB. On ESXi 5.0 hosts, the renderer allows a maximum VRAM size of 128MB. On ESXi 5.1 and later hosts, the maximum VRAM size is 512MB. For Instant Clones, this value is inherited from snapshot of Master VM. [^61] [^1] [^62] [^63] [^64]
 **vRamSizeKB**|  xsd:long|  VRAM size in KB for Instant Clone desktops. This field is populated after reading VRAM size from snapshot of MasterVM in the backend. It is applicable only when 3D is disabled.  **_Since_** Horizon 7.2 [^1] [^2]
 **maxNumberOfMonitors**|  xsd:int|  When 3D is disabled, the 'Max number of monitors' and 'Max resolution of any one monitor' settings determine the amount of vRAM assigned to machines in this desktop. The greater these values are, the more memory will be consumed on the associated ESX hosts. Existing virtual machines must be powered off and subsequently powered on for the change to take effect. A restart will not cause the changes to take effect. If 3D is enabled and managed by View, the maximum number of monitors must be 1 or 2. For Instant Clones, this value is inherited from snapshot of Master VM. [^65] [^1] [^8] [^66] [^69]
-**maxResolutionOfAnyOneMonitor**|  xsd:string|  If 3D rendering is enabled and managed by View, this must be set to the default value. When 3D rendering is disabled, the 'Max number of monitors' and 'Max resolution of any one monitor' settings determine the amount of vRAM assigned to machines in this desktop. The greater these values are, the more memory will be consumed on the associated ESX hosts. This setting is only relevant on managed machines. Existing virtual machines must be powered off and subsequently powered on for the change to take effect. A restart will not cause the changes to take effect. For Instant Clones, this value is inherited from snapshot of Master VM [^68] [^1] [^69]
-* This property will be one of:
-|  Value |  Description
----|---
-"WUXGA"| 1920x1200
-"WSXGA_PLUS"| 1680x1050
-"WQXGA"| 2560x1600
-"UHD"| 3840x2160
+**maxResolutionOfAnyOneMonitor**|  xsd:string|  If 3D rendering is enabled and managed by View, this must be set to the default value. When 3D rendering is disabled, the 'Max number of monitors' and 'Max resolution of any one monitor' settings determine the amount of vRAM assigned to machines in this desktop. The greater these values are, the more memory will be consumed on the associated ESX hosts. This setting is only relevant on managed machines. Existing virtual machines must be powered off and subsequently powered on for the change to take effect. A restart will not cause the changes to take effect. For Instant Clones, this value is inherited from snapshot of Master VM [^68] [^1] [^69] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"WUXGA"</td><td>1920x1200</td></tr><tr><td>"WSXGA_PLUS"</td><td>1680x1050</td></tr><tr><td>"WQXGA"</td><td>2560x1600</td></tr><tr><td>"UHD"</td><td>3840x2160</td></tr></table>
+
+
 
 
  

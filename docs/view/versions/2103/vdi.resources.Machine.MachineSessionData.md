@@ -34,15 +34,8 @@ Name |  Type |  Description
 **id**| [SessionId](vdi.entity.SessionId.md)|  Session id. [^2]
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id of the user involved in this session. [^2]
 **userName**|  xsd:string|  Name of the user involved in this session. [^2]
-**sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions. [^1]
-* This property will be one of:
-|  Value |  Description
----|---
-"PCOIP"| Display protocol is PCoIP
-"RDP"| Display protocol is RDP
-"BLAST"| Display protocol is Blast
-"CONSOLE"| Display protocol is Console
-"UNKNOWN"| Display protocol is unknown
+**sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PCOIP"</td><td>Display protocol is PCoIP</td></tr><tr><td>"RDP"</td><td>Display protocol is RDP</td></tr><tr><td>"BLAST"</td><td>Display protocol is Blast</td></tr><tr><td>"CONSOLE"</td><td>Display protocol is Console</td></tr><tr><td>"UNKNOWN"</td><td>Display protocol is unknown</td></tr></table>
+
 
 
  
