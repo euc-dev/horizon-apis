@@ -38,7 +38,7 @@ Name |  Type |  Description
 **description**|  xsd:string|  The access group description. [^1] [^3] [^4]
 **parent**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The AccessGroupId of the access group's parent. This is unset if this is the root access group. [^1] [^3]
 
-[^1]: This property cannot be updated.
-[^2]: This property must contain only alphanumerics, spaces, underscores, and dashes. The maximum length is 32 characters.
-[^3]: This property need not be set.
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^3]: This property must contain only alphanumerics, spaces, underscores, and dashes. The maximum length is 32 characters.
 [^4]: This property has a maximum length of 400 characters.

@@ -42,8 +42,7 @@ Name |  Type |  Description
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Image Management Tag associated with the selected image management stream to be used in Desktop creation when Image Management feature is enabled. This is applicable for Instant clone and Full clone Desktops only. This is required when [imageManagementStream](vdi.resources.Desktop.VirtualCenterProvisioningData.md#imageManagementStream) is set.  **_Since_** Horizon 7.10 [^1]
 **computeProfile**| [DesktopComputeProfileSpec](vdi.resources.Desktop.ComputeProfileSpec.md)|  Compute Profile used to specify the CPU, RAM and cores per socket configuration to create VMs with.  **_Since_** Horizon 8.6 [^1]
 
-
-[^1]: This property need not be set. 
-[^2]: This property cannot be updated. 
-[^98]: For Instant clone desktops only it can be only a cluster and not a host. 
-[^99]: For Instant clone desktops, this can be modified only if there are no current operations ( [operation](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#operation) is NONE). 
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^98]: For Instant clone desktops only it can be only a cluster and not a host.
+[^99]: For Instant clone desktops, this can be modified only if there are no current operations ( [operation](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#operation) is NONE).
