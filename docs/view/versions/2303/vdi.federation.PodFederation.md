@@ -498,3 +498,7 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^231]: This parameter is an update map based on [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md "PodFederationInfo").

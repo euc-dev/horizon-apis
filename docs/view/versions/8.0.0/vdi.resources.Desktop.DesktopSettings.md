@@ -51,3 +51,18 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^28]: This property has a default value of 'DESKTOP'.
+[^210]: [user](vdi.resources.Desktop.SpecifiedName.md#user) is provided.
+[^211]: [enabled](vdi.resources.Desktop.DesktopSettings.md#enabled) is false.
+[^212]: [supportedSessionType](vdi.resources.Desktop.DesktopSettings.md#supportedSessionType) is not "DESKTOP".
+[^213]: [globalEntitlement](vdi.resources.Desktop.GlobalEntitlementData.md#globalEntitlement) is set.
+[^214]: [userAssignment](vdi.resources.Desktop.UserAssignment.md#userAssignment) is "DEDICATED" and [automaticAssignment](vdi.resources.Desktop.UserAssignment.md#automaticAssignment) is false.
+[^215]: Local entitlements are configured.
+[^216]: Any of the machines in the pool have users assigned.
+[^217]: [connectionServerRestrictions](vdi.resources.Desktop.DesktopSettings.md#connectionServerRestrictions) is not set.

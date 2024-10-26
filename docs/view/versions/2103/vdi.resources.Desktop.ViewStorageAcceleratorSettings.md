@@ -38,3 +38,12 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^8]: This property has a minimum value of 1.
+[^91]: This property has a default value of 'OS_DISKS'.
+[^92]: This property is required if useViewStorageAccelerator is set to true.
+[^93]: This property has a default value of 7.
+[^94]: This property has a maximum value of 999.

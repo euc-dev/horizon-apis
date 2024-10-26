@@ -38,3 +38,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^239]: For dedicated assignment desktop, it is the number of assigned machine count.
+[^240]: For floating assignment desktop, it is the summation of the connected and disconnected sessions.

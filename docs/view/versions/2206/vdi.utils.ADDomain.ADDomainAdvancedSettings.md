@@ -34,3 +34,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^6]: This property has a default value of true.
+[^72]: This property has a minimum value of 0.
+[^140]: This property must be a valid IP address or DNS name.
+[^189]: This property has a maximum value of 65535.

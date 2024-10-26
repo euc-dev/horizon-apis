@@ -41,3 +41,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^8]: This property has a minimum value of 1.
+[^167]: This data object must be updated as a whole.
+[^253]: This property has a maximum value of 1440.

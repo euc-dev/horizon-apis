@@ -294,3 +294,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^3]: This property must contain only alphanumerics, spaces, underscores, and dashes. The maximum length is 32 characters.
+[^4]: This property has a maximum length of 400 characters.

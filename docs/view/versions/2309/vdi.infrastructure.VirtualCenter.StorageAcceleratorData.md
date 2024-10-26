@@ -38,3 +38,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^53]: This property is required if enabled is set to true.
+[^176]: This property has a default value of 1024.
+[^177]: This property has a minimum value of 100.
+[^178]: This property has a maximum value of 32768.

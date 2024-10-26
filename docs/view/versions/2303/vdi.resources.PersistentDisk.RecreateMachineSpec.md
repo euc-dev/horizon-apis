@@ -39,3 +39,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^196]: This property must contain only alphanumerics, underscores, and dashes. It must contain at least one alpha character. The maximum length is 15 characters.

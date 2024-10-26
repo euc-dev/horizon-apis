@@ -36,3 +36,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^17]: This property has a default value of 'DISABLED'.

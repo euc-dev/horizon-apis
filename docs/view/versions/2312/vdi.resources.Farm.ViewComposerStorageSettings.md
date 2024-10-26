@@ -38,3 +38,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^86]: This property is required if useSeparateDatastoresReplicaAndOSDisks is set to true.
+[^126]: For Instant clone farms, this can be modified only if there are no current operations ( [operation](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#operation) is NONE).

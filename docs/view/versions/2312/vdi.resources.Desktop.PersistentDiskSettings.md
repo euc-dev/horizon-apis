@@ -39,3 +39,14 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^74]: This property is required if redirectWindowsProfile is set to true.
+[^75]: This property is required if useSeparateDatastoresPersistentAndOSDisks is set to true.
+[^76]: This property has a default value of 2048.
+[^77]: This property has a minimum value of 128.
+[^78]: This property has a default value of D.
+[^185]: This property must be single letters from D to Z.

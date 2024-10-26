@@ -38,3 +38,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^192]: This property is required if configured is set to true.

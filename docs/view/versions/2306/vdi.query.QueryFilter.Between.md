@@ -43,3 +43,7 @@ None
 
 
  
+
+
+[^1]: This property need not be set.
+[^167]: This data object must be updated as a whole.

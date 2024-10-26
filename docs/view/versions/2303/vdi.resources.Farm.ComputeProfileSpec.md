@@ -35,3 +35,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.

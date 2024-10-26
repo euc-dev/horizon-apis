@@ -33,3 +33,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^19]: This property has a default value of 0.

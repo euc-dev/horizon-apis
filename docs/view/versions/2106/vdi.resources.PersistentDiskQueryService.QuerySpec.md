@@ -37,3 +37,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^197]: This property has a default value of 1000.

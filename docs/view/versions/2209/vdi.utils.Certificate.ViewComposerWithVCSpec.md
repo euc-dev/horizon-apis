@@ -38,3 +38,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^8]: This property has a minimum value of 1.
+[^189]: This property has a maximum value of 65535.

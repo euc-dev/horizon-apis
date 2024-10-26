@@ -308,3 +308,7 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^137]: This parameter is an update map based on [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md "SecondaryCredentialsInfo").

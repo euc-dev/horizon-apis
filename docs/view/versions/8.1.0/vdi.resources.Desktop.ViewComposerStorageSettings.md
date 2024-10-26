@@ -40,3 +40,13 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^82]: Fast NFS Clones (VAAI) will be unavailable if the Replica disks are stored separately from the OS disks.
+[^83]: Datastores with file system type VVOL will also be unavailable if the Replica disks are stored separately from the OS disks.
+[^84]: This setting is applicable to both View Composer and Instant clone engine sourced desktops.
+[^85]: For Instant clone desktops, this can be modified only if there are no current operations ( [operation](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#operation) is NONE).
+[^86]: This property is required if useSeparateDatastoresReplicaAndOSDisks is set to true.
+[^87]: For Instant clone desktops, this setting can only be set to false.

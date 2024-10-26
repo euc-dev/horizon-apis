@@ -335,3 +335,6 @@ Show WSDL type definition
 
 
  
+
+
+[^249]: This parameter is an update map based on [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md "ConnectionServerInfo").

@@ -34,3 +34,14 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^6]: This property has a default value of true.
+[^55]: This property has a default value of 4096.
+[^56]: This property has a minimum value of 512.
+[^58]: This property has a default value of Auto.
+[^59]: This property must be single letters from D to Z or the word Auto.
+[^60]: This property is required if redirectDisposableFiles is set to true.
+[^87]: For Instant clone desktops, this setting can only be set to false.

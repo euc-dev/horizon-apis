@@ -37,3 +37,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^95]: For Instant clone desktops, this setting can only be set to UNBOUNDED.
+[^96]: This property has a default value of 'CONSERVATIVE'.

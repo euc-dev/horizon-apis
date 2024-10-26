@@ -39,3 +39,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^158]: This property is required if reset is set to false.

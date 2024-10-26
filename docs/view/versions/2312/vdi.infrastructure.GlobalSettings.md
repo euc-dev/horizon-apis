@@ -404,3 +404,6 @@ Show WSDL type definition
 
 
  
+
+
+[^290]: This parameter is an update map based on [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md "GlobalSettingsInfo").

@@ -38,3 +38,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^19]: This property has a default value of 0.
+[^72]: This property has a minimum value of 0.

@@ -199,3 +199,6 @@ Show WSDL type definition
 
 
  
+
+
+[^302]: This parameter is an update map based on [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md "SecurityServerInfo").

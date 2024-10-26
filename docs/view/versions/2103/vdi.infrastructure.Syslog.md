@@ -136,3 +136,6 @@ Show WSDL type definition
 
 
  
+
+
+[^303]: This parameter is an update map based on [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md "SyslogInfo").

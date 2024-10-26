@@ -302,3 +302,6 @@ Show WSDL type definition
 
 
  
+
+
+[^298]: This parameter is an update map based on [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md "SAMLAuthenticatorInfo").

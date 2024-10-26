@@ -47,3 +47,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^23]: This property is required if customizationType is set to 'NONE'.
+[^24]: This property is required if customizationType is set to 'SYS_PREP'.
+[^25]: This property is required if customizationType is set to 'QUICK_PREP'.

@@ -34,3 +34,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^17]: This property has a default value of 'DISABLED'.
+[^308]: This property is required if triggerMode is set to "ENABLE_ALWAYS" or "REQUIRE_ALWAYS".

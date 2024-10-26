@@ -52,3 +52,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^17]: This property has a default value of 'DISABLED'.

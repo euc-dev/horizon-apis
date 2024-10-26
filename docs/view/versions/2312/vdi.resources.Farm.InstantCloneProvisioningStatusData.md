@@ -50,3 +50,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^114]: This property is required if operation is set to 'INITIAL_PUBLISH', 'CANCEL_SCHEDULED_MAINTENANCE', or 'INFRASTRUCTURE_CHANGE'.

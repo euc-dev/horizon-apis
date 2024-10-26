@@ -33,3 +33,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^10]: This property has a default value of 1.
+[^72]: This property has a minimum value of 0.
+[^79]: This property is required if reclaimVmDiskSpace is set to true.

@@ -37,3 +37,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^7]: If specified, this property is limited to letters, numbers, punctuation, spaces, and tabs.
+[^127]: This must be between 1 and 255 characters.

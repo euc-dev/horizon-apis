@@ -36,3 +36,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^299]: This property has a default value of "DYNAMIC".
+[^300]: This property is required if authenticatorType is set to "DYNAMIC".
+[^301]: This property is required if authenticatorType is set to "STATIC".

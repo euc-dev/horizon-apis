@@ -138,3 +138,7 @@ Show WSDL type definition
 
 
  
+
+
+[^225]: [ServerSpec](vdi.utils.Certificate.ServerSpec.md).
+[^226]: [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md).

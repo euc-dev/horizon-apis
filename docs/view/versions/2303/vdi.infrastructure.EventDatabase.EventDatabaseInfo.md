@@ -38,3 +38,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^258]: This property is required if eventDatabaseSet is set to true.

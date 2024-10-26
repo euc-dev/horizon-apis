@@ -66,3 +66,34 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^8]: This property has a minimum value of 1.
+[^45]: This property has a default value of 10.
+[^72]: This property has a minimum value of 0.
+[^121]: This property has a default value of 'NEVER'.
+[^270]: This property has a default value of "TIMEOUT_AFTER".
+[^271]: This property has a default value of 600.
+[^272]: This property has a minimum value of 5.
+[^273]: This property is required if clientMaxSessionTimePolicy is set to "TIMEOUT_AFTER".
+[^274]: This property has a default value of 15.
+[^275]: This property is required if clientIdleSessionTimeoutPolicy is set to "TIMEOUT_AFTER".
+[^276]: This property has a default value of 1200.
+[^277]: This property is required if desktopSSOTimeoutPolicy is set to "DISABLE_AFTER".
+[^278]: This property has a default value of "ALWAYS_ENABLED".
+[^279]: This property is required if applicationSSOTimeoutPolicy is set to "DISABLE_AFTER".
+[^280]: This property has a maximum value of 4320.
+[^281]: This property is required if displayWarningBeforeForcedLogoff is set to true.
+[^282]: If set true, UI clients should show a "Remember me" check box option on the login page.
+[^283]: If set false, UI clients should not show the "Remember me" check box option on the login page.
+[^284]: This property has a default value of 30.
+[^285]: This property has a maximum value of 30.
+[^286]: This property has a default value of Your virtual session is going to be logged off. Please save your work.
+[^287]: This property has a default value of Your session has expired. Please re-connect to the portal and restart the session.
+[^288]: This property has a default value of Attention.
+[^289]: This property is required if displayPreLoginAdminBanner is set to true.
+[^306]: This property has a default value of "BOTH".
+[^307]: This property has a default value of On proceeding, you agree that you fully comply with the laws of this organisation.

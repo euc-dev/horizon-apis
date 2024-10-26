@@ -50,3 +50,15 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^168]: This property is required if source is set to "VIEW_COMPOSER" or "INSTANT_CLONE_ENGINE".
+[^169]: This property is required if source is set to "FULL_CLONE".
+[^170]: This value will be considered only in case of Dedicated Linked Pool.
+[^171]: It will be ignored for other Pools and Farms.
+[^172]: This property is required if isPersistent is set to true.
+[^173]: Applicable only in case of Linked Clones and Instant Clones.
+[^174]: Set to true only in case of DEDICATED LINKED_CLONE Pool.
+[^175]: It will be ignored in case of Farms and other Pools.

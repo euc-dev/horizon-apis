@@ -198,3 +198,6 @@ Show WSDL type definition
 
 
  
+
+
+[^230]: This parameter is an update map based on [PodInfo](vdi.federation.Pod.PodInfo.md "PodInfo").

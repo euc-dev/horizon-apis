@@ -39,3 +39,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^14]: This property is an unordered array of unique values.
+[^251]: This property is required if samlSupport is set to "ENABLED" or "REQUIRED".
+[^252]: This property is required if samlSupport is set to "MULTI_ENABLED" or "MULTI_REQUIRED".

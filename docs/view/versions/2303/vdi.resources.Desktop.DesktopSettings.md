@@ -51,3 +51,20 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^28]: This property has a default value of 'DESKTOP'.
+[^132]: This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\\dir2, dir1\\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names.
+[^210]: [user](vdi.resources.Desktop.SpecifiedName.md#user) is provided.
+[^211]: [enabled](vdi.resources.Desktop.DesktopSettings.md#enabled) is false.
+[^212]: [supportedSessionType](vdi.resources.Desktop.DesktopSettings.md#supportedSessionType) is not "DESKTOP".
+[^213]: [globalEntitlement](vdi.resources.Desktop.GlobalEntitlementData.md#globalEntitlement) is set.
+[^214]: [userAssignment](vdi.resources.Desktop.UserAssignment.md#userAssignment) is "DEDICATED" and [automaticAssignment](vdi.resources.Desktop.UserAssignment.md#automaticAssignment) is false.
+[^215]: Local entitlements are configured.
+[^216]: Any of the machines in the pool have users assigned.
+[^217]: [connectionServerRestrictions](vdi.resources.Desktop.DesktopSettings.md#connectionServerRestrictions) is not set.
+[^218]: [type](vdi.resources.Desktop.DesktopSpec.md#type) is MANUAL.

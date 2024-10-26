@@ -41,3 +41,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^227]: This property is a set of entries with unique "key" members.

@@ -503,3 +503,11 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^159]: Contains null for which the request is processed successfully.
+[^160]: [LogCollectorFault](vdi.fault.LogCollectorFault.md) for failed ones.
+[^161]: Contains array of [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md) for which the request is processed successfully.
+[^162]: All available log collector task information is returned if no parameter used.
+[^163]: Log collector task information for specified user returned if parameter used.

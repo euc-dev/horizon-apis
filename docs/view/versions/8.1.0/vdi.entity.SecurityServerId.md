@@ -47,3 +47,6 @@ Properties inherited from [EntityId](vdi.EntityId.md)
 
 
  
+
+
+[^167]: This data object must be updated as a whole.

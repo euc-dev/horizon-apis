@@ -39,3 +39,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^167]: This data object must be updated as a whole.

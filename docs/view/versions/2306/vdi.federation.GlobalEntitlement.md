@@ -520,3 +520,6 @@ Show WSDL type definition
 
 
  
+
+
+[^229]: This parameter is an update map based on [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md "GlobalEntitlementInfo").

@@ -37,3 +37,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^13]: This property has a maximum length of 1024 characters.
+[^297]: This property has a maximum length of 32 characters.

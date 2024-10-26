@@ -62,3 +62,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^109]: Both instant and linked clones share the same base image and use less storage space than full virtual machines.
+[^110]: The user profile for both types clones can be redirected to persistent disks that will be unaffected by OS updates and refreshes.

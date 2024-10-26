@@ -33,3 +33,9 @@ Non UI based clients should ignore this property. [^6] [^1]
 
 
  
+
+
+[^1]: This property need not be set.
+[^6]: This property has a default value of true.
+[^282]: If set true, UI clients should show a "Remember me" check box option on the login page.
+[^283]: If set false, UI clients should not show the "Remember me" check box option on the login page.

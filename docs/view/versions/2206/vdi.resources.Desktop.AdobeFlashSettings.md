@@ -35,3 +35,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^17]: This property has a default value of 'DISABLED'.
+[^183]: This property has a default value of "NO_CONTROL".

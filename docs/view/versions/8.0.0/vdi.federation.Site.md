@@ -308,3 +308,6 @@ Show WSDL type definition
 
 
  
+
+
+[^232]: This parameter is an update map based on [SiteInfo](vdi.federation.Site.SiteInfo.md "SiteInfo").

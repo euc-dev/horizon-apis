@@ -37,3 +37,13 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.
+[^19]: This property has a default value of 0.
+[^70]: This property must contain only alphanumerics and dashes. It must contain at least one alpha character. It may also optionally contain a numeric placement token {n} or {n:fixed=#}. If the pattern does not specify the numeric placement token, the maximum length is 14 characters.
+[^71]: This property has a default value of 'UP_FRONT'.
+[^72]: This property has a minimum value of 0.
+[^73]: This property is required if provisioningTime is set to 'ON_DEMAND'.

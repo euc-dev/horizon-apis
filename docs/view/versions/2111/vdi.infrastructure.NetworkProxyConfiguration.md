@@ -144,3 +144,6 @@ Show WSDL type definition
 
 
  
+
+
+[^292]: This parameter is an update map based on [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md "NetworkProxyConfigurationDetail").

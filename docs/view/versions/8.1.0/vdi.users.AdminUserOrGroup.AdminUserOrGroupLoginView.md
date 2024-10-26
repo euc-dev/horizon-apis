@@ -38,3 +38,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^5]: This property has a default value of false.
+[^220]: Admin user has single role which is of type either HELP_DESK_ADMIN or HELP_DESK_ADMIN_READ_ONLY.

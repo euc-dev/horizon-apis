@@ -306,3 +306,6 @@ Show WSDL type definition
 
 
  
+
+
+[^205]: This parameter is an update map based on [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md "URLRedirectionInfo").

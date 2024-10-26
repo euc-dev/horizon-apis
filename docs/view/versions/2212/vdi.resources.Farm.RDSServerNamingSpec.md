@@ -36,3 +36,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^102]: This property is required if namingMethod is set to 'PATTERN'.

@@ -39,3 +39,16 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.
+[^44]: This property is required if emptySessionTimeoutPolicy is set to 'AFTER'.
+[^47]: This property is required if preLaunchSessionTimeoutPolicy is set to 'AFTER'.
+[^48]: This property has a default value of 'DEFAULT'.
+[^121]: This property has a default value of 'NEVER'.
+[^122]: This property is required if disconnectedSessionTimeoutPolicy is set to 'AFTER'.
+[^123]: This property has a minimum value of 10.
+[^184]: This property has a default value of "AFTER".

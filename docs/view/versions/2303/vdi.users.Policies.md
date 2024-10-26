@@ -330,3 +330,7 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^200]: This parameter is an update map based on [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md "PoliciesSettings").

@@ -554,3 +554,7 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^195]: This parameter is an update map based on [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md "PersistentDiskInfo").

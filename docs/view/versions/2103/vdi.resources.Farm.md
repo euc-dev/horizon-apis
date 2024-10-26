@@ -787,3 +787,9 @@ Show WSDL type definition
 
 
  
+
+
+[^105]: License is not applied to the system.
+[^106]: Applied license is expired.
+[^107]: Applied license does not have instant clone feature enabled.
+[^186]: This parameter is an update map based on [FarmInfo](vdi.resources.Farm.FarmInfo.md "FarmInfo").

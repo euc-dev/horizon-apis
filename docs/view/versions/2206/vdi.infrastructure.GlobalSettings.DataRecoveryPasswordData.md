@@ -36,3 +36,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^167]: This data object must be updated as a whole.
+[^267]: This property has a maximum length of 128 characters.

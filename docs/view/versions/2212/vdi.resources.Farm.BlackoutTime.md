@@ -34,3 +34,6 @@ Name |  Type |  Description
 
 
  
+
+
+[^22]: This property must be in the form hh:mm in 24 hours format.

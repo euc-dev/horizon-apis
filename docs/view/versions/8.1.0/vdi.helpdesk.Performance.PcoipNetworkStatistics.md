@@ -40,3 +40,7 @@ The limit is the minimum of the following values.  GPO bandwidth limit for the P
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.

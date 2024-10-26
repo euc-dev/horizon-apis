@@ -369,3 +369,6 @@ Show WSDL type definition
 
 
  
+
+
+[^228]: This parameter is an update map based on [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md "GlobalApplicationEntitlementInfo").

@@ -46,3 +46,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^14]: This property is an unordered array of unique values.
+[^17]: This property has a default value of 'DISABLED'.

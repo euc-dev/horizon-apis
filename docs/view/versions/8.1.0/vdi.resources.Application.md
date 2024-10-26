@@ -454,3 +454,6 @@ Show WSDL type definition
 
 
  
+
+
+[^182]: This parameter is an update map based on [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md "ApplicationInfo").

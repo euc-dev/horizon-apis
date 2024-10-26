@@ -39,3 +39,12 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^19]: This property has a default value of 0.
+[^72]: This property has a minimum value of 0.
+[^115]: This property has a maximum value of 100.
+[^116]: This property has a maximum value of 150.
+[^117]: This property is required if useCustomScript is set to false.

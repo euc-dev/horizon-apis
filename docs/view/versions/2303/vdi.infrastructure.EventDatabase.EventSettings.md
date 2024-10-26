@@ -36,3 +36,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^8]: This property has a minimum value of 1.
+[^93]: This property has a default value of 7.
+[^260]: This property has a maximum value of 3.
+[^261]: This property has a default value of 2000.
+[^262]: This property has a maximum value of 7.

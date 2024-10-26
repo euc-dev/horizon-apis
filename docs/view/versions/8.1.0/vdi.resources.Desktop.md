@@ -1339,3 +1339,10 @@ Show WSDL type definition
 
 
  
+
+
+[^105]: License is not applied to the system.
+[^106]: Applied license is expired.
+[^107]: Applied license does not have instant clone feature enabled.
+[^108]: This parameter is an update map based on [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md 'DesktopInfo').
+[^135]: This parameter need not be set.

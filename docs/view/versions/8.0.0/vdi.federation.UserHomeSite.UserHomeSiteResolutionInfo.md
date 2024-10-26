@@ -37,3 +37,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^222]: [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md).
+[^223]: [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md).

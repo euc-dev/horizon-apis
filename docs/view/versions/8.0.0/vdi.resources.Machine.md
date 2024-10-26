@@ -1318,3 +1318,7 @@ Show WSDL type definition
 
 
  
+
+
+[^135]: This parameter need not be set.
+[^219]: This parameter is an update map based on [MachineInfo](vdi.resources.Machine.MachineInfo.md "MachineInfo").

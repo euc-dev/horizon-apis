@@ -38,3 +38,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^102]: This property is required if namingMethod is set to 'PATTERN'.
+[^103]: This property is required if namingMethod is set to 'SPECIFIED'.
+[^104]: For Instant clone desktops, this setting can only be set to PATTERN.

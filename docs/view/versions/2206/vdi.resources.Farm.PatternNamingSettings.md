@@ -33,3 +33,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.
+[^70]: This property must contain only alphanumerics and dashes. It must contain at least one alpha character. It may also optionally contain a numeric placement token {n} or {n:fixed=#}. If the pattern does not specify the numeric placement token, the maximum length is 14 characters.

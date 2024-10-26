@@ -38,3 +38,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^111]: This property has a default value of 'PCOIP'.
+[^112]: This property is required if enableGRIDvGPUs is set to true.

@@ -39,3 +39,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^17]: This property has a default value of 'DISABLED'.
+[^179]: This property is required if viewComposerType is set to "LOCAL_TO_VC" or "STANDALONE".

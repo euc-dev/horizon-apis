@@ -60,3 +60,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^14]: This property is an unordered array of unique values.
+[^28]: This property has a default value of 'DESKTOP'.

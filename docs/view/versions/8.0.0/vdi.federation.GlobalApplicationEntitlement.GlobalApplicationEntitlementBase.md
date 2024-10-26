@@ -84,3 +84,14 @@ If this policy is for placement, session can be placed on any pod in LMV set.
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^13]: This property has a maximum length of 1024 characters.
+[^14]: This property is an unordered array of unique values.
+[^17]: This property has a default value of 'DISABLED'.
+[^111]: This property has a default value of 'PCOIP'.
+[^132]: This property defines valid folder names with a max length of 64 characters and up to 4 subdirectory levels. The subdirectories can be specified using a backslash, e.g. (dir1\dir2\dir3\dir4). Folder names can't start or end with a backslash nor can there be 2 or more backslashes together. Combinations such as (\dir1, dir1\dir2\, dir1\\\\dir2, dir1\\\\\\dir2) are invalid. The windows reserved keywords (CON, PRN, NUL, AUX, COM1 - COM9, LPT1 - LPT9 etc.) are not allowed in subdirectory names.

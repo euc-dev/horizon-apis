@@ -307,3 +307,6 @@ Show WSDL type definition
 
 
  
+
+
+[^147]: This parameter is an update map based on [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md "ImageManagementStreamInfo").

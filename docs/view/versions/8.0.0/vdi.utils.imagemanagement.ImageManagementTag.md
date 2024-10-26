@@ -307,3 +307,6 @@ Show WSDL type definition
 
 
  
+
+
+[^149]: This parameter is an update map based on [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md "ImageManagementTagInfo").

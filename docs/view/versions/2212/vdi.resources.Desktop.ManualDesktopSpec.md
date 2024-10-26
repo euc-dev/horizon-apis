@@ -40,3 +40,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^50]: This property is required if source is set to 'VIRTUAL_CENTER'.

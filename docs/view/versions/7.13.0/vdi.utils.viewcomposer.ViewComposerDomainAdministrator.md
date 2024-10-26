@@ -561,3 +561,6 @@ Show WSDL type definition
 
 
  
+
+
+[^166]: This parameter is an update map based on [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md "ViewComposerDomainAdministratorInfo").

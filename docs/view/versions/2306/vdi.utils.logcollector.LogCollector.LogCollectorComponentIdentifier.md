@@ -42,3 +42,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^154]: This property is required if logCollectorComponentType is set to "CONNECTION_SERVER".
+[^156]: This property is required if logCollectorComponentType is set to "AGENT_RDS".
+[^202]: This property is required if logCollectorComponentType is set to "AGENT".

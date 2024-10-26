@@ -257,3 +257,7 @@ Show WSDL type definition
 
 
  
+
+
+[^309]: For those pods running on older version(before 7.12.0), the values for [numHostedSessions](vdi.health.Monitoring.PodSessionCounter.md#numHostedSessions) and [numBrokeredSessions](vdi.health.Monitoring.PodSessionCounter.md#numBrokeredSessions) will not be set.
+[^310]: When there is at least one Pod running on older version(before 7.12.0), numBrokeredSessions for all the pods will not be set.

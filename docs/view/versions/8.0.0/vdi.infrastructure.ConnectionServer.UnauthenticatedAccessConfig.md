@@ -37,3 +37,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^45]: This property has a default value of 10.
+[^119]: This property has a maximum value of 31.
+[^254]: This property has a default value of 21.
+[^255]: This property has a minimum value of 14.

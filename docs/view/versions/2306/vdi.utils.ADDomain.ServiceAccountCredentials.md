@@ -35,3 +35,6 @@ Name |  Type |  Description
 
 
  
+
+
+[^152]: This property must not be empty and has a maximum length of 256 characters.

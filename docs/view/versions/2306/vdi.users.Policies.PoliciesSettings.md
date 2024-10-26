@@ -40,3 +40,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^201]: This property is required if allowPCoIPHardwareAcceleration is set to "Allow".

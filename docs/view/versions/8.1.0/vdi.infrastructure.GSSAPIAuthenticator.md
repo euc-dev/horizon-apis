@@ -299,3 +299,6 @@ Show WSDL type definition
 
 
  
+
+
+[^291]: This parameter is an update map based on [GSSAPIAuthenticatorInfo](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md "GSSAPIAuthenticatorInfo").

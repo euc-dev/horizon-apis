@@ -411,3 +411,6 @@ Show WSDL type definition
 
 
  
+
+
+[^190]: This parameter is an update map based on [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md "ADDomainInfo").

@@ -302,3 +302,6 @@ Show WSDL type definition
 
 
  
+
+
+[^296]: This parameter is an update map based on [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md "RADIUSAuthenticatorInfo").

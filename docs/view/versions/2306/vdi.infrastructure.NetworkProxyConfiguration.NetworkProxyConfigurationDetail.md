@@ -40,3 +40,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^8]: This property has a minimum value of 1.
+[^189]: This property has a maximum value of 65535.
+[^293]: This property is required if networkAutoProxy is set to false.

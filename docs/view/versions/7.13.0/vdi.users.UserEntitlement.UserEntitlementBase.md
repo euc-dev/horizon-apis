@@ -42,3 +42,12 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^167]: This data object must be updated as a whole.
+[^221]: [DesktopId](vdi.entity.DesktopId.md).
+[^222]: [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md).
+[^223]: [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md).
+[^224]: [URLRedirectionId](vdi.entity.URLRedirectionId.md).
+[^311]: [ApplicationId](vdi.entity.ApplicationId.md).

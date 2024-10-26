@@ -33,3 +33,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^8]: This property has a minimum value of 1.
+[^9]: This property is required if maxSessionsType is set to 'LIMITED'.
+[^113]: This property has a default value of 'LIMITED'.

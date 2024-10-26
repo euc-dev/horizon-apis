@@ -37,3 +37,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^6]: This property has a default value of true.

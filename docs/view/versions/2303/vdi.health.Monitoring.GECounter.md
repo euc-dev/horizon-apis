@@ -32,3 +32,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^241]: For dedicated assignments, it is the total number of assigned machine count.
+[^242]: For floating assignments, it will be sum of all the connected and disconnected sessions.

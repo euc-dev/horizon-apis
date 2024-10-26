@@ -39,3 +39,18 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^8]: This property has a minimum value of 1.
+[^17]: This property has a default value of 'DISABLED'.
+[^61]: This property has a default value of 96.
+[^62]: This property has a minimum value of 64.
+[^63]: This property has a maximum value of 512.
+[^64]: This property is required if renderer3D is set to 'AUTOMATIC', 'SOFTWARE', or 'HARDWARE'.
+[^65]: This property has a default value of 2.
+[^66]: This property has a maximum value of 4.
+[^68]: This property has a default value of 'WUXGA'.
+[^69]: This property is required if renderer3D is set to 'AUTOMATIC', 'SOFTWARE', 'HARDWARE', or 'DISABLED'.

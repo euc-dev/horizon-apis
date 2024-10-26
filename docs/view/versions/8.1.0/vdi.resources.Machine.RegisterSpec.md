@@ -42,3 +42,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^7]: If specified, this property is limited to letters, numbers, punctuation, spaces, and tabs.
+[^126]: For Instant clone farms, this can be modified only if there are no current operations ( [operation](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#operation) is NONE).

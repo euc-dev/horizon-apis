@@ -57,3 +57,10 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^17]: This property has a default value of 'DISABLED'.
+[^72]: This property has a minimum value of 0.
+[^115]: This property has a maximum value of 100.

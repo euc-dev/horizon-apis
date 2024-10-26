@@ -39,3 +39,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^233]: This property has a default value of "CONNECTION_SERVER_DOMAIN".

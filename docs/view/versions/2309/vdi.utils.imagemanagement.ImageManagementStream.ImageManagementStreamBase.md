@@ -46,3 +46,12 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^13]: This property has a maximum length of 1024 characters.
+[^144]: Image management stream is in AVAILABLE or PARTIALLY_AVAILABLE state.
+[^145]: There is at least one image management version in AVAILABLE or PARTIALLY_AVAILABLE state for this stream.
+[^146]: There is at least one image management tag associated with the image management version.
+[^148]: This property must contain only alphanumerics, underscores and dashes. The maximum length is 64 characters.

@@ -304,3 +304,6 @@ Show WSDL type definition
 
 
  
+
+
+[^151]: This parameter is an update map based on [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md "ImageManagementVersionInfo").

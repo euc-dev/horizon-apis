@@ -35,3 +35,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^52]: This property is required if overrideGlobalSetting is set to true.
+[^53]: This property is required if enabled is set to true.

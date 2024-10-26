@@ -42,3 +42,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^26]: This property is required if type is set to 'MANUAL'.
+[^27]: This property is required if type is set to 'RDS'.
+[^29]: This property is required if type is set to 'AUTOMATED'.

@@ -35,3 +35,12 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.
+[^22]: This property must be in the form hh:mm in 24 hours format.
+[^115]: This property has a maximum value of 100.
+[^119]: This property has a maximum value of 31.
+[^120]: This property is required if maintenancePeriod is set to 'WEEKLY' or 'MONTHLY'.

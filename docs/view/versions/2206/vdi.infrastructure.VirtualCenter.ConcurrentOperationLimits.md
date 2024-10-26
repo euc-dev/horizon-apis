@@ -36,3 +36,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^8]: This property has a minimum value of 1.
+[^206]: This property has a default value of 20.
+[^207]: This property has a default value of 50.
+[^208]: This property has a default value of 12.

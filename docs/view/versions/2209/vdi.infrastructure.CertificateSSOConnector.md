@@ -301,3 +301,6 @@ Show WSDL type definition
 
 
  
+
+
+[^246]: This parameter is an update map based on [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md "CertificateSSOConnectorInfo").

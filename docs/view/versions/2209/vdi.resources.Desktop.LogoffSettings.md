@@ -46,3 +46,25 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^5]: This property has a default value of false.
+[^8]: This property has a minimum value of 1.
+[^10]: This property has a default value of 1.
+[^33]: For Instant clone desktops this setting can only be set to ALWAYS_POWERED_ON.
+[^34]: This property has a default value of 'TAKE_NO_POWER_ACTION'.
+[^36]: This property has a default value of 120.
+[^37]: This property is required if automaticLogoffPolicy is set to 'AFTER'.
+[^38]: This is applicable for automated desktops with virtual machines names based on pattern naming. This is not applicable for desktops that are using specified naming since dynamic creation and deletion of VMs is not supported.
+[^39]: For Instant clone desktops this setting can only be set to DELETE.
+[^40]: This property is required if refreshOsDiskAfterLogoff is set to 'EVERY'.
+[^42]: This property is required if refreshOsDiskAfterLogoff is set to 'AT_SIZE'.
+[^44]: This property is required if emptySessionTimeoutPolicy is set to 'AFTER'.
+[^45]: This property has a default value of 10.
+[^47]: This property is required if preLaunchSessionTimeoutPolicy is set to 'AFTER'.
+[^48]: This property has a default value of 'DEFAULT'.
+[^115]: This property has a maximum value of 100.
+[^121]: This property has a default value of 'NEVER'.
+[^123]: This property has a minimum value of 10.
+[^184]: This property has a default value of "AFTER".

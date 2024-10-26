@@ -38,3 +38,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^250]: This property is required if radiusEnabled is set to true.

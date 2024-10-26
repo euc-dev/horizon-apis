@@ -48,3 +48,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^259]: This property must start with a letter, may only contain letters, numbers, and the characters @, $, #, and _, and may not be longer than 6 characters.

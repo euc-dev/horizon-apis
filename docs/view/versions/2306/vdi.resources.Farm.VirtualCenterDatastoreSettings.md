@@ -37,3 +37,6 @@ Name |  Type |  Description
 
 
  
+
+
+[^96]: This property has a default value of 'CONSERVATIVE'.

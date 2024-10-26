@@ -41,3 +41,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^6]: This property has a default value of true.
+[^19]: This property has a default value of 0.
+[^72]: This property has a minimum value of 0.

@@ -45,3 +45,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^5]: This property has a default value of false.
+[^6]: This property has a default value of true.
+[^12]: This property has a maximum length of 256 characters.
+[^13]: This property has a maximum length of 1024 characters.

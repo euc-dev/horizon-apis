@@ -304,3 +304,6 @@ Show WSDL type definition
 
 
  
+
+
+[^188]: This parameter is an update map based on [RoleInfo](vdi.users.Role.RoleInfo.md "RoleInfo").

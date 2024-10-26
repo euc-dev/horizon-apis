@@ -353,3 +353,6 @@ Show WSDL type definition
 
 
  
+
+
+[^191]: This parameter is an update map based on [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md "ImageManagementAssetInfo").

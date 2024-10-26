@@ -42,3 +42,11 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^6]: This property has a default value of true.
+[^13]: This property has a maximum length of 1024 characters.
+[^14]: This property is an unordered array of unique values.
+[^128]: This property has a maximum length of 64 characters.

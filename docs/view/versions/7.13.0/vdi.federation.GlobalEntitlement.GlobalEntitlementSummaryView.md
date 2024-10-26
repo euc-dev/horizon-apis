@@ -48,3 +48,6 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.

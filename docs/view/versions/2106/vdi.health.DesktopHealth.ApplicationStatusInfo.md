@@ -33,3 +33,8 @@ Name |  Type |  Description
 
 
  
+
+
+[^2]: This property cannot be updated.
+[^235]: The application is missing in all the machines of the desktop.
+[^236]: Desktop do not have any provisioned machines.

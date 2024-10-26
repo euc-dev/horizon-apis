@@ -466,3 +466,6 @@ Show WSDL type definition
 
 
  
+
+
+[^198]: This parameter is an update map based on [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md "RDSServerInfo").

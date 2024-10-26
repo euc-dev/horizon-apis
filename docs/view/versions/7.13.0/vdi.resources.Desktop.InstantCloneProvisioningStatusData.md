@@ -49,3 +49,9 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^2]: This property cannot be updated.
+[^31]: This property is required if operation is set to 'INITIAL_PUBLISH', 'SCHEDULE_PUSH_IMAGE', 'CANCEL_SCHEDULED_PUSH_IMAGE', or 'INFRASTRUCTURE_CHANGE'.
+[^32]: This property is required if operation is set to 'SCHEDULE_PUSH_IMAGE'.

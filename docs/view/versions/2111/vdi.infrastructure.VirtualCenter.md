@@ -396,3 +396,6 @@ Show WSDL type definition
 
 
  
+
+
+[^209]: This parameter is an update map based on [VirtualCenterInfo](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md "VirtualCenterInfo").

@@ -33,3 +33,6 @@ Name |  Type |  Description
 
 
  
+
+
+[^165]: If the [type](vdi.utils.Validator.ValidationSpec.md#type) is "MACHINE", then the naming pattern for the machines will be validated.

@@ -33,3 +33,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^177]: This property has a minimum value of 100.
+[^178]: This property has a maximum value of 32768.

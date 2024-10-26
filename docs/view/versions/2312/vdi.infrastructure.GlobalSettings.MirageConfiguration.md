@@ -33,3 +33,7 @@ Name |  Type |  Description
 
 
  
+
+
+[^1]: This property need not be set.
+[^53]: This property is required if enabled is set to true.
