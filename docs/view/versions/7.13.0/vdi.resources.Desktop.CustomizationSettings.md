@@ -38,8 +38,7 @@ Name |  Type |  Description
 **noCustomizationSettings**| [DesktopNoCustomizationSettings](vdi.resources.Desktop.NoCustomizationSettings.md)|  Settings when customization will be done manually. [^1] [^23]
 **sysprepCustomizationSettings**| [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md)|  Settings when Sysprep customization is requested. [^1] [^24]
 **quickprepCustomizationSettings**| [DesktopQuickprepCustomizationSettings](vdi.resources.Desktop.QuickprepCustomizationSettings.md)|  Settings when QuickPrep customization is requested. [^1] [^25]
-**cloneprepCustomizationSettings**| [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md)|  Settings when ClonePrep customization is requested.  **_Since_** Horizon 7.0 [^1]
-* This property is required if customizationType is set to "CLONE_PREP".
+**cloneprepCustomizationSettings**| [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md)|  Settings when ClonePrep customization is requested.  **_Since_** Horizon 7.0 [^1] <br>* This property is required if customizationType is set to "CLONE_PREP".
 
 
  

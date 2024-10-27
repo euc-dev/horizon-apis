@@ -43,9 +43,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 **username**|  xsd:string|  The username
-
 **password**| [SecureString](vdi.util.SecureString.md)|  The password
-
 **domain**|  xsd:string|  The domain
 
 

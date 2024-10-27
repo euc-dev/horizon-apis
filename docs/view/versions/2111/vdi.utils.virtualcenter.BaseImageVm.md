@@ -101,10 +101,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [BaseImageVm](vdi.utils.virtualcenter.BaseImageVm.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
-
-**filterIncompatibleVms**|  xsd:boolean|  do not return incompatible VMs which cannot be used for pool or farm creations. Default is false.  **_Since_** Horizon 7.13
-
- [^135]
+**filterIncompatibleVms**|  xsd:boolean|  do not return incompatible VMs which cannot be used for pool or farm creations. Default is false.  **_Since_** Horizon 7.13 <br>[^135]
 
 
 

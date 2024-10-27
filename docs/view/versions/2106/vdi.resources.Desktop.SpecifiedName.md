@@ -34,8 +34,7 @@ Fields for specifying a VM name and optional user id to entitle the user to the 
 Properties
 Name |  Type |  Description
 ---|---|---
-**vmName**|  xsd:string|  The name of the machine.
-* This property must contain only unicode characters, numbers, and dashes. It must contain at least one unicode character. The maximum length is 15 characters.
+**vmName**|  xsd:string|  The name of the machine. <br>* This property must contain only unicode characters, numbers, and dashes. It must contain at least one unicode character. The maximum length is 15 characters.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User to assign to the machine in case of dedicated desktops. [^1]
 
 

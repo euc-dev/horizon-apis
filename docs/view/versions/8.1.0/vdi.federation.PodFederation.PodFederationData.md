@@ -31,8 +31,7 @@ Data relevant to this Pod Federation.
 Properties
 Name |  Type |  Description
 ---|---|---
-**displayName**|  xsd:string|  Description of the Pod Federation. [^1]
-* This property has a maximum length of 64 characters.
+**displayName**|  xsd:string|  Description of the Pod Federation. [^1] <br>* This property has a maximum length of 64 characters.
 **sites**| [SiteId[]](vdi.entity.SiteId.md)|  Member sites in the Pod Federation. Pods are member of sites. [^1] [^2]
 **guid**|  xsd:string|  GUID of the pod federation.  **_Since_** Horizon 7.9 [^1] [^2]
 

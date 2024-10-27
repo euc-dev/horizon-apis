@@ -28,8 +28,7 @@ The Configuration which can be accessed without any user authentication on the l
 Properties
 Name |  Type |  Description
 ---|---|---
-**enableUIUsernameCaching**|  xsd:boolean|  For UI based clients: [^282] [^283]
-Non UI based clients should ignore this property. [^6] [^1]
+**enableUIUsernameCaching**|  xsd:boolean|  For UI based clients: [^282] [^283] <br>Non UI based clients should ignore this property. [^6] [^1]
  
 
 

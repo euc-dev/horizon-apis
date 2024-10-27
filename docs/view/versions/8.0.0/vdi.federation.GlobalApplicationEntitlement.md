@@ -54,7 +54,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalApplicationEntitlement](vdi.federation.GlobalApplicationEntitlement.md) used to make the method call.
 **id**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  unique identifier for Global Application Entitlement
-
 **applications**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Applications to be added to the Global Application Entitlement
 
 

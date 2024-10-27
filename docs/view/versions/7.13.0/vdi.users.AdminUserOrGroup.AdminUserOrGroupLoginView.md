@@ -33,8 +33,7 @@ Name |  Type |  Description
 ---|---|---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **privilegesInfo**| [AdminUserOrGroupPrivilegesInfo[]](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md)|  Set of privileges information for this user or group.
-**helpdeskAdmin**|  xsd:boolean|  Indicates if the administrator is a Helpdesk administrator. This will be set to true if: [^220]
-**_Since_** Horizon 7.11 [^5]
+**helpdeskAdmin**|  xsd:boolean|  Indicates if the administrator is a Helpdesk administrator. This will be set to true if: [^220] <br>**_Since_** Horizon 7.11 [^5]
 
 
  

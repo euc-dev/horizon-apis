@@ -36,8 +36,7 @@ Name |  Type |  Description
 **numPSGSessions**|  xsd:int|  The number of PCoIP Secure Gateway sessions. [^1]
 **numBSGSessions**|  xsd:int|  The number of Blast Secure Gateway sessions.  **_Since_** Horizon 7.12 [^1]
 **numRDPGatewayedSessions**|  xsd:int|  The number of Secure Gateway sessions with the RDP.  **_Since_** Horizon 7.12 [^1]
-**sessionThreshold**|  xsd:int|  The maximum load of connections allowed for the connection server through the horizon client. This value represents one of the following. [^304] [^305]
-**_Since_** Horizon 7.10 [^1]
+**sessionThreshold**|  xsd:int|  The maximum load of connections allowed for the connection server through the horizon client. This value represents one of the following. [^304] [^305] <br>**_Since_** Horizon 7.10 [^1]
 
 
  

@@ -58,10 +58,7 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Performance](vdi.helpdesk.Performance.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionID to get the performance data for.
-
-**timestamp**|  xsd:long|  The time point after which performance data should be obtained.
-
- [^135]
+**timestamp**|  xsd:long|  The time point after which performance data should be obtained. [^135]
 
 
 

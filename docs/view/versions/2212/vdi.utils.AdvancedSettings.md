@@ -149,11 +149,7 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdvancedSettings](vdi.utils.AdvancedSettings.md) used to make the method call.
-**id**| [EntityId](vdi.EntityId.md)|  The entity to set advanced settings on.
-
- [^135]
-
-
+**id**| [EntityId](vdi.EntityId.md)|  The entity to set advanced settings on. [^135]
 **values**| [MapEntry[]](vdi.util.MapEntry.md)|  The settings to set.
 
 

@@ -224,7 +224,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **specifiedName**| [DesktopSpecifiedName](vdi.resources.Desktop.SpecifiedName.md)|  SpecifiedName to add
 
 
@@ -451,7 +450,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **spec**| [DesktopDeleteSpec](vdi.resources.Desktop.DesktopDeleteSpec.md)|  attributes needed to delete a desktop. If unset, default values will be used. [^135]
 
 
@@ -790,7 +788,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
-
 **spec**| [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md)|  The specification for the pushImage operation if desktop is created using image catalog.
 
 
@@ -953,7 +950,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
-
 **spec**| [DesktopRebalanceSpec](vdi.resources.Desktop.RebalanceSpec.md)|  The specification for the rebalance operation.
 
 
@@ -1016,7 +1012,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
-
 **spec**| [DesktopRecomposeSpec](vdi.resources.Desktop.RecomposeSpec.md)|  The specification for the recompose operation.
 
 
@@ -1079,7 +1074,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
-
 **spec**| [DesktopRefreshSpec](vdi.resources.Desktop.RefreshSpec.md)|  The specification for the refresh operation.
 
 
@@ -1140,7 +1134,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **machine**| [MachineId](vdi.entity.MachineId.md)|  machineId to remove. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service, but not the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services.
 
 
@@ -1198,7 +1191,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  array of machineIds to remove. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service, but not the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) or [RegisteredPhysicalMachine](vdi.resources.RegisteredPhysicalMachine.md) services.
 
 
@@ -1258,7 +1250,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
-
 **spec**| [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md)|  The specification for the pushImage operation.
 
 
@@ -1317,7 +1308,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry
-
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^108]
 
 

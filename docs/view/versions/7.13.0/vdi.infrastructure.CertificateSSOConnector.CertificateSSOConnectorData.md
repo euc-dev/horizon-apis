@@ -31,8 +31,7 @@ Configuration data for a Certificate SSO Connector.
 Properties
 Name |  Type |  Description
 ---|---|---
-**displayName**|  xsd:string|  Human readable display name for this connector. It must be unique among all other connectors.
-* This property has a maximum length of 64 characters.
+**displayName**|  xsd:string|  Human readable display name for this connector. It must be unique among all other connectors. <br>* This property has a maximum length of 64 characters.
 **description**|  xsd:string|  Description of this connector. [^1] [^13]
 **enabled**|  xsd:boolean|  Whether or not the connector is enabled. [^6]
 **primaryEnrollmentServer**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  The primary enrollment server.

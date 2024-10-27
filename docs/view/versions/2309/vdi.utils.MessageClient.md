@@ -213,7 +213,6 @@ Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [MessageClient](vdi.utils.MessageClient.md) used to make the method call.
 **id**| [MessageClientId](vdi.entity.MessageClientId.md)|
-
 **pemCertificates**|  xsd:string[]|  The message client certificates in PEM format. PemCertificate should be valid now, expired after 7 days, and its subject should be CN=clientType/clientUuid, otherwise InvalidArgumentFault will be thrown.
 
 
