@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.GlobalApplicationEntitlement`
 
 See also
 > [ApplicationId](vdi.entity.ApplicationId.md), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md), [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md), [MapEntry](vdi.util.MapEntry.md)

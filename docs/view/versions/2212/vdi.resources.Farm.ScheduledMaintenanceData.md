@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.ScheduledMaintenanceData`
 
 Property of
 > [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail)

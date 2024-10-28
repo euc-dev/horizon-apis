@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterSpec`
 
 Parameter to
 > [RDSServer_Register](vdi.resources.RDSServer.md#register)

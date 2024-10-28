@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Gateway`
 
 See also
 > [GatewayId](vdi.entity.GatewayId.md), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md), [GatewaySpec](vdi.infrastructure.Gateway.GatewaySpec.md)

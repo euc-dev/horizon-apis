@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.GSSAPIAuthenticatorId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.GSSAPIAuthenticatorId`
 
 Property of
 > [ConnectionServerGSSAPIData](vdi.infrastructure.ConnectionServer.GSSAPIData.md#field_detail), [GSSAPIAuthenticatorInfo](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.SummaryData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.SummaryData`
 
 Property of
 > [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md#field_detail)

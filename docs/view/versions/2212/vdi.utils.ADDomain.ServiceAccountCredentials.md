@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentials`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain.ServiceAccountCredentials`
 
 Property of
 > [ADDomainAuxiliaryAccountSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountSpec.md#field_detail), [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail), [ServiceAccountCredentialsInfo](vdi.utils.ADDomain.ServiceAccountCredentialsInfo.md#field_detail)

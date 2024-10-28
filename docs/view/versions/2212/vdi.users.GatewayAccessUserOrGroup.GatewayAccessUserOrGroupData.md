@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData`
 
 Property of
 > [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md#field_detail)

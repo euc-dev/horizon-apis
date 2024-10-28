@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Privilege.PrivilegeInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Privilege.PrivilegeInfo`
 
 Returned by
 > [Privilege_ListSelectablePrivileges](vdi.users.Privilege.md#listSelectablePrivileges)

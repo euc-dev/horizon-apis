@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot`
 
 See also
 > [BaseImageSnapshotInfo](vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo.md), [BaseImageVmId](vdi.entity.BaseImageVmId.md)
