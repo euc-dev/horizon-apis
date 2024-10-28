@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ApplicationIconId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.ApplicationIconId`
 
 Property of
 > [ApplicationIconInfo](vdi.resources.ApplicationIcon.ApplicationIconInfo.md#field_detail), [ApplicationIconSummaryView](vdi.resources.ApplicationIcon.ApplicationIconSummaryView.md#field_detail), [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md#field_detail), [GlobalApplicationEntitlementInfo](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementInfo.md#field_detail)

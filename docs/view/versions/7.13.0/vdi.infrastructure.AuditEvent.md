@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.AuditEvent`
 
 See also
 > [AuditEventDetailsRecord](vdi.infrastructure.AuditEvent.AuditEventDetailsRecord.md)

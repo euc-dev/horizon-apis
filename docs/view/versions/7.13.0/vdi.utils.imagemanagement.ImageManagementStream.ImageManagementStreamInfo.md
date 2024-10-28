@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo`
 
 Returned by
 > [ImageManagementStream_Get](vdi.utils.imagemanagement.ImageManagementStream.md#get), [ImageManagementStream_ListBySpec](vdi.utils.imagemanagement.ImageManagementStream.md#listBySpec)

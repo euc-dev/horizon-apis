@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.DeleteSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.DeleteSpec`
 
 Parameter to
 > [PersistentDisk_Delete](vdi.resources.PersistentDisk.md#delete)

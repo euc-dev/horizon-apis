@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateServerData`
 
 Property of
 > [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail)

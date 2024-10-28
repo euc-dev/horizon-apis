@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm`
 
 See also
 > [ApplicationDiscoveryData](vdi.resources.Application.ApplicationDiscoveryData.md), [FarmId](vdi.entity.FarmId.md), [FarmInfo](vdi.resources.Farm.FarmInfo.md), [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md), [FarmMissingApplicationInstallationData](vdi.resources.Farm.MissingApplicationInstallationData.md), [FarmRecomposeSpec](vdi.resources.Farm.RecomposeSpec.md), [FarmSpec](vdi.resources.Farm.FarmSpec.md), [FarmSummaryView](vdi.resources.Farm.FarmSummaryView.md), [MapEntry](vdi.util.MapEntry.md), [RDSServerId](vdi.entity.RDSServerId.md)

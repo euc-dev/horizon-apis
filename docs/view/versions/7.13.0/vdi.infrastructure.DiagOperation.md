@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.DiagOperation`
 
 See also
 > [DiagOperationRequest](vdi.infrastructure.DiagOperation.DiagOpRequest.md), [DiagOperationResponse](vdi.infrastructure.DiagOperation.DiagOpResponse.md)
@@ -27,7 +27,7 @@ Since
 
 ## Service Description
 
-The Diagnostic operation service interface used for interacting with VMware Horizon Diagnostic Agent.
+The Diagnostic operation service interface used for interacting with OmnissaHorizon Diagnostic Agent.
 
 Methods
 
@@ -38,7 +38,7 @@ DiagOperation_Send
 
 
 
-Sends the diagnostic request to VMware Horizon Diagnostic Agent.
+Sends the diagnostic request to OmnissaHorizon Diagnostic Agent.
 
 Privileges
 

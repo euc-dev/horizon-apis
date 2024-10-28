@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.PermissionId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.PermissionId`
 
 Property of
 > [AccessGroupData](vdi.users.AccessGroup.AccessGroupData.md#field_detail), [AdminUserOrGroupPermissionData](vdi.users.AdminUserOrGroup.AdminUserOrGroupPermissionData.md#field_detail), [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail), [RoleData](vdi.users.Role.RoleData.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementBase`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementBase`
 
 Property of
 > [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail), [GlobalEntitlementSummaryView](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md#field_detail)

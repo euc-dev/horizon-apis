@@ -1,13 +1,13 @@
 ---
 layout: page
-title: VMware View API Reference Documentation - 7.13.0
+title: Omnissa View API Reference Documentation - 7.13.0
 hide:
 #- navigation
 - toc
 ---
 
 
-Welcome to the VMware View API Reference documentation v7.13.0. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the Omnissa View API Reference documentation v7.13.0. This API reference provides comprehensive information about all data structures available through the View API:
 
 * [Service Types](mo-types-landing.md)
 * [Data Object Types](do-types-landing.md)

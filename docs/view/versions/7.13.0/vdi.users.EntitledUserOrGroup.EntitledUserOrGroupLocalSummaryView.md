@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView`
 
 Returned by
 > [EntitledUserOrGroup_GetLocalSummaryView](vdi.users.EntitledUserOrGroup.md#getLocalSummaryView), [EntitledUserOrGroup_GetLocalSummaryViews](vdi.users.EntitledUserOrGroup.md#getLocalSummaryViews)

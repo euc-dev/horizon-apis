@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec`
 
 Parameter to
 > [ImageManagementAsset_CreateAssets](vdi.utils.imagemanagement.ImageManagementAsset.md#createAssets)

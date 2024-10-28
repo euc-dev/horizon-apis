@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterSpec`
 
 Parameter to
 > [VirtualCenter_Create](vdi.infrastructure.VirtualCenter.md#create)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.FarmInfo`
 
 Returned by
 > [Farm_Get](vdi.resources.Farm.md#get), [Farm_GetByNamingPattern](vdi.resources.Farm.md#getByNamingPattern)

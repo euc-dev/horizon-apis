@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Permission.PermissionNamesData`
 
 Property of
 > [PermissionInfo](vdi.users.Permission.PermissionInfo.md#field_detail)

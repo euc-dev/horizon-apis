@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.ConnectionServerInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.ConnectionServerInfo`
 
 Returned by
 > [ConnectionServer_Get](vdi.infrastructure.ConnectionServer.md#get), [ConnectionServer_List](vdi.infrastructure.ConnectionServer.md#list)

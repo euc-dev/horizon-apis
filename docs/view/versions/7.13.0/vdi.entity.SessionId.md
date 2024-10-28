@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.SessionId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.SessionId`
 
 Property of
 > [AuditEventSummaryView](vdi.infrastructure.AuditEvent.AuditEventSummaryView.md#field_detail), [EntitledUserOrGroupUserSessionData](vdi.users.EntitledUserOrGroup.UserSessionData.md#field_detail), [EventData](vdi.infrastructure.EventDatabase.EventData.md#field_detail), [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineSessionData](vdi.resources.Machine.MachineSessionData.md#field_detail), [SessionGlobalSummaryView](vdi.users.Session.SessionGlobalSummaryView.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)
