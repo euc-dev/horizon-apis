@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.GlobalAccessGroup`
 
 See also
 > [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md), [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md), [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md)

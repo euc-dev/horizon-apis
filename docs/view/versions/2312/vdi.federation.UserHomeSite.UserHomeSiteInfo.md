@@ -13,7 +13,7 @@ hide:
 Java Class
 > ``
 
-com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo
+com.omnissa.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo
 
 Returned by
 >

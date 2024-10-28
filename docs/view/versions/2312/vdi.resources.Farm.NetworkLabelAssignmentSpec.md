@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkLabelAssignmentSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.NetworkLabelAssignmentSpec`
 
 Property of
 > [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.UnderConstructionMachineCount`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.UnderConstructionMachineCount`
 
 Property of
 > [StateCount](vdi.resources.Machine.StateCount.md#field_detail)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService`
 
 See also
 > [PersistentDiskQueryServiceQuerySpec](vdi.resources.PersistentDiskQueryService.QuerySpec.md), [QueryResults](vdi.query.QueryResults.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.FarmHealthInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.FarmHealth.FarmHealthInfo`
 
 Returned by
 > [FarmHealth_Get](vdi.health.FarmHealth.md#get)

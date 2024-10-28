@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.EventDatabaseHealth`
 
 See also
 > [EventDatabaseHealthInfo](vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo.md)

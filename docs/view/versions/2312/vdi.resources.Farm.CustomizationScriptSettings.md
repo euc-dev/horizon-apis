@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.CustomizationScriptSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.CustomizationScriptSettings`
 
 Property of
 > [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md#field_detail)

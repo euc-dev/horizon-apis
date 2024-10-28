@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.LocalizedMethodFault`
+> `com.omnissa.vim.binding.vmodl.LocalizedMethodFault`
 
 See also
 > [MethodFault](vmodl.MethodFault.md)

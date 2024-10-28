@@ -15,7 +15,7 @@ hide:
 Java Class
 > ``
 
-com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOConnectorId
+com.omnissa.vdi.vlsi.binding.vdi.entity.CertificateSSOConnectorId
 
 Property of
 >

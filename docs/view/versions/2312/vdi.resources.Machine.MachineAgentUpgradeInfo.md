@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentUpgradeInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineAgentUpgradeInfo`
 
 Property of
 > [MachineBase](vdi.resources.Machine.MachineBase.md#field_detail), [MachineData](vdi.resources.Machine.MachineData.md#field_detail)

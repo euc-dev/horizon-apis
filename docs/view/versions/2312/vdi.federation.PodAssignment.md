@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.PodAssignment`
 
 See also
 > [PodAssignmentId](vdi.entity.PodAssignmentId.md), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md)

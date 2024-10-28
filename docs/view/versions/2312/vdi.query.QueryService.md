@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.query.QueryService`
+> `com.omnissa.vdi.vlsi.binding.vdi.query.QueryService`
 
 See also
 > [QueryDefinition](vdi.query.QueryDefinition.md), [QueryId](vdi.entity.QueryId.md), [QueryResults](vdi.query.QueryResults.md)

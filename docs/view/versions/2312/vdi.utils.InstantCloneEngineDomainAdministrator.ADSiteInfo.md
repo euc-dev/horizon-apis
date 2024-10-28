@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.ADSiteInfo`
 
 Returned by
 > [InstantCloneEngineDomainAdministrator_GetADSitesInfo](vdi.utils.InstantCloneEngineDomainAdministrator.md#getADSitesInfo)

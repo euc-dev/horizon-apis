@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.RegisterSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.RegisterSpec`
 
 Parameter to
 > [Machine_Register](vdi.resources.Machine.md#register)

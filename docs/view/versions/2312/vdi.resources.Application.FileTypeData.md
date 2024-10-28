@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.FileTypeData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Application.FileTypeData`
 
 Property of
 > [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail)

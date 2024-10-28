@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec`
 
 Parameter to
 > [VirtualDisk_ListAllDisks](vdi.utils.virtualcenter.VirtualDisk.md#listAllDisks)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsSpec`
 
 Parameter to
 > [SecondaryCredentials_Create](vdi.users.SecondaryCredentials.md#create)
