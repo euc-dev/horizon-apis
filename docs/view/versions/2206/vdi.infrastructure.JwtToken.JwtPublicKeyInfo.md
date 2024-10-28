@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtPublicKeyInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtPublicKeyInfo`
 
 Returned by
 > [JwtToken_GetPublicKeys](vdi.infrastructure.JwtToken.md#getPublicKeys)

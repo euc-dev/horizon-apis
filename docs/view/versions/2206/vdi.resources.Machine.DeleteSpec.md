@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.DeleteSpec`
 
 Parameter to
 > [Machine_Delete](vdi.resources.Machine.md#delete), [Machine_DeleteMachines](vdi.resources.Machine.md#deleteMachines)

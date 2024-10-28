@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.PodId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.PodId`
 
 Property of
 > [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md#field_detail), [GlobalEntitlementData](vdi.federation.GlobalEntitlement.GlobalEntitlementData.md#field_detail), [GlobalSessionPodSessionCounter](vdi.users.GlobalSessionQueryService.PodSessionCounter.md#field_detail), [GlobalSessionQueryServiceCountSpec](vdi.users.GlobalSessionQueryService.CountSpec.md#field_detail), [GlobalSessionQueryServiceQuerySpec](vdi.users.GlobalSessionQueryService.QuerySpec.md#field_detail), [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md#field_detail), [PodHealthInfo](vdi.health.PodHealth.PodHealthInfo.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail), [PodSessionCounter](vdi.health.Monitoring.PodSessionCounter.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail), [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md#field_detail)

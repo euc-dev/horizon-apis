@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.ADDomainHealth`
 
 See also
 > [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec`
 
 Parameter to
 > [ViewComposerDomainAdministrator_Create](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#create)
