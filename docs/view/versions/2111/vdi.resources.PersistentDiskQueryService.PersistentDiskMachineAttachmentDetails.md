@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.PersistentDiskMachineAttachmentDetails`
 
 See also
 > [MachineId](vdi.entity.MachineId.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement`
 
 Returned by
 > [Datastore_GetDatastoreRequirements](vdi.utils.virtualcenter.Datastore.md#getDatastoreRequirements)

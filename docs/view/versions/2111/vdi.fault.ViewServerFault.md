@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.ViewServerFault`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.ViewServerFault`
 
 Extended by
 > [LogCollectorFault](vdi.fault.LogCollectorFault.md), [PartialFailureFault](vdi.fault.PartialFailureFault.md)

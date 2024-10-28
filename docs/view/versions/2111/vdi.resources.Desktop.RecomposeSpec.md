@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.RecomposeSpec`
 
 Parameter to
 > [Desktop_Recompose](vdi.resources.Desktop.md#recompose)

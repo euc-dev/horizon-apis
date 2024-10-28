@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelSpec`
 
 Parameter to
 > [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)

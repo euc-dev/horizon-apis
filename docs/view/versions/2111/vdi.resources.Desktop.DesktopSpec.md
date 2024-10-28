@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSpec`
 
 Parameter to
 > [Desktop_Create](vdi.resources.Desktop.md#create)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.UnexpectedFault`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.UnexpectedFault`
 
 Extends
 > [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

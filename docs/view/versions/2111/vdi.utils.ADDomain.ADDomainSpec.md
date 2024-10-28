@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainSpec`
 
 Parameter to
 > [ADDomain_Bind](vdi.utils.ADDomain.md#bind)

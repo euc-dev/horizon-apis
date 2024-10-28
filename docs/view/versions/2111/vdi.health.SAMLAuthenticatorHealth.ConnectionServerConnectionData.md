@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData`
 
 Property of
 > [SAMLAuthenticatorHealthInfo](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo.md#field_detail)

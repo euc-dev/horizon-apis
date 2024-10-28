@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AdobeFlashSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.AdobeFlashSettings`
 
 Property of
 > [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RefreshSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.RefreshSpec`
 
 Parameter to
 > [Desktop_Refresh](vdi.resources.Desktop.md#refresh)

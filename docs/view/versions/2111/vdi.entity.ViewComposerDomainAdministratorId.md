@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ViewComposerDomainAdministratorId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.ViewComposerDomainAdministratorId`
 
 Property of
 > [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md#field_detail), [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md#field_detail), [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md#field_detail)

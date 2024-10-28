@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.URLRedirection.URLRedirectionData`
 
 Property of
 > [URLRedirectionInfo](vdi.infrastructure.URLRedirection.URLRedirectionInfo.md#field_detail), [URLRedirectionSpec](vdi.infrastructure.URLRedirection.URLRedirectionSpec.md#field_detail)

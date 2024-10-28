@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.AttachSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.AttachSpec`
 
 Parameter to
 > [PersistentDisk_Attach](vdi.resources.PersistentDisk.md#attach)

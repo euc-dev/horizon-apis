@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterIncompatibleReasons`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterIncompatibleReasons`
 
 Property of
 > [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md#field_detail)

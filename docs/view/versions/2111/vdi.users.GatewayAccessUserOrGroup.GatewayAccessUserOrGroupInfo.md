@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo`
 
 Returned by
 > [GatewayAccessUserOrGroup_Get](vdi.users.GatewayAccessUserOrGroup.md#get), [GatewayAccessUserOrGroup_List](vdi.users.GatewayAccessUserOrGroup.md#list)

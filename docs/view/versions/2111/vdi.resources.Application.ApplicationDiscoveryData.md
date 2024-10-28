@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationDiscoveryData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Application.ApplicationDiscoveryData`
 
 Returned by
 > [Desktop_DiscoverInstalledApplications](vdi.resources.Desktop.md#discoverInstalledApplications), [Farm_DiscoverInstalledApplications](vdi.resources.Farm.md#discoverInstalledApplications)

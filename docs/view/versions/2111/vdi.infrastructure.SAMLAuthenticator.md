@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md), [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md)

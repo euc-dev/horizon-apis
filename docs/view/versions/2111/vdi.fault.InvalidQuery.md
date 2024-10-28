@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidQuery`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.InvalidQuery`
 
 Extends
 > [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

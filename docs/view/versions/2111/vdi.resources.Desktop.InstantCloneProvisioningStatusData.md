@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.InstantCloneProvisioningStatusData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.InstantCloneProvisioningStatusData`
 
 Property of
 > [DesktopProvisioningStatusData](vdi.resources.Desktop.ProvisioningStatusData.md#field_detail)

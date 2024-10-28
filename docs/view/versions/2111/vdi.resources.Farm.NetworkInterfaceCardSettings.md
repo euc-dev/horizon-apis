@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.NetworkInterfaceCardSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.NetworkInterfaceCardSettings`
 
 Property of
 > [FarmVirtualCenterNetworkingSettings](vdi.resources.Farm.VirtualCenterNetworkingSettings.md#field_detail)

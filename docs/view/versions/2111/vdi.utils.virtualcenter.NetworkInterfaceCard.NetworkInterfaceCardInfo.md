@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo`
 
 Returned by
 > [NetworkInterfaceCard_ListBySnapshot](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listBySnapshot), [NetworkInterfaceCard_ListByTemplate](vdi.utils.virtualcenter.NetworkInterfaceCard.md#listByTemplate)

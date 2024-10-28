@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.Policies.PoliciesSettings`
 
 Property of
 > [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail)

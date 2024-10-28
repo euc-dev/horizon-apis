@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo`
 
 Returned by
 > [CertificateSSOConnectorHealth_Get](vdi.health.CertificateSSOConnectorHealth.md#get), [CertificateSSOConnectorHealth_List](vdi.health.CertificateSSOConnectorHealth.md#list)

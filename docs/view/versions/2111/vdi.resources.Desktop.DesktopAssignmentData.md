@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopAssignmentData`
 
 Property of
 > [DesktopAssignmentView](vdi.resources.Desktop.DesktopAssignmentView.md#field_detail)

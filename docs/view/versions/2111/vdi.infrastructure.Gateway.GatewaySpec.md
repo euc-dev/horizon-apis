@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewaySpec`
 
 Parameter to
 > [Gateway_Register](vdi.infrastructure.Gateway.md#register)

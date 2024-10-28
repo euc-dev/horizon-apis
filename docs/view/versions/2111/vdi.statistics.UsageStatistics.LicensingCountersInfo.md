@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCountersInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.statistics.UsageStatistics.LicensingCountersInfo`
 
 Returned by
 > [UsageStatistics_GetLicensingCounters](vdi.statistics.UsageStatistics.md#getLicensingCounters)

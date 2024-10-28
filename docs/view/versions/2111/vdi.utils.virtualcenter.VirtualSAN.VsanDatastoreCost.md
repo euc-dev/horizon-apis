@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualSAN.VsanDatastoreCost`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualSAN.VsanDatastoreCost`
 
 Returned by
 > [VirtualSAN_GetVsanDatastoreCostForFullClone](vdi.utils.virtualcenter.VirtualSAN.md#getVsanDatastoreCostForFullClone), [VirtualSAN_GetVsanDatastoreCostForInstantClone](vdi.utils.virtualcenter.VirtualSAN.md#getVsanDatastoreCostForInstantClone), [VirtualSAN_GetVsanDatastoreCostForLinkedClone](vdi.utils.virtualcenter.VirtualSAN.md#getVsanDatastoreCostForLinkedClone)

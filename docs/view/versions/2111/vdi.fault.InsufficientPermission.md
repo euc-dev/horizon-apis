@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.InsufficientPermission`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.InsufficientPermission`
 
 Extends
 > [SecurityError](vmodl.fault.SecurityError.md)

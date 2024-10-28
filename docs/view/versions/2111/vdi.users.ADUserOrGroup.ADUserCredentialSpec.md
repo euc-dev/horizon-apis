@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserCredentialSpec`
 
 Parameter to
 > [ADUserOrGroup_ValidateCredentials](vdi.users.ADUserOrGroup.md#validateCredentials)

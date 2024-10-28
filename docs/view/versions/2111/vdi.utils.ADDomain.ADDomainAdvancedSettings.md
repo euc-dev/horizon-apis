@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainAdvancedSettings`
 
 Property of
 > [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md#field_detail)

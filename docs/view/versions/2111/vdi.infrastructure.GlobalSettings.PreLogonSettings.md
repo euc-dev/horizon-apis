@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.PreLogonSettings`
 
 Returned by
 > [GlobalSettings_GetPreLogonSettings](vdi.infrastructure.GlobalSettings.md#getPreLogonSettings)

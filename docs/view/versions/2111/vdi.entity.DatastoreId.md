@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.DatastoreId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.DatastoreId`
 
 Property of
 > [DatastoreClusterInfo](vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo.md#field_detail), [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md#field_detail), [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail), [DesktopVirtualCenterDatastoreSettings](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md#field_detail), [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md#field_detail), [FarmVirtualCenterDatastoreSettings](vdi.resources.Farm.VirtualCenterDatastoreSettings.md#field_detail), [VirtualCenterHealthDatastoreData](vdi.health.VirtualCenterHealth.DatastoreData.md#field_detail), [VirtualDiskData](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData.md#field_detail), [VirtualDiskListSpec](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec.md#field_detail)

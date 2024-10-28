@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineSummaryView`
 
 Returned by
 > [Machine_GetSummaryView](vdi.resources.Machine.md#getSummaryView), [Machine_GetSummaryViews](vdi.resources.Machine.md#getSummaryViews)

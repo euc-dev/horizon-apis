@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMaintenanceData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerMaintenanceData`
 
 Property of
 > [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail)

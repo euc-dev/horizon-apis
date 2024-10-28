@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.UnderConstructionCount`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.UnderConstructionCount`
 
 Property of
 > [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md#field_detail)

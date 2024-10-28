@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.GatewayHealth.ConnectionData`
 
 Property of
 > [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskResult`
+> ` com.omnissa.vdi.vlsi.binding.vdi.task.Task.TaskResult`
 
 Property of
 > [TaskInfo](vdi.task.Task.TaskInfo.md#field_detail)

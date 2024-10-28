@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorSpec`
 
 Parameter to
 > [CertificateSSOConnector_Create](vdi.infrastructure.CertificateSSOConnector.md#create)

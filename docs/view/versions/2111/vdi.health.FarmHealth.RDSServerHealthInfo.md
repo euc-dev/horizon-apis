@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.RDSServerHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.FarmHealth.RDSServerHealthInfo`
 
 Property of
 > [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md#field_detail)

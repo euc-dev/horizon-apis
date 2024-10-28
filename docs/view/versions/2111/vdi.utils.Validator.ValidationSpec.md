@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.Validator.ValidationSpec`
 
 Parameter to
 > [Validator_validateName](vdi.utils.Validator.md#validateName)

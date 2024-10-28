@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.LoadBalancingSettings`
 
 Property of
 > [FarmData](vdi.resources.Farm.FarmData.md#field_detail)

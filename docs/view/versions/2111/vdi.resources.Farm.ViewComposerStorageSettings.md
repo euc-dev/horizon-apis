@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ViewComposerStorageSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.ViewComposerStorageSettings`
 
 Property of
 > [FarmVirtualCenterStorageSettings](vdi.resources.Farm.VirtualCenterStorageSettings.md#field_detail)

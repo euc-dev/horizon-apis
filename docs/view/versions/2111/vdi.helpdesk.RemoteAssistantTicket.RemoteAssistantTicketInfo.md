@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo`
 
 Returned by
 > [RemoteAssistantTicket_Get](vdi.helpdesk.RemoteAssistantTicket.md#get)

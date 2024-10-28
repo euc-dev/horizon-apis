@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXServerInfo`
 
 See also
 > [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md), [RCXServerId](vdi.entity.RCXServerId.md)

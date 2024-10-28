@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.PodHealth`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.PodHealth`
 
 See also
 > [PodHealthInfo](vdi.health.PodHealth.PodHealthInfo.md), [PodId](vdi.entity.PodId.md)

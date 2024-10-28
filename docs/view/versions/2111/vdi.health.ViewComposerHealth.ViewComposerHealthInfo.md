@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ViewComposerHealthInfo`
 
 Returned by
 > [ViewComposerHealth_Get](vdi.health.ViewComposerHealth.md#get), [ViewComposerHealth_List](vdi.health.ViewComposerHealth.md#list)

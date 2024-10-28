@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineInfo`
 
 Returned by
 > [Machine_Get](vdi.resources.Machine.md#get), [Machine_GetInfos](vdi.resources.Machine.md#getInfos)

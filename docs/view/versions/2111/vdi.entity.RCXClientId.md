@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.RCXClientId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.RCXClientId`
 
 Extends
 > [EntityId](vdi.EntityId.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.GlobalEntitlement.GlobalEntitlementInfo`
 
 Returned by
 > [GlobalEntitlement_Get](vdi.federation.GlobalEntitlement.md#get), [GlobalEntitlement_ListCompatibleBackupGEs](vdi.federation.GlobalEntitlement.md#listCompatibleBackupGEs)

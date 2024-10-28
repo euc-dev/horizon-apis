@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo`
 
 Returned by
 > [ConnectionServerHealth_Get](vdi.health.ConnectionServerHealth.md#get), [ConnectionServerHealth_List](vdi.health.ConnectionServerHealth.md#list)

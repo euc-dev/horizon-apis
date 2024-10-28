@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterDatastoreSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterDatastoreSettings`
 
 Property of
 > [DesktopPersistentDiskSettings](vdi.resources.Desktop.PersistentDiskSettings.md#field_detail), [DesktopVirtualCenterStorageSettings](vdi.resources.Desktop.VirtualCenterStorageSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineNamesData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.ManagedMachineNamesData`
 
 Property of
 > [MachineNamesView](vdi.resources.Machine.MachineNamesView.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MissingApplicationInstallationData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.MissingApplicationInstallationData`
 
 Returned by
 > [Farm_ValidateInstalledApplications](vdi.resources.Farm.md#validateInstalledApplications)

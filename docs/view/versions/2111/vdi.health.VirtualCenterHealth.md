@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.VirtualCenterHealth`
 
 See also
 > [VirtualCenterHealthInfo](vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

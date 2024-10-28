@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.PodAssignmentId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.PodAssignmentId`
 
 Property of
 > [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)

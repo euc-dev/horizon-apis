@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData`
 
 Property of
 > [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail)

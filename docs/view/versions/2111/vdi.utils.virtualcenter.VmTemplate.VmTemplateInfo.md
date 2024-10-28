@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo`
 
 Returned by
 > [VmTemplate_List](vdi.utils.virtualcenter.VmTemplate.md#list), [VmTemplate_ListByDatacenter](vdi.utils.virtualcenter.VmTemplate.md#listByDatacenter)

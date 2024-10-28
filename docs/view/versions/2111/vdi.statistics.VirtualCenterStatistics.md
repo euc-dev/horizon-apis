@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics`
+> ` com.omnissa.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics`
 
 See also
 > [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md)

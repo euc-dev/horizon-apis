@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo`
 
 Returned by
 > [VirtualMachine_List](vdi.utils.virtualcenter.VirtualMachine.md#list)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistAgentStatus`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistAgentStatus`
 
 Returned by
 > [WS1Assist_GetWS1AgentAssistStatus](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentStatus)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionClientStatistics`
+> ` com.omnissa.vdi.vlsi.binding.vdi.statistics.SessionStatistics.SessionClientStatistics`
 
 Property of
 > [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md#field_detail)

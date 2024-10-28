@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconSpec`
 
 Parameter to
 > [ApplicationIcon_CreateAndAssociate](vdi.resources.ApplicationIcon.md#createAndAssociate)

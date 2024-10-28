@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail`
 
 Returned by
 > [NetworkProxyConfiguration_Get](vdi.infrastructure.NetworkProxyConfiguration.md#get)

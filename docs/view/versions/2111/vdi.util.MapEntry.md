@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.util.MapEntry`
+> ` com.omnissa.vdi.vlsi.binding.vdi.util.MapEntry`
 
 Property of
 > [HealthCounter](vdi.health.Monitoring.HealthCounter.md#field_detail), [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md#field_detail), [ImageManagementAssetSpec](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md#field_detail), [ImageManagementStreamBase](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md#field_detail), [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md#field_detail), [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md#field_detail), [InvalidCredentials](vdi.fault.InvalidCredentials.md#field_detail), [PodFederationLocalConnectionServerStatus](vdi.federation.PodFederation.LocalConnectionServerStatus.md#field_detail), [TaskResult](vdi.task.Task.TaskResult.md#field_detail), [UnexpectedFault](vdi.fault.UnexpectedFault.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.DesktopHealth.ApplicationStatusInfo`
 
 Property of
 > [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md#field_detail)

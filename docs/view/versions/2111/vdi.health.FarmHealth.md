@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.FarmHealth`
 
 See also
 > [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md), [FarmId](vdi.entity.FarmId.md)

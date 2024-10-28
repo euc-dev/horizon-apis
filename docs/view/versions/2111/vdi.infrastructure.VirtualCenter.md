@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md), [UnsupportedDesktopOrFarmDetails](vdi.infrastructure.VirtualCenter.UnsupportedDesktopOrFarmDetails.md), [VirtualCenterFeatureDetails](vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualCenterInfo](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md), [VirtualCenterSpec](vdi.infrastructure.VirtualCenter.VirtualCenterSpec.md)

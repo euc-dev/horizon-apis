@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailView`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDetailView`
 
 Returned by
 > [Desktop_GetDetailView](vdi.resources.Desktop.md#getDetailView)

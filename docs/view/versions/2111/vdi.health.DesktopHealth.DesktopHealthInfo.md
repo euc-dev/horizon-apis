@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.DesktopHealth.DesktopHealthInfo`
 
 Returned by
 > [DesktopHealth_Get](vdi.health.DesktopHealth.md#get)

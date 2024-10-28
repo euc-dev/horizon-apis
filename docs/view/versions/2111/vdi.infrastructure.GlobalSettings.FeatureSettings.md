@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.FeatureSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.FeatureSettings`
 
 Property of
 > [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md#field_detail)

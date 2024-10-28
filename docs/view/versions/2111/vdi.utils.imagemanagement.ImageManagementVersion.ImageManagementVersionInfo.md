@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo`
 
 Returned by
 > [ImageManagementVersion_Get](vdi.utils.imagemanagement.ImageManagementVersion.md#get), [ImageManagementVersion_ListByImageManagementStream](vdi.utils.imagemanagement.ImageManagementVersion.md#listByImageManagementStream)

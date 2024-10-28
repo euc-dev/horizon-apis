@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Application.ApplicationInfo`
 
 Returned by
 > [Application_Get](vdi.resources.Application.md#get)

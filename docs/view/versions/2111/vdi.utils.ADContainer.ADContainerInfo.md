@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.ADContainer.ADContainerInfo`
 
 Returned by
 > [ADContainer_ListByDomain](vdi.utils.ADContainer.md#listByDomain), [ADContainer_ListByViewComposerDomainAdministrator](vdi.utils.ADContainer.md#listByViewComposerDomainAdministrator)

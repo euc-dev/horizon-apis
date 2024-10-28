@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.HistoricalPerformanceData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.HistoricalPerformanceData`
 
 Property of
 > [SessionHistoricalPerformanceData](vdi.helpdesk.Performance.SessionHistoricalPerformanceData.md#field_detail)

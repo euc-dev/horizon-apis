@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ConnectionServerConnectionData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.ViewComposerHealth.ConnectionServerConnectionData`
 
 Property of
 > [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md#field_detail)

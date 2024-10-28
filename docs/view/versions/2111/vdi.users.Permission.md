@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Permission`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.Permission`
 
 See also
 > [PermissionBase](vdi.users.Permission.PermissionBase.md), [PermissionId](vdi.entity.PermissionId.md), [PermissionInfo](vdi.users.Permission.PermissionInfo.md)

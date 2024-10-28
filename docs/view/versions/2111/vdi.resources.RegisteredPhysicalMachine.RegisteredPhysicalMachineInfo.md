@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo`
 
 Returned by
 > [RegisteredPhysicalMachine_Get](vdi.resources.RegisteredPhysicalMachine.md#get)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSummaryView`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventSummaryView`
 
 See also
 > [EventData](vdi.infrastructure.EventDatabase.EventData.md), [EventNamesData](vdi.infrastructure.EventDatabase.EventNamesData.md)

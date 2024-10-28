@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo`
 
 Returned by
 > [Datastore_GetUsage](vdi.utils.virtualcenter.Datastore.md#getUsage)

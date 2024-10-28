@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ServiceAccountCredentialsId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.ServiceAccountCredentialsId`
 
 Property of
 > [AuxiliaryAccountUpdateData](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md#field_detail), [ServiceAccountCredentialsInfo](vdi.utils.ADDomain.ServiceAccountCredentialsInfo.md#field_detail)

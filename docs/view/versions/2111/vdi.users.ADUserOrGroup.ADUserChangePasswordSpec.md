@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserChangePasswordSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserChangePasswordSpec`
 
 See also
 > [SecureString](vdi.util.SecureString.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo`
 
 Returned by
 > [RADIUSAuthenticator_Get](vdi.infrastructure.RADIUSAuthenticator.md#get), [RADIUSAuthenticator_List](vdi.infrastructure.RADIUSAuthenticator.md#list)

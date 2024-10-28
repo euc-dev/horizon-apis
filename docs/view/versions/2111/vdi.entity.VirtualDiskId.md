@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.VirtualDiskId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.VirtualDiskId`
 
 Property of
 > [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md#field_detail), [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)

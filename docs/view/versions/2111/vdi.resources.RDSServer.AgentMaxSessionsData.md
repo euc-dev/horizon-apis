@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentMaxSessionsData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.AgentMaxSessionsData`
 
 Property of
 > [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.HostData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.HostData`
 
 Property of
 > [VirtualCenterHealthInfo](vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo.md#field_detail)

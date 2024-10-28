@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.RegisterResult`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.RegisterResult`
 
 Returned by
 > [Machine_Register](vdi.resources.Machine.md#register)

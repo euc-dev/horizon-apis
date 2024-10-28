@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.task.Task`
+> ` com.omnissa.vdi.vlsi.binding.vdi.task.Task`
 
 See also
 > [TaskId](vdi.entity.TaskId.md), [TaskInfo](vdi.task.Task.TaskInfo.md)

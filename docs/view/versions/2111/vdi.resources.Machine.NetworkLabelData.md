@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.NetworkLabelData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.NetworkLabelData`
 
 Property of
 > [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail)

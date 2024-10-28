@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.HostOrClusterId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.HostOrClusterId`
 
 Property of
 > [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md#field_detail), [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md#field_detail), [DatastoreSpec](vdi.utils.virtualcenter.Datastore.DatastoreSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail), [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md#field_detail), [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md#field_detail), [NetworkLabelSpec](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelSpec.md#field_detail)

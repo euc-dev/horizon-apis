@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GSSAPIData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.GSSAPIData`
 
 Property of
 > [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)

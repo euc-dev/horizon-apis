@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VmFolder.VmFolderData`
 
 Property of
 > [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md#field_detail)

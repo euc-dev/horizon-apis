@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SecurityServer`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [SecurityServerId](vdi.entity.SecurityServerId.md), [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md)

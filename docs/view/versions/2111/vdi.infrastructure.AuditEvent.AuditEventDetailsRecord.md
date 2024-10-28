@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.AuditEvent.AuditEventDetailsRecord`
 
 Returned by
 > [AuditEventDetails](vdi.infrastructure.AuditEvent.md#auditEventDetails)

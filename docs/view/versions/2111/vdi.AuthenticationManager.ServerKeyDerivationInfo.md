@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager  .ServerKeyDerivationInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.AuthenticationManager  .ServerKeyDerivationInfo`
 
 Returned by
 > [AuthenticationManager_GenerateKeyMaterial](vdi.AuthenticationManager.md#generateKeyMaterial)

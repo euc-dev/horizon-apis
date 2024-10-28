@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentData`
 
 Property of
 > [PodAssignmentInfo](vdi.federation.PodAssignment.PodAssignmentInfo.md#field_detail)

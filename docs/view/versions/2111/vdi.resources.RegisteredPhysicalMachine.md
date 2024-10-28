@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine`
 
 See also
 > [MachineId](vdi.entity.MachineId.md), [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md), [RegisteredPhysicalMachineRegisterResult](vdi.resources.RegisteredPhysicalMachine.RegisterResult.md), [RegisteredPhysicalMachineRegisterSpec](vdi.resources.RegisteredPhysicalMachine.RegisterSpec.md)

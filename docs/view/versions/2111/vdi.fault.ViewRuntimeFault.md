@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.ViewRuntimeFault`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.ViewRuntimeFault`
 
 Extended by
 > [EntityAlreadyExists](vdi.fault.EntityAlreadyExists.md), [EntityInUse](vdi.fault.EntityInUse.md), [EntityNotFound](vdi.fault.EntityNotFound.md), [InvalidArgument](vdi.fault.InvalidArgument.md), [InvalidCredentials](vdi.fault.InvalidCredentials.md), [InvalidDomainCredentials](vdi.fault.InvalidDomainCredentials.md), [InvalidLicense](vdi.fault.InvalidLicense.md), [InvalidQuery](vdi.fault.InvalidQuery.md), [InvalidRequest](vdi.fault.InvalidRequest.md), [InvalidState](vdi.fault.InvalidState.md), [InvalidType](vdi.fault.InvalidType.md), [UnexpectedFault](vdi.fault.UnexpectedFault.md)

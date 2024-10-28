@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.GatewayHealth.GatewayHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.GatewayHealth.GatewayHealthInfo`
 
 Returned by
 > [GatewayHealth_Get](vdi.health.GatewayHealth.md#get), [GatewayHealth_List](vdi.health.GatewayHealth.md#list)

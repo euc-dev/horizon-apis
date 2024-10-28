@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.LogoffSettings`
 
 Property of
 > [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md#field_detail)

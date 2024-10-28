@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo`
 
 Returned by
 > [SAMLAuthenticatorHealth_Get](vdi.health.SAMLAuthenticatorHealth.md#get), [SAMLAuthenticatorHealth_List](vdi.health.SAMLAuthenticatorHealth.md#list)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.RSASecureIdData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.RSASecureIdData`
 
 Property of
 > [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md#field_detail)

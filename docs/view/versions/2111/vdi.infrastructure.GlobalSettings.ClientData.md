@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.ClientData`
 
 Property of
 > [GlobalSettingsClientRestrictionConfiguration](vdi.infrastructure.GlobalSettings.ClientRestrictionConfiguration.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.Policies.PoliciesInfo`
 
 Returned by
 > [Policies_Get](vdi.users.Policies.md#get), [Policies_List](vdi.users.Policies.md#list), [Policies_ListUnentitledPolicies](vdi.users.Policies.md#listUnentitledPolicies)

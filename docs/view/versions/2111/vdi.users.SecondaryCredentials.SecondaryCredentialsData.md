@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.SecondaryCredentials.SecondaryCredentialsData`
 
 Property of
 > [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md#field_detail)

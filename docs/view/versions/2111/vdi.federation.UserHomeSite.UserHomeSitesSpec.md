@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSitesSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSitesSpec`
 
 Parameter to
 > [UserHomeSite_CreateOrUpdate](vdi.federation.UserHomeSite.md#createOrUpdate)

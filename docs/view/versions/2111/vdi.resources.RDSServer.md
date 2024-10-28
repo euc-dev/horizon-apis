@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [RDSServerId](vdi.entity.RDSServerId.md), [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md), [RDSServerRegisterResult](vdi.resources.RDSServer.RegisterResult.md), [RDSServerRegisterSpec](vdi.resources.RDSServer.RegisterSpec.md), [RDSServerStateCount](vdi.resources.RDSServer.RDSServerStateCount.md), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md)

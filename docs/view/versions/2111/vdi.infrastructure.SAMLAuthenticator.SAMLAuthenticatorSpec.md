@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec`
 
 Parameter to
 > [SAMLAuthenticator_Create](vdi.infrastructure.SAMLAuthenticator.md#create)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.task.DesktopTask.DesktopTaskData`
 
 Property of
 > [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md#field_detail)

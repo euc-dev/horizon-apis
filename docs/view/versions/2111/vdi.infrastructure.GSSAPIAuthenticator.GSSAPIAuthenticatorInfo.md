@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo`
 
 Returned by
 > [GSSAPIAuthenticator_Get](vdi.infrastructure.GSSAPIAuthenticator.md#get), [GSSAPIAuthenticator_List](vdi.infrastructure.GSSAPIAuthenticator.md#list)

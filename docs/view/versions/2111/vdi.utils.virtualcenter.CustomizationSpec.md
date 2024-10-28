@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.CustomizationSpec`
 
 See also
 > [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

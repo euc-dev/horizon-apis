@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteInfo`
 
 Returned by
 > [UserHomeSite_Get](vdi.federation.UserHomeSite.md#get), [UserHomeSite_GetInfos](vdi.federation.UserHomeSite.md#getInfos), [UserHomeSite_List](vdi.federation.UserHomeSite.md#list), [UserHomeSite_Resolve](vdi.federation.UserHomeSite.md#resolve), [UserHomeSite_ResolveForGAE](vdi.federation.UserHomeSite.md#resolveForGAE)

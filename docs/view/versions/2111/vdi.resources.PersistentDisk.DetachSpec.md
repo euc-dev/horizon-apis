@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.DetachSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.DetachSpec`
 
 Parameter to
 > [PersistentDisk_Detach](vdi.resources.PersistentDisk.md#detach)

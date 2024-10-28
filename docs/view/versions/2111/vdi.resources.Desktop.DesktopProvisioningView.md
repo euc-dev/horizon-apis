@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopProvisioningView`
 
 See also
 > [DesktopBase](vdi.resources.Desktop.DesktopBase.md), [DesktopId](vdi.entity.DesktopId.md), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md)

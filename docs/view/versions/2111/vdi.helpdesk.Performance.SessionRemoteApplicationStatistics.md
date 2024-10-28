@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionRemoteApplicationStatistics`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.SessionRemoteApplicationStatistics`
 
 See also
 > [RemoteApplicationStatistics](vdi.helpdesk.Performance.RemoteApplicationStatistics.md), [SessionId](vdi.entity.SessionId.md)

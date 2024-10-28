@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskGeneralData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskGeneralData`
 
 Property of
 > [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail)

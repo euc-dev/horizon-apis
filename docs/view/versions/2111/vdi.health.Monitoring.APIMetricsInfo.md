@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.APIMetricsInfo`
 
 Returned by
 > [Monitoring_GetAPIMetrics](vdi.health.Monitoring.md#getAPIMetrics)

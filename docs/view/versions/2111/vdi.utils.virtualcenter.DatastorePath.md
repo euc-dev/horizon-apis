@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath`
 
 See also
 > [DatastoreId](vdi.entity.DatastoreId.md), [DatastorePathInfo](vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

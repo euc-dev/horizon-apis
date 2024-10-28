@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.GatewayAccessUserOrGroup`
 
 See also
 > [GatewayAccessUserOrGroupData](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData.md), [GatewayAccessUserOrGroupInfo](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain.ADDomainInfo`
 
 Returned by
 > [ADDomain_List](vdi.utils.ADDomain.md#list)

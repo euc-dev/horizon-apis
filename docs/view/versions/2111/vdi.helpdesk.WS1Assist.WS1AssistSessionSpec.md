@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistSessionSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.WS1Assist.WS1AssistSessionSpec`
 
 Parameter to
 > [WS1Assist_GetWS1AssistAgentId](vdi.helpdesk.WS1Assist.md#getWS1AssistAgentId)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.FeatureLogLevelInfo`
 
 Property of
 > [LogLevelInfo](vdi.utils.logcollector.LogCollector.LogLevelInfo.md#field_detail)

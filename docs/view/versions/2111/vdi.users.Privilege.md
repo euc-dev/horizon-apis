@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Privilege`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.Privilege`
 
 See also
 > [PrivilegeInfo](vdi.users.Privilege.PrivilegeInfo.md)

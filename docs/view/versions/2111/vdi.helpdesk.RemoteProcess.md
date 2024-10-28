@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess`
 
 See also
 > [RemoteProcessBase](vdi.helpdesk.RemoteProcess.RemoteProcessBase.md), [SessionId](vdi.entity.SessionId.md)

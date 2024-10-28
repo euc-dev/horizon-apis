@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterInfo`
 
 Returned by
 > [VirtualCenter_Get](vdi.infrastructure.VirtualCenter.md#get), [VirtualCenter_List](vdi.infrastructure.VirtualCenter.md#list)

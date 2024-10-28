@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Validator.ValidationResponse`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.Validator.ValidationResponse`
 
 Returned by
 > [Validator_validateName](vdi.utils.Validator.md#validateName)

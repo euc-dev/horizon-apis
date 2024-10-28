@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo`
 
 Returned by
 > [BaseImageVm_Get](vdi.utils.virtualcenter.BaseImageVm.md#get), [BaseImageVm_List](vdi.utils.virtualcenter.BaseImageVm.md#list), [BaseImageVm_ListByDatacenter](vdi.utils.virtualcenter.BaseImageVm.md#listByDatacenter)

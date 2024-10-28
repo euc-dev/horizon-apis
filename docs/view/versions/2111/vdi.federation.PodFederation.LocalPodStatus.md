@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.LocalPodStatus`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.PodFederation.LocalPodStatus`
 
 Property of
 > [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md#field_detail)

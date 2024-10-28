@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.JwtToken`
 
 See also
 > [JwtPublicKeyInfo](vdi.infrastructure.JwtToken.JwtPublicKeyInfo.md), [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md), [JwtTokenInfo](vdi.infrastructure.JwtToken.JwtTokenInfo.md)

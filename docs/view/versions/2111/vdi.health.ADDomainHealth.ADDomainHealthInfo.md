@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.ADDomainHealth.ADDomainHealthInfo`
 
 Returned by
 > [ADDomainHealth_List](vdi.health.ADDomainHealth.md#list)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo`
 
 Property of
 > [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.SystemStatusCounter`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.SystemStatusCounter`
 
 Returned by
 > [Monitoring_GetSystemStatusCounter](vdi.health.Monitoring.md#getSystemStatusCounter)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreIncompatibleReasons`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreIncompatibleReasons`
 
 Property of
 > [DatastoreData](vdi.utils.virtualcenter.Datastore.DatastoreData.md#field_detail)

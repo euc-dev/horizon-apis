@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Between`
+> ` com.omnissa.vdi.vlsi.binding.vdi.query.QueryFilter.Between`
 
 Extends
 > [QueryFilter](vdi.query.QueryFilter.Filter.md)

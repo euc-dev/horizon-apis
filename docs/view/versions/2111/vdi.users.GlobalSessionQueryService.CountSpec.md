@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.CountSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.CountSpec`
 
 Parameter to
 > [GlobalSessionQueryService_GetCountWithSpec](vdi.users.GlobalSessionQueryService.md#getCountWithSpec)

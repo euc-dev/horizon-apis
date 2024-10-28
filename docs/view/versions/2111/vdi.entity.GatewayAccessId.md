@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.GatewayAccessId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.GatewayAccessId`
 
 Extends
 > [EntityId](vdi.EntityId.md)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain`
 
 See also
 > [ADDomainAuxiliaryAccountSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountSpec.md), [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md), [ADDomainId](vdi.entity.ADDomainId.md), [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md), [ADDomainSpec](vdi.utils.ADDomain.ADDomainSpec.md), [MapEntry](vdi.util.MapEntry.md), [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)

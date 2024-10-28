@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase`
 
 Property of
 > [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)

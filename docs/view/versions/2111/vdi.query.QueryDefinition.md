@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.query.QueryDefinition`
+> ` com.omnissa.vdi.vlsi.binding.vdi.query.QueryDefinition`
 
 Parameter to
 > [QueryService_Create](vdi.query.QueryService.md#create), [QueryService_GetCount](vdi.query.QueryService.md#getCount), [QueryService_Query](vdi.query.QueryService.md#query)

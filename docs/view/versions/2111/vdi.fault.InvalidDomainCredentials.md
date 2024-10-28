@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.InvalidDomainCredentials`
 
 Extends
 > [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

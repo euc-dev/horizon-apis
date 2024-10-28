@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidArgument`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.InvalidArgument`
 
 Extends
 > [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

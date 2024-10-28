@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser`
 
 See also
 > [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md), [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

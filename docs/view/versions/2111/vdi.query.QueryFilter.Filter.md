@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.Filter`
+> ` com.omnissa.vdi.vlsi.binding.vdi.query.QueryFilter.Filter`
 
 Property of
 > [QueryDefinition](vdi.query.QueryDefinition.md#field_detail), [QueryFilterAnd](vdi.query.QueryFilter.And.md#field_detail), [QueryFilterNot](vdi.query.QueryFilter.Not.md#field_detail), [QueryFilterOr](vdi.query.QueryFilter.Or.md#field_detail)

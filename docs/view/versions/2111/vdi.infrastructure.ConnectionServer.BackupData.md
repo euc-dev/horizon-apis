@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.BackupData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.ConnectionServer.BackupData`
 
 Property of
 > [ConnectionServerInfo](vdi.infrastructure.ConnectionServer.ConnectionServerInfo.md#field_detail)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Session`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.Session`
 
 See also
 > [SessionId](vdi.entity.SessionId.md), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md)

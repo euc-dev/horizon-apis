@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.PodHealth.PodHealthInfo`
 
 Returned by
 > [PodHealth_Get](vdi.health.PodHealth.md#get), [PodHealth_List](vdi.health.PodHealth.md#list)

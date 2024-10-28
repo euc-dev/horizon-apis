@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.BlackoutTime`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.BlackoutTime`
 
 Property of
 > [FarmSpaceReclamationSettings](vdi.resources.Farm.SpaceReclamationSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.EventDatabase.EventDatabaseInfo`
 
 Returned by
 > [EventDatabase_Get](vdi.infrastructure.EventDatabase.md#get)

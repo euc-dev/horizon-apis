@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.StorageAcceleratorHost`
 
 See also
 > [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md), [StorageAcceleratorHostInfo](vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

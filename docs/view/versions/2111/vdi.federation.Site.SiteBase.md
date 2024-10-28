@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteBase`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.Site.SiteBase`
 
 Property of
 > [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail)

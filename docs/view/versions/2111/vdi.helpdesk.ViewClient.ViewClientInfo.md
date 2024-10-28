@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient.ViewClientInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.ViewClient.ViewClientInfo`
 
 Returned by
 > [ViewClient_Get](vdi.helpdesk.ViewClient.md#get)

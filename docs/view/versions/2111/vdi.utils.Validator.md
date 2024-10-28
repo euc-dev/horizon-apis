@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Validator`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.Validator`
 
 See also
 > [ValidationResponse](vdi.utils.Validator.ValidationResponse.md), [ValidationSpec](vdi.utils.Validator.ValidationSpec.md)

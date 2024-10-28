@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.VirtualDiskData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.VirtualDiskData`
 
 Property of
 > [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail)

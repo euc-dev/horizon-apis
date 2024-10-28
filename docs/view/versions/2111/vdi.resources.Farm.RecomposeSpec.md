@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RecomposeSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.RecomposeSpec`
 
 Parameter to
 > [Farm_Recompose](vdi.resources.Farm.md#recompose)

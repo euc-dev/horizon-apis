@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase`
 
 Property of
 > [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md#field_detail), [InstantCloneEngineDomainAdministratorSpec](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec.md#field_detail)

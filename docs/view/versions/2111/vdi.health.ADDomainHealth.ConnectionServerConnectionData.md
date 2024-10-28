@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.ADDomainHealth.ConnectionServerConnectionData`
 
 Property of
 > [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md#field_detail)

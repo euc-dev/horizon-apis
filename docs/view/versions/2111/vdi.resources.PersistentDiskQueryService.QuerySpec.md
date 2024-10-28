@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.QuerySpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDiskQueryService.QuerySpec`
 
 Parameter to
 > [PersistentDiskQueryService_QueryWithSpec](vdi.resources.PersistentDiskQueryService.md#queryWithSpec)

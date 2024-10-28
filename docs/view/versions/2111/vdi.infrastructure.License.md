@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.License`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.License`
 
 See also
 > [LicenseInfo](vdi.infrastructure.License.LicenseInfo.md)

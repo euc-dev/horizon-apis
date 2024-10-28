@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpRequest`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.DiagOperation.DiagOpRequest`
 
 Parameter to
 > [DiagOperation_Send](vdi.infrastructure.DiagOperation.md#send)

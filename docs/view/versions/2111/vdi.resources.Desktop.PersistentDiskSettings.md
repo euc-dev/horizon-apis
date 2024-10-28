@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PersistentDiskSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.PersistentDiskSettings`
 
 Property of
 > [DesktopViewComposerStorageSettings](vdi.resources.Desktop.ViewComposerStorageSettings.md#field_detail)

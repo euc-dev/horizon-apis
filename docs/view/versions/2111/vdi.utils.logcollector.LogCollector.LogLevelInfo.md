@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogLevelInfo`
 
 Returned by
 > [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)

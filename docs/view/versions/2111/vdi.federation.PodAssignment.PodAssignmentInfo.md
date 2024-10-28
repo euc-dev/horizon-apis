@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.federation.PodAssignment.PodAssignmentInfo`
 
 Returned by
 > [PodAssignment_Get](vdi.federation.PodAssignment.md#get), [PodAssignment_GetInfos](vdi.federation.PodAssignment.md#getInfos)

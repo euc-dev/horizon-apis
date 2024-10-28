@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.MessageSecurityData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RegisteredPhysicalMachine.MessageSecurityData`
 
 Property of
 > [RegisteredPhysicalMachineInfo](vdi.resources.RegisteredPhysicalMachine.RegisteredPhysicalMachineInfo.md#field_detail)

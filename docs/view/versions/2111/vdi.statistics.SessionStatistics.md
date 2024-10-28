@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics`
+> ` com.omnissa.vdi.vlsi.binding.vdi.statistics.SessionStatistics`
 
 See also
 > [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md)

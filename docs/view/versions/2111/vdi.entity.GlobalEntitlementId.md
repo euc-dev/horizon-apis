@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.GlobalEntitlementId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.GlobalEntitlementId`
 
 Property of
 > [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md#field_detail), [DesktopGlobalEntitlementData](vdi.resources.Desktop.GlobalEntitlementData.md#field_detail), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md#field_detail), [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md#field_detail), [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#field_detail), [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md#field_detail), [GlobalEntitlementSummaryView](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md#field_detail), [GlobalSessionQueryServiceCountSpec](vdi.users.GlobalSessionQueryService.CountSpec.md#field_detail), [GlobalSessionQueryServiceQuerySpec](vdi.users.GlobalSessionQueryService.QuerySpec.md#field_detail), [GlobalURLRedirectionSchemeHandler](vdi.infrastructure.URLRedirection.GlobalURLSchemeAndHandler.md#field_detail), [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md#field_detail)

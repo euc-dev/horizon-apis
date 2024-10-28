@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo`
 
 Returned by
 > [EventDatabaseHealth_Get](vdi.health.EventDatabaseHealth.md#get)

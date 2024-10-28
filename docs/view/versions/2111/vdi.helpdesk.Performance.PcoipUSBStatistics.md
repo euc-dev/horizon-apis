@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipUSBStatistics`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipUSBStatistics`
 
 Property of
 > [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)

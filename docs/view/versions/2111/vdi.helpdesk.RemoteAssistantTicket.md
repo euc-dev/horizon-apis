@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.RemoteAssistantTicket`
 
 See also
 > [RemoteAssistantTicketInfo](vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo.md), [SessionId](vdi.entity.SessionId.md)

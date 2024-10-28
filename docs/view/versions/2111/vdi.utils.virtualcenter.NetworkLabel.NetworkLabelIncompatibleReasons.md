@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons`
 
 Property of
 > [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.query.QueryFilter.NotEquals`
+> ` com.omnissa.vdi.vlsi.binding.vdi.query.QueryFilter.NotEquals`
 
 Extends
 > [QueryFilter](vdi.query.QueryFilter.Filter.md)

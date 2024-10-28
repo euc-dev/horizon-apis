@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec`
 
 Parameter to
 > [GSSAPIAuthenticator_Create](vdi.infrastructure.GSSAPIAuthenticator.md#create)

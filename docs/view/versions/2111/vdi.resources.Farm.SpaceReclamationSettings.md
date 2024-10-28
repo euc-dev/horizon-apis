@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.SpaceReclamationSettings`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.SpaceReclamationSettings`
 
 Property of
 > [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md#field_detail)

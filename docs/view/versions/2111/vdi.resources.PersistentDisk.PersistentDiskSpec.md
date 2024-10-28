@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskSpec`
 
 Parameter to
 > [PersistentDisk_Create](vdi.resources.PersistentDisk.md#create)

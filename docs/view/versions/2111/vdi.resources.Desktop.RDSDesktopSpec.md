@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.RDSDesktopSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.RDSDesktopSpec`
 
 Property of
 > [DesktopSpec](vdi.resources.Desktop.DesktopSpec.md#field_detail)

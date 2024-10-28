@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.EntityAlreadyExists`
+> ` com.omnissa.vdi.vlsi.binding.vdi.fault.EntityAlreadyExists`
 
 Thrown by
 > [Farm_Create](vdi.resources.Farm.md#create)

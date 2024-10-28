@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.PodSessionCounter`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.PodSessionCounter`
 
 Returned by
 > [Monitoring_ListPodSessionCounters](vdi.health.Monitoring.md#listPodSessionCounters)

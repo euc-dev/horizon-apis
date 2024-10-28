@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPLoginTypeSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPLoginTypeSpec`
 
 Parameter to
 > [CEIP_SetLoginType](vdi.infrastructure.CEIP.md#setLoginType)

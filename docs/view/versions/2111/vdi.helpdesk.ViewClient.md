@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.ViewClient`
+> ` com.omnissa.vdi.vlsi.binding.vdi.helpdesk.ViewClient`
 
 See also
 > [SessionId](vdi.entity.SessionId.md), [ViewClientInfo](vdi.helpdesk.ViewClient.ViewClientInfo.md)

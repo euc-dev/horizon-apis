@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ImageManagementAssetId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.ImageManagementAssetId`
 
 Property of
 > [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md#field_detail)

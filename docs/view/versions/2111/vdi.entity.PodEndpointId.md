@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.PodEndpointId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.PodEndpointId`
 
 Property of
 > [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail)

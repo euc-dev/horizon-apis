@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.UserEntitlement`
 
 See also
 > [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md), [UserEntitlementId](vdi.entity.UserEntitlementId.md), [UserEntitlementInfo](vdi.users.UserEntitlement.UserEntitlementInfo.md)

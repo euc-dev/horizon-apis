@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo`
 
 Returned by
 > [VirtualDisk_List](vdi.utils.virtualcenter.VirtualDisk.md#list), [VirtualDisk_ListAllDisks](vdi.utils.virtualcenter.VirtualDisk.md#listAllDisks)

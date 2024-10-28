@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterResult`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RegisterResult`
 
 Returned by
 > [RDSServer_Register](vdi.resources.RDSServer.md#register)

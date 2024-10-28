@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.SiteId`
+> ` com.omnissa.vdi.vlsi.binding.vdi.entity.SiteId`
 
 Property of
 > [PodFederationData](vdi.federation.PodFederation.PodFederationData.md#field_detail), [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail), [PodInfo](vdi.federation.Pod.PodInfo.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SiteInfo](vdi.federation.Site.SiteInfo.md#field_detail), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md#field_detail), [UserHomeSiteResolutionData](vdi.federation.UserHomeSite.UserHomeSiteResolutionData.md#field_detail)

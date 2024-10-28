@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateHealthData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.health.CertificateHealthData`
 
 Property of
 > [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail), [SAMLAuthenticatorHealthConnectionServerConnectionData](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md#field_detail), [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md#field_detail), [ViewComposerHealthConnectionServerConnectionData](vdi.health.ViewComposerHealth.ConnectionServerConnectionData.md#field_detail), [VirtualCenterHealthConnectionServerConnectionData](vdi.health.VirtualCenterHealth.ConnectionServerConnectionData.md#field_detail)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream`
+> ` com.omnissa.vdi.vlsi.binding.vdi.utils.imagemanagement.ImageManagementStream`
 
 See also
 > [ImageManagementStreamBase](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md), [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md), [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md), [ImageManagementStreamQuerySpec](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamQuerySpec.md), [MapEntry](vdi.util.MapEntry.md)

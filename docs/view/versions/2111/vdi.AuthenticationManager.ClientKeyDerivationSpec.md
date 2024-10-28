@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager  .ClientKeyDerivationSpec`
+> ` com.omnissa.vdi.vlsi.binding.vdi.AuthenticationManager  .ClientKeyDerivationSpec`
 
 Parameter to
 > [AuthenticationManager_GenerateKeyMaterial](vdi.AuthenticationManager.md#generateKeyMaterial)

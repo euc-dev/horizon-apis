@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmBase`
+> ` com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.FarmBase`
 
 Property of
 > [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail)

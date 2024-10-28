@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.GloballyEntitledData`
+> ` com.omnissa.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.GloballyEntitledData`
 
 Property of
 > [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#field_detail), [EntitledUserOrGroupInfo](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo.md#field_detail)
