@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.EntityId`
+> `com.omnissa.vdi.vlsi.binding.vdi.EntityId`
 
 
 Property of

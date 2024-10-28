@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.CertificateAuthenticationData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.CertificateAuthenticationData`
 
 Property of
 > [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md#field_detail)

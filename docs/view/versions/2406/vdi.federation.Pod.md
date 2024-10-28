@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.Pod`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.Pod`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [PodId](vdi.entity.PodId.md), [PodInfo](vdi.federation.Pod.PodInfo.md)

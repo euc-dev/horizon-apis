@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter.DatacenterInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datacenter.DatacenterInfo`
 
 Returned by
 > [Datacenter_List](vdi.utils.virtualcenter.Datacenter.md#list)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.ApplicationIcon.ApplicationIconInfo`
 
 Returned by
 > [ApplicationIcon_Get](vdi.resources.ApplicationIcon.md#get), [ApplicationIcon_GetByApplications](vdi.resources.ApplicationIcon.md#getByApplications), [ApplicationIcon_GetInfos](vdi.resources.ApplicationIcon.md#getInfos)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons`
 
 Returned by
 > [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines)

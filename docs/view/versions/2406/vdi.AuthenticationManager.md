@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.AuthenticationManager`
+> `com.omnissa.vdi.vlsi.binding.vdi.AuthenticationManager`
 
 
 See also

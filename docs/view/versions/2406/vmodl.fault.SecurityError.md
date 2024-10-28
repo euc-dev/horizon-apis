@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.fault.SecurityError`
+> `com.omnissa.vim.binding.vmodl.fault.SecurityError`
 
 Extended by
 > [InsufficientPermission](vdi.fault.InsufficientPermission.md)

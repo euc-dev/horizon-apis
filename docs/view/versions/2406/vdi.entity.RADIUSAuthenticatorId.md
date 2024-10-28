@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.RADIUSAuthenticatorId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.RADIUSAuthenticatorId`
 
 Property of
 > [ConnectionServerRADIUSData](vdi.infrastructure.ConnectionServer.RADIUSData.md#field_detail), [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md#field_detail)

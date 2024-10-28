@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFinishAck`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorFinishAck`
 
 See also
 > [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.InstantCloneEngineDomainAdministratorId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.InstantCloneEngineDomainAdministratorId`
 
 Property of
 > [DesktopCloneprepCustomizationSettings](vdi.resources.Desktop.CloneprepCustomizationSettings.md#field_detail), [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md#field_detail), [FarmCloneprepCustomizationSettings](vdi.resources.Farm.CloneprepCustomizationSettings.md#field_detail), [FarmCustomizationSettings](vdi.resources.Farm.CustomizationSettings.md#field_detail), [InstantCloneEngineDomainAdministratorInfo](vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorInfo.md#field_detail)

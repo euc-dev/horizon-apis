@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspaceSchedule`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreWorkspaceSchedule`
 
 Property of
 > [AWSCoreWorkspacePowerPolicySettings](vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings.md#field_detail)

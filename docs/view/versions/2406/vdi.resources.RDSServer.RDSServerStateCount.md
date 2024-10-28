@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateCount`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateCount`
 
 Returned by
 > [RDSServer_GetStateCounts](vdi.resources.RDSServer.md#getRDSServerStateCounts)

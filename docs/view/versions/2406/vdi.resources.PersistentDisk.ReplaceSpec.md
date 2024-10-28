@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.ReplaceSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.ReplaceSpec`
 
 Parameter to
 > [PersistentDisk_Replace](vdi.resources.PersistentDisk.md#replace)

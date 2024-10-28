@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.NetworkLabelAssignmentSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.NetworkLabelAssignmentSpec`
 
 Property of
 > [DesktopNetworkInterfaceCardSettings](vdi.resources.Desktop.NetworkInterfaceCardSettings.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.CertificateSSOData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.CertificateSSOData`
 
 Property of
 > [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md#field_detail)

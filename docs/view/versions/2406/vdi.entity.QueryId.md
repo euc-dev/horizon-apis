@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.QueryId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.QueryId`
 
 Property of
 > [QueryResults](vdi.query.QueryResults.md#field_detail)

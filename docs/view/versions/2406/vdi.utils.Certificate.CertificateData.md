@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.Certificate.CertificateData`
 
 Returned by
 > [Certificate_Validate](vdi.utils.Certificate.md#validate), [Certificate_ValidateViewComposerLocalToVC](vdi.utils.Certificate.md#validateViewComposerLocalToVC)

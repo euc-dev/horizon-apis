@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.SyslogInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Syslog.SyslogInfo`
 
 Returned by
 > [Syslog_Get](vdi.infrastructure.Syslog.md#get)

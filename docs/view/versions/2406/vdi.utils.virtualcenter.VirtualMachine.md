@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualMachine`
 
 See also
 > [VirtualCenterId](vdi.entity.VirtualCenterId.md), [VirtualMachineInfo](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo.md)

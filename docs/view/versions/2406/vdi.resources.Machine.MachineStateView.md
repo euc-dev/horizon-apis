@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineStateView`
 
 See also
 > [DesktopId](vdi.entity.DesktopId.md), [MachineId](vdi.entity.MachineId.md)

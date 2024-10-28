@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.AWSCoreDesktopSettings`
 
 Property of
 > [PartnerDesktopSettings](vdi.resources.Desktop.PartnerDesktopSettings.md#field_detail)

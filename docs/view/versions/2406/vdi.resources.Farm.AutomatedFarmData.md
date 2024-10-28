@@ -12,7 +12,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.AutomatedFarmData`
 
 Property of
 > [FarmInfo](vdi.resources.Farm.FarmInfo.md#field_detail)

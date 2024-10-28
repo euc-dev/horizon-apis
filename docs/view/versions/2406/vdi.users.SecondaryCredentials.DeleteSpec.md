@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.SecondaryCredentials.DeleteSpec`
 
 Parameter to
 > [SecondaryCredentials_Delete](vdi.users.SecondaryCredentials.md#delete)

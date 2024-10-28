@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.CloneprepCustomizationSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.CloneprepCustomizationSettings`
 
 Property of
 > [DesktopCustomizationSettings](vdi.resources.Desktop.CustomizationSettings.md#field_detail)

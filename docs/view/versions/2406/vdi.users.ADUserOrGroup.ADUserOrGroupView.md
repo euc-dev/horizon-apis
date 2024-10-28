@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADUserOrGroupView`
 
 Returned by
 > [ADUserOrGroup_GetView](vdi.users.ADUserOrGroup.md#getView), [ADUserOrGroup_GetViews](vdi.users.ADUserOrGroup.md#getViews)

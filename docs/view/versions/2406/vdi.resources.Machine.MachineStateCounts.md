@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineStateCounts`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineStateCounts`
 
 Returned by
 > [Machine_GetStateCounts](vdi.resources.Machine.md#getMachineStateCounts)

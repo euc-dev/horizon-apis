@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.MessageClient.MessageClientInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.MessageClient.MessageClientInfo`
 
 Returned by
 > [MessageClient_Create](vdi.utils.MessageClient.md#create), [MessageClient_Delete](vdi.utils.MessageClient.md#delete), [MessageClient_Get](vdi.utils.MessageClient.md#get), [MessageClient_Update](vdi.utils.MessageClient.md#update)
