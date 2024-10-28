@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ImageManagementTagId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.ImageManagementTagId`
 
 Property of
 > [DesktopImageManagementPushImageSpec](vdi.resources.Desktop.ImageManagementPushImageSpec.md#field_detail), [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopVirtualCenterData](vdi.resources.Desktop.VirtualCenterData.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail), [FarmImageManagementMaintenanceSettings](vdi.resources.Farm.ImageManagementMaintenanceSettings.md#field_detail), [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md#field_detail), [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md#field_detail), [ImageManagementTagInfo](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagInfo.md#field_detail)

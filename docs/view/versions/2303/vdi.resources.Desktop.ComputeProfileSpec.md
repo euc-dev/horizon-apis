@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.ComputeProfileSpec`
 
 Property of
 > [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail)

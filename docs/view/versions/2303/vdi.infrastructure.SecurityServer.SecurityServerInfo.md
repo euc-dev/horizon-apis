@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.SecurityServerInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.SecurityServerInfo`
 
 Returned by
 > [SecurityServer_Get](vdi.infrastructure.SecurityServer.md#get), [SecurityServer_List](vdi.infrastructure.SecurityServer.md#list)

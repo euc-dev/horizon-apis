@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.RecreateMachineSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.RecreateMachineSpec`
 
 Parameter to
 > [PersistentDisk_PreviewRecreateMachines](vdi.resources.PersistentDisk.md#previewRecreateMachines), [PersistentDisk_RecreateMachine](vdi.resources.PersistentDisk.md#recreateMachine), [PersistentDisk_RecreateMachines](vdi.resources.PersistentDisk.md#recreateMachines)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerStateView`
 
 See also
 > [DesktopId](vdi.entity.DesktopId.md), [FarmId](vdi.entity.FarmId.md), [RDSServerId](vdi.entity.RDSServerId.md)

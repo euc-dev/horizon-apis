@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.BlastSessionStatistics`
 
 Property of
 > [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSessionSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.RDSServerSessionSettings`
 
 Property of
 > [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md#field_detail), [RDSServerSettings](vdi.resources.RDSServer.RDSServerSettings.md#field_detail)

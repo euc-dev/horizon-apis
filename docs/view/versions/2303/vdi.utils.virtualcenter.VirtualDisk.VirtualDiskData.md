@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData`
 
 Property of
 > [VirtualDiskInfo](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md#field_detail)

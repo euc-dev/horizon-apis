@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.AutomatedDesktopData`
 
 Property of
 > [DesktopInfo](vdi.resources.Desktop.DesktopInfo.md#field_detail)

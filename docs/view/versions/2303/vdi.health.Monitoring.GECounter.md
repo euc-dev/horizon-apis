@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.GECounter`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.GECounter`
 
 Returned by
 > [Monitoring_GetGECounter](vdi.health.Monitoring.md#getGECounter)

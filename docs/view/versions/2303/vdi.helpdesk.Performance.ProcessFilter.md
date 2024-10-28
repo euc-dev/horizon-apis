@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.ProcessFilter`
 
 Parameter to
 > [Performance_GetProcessPerformanceData](vdi.helpdesk.Performance.md#getProcessPerformanceData)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.BlackoutTime`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.BlackoutTime`
 
 Property of
 > [DesktopViewStorageAcceleratorSettings](vdi.resources.Desktop.ViewStorageAcceleratorSettings.md#field_detail)

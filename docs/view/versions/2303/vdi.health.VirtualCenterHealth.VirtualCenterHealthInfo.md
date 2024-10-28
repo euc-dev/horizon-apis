@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo`
 
 Returned by
 > [VirtualCenterHealth_Get](vdi.health.VirtualCenterHealth.md#get), [VirtualCenterHealth_List](vdi.health.VirtualCenterHealth.md#list)

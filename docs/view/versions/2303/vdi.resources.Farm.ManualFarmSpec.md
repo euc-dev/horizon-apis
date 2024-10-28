@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.ManualFarmSpec`
 
 Property of
 > [FarmSpec](vdi.resources.Farm.FarmSpec.md#field_detail)

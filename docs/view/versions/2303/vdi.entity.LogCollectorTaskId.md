@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.LogCollectorTaskId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.LogCollectorTaskId`
 
 Property of
 > [LogCollectorDownloadURLInfo](vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo.md#field_detail), [LogCollectorFault](vdi.fault.LogCollectorFault.md#field_detail), [LogCollectorFinishAck](vdi.utils.logcollector.LogCollector.LogCollectorFinishAck.md#field_detail), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.VirtualCenterFeatureDetails`
 
 Returned by
 > [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)

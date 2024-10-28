@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Permission.PermissionInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Permission.PermissionInfo`
 
 Property of
 > [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.task.Task.TaskInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.task.Task.TaskInfo`
 
 Returned by
 > [PodFederation_Initialize](vdi.federation.PodFederation.md#initialize), [PodFederation_Join](vdi.federation.PodFederation.md#join), [PodFederation_Uninitialize](vdi.federation.PodFederation.md#uninitialize), [PodFederation_Unjoin](vdi.federation.PodFederation.md#unjoin), [Task_Get](vdi.task.Task.md#get)

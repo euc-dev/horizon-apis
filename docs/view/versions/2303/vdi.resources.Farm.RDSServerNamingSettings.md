@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.RDSServerNamingSettings`
 
 Property of
 > [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail)

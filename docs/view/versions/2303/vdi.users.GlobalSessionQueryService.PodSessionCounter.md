@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.PodSessionCounter`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.PodSessionCounter`
 
 Returned by
 > [GlobalSessionQueryService_GetCount](vdi.users.GlobalSessionQueryService.md#getCount), [GlobalSessionQueryService_GetCountWithSpec](vdi.users.GlobalSessionQueryService.md#getCountWithSpec)

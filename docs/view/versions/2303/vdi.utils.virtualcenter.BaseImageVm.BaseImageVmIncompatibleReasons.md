@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageVm.BaseImageVmIncompatibleReasons`
 
 Property of
 > [BaseImageVmInfo](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo.md#field_detail)

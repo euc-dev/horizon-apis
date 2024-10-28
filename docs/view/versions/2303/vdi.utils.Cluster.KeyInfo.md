@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.Cluster.KeyInfo`
 
 Returned by
 > [Cluster_GetPublicKey](vdi.utils.Cluster.md#getPublicKey)

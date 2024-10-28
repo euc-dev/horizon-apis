@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.InstantCloneEngineDomainAdministrator.InstantCloneEngineDomainAdministratorSpec`
 
 Parameter to
 > [InstantCloneEngineDomainAdministrator_Create](vdi.utils.InstantCloneEngineDomainAdministrator.md#create)

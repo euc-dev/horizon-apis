@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreData`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreData`
 
 Property of
 > [DatastoreInfo](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md#field_detail)

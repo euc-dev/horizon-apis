@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.PerformanceInfo`
 
 Returned by
 > [Performance_Get](vdi.helpdesk.Performance.md#get)

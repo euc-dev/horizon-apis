@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.RemoteProcess.RemoteProcessBase`
 
 Parameter to
 > [RemoteProcess_EndProcess](vdi.helpdesk.RemoteProcess.md#endProcess)
