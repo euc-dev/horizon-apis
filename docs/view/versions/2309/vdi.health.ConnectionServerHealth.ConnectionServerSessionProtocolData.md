@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.ConnectionServerHealth.ConnectionServerSessionProtocolData`
 
 Property of
 > [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo`
 
 Returned by
 > [CertificateSSOConnector_Get](vdi.infrastructure.CertificateSSOConnector.md#get), [CertificateSSOConnector_List](vdi.infrastructure.CertificateSSOConnector.md#list)

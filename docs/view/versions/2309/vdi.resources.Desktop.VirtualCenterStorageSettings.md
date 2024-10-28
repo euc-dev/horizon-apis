@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.VirtualCenterStorageSettings`
 
 Property of
 > [DesktopVirtualCenterProvisioningSettings](vdi.resources.Desktop.VirtualCenterProvisioningSettings.md#field_detail)

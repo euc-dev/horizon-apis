@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.FarmId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.FarmId`
 
 Property of
 > [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md#field_detail), [ApplicationSummaryData](vdi.resources.Application.ApplicationSummaryData.md#field_detail), [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md#field_detail), [DatastoreSpec](vdi.utils.virtualcenter.Datastore.DatastoreSpec.md#field_detail), [DesktopRDSDesktopData](vdi.resources.Desktop.RDSDesktopData.md#field_detail), [DesktopRDSDesktopSpec](vdi.resources.Desktop.RDSDesktopSpec.md#field_detail), [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md#field_detail), [EventData](vdi.infrastructure.EventDatabase.EventData.md#field_detail), [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md#field_detail), [FarmInfo](vdi.resources.Farm.FarmInfo.md#field_detail), [FarmProvisioningView](vdi.resources.Farm.FarmProvisioningView.md#field_detail), [FarmSummaryView](vdi.resources.Farm.FarmSummaryView.md#field_detail), [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md#field_detail), [RDSServerRegisterSpec](vdi.resources.RDSServer.RegisterSpec.md#field_detail), [RDSServerStateView](vdi.resources.RDSServer.RDSServerStateView.md#field_detail), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md#field_detail)

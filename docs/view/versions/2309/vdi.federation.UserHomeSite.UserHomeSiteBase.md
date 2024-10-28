@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteBase`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.UserHomeSite.UserHomeSiteBase`
 
 Property of
 > [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md#field_detail), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md#field_detail)

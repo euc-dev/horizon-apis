@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.EventDatabase`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.EventDatabase`
 
 See also
 > [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md), [MapEntry](vdi.util.MapEntry.md)

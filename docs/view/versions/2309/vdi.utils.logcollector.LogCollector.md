@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector`
 
 See also
 > [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md), [LogCollectorDownloadURLInfo](vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo.md), [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md), [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md), [LogLevelInfo](vdi.utils.logcollector.LogCollector.LogLevelInfo.md), [LogLevelSpec](vdi.utils.logcollector.LogCollector.LogLevelSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

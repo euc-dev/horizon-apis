@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ConnectionServerHealth`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.ConnectionServerHealth`
 
 See also
 > [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md), [ConnectionServerId](vdi.entity.ConnectionServerId.md)

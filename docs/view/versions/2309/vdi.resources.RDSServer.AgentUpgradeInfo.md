@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.RDSServer.AgentUpgradeInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.RDSServer.AgentUpgradeInfo`
 
 Property of
 > [RDSServerAgentData](vdi.resources.RDSServer.RDSServerAgentData.md#field_detail)

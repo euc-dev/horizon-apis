@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.CrlPrefetchConfiguration`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.CrlPrefetchConfiguration`
 
 Property of
 > [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md#field_detail)

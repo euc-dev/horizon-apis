@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.SessionStatistics.LocalSessionStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.statistics.SessionStatistics.LocalSessionStatistics`
 
 Returned by
 > [SessionStatistics_GetLocalSessionStatistics](vdi.statistics.SessionStatistics.md#getLocalSessionStatistics)

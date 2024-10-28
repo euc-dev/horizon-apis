@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.MaintenanceSpec`
 
 Parameter to
 > [Farm_ImageManagementScheduleMaintenance](vdi.resources.Farm.md#imageManagementScheduleMaintenance), [Farm_ScheduleMaintenance](vdi.resources.Farm.md#scheduleMaintenance)

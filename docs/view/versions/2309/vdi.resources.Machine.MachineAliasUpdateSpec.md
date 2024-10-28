@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineAliasUpdateSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineAliasUpdateSpec`
 
 Parameter to
 > [Machine_UpdateMachineAliases](vdi.resources.Machine.md#updateMachineAliases)

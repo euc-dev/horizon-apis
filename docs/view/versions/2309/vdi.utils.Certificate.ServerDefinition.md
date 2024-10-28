@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Certificate.ServerDefinition`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.Certificate.ServerDefinition`
 
 Parameter to
 > [SpaceReclamation_IsSupportedByServerDefinition](vdi.utils.virtualcenter.SpaceReclamation.md#isSupportedByServerDefinition), [StorageAccelerator_IsSupportedByServerDefinition](vdi.utils.virtualcenter.StorageAccelerator.md#isSupportedByServerDefinition), [StorageAcceleratorHost_ListByServerDefinition](vdi.utils.virtualcenter.StorageAcceleratorHost.md#listByServerDefinition), [ViewComposerDomainAdministrator_CreateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#createByServerDefinition), [ViewComposerDomainAdministrator_DeleteByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#deleteByServerDefinition), [ViewComposerDomainAdministrator_ListByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#listByServerDefinition), [ViewComposerDomainAdministrator_UpdateByServerDefinition](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md#updateByServerDefinition), [VirtualCenter_GetFeatureDetailsByServerDefinition](vdi.infrastructure.VirtualCenter.md#getFeatureDetailsByServerDefinition)

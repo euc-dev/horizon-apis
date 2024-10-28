@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.SAMLAuthenticatorId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.SAMLAuthenticatorId`
 
 Property of
 > [ConnectionServerSAMLData](vdi.infrastructure.ConnectionServer.SAMLData.md#field_detail), [SAMLAuthenticatorHealthInfo](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthInfo.md#field_detail), [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail)

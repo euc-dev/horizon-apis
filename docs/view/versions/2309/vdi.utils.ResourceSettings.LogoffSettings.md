@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings.LogoffSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ResourceSettings.LogoffSettings`
 
 Property of
 > [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md#field_detail)

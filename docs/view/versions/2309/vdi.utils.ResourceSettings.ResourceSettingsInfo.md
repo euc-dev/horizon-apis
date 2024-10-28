@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings.ResourceSettingsInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ResourceSettings.ResourceSettingsInfo`
 
 Returned by
 > [ResourceSettings_Get](vdi.utils.ResourceSettings.md#get)

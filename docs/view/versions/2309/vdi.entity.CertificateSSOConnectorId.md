@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.CertificateSSOConnectorId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.CertificateSSOConnectorId`
 
 Property of
 > [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md#field_detail), [CertificateSSOConnectorInfo](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorInfo.md#field_detail), [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md#field_detail)

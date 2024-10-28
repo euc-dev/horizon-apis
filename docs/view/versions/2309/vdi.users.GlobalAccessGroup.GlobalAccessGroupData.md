@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.GlobalAccessGroup.GlobalAccessGroupData`
 
 Property of
 > [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail)

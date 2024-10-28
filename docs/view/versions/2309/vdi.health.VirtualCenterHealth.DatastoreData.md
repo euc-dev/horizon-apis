@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.DatastoreData`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.VirtualCenterHealth.DatastoreData`
 
 Property of
 > [VirtualCenterHealthInfo](vdi.health.VirtualCenterHealth.VirtualCenterHealthInfo.md#field_detail)

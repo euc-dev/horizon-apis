@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalReferenceData`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Session.SessionLocalReferenceData`
 
 Property of
 > [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail), [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.InstantCloneProvisioningStatusData`
 
 Property of
 > [FarmProvisioningStatusData](vdi.resources.Farm.ProvisioningStatusData.md#field_detail)

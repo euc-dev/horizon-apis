@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.ServerData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.ServerData`
 
 Property of
 > [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md#field_detail), [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md#field_detail)

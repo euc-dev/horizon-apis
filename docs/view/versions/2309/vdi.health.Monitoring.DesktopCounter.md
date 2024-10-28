@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.DesktopCounter`
 
 Returned by
 > [Monitoring_GetDesktopCounters](vdi.health.Monitoring.md#getDesktopCounters)

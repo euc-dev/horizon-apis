@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth.SecurityServerHealthInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.SecurityServerHealth.SecurityServerHealthInfo`
 
 Returned by
 > [SecurityServerHealth_Get](vdi.health.SecurityServerHealth.md#get), [SecurityServerHealth_List](vdi.health.SecurityServerHealth.md#list)

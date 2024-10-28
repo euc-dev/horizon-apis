@@ -6,7 +6,7 @@ hide:
 - toc
 ---
 
-The [All Methods](methods-landing.md) page includes information about all methods available in the VMware View API. This listing gives you another approach to finding the name of methods you may need to use to complete various operations.
+The [All Methods](methods-landing.md) page includes information about all methods available in the Omnissa View API. This listing gives you another approach to finding the name of methods you may need to use to complete various operations.
 
 Documentation for each method includes:
 

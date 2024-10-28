@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.DynamicData`
+> `com.omnissa.vim.binding.vmodl.DynamicData`
 
 Since
 > vmodl.version.version0

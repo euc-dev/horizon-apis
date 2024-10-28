@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData`
 
 Property of
 > [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md#field_detail)

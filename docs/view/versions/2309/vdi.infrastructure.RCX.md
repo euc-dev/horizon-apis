@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.RCX`
 
 Since
 > Horizon 7.11

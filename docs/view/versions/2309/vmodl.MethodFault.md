@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.MethodFault`
+> `com.omnissa.vim.binding.vmodl.MethodFault`
 
 Property of
 > [GlobalSessionPodSessionCounter](vdi.users.GlobalSessionQueryService.PodSessionCounter.md#field_detail), [LocalizedMethodFault](vmodl.LocalizedMethodFault.md#field_detail), [PartialFailureFaultResult](vdi.fault.PartialFailureFault.PartialFailureFaultResult.md#field_detail)
