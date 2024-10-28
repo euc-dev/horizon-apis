@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.Site.SiteInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.Site.SiteInfo`
 
 Returned by
 > [Site_Get](vdi.federation.Site.md#get), [Site_List](vdi.federation.Site.md#list)

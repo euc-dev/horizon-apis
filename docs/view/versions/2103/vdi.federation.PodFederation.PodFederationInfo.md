@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.PodFederation.PodFederationInfo`
 
 Returned by
 > [PodFederation_Get](vdi.federation.PodFederation.md#get)

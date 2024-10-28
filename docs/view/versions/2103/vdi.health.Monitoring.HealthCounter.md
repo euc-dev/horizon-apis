@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.HealthCounter`
 
 Property of
 > [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md#field_detail)

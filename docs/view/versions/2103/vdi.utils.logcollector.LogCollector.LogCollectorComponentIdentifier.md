@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier`
 
 Property of
 > [LogCollectorSpec](vdi.utils.logcollector.LogCollector.LogCollectorSpec.md#field_detail), [LogCollectorTaskInfo](vdi.utils.logcollector.LogCollector.LogCollectorTaskInfo.md#field_detail)

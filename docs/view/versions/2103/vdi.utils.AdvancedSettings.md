@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.AdvancedSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.AdvancedSettings`
 
 See also
 > [EntityId](vdi.EntityId.md), [MapEntry](vdi.util.MapEntry.md)

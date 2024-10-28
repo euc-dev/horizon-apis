@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.FarmProvisioningView`
 
 See also
 > [FarmBase](vdi.resources.Farm.FarmBase.md), [FarmId](vdi.entity.FarmId.md), [FarmVirtualCenterData](vdi.resources.Farm.VirtualCenterData.md)

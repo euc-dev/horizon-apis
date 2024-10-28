@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CEIP.CEIPInfo`
 
 Returned by
 > [CEIP_Get](vdi.infrastructure.CEIP.md#get)

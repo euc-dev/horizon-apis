@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.task.DesktopTask`
+> `com.omnissa.vdi.vlsi.binding.vdi.task.DesktopTask`
 
 See also
 > [DesktopId](vdi.entity.DesktopId.md), [DesktopTaskId](vdi.entity.DesktopTaskId.md), [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md), [ResumeTaskSpec](vdi.task.DesktopTask.ResumeTaskSpec.md)
