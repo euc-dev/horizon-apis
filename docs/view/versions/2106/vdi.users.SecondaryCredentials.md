@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.SecondaryCredentials`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.SecondaryCredentials`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [SecondaryCredentialsDeleteSpec](vdi.users.SecondaryCredentials.DeleteSpec.md), [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md), [SecondaryCredentialsInfo](vdi.users.SecondaryCredentials.SecondaryCredentialsInfo.md), [SecondaryCredentialsSpec](vdi.users.SecondaryCredentials.SecondaryCredentialsSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

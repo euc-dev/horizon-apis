@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.BaseImageSnapshot.BaseImageSnapshotInfo`
 
 Returned by
 > [BaseImageSnapshot_List](vdi.utils.virtualcenter.BaseImageSnapshot.md#list)

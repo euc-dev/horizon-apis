@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachineDefinition`
 
 Parameter to
 > [Desktop_ValidateVmNamesInfo](vdi.resources.Desktop.md#validateVmNamesInfo)

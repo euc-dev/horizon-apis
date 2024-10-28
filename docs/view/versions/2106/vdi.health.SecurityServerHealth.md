@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.SecurityServerHealth`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.SecurityServerHealth`
 
 See also
 > [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md), [SecurityServerId](vdi.entity.SecurityServerId.md)

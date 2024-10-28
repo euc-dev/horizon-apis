@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewayInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Gateway.GatewayInfo`
 
 Returned by
 > [Gateway_Get](vdi.infrastructure.Gateway.md#get), [Gateway_List](vdi.infrastructure.Gateway.md#list)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo`
 
 Returned by
 > [CertificateSSOEnrollmentServer_Get](vdi.infrastructure.CertificateSSOEnrollmentServer.md#get), [CertificateSSOEnrollmentServer_List](vdi.infrastructure.CertificateSSOEnrollmentServer.md#list)

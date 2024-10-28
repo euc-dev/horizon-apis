@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenGenerationSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenGenerationSpec`
 
 Parameter to
 > [JwtToken_Generate](vdi.infrastructure.JwtToken.md#generate)

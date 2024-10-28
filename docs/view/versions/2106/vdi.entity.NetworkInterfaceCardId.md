@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.NetworkInterfaceCardId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.NetworkInterfaceCardId`
 
 Property of
 > [DesktopNetworkInterfaceCardSettings](vdi.resources.Desktop.NetworkInterfaceCardSettings.md#field_detail), [FarmNetworkInterfaceCardSettings](vdi.resources.Farm.NetworkInterfaceCardSettings.md#field_detail), [NetworkInterfaceCardInfo](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardInfo.md#field_detail)

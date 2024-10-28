@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.DataStoreSummaryStatistics`
 
 Property of
 > [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md#field_detail)

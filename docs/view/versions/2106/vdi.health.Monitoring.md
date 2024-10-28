@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring`
 
 See also
 > [APIMetricsInfo](vdi.health.Monitoring.APIMetricsInfo.md), [DesktopCounter](vdi.health.Monitoring.DesktopCounter.md), [DesktopId](vdi.entity.DesktopId.md), [GECounter](vdi.health.Monitoring.GECounter.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [HealthCounter](vdi.health.Monitoring.HealthCounter.md), [PodSessionCounter](vdi.health.Monitoring.PodSessionCounter.md), [SystemStatusCounter](vdi.health.Monitoring.SystemStatusCounter.md)

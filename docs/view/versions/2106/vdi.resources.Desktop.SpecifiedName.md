@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.SpecifiedName`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.SpecifiedName`
 
 Property of
 > [DesktopSpecificNamingSettings](vdi.resources.Desktop.SpecificNamingSettings.md#field_detail), [DesktopSpecificNamingSpec](vdi.resources.Desktop.SpecificNamingSpec.md#field_detail)

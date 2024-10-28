@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Role.RoleBase`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Role.RoleBase`
 
 Property of
 > [RoleInfo](vdi.users.Role.RoleInfo.md#field_detail)

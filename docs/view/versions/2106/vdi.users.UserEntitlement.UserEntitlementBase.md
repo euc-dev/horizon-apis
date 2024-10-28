@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementBase`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.UserEntitlement.UserEntitlementBase`
 
 Property of
 > [UserEntitlementInfo](vdi.users.UserEntitlement.UserEntitlementInfo.md#field_detail)
