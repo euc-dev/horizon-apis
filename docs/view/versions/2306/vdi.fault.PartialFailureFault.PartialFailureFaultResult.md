@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.PartialFailureFault.PartialFailureFaultResult`
+> `com.omnissa.vdi.vlsi.binding.vdi.fault.PartialFailureFault.PartialFailureFaultResult`
 
 Property of
 > [PartialFailureFault](vdi.fault.PartialFailureFault.md#field_detail)

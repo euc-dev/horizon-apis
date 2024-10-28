@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Application.ApplicationSpec`
 
 Parameter to
 > [Application_Create](vdi.resources.Application.md#create)

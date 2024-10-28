@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorDownloadURLInfo`
 
 Returned by
 > [LogCollector_GetDownloadURL](vdi.utils.logcollector.LogCollector.md#getDownloadURL)

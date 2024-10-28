@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec`
 
 Parameter to
 > [RADIUSAuthenticator_Create](vdi.infrastructure.RADIUSAuthenticator.md#create)

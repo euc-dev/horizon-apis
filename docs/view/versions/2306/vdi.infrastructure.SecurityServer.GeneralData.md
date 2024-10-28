@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.GeneralData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SecurityServer.GeneralData`
 
 Property of
 > [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md#field_detail)

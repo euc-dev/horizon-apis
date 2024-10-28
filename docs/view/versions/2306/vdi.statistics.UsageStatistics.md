@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.UsageStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.statistics.UsageStatistics`
 
 See also
 > [UsageStatisticsLicensingCountersInfo](vdi.statistics.UsageStatistics.LicensingCountersInfo.md)

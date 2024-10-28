@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo`
 
 Returned by
 > [EntitledUserOrGroup_Get](vdi.users.EntitledUserOrGroup.md#get), [EntitledUserOrGroup_GetInfos](vdi.users.EntitledUserOrGroup.md#getInfos)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.RCXServerId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.RCXServerId`
 
 Property of
 > [RCXServerInfo](vdi.infrastructure.RCX.RCXServerInfo.md#field_detail)

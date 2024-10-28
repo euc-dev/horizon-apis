@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.FarmHealth.MissingApplicationInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.FarmHealth.MissingApplicationInfo`
 
 Property of
 > [FarmHealthInfo](vdi.health.FarmHealth.FarmHealthInfo.md#field_detail), [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md#field_detail)

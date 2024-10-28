@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo`
 
 Returned by
 > [SAMLAuthenticator_Get](vdi.infrastructure.SAMLAuthenticator.md#get), [SAMLAuthenticator_List](vdi.infrastructure.SAMLAuthenticator.md#list)

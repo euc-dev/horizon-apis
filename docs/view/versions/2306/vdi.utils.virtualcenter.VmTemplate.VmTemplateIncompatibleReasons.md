@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.VmTemplate.VmTemplateIncompatibleReasons`
 
 Property of
 > [VmTemplateInfo](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md#field_detail)

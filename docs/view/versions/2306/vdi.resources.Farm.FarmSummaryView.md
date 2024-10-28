@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.FarmSummaryView`
 
 Returned by
 > [Farm_GetSummaryView](vdi.resources.Farm.md#getSummaryView)

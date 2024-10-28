@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics`
 
 Returned by
 > [VirtualCenterStatistics_getSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#getSummaryStatistics), [VirtualCenterStatistics_listSummaryStatistics](vdi.statistics.VirtualCenterStatistics.md#listSummaryStatistics)

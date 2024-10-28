@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipAudioStatistics`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.Performance.PcoipAudioStatistics`
 
 Property of
 > [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md#field_detail)

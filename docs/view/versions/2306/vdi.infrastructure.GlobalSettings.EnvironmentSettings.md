@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.EnvironmentSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.GlobalSettings.EnvironmentSettings`
 
 Returned by
 > [GlobalSettings_GetEnvironmentSettings](vdi.infrastructure.GlobalSettings.md#getEnvironmentSettings)

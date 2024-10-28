@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine.MachineNamesView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine.MachineNamesView`
 
 See also
 > [MachineBase](vdi.resources.Machine.MachineBase.md), [MachineId](vdi.entity.MachineId.md), [MachineManagedMachineNamesData](vdi.resources.Machine.ManagedMachineNamesData.md), [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md), [MachineNamesData](vdi.resources.Machine.NamesData.md)

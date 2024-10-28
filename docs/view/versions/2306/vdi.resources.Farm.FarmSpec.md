@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.FarmSpec`
 
 Parameter to
 > [Farm_Create](vdi.resources.Farm.md#create)

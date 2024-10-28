@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXClientSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.RCX.RCXClientSpec`
 
 See also
 > [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)

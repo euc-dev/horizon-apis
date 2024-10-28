@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.CEIP`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.CEIP`
 
 See also
 > [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md), [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md), [MapEntry](vdi.util.MapEntry.md)

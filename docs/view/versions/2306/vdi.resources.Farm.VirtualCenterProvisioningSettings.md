@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterProvisioningSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.VirtualCenterProvisioningSettings`
 
 Property of
 > [FarmAutomatedFarmData](vdi.resources.Farm.AutomatedFarmData.md#field_detail), [FarmAutomatedFarmSpec](vdi.resources.Farm.AutomatedFarmSpec.md#field_detail)

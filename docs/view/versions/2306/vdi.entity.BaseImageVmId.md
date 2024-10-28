@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.BaseImageVmId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.BaseImageVmId`
 
 Property of
 > [BaseImageVmInfo](vdi.utils.virtualcenter.BaseImageVm.BaseImageVmInfo.md#field_detail), [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md#field_detail), [DesktopInstantCloneDesktopProvisioningStatusData](vdi.resources.Desktop.InstantCloneProvisioningStatusData.md#field_detail), [DesktopPushImageSpec](vdi.resources.Desktop.PushImageSpec.md#field_detail), [DesktopRecomposeSpec](vdi.resources.Desktop.RecomposeSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail), [FarmImageMaintenanceSettings](vdi.resources.Farm.ImageMaintenanceSettings.md#field_detail), [FarmInstantCloneProvisioningStatusData](vdi.resources.Farm.InstantCloneProvisioningStatusData.md#field_detail), [FarmRecomposeSpec](vdi.resources.Farm.RecomposeSpec.md#field_detail), [FarmVirtualCenterProvisioningData](vdi.resources.Farm.VirtualCenterProvisioningData.md#field_detail), [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md#field_detail)

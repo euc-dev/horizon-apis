@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.Cluster`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.Cluster`
 
 See also
 > [Cluster_KeyInfo](vdi.utils.Cluster.KeyInfo.md)

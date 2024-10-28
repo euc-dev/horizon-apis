@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Farm.ImageManagementMaintenanceSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Farm.ImageManagementMaintenanceSettings`
 
 Property of
 > [FarmMaintenanceSpec](vdi.resources.Farm.MaintenanceSpec.md#field_detail)

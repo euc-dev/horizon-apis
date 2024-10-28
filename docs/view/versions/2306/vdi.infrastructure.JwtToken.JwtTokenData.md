@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.JwtToken.JwtTokenData`
 
 Parameter to
 > [AuthenticationManager_LoginByToken](vdi.AuthenticationManager.md#loginByToken)
