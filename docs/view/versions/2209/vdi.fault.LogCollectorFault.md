@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.LogCollectorFault`
+> `com.omnissa.vdi.vlsi.binding.vdi.fault.LogCollectorFault`
 
 Thrown by
 > [LogCollector_GetLogLevels](vdi.utils.logcollector.LogCollector.md#getLogLevels), [LogCollector_List](vdi.utils.logcollector.LogCollector.md#list), [LogCollector_SetLogLevels](vdi.utils.logcollector.LogCollector.md#setLogLevels)

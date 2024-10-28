@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain.AuxiliaryAccountUpdateData`
 
 Property of
 > [ADDomainAuxiliaryAccountUpdateSpec](vdi.utils.ADDomain.ADDomainAuxiliaryAccountUpdateSpec.md#field_detail)

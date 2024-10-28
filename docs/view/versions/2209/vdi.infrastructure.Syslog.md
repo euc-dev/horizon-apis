@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Syslog`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md)

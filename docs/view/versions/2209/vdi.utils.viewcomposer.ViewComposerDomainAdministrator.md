@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.viewcomposer.ViewComposerDomainAdministrator`
 
 See also
 > [MapEntry](vdi.util.MapEntry.md), [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md), [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md), [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md), [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md), [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

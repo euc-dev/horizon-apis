@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo`
 
 Returned by
 > [DatastorePath_List](vdi.utils.virtualcenter.DatastorePath.md#list)

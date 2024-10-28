@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachinesSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.ManualVirtualMachinesSpec`
 
 Property of
 > [DesktopManualVirtualMachineDefinition](vdi.resources.Desktop.ManualVirtualMachineDefinition.md#field_detail)

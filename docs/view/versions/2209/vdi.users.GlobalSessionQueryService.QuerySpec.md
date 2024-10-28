@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.QuerySpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.GlobalSessionQueryService.QuerySpec`
 
 Parameter to
 > [GlobalSessionQueryService_QueryWithSpec](vdi.users.GlobalSessionQueryService.md#queryWithSpec)

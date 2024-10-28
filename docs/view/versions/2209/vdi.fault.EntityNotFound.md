@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.EntityNotFound`
+> `com.omnissa.vdi.vlsi.binding.vdi.fault.EntityNotFound`
 
 Extends
 > [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.CustomizationSpecId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.CustomizationSpecId`
 
 Property of
 > [CustomizationSpecInfo](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md#field_detail), [DesktopSysprepCustomizationSettings](vdi.resources.Desktop.SysprepCustomizationSettings.md#field_detail), [FarmSysprepCustomizationSettings](vdi.resources.Farm.SysprepCustomizationSettings.md#field_detail)

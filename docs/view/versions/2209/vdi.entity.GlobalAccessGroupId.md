@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.GlobalAccessGroupId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.GlobalAccessGroupId`
 
 Property of
 > [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md#field_detail), [GlobalAccessGroupInfo](vdi.users.GlobalAccessGroup.GlobalAccessGroupInfo.md#field_detail), [GlobalAccessGroupSummaryView](vdi.users.GlobalAccessGroup.GlobalAccessGroupSummaryView.md#field_detail), [GlobalAdminUserOrGroupPrivilegesInfo](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md#field_detail), [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md#field_detail), [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md#field_detail), [InsufficientPermission](vdi.fault.InsufficientPermission.md#field_detail), [PermissionBase](vdi.users.Permission.PermissionBase.md#field_detail), [SessionGlobalReferenceData](vdi.users.Session.SessionGlobalReferenceData.md#field_detail)

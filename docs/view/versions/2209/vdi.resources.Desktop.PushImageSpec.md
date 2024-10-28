@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.PushImageSpec`
 
 Parameter to
 > [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage)

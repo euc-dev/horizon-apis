@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopSummaryData`
 
 Property of
 > [DesktopSummaryView](vdi.resources.Desktop.DesktopSummaryView.md#field_detail)

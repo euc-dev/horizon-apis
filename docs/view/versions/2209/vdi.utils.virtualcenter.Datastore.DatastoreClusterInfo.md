@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo`
 
 Returned by
 > [Datastore_ListDatastoreClustersByHostOrCluster](vdi.utils.virtualcenter.Datastore.md#listDatastoreClustersByHostOrCluster)

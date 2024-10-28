@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ResourceSettings`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ResourceSettings`
 
 See also
 > [ResourceSettingsInfo](vdi.utils.ResourceSettings.ResourceSettingsInfo.md)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.Session.SessionLocalSummaryView`
 
 Returned by
 > [Session_GetLocalSummaryView](vdi.users.Session.md#getLocalSummaryView)
