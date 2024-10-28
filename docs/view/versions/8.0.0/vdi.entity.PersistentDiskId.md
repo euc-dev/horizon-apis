@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.PersistentDiskId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.PersistentDiskId`
 
 Property of
 > [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md#field_detail), [EventData](vdi.infrastructure.EventDatabase.EventData.md#field_detail), [MachineViewComposerData](vdi.resources.Machine.ViewComposerData.md#field_detail), [ManagedMachineDetailsData](vdi.resources.Machine.ManagedMachineDetailsData.md#field_detail), [PersistentDiskIncompatibleReasons](vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons.md#field_detail), [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md#field_detail), [PersistentDiskQueryServiceQuerySpec](vdi.resources.PersistentDiskQueryService.QuerySpec.md#field_detail), [PersistentDiskRecreateMachineInfo](vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo.md#field_detail), [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md#field_detail)

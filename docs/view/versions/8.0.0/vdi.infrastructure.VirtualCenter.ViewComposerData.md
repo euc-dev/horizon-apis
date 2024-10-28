@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.ViewComposerData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.VirtualCenter.ViewComposerData`
 
 Property of
 > [VirtualCenterInfo](vdi.infrastructure.VirtualCenter.VirtualCenterInfo.md#field_detail), [VirtualCenterSpec](vdi.infrastructure.VirtualCenter.VirtualCenterSpec.md#field_detail)

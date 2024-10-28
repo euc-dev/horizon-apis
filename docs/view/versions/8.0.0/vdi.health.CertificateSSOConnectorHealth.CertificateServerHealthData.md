@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateServerHealthData`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.CertificateSSOConnectorHealth.CertificateServerHealthData`
 
 Property of
 > [CertificateSSOConnectorConnectorHealthData](vdi.health.CertificateSSOConnectorHealth.ConnectorHealthData.md#field_detail)

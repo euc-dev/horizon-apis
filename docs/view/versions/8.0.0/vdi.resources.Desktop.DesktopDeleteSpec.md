@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDeleteSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Desktop.DesktopDeleteSpec`
 
 Parameter to
 > [Desktop_Delete](vdi.resources.Desktop.md#delete)

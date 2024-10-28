@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.ViewComposerHealth`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.ViewComposerHealth`
 
 See also
 > [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md), [VirtualCenterId](vdi.entity.VirtualCenterId.md)

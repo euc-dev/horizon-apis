@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.RDSServerId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.RDSServerId`
 
 Property of
 > [EventData](vdi.infrastructure.EventDatabase.EventData.md#field_detail), [FarmHealthRDSServerHealthInfo](vdi.health.FarmHealth.RDSServerHealthInfo.md#field_detail), [FarmManualFarmSpec](vdi.resources.Farm.ManualFarmSpec.md#field_detail), [FarmRecomposeSpec](vdi.resources.Farm.RecomposeSpec.md#field_detail), [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md#field_detail), [RDSServerInfo](vdi.resources.RDSServer.RDSServerInfo.md#field_detail), [RDSServerRegisterResult](vdi.resources.RDSServer.RegisterResult.md#field_detail), [RDSServerStateView](vdi.resources.RDSServer.RDSServerStateView.md#field_detail), [RDSServerSummaryView](vdi.resources.RDSServer.RDSServerSummaryView.md#field_detail), [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md#field_detail)

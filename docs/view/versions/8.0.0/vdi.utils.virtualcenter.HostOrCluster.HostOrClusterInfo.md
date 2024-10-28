@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo`
 
 Property of
 > [HostOrClusterTreeNode](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeNode.md#field_detail)

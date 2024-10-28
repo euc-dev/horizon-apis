@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Machine`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Machine`
 
 See also
 > [MachineDeleteSpec](vdi.resources.Machine.DeleteSpec.md), [MachineId](vdi.entity.MachineId.md), [MachineInfo](vdi.resources.Machine.MachineInfo.md), [MachineRegisterResult](vdi.resources.Machine.RegisterResult.md), [MachineRegisterSpec](vdi.resources.Machine.RegisterSpec.md), [MachineSummaryView](vdi.resources.Machine.MachineSummaryView.md), [MapEntry](vdi.util.MapEntry.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.InvalidLicense`
+> `com.omnissa.vdi.vlsi.binding.vdi.fault.InvalidLicense`
 
 Thrown by
 > [Desktop_Create](vdi.resources.Desktop.md#create), [Farm_Create](vdi.resources.Farm.md#create), [License_Set](vdi.infrastructure.License.md#set)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.PersistentDisk.PersistentDiskInfo`
 
 Returned by
 > [PersistentDisk_Get](vdi.resources.PersistentDisk.md#get)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryView`
+> `com.omnissa.vdi.vlsi.binding.vdi.resources.Application.ApplicationSummaryView`
 
 Returned by
 > [Application_GetSummaryView](vdi.resources.Application.md#getSummaryView), [Application_GetSummaryViews](vdi.resources.Application.md#getSummaryViews), [Application_ListGAECompatibleApplications](vdi.resources.Application.md#listGAECompatibleApplications)

@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.ADDomainId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.ADDomainId`
 
 Property of
 > [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md#field_detail), [CertificateSSOCertificateDomainData](vdi.infrastructure.CertificateSSOEnrollmentServer.DomainData.md#field_detail), [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md#field_detail), [CertificateSSOConnectorHealthEnrollmentServerDomainHealthData](vdi.health.CertificateSSOConnectorHealth.DomainHealthData.md#field_detail), [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md#field_detail), [InvalidDomainCredentials](vdi.fault.InvalidDomainCredentials.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.PodHealth.PodEndpointHealthData`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.PodHealth.PodEndpointHealthData`
 
 Property of
 > [PodHealthData](vdi.health.PodHealth.PodHealthData.md#field_detail)

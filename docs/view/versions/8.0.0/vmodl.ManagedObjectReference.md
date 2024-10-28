@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.ManagedObjectReference`
+> `com.omnissa.vim.binding.vmodl.ManagedObjectReference`
 
 
 ## Data Object Description

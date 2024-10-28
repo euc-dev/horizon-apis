@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.helpdesk.LogonTiming`
+> `com.omnissa.vdi.vlsi.binding.vdi.helpdesk.LogonTiming`
 
 See also
 > [SessionId](vdi.entity.SessionId.md)
