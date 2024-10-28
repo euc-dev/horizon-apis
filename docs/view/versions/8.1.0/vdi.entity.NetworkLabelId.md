@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.NetworkLabelId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.NetworkLabelId`
 
 Property of
 > [DesktopNetworkLabelAssignmentSpec](vdi.resources.Desktop.NetworkLabelAssignmentSpec.md#field_detail), [FarmNetworkLabelAssignmentSpec](vdi.resources.Farm.NetworkLabelAssignmentSpec.md#field_detail), [NetworkLabelInfo](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelInfo.md#field_detail)

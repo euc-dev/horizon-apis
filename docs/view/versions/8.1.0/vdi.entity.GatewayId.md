@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.GatewayId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.GatewayId`
 
 Property of
 > [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md#field_detail), [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md#field_detail)

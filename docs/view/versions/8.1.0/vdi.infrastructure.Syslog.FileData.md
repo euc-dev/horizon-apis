@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.infrastructure.Syslog.FileData`
+> `com.omnissa.vdi.vlsi.binding.vdi.infrastructure.Syslog.FileData`
 
 Property of
 > [SyslogInfo](vdi.infrastructure.Syslog.SyslogInfo.md#field_detail)

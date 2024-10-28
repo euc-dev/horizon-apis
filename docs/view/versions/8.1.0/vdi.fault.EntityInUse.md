@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.fault.EntityInUse`
+> `com.omnissa.vdi.vlsi.binding.vdi.fault.EntityInUse`
 
 Thrown by
 > [Farm_Create](vdi.resources.Farm.md#create), [GSSAPIAuthenticator_Delete](vdi.infrastructure.GSSAPIAuthenticator.md#delete), [ImageManagementAsset_Delete](vdi.utils.imagemanagement.ImageManagementAsset.md#delete), [ImageManagementStream_Delete](vdi.utils.imagemanagement.ImageManagementStream.md#delete), [ImageManagementTag_Delete](vdi.utils.imagemanagement.ImageManagementTag.md#delete), [InstantCloneEngineDomainAdministrator_Delete](vdi.utils.InstantCloneEngineDomainAdministrator.md#delete), [RADIUSAuthenticator_Delete](vdi.infrastructure.RADIUSAuthenticator.md#delete), [SAMLAuthenticator_Delete](vdi.infrastructure.SAMLAuthenticator.md#delete)

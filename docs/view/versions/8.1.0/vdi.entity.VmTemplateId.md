@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.entity.VmTemplateId`
+> `com.omnissa.vdi.vlsi.binding.vdi.entity.VmTemplateId`
 
 Property of
 > [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md#field_detail), [DesktopVirtualCenterProvisioningData](vdi.resources.Desktop.VirtualCenterProvisioningData.md#field_detail), [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md#field_detail), [VmTemplateInfo](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md#field_detail)

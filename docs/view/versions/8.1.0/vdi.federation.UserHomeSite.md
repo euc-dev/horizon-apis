@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.federation.UserHomeSite`
+> `com.omnissa.vdi.vlsi.binding.vdi.federation.UserHomeSite`
 
 See also
 > [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md), [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md), [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md), [UserHomeSiteId](vdi.entity.UserHomeSiteId.md), [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md), [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md), [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md), [UserOrGroupId](vdi.entity.UserOrGroupId.md)

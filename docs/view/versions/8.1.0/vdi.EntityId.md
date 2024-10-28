@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.EntityId`
+> `com.omnissa.vdi.vlsi.binding.vdi.EntityId`
 
 Property of
 > [EntityAlreadyExists](vdi.fault.EntityAlreadyExists.md#field_detail), [EntityInUse](vdi.fault.EntityInUse.md#field_detail), [EntityNotFound](vdi.fault.EntityNotFound.md#field_detail), [InsufficientPermission](vdi.fault.InsufficientPermission.md#field_detail), [InvalidDomainCredentials](vdi.fault.InvalidDomainCredentials.md#field_detail), [InvalidState](vdi.fault.InvalidState.md#field_detail), [LogCollectorFault](vdi.fault.LogCollectorFault.md#field_detail), [PoliciesInfo](vdi.users.Policies.PoliciesInfo.md#field_detail), [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md#field_detail), [UserHomeSiteResolutionInfo](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md#field_detail)

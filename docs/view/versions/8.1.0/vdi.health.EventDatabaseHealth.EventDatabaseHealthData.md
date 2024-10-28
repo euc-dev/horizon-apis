@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthData`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.EventDatabaseHealth.EventDatabaseHealthData`
 
 Property of
 > [EventDatabaseHealthInfo](vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo.md#field_detail)

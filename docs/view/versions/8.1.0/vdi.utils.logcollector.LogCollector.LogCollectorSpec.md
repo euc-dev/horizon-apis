@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorSpec`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.logcollector.LogCollector.LogCollectorSpec`
 
 Parameter to
 > [LogCollector_Collect](vdi.utils.logcollector.LogCollector.md#collect)

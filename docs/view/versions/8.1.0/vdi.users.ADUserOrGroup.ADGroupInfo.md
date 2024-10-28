@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADGroupInfo`
+> `com.omnissa.vdi.vlsi.binding.vdi.users.ADUserOrGroup.ADGroupInfo`
 
 Property of
 > [ADUserInfo](vdi.users.ADUserOrGroup.ADUserInfo.md#field_detail)

@@ -11,7 +11,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.health.Monitoring.MethodMetrics`
+> `com.omnissa.vdi.vlsi.binding.vdi.health.Monitoring.MethodMetrics`
 
 Property of
 > [APIMetrics](vdi.health.Monitoring.APIMetrics.md#field_detail)

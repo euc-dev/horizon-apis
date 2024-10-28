@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vdi.vlsi.binding.vdi.utils.ADDomain`
+> `com.omnissa.vdi.vlsi.binding.vdi.utils.ADDomain`
 
 See also
 > [ADDomainInfo](vdi.utils.ADDomain.ADDomainInfo.md)
