@@ -1252,9 +1252,10 @@ Parameters
 Name| Type| Description
 ---|---|---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Desktop](vdi.resources.Desktop.md) used to make the method call.
-**id**| [DesktopId](vdi.entity.DesktopId.md)|  The entityId of the Desktop on which to validate installed applications
-
-**applicationExePaths**|  xsd:string[]|  Array of applicationExePaths for the applications to be validated
+**id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
+**machines**| [MachineId[]](vdi.entity.MachineId.md)|  The list of machines of which t**id**| [DesktopId](vdi.entity.DesktopId.md)|  The entityId of the Desktop on which to validate installed applications
+**applicationExePaths**|  xsd:string[]|  Array of applicationExePaths for the applications to be validatedhe image is to be applied.
+**pendingImage**|  xsd:boolean|  Set to true if the pending image is to be applied. Else current image is applied
 
 
 
