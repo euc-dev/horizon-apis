@@ -13,7 +13,7 @@ hide:
 
 
 Java Class
-> `com.vmware.vim.binding.vmodl.RuntimeFault`
+> `com.omnissa.vim.binding.vmodl.RuntimeFault`
 
 Extended by
 > [SecurityError](vmodl.fault.SecurityError.md), [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
