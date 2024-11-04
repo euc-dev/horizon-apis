@@ -1,13 +1,13 @@
 ---
 layout: page
-title: VMware View API Reference Documentation - Latest
+title: Omnissa View API Reference Documentation - Latest
 hide:
 #- navigation
 - toc
 ---
 
 
-Welcome to the latest version (v2406) of the VMware View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the latest version (v2406) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
 * [Service Types](versions/2406/mo-types-landing.md)  
 * [Data Object Types](versions/2406/do-types-landing.md)  

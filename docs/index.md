@@ -15,7 +15,7 @@ The following API documentation is provided for each Horizon product.
   url: horizon-server/index.md
   image: ../../../assets/logos/horizon-logo.png
 
-- title: VMware View
+- title: Omnissa View
   #content:
   url: view/index.md
   image: ../../../assets/logos/horizon-logo.png
