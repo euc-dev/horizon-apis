@@ -146,6 +146,7 @@ markdown_extensions:
 
 # Navigation
 nav:
+  - ../apis/
   - Horizon APIs: index.md
   - Horizon Server: 
     - horizon-server/index.md

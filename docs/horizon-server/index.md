@@ -5,7 +5,7 @@ hide:
   #- navigation
   - toc
 ---
-![Horizon Server](../../../assets/logos/horizon-logo.png){ align=right }
+![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
 This is a API documentation for the Horizon Server 2406 also known as Horizon Enterprise.
 
@@ -13,15 +13,15 @@ This API reference provides comprehensive information about status of all Horizo
 
 ## Documentation  
 
-| Name                                                                                                                   | Size |
-|------------------------------------------------------------------------------------------------------------------------| --- |
-| [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc)                                                  | 36 KB |
-| [Horizon Server REST Changelog 2309](docs/HorizonServerRESTChangelog2309.docx)                                         | 34 KB |
-| [Horizon Server REST Changelog 2312](docs/HorizonServerRESTChangelog2312.docx)                                         | 38 KB |
-| [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx)                                         | 38 KB |
-| [Horizon Server API Throttling for REST APIs](docs/HorizonServerAPIThrottlingForRestAPIs.docx)                                | 34 KB |
-| [Horizon Server LCM REST APIs](https://docs.omnissa.com/bundle/Horizon8InstallUpgrade/page/AutomatingUpgradesofConnectionServerWithLCMAPIs.html)                                               | - |
-| [Horizon Server REST Pagination, Filter and Sorting Guide V2](docs/HorizonServerRESTPaginationAndFilterGuideV2.doc)    | 57 KB |
+| Name | Size |
+|---| --- |
+| [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |
+| [Horizon Server REST Changelog 2309](docs/HorizonServerRESTChangelog2309.docx) | 34 KB |
+| [Horizon Server REST Changelog 2312](docs/HorizonServerRESTChangelog2312.docx) | 38 KB |
+| [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx) | 38 KB |
+| [Horizon Server API Throttling for REST APIs](docs/HorizonServerAPIThrottlingForRestAPIs.docx)| 34 KB |
+| [Horizon Server LCM REST APIs](https://docs.omnissa.com/bundle/Horizon8InstallUpgrade/page/AutomatingUpgradesofConnectionServerWithLCMAPIs.html) | - |
+| [Horizon Server REST Pagination, Filter and Sorting Guide V2](docs/HorizonServerRESTPaginationAndFilterGuideV2.doc) | 57 KB |
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
