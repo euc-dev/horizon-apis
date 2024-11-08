@@ -6,7 +6,7 @@ hide:
   - toc
 ---
 
-![Horizon Cloud](../../../assets/logos/Horizon-Cloud-h-lm.png){ align=right }
+![Horizon Cloud](../../../assets/logos/Horizon-Cloud-v-lm.png){ align=right }
 
 ## What is the Horizon Cloud Service Next Gen
 
