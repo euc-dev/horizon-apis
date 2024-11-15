@@ -28,9 +28,9 @@ Since
 Fields specific to machine alias of an assigned user.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User id of the user for whom this machine alias corresponds to. This cannot be a group.
 **alias**|  xsd:string|  Machine alias of the assigned user. If no machine alias is set for the user, then the value will be null. [^1]
  

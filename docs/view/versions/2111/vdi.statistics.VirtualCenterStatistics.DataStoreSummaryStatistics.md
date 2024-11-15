@@ -25,9 +25,9 @@ Since
 Statistics about a Virtual Center datastore.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the data store. [^2]
 **accessible**|  xsd:boolean|  Whether or not this data store is accessible [^1] [^2]
 **path**|  xsd:string|  The path to the data store. [^1] [^2]

@@ -28,9 +28,9 @@ Since
 VMInfo is a set of VM attributes for parent VMs retrieved from the VC.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  VM id [^2]
 **name**|  xsd:string|  VM name [^2]
 **path**|  xsd:string|  VM path [^2]

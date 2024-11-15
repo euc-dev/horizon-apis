@@ -28,9 +28,9 @@ Since
 Data object having 1 on 1 mapping of URL Scheme/protocol with Local Resources (DesktopId or ApplicationId).
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **urlScheme**|  xsd:string|  URL Scheme/protocol used by View Client for URL Filtering.
 **type**|  xsd:string|  **_Since_** Horizon 7.0.2 [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"APPLICATION"</td><td>Application Pool.</td></tr><tr><td>"DESKTOP"</td><td>Desktop Pool.</td></tr></table>
 **urlSchemeHandler**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application that can handle this URL Scheme.  **_Since_** Horizon 7.0.2 [^1] [^203]

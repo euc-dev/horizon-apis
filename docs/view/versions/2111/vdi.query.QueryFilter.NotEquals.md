@@ -33,9 +33,9 @@ Specify that the named member must not be equal to the specified value. The supp
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **value**|  xsd:anyType|  The value to be compared against. [^1]
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)

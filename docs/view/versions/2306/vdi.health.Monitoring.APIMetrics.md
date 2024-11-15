@@ -28,9 +28,9 @@ Since
 Information about how often the API has been invoked since server started.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serviceName**|  xsd:string|  Name of the Service. [^2]
 **methodMetrics**| [MethodMetrics[]](vdi.health.Monitoring.MethodMetrics.md)|  Method metrics. [^2]
  

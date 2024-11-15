@@ -31,9 +31,9 @@ Since
 Thrown if the method tries to perform operation on an entity which is in use.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [EntityId](vdi.EntityId.md)|  The ID of the entity which is in use.
 **usedBy**| [EntityId[]](vdi.EntityId.md)|  An array of entity IDs that entityId is used by.
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

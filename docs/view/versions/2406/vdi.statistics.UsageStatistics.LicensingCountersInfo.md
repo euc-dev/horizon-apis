@@ -28,9 +28,9 @@ Since
 Statistics for the current and highest historical usage since the last reset.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **currentUsage**| [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)|  Current usage numbers. [^2]
 **highestUsage**| [UsageStatisticsLicensingCounters](vdi.statistics.UsageStatistics.LicensingCounters.md)|  The highest usage numbers since the Horizon deployment was first configured or since the last reset. [^2]
 

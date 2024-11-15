@@ -25,9 +25,9 @@ Since
 Settings for QuickPrep customization.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **powerOffScriptName**|  xsd:string|  Power off script. QuickPrep can run a customization script on linked-clone machines before they are powered off. Provide the path to the script on the parent virtual machine. [^1]
 **powerOffScriptParameters**|  xsd:string|  Power off script parameters. Example: p1 p2 p3 [^1]
 **postSynchronizationScriptName**|  xsd:string|  Post synchronization script. QuickPrep can run a customization script on linked-clone machines after they are created, recomposed, and refreshed. Provide the path to the script on the parent virtual machine. [^1]

@@ -25,9 +25,9 @@ Since
 FarmBase is a set of attributes used to uniquely identify and organize the farm.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Unique name for the Farm [^2]
 **displayName**|  xsd:string|  Farm display name. [^1] [^2]
 

@@ -29,10 +29,9 @@ Since
 
 The service interface for managing Image Management Assets.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ImageManagementAsset_CreateAssets, ImageManagementAsset_Delete, ImageManagementAsset_Get, ImageManagementAsset_GetByImageManagementTagAndVirtualCenter, ImageManagementAsset_ListByImageManagementVersion, ImageManagementAsset_Update
 
 
@@ -40,36 +39,36 @@ ImageManagementAsset_CreateAssets, ImageManagementAsset_Delete, ImageManagementA
 
 Adds multiple image management assets.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a image management asset.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **specs**| [ImageManagementAssetSpec[]](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetSpec.md)|  attributes needed to add multiple image management assets.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementAssetId[]](vdi.entity.ImageManagementAssetId.md)| Array of entity ids of each image management asset.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_ASSET_ADDED|  For every image management asset successfully created.
 VLSI_IM_ASSET_ADD_FAILED|  For every image management asset that could not be created.
 
@@ -96,36 +95,36 @@ Show WSDL type definition
 
 Delete an image management asset. Allowed only if the respective stream is not in use.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a image management asset.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  entity id of the image management asset entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityInUse](vdi.fault.EntityInUse.md)| Thrown if a desktop/farm is associated with this image management asset.
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
@@ -135,10 +134,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_ASSET_DELETED|  If the image management asset was successfully deleted.
 VLSI_IM_ASSET_DELETE_FAILED|  If the image management asset could not be deleted.
 
@@ -152,36 +151,36 @@ Show WSDL type definition
 
 Gets the image management asset information (primarily the list of attributes about configured image management asset).
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to get a image management asset.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  entity id of the image management asset entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md)| ImageManagementAssetInfo (attributes about configured Image Management Asset).
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -198,19 +197,19 @@ Show WSDL type definition
 
 Gets the image management asset information (primarily the list of attributes about configured image management asset) associated with image management tag and virtual center.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to get a image management asset.
 VC_CONFIG_VIEW|  privilege is required to get a image management asset.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  entity id of the image management tag entry.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  entity id of the virtual center entry.
@@ -218,18 +217,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementAssetInfo](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md)| ImageManagementAssetInfo (attributes about configured Image Management Asset).
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -246,36 +245,36 @@ Show WSDL type definition
 
 Gets list of image management assets for a given image management version.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list image management assets.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  entity id of the image management version.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementAssetInfo[]](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetInfo.md)| list of image management assets
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -292,18 +291,18 @@ Show WSDL type definition
 
 Update image management asset with the set of attributes.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a image management asset.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementAsset](vdi.utils.imagemanagement.ImageManagementAsset.md) used to make the method call.
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  entity id of the image management asset entry.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^191]
@@ -312,18 +311,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -332,10 +331,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_ASSET_UPDATED|  If the image management asset was successfully updated.
 VLSI_IM_ASSET_UPDATE_FAILED|  If the image management asset could not be updated.
 

@@ -28,9 +28,9 @@ Since
 ApplicationIconSpec needed to create an ApplicationIcon and its association with Application(s).
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **executionData**| [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)|  ApplicationIcon execution data
 
 

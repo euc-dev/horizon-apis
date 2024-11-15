@@ -33,10 +33,9 @@ Representing the configured home site information for users/user groups. It can 
 It is possible that a user is a member of multiple groups and those groups are configured with different home sites within the same GlobalEntitlement, this essentially creates a conflict. UserHomeSite also provides helper methods to aid the discovery and resolution of conflicting home site configurations.
 There's no update supported for UserHomeSite. All update to existing UserHomeSite can be done via delete and create.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 UserHomeSite_Create, UserHomeSite_CreateOrUpdate, UserHomeSite_Delete, UserHomeSite_DeleteUserHomeSites, UserHomeSite_Get, UserHomeSite_GetInfos, UserHomeSite_List, UserHomeSite_Resolve, UserHomeSite_ResolveForGAE, UserHomeSite_ResolveHomeSites
 
 
@@ -49,36 +48,36 @@ It is OK if the specified user is an individual user if they belong to a group t
 It is NOT OK if the specified user is a group if it is NOT already entitled to the specified GlobalEntitlement.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to create a user home site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **base**| [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  Base data for creating a UserHomeSite object
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)| Id The Id of the UserHomeSite object created.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -89,10 +88,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_USER_HOME_SITE_ADDED|  If the user home site was successfully created.
 VLSI_USER_HOME_SITE_ADD_FAILED|  If the user home site could not be created.
 
@@ -109,36 +108,36 @@ If [allowUpdate](vdi.federation.UserHomeSite.UserHomeSitesSpec.md#allowUpdate) i
 If [allowUpdate](vdi.federation.UserHomeSite.UserHomeSitesSpec.md#allowUpdate) is set to false in UserHomeSitesSpec then the behaviour would same as create api. The request will NOT fail if the specified user is a member of another group which already has a different home site.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to create a user home site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **spec**| [UserHomeSitesSpec](vdi.federation.UserHomeSite.UserHomeSitesSpec.md)|  UserHomeSitesSpec which will contain a list of UserHomeSiteBases to be added/updated
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteId[]](vdi.entity.UserHomeSiteId.md)| UserHomeSiteId[]
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -150,10 +149,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_USER_HOME_SITE_ADDED|  If the user home site was successfully created
 VLSI_USER_HOME_SITE_ADD_FAILED|  If the user home site could not be created.
 
@@ -167,36 +166,36 @@ Show WSDL type definition
 
 Remove the home site configuration for the specified UserHomeSite.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to delete a user home site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  the Id for the user/group's existing home site
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -206,10 +205,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_USER_HOME_SITE_DELETED|  If the user home site was successfully deleted.
 VLSI_USER_HOME_SITE_DELETE_FAILED|  If the user home site could not be deleted.
 
@@ -223,36 +222,36 @@ Show WSDL type definition
 
 Remove the home site configuration for all the specified UserHomeSites.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to delete a user home site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **ids**| [UserHomeSiteId[]](vdi.entity.UserHomeSiteId.md)|  the array of Ids for the user/group's existing home sites to be deleted
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -262,10 +261,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_USER_HOME_SITE_DELETED|  If the user home site was successfully deleted.
 VLSI_USER_HOME_SITE_DELETE_FAILED|  If the user home site could not be deleted.
 
@@ -279,36 +278,36 @@ Show WSDL type definition
 
 Retrieve the UserHomeSiteInfo given a UserHomeSiteId. Callers would be able to get a handle of UserHomeSiteId via EntitledUserOrGroup service.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a user home site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  The id of the UserHomeSite object.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteInfo](vdi.federation.UserHomeSite.UserHomeSiteInfo.md)| UserHomeSiteInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -326,36 +325,36 @@ Show WSDL type definition
 
 Retrieve the UserHomeSiteInfo given an array of UserHomeSiteIds. Callers would be able to get a handle of UserHomeSiteId via EntitledUserOrGroup service.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read multiple user home sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **ids**| [UserHomeSiteId[]](vdi.entity.UserHomeSiteId.md)|  The ids of the UserHomeSite object.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteInfo[]](vdi.federation.UserHomeSite.UserHomeSiteInfo.md)| UserHomeSiteInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -375,36 +374,36 @@ Given a user or group, retrieve their list of UserHomeSiteInfo.
 All home site configurations for the UserOrGroup will be returned. They include both globally configured home sites as well as per-GlobalEntitlement overwriting home sites.
 Only home site information configured directly against the specified UserOrGroup will be returned. It will not return any home site information for the groups that UserOrGroup is part of.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to list user home sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id for a user or group
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteInfo[]](vdi.federation.UserHomeSite.UserHomeSiteInfo.md)| UserHomeSiteInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -428,18 +427,18 @@ The resolved home site is always the first element in the returned list, any con
 The resolved home site will be the site that a new persistent resource assignment will take place for this UserOrGroup and GlobalEntitlement.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to resolve user home sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id for an individual user whose home site to be resolved. UserOrGroupId for group is not supported.
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  The Id of the GlobalEntitlement the UserOrGroup is entitled to.
@@ -447,18 +446,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteInfo[]](vdi.federation.UserHomeSite.UserHomeSiteInfo.md)| A list of user home site configurations. The resolved home site will be the first element in the list, followed by conflicting home site configurations. Return null if no home site configuration found.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -482,18 +481,18 @@ The resolved home site is always the first element in the returned list, any con
 The resolved home site will be the site that a new persistent resource assignment will take place for this UserOrGroup and GlobalApplicationEntitlement.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to resolve user home sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id for an individual user whose home site to be resolved. UserOrGroupId for group is not supported.
 
@@ -502,18 +501,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteInfo[]](vdi.federation.UserHomeSite.UserHomeSiteInfo.md)| A list of user home site configurations. The resolved home site will be the first element in the list, followed by conflicting home site configurations. Return null if no home site configuration found.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -540,28 +539,28 @@ Details:
 
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to resolve user home sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserHomeSite](vdi.federation.UserHomeSite.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id for an individual user whose home site to be resolved. UserOrGroupId for group is not supported.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserHomeSiteResolutionInfo[]](vdi.federation.UserHomeSite.UserHomeSiteResolutionInfo.md)| A list of user home site resolution information.
 
 
@@ -572,10 +571,10 @@ Type |  Description
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

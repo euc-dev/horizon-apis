@@ -28,9 +28,9 @@ Since
 Settings related to specified naming of machines.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **startMachinesInMaintenanceMode**|  xsd:boolean|  Allows virtual machines to be customized manually before users can log in and access them. This mode must be exited manually. [^5]
 **numUnassignedMachinesKeptPoweredOn**|  xsd:int|  Number of unassigned machines kept powered on. When updated, this value must be less than or equal to the total number of existing machines in the desktop. [^10] [^8]
 **numMachines**|  xsd:int|  Number of machines in the pool.  **_Since_** Horizon 7.7 [^19] [^72]

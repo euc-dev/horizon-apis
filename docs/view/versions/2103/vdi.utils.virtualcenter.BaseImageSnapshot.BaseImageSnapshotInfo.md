@@ -28,9 +28,9 @@ Since
 BaseImageSnapshotInfo is a set of VM snapshot attributes retrieved from the VC.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  VM Snapshot Id [^2]
 **name**|  xsd:string|  VM Snapshot name [^2]
 **path**|  xsd:string|  VM Snapshot path [^2]

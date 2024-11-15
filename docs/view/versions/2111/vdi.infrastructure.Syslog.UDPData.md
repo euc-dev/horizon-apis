@@ -25,9 +25,9 @@ Since
 Configuration relevant to UDP server based syslog logging.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  Whether or not UDP server based logging is enabled.
 **networkAddresses**|  xsd:string[]|  Array of UDP server network addresses, or null if empty. [^1]
 

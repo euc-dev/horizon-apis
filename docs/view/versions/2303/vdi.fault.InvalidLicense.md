@@ -30,9 +30,9 @@ Since
 An InvalidLicense is thrown if the passed in license is not valid.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

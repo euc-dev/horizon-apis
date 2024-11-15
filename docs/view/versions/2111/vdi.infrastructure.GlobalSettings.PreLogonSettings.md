@@ -25,9 +25,9 @@ Since
 The Configuration which can be accessed without any user authentication on the login page.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enableUIUsernameCaching**|  xsd:boolean|  For UI based clients: [^282] [^283] <br>Non UI based clients should ignore this property. [^6] [^1]
 
 

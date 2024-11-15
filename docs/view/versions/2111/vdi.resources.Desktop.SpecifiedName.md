@@ -31,9 +31,9 @@ Since
 Fields for specifying a VM name and optional user id to entitle the user to the VM in case of dedicated desktops.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **vmName**|  xsd:string|  The name of the machine. [^80]
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User to assign to the machine in case of dedicated desktops. [^1]
 

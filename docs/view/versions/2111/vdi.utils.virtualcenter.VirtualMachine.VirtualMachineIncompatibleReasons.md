@@ -25,9 +25,9 @@ Since
 Reasons that may preclude this VirtualMachine from being used in manual desktop creation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **inUseByLocalDesktop**|  xsd:boolean|  This VirtualMachine is already a machine that belongs to another desktop in this View deployment. If true, this cannot be used in manual desktop creation. [^2]
 **inUseByNonLocalDesktop**|  xsd:boolean|  This VirtualMachine is already a machine that belongs to another desktop in another View deployment which shares the same VC. If true, it is not recommended to use this in manual desktop creation. [^2]
 **viewComposerReplica**|  xsd:boolean|  This VirtualMachine is a View Composer replica. If true, this cannot be used in manual desktop creation. [^2]

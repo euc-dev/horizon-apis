@@ -9,13 +9,13 @@ hide:
 
 Welcome to the Omnissa View API Reference documentation v2106. This API reference provides comprehensive information about all data structures available through the View API:
 
-* [Service Types](mo-types-landing.md)
-* [Data Object Types](do-types-landing.md)
-* [Fault Types](fault-types-landing.md)
-* [All Types](all-types-landing.md)
-* [All Methods](methods-landing.md)
-* [All Properties](properties-landing.md)
-* [Query Service](queries-landing.md)
+* [Service Types](mo-types-landing.md)  
+* [Data Object Types](do-types-landing.md)  
+* [Fault Types](fault-types-landing.md)  
+* [All Types](all-types-landing.md)  
+* [All Methods](methods-landing.md)  
+* [All Properties](properties-landing.md)  
+* [Query Service](queries-landing.md)  
 
 To quickly find any entry, start typing its name in the **Search Bar**.
 
@@ -58,7 +58,7 @@ public void onSuccess(X509Certificate[] chain,
 String thumbprint,
 Result verifyResult,
 boolean trustedChain,
-boolean verifiedAssertions)
+boolean verifiedAssertions)  
 throws SSLException {
 }
 });

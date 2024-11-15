@@ -31,9 +31,9 @@ Since
 Thrown if the method tries to create an entity which already exists.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [EntityId](vdi.EntityId.md)|  The ID of the entity which already exists.
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

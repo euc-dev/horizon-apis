@@ -25,9 +25,9 @@ Since
 Settings for recurring maintenance operations.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **startTime**|  xsd:string|  Configured start time for the recurring maintenance. [^22]
 **maintenancePeriod**|  xsd:string|  This represents the frequency at which to perform recurring maintenance. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DAILY"</td><td>Daily recurring maintenance</td></tr><tr><td>"WEEKLY"</td><td>Weekly recurring maintenance</td></tr><tr><td>"MONTHLY"</td><td>Monthly recurring maintenance</td></tr></table>
 **startInt**|  xsd:int|  Start index for weekly or monthly maintenance. Weekly: 1-7 (Sun-Sat), Monthly: 1-31 [^1] [^8] [^119] [^120]

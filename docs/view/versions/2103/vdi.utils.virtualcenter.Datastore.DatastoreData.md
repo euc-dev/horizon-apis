@@ -28,9 +28,9 @@ Since
 DatastoreData is a set of Datastore attributes retrieved from the VC.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Datastore name [^2]
 **path**|  xsd:string|  Datastore path [^2]
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this datastore [^2]

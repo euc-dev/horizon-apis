@@ -33,9 +33,9 @@ Since
 Basic data about a view composer domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**|  xsd:string|  Fully qualified domain name for the domain administrator account. [^2]
 **userName**|  xsd:string|  Logon user name.
 **password**| [SecureString](vdi.util.SecureString.md)|  Logon password.

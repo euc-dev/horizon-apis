@@ -31,9 +31,9 @@ Since
 Unauthenticated Access User Data Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **loginName**|  xsd:string|  Login name which is used for login from client. If the value is null then loginName of the AD user would be used. [^1]
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  AD user id to associate with Unauthenticated Access. [^2]
 **description**|  xsd:string|  Description of the Unauthenticated Access log on user. [^1]

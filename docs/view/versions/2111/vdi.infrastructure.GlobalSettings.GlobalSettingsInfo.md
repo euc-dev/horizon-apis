@@ -28,9 +28,9 @@ Since
 The Global Settings information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **generalData**| [GlobalSettingsGeneralData](vdi.infrastructure.GlobalSettings.GeneralData.md)|  The general settings data.
 **securityData**| [GlobalSettingsSecurityData](vdi.infrastructure.GlobalSettings.SecurityData.md)|  The global security data.
 **mirageConfiguration**| [GlobalSettingsMirageConfiguration](vdi.infrastructure.GlobalSettings.MirageConfiguration.md)|  The Mirage configuration data.

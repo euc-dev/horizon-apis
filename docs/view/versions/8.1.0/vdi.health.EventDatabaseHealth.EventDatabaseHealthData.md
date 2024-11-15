@@ -25,9 +25,9 @@ Since
 The health of a configured database connection.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serverName**|  xsd:string|  The name of the database server.
 **port**|  xsd:int|  The port of the database server
 **databaseType**|  xsd:string|  The type of the database. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>ORACLE</td><td>An Oracle database</td></tr><tr><td>SQLSERVER</td><td>A SQL server database.</td></tr><tr><td>UNDEFINED</td><td>An undefined database type.</td></tr></table>

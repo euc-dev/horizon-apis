@@ -25,9 +25,9 @@ The DynamicProperty data object type represents a name-value pair.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Path to the property.
 **val**|  xsd:anyType|  Value of the property.
  

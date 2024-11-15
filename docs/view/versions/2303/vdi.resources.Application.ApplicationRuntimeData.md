@@ -25,9 +25,9 @@ Since
 Application runtime information
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userCount**|  xsd:int|  Total number of distinct users using this application [^19] [^2]
  
 

@@ -25,9 +25,9 @@ Since
 Names of other entities related to this managed Machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **hostName**|  xsd:string|  The name of the host on which this Machine is registered. [^1] [^2]
 **datastorePaths**|  xsd:string[]|  The name(s) of datastore(s) occupied by this Machine. [^1] [^14] [^2]
 

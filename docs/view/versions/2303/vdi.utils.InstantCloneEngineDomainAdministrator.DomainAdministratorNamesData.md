@@ -25,9 +25,9 @@ Since
 Additional information about instant clone engine domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **dnsName**|  xsd:string|  FQDN of the domain [^1]
  
 

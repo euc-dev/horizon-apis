@@ -25,9 +25,9 @@ Since
 Certificate template data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Unique name for this template.
 **minimumKeyLength**|  xsd:int|  Minimum key-length of the private/public key associated with the certificate. [^1]
 **hashAlgorithm**|  xsd:string|  Hash algorithm used in the certificate signing request. [^1]

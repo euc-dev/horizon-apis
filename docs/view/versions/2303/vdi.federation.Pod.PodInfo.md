@@ -29,9 +29,9 @@ PodInfo contain information about a pod in a Multi-DataCenter View Pod Federatio
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PodId](vdi.entity.PodId.md)|  Unique identifier for a Pod [^2]
 **site**| [SiteId](vdi.entity.SiteId.md)|  The Id of the site this pod belongs to
 **displayName**|  xsd:string|  Display name for the pod. [^128]

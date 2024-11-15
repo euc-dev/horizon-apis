@@ -28,9 +28,9 @@ Since
 Site base.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **displayName**|  xsd:string|  The name of the site. [^128]
 **description**|  xsd:string|  Detailed description of the site. [^1] [^13]
 **siteURL**|  xsd:string|  The URL of the site. This must specify a protocol (scheme) of http or https.  **_Since_** Horizon 8.13 [^1]

@@ -25,9 +25,9 @@ Since
 General data about a RADIUS authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **label**|  xsd:string|  The label for this RADIUS authenticator. [^294]
 **description**|  xsd:string|  The description of this RADIUS authenticator. [^1] [^13]
 **userNameLabel**|  xsd:string|  The label for the RADIUS authenticator user name.  **_Since_** Horizon 7.11 [^1] [^295]

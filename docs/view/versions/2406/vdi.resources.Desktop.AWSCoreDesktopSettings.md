@@ -28,9 +28,9 @@ Since
 Specification for an AWS core desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **bundleId**|  xsd:string|  ID of the AWS core bundle
 **directoryId**|  xsd:string|  ID of the AWS core directory
 **workspacePowerPolicySettings**| [AWSCoreWorkspacePowerPolicySettings](vdi.resources.Desktop.AWSCoreWorkspacePowerPolicySettings.md)|  Specification for an AWS Core power management settings.

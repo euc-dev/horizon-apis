@@ -29,10 +29,9 @@ Since
 
 Service that supports a pre-defined set of global session queries.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 GlobalSessionQueryService_Delete, GlobalSessionQueryService_GetCount, GlobalSessionQueryService_GetCountWithSpec, GlobalSessionQueryService_GetNext, GlobalSessionQueryService_QueryByBrokeringPod, GlobalSessionQueryService_QueryByDesktop, GlobalSessionQueryService_QueryByPod, GlobalSessionQueryService_QueryByUser, GlobalSessionQueryService_QueryWithSpec
 
 
@@ -40,28 +39,28 @@ GlobalSessionQueryService_Delete, GlobalSessionQueryService_GetCount, GlobalSess
 
 Deletes the server-side state associated with query. To be used after queryByuser, queryByPod, queryByBrokeringPod, queryByDesktop and queryBySpec.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **id**| [QueryId](vdi.entity.QueryId.md)|  from a result set.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -80,18 +79,18 @@ Show WSDL type definition
 
 Returns global session count for combination of parameters. All criteria are optional, though at least one must be specified.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to return a count of query results.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  unique identifier for user or group [^135]
 **pod**| [PodId](vdi.entity.PodId.md)|  unique identifier for pod [^135]
@@ -102,18 +101,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalSessionPodSessionCounter[]](vdi.users.GlobalSessionQueryService.PodSessionCounter.md)| PodSessionCounter with session counts broken down by pods
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -130,36 +129,36 @@ Show WSDL type definition
 
 Returns global session count for combination of parameters. All criteria are optional, though at least one must be specified.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to return a count of query results.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **countSpec**| [GlobalSessionQueryServiceCountSpec](vdi.users.GlobalSessionQueryService.CountSpec.md)|
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalSessionPodSessionCounter[]](vdi.users.GlobalSessionQueryService.PodSessionCounter.md)| PodSessionCounter with session counts broken down by pods
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -177,28 +176,28 @@ Show WSDL type definition
 
 Gets next page from query. To be used with queryByUser, queryByPod, queryByBrokeringPod, queryByDesktop and queryBySpec.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **id**| [QueryId](vdi.entity.QueryId.md)|  from a result set.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| next page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -217,18 +216,18 @@ Show WSDL type definition
 
 Queries global sessions by brokering pod. Create a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted. Server side state will also time out eventually.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to query by brokering pod.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **pod**| [PodId](vdi.entity.PodId.md)|  unique identifier for brokering pod
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for global entitlement [^135]
@@ -240,18 +239,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -270,18 +269,18 @@ Show WSDL type definition
 
 Queries global sessions by desktop and GE for local pod. Create a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted. Server side state will also time out eventually.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to query by desktop.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for desktop
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for global entitlement [^135]
@@ -293,18 +292,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -323,18 +322,18 @@ Show WSDL type definition
 
 Queries sessions by resource/destination pod. Create a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted. Server side state will also time out eventually.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to query by resource/destination pod.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **pod**| [PodId](vdi.entity.PodId.md)|  unique identifier for pod
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for global entitlement [^135]
@@ -346,18 +345,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -376,18 +375,18 @@ Show WSDL type definition
 
 Queries global sessions by user. Create a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted. Server side state will also time out eventually.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to query by user.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  unique identifier for user
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for global entitlement [^135]
@@ -399,18 +398,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -427,36 +426,36 @@ Show WSDL type definition
 
 Queries global sessions based on QuerySpec . Creates a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted. Server side state will also time out eventually.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_SESSIONS_VIEW|  Global session read is required to query by user.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSessionQueryService](vdi.users.GlobalSessionQueryService.md) used to make the method call.
 **querySpec**| [GlobalSessionQueryServiceQuerySpec](vdi.users.GlobalSessionQueryService.QuerySpec.md)|  querySpec to filter the results
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

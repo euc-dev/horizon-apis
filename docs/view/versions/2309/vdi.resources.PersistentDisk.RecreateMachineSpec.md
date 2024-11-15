@@ -30,9 +30,9 @@ Since
 The specification for recreating a machine from a persistent disk.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk. This is required when the spec is used in bulk operation apis like recreateMachines etc.  **_Since_** Horizon 7.8 [^1]
 **machineName**|  xsd:string|  This is only valid if the desktop uses specified naming. [^1] [^196]
  

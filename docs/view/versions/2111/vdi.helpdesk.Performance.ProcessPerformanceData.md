@@ -28,9 +28,9 @@ Since
 The performance data for a process.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **cpu**|  xsd:double|  The cpu utilization. [^1] [^2]
 **memory**|  xsd:double|  The memory utilization. [^1] [^2]
 **disk**|  xsd:double|  The disk utilization. [^1] [^2]

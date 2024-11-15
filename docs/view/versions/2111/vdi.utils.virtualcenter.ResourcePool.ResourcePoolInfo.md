@@ -34,9 +34,9 @@ ResourcePoolInfo aggregates ResourcePoolData retrieved from the VC. It is a tree
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ResourcePoolId](vdi.entity.ResourcePoolId.md)|  ResourcePool Id [^2]
 **resourcePoolData**| [ResourcePoolData](vdi.utils.virtualcenter.ResourcePool.ResourcePoolData.md)|  ResourcePool display data [^2]
 **children**| [ResourcePoolInfo[]](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md)|  Children nodes of the tree-structure [^1] [^2]

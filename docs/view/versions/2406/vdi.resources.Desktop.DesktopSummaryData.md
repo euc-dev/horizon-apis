@@ -28,9 +28,9 @@ Since
 Core attributes of a desktop instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Unique name for the desktop
 **displayName**|  xsd:string|  Desktop display name.
 **enabled**|  xsd:boolean|  Determines if the desktop is enabled

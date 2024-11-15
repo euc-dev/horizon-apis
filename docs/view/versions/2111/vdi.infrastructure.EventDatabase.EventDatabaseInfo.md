@@ -28,9 +28,9 @@ Since
 The EventDatabase info object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventDatabaseSet**|  xsd:boolean|  Whether or not the event database has been set in the backend. This should be effectively treated as read-only, as it will be ignored on update.
 **database**| [EventDatabaseSettings](vdi.infrastructure.EventDatabase.EventDatabaseSettings.md)|  How to reach and log into the database server, plus database settings to use [^1] [^258]
 **settings**| [EventDatabaseEventSettings](vdi.infrastructure.EventDatabase.EventSettings.md)|  Event persistence settings [^1] [^258]

@@ -29,10 +29,9 @@ Since
 
 The object for fetching VirtualMachines from VirtualCenter for manual desktop creation
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 VirtualMachine_List
 
 
@@ -40,37 +39,37 @@ VirtualMachine_List
 
 Gets a list of VMs from VC for manual managed desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of VirtualMachineInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of VirtualMachineInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualMachine](vdi.utils.virtualcenter.VirtualMachine.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VirtualMachineInfo[]](vdi.utils.virtualcenter.VirtualMachine.VirtualMachineInfo.md)| Array of VirtualMachineInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

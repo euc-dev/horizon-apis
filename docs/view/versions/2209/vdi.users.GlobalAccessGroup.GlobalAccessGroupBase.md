@@ -31,9 +31,9 @@ Since
 Base data used for global access group creation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The global access group name. [^2] [^3]
 **description**|  xsd:string|  The global access group description. [^1] [^2] [^4]
 **parent**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  The GlobalAccessGroupId of the access group's parent. This is unset if this is the root access group. [^1] [^2]

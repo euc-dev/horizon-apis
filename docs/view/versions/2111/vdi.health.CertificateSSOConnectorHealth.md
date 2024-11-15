@@ -29,10 +29,9 @@ Since
 
 Service for retrieving health information on CertSSO connectors.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 CertificateSSOConnectorHealth_Get, CertificateSSOConnectorHealth_List
 
 
@@ -40,28 +39,28 @@ CertificateSSOConnectorHealth_Get, CertificateSSOConnectorHealth_List
 
 Gets the health of the specified CertSSO connector.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CertificateSSOConnectorHealth](vdi.health.CertificateSSOConnectorHealth.md) used to make the method call.
 **id**| [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)|  The ID of the CertSSO connector.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateSSOConnectorHealthInfo](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md)| The health of the CertSSO connector.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,26 +77,26 @@ Show WSDL type definition
 
 Gets the health of all CertSSO connectors associated with this View cluster.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CertificateSSOConnectorHealth](vdi.health.CertificateSSOConnectorHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateSSOConnectorHealthInfo[]](vdi.health.CertificateSSOConnectorHealth.CertificateSSOConnectorHealthInfo.md)| The health of all CertSSO connectors.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

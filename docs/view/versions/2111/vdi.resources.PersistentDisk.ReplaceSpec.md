@@ -30,9 +30,9 @@ Since
 The specification for replacing a persistent disk on a machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **machine**| [MachineId](vdi.entity.MachineId.md)|  The ID of the machine to replace the persistent disk. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 **archiveDatastorePath**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  The datastore path to archive the virtual disk to.
 

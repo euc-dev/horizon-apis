@@ -31,9 +31,9 @@ Specify that the named member must be in between the range [fromValue](vdi.query
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **fromValue**|  xsd:anyType|  Start value of the range. [^1]
 **toValue**|  xsd:anyType|  End value of the range. [^1]

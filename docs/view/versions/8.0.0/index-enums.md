@@ -6,13 +6,13 @@ hide:
 - toc
 ---
 
-[Service Types](mo-types-landing.md)
-[Data Object Types](do-types-landing.md)
-[Fault Types](fault-types-landing.md)
-[All Types](all-types-landing.md)
-[All Methods](methods-landing.md)
-[All Properties](index-properties.md)
-[Query Service](index-queries.md)
+[Service Types](mo-types-landing.md)  
+[Data Object Types](do-types-landing.md)  
+[Fault Types](fault-types-landing.md)  
+[All Types](all-types-landing.md)  
+[All Methods](methods-landing.md)  
+[All Properties](index-properties.md)  
+[Query Service](index-queries.md)  
 
 ## All Enumerations
 

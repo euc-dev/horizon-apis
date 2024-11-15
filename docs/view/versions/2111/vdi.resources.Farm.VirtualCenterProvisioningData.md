@@ -28,9 +28,9 @@ Since
 Virtual Center entities associated with this Automated Farm that may not be retrievable.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Base image VM for RDS Servers. Applicable only to View Composer sourced RDS Servers. [^1]
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Base image snapshot for RDS Servers. Applicable only to View Composer sourced RDS Servers. [^1]
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter within which the RDS Servers are configured. [^2]

@@ -29,10 +29,9 @@ Since
 
 The Customer Experience Improvement Program service interface.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 CEIP_Get, CEIP_SetLoginType, CEIP_Update
 
 
@@ -40,34 +39,34 @@ CEIP_Get, CEIP_SetLoginType, CEIP_Update
 
 Gets the CEIP info.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve the CEIP configuration.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CEIP](vdi.infrastructure.CEIP.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CEIPInfo](vdi.infrastructure.CEIP.CEIPInfo.md)| The CEIP info.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -84,28 +83,28 @@ Show WSDL type definition
 
 Set the login type for CEIP reporting.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CEIP](vdi.infrastructure.CEIP.md) used to make the method call.
 **type**| [CEIPLoginTypeSpec](vdi.infrastructure.CEIP.CEIPLoginTypeSpec.md)|  The login type for the current authenticated session.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -122,18 +121,18 @@ Show WSDL type definition
 
 Updates the CEIP info using the update map.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management privilege is required to modify the CEIP configuration.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CEIP](vdi.infrastructure.CEIP.md) used to make the method call.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply. [^245]
 
@@ -141,18 +140,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -161,10 +160,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_CEIP_UPDATED|  If all members were successfully updated, this will be sent for each updated member in the update map.
 VLSI_CEIP_UPDATE_FAILED|  If any member could not be updated.
 

@@ -28,9 +28,9 @@ Specification for Server's Key Derivation
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **publicKey**|  xsd:string|  Base64 encoded Diffie Hellman public key
 **proof**|  xsd:string|  Base64 encoded proof
 **identifier**|  xsd:string|  Base64 encoded identifier

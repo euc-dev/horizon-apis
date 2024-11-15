@@ -28,9 +28,9 @@ Since
 With View Composer, you can configure OS data and user information on separate disks in linked-clone machines. View Composer preserves the user information on the persistent disk when the OS data is updated, refreshed, or rebalanced. A View Composer persistent disk contains user settings and other user-generated data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **redirectWindowsProfile**|  xsd:boolean|  Windows profiles will be redirected to persistent disks, which are not affected by View Composer operations such as refresh, recompose and rebalance. Note(s) :- [^193] [^5] [^2]
 **useSeparateDatastoresPersistentAndOSDisks**|  xsd:boolean|  Whether to use separate datastores for persistent and OS disks. This must be false if [redirectWindowsProfile](vdi.resources.Desktop.PersistentDiskSettings.md#redirectWindowsProfile) is false. [^5] [^1] [^74]
 **persistentDiskDatastores**| [DesktopVirtualCenterDatastoreSettings[]](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)|  Datastores to store persistent disks for View Composer VMs. [^1] [^75]

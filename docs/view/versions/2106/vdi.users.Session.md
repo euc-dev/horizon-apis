@@ -29,10 +29,9 @@ Since
 
 The interface for sessions.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Session_Disconnect, Session_DisconnectSessions, Session_GetLocalSummaryView, Session_Logoff, Session_LogoffForced, Session_LogoffSessions, Session_LogoffSessionsForced, Session_Reset, Session_ResetSessions, Session_Restart, Session_RestartSessions, Session_SendMessage, Session_SendMessages
 
 
@@ -40,37 +39,37 @@ Session_Disconnect, Session_DisconnectSessions, Session_GetLocalSummaryView, Ses
 
 Disconnects a session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to disconnect a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to disconnect a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -80,10 +79,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_DISCONNECTED|  For local sessions, if the session was successfully disconnected.
 ADMIN_DESKTOP_SESSION_DISCONNECT_FAILED|  For local sessions, if the session could not be disconnected.
 VLSI_FEDERATED_DESKTOP_SESSION_DISCONNECT_REQUEST_SENT|  For remote sessions, if a request was successfully made to disconnect the session.
@@ -99,37 +98,37 @@ Show WSDL type definition
 
 Disconnects multiple sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to disconnect a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to disconnect a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -139,10 +138,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_DISCONNECTED|  For local sessions, sent for each session that was successfully disconnected.
 ADMIN_DESKTOP_SESSION_DISCONNECT_FAILED|  For local sessions, sent for each session that could not be disconnected.
 VLSI_FEDERATED_DESKTOP_SESSION_DISCONNECT_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to disconnect the session.
@@ -158,37 +157,37 @@ Show WSDL type definition
 
 Get a local session's summary view.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  Machine read with the corresponding access group permission is sufficient to read a session.
 FEDERATED_SESSIONS_VIEW|  Global session read is sufficient to read a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionId to get the summary view for.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SessionLocalSummaryView](vdi.users.Session.SessionLocalSummaryView.md)| Summary View for the session.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -205,37 +204,37 @@ Show WSDL type definition
 
 Logs off a session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to logoff a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to logoff a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -245,10 +244,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_LOGOFF|  For local sessions, if the session was successfully logged off.
 ADMIN_DESKTOP_SESSION_LOGOFF_FAILED|  For local sessions, if the session could not be logged off.
 VLSI_FEDERATED_DESKTOP_SESSION_LOGOFF_REQUEST_SENT|  For remote sessions, if a request was successfully made to logoff the session.
@@ -264,37 +263,37 @@ Show WSDL type definition
 
 Logs off a session forcibly. This operation will also log off a locked session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to logoff a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to logoff a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -304,10 +303,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_LOGOFF|  For local sessions, if the session was successfully logged off.
 ADMIN_DESKTOP_SESSION_LOGOFF_FAILED|  For local sessions, if the session could not be logged off.
 VLSI_FEDERATED_DESKTOP_SESSION_LOGOFF_REQUEST_SENT|  For remote sessions, if a request was successfully made to logoff the session.
@@ -323,37 +322,37 @@ Show WSDL type definition
 
 Logs off multiple sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to logoff a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to logoff a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -363,10 +362,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_LOGOFF|  For local sessions, sent for each session that was successfully logged off.
 ADMIN_DESKTOP_SESSION_LOGOFF_FAILED|  For local sessions, sent for each session that could not be logged off.
 VLSI_FEDERATED_DESKTOP_SESSION_LOGOFF_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to logoff the session.
@@ -382,37 +381,37 @@ Show WSDL type definition
 
 Logs off multiple sessions forcibly. This operation will also log off all the locked sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to logoff a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to logoff a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -422,10 +421,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_LOGOFF|  For local sessions, sent for each session that was successfully logged off.
 ADMIN_DESKTOP_SESSION_LOGOFF_FAILED|  For local sessions, sent for each session that could not be logged off.
 VLSI_FEDERATED_DESKTOP_SESSION_LOGOFF_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to logoff the session.
@@ -441,37 +440,37 @@ Show WSDL type definition
 
 Resets the session's machine. The machine must be managed by Virtual Center and the session cannot be an application or an RDS desktop session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_REBOOT|  Machine reboot with the corresponding access group permission is sufficient to reset a session's machine.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to reset a session's machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -480,10 +479,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_REBOOTED|  For local sessions, if the session's machine was successfully reset.
 ADMIN_DESKTOP_SESSION_REBOOT_FAILED|  For local sessions, if the session's machine could not be reset.
 VLSI_FEDERATED_DESKTOP_SESSION_RESET_REQUEST_SENT|  For remote sessions, if a request was successfully made to reset the session.
@@ -499,37 +498,37 @@ Show WSDL type definition
 
 Resets multiple sessions' machines. The machines must be managed by Virtual Center and the sessions cannot be application or RDS desktop sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_REBOOT|  Machine reboot with the corresponding access group permission is sufficient to reset a session's machine.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to reset a session's machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -539,10 +538,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_REBOOTED|  For local sessions, sent for each session that the session's machine was successfully reset.
 ADMIN_DESKTOP_SESSION_REBOOT_FAILED|  For local sessions, sent for each session that the the session's machine could not be reset.
 VLSI_FEDERATED_DESKTOP_SESSION_RESET_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to reset the session.
@@ -558,37 +557,37 @@ Show WSDL type definition
 
 Restarts the session's machine. The machine must be managed by Virtual Center and the session cannot be an application or an RDS desktop session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_REBOOT|  Machine reboot with the corresponding access group permission is sufficient to restart a session's machine.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to restart a session's machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -597,10 +596,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_RESTARTED|  For local sessions, if the session's machine was successfully restarted.
 ADMIN_DESKTOP_SESSION_RESTART_FAILED|  For local sessions, if the session's machine could not be restarted.
 VLSI_FEDERATED_DESKTOP_SESSION_RESTART_REQUEST_SENT|  For remote sessions, if a request was successfully made to restart the session.
@@ -616,37 +615,37 @@ Show WSDL type definition
 
 Restarts multiple sessions' machines. The machines must be managed by Virtual Center and the sessions cannot be application or RDS desktop sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_REBOOT|  Machine reboot with the corresponding access group permission is sufficient to restart a session's machine.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to restart a session's machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -656,10 +655,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DESKTOP_SESSION_RESTARTED|  For local sessions, sent for each session that the session's machine was successfully restarted.
 ADMIN_DESKTOP_SESSION_RESTART_FAILED|  For local sessions, sent for each session that the the session's machine could not be restarted.
 VLSI_FEDERATED_DESKTOP_SESSION_RESTART_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to restart the session.
@@ -675,19 +674,19 @@ Show WSDL type definition
 
 Sends a message to a session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to send a message to a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to to send a message to a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  unique identifier for session
 **msgType**|  xsd:string|  Message type: Warning, Info or Error <br>* This parameter will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>WARNING</td><td>WARNING: Message is a warning</td></tr><tr><td>ERROR</td><td>ERROR: Message is an error</td></tr><tr><td>INFO</td><td>INFO: Message is an info</td></tr></table>
@@ -696,18 +695,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -716,10 +715,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SESSION_SENDMSG|  For local sessions, if the session was successfully sent the message.
 ADMIN_SESSION_SENDMSG_FAILED|  For local sessions, if the session could not be sent the message.
 VLSI_FEDERATED_DESKTOP_SESSION_SEND_MESSAGE_REQUEST_SENT|  For remote sessions, if a request was successfully made to send a message to the session.
@@ -735,19 +734,19 @@ Show WSDL type definition
 
 Sends a message to multiple sessions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGE_VDI_SESSION|  Machine session management with the corresponding access group permission is sufficient to send a message to a session.
 FEDERATED_SESSIONS_MANAGE|  Global session management is sufficient to to send a message to a session.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Session](vdi.users.Session.md) used to make the method call.
 **ids**| [SessionId[]](vdi.entity.SessionId.md)|  unique identifiers for the sessions
 **msgType**|  xsd:string|  Message type: Warning, Info or Error <br>* This parameter will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>WARNING</td><td>WARNING: Message is a warning</td></tr><tr><td>ERROR</td><td>ERROR: Message is an error</td></tr><tr><td>INFO</td><td>INFO: Message is an info</td></tr></table>
@@ -756,18 +755,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -777,10 +776,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SESSION_SENDMSG|  For local sessions, sent for each session that was successfully sent a message.
 ADMIN_SESSION_SENDMSG_FAILED|  For local sessions, sent for each session that could not be sent a message.
 VLSI_FEDERATED_DESKTOP_SESSION_SEND_MESSAGE_REQUEST_SENT|  For remote sessions, sent for each request that was successfully made to send a message to the session.

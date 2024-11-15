@@ -28,9 +28,9 @@ Since
 Fields specific to a Managed Machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenterData**| [MachineVirtualCenterData](vdi.resources.Machine.VirtualCenterData.md)|  The Virtual Center information for this Machine. [^2]
 **viewComposerData**| [MachineViewComposerData](vdi.resources.Machine.ViewComposerData.md)|  The View Composer information for this Machine. [^1] [^2]
 **createTime**|  xsd:dateTime|  Time the machine was created. [^1] [^2]

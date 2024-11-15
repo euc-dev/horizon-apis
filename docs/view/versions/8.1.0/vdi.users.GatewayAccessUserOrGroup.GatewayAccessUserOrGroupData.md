@@ -28,9 +28,9 @@ Since
 Gateway Access user or group data object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sid**|  xsd:string|  Security id of this user or group.
 **group**|  xsd:boolean|  Whether or not this is a group or a user. [^1]
 **domain**|  xsd:string|  The domain the user or group is in. This will be the DNS name of the domain. [^1]

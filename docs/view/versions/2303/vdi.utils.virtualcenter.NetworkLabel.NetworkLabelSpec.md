@@ -31,9 +31,9 @@ Specification to hold the cluster or host id and the type of network.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **hostOrClusterId**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  The host or cluster id, network label should belong to.
 **networkType**|  xsd:string|  The type of network, network label should belong to. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"Network"</td><td>Standard network</td></tr><tr><td>"OpaqueNetwork"</td><td>Opaque network</td></tr><tr><td>"DistributedVirtualPortgroup"</td><td>DVS port group</td></tr></table>
  

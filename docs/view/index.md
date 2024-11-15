@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Omnissa View API Reference Documentation - Latest
+title: View API Reference Documentation - Latest
 hide:
 #- navigation
 - toc
 ---
+![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-
-Welcome to the latest version (v2406) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the latest version (v2406) of the View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
 * [Service Types](versions/2406/mo-types-landing.md)  
 * [Data Object Types](versions/2406/do-types-landing.md)  
@@ -17,13 +17,13 @@ Welcome to the latest version (v2406) of the Omnissa View API Reference document
 * [All Properties](versions/2406/properties-landing.md)  
 * [Query Service](versions/2406/queries-landing.md)  
 
-To quickly find any entry, start typing its name in the **Search Bar**. 
+To quickly find any entry, start typing its name in the **Search Bar**.
 
 In addition, the documentation will outline any client library classes that makes the API easier to build against.
 
 ## Connecting to the API
 
-The URL of the API is **https://_server-address_ /view-vlsi/sdk**
+The URL of the API is **https://_server-address_/view-vlsi/sdk**
 
 ### Client library
 

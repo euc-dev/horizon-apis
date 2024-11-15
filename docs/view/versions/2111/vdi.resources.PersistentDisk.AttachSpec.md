@@ -30,9 +30,9 @@ Since
 The specification for attaching a persistent disk to a machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **machine**| [MachineId](vdi.entity.MachineId.md)|  The ID of the machine to attach the persistent disk. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 
 

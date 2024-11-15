@@ -29,10 +29,9 @@ Since
 
 The interface representing a site in a PodFederation. A site is basically a grouping of pods that utilize shared resources: networking, storage, etc. Usually a site comprises of pods in the same datacenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Site_Create, Site_Delete, Site_Get, Site_List, Site_Update
 
 
@@ -40,36 +39,36 @@ Site_Create, Site_Delete, Site_Get, Site_List, Site_Update
 
 Create a new Site. After creation, this site will have no Pod in it. To move a pod to a site, use Pod.upate()
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to create a site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 **base**| [SiteBase](vdi.federation.Site.SiteBase.md)|  SiteBase data containing site name and description
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SiteId](vdi.entity.SiteId.md)| Unique identifier for the created site.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SITE_CREATE_SUCCESS|  If the site was successfully created.
 VLSI_SITE_CREATE_FAILURE|  If the site could not be created.
 
@@ -96,36 +95,36 @@ Show WSDL type definition
 
 Delete a site. This can only be done when the site has no pods in it.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to delete a site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 **id**| [SiteId](vdi.entity.SiteId.md)|  Id of the site to be deleted.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -135,10 +134,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SITE_DELETE_SUCCESS|  If the site was successfully deleted.
 VLSI_SITE_DELETE_FAILURE|  If the site could not be deleted.
 
@@ -152,36 +151,36 @@ Show WSDL type definition
 
 Retrieve the information about a Site.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 **id**| [SiteId](vdi.entity.SiteId.md)|  Id of a site
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SiteInfo](vdi.federation.Site.SiteInfo.md)| SiteInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -199,34 +198,34 @@ Show WSDL type definition
 
 List all the sites in the PodFederation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to list sites.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SiteInfo[]](vdi.federation.Site.SiteInfo.md)| SiteInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -245,18 +244,18 @@ Show WSDL type definition
 Update displayName or description of a site.
 To change site for a pod, use MapEntry[]).
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to update a site.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Site](vdi.federation.Site.md) used to make the method call.
 **id**| [SiteId](vdi.entity.SiteId.md)|  Id of a site
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  name value pairs for update. [^232]
@@ -265,18 +264,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -287,10 +286,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SITE_UPDATE_SUCCESS|  If the site was successfully updated.
 VLSI_SITE_UPDATE_FAILURE|  If the site could not be updated.
 

@@ -25,9 +25,9 @@ Since
 Information about different type of file types supported by Application that can be passed from agent to client via broker.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **type**|  xsd:string|  Type of the OtherFileType currently supported. Other types can be added in future. Examples ApplicationConstants.OtherFileType.URL [^20]
 **name**|  xsd:string|  The name for OtherFileType data. For eg. An object of OtheFileTypeData with type URL can have names http, https or skype. [^20]
 **description**|  xsd:string|  Friendly name for the other file type - for example, "Http Web URL". If unset, no friendly name will be displayed. [^1] [^13]

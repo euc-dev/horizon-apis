@@ -31,9 +31,9 @@ Since
 Base data used for access group creation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The access group name. [^2] [^3]
 **description**|  xsd:string|  The access group description. [^1] [^2] [^4]
 **parent**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The AccessGroupId of the access group's parent. This is unset if this is the root access group. [^1] [^2]

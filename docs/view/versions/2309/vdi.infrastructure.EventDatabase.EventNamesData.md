@@ -25,9 +25,9 @@ Since
 The Event names data Object. This contains the naming attributes related to a particular event.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userSid**|  xsd:string|  Sid of the user associated with this event. Will be unset if there is no User association for this event. [^1]
 **userDisplayName**|  xsd:string|  Display name of the user associated with this event. Will be unset if there is no User association for this event. [^1]
 **desktopName**|  xsd:string|  Name of the Desktop associated with this event. This refers to the unique name used to identify the Desktop. Will be unset if there is no Desktop association for this event. [^1]

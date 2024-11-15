@@ -28,9 +28,9 @@ Since
 Fields specific to Virtual Center.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Id of the Virtual Center managing this Machine. [^2]
 **hostname**|  xsd:string|  The name of the host on which this virtual machine is registered. [^1] [^2]
 **path**|  xsd:string|  The virtual machine path. [^2]

@@ -31,9 +31,9 @@ Information about an active directory container.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ADContainerId](vdi.entity.ADContainerId.md)|  The ID of the active directory container.
 **rdn**|  xsd:string|  The rdn of the active directory container, relative to the root of the domain.
 

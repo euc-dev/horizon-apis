@@ -28,9 +28,9 @@ Specification for Client's Key Derivation
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **publicKey**|  xsd:string|  Base64 encoded Diffie Hellman public key
 **nonce**|  xsd:string|  Base64 encoded nonce
 **identifier**|  xsd:string|  Base64 encoded identifier

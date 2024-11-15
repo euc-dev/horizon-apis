@@ -27,10 +27,9 @@ Since
 
 ## Service Description
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 PersistentDiskQueryService_QueryWithSpec
 
 
@@ -38,37 +37,37 @@ PersistentDiskQueryService_QueryWithSpec
 
 Queries linked clone dedicated machines which has user assigned and populates compatibilities for each machines which user can manage.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 UDD_VIEW|  is required to query by spec.
 MACHINE_MANAGEMENT|  Needed on machines for them to be included in the response.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDiskQueryService](vdi.resources.PersistentDiskQueryService.md) used to make the method call.
 **querySpec**| [PersistentDiskQueryServiceQuerySpec](vdi.resources.PersistentDiskQueryService.QuerySpec.md)|  querySpec to filter the results
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| [QueryResults](vdi.query.QueryResults.md)
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

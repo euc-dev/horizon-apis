@@ -31,9 +31,9 @@ Simple, general purpose query definition. (More complex, hard-coded queries may 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **queryEntityType**|  xsd:string|  Name of the type of object to be returned. The exact list of queryable data objects is defined here: [Queryable Data Objects](index-queries.md)
 **filter**| [QueryFilter](vdi.query.QueryFilter.Filter.md)|  Any filter criteria for this query. [^1]
 **sortBy**|  xsd:string|  Member names to sort by, if any. This attribute must be able to be filtered upon and be one of these types:<br>* xsd:boolean<br>* xsd:int<br>* xsd:long<br>* xsd:string<br>* xsd:dateTime<br>* [EntityId](vdi.EntityId.md) [^1]

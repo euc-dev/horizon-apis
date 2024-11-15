@@ -38,10 +38,10 @@ Results are only returned for users entitled to at least one desktop or applicat
 [localData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#localData) fields only support the [QueryFilterContains](vdi.query.QueryFilter.Contains.md) filter.
 [sessionData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#sessionData), [localData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#localData).[desktopUserEntitlements](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md#desktopUserEntitlements), [localData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#localData).[applicationUserEntitlements](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md#applicationUserEntitlements), [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#base).[inFolder](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#inFolder), [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#base).[phone](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#phone), and [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md#base).[description](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#description) are not allowed member in filters.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop or application read privileges in the corresponding access group are required to filter by or include results for those desktops or applications.
 MACHINE_VIEW|  Machine read privileges in the corresponding access group are required to filter by or include results for those machines.
 UDD_VIEW|  Persistent disk read privileges in the corresponding access group are required to filter by or include results for those persistent disks.
@@ -50,9 +50,9 @@ FEDERATED_SESSIONS_VIEW|  Federated session read privilege or one of the above o
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group, from a local cache. [^2]
 **localData**| [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md)|  Local entitlement data. [^2]

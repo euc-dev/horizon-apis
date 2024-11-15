@@ -26,10 +26,9 @@ Since
 
 The interface for Resource Control Extender (RCX)
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 None
 
 

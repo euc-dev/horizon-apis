@@ -28,9 +28,9 @@ Names data of User, Role and AccessGroup involved in the permission.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userOrGroupName**|  xsd:string|  Name of the user or group for this permission. [^2]
 **roleName**|  xsd:string|  Name of the role for this permission. [^2]
 **accessGroupName**|  xsd:string|  Name of the access group for this permission. [^2]

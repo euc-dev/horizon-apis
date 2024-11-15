@@ -28,9 +28,9 @@ Since
 Basic data about a instant clone engine domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  Domain Id for the domain administrator account. [^2]
 **userName**|  xsd:string|  Logon user name. This user must not be associated with another instant clone domain administrator on the same domain. [^2] [^152]
 **password**| [SecureString](vdi.util.SecureString.md)|  Logon password.

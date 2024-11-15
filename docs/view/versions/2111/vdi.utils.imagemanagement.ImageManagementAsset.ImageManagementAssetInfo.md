@@ -28,9 +28,9 @@ Since
 Top level object describing a image management asset.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  Entity id of image management asset. [^2]
 **base**| [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md)|  Basic data about a image management asset.
 **refId**|  xsd:string|  Reference ID used for this image management asset.  **_Since_** Horizon 8.1 [^1] [^2]

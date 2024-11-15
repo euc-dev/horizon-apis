@@ -29,10 +29,9 @@ Since
 
 Service for fetching Virtual Disks from VirtualCenter that are not already attached to a Linked-Clone VM.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 VirtualDisk_List, VirtualDisk_ListAllDisks
 
 
@@ -40,19 +39,19 @@ VirtualDisk_List, VirtualDisk_ListAllDisks
 
 Gets a list of VirtualDiskInfo from VC for a given datastore. If datastoreId is not specified, it gets the VirtualDisks for all datastores. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of VirtualDiskInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of VirtualDiskInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualDisk](vdi.utils.virtualcenter.VirtualDisk.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  datastore entityId (optional) [^135]
@@ -61,18 +60,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VirtualDiskInfo[]](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md)| Array of VirtualDiskInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -89,37 +88,37 @@ Show WSDL type definition
 
 Gets a list of all VirtualDiskInfo from VC for a given datastore. If datastoreId is not specified, it gets the VirtualDisks for all datastores. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of VirtualDiskInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of VirtualDiskInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualDisk](vdi.utils.virtualcenter.VirtualDisk.md) used to make the method call.
 **virtualDiskListSpec**| [VirtualDiskListSpec](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskListSpec.md)|
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VirtualDiskInfo[]](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskInfo.md)| Array of VirtualDiskInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

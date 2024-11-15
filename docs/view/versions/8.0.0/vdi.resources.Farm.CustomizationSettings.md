@@ -28,9 +28,9 @@ Since
 Customization settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **customizationType**|  xsd:string|  Type of customization to use. For linked-clone RDS Servers, this cannot be changed after creation. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SYS_PREP"</td><td>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep. This is applicable only to RDS servers belonging to Automated Farms.</td></tr><tr><td>"CLONE_PREP"</td><td>ClonePrep is a VMware system tool executed by Instant Clone Engine during an instant clone machine deployment. ClonePrep personalizes each machine created from the Master image. This is applicable only to instant clone farm.</td></tr></table>
 **domainAdministrator**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  View Composer domain administrator. This is the administrator which will add the RDS Servers to its domain upon creation. This must be set for linked-clone RDS Servers. [^1]
 **adContainer**| [ADContainerId](vdi.entity.ADContainerId.md)|  View Composer Active Directory container for QuickPrep. If unset, this will default to the AD container "CN=Computers". [^1]

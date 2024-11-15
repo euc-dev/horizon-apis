@@ -28,9 +28,9 @@ Since
 The health data for a CertSSO connector enrollment server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enrollmentServer**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  The id of the enrollment server.
 **dnsName**|  xsd:string|  The DNS name of the enrollment server.
 **state**|  xsd:string|  The state of the enrollment server health.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Enrollment server is green.</td></tr><tr><td>"ERROR"</td><td>Enrollment server is red.</td></tr></table>

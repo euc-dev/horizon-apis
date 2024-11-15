@@ -28,9 +28,9 @@ Since
 Information about the health of a CertSSO connector.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)|  The ID of the CertSSO connector.
 **displayName**|  xsd:string|  The display name of the connector. [^1]
 **enabled**|  xsd:boolean|  Whether or not the connector is enabled.

@@ -28,9 +28,9 @@ Since
 The root syslog configuration information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **fileData**| [SyslogFileData](vdi.infrastructure.Syslog.FileData.md)|  File based logging data.
 **udpData**| [SyslogUDPData](vdi.infrastructure.Syslog.UDPData.md)|  UDP server based logging data.
 

@@ -25,9 +25,9 @@ Since
 Top level object describing an AD Site.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **siteName**|  xsd:string|  Name of the AD Site. [^2]
 
 

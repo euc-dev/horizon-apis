@@ -39,9 +39,9 @@ Representation of a User Home Site id.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)

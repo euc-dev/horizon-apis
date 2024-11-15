@@ -27,10 +27,9 @@ Since
 
 ## Service Description
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 LogonTiming_GetClientLogonTimingData
 
 
@@ -110,38 +109,38 @@ agent \ clientLogon | shellLoad | How long does it take to load the Windows shel
 agent | appLaunch | For RSDH this times application launching. This only times how long it takes to start the process, not when the application is initialized and functioning.
 **Please Note** , the format of the JSON returned may change between releases.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  Machine read with the corresponding access group permission is sufficient to get a session's timing data.
 POOL_VIEW|  Desktop read with the corresponding access group permission is sufficient to get a session's timing data.
 FEDERATED_SESSIONS_VIEW|  Global session read is sufficient to get a session's timing data.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [LogonTiming](vdi.helpdesk.LogonTiming.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionID to get the timing data for.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:string| Session timing data when View client logs on.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

@@ -25,9 +25,9 @@ Since
 An InvalidType is thrown if the arguments passed an invalid typed parameter to the function.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **parameterName**|  xsd:string|  The name of the invalid parameter [^1]
 **expectedType**|  xsd:string|  The expected type of the parameter. [^1]
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

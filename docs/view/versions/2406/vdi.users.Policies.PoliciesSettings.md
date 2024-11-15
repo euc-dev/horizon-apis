@@ -28,9 +28,9 @@ Since
 Object for specifying a single set of policy overrides. Policies settings objects by themselves may not have meaning outside of the context provided by the complete info objects, as the INHERIT value implies that the actual setting comes from a different settings object. If allowPCoIPHardware acceleration is set to ALLOW, the pcoipHardwareAccelerationPriority must be set.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **allowMultimediaRedirection**|  xsd:string|  Determines whether MMR (Multimedia Redirection, a Microsoft DirectShow filter) is enabled for client systems. MMR is allowed by default. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Allow</td><td>This policy option is set to allow.</td></tr><tr><td>Deny</td><td>This policy option is set to deny.</td></tr><tr><td>Inherit</td><td>This policy option will be inherited from the parent.</td></tr></table>
 **allowUSBAccess**|  xsd:string|  Determines whether machines can use USB devices connected to the client system. USB access is allowed by default. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Allow</td><td>This policy option is set to allow.</td></tr><tr><td>Deny</td><td>This policy option is set to deny.</td></tr><tr><td>Inherit</td><td>This policy option will be inherited from the parent.</td></tr></table>
 **allowRemoteMode**|  xsd:string|  Determines whether users can connect to and use machines running on vCenter Server instances. If set to deny, machines must be used in local mode. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Allow</td><td>This policy option is set to allow.</td></tr><tr><td>Deny</td><td>This policy option is set to deny.</td></tr><tr><td>Inherit</td><td>This policy option will be inherited from the parent.</td></tr></table>

@@ -28,9 +28,9 @@ Since
 Readonly data about this access group.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and role) for this access group. [^1]
 **isDeletable**|  xsd:boolean|  If true, the access group can be deleted, else not. For root access group, the value will always be false.  **_Since_** Horizon 7.8 [^5] [^2]
  

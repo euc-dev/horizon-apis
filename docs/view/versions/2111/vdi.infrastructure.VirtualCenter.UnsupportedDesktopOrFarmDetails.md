@@ -25,9 +25,9 @@ Since
 The details of the desktops and farms which are unsupported.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The desktop name is the unique name used to identify this desktop or farm. [^2]
 **displayName**|  xsd:string|  The display name is the name that users will see when they connect to view client. If the display name is left blank, the identifier will be used. [^1] [^2]
 **description**|  xsd:string|  The description is a set of notes about the desktop. [^1] [^2]

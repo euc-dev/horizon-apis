@@ -27,9 +27,9 @@ Extends
 Thrown when the client is not allowed access to the property or method.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md)
 None

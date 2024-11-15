@@ -28,9 +28,9 @@ Since
 Configuration info for a Certificate SSO Connector.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [CertificateSSOConnectorId](vdi.entity.CertificateSSOConnectorId.md)|  Reference to this connector. [^2]
 **data**| [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)|  Configuration data for a Certificate SSO Connector.
 

@@ -28,9 +28,9 @@ Since
 Gateway Detail Information
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [GatewayId](vdi.entity.GatewayId.md)|  Id for the gateway
 **generalData**| [GatewayGeneralData](vdi.infrastructure.Gateway.GeneralData.md)|  General data for the gateway
 

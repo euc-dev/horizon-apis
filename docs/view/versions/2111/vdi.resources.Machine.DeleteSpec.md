@@ -28,9 +28,9 @@ Since
 The specification for deleting a Machine. For managed VMs, [deleteFromDisk](vdi.resources.Machine.DeleteSpec.md#deleteFromDisk) must be set to true, in order to delete it from disk. For linked-clone VMs, there are three options: a. Delete from disk: set [deleteFromDisk](vdi.resources.Machine.DeleteSpec.md#deleteFromDisk) to true. b. Archive persistent disk in place: set [archivePersistentDisk](vdi.resources.Machine.DeleteSpec.md#archivePersistentDisk) to true, and [archiveDatastorePath](vdi.resources.Machine.DeleteSpec.md#archiveDatastorePath) to null. c. Archive persistent disk to a specific datastore path: set [archivePersistentDisk](vdi.resources.Machine.DeleteSpec.md#archivePersistentDisk) to true, and [archiveDatastorePath](vdi.resources.Machine.DeleteSpec.md#archiveDatastorePath) to non-null.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **deleteFromDisk**|  xsd:boolean|  Determines whether the Machine VM should be deleted from vCenter Server. This is only applicable for managed machines. This must always be true for machines in linked and instant clone desktops. This defaults to true for linked and instant clone machines and false for all other types. <br>Note :- If this is true, then machine being deleted must not have any active user session, otherwise delete operation would fail. [^1]
 **archivePersistentDisk**|  xsd:boolean|  Determines whether to detach the persistent user disk and save it for future use. This can only be specified for linked-clone desktops with [redirectWindowsProfile](vdi.resources.Desktop.PersistentDiskSettings.md#redirectWindowsProfile) enabled, in which case it defaults to true. [^1]
 **archiveDatastorePath**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  Determines the location where the persistent user disk will be saved for future use. If this is unset and [archivePersistentDisk](vdi.resources.Machine.DeleteSpec.md#archivePersistentDisk) is specified, the persistent disk is archived in place. [^1]

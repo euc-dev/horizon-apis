@@ -34,9 +34,9 @@ A generic tree node that either represents a host or cluster or a container whic
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **container**|  xsd:boolean|  Whether or not this node is a container or a legitimate host or cluster. [^2]
 **treeContainer**| [HostOrClusterTreeContainer](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterTreeContainer.md)|  Set only if this node represents a container. [^1] [^2]
 **info**| [HostOrClusterInfo](vdi.utils.virtualcenter.HostOrCluster.HostOrClusterInfo.md)|  Set only if this node represents a host or cluster. [^1] [^2]

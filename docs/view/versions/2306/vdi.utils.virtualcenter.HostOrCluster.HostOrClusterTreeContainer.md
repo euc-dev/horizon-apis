@@ -31,9 +31,9 @@ Information about a host or cluster container.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Host or cluster container node display name. [^2]
 **path**|  xsd:string|  Host or cluster container node path. [^2]
 **type**|  xsd:string|  Type of container. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DATACENTER"</td><td>A datacenter container, which is usually the root of the host or cluster tree.</td></tr><tr><td>"FOLDER"</td><td>A folder container.</td></tr><tr><td>"OTHER"</td><td>Some other container type.</td></tr></table>

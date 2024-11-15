@@ -28,9 +28,9 @@ Since
 Details needed to create a virtual center instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to a virtual center server.
 **description**|  xsd:string|  Human readable description of the virtual center instance. [^1] [^13]
 **displayName**|  xsd:string|  Human readable display name of the virtual center instance. [^1] [^12]

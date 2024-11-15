@@ -25,9 +25,9 @@ Since
 Represents information about an Application that has not been installed in the Desktop, along with an array of machine names that it is missing from.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **applicationExePath**|  xsd:string|  Details of the missing Application execution Path
 **machineNames**|  xsd:string[]|  Array of machine names that this application has not been installed on
  

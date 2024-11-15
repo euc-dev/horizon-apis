@@ -25,9 +25,9 @@ Since
 Statistics on a specific host managed by the Virtual Center server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Virtual Center host. [^2]
 **version**|  xsd:string|  The version of the Virtual Center host. [^1] [^2]
 **status**|  xsd:string|  The status of the Virtual Center host. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>CONNECTED</td><td>The host is successfully connected to Virtual Center server.</td></tr><tr><td>DISCONNECTED</td><td>The host is disconnected from Virtual Center server.</td></tr><tr><td>NOT_RESPONDING</td><td>The host is not responding.</td></tr></table>

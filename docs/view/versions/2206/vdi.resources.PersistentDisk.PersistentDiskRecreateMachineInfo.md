@@ -30,9 +30,9 @@ Since
 deprecated This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk.
 **machine**| [MachineId](vdi.entity.MachineId.md)|  The ID of the Machine.
 

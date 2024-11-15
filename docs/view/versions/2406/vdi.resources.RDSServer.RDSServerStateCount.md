@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **problemCount**| [ProblemCount](vdi.resources.RDSServer.ProblemCount.md)|  Counts of the RDS server machines which are in problem state. [^2]
 **underConstructionCount**| [UnderConstructionCount](vdi.resources.RDSServer.UnderConstructionCount.md)|  Counts of the RDS server machines which are in under construction state. [^2]
 **preparedCount**| [PreparedCount](vdi.resources.RDSServer.PreparedCount.md)|  Counts of the RDS server machines which are in prepared state. [^2]

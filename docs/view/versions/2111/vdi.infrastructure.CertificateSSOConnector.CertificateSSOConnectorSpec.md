@@ -28,9 +28,9 @@ Since
 Specification for creating a Certificate SSO Connector.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **data**| [CertificateSSOConnectorData](vdi.infrastructure.CertificateSSOConnector.CertificateSSOConnectorData.md)|  Configuration data for a Certificate SSO Connector.
 
 

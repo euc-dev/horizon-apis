@@ -31,9 +31,9 @@ Set of attributes for a network label retrieved from the VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The network label's VC display name. [^1] [^2]
 **switchType**|  xsd:string|  The network label's switch type. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"STANDARD_SWITCH"</td><td>Standard Switch</td></tr><tr><td>"DISTRIBUTED_VIRTUAL_SWITCH"</td><td>Distributed Virtual Switch</td></tr><tr><td>"NSX_NETWORK_SWITCH"</td><td>NSX network switch</td></tr></table>
 **incompatibleReasons**| [NetworkLabelIncompatibleReasons](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelIncompatibleReasons.md)|  Reasons that may preclude this NetworkLabel from being used in desktop configuration. [^2]

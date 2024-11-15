@@ -28,9 +28,9 @@ Since
 Specification for a RDS Desktop. An RDS Desktop has a Farm that contains one or more RDS servers.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm needed to create RDS Desktop. This Farm must not already be associated with another RDS desktop. [^2]
 
 

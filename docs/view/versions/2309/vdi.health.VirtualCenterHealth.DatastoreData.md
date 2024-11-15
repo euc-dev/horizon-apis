@@ -28,9 +28,9 @@ Since
 Health information about a Virtual Center datastore.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  The ID of the Datastore.  **_Since_** Horizon 7.9
 **name**|  xsd:string|  The name of the datastore.
 **accessible**|  xsd:boolean|  Whether or not this data store is accessible [^1]

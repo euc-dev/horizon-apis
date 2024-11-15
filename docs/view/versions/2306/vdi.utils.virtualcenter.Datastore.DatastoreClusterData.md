@@ -28,9 +28,9 @@ Since
 DatastoreClusterData is a set of Datastore cluster attributes retrieved from the VC.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Datastore Cluster name [^2]
 **path**|  xsd:string|  Datastore Cluster path [^2]
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this datastore cluster [^2]

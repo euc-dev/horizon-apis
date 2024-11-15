@@ -28,9 +28,9 @@ Since
 Customization settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **customizationType**|  xsd:string|  Type of customization to use. For View Composer and Instant clone engine sourced desktops, this cannot be changed after creation.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>NONE</td><td>No customization. This is applicable only to full clone desktops.</td></tr><tr><td>QUICK_PREP</td><td>QuickPrep is a VMware system tool executed by View Composer during a linked-clone machine deployment. QuickPrep personalizes each machine created from the Master image. This is applicable only to linked clone desktops.</td></tr><tr><td>SYS_PREP</td><td>Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The machine can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.</td></tr><tr><td>CLONE_PREP</td><td>ClonePrep is a VMware system tool executed by Instant Clone Engine during an instant clone machine deployment. ClonePrep personalizes each machine created from the Master image. This is applicable only to instant clone desktops.</td></tr></table>
 **domainAdministrator**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)| **Deprecated.**_This is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View Composer domain administrator. This is the administrator which will add the machines to its domain upon creation. This must be set for linked-clone automated desktops. [^1]
 **instantCloneEngineDomainAdministrator**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)|  Instant Clone Engine domain administrator. This is the administrator which will add the machines to its domain upon creation. This must be set for instant clone automated desktops.  **_Since_** Horizon 8.3 [^1]

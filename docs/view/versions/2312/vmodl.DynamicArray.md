@@ -25,9 +25,9 @@ DynamicArray is a data object type that represents an array of dynamically-typed
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **val**|  xsd:anyType[]|  Array of dynamic values.
 
 

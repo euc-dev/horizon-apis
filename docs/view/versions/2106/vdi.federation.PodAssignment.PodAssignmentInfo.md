@@ -33,18 +33,18 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 The query for Pod assignments.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read access is required to query for Pod assignments.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PodAssignmentId](vdi.entity.PodAssignmentId.md)|  Id of the pod assignment configuration [^2]
 **data**| [PodAssignmentData](vdi.federation.PodAssignment.PodAssignmentData.md)|  Data for the pod assignment configuration. [^2]
 **refId**|  xsd:string|  Reference ID used for this pod assignment.  **_Since_** Horizon 8.1 [^1] [^2]

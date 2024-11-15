@@ -28,9 +28,9 @@ Since
 Task information for a log collector component.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **logCollectorComponentId**| [LogCollectorComponentIdentifier](vdi.utils.logcollector.LogCollector.LogCollectorComponentIdentifier.md)|  Log component identifier. [^1]
 **id**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)|  Unique identifier of a log collector task. [^1]
 **startTime**|  xsd:dateTime|  Start time of the log collection. [^1]

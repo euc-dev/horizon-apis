@@ -38,18 +38,18 @@ Cannot filter on the following MachineSummaryView attributes:
 
 
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  is required to query MachineNamesView.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine. [^2]
 **base**| [MachineBase](vdi.resources.Machine.MachineBase.md)|  Basic Machine information.
 **messageSecurityData**| [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)|  Message security data for this machine.  **_Since_** Horizon View 6.1

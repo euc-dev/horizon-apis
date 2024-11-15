@@ -29,10 +29,9 @@ Since
 
 The Diagnostic operation service interface used for interacting with OmnissaHorizon Diagnostic Agent.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 DiagOperation_Send
 
 
@@ -40,36 +39,36 @@ DiagOperation_Send
 
 Sends the diagnostic request to OmnissaHorizon Diagnostic Agent.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 ADMINISTRATOR_VIEW|  Administrator view privilege is required to retrieve information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DiagOperation](vdi.infrastructure.DiagOperation.md) used to make the method call.
 **request**| [DiagOperationRequest](vdi.infrastructure.DiagOperation.DiagOpRequest.md)|  Diagnostic operation Request
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DiagOperationResponse](vdi.infrastructure.DiagOperation.DiagOpResponse.md)| Diagnostic operation Response
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DIAG_OPERATION_SEND_SUCCEEDED|  is fired if the send operation has succeeded.
 ADMIN_DIAG_OPERATION_SEND_FAILED|  is fired if the send operation has failed.
 

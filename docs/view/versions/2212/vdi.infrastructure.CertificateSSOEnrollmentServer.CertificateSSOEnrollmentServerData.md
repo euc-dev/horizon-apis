@@ -28,9 +28,9 @@ Since
 Configuration data for a Certificate SSO Enrollment Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of this enrollment server. [^1] [^2]
 **networkAddress**|  xsd:string|  DNS name network address of this enrollment server. [^1] [^2]
 **version**|  xsd:string|  Version number of this enrollment server. [^1] [^2]

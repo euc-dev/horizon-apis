@@ -31,18 +31,18 @@ Info on a task.
 
 This data object is queryable using [QueryService](vdi.query.QueryService.md "QueryService").
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to query information about a task.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [TaskId](vdi.entity.TaskId.md)|  The ID of the task. [^2]
 **taskCategory**|  xsd:string|  The category of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>POD_FEDERATION_CATEGORY</td><td>Category for PodFederation related tasks</td></tr></table>
 **taskType**|  xsd:string|  The type of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>POD_FEDERATION_INITIALIZING</td><td>A task performing PodFederation initialize operation</td></tr><tr><td>POD_FEDERATION_UNINITIALIZING</td><td>A task performing PodFederation uninitialize operation</td></tr><tr><td>POD_FEDERATION_JOINING</td><td>A task performing PodFederation join operation</td></tr><tr><td>POD_FEDERATION_UNJOINING</td><td>A task performing PodFederation unjoin operation</td></tr></table>

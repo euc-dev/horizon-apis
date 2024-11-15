@@ -25,9 +25,9 @@ Since
 Naming data for Virtual Center entities associated with this RDS Server clone.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **parentVmPath**|  xsd:string|  Base image path for View Composer RDS Servers. The name is the last element of the path. [^1]
 **snapshotPath**|  xsd:string|  Base image snapshot path for View Composer RDS Servers. The name is the last element of the path. [^1]
 **imageManagementStreamName**|  xsd:string|  Name of image management stream used in instant clone farm when created from image catalog.  **_Since_** Horizon 7.10 [^1] [^2]

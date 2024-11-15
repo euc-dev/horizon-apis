@@ -28,9 +28,9 @@ Since
 The specification for registering an RDSServer.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **dnsName**|  xsd:string|  The DNS name for the RDS Server. [^126]
 **operatingSystem**|  xsd:string|  The operating system of the machine. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>Windows Server 2003</td><td>Windows Server 2003</td></tr><tr><td>Windows Server 2008</td><td>Windows Server 2008</td></tr><tr><td>Windows Server 2008R2</td><td>Windows Server 2008R2</td></tr><tr><td>Windows Server 2012</td><td>Windows Server 2012</td></tr><tr><td>Windows Server 2012R2</td><td>Windows Server 2012R2</td></tr><tr><td>Windows Server 10</td><td>null</td></tr><tr><td>Windows Server 2016</td><td>null</td></tr><tr><td>Linux Server (other)</td><td>Linux server (other)</td></tr></table>
 **farm**| [FarmId](vdi.entity.FarmId.md)|  If specified, will add the machine to the specified Farm. [^1]

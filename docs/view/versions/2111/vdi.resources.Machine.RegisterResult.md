@@ -28,9 +28,9 @@ Since
 The result of registering a machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The ID of the newly registered machine. MachineIds of this type must originate from the [Machine](vdi.resources.Machine.md) service.
 **pairingToken**|  xsd:string|  The pairing token for the machine. This should be passed to the machine.
 

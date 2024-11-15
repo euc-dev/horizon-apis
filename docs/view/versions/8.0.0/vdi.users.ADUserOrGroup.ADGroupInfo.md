@@ -28,9 +28,9 @@ Since
 Info for ADGroup
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **guid**|  xsd:string|  GUID of the group in RFC 4122 format. example: 5F5A45D9-15C0-4654-8FCF-D589C0EF3ECA [^2]
 
 

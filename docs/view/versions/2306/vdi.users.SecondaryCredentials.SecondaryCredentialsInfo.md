@@ -28,9 +28,9 @@ Since
 Secondary Credentials Info Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SecondaryCredentialsId](vdi.entity.SecondaryCredentialsId.md)|  Secondary credentials id. [^2]
 **data**| [SecondaryCredentialsData](vdi.users.SecondaryCredentials.SecondaryCredentialsData.md)|  Secondary Credentials Data Object.
 **refId**|  xsd:string|  Reference ID used for this Secondary credential.  **_Since_** Horizon 8.9 [^1] [^2]

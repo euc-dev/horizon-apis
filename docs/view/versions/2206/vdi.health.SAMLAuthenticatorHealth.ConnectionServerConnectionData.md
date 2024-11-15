@@ -28,9 +28,9 @@ Since
 Health information for a specific connection server's connection to the SAML authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The ID of the connection server.
 **name**|  xsd:string|  The host name of the Connection Server.
 **status**|  xsd:string|  The health status of the SAML authenticator.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>The connection to SAML authenticator is working properly.</td></tr><tr><td>"ERROR"</td><td>Error occurred when connecting to SAML authenticator.</td></tr><tr><td>"WARN"</td><td>The connection to SAML authenticator has minor issues.</td></tr><tr><td>"UNKNOWN"</td><td>State of SAML authenticator is unknown.</td></tr></table>

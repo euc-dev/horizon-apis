@@ -33,9 +33,9 @@ Base for individual filter criteria.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 
 

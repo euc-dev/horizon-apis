@@ -28,9 +28,9 @@ Since
 Session data on the Machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SessionId](vdi.entity.SessionId.md)|  Session id. [^2]
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Id of the user involved in this session. [^2]
 **userName**|  xsd:string|  Name of the user involved in this session. [^2]

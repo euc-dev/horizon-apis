@@ -28,9 +28,9 @@ Reasons that may preclude this NetworkLabel from being used to configure desktop
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **notConfiguredOnAllHosts**|  xsd:boolean|  Whether or not the network label is configured on all hosts in a cluster. If true, this network label cannot be used in desktop configuration. [^2]
 **dvsUplinkPort**|  xsd:boolean|  Whether or not the network label has the standard name of the distributed virtual switch uplink port, which cannot be assigned to virtual machines. If true, this network label cannot be used in desktop configuration. [^2]
 **vmcNetworks**|  xsd:boolean|  Whether or not network label belongs to "VMC Networks". If true, this network label cannot be used in desktop configuration.  **_Since_** Horizon 7.8 [^2]

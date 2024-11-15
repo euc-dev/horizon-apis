@@ -28,9 +28,9 @@ Since
 Fields common to all types of Machines.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Machine. [^2]
 **dnsName**|  xsd:string|  DNS name for the Machine. [^1] [^2]
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)| **Deprecated.**_use[users](vdi.resources.Machine.MachineBase.md#users) instead. This field will not be populated for machine belonging to pool which support multiple assignment. _ The user assigned to the Machine. This cannot be a group. [^1]

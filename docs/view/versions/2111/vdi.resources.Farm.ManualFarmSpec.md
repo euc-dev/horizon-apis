@@ -28,9 +28,9 @@ Since
 Manual Farm spec data needed to create a Manual Farm
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **rdsServers**| [RDSServerId[]](vdi.entity.RDSServerId.md)|  Entity IDs of RDS Servers in the Manual Farm
 
 

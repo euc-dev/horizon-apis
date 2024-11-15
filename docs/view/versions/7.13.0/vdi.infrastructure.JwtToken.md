@@ -29,10 +29,9 @@ Since
 
 Service interface for JWT Token.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 JwtToken_Generate, JwtToken_GetPublicKeys
 
 
@@ -40,10 +39,10 @@ JwtToken_Generate, JwtToken_GetPublicKeys
 
 Generates JWT token.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [JwtToken](vdi.infrastructure.JwtToken.md) used to make the method call.
 **spec**| [JwtTokenGenerationSpec](vdi.infrastructure.JwtToken.JwtTokenGenerationSpec.md)| [^135]
 
@@ -51,18 +50,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [JwtTokenInfo](vdi.infrastructure.JwtToken.JwtTokenInfo.md)| The generated JWT token.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -71,10 +70,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_JWT_TOKEN_GENERATED|  if JWT token creation succeeds.
 VLSI_JWT_TOKEN_GENERATION_FAILED|  if JWT token generation fails.
 
@@ -88,26 +87,26 @@ Show WSDL type definition
 
 Retrieves public keys for validating JWT token. This API can be used by unauthenticated sessions to retrieves public keys for validating JWT tokens.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [JwtToken](vdi.infrastructure.JwtToken.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [JwtPublicKeyInfo[]](vdi.infrastructure.JwtToken.JwtPublicKeyInfo.md)| The JwtPublicKeyInfo list.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

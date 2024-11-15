@@ -25,9 +25,9 @@ Since
 The imaging related statistics for Blast protocol.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **framesPerSecond**|  xsd:long|  Number of image frames per second. [^1] [^2]
 **bytesReceived**|  xsd:long|  The number of bytes of imaging data that have been received. [^1] [^2]
 **bytesTransmitted**|  xsd:long|  The number of bytes of imaging data that have been transmitted. [^1] [^2]

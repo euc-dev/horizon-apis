@@ -25,9 +25,9 @@ Since
 JWT token creation spec.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **validityTime**|  xsd:int|  Token validity time in mins. [^284] [^1]
  
 

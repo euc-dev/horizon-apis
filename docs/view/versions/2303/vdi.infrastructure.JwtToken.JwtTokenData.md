@@ -25,9 +25,9 @@ Since
 JWT token data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **token**|  xsd:string|  JWT token.
  
 

@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ServiceAccountCredentialsId](vdi.entity.ServiceAccountCredentialsId.md)|  The id of Service account.
 **password**| [SecureString](vdi.util.SecureString.md)|  Service account user password.
 

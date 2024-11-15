@@ -27,9 +27,9 @@ Since
 Information on the connections through the Security Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numTunneledSessions**|  xsd:int|  The number of connections tunneled through this security server.
 **numPSGSessions**|  xsd:int|  The number of PCoIP Secure Gateway sessions.
 

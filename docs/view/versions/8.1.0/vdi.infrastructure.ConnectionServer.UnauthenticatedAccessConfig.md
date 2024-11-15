@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  Indicates whether unauthenticated access is enabled in this connection server.
 **defaultUser**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Default user for unauthenticated access in this connection server. It is optional when the unauthenticated access is being enabled and no unauthenticated access users were created. [^1]
 **userIdleTimeout**|  xsd:int|  Unauthenticated Access user idle session timeout in minutes. The default value is 10 minutes. [^45] [^1]

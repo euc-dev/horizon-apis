@@ -28,9 +28,9 @@ Since
 Information about the health of a SAML authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)|  The ID of the SAML Authenticator.
 **data**| [SAMLAuthenticatorHealthData](vdi.health.SAMLAuthenticatorHealth.SAMLAuthenticatorHealthData.md)|  Basic information about the SAML authenticator.
 **connectionServerData**| [SAMLAuthenticatorHealthConnectionServerConnectionData[]](vdi.health.SAMLAuthenticatorHealth.ConnectionServerConnectionData.md)|  Information about the SAML authenticator connections from each configured connection server. [^1]

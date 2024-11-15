@@ -28,9 +28,9 @@ Since
 Naming data for partner desktop entities associated with this Desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **awsCoreDesktopNamesData**| [AWSCoreDesktopNamesData](vdi.resources.Desktop.AWSCoreDesktopNamesData.md)|  Naming data for AWS desktop entities. [^1]
 
 

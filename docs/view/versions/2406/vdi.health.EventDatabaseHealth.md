@@ -29,10 +29,9 @@ Since
 
 Service for retrieving health information on the event database.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 EventDatabaseHealth_Get
 
 
@@ -40,10 +39,10 @@ EventDatabaseHealth_Get
 
 Gets the health of the event database connection.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabaseHealth](vdi.health.EventDatabaseHealth.md) used to make the method call.
 **skipEventStatistics**|  xsd:boolean|  Indicates whether EventStatistics needs to be loaded or not. Default is false. [^135]
 
@@ -51,18 +50,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EventDatabaseHealthInfo](vdi.health.EventDatabaseHealth.EventDatabaseHealthInfo.md)| The health of the event database connection.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

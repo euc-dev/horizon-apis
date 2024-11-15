@@ -25,9 +25,9 @@ Since
 The RSA SecurID settings for authentication to a connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **secureIdEnabled**|  xsd:boolean|  Whether SecurID authentication is required.
 **nameMapping**|  xsd:boolean|  Indicates how SecurID names map to AD usernames. It is False for not mapped. [^1]
 **clearNodeSecret**|  xsd:boolean|  When set to 1 the SecurID Node Secret is cleared [^1]

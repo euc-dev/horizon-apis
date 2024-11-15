@@ -28,9 +28,9 @@ Since
 Top level object describing a view composer domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  Entity id for the view composer domain administrator. [^2]
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Basic data about a view composer domain administrator.
 

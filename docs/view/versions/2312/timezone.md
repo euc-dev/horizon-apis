@@ -10,17 +10,17 @@ hide:
 Valid timeZone values are based on the tz (timezone) database used by Linux and other Unix systems. The values are strings (xsd:string) in the form “**Area/Location** ,” in which:
 
 * **Area** is a continent or ocean name. Area currently includes:
-* Africa
-* America (both North America and South America)
-* Antarctica
-* Arctic
-* Asia
-* Atlantic
-* Australia
-* Europe
-* Etc (administrative zone. For example, “Etc/UTC” represents Coordinated Universal Time.)
-* Indian
-* Pacific
+  * Africa
+  * America (both North America and South America)
+  * Antarctica
+  * Arctic
+  * Asia
+  * Atlantic
+  * Australia
+  * Europe
+  * Etc (administrative zone. For example, “Etc/UTC” represents Coordinated Universal Time.)
+  * Indian
+  * Pacific
 * **Location** is the city, island, or other regional name.
 
 The zone names and output abbreviations adhere to POSIX (portable operating system interface) UNIX conventions, which uses positive (+) signs west of Greenwich and negative (-) signs east of Greenwich, which is the opposite of what is generally expected. For example, “Etc/GMT+4” corresponds to 4 hours behind UTC (that is, west of Greenwich) rather than 4 hours ahead of UTC (Coordinated Universal Time) (east of Greenwich).

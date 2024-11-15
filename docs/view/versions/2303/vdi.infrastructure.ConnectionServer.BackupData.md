@@ -25,9 +25,9 @@ Since
 Class for Ldap Backup Configuration.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **ldapBackupFrequencyTime**|  xsd:string|  Ldap Backup Frequency.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"HOUR_1"</td><td>Backup every 1 hour.</td></tr><tr><td>"HOUR_6"</td><td>Backup every 6 hours.</td></tr><tr><td>"HOUR_12"</td><td>Backup every 12 hours.</td></tr><tr><td>"DAY_1"</td><td>Backup every 1 day.</td></tr><tr><td>"DAY_2"</td><td>Backup every 2 days.</td></tr><tr><td>"WEEK_1"</td><td>Backup every 1 week.</td></tr><tr><td>"WEEK_2"</td><td>Backup every 2 weeks.</td></tr><tr><td>"HOUR_0"</td><td>Never Backup.</td></tr></table>
 **ldapBackupMaxNumber**|  xsd:int|  Maximum number of backups. [^8]
 **ldapBackupFolder**|  xsd:string|  Location of the backup folder.

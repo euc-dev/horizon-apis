@@ -42,18 +42,18 @@ The fields which can be used in filters are:
 
 
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required to query Farm summary View.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID [^2]
 **data**| [FarmSummaryData](vdi.resources.Farm.FarmSummaryData.md)|  Farm summary Data [^2]
 

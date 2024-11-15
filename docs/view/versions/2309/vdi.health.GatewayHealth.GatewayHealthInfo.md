@@ -28,9 +28,9 @@ Since
 Gateway Health Information
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [GatewayId](vdi.entity.GatewayId.md)|  Id for the gateway.
 **name**|  xsd:string|  Name of the gateway. [^2]
 **address**|  xsd:string|  IP address of the gateway. [^2]

@@ -31,9 +31,9 @@ Since
 Basic data about an Image Management Tag.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The tag name used to identify this tag. It is unique among all the tags of a Stream. [^148]
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Entity id of image management stream to which this tag belongs. [^2]
 **imageManagementVersion**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Entity id of image management version to which this tag is assigned.

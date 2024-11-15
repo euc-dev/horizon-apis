@@ -28,9 +28,9 @@ Since
 The base unchecked View faults.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **errorMessage**|  xsd:string|  The message associated with this fault.
 Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md)
 None

@@ -44,10 +44,10 @@ The following caveats apply:
 
 
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  Machine read permission is sufficient to get HelpdeskActivityView.
 POOL_VIEW|  Pool read permission is sufficient to get HelpdeskActivityView.
 FEDERATED_SESSIONS_VIEW|  Global session read permission is sufficient to get HelpdeskActivityView.
@@ -55,9 +55,9 @@ FEDERATED_SESSIONS_VIEW|  Global session read permission is sufficient to get He
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventId**|  xsd:int|  ID of the event in Event Database.
 **time**|  xsd:dateTime|  Time at which the event occurred, measured from the epoch (January 1, 1970).
 **message**|  xsd:string|  Event message. Language of this message will be dependent on the locale. Locale can be set at request or session level. Request level locale can be provided by adding X-VIEW-LOCALE request header and session level locale can be set by invoking [AuthenticationManager_SetLocale](vdi.AuthenticationManager.md#setLocale) method after login. Request level locale will be given priority over session level locale. If not set explicitly, locale will default to English language.

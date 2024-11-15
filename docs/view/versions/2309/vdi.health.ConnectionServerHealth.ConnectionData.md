@@ -25,9 +25,9 @@ Since
 Data on the number of connections to the connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numConnections**|  xsd:int|  The number of connections to this connection server.
 **numConnectionsHigh**|  xsd:int|  The high water mark of connections to this connection server.
 **numViewComposerConnections**|  xsd:int| **Deprecated.**_This property is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ The number of View Composer machine connections brokered by this connection server.

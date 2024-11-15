@@ -28,9 +28,9 @@ Since
 Site base.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **displayName**|  xsd:string|  The name of the site. <br>* This property has a maximum length of 64 characters.
 **description**|  xsd:string|  Detailed description of the site. [^1] [^13]
 

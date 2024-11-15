@@ -30,9 +30,9 @@ Since
 The base data object type for all runtime faults that can be thrown by a method.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None

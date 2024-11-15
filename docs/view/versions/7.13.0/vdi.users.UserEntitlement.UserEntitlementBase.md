@@ -34,9 +34,9 @@ Base data used for user entitlement creation.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user or group for this user entitlement. [^2]
 **resource**| [EntityId](vdi.EntityId.md)|  The resource id for this user entitlement. The valid types of resource ids are: [^311] [^221] [^222] [^223] [^224] [^2]
 

@@ -25,9 +25,9 @@ Since
 Statistics for Session protocol.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numBlastSessions**|  xsd:int|  The number of sessions using blast. [^2]
 **numPcoipSessions**|  xsd:int|  The number of sessions using pcoip. [^2]
 **numRdpSessions**|  xsd:int|  The number of sessions using RDP. [^2]

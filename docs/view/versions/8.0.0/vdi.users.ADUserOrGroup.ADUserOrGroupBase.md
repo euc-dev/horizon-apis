@@ -25,9 +25,9 @@ Since
 Basic active directory data for a user or group. This is populated from locally or globally cached LDAP FSPs if available, otherwise it is obtained from AD.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sid**|  xsd:string|  Security id of this user or group. [^2]
 **group**|  xsd:boolean|  Whether or not this is a group or a user. [^2]
 **domain**|  xsd:string|  The domain the user or group is in. This will be the DNS name of the domain. [^1] [^2]

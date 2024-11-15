@@ -29,10 +29,9 @@ Since
 
 The service for fetching Microsoft Remote Assistant ticket.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 RemoteAssistantTicket_Get
 
 
@@ -40,37 +39,37 @@ RemoteAssistantTicket_Get
 
 Get a Microsoft Remote Assistance ticket by session Id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 REMOTE_ASSISTANCE|  privilege is required to get a Microsoft Remote Assistant ticket.
 MACHINE_MANAGEMENT|  is sufficient to get Microsoft Remote Assistant ticket.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RemoteAssistantTicket](vdi.helpdesk.RemoteAssistantTicket.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionID to get a Microsoft Remote Assistance ticket for.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [RemoteAssistantTicketInfo](vdi.helpdesk.RemoteAssistantTicket.RemoteAssistantTicketInfo.md)| The Microsoft Remote Assistant ticket
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SESSION_REMOTE_ASSISTANT_TICKET|  For local sessions, if a Microsoft Remote Assistant ticket is successfully obtained.
 ADMIN_SESSION_REMOTE_ASSISTANT_TICKET_FAILED|  For local sessions, if unable to obtain a Microsoft Remote Assistant ticket.
 VLSI_FEDERATED_DESKTOP_SESSION_REMOTE_ASSISTANT_TICKET_REQUEST_SENT|  For remote sessions, if a request was successfully made to obtain a Microsoft Remote Assistant ticket.

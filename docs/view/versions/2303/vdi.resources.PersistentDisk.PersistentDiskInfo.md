@@ -36,9 +36,9 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 All fields except [storage](vdi.resources.PersistentDisk.PersistentDiskInfo.md#storage).[capacityMB](vdi.resources.PersistentDisk.PersistentDiskStorageData.md#capacityMB) can be queried.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk.
 **general**| [PersistentDiskGeneralData](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md)|  General information on the persistent disk.
 **storage**| [PersistentDiskStorageData](vdi.resources.PersistentDisk.PersistentDiskStorageData.md)|  Storage information on the persistent disk.

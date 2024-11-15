@@ -25,9 +25,9 @@ Since
 Event statistics.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numTotalEvents**|  xsd:int|  Total number of events recorded in the database. [^2]
 **numEventsForConsole**|  xsd:int|  Number of events that are going to be shown in admin console. [^2]
  

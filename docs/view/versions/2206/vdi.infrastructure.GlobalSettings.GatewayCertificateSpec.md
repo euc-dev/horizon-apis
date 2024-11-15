@@ -25,9 +25,9 @@ Since
 Details needed to add certificate for Gateway
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **certificateName**|  xsd:string|  Name of the certificate to be used as identifier in the system
 **certificate**|  xsd:string|  Certificate content in base64 format
 

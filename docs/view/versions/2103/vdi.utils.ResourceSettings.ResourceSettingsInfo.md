@@ -28,9 +28,9 @@ Since
 The Resource Settings information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **logoffSettings**| [LogoffSettings](vdi.utils.ResourceSettings.LogoffSettings.md)|  The Logoff Settings information. [^1] [^2]
 
 

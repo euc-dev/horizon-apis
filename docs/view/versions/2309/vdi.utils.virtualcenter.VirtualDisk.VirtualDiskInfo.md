@@ -31,9 +31,9 @@ VirtualDisk info
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VirtualDiskId](vdi.entity.VirtualDiskId.md)|  VirtualDisk entityId [^2]
 **data**| [VirtualDiskData](vdi.utils.virtualcenter.VirtualDisk.VirtualDiskData.md)|  VirtualDiskData [^2]
  

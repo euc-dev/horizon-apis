@@ -25,9 +25,9 @@ Since
 Supports custom mapping for certificate authentication.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **distributionPoints**|  xsd:string[]|  List of CRL distribution points URLs, from where CRLs needs to be fetched. [^1]
 **folderPath**|  xsd:string|  Storage folder path that will used to store and refresh the CRLs. [^1]
 **refreshPeriodMinutes**|  xsd:int|  Time Interval (in minutes) to refresh CRLs. [^269] [^1] [^8]

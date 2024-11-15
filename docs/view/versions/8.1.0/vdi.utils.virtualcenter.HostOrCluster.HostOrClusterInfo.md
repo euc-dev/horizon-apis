@@ -31,9 +31,9 @@ Information about a host or cluster.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  Host or Cluster Id [^2]
 **cluster**|  xsd:boolean|  Whether or not this is a cluster or a host. [^2]
 **name**|  xsd:string|  Host or cluster display name [^2]

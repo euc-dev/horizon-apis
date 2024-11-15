@@ -25,9 +25,9 @@ Since
 Response object for the name validation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **isUnique**|  xsd:boolean|  Whether the value is unique. [^2]
  
 

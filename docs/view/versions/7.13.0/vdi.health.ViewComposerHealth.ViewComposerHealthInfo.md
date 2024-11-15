@@ -28,9 +28,9 @@ Since
 Information about the health of a View Composer server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serverName**|  xsd:string|  The host name or ip address for the View Composer server.
 **port**|  xsd:int|  the port number configured for the View Composer server [^1]
 **data**| [ViewComposerHealthData](vdi.health.ViewComposerHealth.ViewComposerHealthData.md)|  Basic information about the View Composer server.

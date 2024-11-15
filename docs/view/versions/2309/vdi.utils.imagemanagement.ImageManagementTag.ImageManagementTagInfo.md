@@ -28,9 +28,9 @@ Since
 Top level object describing a image management tag.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  Entity id image management tag. [^2]
 **base**| [ImageManagementTagBase](vdi.utils.imagemanagement.ImageManagementTag.ImageManagementTagBase.md)|  Basic data about a image management tag.
 **refId**|  xsd:string|  Reference ID used for this image management tag.  **_Since_** Horizon 8.1 [^1] [^2]

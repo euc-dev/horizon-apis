@@ -28,9 +28,9 @@ Since
 Configuration relevant to file based syslog logging.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  Whether or not local/remote file based logging is enabled for all events.
 **enabledOnError**|  xsd:boolean|  Whether or not local/remote file based logging is enabled for audit events when there is any error in writing events to EventDatabase or syslog. Note that if both attributes [enabled](vdi.infrastructure.Syslog.FileData.md#enabled) and [enabledOnError](vdi.infrastructure.Syslog.FileData.md#enabledOnError) are set, then precedence would be given to [enabled](vdi.infrastructure.Syslog.FileData.md#enabled).  **_Since_** Horizon 7.9 [^1]
 **uncPath**|  xsd:string|  The remote UNC path for syslog to move files. If null, logs are local only. This field is required if any of the uncUserName, uncPassword, uncDomain is set. [^1]

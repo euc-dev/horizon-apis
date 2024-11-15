@@ -28,9 +28,9 @@ Since
 Virtual Center storage settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **datastores**| [FarmVirtualCenterDatastoreSettings[]](vdi.resources.Farm.VirtualCenterDatastoreSettings.md)|  Datastore IDs to store the RDS Server (or the OS disk using other options for View Composer VM storage). Note(s) :- [^126]
 **useVSan**|  xsd:boolean|  Whether to use vSphere VSAN. This is applicable for vSphere 5.5 or later. [datastores](vdi.resources.Farm.VirtualCenterStorageSettings.md#datastores) must specify exactly one datastore of file system type VSAN. If this RDS Server is sourced from View Composer, [useSeparateDatastoresReplicaAndOSDisks](vdi.resources.Farm.ViewComposerStorageSettings.md#useSeparateDatastoresReplicaAndOSDisks) , and [reclaimVmDiskSpace](vdi.resources.Farm.SpaceReclamationSettings.md#reclaimVmDiskSpace) must be disabled. [^5]
 **viewComposerStorageSettings**| [FarmViewComposerStorageSettings](vdi.resources.Farm.ViewComposerStorageSettings.md)|  View Composer storage settings. This must be set for RDS servers in Automated Farms. [^1]

@@ -28,9 +28,9 @@ Since
 Readonly data about this global access group.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and role) for this global access group. [^1]
 **isDeletable**|  xsd:boolean|  If true, the global access group can be deleted, else not. For root global access group, the value will always be false. [^5] [^2]
 

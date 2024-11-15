@@ -30,9 +30,9 @@ Since
 Represents an invalid request. Examples include: \- Only updating a subset of parameters which are required to be updated together. \- Performing an update that would leave the object in an invalid state. \- Including duplicate keys in an update map.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

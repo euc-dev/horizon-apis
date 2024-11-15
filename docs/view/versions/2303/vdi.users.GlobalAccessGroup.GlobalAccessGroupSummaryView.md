@@ -28,9 +28,9 @@ Since
 Global Access Group Summary View.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The global access group name. [^2] [^3]
 **id**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  The global access group id. [^2]
  

@@ -29,10 +29,9 @@ Since
 
 Sessions Statistics.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 SessionStatistics_GetLocalSessionStatistics
 
 
@@ -40,26 +39,26 @@ SessionStatistics_GetLocalSessionStatistics
 
 Get a local sessions Statistics.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SessionStatistics](vdi.statistics.SessionStatistics.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [LocalSessionStatistics](vdi.statistics.SessionStatistics.LocalSessionStatistics.md)| local sessions Statistics.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

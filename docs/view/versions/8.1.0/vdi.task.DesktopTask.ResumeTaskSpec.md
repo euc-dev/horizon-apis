@@ -25,9 +25,9 @@ Since
 Specifications for resuming a task.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **retryFailedVMs**|  xsd:boolean|  Whether to restart the task for virtual machines whose task status is in error state [^5] [^1]
 **stopOnError**|  xsd:boolean|  Whether to stop the task at first error [^6] [^1]
 

@@ -29,10 +29,9 @@ Since
 
 Service for retrieving health information on domains.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ADDomainHealth_List
 
 
@@ -40,26 +39,26 @@ ADDomainHealth_List
 
 Gets the health information for all domains.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ADDomainHealth](vdi.health.ADDomainHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ADDomainHealthInfo[]](vdi.health.ADDomainHealth.ADDomainHealthInfo.md)| An array of [ADDomainHealthInfo](vdi.health.ADDomainHealth.ADDomainHealthInfo.md) objects indicating the health of each domain.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

@@ -31,9 +31,9 @@ Since
 Basic data about an Image Management Version.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The version name is the unique name used to identify this version. [^150]
 **description**|  xsd:string|  The description is a set of notes about the version. [^1] [^13]
 **status**|  xsd:string|  Image management version status. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AVAILABLE</td><td>Image management version is available for pools to be created.</td></tr><tr><td>DEPLOYING_VM</td><td>Image management version is deploying VM on the selected pod.</td></tr><tr><td>DEPLOYMENT_DONE</td><td>Image management version status when VM deployment is done for the selected pod.</td></tr><tr><td>DELETED</td><td>Image management version has been deleted.</td></tr><tr><td>DISABLED</td><td>Image management version has been disabled and no further pool operation can be done using the same.</td></tr><tr><td>FAILED</td><td>Image management version creation has failed.</td></tr><tr><td>PARTIALLY_AVAILABLE</td><td>Some of the image management asset creation in some of the virtual centers have failed.</td></tr><tr><td>PUBLISHING</td><td>Image management version is being published and specialized internally like installing agents etc.</td></tr><tr><td>REPLICATING</td><td>Copying the specialized images across all virtual centers.</td></tr></table>

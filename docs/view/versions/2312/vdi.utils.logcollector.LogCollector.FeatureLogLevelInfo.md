@@ -25,9 +25,9 @@ Since
 Feature information along with the current log level.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **featureKey**|  xsd:string|  Unique short name of the feature.
 **logLevel**|  xsd:string|  Current log level for this feature.
 **featureDisplayName**|  xsd:string|  Feature display name.

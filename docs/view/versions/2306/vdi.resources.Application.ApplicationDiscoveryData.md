@@ -28,9 +28,9 @@ Since
 Application discovery data obtained from Broker.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **executionData**| [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)|  Application execution data, fetched during app. discovery.
 **name**|  xsd:string|  Application name information, as sent by RDSServer during app. discovery. [^1] [^2]
  

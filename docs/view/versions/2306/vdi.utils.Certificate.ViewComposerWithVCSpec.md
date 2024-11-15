@@ -30,9 +30,9 @@ Since
 Specification of View Composer co-installed with Virtual Center.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **vcId**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Virtual Center using a View Composer server which is co-installed.
 **port**|  xsd:int|  Port of the View Composer server instance to connect to. [^8] [^189]
  

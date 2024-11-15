@@ -28,9 +28,9 @@ Since
 Represents the API metrics for the connection server. API metrics include the API name and the number of times the API is invoked since the server started.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Connection Server Id. [^2]
 **hostName**|  xsd:string|  Fully qualified host name [^2]
 **apiMetrics**| [APIMetrics[]](vdi.health.Monitoring.APIMetrics.md)|  Information on the frequency of the APIs. [^2]

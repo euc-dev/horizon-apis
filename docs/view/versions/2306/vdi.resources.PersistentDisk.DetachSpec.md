@@ -30,9 +30,9 @@ Since
 The specification for detaching a persistent disk from a machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **archiveDatastorePath**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  The datastore path to archive the virtual disk to. [^1]
  
 

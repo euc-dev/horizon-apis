@@ -28,9 +28,9 @@ Since
 General data about the persistent disk.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the persistent disk. This is the filename of the virtual disk on Virtual Center. [^2]
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop associated with the persistent disk. [^1]
 **desktopName**|  xsd:string|  Desktop Name corresponding to [desktop](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md#desktop) **_Since_** Horizon 7.7 [^1]

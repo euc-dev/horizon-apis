@@ -28,9 +28,9 @@ Since
 The RADIUS settings for authentication to a connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **radiusEnabled**|  xsd:boolean|  Flag to specify if RADIUS authentication is enabled.
 **radiusAuthenticator**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The RADIUS Authenticator to use. [^1] [^250]
 **radiusNameMapping**|  xsd:boolean|  Flag to specify if RADIUS name mapping is enabled. [^1]

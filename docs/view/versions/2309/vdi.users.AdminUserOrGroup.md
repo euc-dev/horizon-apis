@@ -29,10 +29,9 @@ Since
 
 Information about an administrator user or a group.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 AdminUserOrGroup_Get, AdminUserOrGroup_GetLoginView, AdminUserOrGroup_GetLoginViewById, AdminUserOrGroup_GetView, AdminUserOrGroup_List, AdminUserOrGroup_ListViews
 
 
@@ -40,36 +39,36 @@ AdminUserOrGroup_Get, AdminUserOrGroup_GetLoginView, AdminUserOrGroup_GetLoginVi
 
 Get an administrator user or group by ID.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_PERMISSION_VIEW|  Permission read access privilege is required to get admin user information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md)| requested user or group entity.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -86,26 +85,26 @@ Show WSDL type definition
 
 Gets login view of current loggedin user.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md)| login view of current loggedin user.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -122,36 +121,36 @@ Show WSDL type definition
 
 Gets login view by ID.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_PERMISSION_VIEW|  Permission read access privilege is required to get admin user information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of the user.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupLoginView](vdi.users.AdminUserOrGroup.AdminUserOrGroupLoginView.md)| requested user login view.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -168,18 +167,18 @@ Show WSDL type definition
 
 Get an administrator user or group full view by ID. If this method is invoked without any argument, it will return the information related to current loggedin user.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_PERMISSION_VIEW|  Permission read access privilege is required to get admin user information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get. [^135]
 
@@ -187,18 +186,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupView](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md)| requested user or group full view.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -215,34 +214,34 @@ Show WSDL type definition
 
 List all users or groups used by the broker as administrators.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_PERMISSION_VIEW|  Permission read access privilege is required to get any admin user information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupInfo[]](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md)| All admin user or group infos
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -259,34 +258,34 @@ Show WSDL type definition
 
 List all users or group full views used by the broker as administrators.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_PERMISSION_VIEW|  Permission read access privilege is required to get any admin user information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AdminUserOrGroup](vdi.users.AdminUserOrGroup.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AdminUserOrGroupView[]](vdi.users.AdminUserOrGroup.AdminUserOrGroupView.md)| All admin user or group full views
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

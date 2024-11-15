@@ -30,19 +30,19 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 The DesktopAssignmentView query service.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  This query will return results only for desktops the caller has desktop read privilege on with the corresponding access group permission.
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read the [desktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentView.md#desktopAssignmentData).[globalEntitlement](vdi.resources.Desktop.DesktopAssignmentData.md#globalEntitlement) member of a desktop. This will otherwise be unset.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop.
 **desktopAssignmentData**| [DesktopAssignmentData](vdi.resources.Desktop.DesktopAssignmentData.md)|  Core attributes of the desktop assignment instance.
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1 [^1] [^2]

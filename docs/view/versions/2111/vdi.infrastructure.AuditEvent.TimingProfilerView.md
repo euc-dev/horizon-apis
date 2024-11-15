@@ -44,9 +44,9 @@ The following caveats apply:
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventId**|  xsd:int|  ID of the Timing Profiler event in Event Database.
 **time**|  xsd:dateTime|  Time at which the event occurred, measured from the epoch (January 1, 1970).
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User involved in this event. Will be unset if there is no user association for this event. [^1]

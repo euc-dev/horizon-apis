@@ -30,9 +30,9 @@ Since
 Specification for creating a View Composer domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Entity id for the virtual center related to the view composer server. [^2]
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Basic data about a view composer domain administrator.
  

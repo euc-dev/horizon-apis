@@ -28,9 +28,9 @@ Since
 Details needed to connect to a server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serverName**|  xsd:string|  Url of the server without the protocol prefix - ex. x.com.
 **port**|  xsd:int|  Port of the server to connect to. [^8] [^189]
 **useSSL**|  xsd:boolean|  Should SSL be used when connecting to the server?

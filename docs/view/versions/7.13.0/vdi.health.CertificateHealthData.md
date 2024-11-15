@@ -25,9 +25,9 @@ Since
 Health data about a server's certificate.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **valid**|  xsd:boolean|  Is the certificate valid? [^1]
 **startTime**|  xsd:dateTime|  When is certificate valid from? [^1]
 **expirationTime**|  xsd:dateTime|  When the certificate expires. [^1]

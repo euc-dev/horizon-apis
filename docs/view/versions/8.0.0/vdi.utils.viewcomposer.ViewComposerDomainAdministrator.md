@@ -29,10 +29,9 @@ Since
 
 The view composer domain administrator service interface for processing accounts capable of adding/deleting computer accounts.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ViewComposerDomainAdministrator_Create, ViewComposerDomainAdministrator_CreateByServerDefinition, ViewComposerDomainAdministrator_Delete, ViewComposerDomainAdministrator_DeleteByServerDefinition, ViewComposerDomainAdministrator_Get, ViewComposerDomainAdministrator_List, ViewComposerDomainAdministrator_ListByServerDefinition, ViewComposerDomainAdministrator_listFarmAndDesktopNames, ViewComposerDomainAdministrator_Update, ViewComposerDomainAdministrator_UpdateByServerDefinition
 
 
@@ -40,36 +39,36 @@ ViewComposerDomainAdministrator_Create, ViewComposerDomainAdministrator_CreateBy
 
 Add a view composer domain administrator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **spec**| [ViewComposerDomainAdministratorSpec](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorSpec.md)|  attributes needed to add a view composer domain administrator
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)| Entity id for the view composer domain administrator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_ADDED|  If the View Composer administrator is added.
 
 Show WSDL type definition
@@ -94,18 +93,18 @@ Show WSDL type definition
 
 Adds a view composer domain administrator. This method can be used prior to adding View Composer in Horizon and hence it always expects View Composer Server details as input.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
 **base**| [ViewComposerDomainAdministratorBase](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.DomainAdministratorBase.md)|  Domain administrator details to be added.
@@ -113,18 +112,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)| Entity id for the view composer domain administrator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -133,10 +132,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_ADDED|  If the View Composer administrator is added.
 
 Show WSDL type definition
@@ -149,36 +148,36 @@ Show WSDL type definition
 
 Delete a view composer admin.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -187,10 +186,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_REMOVED|  If the administrator is removed.
 
 Show WSDL type definition
@@ -203,18 +202,18 @@ Show WSDL type definition
 
 Delete a view composer admin from the specified View Composer server. This method can be used prior to adding View Composer in Horizon and hence it always expects View Composer Server details as input.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
@@ -222,18 +221,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -242,10 +241,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_REMOVED|  If the administrator is removed.
 
 Show WSDL type definition
@@ -258,37 +257,37 @@ Show WSDL type definition
 
 Gets the View Composer domain administrator information (primarily the list of attributes about configured view composer administrator). Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to get a View Composer domain administrator.
 POOL_VIEW|  privilege is required to get a View Composer domain administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerDomainAdministratorInfo](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md)| ViewComposerDomainAdministratorInfo (attributes about configured view composer administrator)
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -305,37 +304,37 @@ Show WSDL type definition
 
 Gets list of info (primarily the list of attributes about configured view composer administrators). Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list View Composer administrators.
 POOL_VIEW|  privilege is required to list View Composer administrators.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  entity id for the virtual center related to the view composer server
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerDomainAdministratorInfo[]](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md)| list of ViewComposerDomainAdministratorInfo (attributes about configured view composer administrators)
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -352,36 +351,36 @@ Show WSDL type definition
 
 Lists the View Composer domain administrators from the specified View Composer server. This method can be used prior to adding View Composer in Horizon and hence it always expects View Composer Server details as input.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list View Composer administrators.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerDomainAdministratorInfo[]](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.ViewComposerDomainAdministratorInfo.md)| list of ViewComposerDomainAdministratorInfo (attributes about configured view composer administrators)
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -398,36 +397,36 @@ Show WSDL type definition
 
 List the name of Farms and Desktops for the given View Composer domain administrator alongwith the authorized user
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to fetch the Desktop and Farm names for a given View Composer domain administrator alongwith the authorized user
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the View Composer domain administrator entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:string[]| Array of the String containing name of Farms and Desktops for the given View Composer domain administrator alongwith the authorized user
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -444,18 +443,18 @@ Show WSDL type definition
 
 Update view composer admin with the set of attributes in the map.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^166]
@@ -464,18 +463,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -484,10 +483,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_UPDATED|  If the update is completed.
 
 Show WSDL type definition
@@ -500,18 +499,18 @@ Show WSDL type definition
 
 Update view composer admin with the set of attributes in the map. This method can be used prior to adding View Composer in Horizon and hence it always expects View Composer Server details as input.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a View Composer administrator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerDomainAdministrator](vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md) used to make the method call.
 **id**| [ViewComposerDomainAdministratorId](vdi.entity.ViewComposerDomainAdministratorId.md)|  entity id for the view composer admin entry.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details required to connect to View Composer server.
@@ -521,18 +520,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -541,10 +540,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SVI_ADMIN_UPDATED|  If the update is completed.
 
 Show WSDL type definition

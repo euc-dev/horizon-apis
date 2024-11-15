@@ -31,9 +31,9 @@ VirtualDiskData is a set of VirtualDisk attributes retrieved from the VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of VirtualDisk [^2]
 **path**|  xsd:string|  Full path of VirtualDisk [^2]
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore entityId that the VirtualDisk belongs to [^2]

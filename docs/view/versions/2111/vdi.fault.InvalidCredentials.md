@@ -28,9 +28,9 @@ Since
 Thrown if the caller provides invalid credentials.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **errorCode**|  xsd:string|  An optional code associated with the underlying error. [^1]
 **errorAttributes**| [MapEntry[]](vdi.util.MapEntry.md)|  An optional set of attributes associated with the underlying error. [^1] [^227]
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)

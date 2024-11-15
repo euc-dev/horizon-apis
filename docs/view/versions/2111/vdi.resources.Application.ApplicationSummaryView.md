@@ -28,9 +28,9 @@ Since
 Application Summary View.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application id.
 **applicationSummaryData**| [ApplicationSummaryData](vdi.resources.Application.ApplicationSummaryData.md)|  Application Summary Data.
 **refId**|  xsd:string|  Reference ID used for this application pool.  **_Since_** Horizon 8.1 [^1] [^2]

@@ -29,10 +29,9 @@ Since
 
 Service for managing GSSAPI authenticators.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 GSSAPIAuthenticator_Create, GSSAPIAuthenticator_Delete, GSSAPIAuthenticator_Get, GSSAPIAuthenticator_List, GSSAPIAuthenticator_Update
 
 
@@ -40,36 +39,36 @@ GSSAPIAuthenticator_Create, GSSAPIAuthenticator_Delete, GSSAPIAuthenticator_Get,
 
 Creates a GSSAPI authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a GSSAPI authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 **spec**| [GSSAPIAuthenticatorSpec](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorSpec.md)|  The specification of the GSSAPI authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)| The ID of the newly created GSSAPI authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 GSSAPI_AUTHENTICATOR_CREATED|  If the GSSAPI authenticator was successfully created.
 
 Show WSDL type definition
@@ -94,36 +93,36 @@ Show WSDL type definition
 
 Deletes the specified GSSAPI authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a GSSAPI authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 **id**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The ID of the GSSAPI authenticator to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityInUse](vdi.fault.EntityInUse.md)| Thrown if the GSSAPI authentication is currently being used by a connection server.
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
@@ -133,10 +132,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 GSSAPI_AUTHENTICATOR_DELETED|  If the GSSAPI authenticator was successfully deleted.
 
 Show WSDL type definition
@@ -149,36 +148,36 @@ Show WSDL type definition
 
 Retrieves information about a GSSAPI authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to retrieve information about a GSSAPI authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 **id**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The ID of the GSSAPI authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GSSAPIAuthenticatorInfo](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md)| Information about the specified GSSAPI authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -195,34 +194,34 @@ Show WSDL type definition
 
 Lists the configured GSSAPI authenticators.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list GSSAPI authenticators.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GSSAPIAuthenticatorInfo[]](vdi.infrastructure.GSSAPIAuthenticator.GSSAPIAuthenticatorInfo.md)| Information about the configured GSSAPI authenticators.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -239,18 +238,18 @@ Show WSDL type definition
 
 Updates a GSSAPI authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a GSSAPI authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GSSAPIAuthenticator](vdi.infrastructure.GSSAPIAuthenticator.md) used to make the method call.
 **id**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The ID of the GSSAPI authenticator to update.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^291]
@@ -259,18 +258,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -279,10 +278,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 GSSAPI_AUTHENTICATOR_UPDATED|  If the GSSAPI authenticator was successfully updated.
 
 Show WSDL type definition

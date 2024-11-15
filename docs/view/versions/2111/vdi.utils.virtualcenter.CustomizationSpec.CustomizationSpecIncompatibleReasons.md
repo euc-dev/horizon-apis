@@ -28,9 +28,9 @@ Reasons that may preclude this CustomizationSpec from being used in desktop crea
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **dhcpNotConfigured**|  xsd:boolean|  Whether or not the customization spec has DHCP configured. If true, this customization spec cannot be used in desktop creation. [^2]
 **notWindows**|  xsd:boolean| **Deprecated.**_Use[unSupportedOS](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecIncompatibleReasons.md#unSupportedOS) instead. Whether or not the customization spec is for a Windows-based operating system. If true, this customization spec cannot be used in desktop creation. _ [^2]
 **unSupportedOS**|  xsd:boolean|  Whether or not customization spec contains unsupported operating system. Currently the supported operating systems are Windows and Linux. If true, this customization spec cannot be used in desktop creation.  **_Since_** Horizon 7.9 [^1] [^2]

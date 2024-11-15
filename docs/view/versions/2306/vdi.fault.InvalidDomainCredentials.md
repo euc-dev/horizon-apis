@@ -28,9 +28,9 @@ Since
 Thrown if the caller does not have the correct secondary credentials to access a one-way trusted domain.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [EntityId](vdi.EntityId.md)|  Entity, if any, whose access caused the error. [^1]
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  Domain that caused the error, if known. [^1]
 **netbiosDomainName**|  xsd:string|  Netbios domain name of domain that caused the error, if known. [^1]

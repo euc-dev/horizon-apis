@@ -27,9 +27,9 @@ Extended by
 The base data object type for all the object model faults that an application might handle.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 
 

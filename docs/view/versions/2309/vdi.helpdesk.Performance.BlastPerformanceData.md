@@ -28,9 +28,9 @@ Since
 The BLAST protocol performance metrics.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **estimatedThroughput**|  xsd:long| **Deprecated.**_use #BlastSessionStatistics.bytesTransmitted instead of this estimatedThroughput._ Estimated throughput of BLAST data that have been received since the session started. The unit is kilobits. [^1] [^2]
 **estimatedFPS**|  xsd:long| **Deprecated.**_use #blastImagingStatistics.framesPerSecond instead of this estimatedFPS._ Estimated number of frames per second. [^1] [^2]
 **estimatedRTT**|  xsd:long| **Deprecated.**_use #BlastSessionStatistics.roundTripTime instead of this estimatedRTT._ Estimated round trip time in milliseconds between the server and the client. [^1] [^2]

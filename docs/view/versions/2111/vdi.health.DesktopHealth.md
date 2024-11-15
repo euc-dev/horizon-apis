@@ -29,10 +29,9 @@ Since
 
 Service that represents Desktop health status
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 DesktopHealth_Get
 
 
@@ -40,36 +39,36 @@ DesktopHealth_Get
 
 Get health and status details for the specified Desktop.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required to get desktop health information
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopHealth](vdi.health.DesktopHealth.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The entityId of the Desktop whose health and status is being queried
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DesktopHealthInfo](vdi.health.DesktopHealth.DesktopHealthInfo.md)| The health and status details
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

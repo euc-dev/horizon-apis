@@ -28,9 +28,9 @@ Since
 Represents download URL for a log collector component.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **logcollectorTaskId**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)|  Log collection task identifier
 **url**|  xsd:string|  Short lived URL
 **logCollectorBundleProfile**|  xsd:string[]|  Provides additional information about the log collection bundle.  **_Since_** Horizon 7.12 [^1] [^14] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>LOG_FILTER_NOT_HONORED</td><td>Indicates only default log collection filter is applied on the logs bundle.</td></tr></table>

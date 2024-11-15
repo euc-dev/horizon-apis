@@ -28,9 +28,9 @@ Since
 Top level object describing a image management stream.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  Entity id of image management stream. [^2]
 **base**| [ImageManagementStreamBase](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md)|  Basic data about a image management stream.
 **refId**|  xsd:string|  Reference ID used for this image management stream.  **_Since_** Horizon 8.1 [^1] [^2]

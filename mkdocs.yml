@@ -18,7 +18,7 @@ copyright: |
 # Configuration
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   favicon: assets/logos/favicon-light.svg
   logo: assets/logos/favicon-dark.svg
   admonition:
@@ -171,7 +171,7 @@ nav:
   - View:
     - view/index.md
     - Versions:
-      - view/versions/2406/index.md
+      # - view/versions/2406/index.md
       - v2406: view/versions/2406/index.md
       - v2312: view/versions/2312/index.md
       - v2309: view/versions/2309/index.md

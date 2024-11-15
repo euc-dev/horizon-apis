@@ -28,9 +28,9 @@ Since
 Settings for Sysprep customization.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **customizationSpec**| [CustomizationSpecId](vdi.entity.CustomizationSpecId.md)|  The customization spec to use.
  
 

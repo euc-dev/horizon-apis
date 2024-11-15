@@ -28,9 +28,9 @@ Since
 Site Info.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SiteId](vdi.entity.SiteId.md)|  Unique identifier for a Site [^2]
 **base**| [SiteBase](vdi.federation.Site.SiteBase.md)|  Site base data, this includes displayName and description
 **pods**| [PodId[]](vdi.entity.PodId.md)|  Member pods for this site. To update the site of a pod, use Pod.update(). [^1] [^2]

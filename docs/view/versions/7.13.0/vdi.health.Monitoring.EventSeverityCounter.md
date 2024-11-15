@@ -25,9 +25,9 @@ Since
 Event severity counter.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **errorCount**|  xsd:int|  Number of events with the "Error" severity. [^2]
 **warningCount**|  xsd:int|  Number of events with the "Warn" severity. [^2]
 

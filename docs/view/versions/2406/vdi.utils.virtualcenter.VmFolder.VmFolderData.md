@@ -31,9 +31,9 @@ VmFolderData is a set of attributes for a folder retrieved from the VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  VM folder display name [^2]
 **path**|  xsd:string|  VM folder path [^2]
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter id for this VM folder. [^2]

@@ -25,9 +25,9 @@ Since
 Reasons that may preclude this Datastore from being used in desktop creation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **inaccessibleToSomeHosts**|  xsd:boolean|  This Datastore is inaccessible to at least one host if in a cluster. If true, it is not recommended to be used in desktop creation - the vm must be local to this datastore. [^2]
 **vmfs5AndMoreThan32Hosts**|  xsd:boolean|  This Datastore is VMFS version 5 or greater, but belongs to a cluster with more than 32 hosts. If true, this cannot be used as a replica disk in linked clone desktop creation. [^2]
 **vmfs6AndMoreThan64Hosts**|  xsd:boolean|  This Datastore is VMFS version 6 or greater, but belongs to a cluster with more than 64 hosts. If true, this cannot be used as a replica disk in linked clone desktop creation.  **_Since_** Horizon 8.1 [^2]

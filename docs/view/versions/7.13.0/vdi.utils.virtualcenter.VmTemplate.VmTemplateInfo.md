@@ -31,9 +31,9 @@ VMTemplateInfo is a set of template attributes retrieved from the VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VmTemplateId](vdi.entity.VmTemplateId.md)|  VM template Id [^2]
 **name**|  xsd:string|  VM template name [^2]
 **path**|  xsd:string|  VM template path [^2]

@@ -25,9 +25,9 @@ Since
 Application Summary base that represents the metadata of the application icon.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **width**|  xsd:long|  Icon width
 **height**|  xsd:long|  Icon height
 **iconHash**|  xsd:string|  Icon hash, to enable quick icon lookup

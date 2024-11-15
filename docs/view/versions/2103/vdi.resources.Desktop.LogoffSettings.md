@@ -25,9 +25,9 @@ Since
 Settings determine how a virtual machine behaves when the user logs off of the associated machine or when a desktop is no longer keeping a machine as a spare.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **powerPolicy**|  xsd:string|  Power policy for the machines in the desktop after logoff. This setting is only relevant for managed machines. Note(s) :- [^33] [^34] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>TAKE_NO_POWER_ACTION</td><td>Take no power action. The power state will not be changed when a user logs off or when a desktop is no longer keeping a machine as a spare.</td></tr><tr><td>ALWAYS_POWERED_ON</td><td>Ensure machines are always powered on. The connection server will monitor and power on machines as necessary.</td></tr><tr><td>SUSPEND</td><td>Suspend when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.</td></tr><tr><td>POWER_OFF</td><td>Power off when a user logs off or when a desktop is no longer keeping a machine as a spare. This does not affect spare and newly provisioned machines.</td></tr></table>
 **automaticLogoffPolicy**|  xsd:string|  Automatically log-off policy after disconnect. [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>IMMEDIATELY</td><td>Logoff immediately after disconnect.</td></tr><tr><td>NEVER</td><td>Do not logoff after disconnect.</td></tr><tr><td>AFTER</td><td>Logoff 'x' minutes after disconnect.</td></tr></table>
 **automaticLogoffMinutes**|  xsd:int|  The timeout in minutes for automatic log-off after disconnect. [^36] [^1] [^8] [^37]

@@ -29,10 +29,9 @@ Since
 
 The Network proxy configuration service interface.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 NetworkProxyConfiguration_Get, NetworkProxyConfiguration_Update
 
 
@@ -40,34 +39,34 @@ NetworkProxyConfiguration_Get, NetworkProxyConfiguration_Update
 
 Gets the NetworkProxyConfigurationDetail.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve the Network Proxy Configuration.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [NetworkProxyConfiguration](vdi.infrastructure.NetworkProxyConfiguration.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [NetworkProxyConfigurationDetail](vdi.infrastructure.NetworkProxyConfiguration.NetworkProxyConfigurationDetail.md)| The NetworkProxyConfigurationDetail.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -84,18 +83,18 @@ Show WSDL type definition
 
 Updates the NetworkProxyConfigurationDetail using the update map.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management privilege is required to modify the Network Proxy Configuration.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [NetworkProxyConfiguration](vdi.infrastructure.NetworkProxyConfiguration.md) used to make the method call.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The updates to apply. [^292]
 
@@ -103,18 +102,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -123,10 +122,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_NETWORK_PROXY_CONFIGURATION_UPDATED|  If all members were successfully updated, this will be sent for each updated member in the update map.
 VLSI_NETWORK_PROXY_CONFIGURATION_UPDATE_FAILED|  If any member could not be updated.
 

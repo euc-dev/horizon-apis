@@ -25,9 +25,9 @@ Since
 Settings related to the Space Reclamation feature.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **reclaimVmDiskSpace**|  xsd:boolean|  With vSphere 5.x, virtual machines can be configured to use a space efficient disk format that supports reclamation of unused disk space (such as deleted files). This option reclaims unused disk space on each virtual machine. The operation is initiated when an estimate of used disk space exceeds the specified threshold. vSphere 5.1 Patch1 or later is required for this option. Note(s) :- [^5]
 **reclamationThresholdGB**|  xsd:long|  Initiate reclamation when unused space on VM exceeds the threshold. [^10] [^1] [^72] [^79]
 

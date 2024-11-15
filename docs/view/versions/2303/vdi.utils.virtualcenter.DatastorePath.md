@@ -29,10 +29,9 @@ Since
 
 Service for fetching all folder paths within a Datastore from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 DatastorePath_List
 
 
@@ -40,19 +39,19 @@ DatastorePath_List
 
 Gets a list of DatastorePathInfo from VC for a given datastore. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of DatastorePathInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of DatastorePathInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DatastorePath](vdi.utils.virtualcenter.DatastorePath.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  datastore entityId
@@ -60,18 +59,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DatastorePathInfo[]](vdi.utils.virtualcenter.DatastorePath.DatastorePathInfo.md)| Array of DatastorePathInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

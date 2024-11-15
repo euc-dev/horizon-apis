@@ -28,9 +28,9 @@ Since
 AD User Credential
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**|  xsd:string|  The domain of user. Note that domain is optional if UPN is supplied. [^1]
 **username**|  xsd:string|  The username or UPN.
 **password**| [SecureString](vdi.util.SecureString.md)|  The password.

@@ -28,9 +28,9 @@ Since
 DatastoreClusterInfo aggregates DatastoreClusterData with DatastoreId
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore Id [^2]
 **datastoreClusterData**| [DatastoreClusterData](vdi.utils.virtualcenter.Datastore.DatastoreClusterData.md)|  Datastore cluster data [^2]
 **refId**|  xsd:string|  Reference ID used for this datastore cluster.  **_Since_** Horizon 8.1 [^1] [^2]

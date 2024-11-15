@@ -25,9 +25,9 @@ Since
 The imaging statistics about PCoIP session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **bytesReceived**|  xsd:long|  Total number of bytes of imaging data that have been received since the PCoIP session started. [^1] [^2]
 **bytesSent**|  xsd:long|  Total number of bytes of imaging data that have been transmitted since the PCoIP session started. [^1] [^2]
 **rxBandwidth**|  xsd:long|  Bandwidth for incoming imaging packets averaged over the sampling period. The unit is kbit/sec. [^1] [^2]

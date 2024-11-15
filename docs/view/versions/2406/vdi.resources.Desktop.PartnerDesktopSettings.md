@@ -28,9 +28,9 @@ Since
 Specification for an partner desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **capacityProviderId**|  xsd:string|  ID of the capacity provider
 **awsCoreDesktopSettings**| [AWSCoreDesktopSettings](vdi.resources.Desktop.AWSCoreDesktopSettings.md)|  Specification for an AWS core desktop. [^1]
 

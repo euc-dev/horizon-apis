@@ -29,10 +29,9 @@ Since
 
 The object for fetching Datastores from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Datastore_GetDatastoreRequirements, Datastore_GetUsage, Datastore_ListDatastoreClustersByHostOrCluster, Datastore_ListDatastoresByDesktopOrFarm, Datastore_ListDatastoresByHostOrCluster
 
 
@@ -46,37 +45,37 @@ DatastoreSpaceRequirement can be in following combinations. Datastore type retur
 
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 VC_CONFIG_VIEW|  privilege is required for computing the space requirements.
 POOL_VIEW|  privilege is required for accessing Desktop or Farm mentioned via [desktopId](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md#desktopId) or [farmId](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md#farmId).
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Datastore](vdi.utils.virtualcenter.Datastore.md) used to make the method call.
 **spec**| [DatastoreRequirementSpec](vdi.utils.virtualcenter.Datastore.DatastoreRequirementSpec.md)|  DatastoreRequirementSpec
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DatastoreSpaceRequirement[]](vdi.utils.virtualcenter.Datastore.DatastoreSpaceRequirement.md)| Array of DatastoreSpaceRequirement
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -93,36 +92,36 @@ Show WSDL type definition
 
 Gets the Desktop or Farm and its usage details for a given datastore. For now, it will lists the automated Desktops and Farms only.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege on corresponding access group is required to get the usage information of a Desktop and/or Farm.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Datastore](vdi.utils.virtualcenter.Datastore.md) used to make the method call.
 **id**| [DatastoreId](vdi.entity.DatastoreId.md)|  The resource id of the datastore.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DesktopOrFarmDatastoreUsageInfo[]](vdi.utils.virtualcenter.Datastore.DesktopOrFarmDatastoreUsageInfo.md)| An array of DesktopOrFarmUsageInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -139,37 +138,37 @@ Show WSDL type definition
 
 Gets a list of datastore clusters from VC for the given host or cluster that may be suitable for use in full clone desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of DatastoreClusterInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of DatastoreClusterInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Datastore](vdi.utils.virtualcenter.Datastore.md) used to make the method call.
 **hostOrCluster**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  host or cluster to list datastore clusters for
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DatastoreClusterInfo[]](vdi.utils.virtualcenter.Datastore.DatastoreClusterInfo.md)| Array of DatastoreClusterInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -191,37 +190,37 @@ Gets a list of datastores from VC for the given host or cluster that may be suit
 
 Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of DatastoreInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of DatastoreInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Datastore](vdi.utils.virtualcenter.Datastore.md) used to make the method call.
 **spec**| [DatastoreSpec](vdi.utils.virtualcenter.Datastore.DatastoreSpec.md)|
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DatastoreInfo[]](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md)| Array of DatastoreInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -238,37 +237,37 @@ Show WSDL type definition
 
 Gets a list of datastores from VC for the given host or cluster that may be suitable for use in full or linked clone desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of DatastoreInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of DatastoreClusterInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Datastore](vdi.utils.virtualcenter.Datastore.md) used to make the method call.
 **hostOrCluster**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  host or cluster to list datastores for
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DatastoreInfo[]](vdi.utils.virtualcenter.Datastore.DatastoreInfo.md)| Array of DatastoreInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

@@ -28,9 +28,9 @@ Information on a host which supports View Storage Accelerator.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Host or cluster display name
 **path**|  xsd:string|  Host or cluster path
 **hostVersion**|  xsd:string|  Version of the host.  **_Since_** Horizon 8.0 [^2]

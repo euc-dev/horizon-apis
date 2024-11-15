@@ -28,9 +28,9 @@ Since
 Settings related to desktop configuration.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  True if the desktop is enabled. [^6]
 **deleting**|  xsd:boolean|  True if the desktop is in the process of being deleted. This cannot be set or updated. [^5] [^2]
 **connectionServerRestrictions**|  xsd:string[]|  Connection server restrictions. This is a list of tags that access to the desktop is restricted to. No list means that the desktop can be accessed from any connection server. [^1]

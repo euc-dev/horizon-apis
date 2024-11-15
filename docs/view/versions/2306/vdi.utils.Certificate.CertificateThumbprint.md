@@ -28,9 +28,9 @@ Certificate thumbprint and corresponding algorithm.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sslCertThumbprint**|  xsd:string|  A digest of the certificate.
 **sslCertThumbprintAlgorithm**|  xsd:string|  Algorithm used to compute the thumbprint.
  

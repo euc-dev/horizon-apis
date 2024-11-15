@@ -28,9 +28,9 @@ Since
 Application Summary Data
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Application name.
 **displayName**|  xsd:string|  Application display name. [^1]
 **description**|  xsd:string|  Application description. [^1]

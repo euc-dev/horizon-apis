@@ -28,9 +28,9 @@ Since
 Fields common to all types of Machines.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Machine. [^2]
 **dnsName**|  xsd:string|  The DNS name for the Machine. [^1] [^2]
 **type**|  xsd:string|  The type of Machine. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"MANAGED_VIRTUAL_MACHINE"</td><td>The machine is a managed virtual machine.</td></tr><tr><td>"UNMANAGED_MACHINE"</td><td>The machine is an unmanaged physical or virtual machine.</td></tr></table>

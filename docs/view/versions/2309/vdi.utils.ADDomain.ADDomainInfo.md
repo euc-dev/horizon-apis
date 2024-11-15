@@ -28,9 +28,9 @@ Since
 Information about an active directory domain.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ADDomainId](vdi.entity.ADDomainId.md)|  The ID of the domain.
 **dnsName**|  xsd:string|  The DNS name of the domain. [^2]
 **netBiosName**|  xsd:string|  The NetBIOS name of the domain. [^2]

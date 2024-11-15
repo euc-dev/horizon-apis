@@ -38,9 +38,9 @@ Representation of a Security Server ID.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [EntityId](vdi.EntityId.md)
 [id](vdi.EntityId.md#id)

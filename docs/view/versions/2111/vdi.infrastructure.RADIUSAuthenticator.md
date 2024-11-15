@@ -29,10 +29,9 @@ Since
 
 Service for managing RADIUS authenticators.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 RADIUSAuthenticator_Create, RADIUSAuthenticator_Delete, RADIUSAuthenticator_Get, RADIUSAuthenticator_List, RADIUSAuthenticator_Update
 
 
@@ -40,36 +39,36 @@ RADIUSAuthenticator_Create, RADIUSAuthenticator_Delete, RADIUSAuthenticator_Get,
 
 Creates a RADIUS authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a RADIUS authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 **spec**| [RADIUSAuthenticatorSpec](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorSpec.md)|  The specification of the RADIUS authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)| The ID of the newly created RADIUS authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_RADIUS_AUTHENTICATOR_CREATED|  If the RADIUS authenticator was successfully created.
 VLSI_RADIUS_AUTHENTICATOR_CREATE_FAILED|  If the RADIUS authenticator could not be created.
 
@@ -95,36 +94,36 @@ Show WSDL type definition
 
 Deletes the specified RADIUS authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a RADIUS authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 **id**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The ID of the RADIUS authenticator to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityInUse](vdi.fault.EntityInUse.md)| Thrown if the RADIUS authentication is currently being used by a connection server.
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
@@ -134,10 +133,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_RADIUS_AUTHENTICATOR_DELETED|  If the RADIUS authenticator was successfully deleted.
 VLSI_RADIUS_AUTHENTICATOR_DELETE_FAILED|  If the RADIUS authenticator could not be deleted.
 
@@ -151,36 +150,36 @@ Show WSDL type definition
 
 Retrieves information about a RADIUS authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to retrieve information about a RADIUS authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 **id**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The ID of the RADIUS authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [RADIUSAuthenticatorInfo](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md)| Information about the specified RADIUS authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -197,34 +196,34 @@ Show WSDL type definition
 
 Lists the configured RADIUS authenticators.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list RADIUS authenticators.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [RADIUSAuthenticatorInfo[]](vdi.infrastructure.RADIUSAuthenticator.RADIUSAuthenticatorInfo.md)| Information about the configured RADIUS authenticators.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -241,18 +240,18 @@ Show WSDL type definition
 
 Updates a RADIUS authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a RADIUS authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [RADIUSAuthenticator](vdi.infrastructure.RADIUSAuthenticator.md) used to make the method call.
 **id**| [RADIUSAuthenticatorId](vdi.entity.RADIUSAuthenticatorId.md)|  The ID of the RADIUS authenticator to update.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^296]
@@ -261,18 +260,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -281,10 +280,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_RADIUS_AUTHENTICATOR_UPDATED|  If the RADIUS authenticator was successfully updated.
 VLSI_RADIUS_AUTHENTICATOR_UPDATE_FAILED|  If the RADIUS authenticator could not be updated.
 

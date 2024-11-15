@@ -56,9 +56,9 @@ The following caveats apply:
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventId**|  xsd:int|  ID of the event in Event Database.
 **data**| [EventData](vdi.infrastructure.EventDatabase.EventData.md)|  EventData Object that contains the attributes related to this event.
 **namesData**| [EventNamesData](vdi.infrastructure.EventDatabase.EventNamesData.md)|  EventNamesData object that contains the naming attributes related to this event.

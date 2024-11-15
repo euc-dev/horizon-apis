@@ -25,9 +25,9 @@ Since
 Names of objects that reside in a session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userName**|  xsd:string|  User for this session. [^1]
 **machineOrRDSServerName**|  xsd:string|  Machine or RDSServer name for this session. [^1]
 **machineOrRDSServerDNS**|  xsd:string|  Machine or RDSServer DNS name for this session. [^1]

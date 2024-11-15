@@ -29,10 +29,9 @@ Since
 
 The service interface for managing Image Management Streams.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ImageManagementStream_CreateStreams, ImageManagementStream_Delete, ImageManagementStream_Get, ImageManagementStream_ListBySpec, ImageManagementStream_Update
 
 
@@ -40,36 +39,36 @@ ImageManagementStream_CreateStreams, ImageManagementStream_Delete, ImageManageme
 
 Adds multiple image management streams.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a image management stream.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **bases**| [ImageManagementStreamBase[]](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamBase.md)|  attributes needed to add multiple image management streams.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementStreamId[]](vdi.entity.ImageManagementStreamId.md)| Array of entity ids of each image management stream.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_STREAM_ADDED|  For every image management stream successfully created.
 VLSI_IM_STREAM_ADD_FAILED|  For every image management stream that could not be created.
 
@@ -96,36 +95,36 @@ Show WSDL type definition
 
 Delete an image management stream. Allowed only if the Stream is not in use.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a image management stream.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **id**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  entity id of the image management stream entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityInUse](vdi.fault.EntityInUse.md)| Thrown if a desktop/farm is associated with this image management stream.
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
@@ -135,10 +134,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_STREAM_DELETED|  If the image management stream was successfully deleted.
 VLSI_IM_STREAM_DELETE_FAILED|  If the image management stream delete fails.
 
@@ -152,37 +151,37 @@ Show WSDL type definition
 
 Gets the image management stream information (primarily the list of attributes about configured image management stream). Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to get a image management stream.
 VC_CONFIG_VIEW|  privilege is required to get a image management stream.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **id**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  entity id of the image management stream entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementStreamInfo](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md)| ImageManagementStreamInfo (attributes about configured Image Management Stream).
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -199,37 +198,37 @@ Show WSDL type definition
 
 Returns list of image management streams based on the spec. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list image management streams.
 VC_CONFIG_VIEW|  privilege is required to list image management streams.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **spec**| [ImageManagementStreamQuerySpec](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamQuerySpec.md)|  query spec for filtering image management stream.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementStreamInfo[]](vdi.utils.imagemanagement.ImageManagementStream.ImageManagementStreamInfo.md)| list of image management streams.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -246,18 +245,18 @@ Show WSDL type definition
 
 Update image management stream with the set of attributes.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a image management stream.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementStream](vdi.utils.imagemanagement.ImageManagementStream.md) used to make the method call.
 **id**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  entity id of the image management stream entry.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^147]
@@ -266,18 +265,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -286,10 +285,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_STREAM_UPDATED|  If the image management stream was successfully updated.
 VLSI_IM_STREAM_UPDATE_FAILED|  If the image management stream update fails.
 

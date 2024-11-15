@@ -28,9 +28,9 @@ Since
 RDSServer base
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  RDS Server name [^1] [^2]
 **description**|  xsd:string|  RDS server description [^1] [^2]
 **farm**| [FarmId](vdi.entity.FarmId.md)|  Farm entity ID that the RDS server (optionally) belongs to [^1] [^2]

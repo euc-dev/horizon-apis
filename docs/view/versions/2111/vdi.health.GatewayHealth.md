@@ -29,10 +29,9 @@ Since
 
 Service for retrieving health information on Gateway.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 GatewayHealth_Get, GatewayHealth_List
 
 
@@ -40,28 +39,28 @@ GatewayHealth_Get, GatewayHealth_List
 
 Gets the health information of the registered gateway.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GatewayHealth](vdi.health.GatewayHealth.md) used to make the method call.
 **id**| [GatewayId](vdi.entity.GatewayId.md)|  The Id of the gateway.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GatewayHealthInfo](vdi.health.GatewayHealth.GatewayHealthInfo.md)| Health information of the specified gateway.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,26 +77,26 @@ Show WSDL type definition
 
 Gets the health information of all the registered gateways.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GatewayHealth](vdi.health.GatewayHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GatewayHealthInfo[]](vdi.health.GatewayHealth.GatewayHealthInfo.md)| A list of health information of all the registered gateways.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

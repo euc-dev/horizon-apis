@@ -31,9 +31,9 @@ The result of one individual operation. This will contain either a fault in the 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **fault**| [MethodFault](vmodl.MethodFault.md)|  The error if the individual operation failed. [^1]
 **result**|  xsd:anyType|  The result (if any) of the function if the individual operation succeeded. [^1]
 

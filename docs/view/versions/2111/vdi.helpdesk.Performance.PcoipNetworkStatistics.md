@@ -25,9 +25,9 @@ Since
 The network statistics about PCoIP session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **roundTripLatency**|  xsd:long|  Round trip latency in milliseconds between the PCoIP server and the PCoIP client. [^1] [^2]
 **rxBandwidth**|  xsd:long|  Overall bandwidth for incoming PCoIP packets averaged over the sampling period, in kilobits per second. [^1] [^2]
 **rxBandwidthPeak**|  xsd:long|  Peak bandwidth in kilobits per second for incoming PCoIP packets over a one-second sampling period. [^1] [^2]

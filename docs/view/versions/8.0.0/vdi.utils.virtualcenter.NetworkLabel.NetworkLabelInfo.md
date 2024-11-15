@@ -31,9 +31,9 @@ Network label information from VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [NetworkLabelId](vdi.entity.NetworkLabelId.md)|  Network label id. [^2]
 **data**| [NetworkLabelData](vdi.utils.virtualcenter.NetworkLabel.NetworkLabelData.md)|  Network label data. [^2]
 

@@ -25,9 +25,9 @@ Since
 JWT token info.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **token**|  xsd:string|  JWT token.
 **expiryTime**|  xsd:dateTime|  Token expiry time. [^1]
 

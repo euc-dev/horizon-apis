@@ -28,9 +28,9 @@ Since
 Complete policies specification. The resourceId and userId identify the object to which this policy applies. If neither is specified, these will be only the global policies. The userId cannot be specified without the resourceId, as user overrides are per-resource. The policies settings object are overrides specifically set on the associated resource or user or group, the effective settings object is the result of applying each override successively on top of the global policies.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **globalPolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Global policies object. Describes default policies for all resources, users, or groups if no overrides are specified.
 **resource**| [EntityId](vdi.EntityId.md)|  Entity Id of a resource which may have some set of overrides applied to it. If the resourceId is specified, resourcePolicies may be populated with overrides specific to that resource. Note that it is possible for a resource to have no overrides, but a user or group for that resource may have overrides. [^1]
 **resourcePolicies**| [PoliciesSettings](vdi.users.Policies.PoliciesSettings.md)|  Resource policies object. Describes default policies for all users or groups in this resource if no user or group overrides are specified. [^1]

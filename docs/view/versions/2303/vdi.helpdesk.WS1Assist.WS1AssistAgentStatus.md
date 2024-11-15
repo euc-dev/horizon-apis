@@ -26,9 +26,9 @@ Since
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **statusCode**|  xsd:int|  The status code of Workspace ONE Assist. [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>null</td><td>There is no error.</td></tr><tr><td>null</td><td>The View Agent version (Helpdesk Plugin) is lower than required version.</td></tr><tr><td>null</td><td>The Workspace One Assist Agent isn't installed.</td></tr><tr><td>null</td><td>The Workspace One Assist Agent doesn't support this version of OS.</td></tr></table>
  
 

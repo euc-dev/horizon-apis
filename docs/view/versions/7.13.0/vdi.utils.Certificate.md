@@ -29,10 +29,9 @@ Since
 
 The interface to fetch and validate certificates.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Certificate_Validate, Certificate_ValidateViewComposerLocalToVC
 
 
@@ -40,18 +39,18 @@ Certificate_Validate, Certificate_ValidateViewComposerLocalToVC
 
 Validate the certificate of the specified server.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to validate a certificate.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Certificate](vdi.utils.Certificate.md) used to make the method call.
 **spec**|  xsd:anyType|  attributes needed to connect to the server. The valid types for this parameter are: [^225] [^226]
 
@@ -60,18 +59,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateData](vdi.utils.Certificate.CertificateData.md)| null iff successful else [CertificateData](vdi.utils.Certificate.CertificateData.md) describing the server certificate
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -88,36 +87,36 @@ Show WSDL type definition
 
 Validate the certificate when View Composer instance is co-installed with Virtual Center.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to validate a certificate.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Certificate](vdi.utils.Certificate.md) used to make the method call.
 **spec**| [ViewComposerWithVCSpec](vdi.utils.Certificate.ViewComposerWithVCSpec.md)|  Specification of View Composer co-installed with Virtual Center.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateData](vdi.utils.Certificate.CertificateData.md)| null iff successful else [CertificateData](vdi.utils.Certificate.CertificateData.md) describing the server certificate
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

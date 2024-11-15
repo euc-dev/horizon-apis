@@ -29,10 +29,9 @@ Since
 
 The interface representing federated pods for Multi-DataCenter View. Creating and Deletion of a PodFederation are done by the system automatically.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 PodFederation_Eject, PodFederation_Get, PodFederation_Initialize, PodFederation_Join, PodFederation_RotateKeyPair, PodFederation_Uninitialize, PodFederation_Unjoin, PodFederation_Update
 
 
@@ -43,36 +42,36 @@ Upon successful completion of eject operation, the ejected pod's topology will b
 Eject operation can not be performed against the current pod.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to eject a pod from the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 **pod**| [PodId](vdi.entity.PodId.md)|  PodId to be forcefully removed.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -82,10 +81,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_EJECT_SUCCESS|  If the specified pod was successfully ejected.
 VLSI_POD_FEDERATION_EJECT_FAILURE|  If the specified pod could not be ejected.
 
@@ -99,35 +98,35 @@ Show WSDL type definition
 
 Get the Multi-DataCenter View Pod Federation that this pod is a member of. Basic Multi-DataCenter View local Pod status is available with the lowest privileges. Other information is populated only with higher privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to access [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md).
 GLOBAL_CONFIG_VIEW|  Global Configuration read is required to access only [PodFederationLocalConnectionServerStatus](vdi.federation.PodFederation.LocalConnectionServerStatus.md) members of the [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md).
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PodFederationInfo](vdi.federation.PodFederation.PodFederationInfo.md)| The PodFederationInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -146,34 +145,34 @@ Initialize a Multi-DataCenter View Pod Federation. The pod on which this command
 After being initialized, a Pod Federation is created and will have one default member site, which will have a single member pod (the local pod). The Pod Federation topology (Site, Pod, and PodEndpoint) will be automatically populated.
 A TaskInfo object is returned and can be used to track the progress and status of the initialize operation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to initialize the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [TaskInfo](vdi.task.Task.TaskInfo.md)| TaskInfo object to track progress and status
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -183,10 +182,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_TASK_TRIGGERED|  If the task to initialize the pod federation was successfully started.
 VLSI_POD_FEDERATION_OP_SUCCESS|  If the task to initialize the pod federation completed successfully.
 VLSI_POD_FEDERATION_CONCURRENT_OP|  If the task to initialize the pod federation could not complete because another pod federation task was running concurrently.
@@ -204,18 +203,18 @@ Perform a join operation against a Multi-DataCenter View Pod Federation. At the 
 Join operation can only be performed on a pod that is not already a member of a Pod Federation. The pod the operation is performed on must not have replica Connection Servers in transitional states.
 Join operation can only be sent to a pod that is already a Pod Federation member. A TaskInfo object is returned and can be used to track the progress and status of the join operation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to join the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 **remotePodAddress**|  xsd:string|  the ip address or url for the remote pod.
 **userName**|  xsd:string|  the user name with sufficient privilege to perform a global LDAP join against the remote pod. If the userName is not supplied, password field will be ignored. In that case, the remote server must be configured to grant sufficient privilege for the computer account for the local system. [^135]
@@ -225,18 +224,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [TaskInfo](vdi.task.Task.TaskInfo.md)| TaskInfo object to track progress and status
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -246,10 +245,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_TASK_TRIGGERED|  If the task to join the pod federation was successfully started.
 VLSI_POD_FEDERATION_JOIN_SUCCESS|  If the task to join the pod federation completed successfully.
 VLSI_POD_FEDERATION_CONCURRENT_OP|  If the task to join the pod federation could not complete because another pod federation task was running concurrently.
@@ -265,36 +264,36 @@ Show WSDL type definition
 
 Performs an on demand rotation for CPA key pair used for wrapping CPA encryption key.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to request for CPA key pair rotation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 **retainLatestKeyPair**|  xsd:int|  Number of older generations to retain during an on demand key pair rotation.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -304,10 +303,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_CPA_KEY_PAIR_ROTATION_REQUESTED|  If the CPA key pair rotation was requested successfully.
 
 Show WSDL type definition
@@ -321,34 +320,34 @@ Show WSDL type definition
 Tear down a Multi-Data Center View Pod Federation. The pod on which this command is invoked must be the only remaining member in the Pod Federation. Invoking uninitialize when there is more than one pod in the Pod Federation will fail. The pod the operation is performed on must not have replica Connection Servers in transitional states.
 At the completion of uninitialize, the Pod Federation topology information will be removed and it becomes a non-federated pod. A TaskInfo object is returned and can be used to track the progress and status of the uninitialize operation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to uninitialize the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [TaskInfo](vdi.task.Task.TaskInfo.md)| TaskInfo object to track progress and status
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -358,10 +357,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_TASK_TRIGGERED|  If the task to uninitialize the pod federation was successfully started.
 VLSI_POD_FEDERATION_OP_SUCCESS|  If the task to uninitialize the pod federation completed successfully.
 VLSI_POD_FEDERATION_CONCURRENT_OP|  If the task to uninitialize the pod federation could not complete because another pod federation task was running concurrently.
@@ -380,34 +379,34 @@ GlobalEntitlement reference to this pod will be updated with an unjoin.
 Unjoin operation can only be performed if the current pod is not the only/last member of a Pod Federation; an uninitialize operation should be performed instead. The pod the operation is performed on must not have replica Connection Servers in transitional states.
 A TaskInfo object is returned and can be used to track the progress and status of the unjoin operation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to unjoin the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [TaskInfo](vdi.task.Task.TaskInfo.md)| TaskInfo object to track progress and status
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -417,10 +416,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_TASK_TRIGGERED|  If the task to unjoin the pod federation was successfully started.
 VLSI_POD_FEDERATION_OP_SUCCESS|  If the task to unjoin the pod federation completed successfully.
 VLSI_POD_FEDERATION_CONCURRENT_OP|  If the task to unjoin the pod federation could not complete because another pod federation task was running concurrently.
@@ -436,18 +435,18 @@ Show WSDL type definition
 
 Update the display name of this Multi-DataCenter View Pod Federation.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to update the pod federation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodFederation](vdi.federation.PodFederation.md) used to make the method call.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated. Only displayName is permitted for update.[^231]
 
@@ -455,18 +454,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -477,10 +476,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_POD_FEDERATION_OP_SUCCESS|  If the pod federation was successfully updated.
 VLSI_POD_FEDERATION_OP_FAILURE|  If the pod federation could not be updated.
 

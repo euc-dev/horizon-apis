@@ -28,9 +28,9 @@ Since
 Data about the pod assignment.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user id associated with this pod assignment. This will never be a group id. [^2]
 **pod**| [PodId](vdi.entity.PodId.md)|  The pod id associated with this pod assignment. [^2]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  The global entitlement id associated with this pod assignment. Only one of [globalEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalEntitlement) and [globalApplicationEntitlement](vdi.federation.PodAssignment.PodAssignmentData.md#globalApplicationEntitlement) may be set. [^1] [^2]

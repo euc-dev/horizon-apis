@@ -25,9 +25,9 @@ Since
 Desktop or Farm datastore usage information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the Desktop or Farm. [^2]
 **isFarm**|  xsd:boolean|  Represents if this is a Farm. [^5] [^2]
 **source**|  xsd:string|  The Source or the Provisioning Type of machines in this Desktop or Farm.<br>**Note:** The value FULL_CLONE is not applicable in case of farms. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"VIEW_COMPOSER"</td><td>View composer linked clones managed as view machines.</td></tr><tr><td>"INSTANT_CLONE_ENGINE"</td><td>Instant clone engine created 'instant clones' managed as view machines.</td></tr><tr><td>"FULL_CLONE"</td><td>Full Virtual Machines that are created from a vCenter Server template.</td></tr></table>

@@ -31,9 +31,9 @@ Since
 The full access group information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  Access group id of this entity. [^2]
 **base**| [AccessGroupBase](vdi.users.AccessGroup.AccessGroupBase.md)|  Base data used for access group creation. [^2]
 **data**| [AccessGroupData](vdi.users.AccessGroup.AccessGroupData.md)|  Readonly data about this access group. [^2]

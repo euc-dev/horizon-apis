@@ -28,9 +28,9 @@ Since
 Top level object describing Instant Clone Engine domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)|  Entity id for the Instant Clone Engine domain administrator. [^2]
 **base**| [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)|  Basic data about Instant Clone Engine domain administrator.
 **namesData**| [InstantCloneEngineDomainAdministratorNamesData](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorNamesData.md)|  Additional data about Instant Clone Engine domain administrator. [^2]

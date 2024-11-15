@@ -25,9 +25,9 @@ Since
 JWT public key info object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **connectionServerName**|  xsd:string|  Connection server name.
 **keys**|  xsd:string[]|  List of public keys which can be used for JWT token validation.
 

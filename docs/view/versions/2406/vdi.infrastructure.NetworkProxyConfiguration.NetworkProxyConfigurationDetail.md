@@ -28,9 +28,9 @@ Since
 Network proxy configuration details.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **networkAutoProxy**|  xsd:boolean|  Whether auto-proxy is enabled.
 **networkProxyHostname**|  xsd:string|  Network proxy host name. [^1] [^293]
 **networkProxyPort**|  xsd:int|  Network proxy port. [^1] [^8] [^189] [^293]

@@ -28,9 +28,9 @@ Since
 Configuration info for a Certificate SSO Enrollment Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  Reference to this Enrollment Server. [^2]
 **data**| [CertificateSSOEnrollmentServerData](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerData.md)|  Configuration data for a Certificate SSO Enrollment Server.
 **refId**|  xsd:string|  Reference ID used for this Certificate SSO Enrollment Server.  **_Since_** Horizon 8.7 [^1] [^2]

@@ -25,9 +25,9 @@ Since
 Information about View client.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **remoteIpAddress**|  xsd:string|  The uplink IP address of View client. It might be a public IP after NAT. [^1] [^2]
 **ipAddress**|  xsd:string|  The local IP address detected by View client. [^1] [^2]
 **loggedOnDomainName**|  xsd:string|  The domain name of the user logged on the endpoint machine. [^1] [^2]

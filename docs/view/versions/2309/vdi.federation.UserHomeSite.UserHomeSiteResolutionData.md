@@ -28,9 +28,9 @@ Since
 User home site resolution for the GlobalEntitlement.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)|  Id of the user home site configuration [^2]
 **group**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The group via which the user gets this site as the home site. [^1] [^2]
 **groupName**|  xsd:string|  Name of the group via which the user gets this site as the home site. [^1] [^2]

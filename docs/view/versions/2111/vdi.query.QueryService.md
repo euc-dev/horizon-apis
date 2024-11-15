@@ -35,10 +35,9 @@ The Query Service provides a uniform simple query interface to allow bulk enumer
 
 
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 QueryService_Create, QueryService_Delete, QueryService_DeleteAll, QueryService_DeleteByIds, QueryService_GetCount, QueryService_GetNext, QueryService_Query
 
 
@@ -46,28 +45,28 @@ QueryService_Create, QueryService_Delete, QueryService_DeleteAll, QueryService_D
 
 Create a cursor for iterating though query results efficiently, and return the first set of results. Creates server-side state which should be explicitly deleted via [QueryService_Delete](vdi.query.QueryService.md#delete). Server side state will also time out eventually.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **definition**| [QueryDefinition](vdi.query.QueryDefinition.md)|  query definition.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| first page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -85,28 +84,28 @@ Show WSDL type definition
 
 Delete the server-side state associated with this cursor. To be used after [QueryService_Create](vdi.query.QueryService.md#create).
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **id**| [QueryId](vdi.entity.QueryId.md)|  from a result set.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -123,26 +122,26 @@ Show WSDL type definition
 
 Delete the server-side state associated with any outstanding cursors. To be used after [QueryService_Create](vdi.query.QueryService.md#create).
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -159,28 +158,28 @@ Show WSDL type definition
 
 Deletes the server-side states associated with given cursors. To be used after multiple [QueryService_Create](vdi.query.QueryService.md#create) invocations.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **ids**| [QueryId[]](vdi.entity.QueryId.md)|  Array of Query Ids to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -197,28 +196,28 @@ Show WSDL type definition
 
 Get only a count of results. Resources are released automatically. This should not be used if any results are needed to be read.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **definition**| [QueryDefinition](vdi.query.QueryDefinition.md)|  query definition.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:int| count of objects which match this query.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -235,28 +234,28 @@ Show WSDL type definition
 
 Get the next set of results. To be used after [QueryService_Create](vdi.query.QueryService.md#create).
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **id**| [QueryId](vdi.entity.QueryId.md)|  from the previous result set.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| next page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -273,28 +272,28 @@ Show WSDL type definition
 
 Perform a "virtual list"-style query for a set of results. Inefficient for iterating through many items. Resources are released automatically.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [QueryService](vdi.query.QueryService.md) used to make the method call.
 **definition**| [QueryDefinition](vdi.query.QueryDefinition.md)|  query definition.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [QueryResults](vdi.query.QueryResults.md)| one page of results.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

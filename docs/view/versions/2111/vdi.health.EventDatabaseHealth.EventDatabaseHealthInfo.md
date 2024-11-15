@@ -28,9 +28,9 @@ Since
 The health of a database connection.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **configured**|  xsd:boolean|  Indicates whether an event database is configured.
 **data**| [EventDatabaseHealthData](vdi.health.EventDatabaseHealth.EventDatabaseHealthData.md)|  Information about the health of the event database [^1] [^192]
 **eventStatistics**| [EventStatistics](vdi.health.EventDatabaseHealth.EventStatistics.md)|  Event statistics.  **_Since_** Horizon 7.9 [^1] [^2]

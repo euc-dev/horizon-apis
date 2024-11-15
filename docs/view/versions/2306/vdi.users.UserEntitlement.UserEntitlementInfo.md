@@ -31,9 +31,9 @@ The root user entitlement information.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserEntitlementId](vdi.entity.UserEntitlementId.md)|  User Entitlement ID of this entity. [^2]
 **base**| [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md)|  Base data used for user entitlement creation. [^2]
  

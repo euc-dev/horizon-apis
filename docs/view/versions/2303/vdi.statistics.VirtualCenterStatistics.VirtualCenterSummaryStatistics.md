@@ -28,9 +28,9 @@ Since
 Summary statistics for a Virtual Center server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The ID of the virtual center server. [^2]
 **name**|  xsd:string|  The name of the Virtual Center server. [^1] [^2]
 **instanceUuid**|  xsd:string|  Virtual center instance uuid. [^1] [^2]

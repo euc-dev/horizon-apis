@@ -28,9 +28,9 @@ Since
 Virtual Center entities associated with this Automated farm.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enableProvisioning**|  xsd:boolean|  Whether to enable provisioning immediately. [^6]
 **stopProvisioningOnError**|  xsd:boolean|  Whether provisioning on all VMs stops on error. [^6]
 **minReadyVMsOnVComposerMaintenance**|  xsd:int|  Minimum number of ready (provisioned) RDS Servers during View Composer maintenance operations. Use this setting to perform machine maintenance operations in a rolling fashion. Increasing this count may decrease the concurrency for View Composer operations for the automated farm. This is applicable only in the case of linked-clone Automated farm. [^19] [^72]

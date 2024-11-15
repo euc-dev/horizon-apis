@@ -31,9 +31,9 @@ Details corresponding to a server certificate.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **thumbprint**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Certificate thumbprint and corresponding algorithm. [^1]
 **certificate**|  xsd:string|  The certificate in a string form. [^1]
 **certificateEncoding**|  xsd:string|  The encoding of the certificate.  **_Since_** Horizon 7.8 [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>DER_BASE64_PEM</td><td>Denotes the Base64 encoded DER certificate.</td></tr></table>

@@ -9,13 +9,13 @@ hide:
 
 Welcome to the Omnissa View API Reference documentation v2111. This API reference provides comprehensive information about all data structures available through the View API:
 
-* [Service Types](mo-types-landing.md)
-* [Data Object Types](do-types-landing.md)
-* [Fault Types](fault-types-landing.md)
-* [All Types](all-types-landing.md)
-* [All Methods](methods-landing.md)
-* [All Properties](properties-landing.md)
-* [Query Service](queries-landing.md)
+* [Service Types](mo-types-landing.md)  
+* [Data Object Types](do-types-landing.md)  
+* [Fault Types](fault-types-landing.md)  
+* [All Types](all-types-landing.md)  
+* [All Methods](methods-landing.md)  
+* [All Properties](properties-landing.md)  
+* [Query Service](queries-landing.md)  
 
 To quickly find any entry, start typing its name in the **Search Bar**.
 

@@ -33,9 +33,9 @@ Specify that the named member must contain the specified value. The supported ty
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **value**|  xsd:anyType|  The value that the member must contain. [^1]
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)

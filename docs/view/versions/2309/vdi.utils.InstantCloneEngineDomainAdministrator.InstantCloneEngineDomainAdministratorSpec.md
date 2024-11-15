@@ -28,9 +28,9 @@ Since
 Specification for creating Instant Clone Engine domain administrator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **base**| [InstantCloneEngineDomainAdministratorBase](vdi.utils.InstantCloneEngineDomainAdministrator.DomainAdministratorBase.md)|  Basic data about Instant Clone Engine domain administrator.
  
 

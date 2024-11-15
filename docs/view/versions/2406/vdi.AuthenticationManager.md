@@ -31,10 +31,9 @@ Since
 
 AuthenticationManager provides administrative login capability.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 AuthenticationManager_GenerateKeyMaterial, AuthenticationManager_Login, AuthenticationManager_LoginByToken, AuthenticationManager_Logout, AuthenticationManager_SetLocale
 
 
@@ -42,28 +41,28 @@ AuthenticationManager_GenerateKeyMaterial, AuthenticationManager_Login, Authenti
 
 Generate the secret key for encryption/decryption of the sensitive data.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 **spec**| [ClientKeyDerivationSpec](vdi.AuthenticationManager.ClientKeyDerivationSpec.md)|  The Key Derivation spec of the Client.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ServerKeyDerivationInfo](vdi.AuthenticationManager.ServerKeyDerivationInfo.md)| Server Key Derivation Spec.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -80,10 +79,10 @@ Show WSDL type definition
 
 Login using supplied credentials.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 **username**|  xsd:string|  The username
 **password**| [SecureString](vdi.util.SecureString.md)|  The password
@@ -92,18 +91,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -120,28 +119,28 @@ Show WSDL type definition
 
 Login using supplied JWT token.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 **data**| [JwtTokenData](vdi.infrastructure.JwtToken.JwtTokenData.md)|  The token data.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -158,26 +157,26 @@ Show WSDL type definition
 
 Logout session.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -194,10 +193,10 @@ Show WSDL type definition
 
 Used to specify the locale for the user messages. If locale is not set with this method, the messages will default to English language.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuthenticationManager](vdi.AuthenticationManager.md) used to make the method call.
 **locale**|  xsd:string|  The locale of the user messages.<br>* This can take the values:<br><table><thead><tr><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>de</td><td>German Language</td></tr><tr><td>en</td><td>English Language</td></tr><tr><td>es</td><td>Spanish Language</td></tr><tr><td>fr</td><td>French Language</td></tr><tr><td>ja</td><td>Japanese Language</td></tr><tr><td>ko</td><td>Korean Language</td></tr><tr><td>zh</td><td>Chinese Language</td></tr><tr><td>zh_TW</td><td>Chinese-Taiwan Language</td></tr></tbody></table>
 
@@ -206,18 +205,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

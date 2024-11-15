@@ -28,9 +28,9 @@ Since
 Specification for an AWS Core power management settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **runningMode**|  xsd:string|  Running mode for the AWS core workspaces in the desktop pool.<br>* This property has a default value of "ALWAYS_ON".<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>ALWAYS_ON</td><td>Billed monthly. Instant access to an always running WorkSpace.</td></tr><tr><td>MANUAL</td><td>Billed by the hour. WorkSpace starts and stops automatically at scheduled duration.</td></tr></table>
 **workspaceSchedules**| [AWSCoreWorkspaceSchedule[]](vdi.resources.Desktop.AWSCoreWorkspaceSchedule.md)|  The Schedules for workspace power policy can only be set for workspaces where the running mode is set to MANUAL. [^1]
 

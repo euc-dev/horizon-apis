@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **dnsName**|  xsd:string|  The DNS name of the domain. [^141]
 **netBiosName**|  xsd:string|  The NetBIOS name of the domain.
 **primaryAccount**| [ServiceAccountCredentials](vdi.utils.ADDomain.ServiceAccountCredentials.md)|  Primary service account credentials.

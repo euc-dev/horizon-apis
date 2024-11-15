@@ -27,9 +27,9 @@ DynamicData is a builtin object model data object type for manipulating data pro
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 
 

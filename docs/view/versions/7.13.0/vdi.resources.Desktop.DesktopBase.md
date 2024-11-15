@@ -28,9 +28,9 @@ Since
 DesktopBase is a set of attributes used to uniquely identify and organize the desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The desktop name is the unique name used to identify this desktop. [^2] [^11]
 **displayName**|  xsd:string|  The display name is the name that users will see when they connect to view client. If the display name is left blank, the identifier will be used. [^1] [^12]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the desktops in your organization. They can also be used for delegated administration. For RDS Desktop, this has to be same as that of the corresponding Farm.

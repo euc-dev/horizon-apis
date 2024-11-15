@@ -28,9 +28,9 @@ Since
 Domain data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  Id of the domain
 **dnsName**|  xsd:string|  DNS name of the domain.
 **forestDnsName**|  xsd:string|  DNS name of the domain's forest, if any. [^1]

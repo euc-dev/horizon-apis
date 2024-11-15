@@ -28,9 +28,9 @@ Since
 Data about members of Global Entitlement
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **localDesktopCount**|  xsd:int|  Count of desktops local to this pod that are associated with this Global Entitlement. [^2]
 **remoteDesktopCount**|  xsd:int|  Count of desktops on remote pods that are associated with this Global Entitlement. [^2]
 **userCount**|  xsd:int|  Count of users that are associated with this Global Entitlement. [^2]

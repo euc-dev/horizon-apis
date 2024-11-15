@@ -29,10 +29,9 @@ Since
 
 Information about a User or a Group with resource entitlements.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 EntitledUserOrGroup_Get, EntitledUserOrGroup_GetGlobalSummaryView, EntitledUserOrGroup_GetGlobalSummaryViews, EntitledUserOrGroup_GetInfos, EntitledUserOrGroup_GetLocalSummaryView, EntitledUserOrGroup_GetLocalSummaryViews
 
 
@@ -40,10 +39,10 @@ EntitledUserOrGroup_Get, EntitledUserOrGroup_GetGlobalSummaryView, EntitledUserO
 
 Get an entitled user or group info by ID.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop or application read privileges in the corresponding access group are required to include results for those desktops or applications.
 MACHINE_VIEW|  Machine read privileges in the corresponding access group are required to include results for those machines.
 FEDERATED_SESSIONS_VIEW|  Federated session read privilege or one of the above on the corresponding folder is required to include session information for a machine.
@@ -51,28 +50,28 @@ FEDERATED_LDAP_VIEW|  Global LDAP read is required to access the [globalData](vd
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupInfo](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo.md)| requested user or group info.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -89,36 +88,36 @@ Show WSDL type definition
 
 Get an entitled user or group global summary view by ID.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md).
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md)| requested user or group global summary view.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -136,36 +135,36 @@ Show WSDL type definition
 
 Get entitled user or group summary global views by ids.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read multiple [EntitledUserOrGroupGlobalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md).
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **ids**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  UserOrGroupIds of entities to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupGlobalSummaryView[]](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md)| requested user or group global summary views.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -183,10 +182,10 @@ Show WSDL type definition
 
 Get entitled user or group infos by ids.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop or application read privileges in the corresponding access group are required to include results for those desktops or applications.
 MACHINE_VIEW|  Machine read privileges in the corresponding access group are required to include results for those machines.
 FEDERATED_SESSIONS_VIEW|  Federated session read privilege or one of the above on the corresponding folder is required to include session information for a machine.
@@ -194,28 +193,28 @@ FEDERATED_LDAP_VIEW|  Global LDAP read is required to access the [globalData](vd
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **ids**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  UserOrGroupIds of entities to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupInfo[]](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupInfo.md)| requested user or group infos.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -232,38 +231,38 @@ Show WSDL type definition
 
 Get an entitled user or group local summary view by ID.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop or application read privileges in the corresponding access group are required to include results for those desktops or applications.
 MACHINE_VIEW|  Machine read privileges in the corresponding access group are required to include results for those machines.
 FEDERATED_SESSIONS_VIEW|  Federated session read privilege or one of the above on the corresponding folder is required to include session information for a machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  UserOrGroupId of entity to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupLocalSummaryView](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md)| requested user or group local summary view.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -280,38 +279,38 @@ Show WSDL type definition
 
 Get entitled user or group local summary views by ids.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop or application read privileges in the corresponding access group are required to include results for those desktops or applications.
 MACHINE_VIEW|  Machine read privileges in the corresponding access group are required to include results for those machines.
 FEDERATED_SESSIONS_VIEW|  Federated session read privilege or one of the above on the corresponding folder is required to include session information for a machine.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) used to make the method call.
 **ids**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  UserOrGroupIds of entities to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntitledUserOrGroupLocalSummaryView[]](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupLocalSummaryView.md)| requested user or group local summary views.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

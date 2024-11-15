@@ -29,10 +29,9 @@ Since
 
 The object for fetching VM templates from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 VmTemplate_List, VmTemplate_ListByDatacenter
 
 
@@ -40,37 +39,37 @@ VmTemplate_List, VmTemplate_ListByDatacenter
 
 Gets a list of all VM templates from VC suitable for full clone desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of VmTemplateInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of VmTemplateInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VmTemplateInfo[]](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md)| Array of VmTemplateInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -87,37 +86,37 @@ Show WSDL type definition
 
 Gets a list of all VM templates from the given datacenter suitable for full clone desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of VmTemplateInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of VmTemplateInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VmTemplate](vdi.utils.virtualcenter.VmTemplate.md) used to make the method call.
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  unique identifier for the data center
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VmTemplateInfo[]](vdi.utils.virtualcenter.VmTemplate.VmTemplateInfo.md)| Array of VmTemplateInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

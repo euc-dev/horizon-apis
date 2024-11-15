@@ -28,9 +28,9 @@ Since
 The GSSAPI settings for authentication to a connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **gssAPIEnabled**|  xsd:boolean|  Flag to specify if GSSAPI authentication is enabled.
 **allowReceivingNTLM**|  xsd:boolean|  Indicate whether connection server supports NTLM or not. [^5] [^2]
 **gssAPIAuthenticator**| [GSSAPIAuthenticatorId](vdi.entity.GSSAPIAuthenticatorId.md)|  The GSSAPI Authenticator to use. [^1]

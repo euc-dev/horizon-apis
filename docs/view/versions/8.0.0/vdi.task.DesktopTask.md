@@ -29,10 +29,9 @@ Since
 
 Interface for managing desktop related tasks
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 DesktopTask_Cancel, DesktopTask_Get, DesktopTask_List, DesktopTask_Pause, DesktopTask_Resume
 
 
@@ -40,38 +39,38 @@ DesktopTask_Cancel, DesktopTask_Get, DesktopTask_List, DesktopTask_Pause, Deskto
 
 Cancels the specified task on a desktop. Requires one or more of the listed privileges based on the task.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_SVI_IMAGE_MANAGEMENT|  Manage maintenance operations on Automated Desktops & Farms privilege with the corresponding access group permission is required to cancel the task related to rebalance, refresh, resync, push image or checkpoint operation.
 UDD_MANAGEMENT|  Persistent disk management privilege is required to cancel the task related to attach, detach or replace operation.
 MACHINE_MANAGEMENT|  Machine management privilege is required along with UDD_MANAGEMENT to cancel the task related to attach and primary disk detach operation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  unique id of desktopTask
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -88,36 +87,36 @@ Show WSDL type definition
 
 Gets info on the specified task on a desktop.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop read privilege with the corresponding access group permission is required to read a desktop.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  unique id of desktopTask
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DesktopTaskInfo](vdi.task.DesktopTask.DesktopTaskInfo.md)| DesktopTaskInfo object containing the current state of the task.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -134,36 +133,36 @@ Show WSDL type definition
 
 Lists info for all tasks on a desktop.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  Desktop read privilege with the corresponding access group permission is required to read a desktop.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  unique identifier for a desktop entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [DesktopTaskInfo[]](vdi.task.DesktopTask.DesktopTaskInfo.md)| Array of DesktopTaskInfo objects containing the current states of the tasks on a desktop.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -180,38 +179,38 @@ Show WSDL type definition
 
 Pauses the specified task on a desktop. Requires one or more of the listed privileges based on the task.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_SVI_IMAGE_MANAGEMENT|  Manage maintenance operations on Automated Desktops & Farms privilege with the corresponding access group permission is required to pause the task related to rebalance, refresh, resync, push image or checkpoint operation.
 UDD_MANAGEMENT|  Persistent disk management privilege is required to pause the task related to attach, detach or replace operation.
 MACHINE_MANAGEMENT|  Machine management privilege is required along with UDD_MANAGEMENT to pause the task related to attach and primary disk detach operation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  unique id of desktopTask
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -228,20 +227,20 @@ Show WSDL type definition
 
 Resumes the specified task on a desktop. Requires one or more of the listed privileges based on the task.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_SVI_IMAGE_MANAGEMENT|  Manage maintenance operations on Automated Desktops & Farms privilege with the corresponding access group permission is required to resume the task related to rebalance, refresh, resync, push image or checkpoint operation.
 UDD_MANAGEMENT|  Persistent disk management privilege is required to resume the task related to attach, detach or replace operation.
 MACHINE_MANAGEMENT|  Machine management privilege is required along with UDD_MANAGEMENT to resume the task related to attach and primary disk detach operation.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [DesktopTask](vdi.task.DesktopTask.md) used to make the method call.
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  unique id of desktopTask
 **resumeTaskSpec**| [ResumeTaskSpec](vdi.task.DesktopTask.ResumeTaskSpec.md)|  ResumeTaskSpec object for additional params [^135]
@@ -250,18 +249,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
