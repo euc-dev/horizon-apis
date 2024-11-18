@@ -37,8 +37,8 @@ Specify that the named member must be in between the range [fromValue](vdi.query
 **memberName**|  xsd:string|  The name of the member to compare.
 **fromValue**|  xsd:anyType|  Start value of the range. [^1]
 **toValue**|  xsd:anyType|  End value of the range. [^1]
-Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
-None
+Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md) @span
+None @span
  
 
 

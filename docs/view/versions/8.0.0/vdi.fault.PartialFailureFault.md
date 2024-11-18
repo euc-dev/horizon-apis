@@ -37,10 +37,10 @@ Indicates a partial failure with some possible successful return values. Normall
 **resultCount**|  xsd:int|  The number of results, either successful or unsuccessful, returned in this partial failure.
 **successCount**|  xsd:int|  The number of successful results returned in this partial failure.
 **results**| [PartialFailureFaultResult[]](vdi.fault.PartialFailureFault.PartialFailureFaultResult.md)|  All the successful or unsuccessful results of this partial failure, in their original order. [^1]
-Properties inherited from [ViewServerFault](vdi.fault.ViewServerFault.md)
-[errorMessage](vdi.fault.ViewServerFault.md#errorMessage)
-Properties inherited from [MethodFault](vmodl.MethodFault.md)
-None
+Properties inherited from [ViewServerFault](vdi.fault.ViewServerFault.md) @span
+[errorMessage](vdi.fault.ViewServerFault.md#errorMessage) @span
+Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
+None @span
 
 
  

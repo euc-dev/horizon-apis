@@ -35,8 +35,8 @@ Specify a set of filters with an "and" relationship.
  Name | Type | Description
 :---|:---:|:---
 **filters**| [QueryFilter[]](vdi.query.QueryFilter.Filter.md)|  A set of filters with an "and" relationship.
-Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
-None
+Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md) @span
+None @span
  
 
 

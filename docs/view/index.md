@@ -21,6 +21,13 @@ To quickly find any entry, start typing its name in the **Search Bar**.
 
 In addition, the documentation will outline any client library classes that makes the API easier to build against.
 
+## Documentation  
+
+| Name | Size |
+|---| --- |
+| [Horizon Server View API Changelog 2406](docs/ChangelogViewAPI2406.docx.docx) | 22 KB |
+| [Horizon Server View API Changelog 2312](docs/ChangelogViewAPI2312.docx) | 34 KB |
+
 ## Connecting to the API
 
 The URL of the API is **https://_server-address_/view-vlsi/sdk**

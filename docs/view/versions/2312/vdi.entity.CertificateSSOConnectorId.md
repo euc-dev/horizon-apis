@@ -51,11 +51,13 @@ Representation of a Certificate SSO Connector ID.
 
 ## Data Object Properties
 
+## Data Object Properties
+
  Name | Type | Description
 :---|:---:|:---
-None
-Properties inherited from [EntityId](vdi.EntityId.md)
-[id](vdi.EntityId.md#id)
+None @span
+Properties inherited from [EntityId](vdi.EntityId.md) @span
+[id](vdi.EntityId.md#id) @span
 [Back to Home](index.md)
 
 
