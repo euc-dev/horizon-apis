@@ -41,9 +41,9 @@ Representation of an AD Domain ID.
 
  Name | Type | Description
 :---|:---:|:---
-None @span
-Properties inherited from [EntityId](vdi.EntityId.md) @span
-[id](vdi.EntityId.md#id) @span
+None
+Properties inherited from [EntityId](vdi.EntityId.md)
+[id](vdi.EntityId.md#id)
 
 
  

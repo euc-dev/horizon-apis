@@ -30,9 +30,9 @@ The base data object type for all runtime faults that can be thrown by a method.
 
  Name | Type | Description
 :---|:---:|:---
-None @span
-Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
-None @span
+None
+Properties inherited from [MethodFault](vmodl.MethodFault.md)
+None
 
 
  
