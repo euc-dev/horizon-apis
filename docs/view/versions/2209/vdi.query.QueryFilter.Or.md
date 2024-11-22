@@ -35,8 +35,8 @@ Specify a set of filters with an "or" relationship.
  Name | Type | Description
 :---|:---:|:---
 **filters**| [QueryFilter[]](vdi.query.QueryFilter.Filter.md)|  A set of filters with an "or" relationship.
-Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md) @span
-None @span
+Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
+None
 
 
  

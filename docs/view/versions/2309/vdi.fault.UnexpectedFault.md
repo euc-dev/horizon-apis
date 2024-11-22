@@ -35,12 +35,12 @@ Indicated any internal failure during the method call.
 **causeStackTrace**|  xsd:string[]|  The stack trace of the underlying error. [^1]
 **errorCode**|  xsd:string|  An optional code associated with the underlying error. See [list of error codes](error-codes.md) for more information. [^1]
 **errorAttributes**| [MapEntry[]](vdi.util.MapEntry.md)|  An optional set of attributes associated with the underlying error. See [list of error attributes](error-attributes.md) for more information. [^1] [^227]
-Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md) @span
-[errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage) @span
-Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md) @span
-None @span
-Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
-None @span
+Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+[errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)
+Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md)
+None
+Properties inherited from [MethodFault](vmodl.MethodFault.md)
+None
  
 
 

@@ -38,8 +38,8 @@ Specify that the named member must not be equal to the specified value. The supp
 :---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **value**|  xsd:anyType|  The value to be compared against. [^1]
-Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md) @span
-None @span
+Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
+None
 
 
  

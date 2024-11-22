@@ -32,10 +32,10 @@ The base unchecked View faults.
  Name | Type | Description
 :---|:---:|:---
 **errorMessage**|  xsd:string|  The message associated with this fault.
-Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md) @span
-None @span
-Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
-None @span
+Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md)
+None
+Properties inherited from [MethodFault](vmodl.MethodFault.md)
+None
  
 
 

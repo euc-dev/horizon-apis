@@ -41,9 +41,9 @@ Representation of a Pod ID in a Multi-DataCenter View Pod Federation.
 
  Name | Type | Description
 :---|:---:|:---
-None @span
-Properties inherited from [EntityId](vdi.EntityId.md) @span
-[id](vdi.EntityId.md#id) @span
+None
+Properties inherited from [EntityId](vdi.EntityId.md)
+[id](vdi.EntityId.md#id)
 
 
  

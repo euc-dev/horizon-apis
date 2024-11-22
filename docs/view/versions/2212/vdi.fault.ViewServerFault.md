@@ -32,8 +32,8 @@ Base class for View Server Faults.
  Name | Type | Description
 :---|:---:|:---
 **errorMessage**|  xsd:string|  The message associated with this fault.
-Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
-None @span
+Properties inherited from [MethodFault](vmodl.MethodFault.md)
+None
 
 
  

@@ -36,8 +36,8 @@ Specify that the named member must start with the specified value, ignores case.
 :---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **value**|  xsd:anyType|  The value that the member must start with. [^1]
-Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md) @span
-None @span
+Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
+None
  
 
 

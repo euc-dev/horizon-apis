@@ -33,13 +33,13 @@ Represents an invalid request. Examples include: \- Only updating a subset of pa
 
  Name | Type | Description
 :---|:---:|:---
-None @span
-Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md) @span
-[errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage) @span
-Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md) @span
-None @span
-Properties inherited from [MethodFault](vmodl.MethodFault.md) @span
-None @span
+None
+Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
+[errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)
+Properties inherited from [RuntimeFault](vmodl.RuntimeFault.md)
+None
+Properties inherited from [MethodFault](vmodl.MethodFault.md)
+None
 
 
  
