@@ -15,6 +15,11 @@ The following API documentation is provided for each Horizon product.
   url: horizon-server/index.md
   image: ../../../assets/logos/Horizon-8-h-lm.png
 
+- title: Omnissa View
+  #content:
+  url: view/index.md
+  image: ../../../assets/logos/Horizon-8-h-lm.png
+
 - title: Horizon Cloud Service Next Gen
   #content:
   url: horizon-cloud-nextgen/index.md

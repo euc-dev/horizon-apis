@@ -18,7 +18,7 @@ copyright: |
 # Configuration
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   favicon: assets/logos/favicon-light.svg
   logo: assets/logos/favicon-dark.svg
   admonition:
@@ -150,6 +150,7 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
+      - horizon-server/versions/2406/index.md
       - v2406: horizon-server/versions/2406/index.md
       - v2312: horizon-server/versions/2312/index.md
       - v2309: horizon-server/versions/2309/index.md
@@ -168,4 +169,161 @@ nav:
       - v7.10.0: horizon-server/versions/7.10.0/index.md
   - Horizon Cloud Service Next Gen: horizon-cloud-nextgen/index.md
   - Horizon DaaS: horizon-daas/index.md
-
+  - View:
+    - view/index.md
+    - Versions:
+      # - view/versions/2406/index.md
+      - v2406: 
+        - view/versions/2406/index.md
+        - Service Types: view/versions/2406/mo-types-landing.md
+        - Data Object Types: view/versions/2406/do-types-landing.md
+        - Fault Types: view/versions/2406/fault-types-landing.md
+        - All Types: view/versions/2406/all-types-landing.md
+        - All Methods: view/versions/2406/methods-landing.md
+        - All Properties: view/versions/2406/properties-landing.md
+        - Query Service: view/versions/2406/queries-landing.md
+        - Error Attributes: view/versions/2406/error-attributes.md
+        - Error Codes: view/versions/2406/error-codes.md
+      - v2312: 
+        - view/versions/2312/index.md
+        - Service Types: view/versions/2312/mo-types-landing.md
+        - Data Object Types: view/versions/2312/do-types-landing.md
+        - Fault Types: view/versions/2312/fault-types-landing.md
+        - All Types: view/versions/2312/all-types-landing.md
+        - All Methods: view/versions/2312/methods-landing.md
+        - All Properties: view/versions/2312/properties-landing.md
+        - Query Service: view/versions/2312/queries-landing.md
+        - Error Attributes: view/versions/2312/error-attributes.md
+        - Error Codes: view/versions/2312/error-codes.md
+      - v2309: 
+        - view/versions/2309/index.md
+        - Service Types: view/versions/2309/mo-types-landing.md
+        - Data Object Types: view/versions/2309/do-types-landing.md
+        - Fault Types: view/versions/2309/fault-types-landing.md
+        - All Types: view/versions/2309/all-types-landing.md
+        - All Methods: view/versions/2309/methods-landing.md
+        - All Properties: view/versions/2309/properties-landing.md
+        - Query Service: view/versions/2309/queries-landing.md
+        - Error Attributes: view/versions/2309/error-attributes.md
+        - Error Codes: view/versions/2309/error-codes.md
+      - v2306: 
+        - view/versions/2306/index.md
+        - Service Types: view/versions/2306/mo-types-landing.md
+        - Data Object Types: view/versions/2306/do-types-landing.md
+        - Fault Types: view/versions/2306/fault-types-landing.md
+        - All Types: view/versions/2306/all-types-landing.md
+        - All Methods: view/versions/2306/methods-landing.md
+        - All Properties: view/versions/2306/properties-landing.md
+        - Query Service: view/versions/2306/queries-landing.md
+        - Error Attributes: view/versions/2306/error-attributes.md
+        - Error Codes: view/versions/2306/error-codes.md
+      - v2303: 
+        - view/versions/2303/index.md
+        - Service Types: view/versions/2303/mo-types-landing.md
+        - Data Object Types: view/versions/2303/do-types-landing.md
+        - Fault Types: view/versions/2303/fault-types-landing.md
+        - All Types: view/versions/2303/all-types-landing.md
+        - All Methods: view/versions/2303/methods-landing.md
+        - All Properties: view/versions/2303/properties-landing.md
+        - Query Service: view/versions/2303/queries-landing.md
+        - Error Attributes: view/versions/2303/error-attributes.md
+        - Error Codes: view/versions/2303/error-codes.md
+      - v2212: 
+        - view/versions/2212/index.md
+        - Service Types: view/versions/2212/mo-types-landing.md
+        - Data Object Types: view/versions/2212/do-types-landing.md
+        - Fault Types: view/versions/2212/fault-types-landing.md
+        - All Types: view/versions/2212/all-types-landing.md
+        - All Methods: view/versions/2212/methods-landing.md
+        - All Properties: view/versions/2212/properties-landing.md
+        - Query Service: view/versions/2212/queries-landing.md
+        - Error Attributes: view/versions/2212/error-attributes.md
+        - Error Codes: view/versions/2212/error-codes.md
+      - v2209: 
+        - view/versions/2209/index.md
+        - Service Types: view/versions/2209/mo-types-landing.md
+        - Data Object Types: view/versions/2209/do-types-landing.md
+        - Fault Types: view/versions/2209/fault-types-landing.md
+        - All Types: view/versions/2209/all-types-landing.md
+        - All Methods: view/versions/2209/methods-landing.md
+        - All Properties: view/versions/2209/properties-landing.md
+        - Query Service: view/versions/2209/queries-landing.md
+        - Error Attributes: view/versions/2209/error-attributes.md
+        - Error Codes: view/versions/2209/error-codes.md
+      - v2206: 
+        - view/versions/2206/index.md
+        - Service Types: view/versions/2206/mo-types-landing.md
+        - Data Object Types: view/versions/2206/do-types-landing.md
+        - Fault Types: view/versions/2206/fault-types-landing.md
+        - All Types: view/versions/2206/all-types-landing.md
+        - All Methods: view/versions/2206/methods-landing.md
+        - All Properties: view/versions/2206/properties-landing.md
+        - Query Service: view/versions/2206/queries-landing.md
+        - Error Attributes: view/versions/2206/error-attributes.md
+        - Error Codes: view/versions/2206/error-codes.md
+      - v2111: 
+        - view/versions/2111/index.md
+        - Service Types: view/versions/2111/mo-types-landing.md
+        - Data Object Types: view/versions/2111/do-types-landing.md
+        - Fault Types: view/versions/2111/fault-types-landing.md
+        - All Types: view/versions/2111/all-types-landing.md
+        - All Methods: view/versions/2111/methods-landing.md
+        - All Properties: view/versions/2111/properties-landing.md
+        - Query Service: view/versions/2111/queries-landing.md
+        - Error Attributes: view/versions/2111/error-attributes.md
+        - Error Codes: view/versions/2111/error-codes.md
+      - v2106: 
+        - view/versions/2106/index.md
+        - Service Types: view/versions/2106/mo-types-landing.md
+        - Data Object Types: view/versions/2106/do-types-landing.md
+        - Fault Types: view/versions/2106/fault-types-landing.md
+        - All Types: view/versions/2106/all-types-landing.md
+        - All Methods: view/versions/2106/methods-landing.md
+        - All Properties: view/versions/2106/properties-landing.md
+        - Query Service: view/versions/2106/queries-landing.md
+        - Error Attributes: view/versions/2106/error-attributes.md
+        - Error Codes: view/versions/2106/error-codes.md
+      - v2103: 
+        - view/versions/2103/index.md
+        - Service Types: view/versions/2103/mo-types-landing.md
+        - Data Object Types: view/versions/2103/do-types-landing.md
+        - Fault Types: view/versions/2103/fault-types-landing.md
+        - All Types: view/versions/2103/all-types-landing.md
+        - All Methods: view/versions/2103/methods-landing.md
+        - All Properties: view/versions/2103/properties-landing.md
+        - Query Service: view/versions/2103/queries-landing.md
+        - Error Attributes: view/versions/2103/error-attributes.md
+        - Error Codes: view/versions/2103/error-codes.md
+      - v8.1.0: 
+        - view/versions/8.1.0/index.md
+        - Service Types: view/versions/8.1.0/mo-types-landing.md
+        - Data Object Types: view/versions/8.1.0/do-types-landing.md
+        - Fault Types: view/versions/8.1.0/fault-types-landing.md
+        - All Types: view/versions/8.1.0/all-types-landing.md
+        - All Methods: view/versions/8.1.0/methods-landing.md
+        - All Properties: view/versions/8.1.0/properties-landing.md
+        - Query Service: view/versions/8.1.0/queries-landing.md
+        - Error Attributes: view/versions/8.1.0/error-attributes.md
+        - Error Codes: view/versions/8.1.0/error-codes.md
+      - v8.0.0: 
+        - view/versions/8.0.0/index.md
+        - Service Types: view/versions/8.0.0/mo-types-landing.md
+        - Data Object Types: view/versions/8.0.0/do-types-landing.md
+        - Fault Types: view/versions/8.0.0/fault-types-landing.md
+        - All Types: view/versions/8.0.0/all-types-landing.md
+        - All Methods: view/versions/8.0.0/methods-landing.md
+        - All Properties: view/versions/8.0.0/properties-landing.md
+        - Query Service: view/versions/8.0.0/queries-landing.md
+        - Error Attributes: view/versions/8.0.0/error-attributes.md
+        - Error Codes: view/versions/8.0.0/error-codes.md
+      - v7.13.0: 
+        - view/versions/7.13.0/index.md
+        - Service Types: view/versions/7.13.0/mo-types-landing.md
+        - Data Object Types: view/versions/7.13.0/do-types-landing.md
+        - Fault Types: view/versions/7.13.0/fault-types-landing.md
+        - All Types: view/versions/7.13.0/all-types-landing.md
+        - All Methods: view/versions/7.13.0/methods-landing.md
+        - All Properties: view/versions/7.13.0/properties-landing.md
+        - Query Service: view/versions/7.13.0/queries-landing.md
+        - Error Attributes: view/versions/7.13.0/error-attributes.md
+        - Error Codes: view/versions/7.13.0/error-codes.md

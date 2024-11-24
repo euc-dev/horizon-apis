@@ -7,7 +7,7 @@ hide:
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-This is a API documentation for the Horizon Server 2406 also known as Horizon Enterprise.
+Welcome to the API documentation for Horizon Server 2406 also known as Horizon Enterprise.
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
 
