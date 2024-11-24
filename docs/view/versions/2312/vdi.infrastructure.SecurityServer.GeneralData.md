@@ -30,9 +30,9 @@ Since
 Security server data
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the security server [^2]
 **serverAddress**|  xsd:string|  General URL for the security server. [^2]
 **connectionServer**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Connection server paired with this security server [^2]

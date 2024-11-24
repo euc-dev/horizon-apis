@@ -25,9 +25,9 @@ Since
 Info for AD user.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userSid**|  xsd:string|  Security id of user.
 **userGuid**|  xsd:string|  GUID of the user in RFC 4122 format. For e.g. 5F5A45D9-15C0-4654-8FCF-D589C0EF3ECA
 **groupInfo**| [ADGroupInfo[]](vdi.users.ADUserOrGroup.ADGroupInfo.md)|  Info for ADGroups of the user. [^1]

@@ -37,9 +37,9 @@ Representation of a manageable entity id.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**|  xsd:string|  Cookie representing the entity.
 
 

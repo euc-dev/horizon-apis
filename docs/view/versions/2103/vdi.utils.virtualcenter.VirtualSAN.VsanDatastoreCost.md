@@ -25,9 +25,9 @@ Since
 Represents the cost factor for different types of disks when VSAN is used.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **osFactor**|  xsd:int|  Multiplicative factor for OS disk that is needed to account for the extra copies that are created for VSAN. [^10]
 *  This property need not be set. [^2]
 **replicaFactor**|  xsd:int|  Multiplicative factor for replica disk that is needed to account for the extra copies that are created for VSAN. [^10]

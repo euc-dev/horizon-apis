@@ -25,9 +25,9 @@ Since
 Certificate server data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Unique (common) name of this certificate server.
 **networkAddress**|  xsd:string|  DNS name network address of this certificate server. [^1]
 **connectionStatus**|  xsd:string|  The status of the enrollment server's connection to the certificate server.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONNECTED"</td><td>The enrollment server is connected to the certificate server.</td></tr><tr><td>"CONNECTED_DEGRADED"</td><td>The enrollment server has connected to the certificate server, but the certificate server is in a degraded state. Either the database is loading and it can't yet issue certificates (for up to 20 seconds) OR the last request took an excessive time to complete (more than 1000 milliseconds).</td></tr><tr><td>"SERVICE_UNAVAILABLE"</td><td>The enrollment server can connect to the certificate server, but the service is unavailable. A certificate server with a service in this status cannot be used in connector creation.</td></tr><tr><td>"DISCONNECTED"</td><td>The enrollment server is not connected to the certificate server.</td></tr></table>

@@ -25,9 +25,9 @@ Since
 Naming data for AWS desktop entities.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **bundleName**|  xsd:string|  Name of the AWS core bundle
 **directoryName**|  xsd:string|  Name of the AWS core directory
 

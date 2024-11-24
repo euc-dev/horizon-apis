@@ -31,9 +31,9 @@ Network interface card (NIC) information from VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [NetworkInterfaceCardId](vdi.entity.NetworkInterfaceCardId.md)|  Network interface card id. [^2]
 **data**| [NetworkInterfaceCardData](vdi.utils.virtualcenter.NetworkInterfaceCard.NetworkInterfaceCardData.md)|  Network interface card data. [^2]
 

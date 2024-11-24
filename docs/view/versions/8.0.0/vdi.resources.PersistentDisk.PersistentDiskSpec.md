@@ -28,9 +28,9 @@ Since
 The specification for creating a persistent disk from a Virtual Center virtual disk.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualDisk**| [VirtualDiskId](vdi.entity.VirtualDiskId.md)|  The ID of the virtual disk.
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group for the newly imported virtual disk.
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop to associate this persistent disk with. [^1]

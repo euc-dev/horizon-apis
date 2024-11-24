@@ -27,10 +27,9 @@ Since
 
 ## Service Description
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Validator_validateName
 
 
@@ -42,28 +41,28 @@ Validates the name provided in the [spec](vdi.utils.Validator.ValidationSpec.md)
 * APPLICATION: validates if the name is unique among existing desktops and applications.
 * MACHINE: validates if the naming pattern is unique among existing desktops and farms.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Validator](vdi.utils.Validator.md) used to make the method call.
 **spec**| [ValidationSpec](vdi.utils.Validator.ValidationSpec.md)|  The specification for the resource to be validated.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ValidationResponse](vdi.utils.Validator.ValidationResponse.md)| The [ValidationResponse](vdi.utils.Validator.ValidationResponse.md).
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

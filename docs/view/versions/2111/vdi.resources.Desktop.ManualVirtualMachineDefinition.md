@@ -28,9 +28,9 @@ Since
 Virtual machine definition used for validating manual configured machines.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **manualVirtualMachinesSpec**| [DesktopManualVirtualMachinesSpec[]](vdi.resources.Desktop.ManualVirtualMachinesSpec.md)|  List of manually defined virtual machines
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  ID of the desktop to which the manually defined virtual machines will belong. Only required if virtual machines are being added to an existing pool. [^1]
 **isNonPersistentDesktop**|  xsd:boolean|  Indicates whether desktop is persistent or non-persistent. [^5] [^1]

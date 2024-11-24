@@ -29,10 +29,9 @@ Since
 
 The Certificate SSO Enrollment Server service interface.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 CertificateSSOEnrollmentServer_Get, CertificateSSOEnrollmentServer_List
 
 
@@ -40,36 +39,36 @@ CertificateSSOEnrollmentServer_Get, CertificateSSOEnrollmentServer_List
 
 Retrieves information about a paired Certificate SSO Enrollment Server.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 ADMINISTRATOR_VIEW|  Administrator (read-only) is required to retrieve information about a server.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CertificateSSOEnrollmentServer](vdi.infrastructure.CertificateSSOEnrollmentServer.md) used to make the method call.
 **id**| [CertificateSSOEnrollmentServerId](vdi.entity.CertificateSSOEnrollmentServerId.md)|  The ID of the server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateSSOEnrollmentServerInfo](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md)| Information about the specified server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -86,34 +85,34 @@ Show WSDL type definition
 
 Lists the paired Certificate SSO Enrollment Servers.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 ADMINISTRATOR_VIEW|  Administrator (read-only) is required to list servers.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CertificateSSOEnrollmentServer](vdi.infrastructure.CertificateSSOEnrollmentServer.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CertificateSSOEnrollmentServerInfo[]](vdi.infrastructure.CertificateSSOEnrollmentServer.CertificateSSOEnrollmentServerInfo.md)| Information about the paired servers.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

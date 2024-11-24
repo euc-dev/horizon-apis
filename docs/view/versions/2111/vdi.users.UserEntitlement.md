@@ -32,10 +32,9 @@ Examples of associated resources are Desktops, Applications, GlobalEntitlements,
 Individual users/groups and resources may be associated with multiple user entitlements.
 List operation is not supported - a list of entitlements can be obtained from the [EntitledUserOrGroup](vdi.users.EntitledUserOrGroup.md) service by specific resource reference.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 UserEntitlement_Create, UserEntitlement_CreateUserEntitlements, UserEntitlement_Delete, UserEntitlement_DeleteUserEntitlements, UserEntitlement_Get, UserEntitlement_GetInfos
 
 
@@ -43,37 +42,37 @@ UserEntitlement_Create, UserEntitlement_CreateUserEntitlements, UserEntitlement_
 
 Add a user entitlement that connects a user/group and a resource. delete/create should be used instead of update.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_ENTITLE|  If the specified resource is a desktop or application, an entitlement privilege on that resource and its access group is required to create a user entitlement.
 FEDERATED_LDAP_MANAGE|  If the specified resource is a global entitlement or global application entitlement, Global LDAP management is required to create a user entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **base**| [UserEntitlementBase](vdi.users.UserEntitlement.UserEntitlementBase.md)|  attributes needed to add a user entitlement
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserEntitlementId](vdi.entity.UserEntitlementId.md)| The created user entitlement id
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -82,10 +81,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_USER_ENTITLEMENT_ADDED|  If the specified resource is a desktop, sent when successfully creating a user entitlement.
 VLSI_DESKTOP_USER_ENTITLEMENT_ADD_FAILED|  If the specified resource is a desktop, sent when a user entitlement failed to be created.
 VLSI_APPLICATION_USER_ENTITLEMENT_ADDED|  If the specified resource is an application, sent when successfully creating a user entitlement.
@@ -105,37 +104,37 @@ Add multiple user entitlements.
 If all resources are the same desktop or application, either all specified user entitlements will exist upon return, or, on error, no new entitlements will be added.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_ENTITLE|  If a specified resource is a desktop or application, an entitlement privilege on that resource and its access group is required to create that user entitlement.
 FEDERATED_LDAP_MANAGE|  If a specified resource is a global entitlement or global application entitlement, Global LDAP management is required to create that user entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **bases**| [UserEntitlementBase[]](vdi.users.UserEntitlement.UserEntitlementBase.md)|  array of user entitlement bases to create
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)| The created user entitlement ids
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -146,10 +145,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_USER_ENTITLEMENT_ADDED|  If the specified resource is a desktop, sent for each successfully created user entitlement.
 VLSI_DESKTOP_USER_ENTITLEMENT_ADD_FAILED|  If the specified resource is a desktop, sent for each user entitlement that failed to be created.
 VLSI_APPLICATION_USER_ENTITLEMENT_ADDED|  If the specified resource is an application, sent for each successfully created user entitlement.
@@ -167,37 +166,37 @@ Show WSDL type definition
 
 Delete a given user entitlement. delete/create should be used instead of update.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_ENTITLE|  If the specified resource is a desktop or application, an entitlement privilege on that resource and its access group is required to delete the user entitlement.
 FEDERATED_LDAP_MANAGE|  If the user entitlement's resource is a global entitlement or global application entitlement, Global LDAP management is required to delete the user entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **id**| [UserEntitlementId](vdi.entity.UserEntitlementId.md)|  UserEntitlementId of entity to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -206,10 +205,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_USER_ENTITLEMENT_DELETED|  If the specified resource is a desktop, sent when successfully deleting a user entitlement.
 VLSI_DESKTOP_USER_ENTITLEMENT_DELETE__FAILED|  If the specified resource is a desktop, sent when a user entitlement failed to be deleted.
 VLSI_APPLICATION_USER_ENTITLEMENT_DELETED|  If the specified resource is an application, sent when successfully deleting a user entitlement.
@@ -229,37 +228,37 @@ Delete multiple user entitlements.
 If all resources are the same desktop or application, either all user entitlements will be deleted, or, on error, none will.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_ENTITLE|  If any specified resource is a desktop or application, an entitlement privilege on that resource and its access group is required to delete that user entitlement.
 FEDERATED_LDAP_MANAGE|  If a user entitlement's resource is a global entitlement or global application entitlement, Global LDAP management is required to delete that user entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **ids**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  UserEntitlementIds of entities to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -269,10 +268,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_USER_ENTITLEMENT_DELETED|  If the specified resource is a desktop, sent for each successfully deleted user entitlement.
 VLSI_DESKTOP_USER_ENTITLEMENT_DELETE_FAILED|  If the specified resource is a desktop, sent for each user entitlement that failed to be deleted.
 VLSI_APPLICATION_USER_ENTITLEMENT_DELETED|  If the specified resource is an application, sent for each successfully deleted user entitlement.
@@ -290,37 +289,37 @@ Show WSDL type definition
 
 Get a user entitlement by Id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  IF the user entitlement's resource is a desktop or application, a read privilege is required on that resource and its access group to read that user entitlement.
 FEDERATED_LDAP_VIEW|  If the user entitlement's resource is a global entitlement or global application entitlement, Global LDAP read is required to read that user entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **id**| [UserEntitlementId](vdi.entity.UserEntitlementId.md)|  UserEntitlementId of entity to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserEntitlementInfo](vdi.users.UserEntitlement.UserEntitlementInfo.md)| The user entitlement info
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -337,37 +336,37 @@ Show WSDL type definition
 
 Get multiple user entitlement by Id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  If any user entitlement's resource is a desktop or application, a read privilege on that resource and its access group is required to read the user entitlements.
 FEDERATED_LDAP_VIEW|  If any user entitlement's resource is a global entitlement or global application entitlement, Global LDAP read is required to read the user entitlements.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UserEntitlement](vdi.users.UserEntitlement.md) used to make the method call.
 **ids**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  UserEntitlementIds of entities to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserEntitlementInfo[]](vdi.users.UserEntitlement.UserEntitlementInfo.md)| The user entitlement infos
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

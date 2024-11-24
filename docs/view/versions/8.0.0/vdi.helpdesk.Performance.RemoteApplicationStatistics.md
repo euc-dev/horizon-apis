@@ -25,9 +25,9 @@ Since
 The performance data for a remote application running on any virtual desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **applicationId**|  xsd:string|  The identity of an application.  **_Since_** Horizon 7.6 [^2]
 **processId**|  xsd:long|  The process Id. [^2]
 **name**|  xsd:string|  The name of a remote application. [^2]

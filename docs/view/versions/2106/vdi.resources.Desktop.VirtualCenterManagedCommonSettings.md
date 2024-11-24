@@ -25,9 +25,9 @@ Since
 Settings common to both Manual and Automated Desktops managed by Virtual Center sources.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **transparentPageSharingScope**|  xsd:string|  The transparent page sharing scope. [^124] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>VM</td><td>Inter-VM page sharing is not permitted.</td></tr><tr><td>DESKTOP</td><td>Inter-VM page sharing among VMs belonging to the same Desktop is permitted.</td></tr><tr><td>POD</td><td>Inter-VM page sharing among VMs belonging to the same Pod is permitted.</td></tr><tr><td>GLOBAL</td><td>Inter-VM page sharing among all VMs on the same host is permitted.</td></tr></table>
 
 

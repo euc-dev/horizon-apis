@@ -28,9 +28,9 @@ Since
 The result of registering an RDS Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  The ID of the newly registered RDS Server.
 **pairingToken**|  xsd:string|  The pairing token for the RDS Server. This should be passed to the RDS Server.
 

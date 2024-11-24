@@ -24,10 +24,9 @@ Since
 
 ## Service Description
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 CategoryFolder_List
 
 
@@ -35,35 +34,35 @@ CategoryFolder_List
 
 Lists the Category Folders by iterating through the pools.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required with the corresponding access group permission to get the list of Category Folders.
 FEDERATED_LDAP_VIEW|  privilege is required for Global LDAP read.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CategoryFolder](vdi.utils.CategoryFolder.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:string[]| A list containing the names of category folders.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

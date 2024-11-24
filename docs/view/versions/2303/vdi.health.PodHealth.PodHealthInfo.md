@@ -28,9 +28,9 @@ Since
 Info object for PodHealth
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PodId](vdi.entity.PodId.md)|  Id for the Pod [^2]
 **displayName**|  xsd:string|  Display name for the pod.  **_Since_** Horizon 7.9 [^1] [^2]
 **data**| [PodHealthData](vdi.health.PodHealth.PodHealthData.md)|  Health data for this pod. [^2]

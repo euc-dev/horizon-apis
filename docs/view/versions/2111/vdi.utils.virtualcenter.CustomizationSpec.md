@@ -29,10 +29,9 @@ Since
 
 The service for fetching Customization Spec from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 CustomizationSpec_List
 
 
@@ -40,37 +39,37 @@ CustomizationSpec_List
 
 Gets a list of customization specs from VC which may be suitable for desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the list of CustomizationSpecInfo.
 VC_CONFIG_VIEW|  privilege is required to get the list of CustomizationSpecInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [CustomizationSpec](vdi.utils.virtualcenter.CustomizationSpec.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for VirtualCenter
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [CustomizationSpecInfo[]](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecInfo.md)| Array of CustomizationSpecInfo
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

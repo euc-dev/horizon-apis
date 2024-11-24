@@ -25,9 +25,9 @@ Since
 Names of other entities related to this Machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **desktopName**|  xsd:string|  The name of the Desktop to which this Machine belongs. [^2]
 **userName**|  xsd:string| **Deprecated.**_use[userNames](vdi.resources.Machine.NamesData.md#userNames) instead. This field will not be populated for machine belonging to pool which support multiple assignment. _ The name of the user to whom this Machine has been assigned. [^1] [^2]
 **userNames**|  xsd:string[]|  Names of the users assigned to this Machine. This cannot be a group.  **_Since_** Horizon 7.12 [^1] [^2]

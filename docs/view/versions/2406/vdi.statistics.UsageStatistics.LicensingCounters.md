@@ -25,9 +25,9 @@ Since
 Statistics for the current and highest historical usage since the last reset.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **totalConcurrentConnections**|  xsd:int|  Concurrent connection user count. [^2]
 **totalNamedUsers**|  xsd:int|  The number of unique users that have accessed the Horizon environment since the Horizon deployment was first configured or since the last Named Users Count reset. As highest count is not applicable, the value will be empty in [highestUsage](vdi.statistics.UsageStatistics.LicensingCountersInfo.md#highestUsage). [^1] [^2]
 **totalConcurrentSessions**|  xsd:int|  The number of connected sessions. [^2]

@@ -25,9 +25,9 @@ Since
 Diagnostic operation request
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **message**|  xsd:string|  Message for Horizon Diagnostic Agent
  
 

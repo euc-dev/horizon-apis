@@ -27,9 +27,9 @@ Since
 The specification for deleting a Persistent Disk.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **deleteFromDisk**|  xsd:boolean|  Indicates whether the disks are to be archived [^6] [^1]
  
 

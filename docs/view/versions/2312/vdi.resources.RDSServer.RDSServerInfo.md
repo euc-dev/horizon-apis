@@ -31,19 +31,19 @@ RDSServer information; queries require at least one of the listed privileges.
 
 This data object is queryable using [QueryService](vdi.query.QueryService.md "QueryService").
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  is required to query RDSServers that are not in-use. It is sufficient to get all RDSServers that may or may not be associated with a Farm.
 POOL_VIEW|  is required to query RDSServers that are associated with a Farm. All in-use RDSServers can be queried with POOL_VIEW on the Root access group. With POOL_VIEW privilege on a non-Root Farm access group, only the RDSServers associated with the Farm can be queried.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  RDS server entity ID [^2]
 **base**| [RDSServerBase](vdi.resources.RDSServer.RDSServerBase.md)|  RDS server base
 **messageSecurityData**| [RDSServerMessageSecurityData](vdi.resources.RDSServer.RDSServerMessageSecurityData.md)|  RDS Server message security data.  **_Since_** Horizon View 6.1 [^2]

@@ -25,9 +25,9 @@ Since
 AD User change password
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**|  xsd:string|  The domain of user. Note that domain is optional if UPN is supplied. [^1]
 **username**|  xsd:string|  The username or UPN.
 **oldPassword**| [SecureString](vdi.util.SecureString.md)|  Old password.

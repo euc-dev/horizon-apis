@@ -31,10 +31,9 @@ Since
 
 Service for retrieving health information on security servers.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 SecurityServerHealth_Get, SecurityServerHealth_List
 
 
@@ -44,28 +43,28 @@ SecurityServerHealth_Get, SecurityServerHealth_List
 
 Gets the health information for an individual security server.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServerHealth](vdi.health.SecurityServerHealth.md) used to make the method call.
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  The ID of the security server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SecurityServerHealthInfo](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md)| The health information for an individual security server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -84,26 +83,26 @@ Show WSDL type definition
 
 Gets the health information for all security servers.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServerHealth](vdi.health.SecurityServerHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SecurityServerHealthInfo[]](vdi.health.SecurityServerHealth.SecurityServerHealthInfo.md)| The health information for all security servers.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

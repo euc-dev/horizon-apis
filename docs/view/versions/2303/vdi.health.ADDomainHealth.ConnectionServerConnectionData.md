@@ -28,9 +28,9 @@ Since
 The domain connection health for a connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The ID of the connection server.
 **connectionServerName**|  xsd:string|  The name of the connection server.
 **status**|  xsd:string|  The status of the connection to the domain.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Domain is accepting LDAP bind operations and has full functionality.</td></tr><tr><td>"WARN"</td><td>Domain is only accepting LDAP ping operations and has limited functionality. This may indicate a one-way trust relationship with this domain.</td></tr><tr><td>"ERROR"</td><td>Domain can not be contacted.</td></tr><tr><td>"UNKNOWN"</td><td>Domain health could not be determined.</td></tr></table>

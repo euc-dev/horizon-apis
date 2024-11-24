@@ -31,9 +31,9 @@ Since
 Indicates a partial failure with some possible successful return values. Normally used in "create multiple" and "delete multiple" methods when transactional behavior is not provided. The results array field will contain either a return value or an exception in original index order.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **resultCount**|  xsd:int|  The number of results, either successful or unsuccessful, returned in this partial failure.
 **successCount**|  xsd:int|  The number of successful results returned in this partial failure.
 **results**| [PartialFailureFaultResult[]](vdi.fault.PartialFailureFault.PartialFailureFaultResult.md)|  All the successful or unsuccessful results of this partial failure, in their original order. [^1]

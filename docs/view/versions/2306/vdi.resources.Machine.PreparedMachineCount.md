@@ -25,9 +25,9 @@ Since
 Number of the machines which are in prepared state. Such machine's [basicState](vdi.resources.Machine.MachineBase.md#basicState) is one of the following : PROVISIONED,AVAILABLE,CONNECTED,DISCONNECTED.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **available**|  xsd:int|  Number of machines which are in AVAILABLE [basicState](vdi.resources.Machine.MachineBase.md#basicState). [^2]
 **provisioned**|  xsd:int|  Number of machines which are in PROVISIONED [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable for VC managed virtual machines. [^2]
 **connected**|  xsd:int|  Number of machines which are in CONNECTED [basicState](vdi.resources.Machine.MachineBase.md#basicState). [^2]

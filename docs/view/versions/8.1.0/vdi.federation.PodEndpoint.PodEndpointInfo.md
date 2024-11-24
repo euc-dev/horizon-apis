@@ -31,9 +31,9 @@ Since
 Info object for the PodEndpoint.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PodEndpointId](vdi.entity.PodEndpointId.md)|  Unique identifier for a PodEndpoint [^2]
 **name**|  xsd:string|  Name for the podEndpoint [^2]
 **serverAddress**|  xsd:string|  The URL for the PodEndpoint. This address and special port will be used for inter-pod communication. [^2]

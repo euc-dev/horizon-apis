@@ -31,9 +31,9 @@ Since
 The root role information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [RoleId](vdi.entity.RoleId.md)|  Role ID of this entity. [^2]
 **base**| [RoleBase](vdi.users.Role.RoleBase.md)|  Base data used for role creation.
 **data**| [RoleData](vdi.users.Role.RoleData.md)|  Readonly data about this role. [^2]

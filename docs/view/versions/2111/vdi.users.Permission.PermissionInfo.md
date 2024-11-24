@@ -34,9 +34,9 @@ The permission information.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PermissionId](vdi.entity.PermissionId.md)|  Permission ID of this entity. [^2]
 **base**| [PermissionBase](vdi.users.Permission.PermissionBase.md)|  Base data used for permission creation. [^2]
 **namesData**| [PermissionNamesData](vdi.users.Permission.PermissionNamesData.md)|  Names data of User, Role and AccessGroup involved in this permission.  **_Since_** Horizon 7.8 [^1] [^2]

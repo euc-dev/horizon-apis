@@ -25,9 +25,9 @@ Since
 Virtual center and view composer limits for the number of concurrent operations.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **vcProvisioningLimit**|  xsd:int|  Maximum concurrent virtual center provisioning operations. [^206] [^8]
 **vcPowerOperationsLimit**|  xsd:int|  Maximum concurrent virtual center power operations. [^207] [^8]
 **viewComposerProvisioningLimit**|  xsd:int|  Maximum concurrent view composer provisioning operations. [^208] [^8]

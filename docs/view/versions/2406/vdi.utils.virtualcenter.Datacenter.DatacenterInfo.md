@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DatacenterId](vdi.entity.DatacenterId.md)|  Datacenter id.
 **base**| [DatacenterBase](vdi.utils.virtualcenter.Datacenter.DatacenterBase.md)|  Datacenter base
 **refId**|  xsd:string|  Reference ID used for this datacenter.  **_Since_** Horizon 8.1 [^1] [^2]

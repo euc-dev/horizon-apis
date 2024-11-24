@@ -31,10 +31,9 @@ Since
 
 Service interface for View Security Server Edit.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 SecurityServer_Get, SecurityServer_List, SecurityServer_Update
 
 
@@ -44,36 +43,36 @@ SecurityServer_Get, SecurityServer_List, SecurityServer_Update
 
 Get the SecurityServerInfo.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve information about a Connection Server.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServer](vdi.infrastructure.SecurityServer.md) used to make the method call.
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  The Id of the Security Server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SecurityServerInfo](vdi.infrastructure.SecurityServer.SecurityServerInfo.md)| Description of a Security Server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -92,34 +91,34 @@ Show WSDL type definition
 
 Get the SecurityServerInfo objects of all the security servers.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve information about a Security Server.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServer](vdi.infrastructure.SecurityServer.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SecurityServerInfo[]](vdi.infrastructure.SecurityServer.SecurityServerInfo.md)| List of all SecurityServerInfo objects.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -138,18 +137,18 @@ Show WSDL type definition
 
 Update SecurityServer configuration with the set of attributes in the map.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management privilege is required to update Security Server information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SecurityServer](vdi.infrastructure.SecurityServer.md) used to make the method call.
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  The Id of the Security Server.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^302]
@@ -158,18 +157,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -178,10 +177,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_SECURITY_SERVER_EDITED|  Fired once for each attribute changed in the connection broker
 ADMIN_SECURITY_SERVER_EDIT_FAILED|  Fired if the update failed.
 

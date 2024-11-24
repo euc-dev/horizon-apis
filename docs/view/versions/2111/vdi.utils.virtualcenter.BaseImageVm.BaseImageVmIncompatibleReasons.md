@@ -25,9 +25,9 @@ Since
 Reasons that may preclude this BaseImageVm from having its snapshots used in linked or instant clone desktop or farm creation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **inUseByDesktop**|  xsd:boolean|  This BaseImageVm is already a machine that belongs to another manual or automatic desktop or farm. If true, this cannot be used in linked or instant clone desktop or farm creation. [^2]
 **inUseByLinkedCloneDesktop**|  xsd:boolean|  This BaseImageVm is already a machine that belongs to a linked clone desktop or farm. If true, this cannot be used in linked or instant clone desktop or farm creation. [^2]
 **viewComposerReplica**|  xsd:boolean|  This BaseImageVm is a View Composer or Instant Clone Engine replica. If true, this cannot be used in linked or instant clone desktop or farm creation. [^2]

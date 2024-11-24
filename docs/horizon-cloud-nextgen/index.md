@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Horizon Cloud Service API
+title: Horizon Cloud Service Next Gen API
 hide:
   #- navigation
   - toc
 ---
 
-![Horizon Cloud](../../../assets/logos/horizon-cloud-logo.png){ align=right }
+![Horizon Cloud](../../../assets/logos/Horizon-Cloud-v-lm.png){ align=right }
 
-## What is the Horizon Cloud Service
+## What is the Horizon Cloud Service Next Gen
 
-Horizon Cloud is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) deployment with Thin Edge Infrastructure. The service provides you with a global view of your desktops and applications spanning across on-premises and cloud environments. Regardless of the location of your desktop and application deployments, Horizon Cloud enables you to consistently manage and monitor them.
+Horizon Cloud Next Gen is a modern cloud-first, multi-cloud Desktop as a Service (DaaS) deployment with Thin Edge Infrastructure. The service provides you with a global view of your desktops and applications spanning across on-premises and cloud environments. Regardless of the location of your desktop and application deployments, Horizon Cloud enables you to consistently manage and monitor them.
 
 ## Onboarding Customer to Data Center (HDC)
 
-Once you receive your Cloud Services Portal (CSP) invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to VMWare.
+Once you receive your Cloud Services Portal (CSP) invitation link in the email, please redeem it by clicking on the url. If you have not received an email, please reach out to Omnissa.
 
 - Login to ***CSP*** ([https://connect.omnissa.com](https://connect.omnissa.com)).
 - You have an option to create to use an existing CSP organization or create a new one to onboard to Horizon Cloud Services.
@@ -31,7 +31,7 @@ Once you receive your Cloud Services Portal (CSP) invitation link in the email, 
 ### Authentication
 
 !!!Important
-    Please take a note of below two steps.
+    Please take a note of below two steps.  
     The same authentication scheme ("Authorization: Bearer") is required for all API calls
 
 ### Obtain a CSP Access Token
@@ -39,7 +39,7 @@ Once you receive your Cloud Services Portal (CSP) invitation link in the email, 
 ##### Login to CSP Portal and obtain either
 
 - CSP Org ID
- Take the 'Long Organization ID' from the 'View Organization' page in CSP
+  Take the 'Long Organization ID' from the 'View Organization' page in CSP
 
 **OR**
 
@@ -53,7 +53,7 @@ These can be found when originally creating the OAuth App within your Organizati
 ##### Create a CSP API Token
 
 > See the previous section for details about creating an API Token. All API calls require authentication using an Access Token.
-  
+
 ### Obtain an Access Token
 
 Choose one of the following methods:

@@ -37,18 +37,18 @@ Only results associated with at least one Global Entitlement or Global Applicati
 [sessionData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#sessionData) and all other [globalData](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#globalData) fields are not allowed members in filters.
 [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#base).[inFolder](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#inFolder), [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#base).[phone](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#phone), and [base](vdi.users.EntitledUserOrGroup.EntitledUserOrGroupGlobalSummaryView.md#base).[description](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md#description) are not allowed member in filters.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required for this query. The pod federation must also be initialized.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group, from a global cache. [^2]
 **globalData**| [EntitledUserOrGroupGloballyEntitledData](vdi.users.EntitledUserOrGroup.GloballyEntitledData.md)|  Global entitlement data. [^2]

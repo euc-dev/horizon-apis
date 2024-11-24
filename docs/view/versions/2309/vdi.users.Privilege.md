@@ -29,10 +29,9 @@ Since
 
 Represents Privilege service.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Privilege_ListSelectablePrivileges
 
 
@@ -40,34 +39,34 @@ Privilege_ListSelectablePrivileges
 
 Lists the selectable privileges in the system.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_ROLE_VIEW|  Role read access privilege is required to read selectable privileges.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Privilege](vdi.users.Privilege.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PrivilegeInfo[]](vdi.users.Privilege.PrivilegeInfo.md)| The list of selectable privileges.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

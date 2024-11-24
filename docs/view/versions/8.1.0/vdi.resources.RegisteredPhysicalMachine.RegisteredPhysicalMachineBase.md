@@ -25,9 +25,9 @@ Since
 The MachineBase attributes.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Machine. [^1] [^2]
 **dnsName**|  xsd:string|  The DNS name of the Machine. [^1] [^2]
 **description**|  xsd:string|  Description of the machine.  **_Since_** Horizon 7.7 [^1] [^2]

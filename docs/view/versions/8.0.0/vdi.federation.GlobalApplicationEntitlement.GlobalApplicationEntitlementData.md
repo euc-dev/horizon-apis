@@ -28,9 +28,9 @@ Since
 Data about members of Global Application Entitlement
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **localApplicationCount**|  xsd:int|  Count of Applications local to this pod that are associated with this Global Application Entitlement. [^2]
 **remoteApplicationCount**|  xsd:int|  Count of Applications on remote pods that are associated with this Global Application Entitlement. [^2]
 **userCount**|  xsd:int|  Count of users that are associated with this Global Application Entitlement. [^2]

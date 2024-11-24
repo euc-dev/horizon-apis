@@ -25,9 +25,9 @@ Since
 Information about a file types supported by the application.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **fileType**|  xsd:string|  File type supported by this application. This value is case insensitive. If multiple file types are specified using the same (case insensitive) name and description, all but one will be ignored. [^181]
 **description**|  xsd:string|  Friendly name for the file type - for example, "Microsoft Word document". If unset, no friendly name will be displayed. [^1] [^13]
  

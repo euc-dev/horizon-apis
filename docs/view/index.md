@@ -5,7 +5,7 @@ hide:
 #- navigation
 - toc
 ---
-
+![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
 Welcome to the latest version (v2406) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
@@ -17,13 +17,20 @@ Welcome to the latest version (v2406) of the Omnissa View API Reference document
 * [All Properties](versions/2406/properties-landing.md)  
 * [Query Service](versions/2406/queries-landing.md)  
 
-To quickly find any entry, start typing its name in the **Search Bar**. 
+To quickly find any entry, start typing its name in the **Search Bar**.
 
 In addition, the documentation will outline any client library classes that makes the API easier to build against.
 
+## Documentation  
+
+| Name | Size |
+|---| --- |
+| [Horizon Server View API Changelog 2406](docs/ChangelogViewAPI2406.docx.docx) | 22 KB |
+| [Horizon Server View API Changelog 2312](docs/ChangelogViewAPI2312.docx) | 34 KB |
+
 ## Connecting to the API
 
-The URL of the API is **https://_server-address_ /view-vlsi/sdk**
+The URL of the API is **https://_server-address_/view-vlsi/sdk**
 
 ### Client library
 
@@ -73,7 +80,7 @@ If a certificate override is needed this can be accomplished using the **HttpCon
 
 ## Navigating the API Reference
 
-The View API Reference is set of documents, grouped by platform version. Use the navigation menu to the left to select the version, then the Service, Query, Data Object, Fault Types links to display information. To find the description of a specific object type, click the appropriate category name from the menu.
+The Omnissa View API Reference is set of documents, grouped by platform version. Use the navigation menu to the left to select the version, then the Service, Query, Data Object, Fault Types links to display information. To find the description of a specific object type, click the appropriate category name from the menu.
 
 To quickly find an entry, start typing its name in the **Search Bar** field.
 

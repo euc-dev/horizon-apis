@@ -28,9 +28,9 @@ Since
 Access Group Summary View.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The access group name. [^2] [^3]
 **id**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group id. [^2]
  

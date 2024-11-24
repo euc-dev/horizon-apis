@@ -25,9 +25,9 @@ Since
 The general statistics about PCoIP session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **durationSeconds**|  xsd:long|  Total number of seconds that the PCoIP session has been open. [^1] [^2]
 **bytesReceived**|  xsd:long|  Total number of bytes of PCoIP data that have been received since the PCoIP session started. [^1] [^2]
 **bytesSent**|  xsd:long|  Total number of bytes of PCoIP data that have been transmitted since the PCoIP session started. [^1] [^2]

@@ -29,10 +29,9 @@ Since
 
 Service for retrieving statistics information on Virtual Center servers.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 VirtualCenterStatistics_getSummaryStatistics, VirtualCenterStatistics_listSummaryStatistics
 
 
@@ -40,36 +39,36 @@ VirtualCenterStatistics_getSummaryStatistics, VirtualCenterStatistics_listSummar
 
 Gets the Virtual Center summary statistics for a specified Virtual Center server.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 VC_CONFIG_VIEW|  privilege is required to list Virtual Center summary statistics.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualCenterStatistics](vdi.statistics.VirtualCenterStatistics.md) used to make the method call.
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The ID of the Virtual Center server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VirtualCenterSummaryStatistics](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md)| summary statistics information on the specified server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -86,34 +85,34 @@ Show WSDL type definition
 
 Gets the Virtual Center summary statistics for all Virtual Center servers.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 VC_CONFIG_VIEW|  privilege is required to list Virtual Center summary statistics.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VirtualCenterStatistics](vdi.statistics.VirtualCenterStatistics.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VirtualCenterSummaryStatistics[]](vdi.statistics.VirtualCenterStatistics.VirtualCenterSummaryStatistics.md)| A list of summary statistics information on all Virtual Center servers.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

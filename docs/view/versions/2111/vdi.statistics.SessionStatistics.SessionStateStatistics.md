@@ -25,9 +25,9 @@ Since
 Statistics for Session state.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numActiveSessions**|  xsd:int|  The number of active sessions. [^2]
 **numIdleSessions**|  xsd:int|  The number of idle sessions. [^2]
 **numDisconnectedSessions**|  xsd:int|  The number of disconnected sessions. [^2]

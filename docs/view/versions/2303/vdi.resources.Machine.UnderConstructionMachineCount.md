@@ -25,9 +25,9 @@ Since
 Number of the machines which are in under construction state. Such machine's [basicState](vdi.resources.Machine.MachineBase.md#basicState) is one of the following : PROVISIONING,CUSTOMIZING,MAINTENANCE,DELETING,WAIT_FOR_AGENT,AGENT_ERR_STARTUP_IN_PROGRESS, VALIDATING
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **provisioning**|  xsd:int|  Number of machines which are in PROVISIONING [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable for VC managed virtual machines. [^2]
 **customizing**|  xsd:int|  Number of machines which are in CUSTOMIZING [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable only for VC managed virtual machines. [^2]
 **maintenance**|  xsd:int|  Number of machines which are in MAINTENANCE [basicState](vdi.resources.Machine.MachineBase.md#basicState). Applicable only for VC managed virtual machines. [^2]

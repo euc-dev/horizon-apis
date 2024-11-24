@@ -25,9 +25,9 @@ Since
 The General Configuration for the Connection Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the connection server [^2]
 **serverAddress**|  xsd:string|  General URL for the connection server. [^2]
 **enabled**|  xsd:boolean|  Indicate whether the connection server is enabled. A disabled connection server will not accept connection requests from View Clients.

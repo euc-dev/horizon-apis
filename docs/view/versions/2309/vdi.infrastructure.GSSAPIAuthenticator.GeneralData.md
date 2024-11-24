@@ -25,9 +25,9 @@ Since
 General data for a GSSAPI authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enableLoginAsCurrentUser**|  xsd:boolean|  Indicate whether login as current user is enabled. [^5]
 **allowLegacyClients**|  xsd:boolean|  Indicate whether the legacy Horizon clients will be allowed to use login as current user. [^6]
 **allowNTLMFallback**|  xsd:boolean|  Indicate whether NTLM is allowed for GSS API authentication. If kerberos authentication fails when the client does not have access to the domain controllers in the hosted environment, clients can fall back to NTLM authentication if allowNTLMFallback is set to true. [^5]

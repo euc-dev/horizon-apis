@@ -25,9 +25,9 @@ Since
 Load Balancing metrics
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **includeSessionCount**|  xsd:boolean|  Whether to include session count for load balancing. If #useCustomScript is false, by default session count will be used. It is true by default. [^6] [^1]
 **cpuThreshold**|  xsd:int|  Represents threshold of CPU usage, in percentage. If the value is 0, then this metric will not be considered for load balancing. [^19] [^1] [^72] [^115]
 **memThreshold**|  xsd:int|  Represents threshold of memory usage, in percentage. If the value is 0, then this metric will not be considered for load balancing. [^19] [^1] [^72] [^115]

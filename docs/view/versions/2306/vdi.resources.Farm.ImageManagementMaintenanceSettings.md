@@ -28,9 +28,9 @@ Since
 Settings for the image maintenance if farm is created using image catalog.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|  New image management stream for the farm.
 **imageManagementTag**| [ImageManagementTagId](vdi.entity.ImageManagementTagId.md)|  New image management tag for the farm. This tag must be within the [imageManagementStream](vdi.resources.Farm.ImageManagementMaintenanceSettings.md#imageManagementStream).
  

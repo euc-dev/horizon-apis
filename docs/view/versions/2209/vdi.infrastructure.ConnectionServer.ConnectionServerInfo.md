@@ -28,9 +28,9 @@ Since
 Description of the Connection Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Client reference to a specified Connection Server. [^2]
 **general**| [ConnectionServerGeneralData](vdi.infrastructure.ConnectionServer.GeneralData.md)|  General Settings for the Connection Server.
 **authentication**| [ConnectionServerAuthenticationData](vdi.infrastructure.ConnectionServer.AuthenticationData.md)|  Authentication Settings for the Connection Server.

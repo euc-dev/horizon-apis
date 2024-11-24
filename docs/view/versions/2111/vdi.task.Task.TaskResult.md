@@ -28,9 +28,9 @@ Since
 Information about a Task result.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **resultCode**|  xsd:string|  The result code of the task. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>SUCCESS</td><td>Task is completed successfully</td></tr><tr><td>WARN</td><td>Task is finished but has warning.</td></tr><tr><td>ERROR</td><td>Task is finished but it has error</td></tr></table>
 **message**|  xsd:string|  The result message [^2]
 **messageId**|  xsd:string|  The result message ID. [^2]

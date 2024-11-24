@@ -28,9 +28,9 @@ Since
 View Storage Accelerator configuration details.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  Is View Storage Accelerator enabled? [^5]
 **defaultCacheSizeMB**|  xsd:int|  Default size of the cache in megabytes. [^176] [^1] [^177] [^178] [^53]
 **hostOverrides**| [VirtualCenterStorageAcceleratorHostOverride[]](vdi.infrastructure.VirtualCenter.StorageAcceleratorHostOverride.md)|  Cache size overrides for hosts which support View Storage Accelerator. [^1]

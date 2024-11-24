@@ -23,9 +23,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **port**|  xsd:int|  Port of the server to connect to. [^72] [^189]
 **adDomainContext**|  xsd:string|  Active directory domain Context. e.g: dc=abc,dc=com.
 **adDomainAutoDiscovery**|  xsd:boolean|  Auto discovers domain controllers . Auto discovery, AD domain controllers and preferred site name are mutually exclusive. Only one of them can be defined at a time. [^6]

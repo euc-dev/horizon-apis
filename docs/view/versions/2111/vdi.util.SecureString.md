@@ -31,9 +31,9 @@ Wrapper object around a secure string
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **utf8String**|  xsd:base64Binary|  The UTF-8 Encoded String.
 
 

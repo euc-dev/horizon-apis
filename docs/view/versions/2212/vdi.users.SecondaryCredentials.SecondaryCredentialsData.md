@@ -25,9 +25,9 @@ See also
 SecondaryCredentials Data Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **ownerId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The owner of secondary credentials. [^2]
 **domain**|  xsd:string|  One way or two way trusted domain. This will be the DNS name of the domain. [^2]
 **username**|  xsd:string|  Username for secondary credentials account. [^2]

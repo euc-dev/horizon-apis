@@ -28,9 +28,9 @@ Since
 Information about a RADIUS authentication server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **hostname**|  xsd:string|  The hostname of the RADIUS authentication server.
 **authenticationPort**|  xsd:int|  The authentication port of the RADIUS authentication server. [^8] [^189]
 **accountingPort**|  xsd:int|  The accounting port of the RADIUS authentication server. [^72] [^189]

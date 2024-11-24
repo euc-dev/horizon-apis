@@ -25,9 +25,9 @@ Since
 Number of the machines which are in problem states. Such machine's [basicState](vdi.resources.Machine.MachineBase.md#basicState) is one of the following : AGENT_ERR_DISABLED, AGENT_UNREACHABLE, AGENT_ERR_INVALID_IP, AGENT_ERR_NEED_REBOOT, AGENT_ERR_PROTOCOL_FAILURE, AGENT_ERR_DOMAIN_FAILURE, AGENT_CONFIG_ERROR, PROVISIONING_ERROR, ERROR, UNASSIGNED_USER_CONNECTED, UNASSIGNED_USER_DISCONNECTED, UNKNOWN.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **agentDisabled**|  xsd:int|  Number of machines which are in AGENT_ERR_DISABLED [basicState](vdi.resources.Machine.MachineBase.md#basicState) [^2]
 **agentUnreachable**|  xsd:int|  Number of machines which are in AGENT_UNREACHABLE [basicState](vdi.resources.Machine.MachineBase.md#basicState) [^2]
 **invalidIp**|  xsd:int|  Number of machines which are in AGENT_ERR_INVALID_IP [basicState](vdi.resources.Machine.MachineBase.md#basicState) [^2]

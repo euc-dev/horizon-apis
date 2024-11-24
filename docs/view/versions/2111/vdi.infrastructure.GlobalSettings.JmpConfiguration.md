@@ -27,9 +27,9 @@ Since
 JMP configuration.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **url**|  xsd:string|  The URL of the JMP server. [^1]
 
 

@@ -31,9 +31,9 @@ Since
 User home site base information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user or group for whom this is the home site. [^2]
 **site**| [SiteId](vdi.entity.SiteId.md)|  Home Site Id [^2]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  If set, the specified site is the overriding home site for this GlobalEntitlement. If both globalEntitlement and globalApplicationEntitlement are unset, the specified site is the global configured home site. [^1] [^2]

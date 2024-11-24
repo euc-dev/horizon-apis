@@ -28,9 +28,9 @@ Since
 Datastore requirements specification.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **desktopId**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop Id to be supplied when editing a Desktop Pool. [^1]
 **farmId**| [FarmId](vdi.entity.FarmId.md)|  Farm Id to be supplied when editing a Farm. [^1]
 **isFarm**|  xsd:boolean|  Set to true when creating/editing a Farm. [^5]

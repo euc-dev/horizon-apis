@@ -31,9 +31,9 @@ DatastorePath info
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DatastorePathId](vdi.entity.DatastorePathId.md)|  DatastorePath entityId [^2]
 **path**|  xsd:string|  Full path of Datastore [^2]
 

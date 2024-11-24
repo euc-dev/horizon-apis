@@ -29,10 +29,9 @@ Since
 
 Service for managing SAML authenticators.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 SAMLAuthenticator_Create, SAMLAuthenticator_Delete, SAMLAuthenticator_Get, SAMLAuthenticator_List, SAMLAuthenticator_Update
 
 
@@ -40,36 +39,36 @@ SAMLAuthenticator_Create, SAMLAuthenticator_Delete, SAMLAuthenticator_Get, SAMLA
 
 Creates a SAML authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a SAML authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SAMLAuthenticator](vdi.infrastructure.SAMLAuthenticator.md) used to make the method call.
 **spec**| [SAMLAuthenticatorSpec](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorSpec.md)|  The specification of the SAML authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)| The ID of the newly created SAML authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SAML_AUTHENTICATOR_CREATED|  If the SAML authenticator was successfully created.
 VLSI_SAML_AUTHENTICATOR_CREATE_FAILED|  If the SAML authenticator could not be created.
 
@@ -95,36 +94,36 @@ Show WSDL type definition
 
 Deletes the specified SAML authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a SAML authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SAMLAuthenticator](vdi.infrastructure.SAMLAuthenticator.md) used to make the method call.
 **id**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)|  The ID of the SAML authenticator to delete.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityInUse](vdi.fault.EntityInUse.md)| Thrown if the SAML authentication is currently being used by a connection server.
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
@@ -134,10 +133,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SAML_AUTHENTICATOR_DELETED|  If the SAML authenticator was successfully deleted.
 VLSI_SAML_AUTHENTICATOR_DELETE_FAILED|  If the SAML authenticator could not be deleted.
 
@@ -151,36 +150,36 @@ Show WSDL type definition
 
 Retrieves information about a SAML authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to retrieve information about a SAML authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SAMLAuthenticator](vdi.infrastructure.SAMLAuthenticator.md) used to make the method call.
 **id**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)|  The ID of the SAML authenticator.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SAMLAuthenticatorInfo](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md)| Information about the specified SAML authenticator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -197,34 +196,34 @@ Show WSDL type definition
 
 Lists the configured SAML authenticators.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list SAML authenticators.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SAMLAuthenticator](vdi.infrastructure.SAMLAuthenticator.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [SAMLAuthenticatorInfo[]](vdi.infrastructure.SAMLAuthenticator.SAMLAuthenticatorInfo.md)| Information about the configured SAML authenticators.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -241,18 +240,18 @@ Show WSDL type definition
 
 Updates a SAML authenticator.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a SAML authenticator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [SAMLAuthenticator](vdi.infrastructure.SAMLAuthenticator.md) used to make the method call.
 **id**| [SAMLAuthenticatorId](vdi.entity.SAMLAuthenticatorId.md)|  The ID of the SAML authenticator to update.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^298]
@@ -261,18 +260,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -281,10 +280,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_SAML_AUTHENTICATOR_UPDATED|  If the SAML authenticator was successfully updated.
 VLSI_SAML_AUTHENTICATOR_UPDATE_FAILED|  If the SAML authenticator could not be updated.
 

@@ -28,9 +28,9 @@ Since
 Pod Health data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **site**| [SiteId](vdi.entity.SiteId.md)|  The Id of the site this pod belongs to [^2]
 **endpointHealth**| [PodEndpointHealthData[]](vdi.health.PodHealth.PodEndpointHealthData.md)|  Health data for the the podEndpoints in this pod [^1] [^2]
 

@@ -31,9 +31,9 @@ CountSpec to filter & count the sessions
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Unique identifier for user. <br>At most one of the [user](vdi.users.GlobalSessionQueryService.CountSpec.md#user), [pod](vdi.users.GlobalSessionQueryService.CountSpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.CountSpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.CountSpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.CountSpec.md#clientName) values can be set to non null value. [^1]
 **pod**| [PodId](vdi.entity.PodId.md)|  ID of the pod hosting the session. <br>At most one of the [user](vdi.users.GlobalSessionQueryService.CountSpec.md#user), [pod](vdi.users.GlobalSessionQueryService.CountSpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.CountSpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.CountSpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.CountSpec.md#clientName) values can be set to non null value. [^1]
 **brokeringPod**| [PodId](vdi.entity.PodId.md)|  ID of pod that brokered the session. <br>At most one of the [user](vdi.users.GlobalSessionQueryService.CountSpec.md#user), [pod](vdi.users.GlobalSessionQueryService.CountSpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.CountSpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.CountSpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.CountSpec.md#clientName) values can be set to non null value. [^1]

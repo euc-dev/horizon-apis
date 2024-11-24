@@ -25,9 +25,9 @@ Since
 Farm Display Protocol settings
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **defaultDisplayProtocol**|  xsd:string|  Default Server Display Protocol, when override display protocol is disallowed. Farms support PCOIP, RDP and BLAST. [^111] [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>RDP</td><td>Microsoft Remote Desktop Protocol.</td></tr><tr><td>PCOIP</td><td>PC over IP.</td></tr><tr><td>BLAST</td><td>BLAST.</td></tr></table>
 **allowDisplayProtocolOverride**|  xsd:boolean|  Indicates whether the Display Protocol settings could be overridden. If set to false, then defaultDisplayProtocol is used. [^6] [^1]
 **enableHTMLAccess**|  xsd:boolean| **Deprecated.**_This property is no longer in use for Horizon Components. It is always set to true._ HTML Access, enabled by VMware Blast technology, allows users to connect to View machines from Web browsers. View Client software does not have to be installed on the client devices. To enable HTML Access, you must install the HTML Machine Access feature pack. <br>**_Since_** Horizon View 6.1 [^6] [^1]

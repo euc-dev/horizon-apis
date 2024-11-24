@@ -25,9 +25,9 @@ Since
 Settings when no customization is desired.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **doNotPowerOnVMsAfterCreation**|  xsd:boolean|  Whether to power on VMs after creation. [^5]
  
 

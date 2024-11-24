@@ -28,9 +28,9 @@ Since
 Data for scheduled maintenance operations.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **nextScheduledTime**|  xsd:dateTime|  Time when next scheduled maintenance would happen. [^1]
 **immediateMaintenanceScheduled**|  xsd:boolean|  True if immediate maintenance is scheduled.  **_Since_** Horizon 7.4 [^5] [^1]
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on RDS servers which have an active session.  **_Since_** Horizon 7.4 <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"FORCE_LOGOFF"</td><td>Users will be forced to log off when the system is ready to operate on their RDS Servers. Before being forcibly logged off, users may have a grace period in which to save their work (Global Settings).</td></tr><tr><td>"WAIT_FOR_LOGOFF"</td><td>Wait for connected users to disconnect before the task starts. The operation starts immediately on RDS Servers without active sessions.</td></tr></table>

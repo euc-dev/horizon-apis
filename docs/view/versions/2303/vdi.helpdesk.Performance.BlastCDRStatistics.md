@@ -25,9 +25,9 @@ Since
 The CDR related statistics for Blast protocol.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **bytesReceived**|  xsd:long|  The number of bytes of CDR data that have been received. [^1] [^2]
 **bytesTransmitted**|  xsd:long|  The number of bytes of CDR data that have been transmitted. [^1] [^2]
  

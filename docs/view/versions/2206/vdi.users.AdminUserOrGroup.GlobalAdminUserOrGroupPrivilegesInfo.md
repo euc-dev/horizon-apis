@@ -28,9 +28,9 @@ Since
 Represents global access group and privileges mapping for the user or group.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **globalAccessGroupId**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  The global access group id. [^1]
 **globalAccessGroupName**|  xsd:string|  The global access group name.
 **privileges**|  xsd:string[]|  The set of privileges on the current global access group. [^1]

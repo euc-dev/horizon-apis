@@ -28,9 +28,9 @@ Set of attributes for a network interface card retrieved from the VC.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The network interface card's VC display name. [^1] [^2]
 **macAddress**|  xsd:string|  The network interface card's MAC address. [^1] [^2]
 

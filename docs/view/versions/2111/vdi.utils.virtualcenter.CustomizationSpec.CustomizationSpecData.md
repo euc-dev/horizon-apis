@@ -31,9 +31,9 @@ CustomizationSpecData is a set of attributes for a CustomizationSpec retrieved f
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Customization Spec name [^2]
 **description**|  xsd:string|  Customization Spec description [^1] [^2]
 **guestOS**|  xsd:string|  Guest OS [^1] [^2]

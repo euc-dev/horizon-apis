@@ -28,9 +28,9 @@ Since
 Read-only operation and provisioning status data for instant clone farms.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **operation**|  xsd:string|  The operation that this instant clone farm is undergoing. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"NONE"</td><td>There is no current operation on the farm.</td></tr><tr><td>"INITIAL_PUBLISH"</td><td>The farm has just been created and is undergoing initial publishing.</td></tr><tr><td>"RECURRING_SCHEDULED_MAINTENANCE"</td><td>A recurring maintenance operation is scheduled on the farm.</td></tr><tr><td>"CANCEL_SCHEDULED_MAINTENANCE"</td><td>The recurring maintenance operation on the farm is being cancelled.</td></tr><tr><td>"INFRASTRUCTURE_CHANGE"</td><td>A cluster or datastore change operation was requested for the farm.</td></tr><tr><td>"FINAL_UNPUBLISH"</td><td>A farm has been deleted and is undergoing final unpublishing.</td></tr></table>
 **operationTime**|  xsd:dateTime|  Time of the operation that instant clone farm is undergoing  **_Since_** Horizon 7.7 [^1]
 **instantClonePendingImageState**|  xsd:string|  This represents the state of the pending image. This will be null when there is no pending image for the farm. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PENDING_PUBLISH"</td><td>This is the initial transient state of the pending image before instant clone farm creation operation has started.</td></tr><tr><td>"PUBLISHING"</td><td>This is the transient state of the pending image when creation of instant clone farm operation is going on.</td></tr><tr><td>"READY"</td><td>This is the state of the pending image after successful publish of the pending image and before that image has been upgraded to the current image. This is normally seen after successful publish for a push image which has been scheduled to trigger at a later time.</td></tr><tr><td>"FAILED"</td><td>This is the state of the pending image if creation of instant clone farm operation has failed or timed out.</td></tr></table>

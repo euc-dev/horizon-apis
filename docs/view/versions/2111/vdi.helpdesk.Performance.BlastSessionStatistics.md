@@ -25,9 +25,9 @@ Since
 The session related statistics for Blast protocol.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **roundTripTime**|  xsd:long|  The round trip time in milliseconds between the server and the client. [^1] [^2]
 **bandwidthUplink**|  xsd:long|  Uplink bandwidth averaged over the sampling period, in kilobits per second. [^1] [^2]
 **packetLossUplink**|  xsd:long|  Network packet loss for uplink. [^1] [^2]

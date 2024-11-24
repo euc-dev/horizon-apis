@@ -28,9 +28,9 @@ Since
 The PCoIP protocol performance metrics.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **pcoipGeneralStatistics**| [PcoipGeneralStatistics](vdi.helpdesk.Performance.PcoipGeneralStatistics.md)|  The general statistics about PCoIP session. [^1] [^2]
 **pcoipNetworkStatistics**| [PcoipNetworkStatistics](vdi.helpdesk.Performance.PcoipNetworkStatistics.md)|  The network statistics about PCoIP session. [^1] [^2]
 **pcoipUsbStatistics**| [PcoipUSBStatistics](vdi.helpdesk.Performance.PcoipUSBStatistics.md)|  The USB statistics about PCoIP session. [^1] [^2]

@@ -28,9 +28,9 @@ Since
 Data relevant to locally entitled users.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **machines**| [MachineId[]](vdi.entity.MachineId.md)|  Machines this user or group is assigned to. MachineIds of this type originate from the [Machine](vdi.resources.Machine.md) service. [^1] [^14]
 **persistentDisks**| [PersistentDiskId[]](vdi.entity.PersistentDiskId.md)| **Deprecated.**_This property is being deprecated since View Composer will no longer be supported from Horizon version 2012 onwards._ View Composer persistent disks this user is assigned to. [^1] [^14]
 **desktops**| [DesktopId[]](vdi.entity.DesktopId.md)|  Local desktops for which this user has an entitlement. [^1] [^14]

@@ -22,9 +22,9 @@ Returned by
 Logon Segment timing data Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **logonSegmentData**|  xsd:string|  Logon segment timing data
  
 

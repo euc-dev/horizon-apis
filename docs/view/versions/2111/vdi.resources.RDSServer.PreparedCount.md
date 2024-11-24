@@ -25,9 +25,9 @@ Since
 Number of the RDS server machines which are in prepared states. Such machine's [status](vdi.resources.RDSServer.RDSServerStateView.md#status) is one of the following : PROVISIONED,AVAILABLE,CONNECTED,DISCONNECTED.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **available**|  xsd:int|  Number of RDS server machines which are in AVAILABLE [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 **provisioned**|  xsd:int|  Number of RDS server machines which are in PROVISIONED [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 

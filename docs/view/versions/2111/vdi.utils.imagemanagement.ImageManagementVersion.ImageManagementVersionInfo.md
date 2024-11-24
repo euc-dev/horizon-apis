@@ -28,9 +28,9 @@ Since
 Top level object describing a image management version.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  Entity id image management version. [^2]
 **base**| [ImageManagementVersionBase](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md)|  Basic data about a image management version.
 **refId**|  xsd:string|  Reference ID used for this image management version.  **_Since_** Horizon 8.1 [^1] [^2]

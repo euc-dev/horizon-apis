@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **auxiliaryAccounts**| [AuxiliaryAccountUpdateData[]](vdi.utils.ADDomain.AuxiliaryAccountUpdateData.md)|  Auxiliary account update data.
 
 

@@ -28,9 +28,9 @@ Since
 Names of objects that reside in a global session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **baseNames**| [SessionNamesData](vdi.users.Session.SessionNamesData.md)|  Names of objects for a basic session.
 **entitlementName**|  xsd:string|  Global Entitlement for this session. [^1]
 **applicationEntitlementNames**|  xsd:string[]|  Global Application Entitlements for this session.  **_Since_** Horizon 7.2 [^1]

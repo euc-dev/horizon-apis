@@ -25,9 +25,9 @@ Since
 Specification for an AWS Core power management settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the schedule
 **timezone**|  xsd:string|  Time-zone of the schedule.
 **daysOfTheWeek**|  xsd:string[]|  Days of the week

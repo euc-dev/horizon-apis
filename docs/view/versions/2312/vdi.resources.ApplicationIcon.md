@@ -29,10 +29,9 @@ Since
 
 Service that represents ApplicationIcon. These are not explicitly managed by View administrator. However, the interface is required for performance reasons: while fetching Applications, icon image data is not included, and client must separately request icons.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ApplicationIcon_CreateAndAssociate, ApplicationIcon_Get, ApplicationIcon_GetByApplications, ApplicationIcon_GetInfos, ApplicationIcon_GetSummaryViewByApplications, ApplicationIcon_RemoveAssociations, ApplicationIcon_UpdateAssociations
 
 
@@ -40,37 +39,37 @@ ApplicationIcon_CreateAndAssociate, ApplicationIcon_Get, ApplicationIcon_GetByAp
 
 Creates a new ApplicationIcon and associates it with application(s) mentioned in the spec. Any existing ApplicatonIcon association will be replaced with the newly supplied association information for application(s) specified in the spec. This API throws an exception if executionData contains an empty applications field.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to create ApplicationIcon.
 FEDERATED_LDAP_MANAGE|  privilege is required if Application has Global Application Entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **spec**| [ApplicationIconSpec](vdi.resources.ApplicationIcon.ApplicationIconSpec.md)|  The information required to create the new ApplicationIcon and its association with given application(s).
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationIconId](vdi.entity.ApplicationIconId.md)| The id of the new ApplicationIcon.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_ICON_CREATED_ASSOCIATED|  if ApplicationIcon is created and associated with all the applications specified in spec.
 VLSI_APPLICATION_ICON_CREATE_ASSOCIATE_FAILED|  if operation failed.
 
@@ -96,36 +95,36 @@ Show WSDL type definition
 
 Get an ApplicationIcon by Id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required on at-least one Application (that the ApplicationIconId represents) to get ApplicationIconInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  entityId of ApplicationIcon to get.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationIconInfo](vdi.resources.ApplicationIcon.ApplicationIconInfo.md)| requested ApplicationIcon entity.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -142,18 +141,18 @@ Show WSDL type definition
 
 List all ApplicationIcons used by the given Application entityIDs. If an Application has multiple icons, the icon with the closest size matching height and width is chosen. If there is a customized icon association for the given application, it will always return customized icon only.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required for each of the Applications in ApplicationId array to get the ApplicationIconInfo array.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **height**|  xsd:int|  Icon height.
 **width**|  xsd:int|  Icon width.
@@ -162,18 +161,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationIconInfo[]](vdi.resources.ApplicationIcon.ApplicationIconInfo.md)| The array of ApplicationIcons associated with the specified Applications. The array index order matches with entityIds array.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -191,36 +190,36 @@ Show WSDL type definition
 
 Get all ApplicationIcons for the given ApplicationIcon entityIds
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required on at-least one Application (that each ApplicationIconId represents) to get ApplicationIconInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **ids**| [ApplicationIconId[]](vdi.entity.ApplicationIconId.md)|  Array of entityId of the ApplicationIcon
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationIconInfo[]](vdi.resources.ApplicationIcon.ApplicationIconInfo.md)| The list of ApplicationIcons associated with the specified ApplicationIcon entityIDs
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -237,18 +236,18 @@ Show WSDL type definition
 
 List summaries of all ApplicationIcons used by the given Application entityIDs without the image data. If an Application has multiple icons, the summary of the icon with the closest size matching height and width is chosen. If there is a customized icon association for the given application, it will always return customized icon summary only.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required for each of the Applications in ApplicationId array to get the ApplicationIconInfo array.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **height**|  xsd:int|  Icon height.
 **width**|  xsd:int|  Icon width.
@@ -257,18 +256,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationIconSummaryView[]](vdi.resources.ApplicationIcon.ApplicationIconSummaryView.md)| The array of ApplicationIconSummaryViews associated with the specified Applications. The array index order matches with entityIds array.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -286,19 +285,19 @@ Show WSDL type definition
 
 Removes association between ApplicationIcon and Application(s). It deletes the ApplicationIcon if not used by any other Applications. This operation is only allowed on customized icons i.e. ApplicationIcons having iconSource as unset cannot be removed.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to delete the icon associations.
 FEDERATED_LDAP_MANAGE|  privilege is required if Application has Global Application Entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  The entityId of the ApplicationIcon.
 **applications**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications to which association needs to be removed.
@@ -306,18 +305,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -326,10 +325,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_ICON_ASSOCIATION_REMOVED|  if association is removed between ApplicationIcon and all the Application(s).
 VLSI_APPLICATION_ICON_ASSOCIATION_REMOVE_FAILED|  if failed in removing association between any Application and ApplicationIcon.
 
@@ -343,19 +342,19 @@ Show WSDL type definition
 
 Updates an association between this ApplicationIcon and Application(s). This operation is only allowed on customized icons i.e. ApplicationIcons having iconSource as unset cannot be removed.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to update any attributes.
 FEDERATED_LDAP_MANAGE|  privilege is required if Application has Global Application Entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ApplicationIcon](vdi.resources.ApplicationIcon.md) used to make the method call.
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  The entityId of the ApplicationIcon to be updated.
 **applications**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of entityId of the Applications to which association needs to be updated.
@@ -363,18 +362,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -383,10 +382,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_ICON_ASSOCIATION_UPDATED|  if ApplicationIcon is associated with all the applications specified.
 VLSI_APPLICATION_ICON_ASSOCIATION_UPDATE_FAILED|  if the ApplicationIcon update failed.
 

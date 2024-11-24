@@ -28,9 +28,9 @@ Since
 Data relevant to globally entitled users.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **globalEntitlements**| [GlobalEntitlementId[]](vdi.entity.GlobalEntitlementId.md)|  Global desktop entitlements for this user. [^1] [^14]
 **globalUserEntitlements**| [UserEntitlementId[]](vdi.entity.UserEntitlementId.md)|  Global entitlement user entitlements for this user or group. The array index will correspond to the same global entitlement as the GlobalEntitlementId array. [^1]
 **globalApplicationEntitlements**| [GlobalApplicationEntitlementId[]](vdi.entity.GlobalApplicationEntitlementId.md)|  Global application entitlements for this user.  **_Since_** Horizon View 6.2 [^1] [^14]

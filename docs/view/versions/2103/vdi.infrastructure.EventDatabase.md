@@ -29,10 +29,9 @@ Since
 
 Service to manage the event database.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 EventDatabase_Clear, EventDatabase_Get, EventDatabase_Update
 
 
@@ -40,34 +39,34 @@ EventDatabase_Clear, EventDatabase_Get, EventDatabase_Update
 
 Clear the event database settings for this View cluster. If no event database is set, this will no-op.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global management is required to clear event database settings.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabase](vdi.infrastructure.EventDatabase.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -76,10 +75,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DATABASE_CONFIGURATION_DELETED|  If a set Event Database was successfully cleared.
 ADMIN_DATABASE_CONFIGURATION_DELETE_FAILED|  If a set Event Database could not be cleared.
 
@@ -93,34 +92,34 @@ Show WSDL type definition
 
 Gets the event database settings for this View cluster If no event database is set, the eventDatabaseSet field will indicate that the settings and database members should be ignored.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get event database settings.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabase](vdi.infrastructure.EventDatabase.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EventDatabaseInfo](vdi.infrastructure.EventDatabase.EventDatabaseInfo.md)| The GlobalSettingsInfo object.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -137,18 +136,18 @@ Show WSDL type definition
 
 Updates the event database settings for this View cluster. If no event database is set, this will cause a new event database to be set. If the settings are invalid, will throw InvalidRequest.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global management is required to update event database settings.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [EventDatabase](vdi.infrastructure.EventDatabase.md) used to make the method call.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^263]
 
@@ -156,18 +155,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -177,10 +176,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 ADMIN_DATABASE_CONFIGURATION_ADDED|  If the Event Database was not set, and a new one was successfully created.
 ADMIN_DATABASE_CONFIGURATION_ADD_FAILED|  If the Event Data was not set, and a new one could not be created.
 ADMIN_DATABASE_CONFIGURATION_UPDATED|  If a set Event Database was successfully updated.

@@ -28,9 +28,9 @@ Since
 URLRedirection Info Object. Query service support for this object is deprecated. List API should be used for reading all URL Redirection setting.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [URLRedirectionId](vdi.entity.URLRedirectionId.md)|  URLRedirection entity ID. [^2]
 **urlRedirectionData**| [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md)|  URLRedirection Data Object.
 

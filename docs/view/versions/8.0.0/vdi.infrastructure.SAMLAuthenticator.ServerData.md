@@ -25,9 +25,9 @@ Since
 Server data for a SAML server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **authenticatorType**|  xsd:string|  The type of saml authenticator.  **_Since_** Horizon 7.0 [^299] [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"STATIC"</td><td>Static SAML Authenticator, which contains SAML metadata</td></tr><tr><td>"DYNAMIC"</td><td>Dynamic SAML Authenticator fetches metadata dynamically using a provided URL</td></tr></table>
 **metadataURL**|  xsd:string|  The metadata URL that this SAML authenticator uses to fetch metadata. This must specify a protocol (scheme) of https. It must be unique among all other SAML authenticators. [^1] [^300]
 **administratorURL**|  xsd:string|  The administrator URL for this SAML authenticator. This must specify a protocol (scheme) of http or https. [^1]

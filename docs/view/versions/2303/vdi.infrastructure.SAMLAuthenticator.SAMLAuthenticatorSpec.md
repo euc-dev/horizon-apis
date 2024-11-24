@@ -28,9 +28,9 @@ Since
 The specification for creating a SAML authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **general**| [SAMLAuthenticatorGeneralData](vdi.infrastructure.SAMLAuthenticator.GeneralData.md)|  General data on the SAML Authenticator.
 **server**| [SAMLAuthenticatorServerData](vdi.infrastructure.SAMLAuthenticator.ServerData.md)|  Data on the SAML authenticator server
 **certificateOverride**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  The certificate override for the SAML authenticator. [^1]

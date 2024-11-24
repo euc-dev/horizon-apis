@@ -29,10 +29,9 @@ Since
 
 Interface representing an endpoint in a pod.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 PodEndpoint_Get, PodEndpoint_List
 
 
@@ -40,36 +39,36 @@ PodEndpoint_Get, PodEndpoint_List
 
 Get information about a specific podEndpoint.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a pod endpoint.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodEndpoint](vdi.federation.PodEndpoint.md) used to make the method call.
 **id**| [PodEndpointId](vdi.entity.PodEndpointId.md)|  id of the pod endpoint to get
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PodEndpointInfo](vdi.federation.PodEndpoint.PodEndpointInfo.md)| podEndpointInfo for the endpoint
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -87,36 +86,36 @@ Show WSDL type definition
 
 List all pod endpoints in the specified pod.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to list pod endpoints.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PodEndpoint](vdi.federation.PodEndpoint.md) used to make the method call.
 **pod**| [PodId](vdi.entity.PodId.md)|  The pod id
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PodEndpointInfo[]](vdi.federation.PodEndpoint.PodEndpointInfo.md)| list of podEndpoints in the specified pod.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

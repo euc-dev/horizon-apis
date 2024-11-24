@@ -25,9 +25,9 @@ Since
 Represents finish acknowledgement with a task identifier.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **logCollectorTaskId**| [LogCollectorTaskId](vdi.entity.LogCollectorTaskId.md)|  Log collection task identifier
 
 

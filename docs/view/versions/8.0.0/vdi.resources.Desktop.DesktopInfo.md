@@ -28,9 +28,9 @@ Since
 A detailed description of a desktop instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Client reference to a specific desktop instance.
 **base**| [DesktopBase](vdi.resources.Desktop.DesktopBase.md)|  Desktop identification information.
 **desktopSettings**| [DesktopSettings](vdi.resources.Desktop.DesktopSettings.md)|  Configuration settings for the desktop.

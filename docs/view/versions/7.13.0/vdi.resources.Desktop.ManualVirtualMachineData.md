@@ -25,9 +25,9 @@ Since
 Validated virtual machine data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **vmName**|  xsd:string|  Virtual Machine name
 **userName**|  xsd:string|  Virtual Machine user [^1]
 **sid**|  xsd:string|  The user's sid [^1]

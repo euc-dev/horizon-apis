@@ -29,10 +29,9 @@ Since
 
 Interface representing Cascadia Remote Application.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Application_Create, Application_Delete, Application_DeleteApplications, Application_Get, Application_GetSummaryView, Application_GetSummaryViews, Application_ListGAECompatibleApplications, Application_Update
 
 
@@ -40,36 +39,36 @@ Application_Create, Application_Delete, Application_DeleteApplications, Applicat
 
 Create a new Application
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to create Application.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **spec**| [ApplicationSpec](vdi.resources.Application.ApplicationSpec.md)|  The information required to create the new Application
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationId](vdi.entity.ApplicationId.md)| The id of the new Application
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,10 +77,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_CREATED|  if Application creation succeeds.
 VLSI_APPLICATION_CREATE_FAILED|  if Application creation fails.
 
@@ -95,36 +94,36 @@ Show WSDL type definition
 
 Delete a given Application.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to delete the Application.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  The entityId of the Application to delete
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -133,10 +132,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_DELETED|  if the Application is successfully deleted.
 VLSI_APPLICATION_DELETE_FAILED|  if the Application deletion failed.
 
@@ -150,36 +149,36 @@ Show WSDL type definition
 
 Delete multiple Applications.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  privilege is required to delete the Applications.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **ids**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of unique identifiers for Application entries.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -189,10 +188,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_DELETED|  for every Application if it is deleted successfully
 VLSI_APPLICATION_DELETE_FAILED|  for every Application if the deletion failed
 
@@ -206,36 +205,36 @@ Show WSDL type definition
 
 Get an Application by Id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required to get Application.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  The entityId of the Application to get
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationInfo](vdi.resources.Application.ApplicationInfo.md)| requested Application entity
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -252,37 +251,37 @@ Show WSDL type definition
 
 Returns the ApplicationSummaryView for a specific Application entry.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  required to get the Application Summary View.
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read the [applicationSummaryData](vdi.resources.Application.ApplicationSummaryView.md#applicationSummaryData).[globalApplicationEntitlement](vdi.resources.Application.ApplicationSummaryData.md#globalApplicationEntitlement) member of an application. This will be unset otherwise.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  unique identifier for an Application entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationSummaryView](vdi.resources.Application.ApplicationSummaryView.md)| The ApplicationSummaryView
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -299,37 +298,37 @@ Show WSDL type definition
 
 Returns the ApplicationSummaryView for selected Application entries.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  required to get the Application Summary View.
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read the [applicationSummaryData](vdi.resources.Application.ApplicationSummaryView.md#applicationSummaryData).[globalApplicationEntitlement](vdi.resources.Application.ApplicationSummaryData.md#globalApplicationEntitlement) member of an application. This will be unset otherwise.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **ids**| [ApplicationId[]](vdi.entity.ApplicationId.md)|  Array of unique identifiers for Application entries.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationSummaryView[]](vdi.resources.Application.ApplicationSummaryView.md)| Array of ApplicationSummaryView
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -346,37 +345,37 @@ Show WSDL type definition
 
 List of applications that can be associated with the specified Global Application Entitlement.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a Global Application Entitlement
 POOL_VIEW|  Desktop read privilege with the corresponding access group permission is required to read a desktop and Farm information
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **globalApplicationEntitlement**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  unique identifier for Global Application Entitlement. GlobalApplicationEntitlementIds of this type must originate from [GlobalApplicationEntitlement](vdi.federation.GlobalApplicationEntitlement.md) service
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ApplicationSummaryView[]](vdi.resources.Application.ApplicationSummaryView.md)|
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -393,18 +392,18 @@ Show WSDL type definition
 
 Update an Application with the set of attributes in the map.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_ENABLE|  privilege is required to update enabled flag. POOL_MANAGEMENT privilege is required to update any other attributes.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Application](vdi.resources.Application.md) used to make the method call.
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  The entity Id of the Application to be updated
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  The key-value pairs describing attributes to be updated [^182]
@@ -413,18 +412,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -433,10 +432,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_APPLICATION_UPDATED|  for each Application attribute that was updated.
 VLSI_APPLICATION_UPDATE_FAILED|  if the Application update failed.
 

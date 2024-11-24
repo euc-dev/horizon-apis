@@ -25,9 +25,9 @@ Since
 configurations for crl prefetch service.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **distributionPoints**|  xsd:string[]|  List of CRL distribution points URLs, from where CRLs needs to be fetched. [^1]
 **refreshPeriodMinutes**|  xsd:int|  Time Interval (in minutes) to refresh CRLs. [^269] [^1] [^8]
 **fileMaxSizeKb**|  xsd:int|  Maximum allowed size for CRL file (in kb). [^176] [^1] [^72]

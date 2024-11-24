@@ -25,9 +25,9 @@ Since
 Session data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sessionType**|  xsd:string|  Type of this session. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"DESKTOP"</td><td>Desktop or RDS Desktop session</td></tr><tr><td>"APPLICATION"</td><td>Application session</td></tr></table>
 **sessionProtocol**|  xsd:string|  Protocol for this session. This will be unset for disconnected sessions. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"PCOIP"</td><td>Display protocol is PCoIP</td></tr><tr><td>"RDP"</td><td>Display protocol is RDP</td></tr><tr><td>"BLAST"</td><td>Display protocol is Blast</td></tr><tr><td>"CONSOLE"</td><td>Display protocol is Console</td></tr><tr><td>"ULTRA"</td><td>Display protocol is PCoIP Ultra</td></tr><tr><td>"UNKNOWN"</td><td>Display protocol is unknown</td></tr></table>
 **sessionState**|  xsd:string|  State of this session. [^1] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CONNECTED"</td><td>CONNECTED: Session is connected</td></tr><tr><td>"DISCONNECTED"</td><td>DISCONNECTED: Session is disconnected</td></tr><tr><td>"PENDING"</td><td>PENDING: Session is pending</td></tr></table>

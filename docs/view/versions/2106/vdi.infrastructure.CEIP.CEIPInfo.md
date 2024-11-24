@@ -25,9 +25,9 @@ Since
 Configuration info for the customer experience improvement program.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **enabled**|  xsd:boolean|  Whether to send information to Omnissa.
 **companySize**|  xsd:string|  The size of the company. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SIZE_1_100"</td><td>Company size between 1 and 100.</td></tr><tr><td>"SIZE_101_500"</td><td>Company size between 101 and 500.</td></tr><tr><td>"SIZE_501_1000"</td><td>Company size between 501 and 1000.</td></tr><tr><td>"SIZE_1001_5000"</td><td>Company size between 1001 and 5000.</td></tr><tr><td>"SIZE_5001_10000"</td><td>Company size between 5001 and 10000.</td></tr><tr><td>"SIZE_10001"</td><td>Company size greater than 10000.</td></tr></table>
 **geolocation**|  xsd:string|  The geolocation of the company. [^1]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AFRICA"</td><td>Africa geolocation.</td></tr><tr><td>"AMERICA_NORTH"</td><td>North America geolocation.</td></tr><tr><td>"AMERICA_SOUTH_CENTRAL"</td><td>Central or South America geolocation.</td></tr><tr><td>"ASIA_PACIFIC"</td><td>Asia Pacific geolocation.</td></tr><tr><td>"AUSTRALIA"</td><td>Australia geolocation.</td></tr><tr><td>"EUROPE"</td><td>Europe geolocation.</td></tr><tr><td>"MIDDLE_EAST"</td><td>Middle East geolocation.</td></tr></table>

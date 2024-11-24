@@ -31,9 +31,9 @@ Since
 Thrown if the entity is in an invalid state for the operation performed.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [EntityId](vdi.EntityId.md)|  Indicates the ID of the entity that is in an invalid state (if applicable). [^1]
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

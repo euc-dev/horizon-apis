@@ -31,10 +31,9 @@ Since
 
 Service for retrieving health information on View Composer servers.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ViewComposerHealth_Get, ViewComposerHealth_List
 
 
@@ -44,28 +43,28 @@ ViewComposerHealth_Get, ViewComposerHealth_List
 
 Gets the health of the View Composer server associated with the specified Virtual Center server.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerHealth](vdi.health.ViewComposerHealth.md) used to make the method call.
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The ID of the associated Virtual Center server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerHealthInfo](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md)| The health of the View Composer server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -84,26 +83,26 @@ Show WSDL type definition
 
 Gets the health of all View Composer servers associated with this View cluster.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewComposerHealth](vdi.health.ViewComposerHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewComposerHealthInfo[]](vdi.health.ViewComposerHealth.ViewComposerHealthInfo.md)| The health of all View Composer servers.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

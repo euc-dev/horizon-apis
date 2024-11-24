@@ -28,9 +28,9 @@ Since
 Global security settings determine whether clients are reauthenticated after interruptions, message security mode is enabled, IPSec is used for security server connections, and SSO is used for local resource operations.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **reauthSecureTunnelAfterInterruption**|  xsd:boolean|  Reauthenticate secure tunnel connections after network interruption Determines if user credentials must be reauthenticated after a network interruption when View clients use secure tunnel connections to View resources. When you select this setting, if a secure tunnel connection ends during a session, View Client requires the user to reauthenticate before reconnecting. This setting offers increased security. For example, if a laptop is stolen and moved to a different network, the user cannot automatically gain access to the remote resource because the network connection was temporarily interrupted. When this setting is not selected, the client reconnects to the resource without requiring the user to reauthenticate. This setting has no effect when you use direct connection.
 **disallowEnhancedSecurityMode**|  xsd:boolean|  Reserved for future use Default value: false  **_Since_** Horizon 8.6 [^2]
 **noManagedCerts**|  xsd:boolean|  Reserved for future use Default value: false  **_Since_** Horizon 8.6 [^2]

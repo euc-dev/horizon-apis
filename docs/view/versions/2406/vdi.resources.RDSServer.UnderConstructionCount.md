@@ -25,9 +25,9 @@ Since
 Number of the RDS server machines which are in under construction states. Such machine's [status](vdi.resources.RDSServer.RDSServerStateView.md#status) is one of the following : PROVISIONING,CUSTOMIZING,MAINTENANCE,DELETING,WAIT_FOR_AGENT,AGENT_ERR_STARTUP_IN_PROGRESS, AGENT_DRAIN_MODE,AGENT_DRAIN_UNTIL_RESTART,DISABLED,DISABLE_IN_PROGRESS,VALIDATING,AGENT_ERR_WAIT_FOR_HYBRID_JOIN
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **provisioning**|  xsd:int|  Number of RDS server machines which are in PROVISIONING [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 **customizing**|  xsd:int|  Number of RDS server machines which are in CUSTOMIZING [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 **maintenance**|  xsd:int|  Number of RDS server machines which are in MAINTENANCE [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]

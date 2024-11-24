@@ -29,10 +29,9 @@ Since
 
 Service for retrieving health information on connection servers.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ConnectionServerHealth_Get, ConnectionServerHealth_List
 
 
@@ -40,28 +39,28 @@ ConnectionServerHealth_Get, ConnectionServerHealth_List
 
 Gets the health information for an individual connection server.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ConnectionServerHealth](vdi.health.ConnectionServerHealth.md) used to make the method call.
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  The ID of the connection server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ConnectionServerHealthInfo](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md)| The health information for an individual connection server.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -78,26 +77,26 @@ Show WSDL type definition
 
 Gets the health information for all connection servers.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ConnectionServerHealth](vdi.health.ConnectionServerHealth.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ConnectionServerHealthInfo[]](vdi.health.ConnectionServerHealth.ConnectionServerHealthInfo.md)| The health information for all connection servers.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

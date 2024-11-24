@@ -28,9 +28,9 @@ Since
 ApplicationData needed to create/update an Application.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The Application name is the unique identifier used to identify this Application. [^2] [^11]
 **displayName**|  xsd:string|  The display name is the name that users will see when they connect to view client. If the display name is left blank, it defaults to [name](vdi.resources.Application.ApplicationData.md#name) [^1] [^12]
 **description**|  xsd:string|  The description is a set of notes about the Application. [^1] [^13]

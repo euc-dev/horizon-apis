@@ -28,9 +28,9 @@ Since
 Multi-DataCenter View status for a Connection Server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ConnectionServerId](vdi.entity.ConnectionServerId.md)|  Entity id of the connection server to which this status pertains.
 **name**|  xsd:string|  Name of the connection server  **_Since_** Horizon 7.8
 **status**|  xsd:string|  The Multi-DataCenter View status for this Connection Server. Individual connection server statuses should converge to the containing Pod's status over time.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"ENABLED"</td><td>Multi-DataCenter View is enabled.</td></tr><tr><td>"DISABLED"</td><td>Multi-DataCenter View is disabled.</td></tr><tr><td>"PENDING"</td><td>Multi-DataCenter View is undergoing an operation related to initialization, uninitialization, joining, or unjoining.</td></tr><tr><td>"ENABLE_ERROR"</td><td>This status indicates the current Connection Server has failed to reach the ENABLED status in a timely manner. Other Connection Servers in the same Pod were successfully ENABLED. This status may also indicate the current Connection Server was recently installed.</td></tr><tr><td>"DISABLE_ERROR"</td><td>This status indicates the current Connection Server has failed to reach the DISABLED status in a timely manner. Other Connection Servers in the same Pod were successfully DISABLED.</td></tr></table>

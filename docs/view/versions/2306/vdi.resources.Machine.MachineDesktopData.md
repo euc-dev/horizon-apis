@@ -28,9 +28,9 @@ Since
 Data about the desktop that the Machine belongs to.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop that the machine belongs to. [^2]
 **name**|  xsd:string|  The name of the desktop that the machine belongs to. [^1] [^2]
 **type**|  xsd:string|  Type of desktop. [^2] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>AUTOMATED</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>MANUAL</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>RDS</td><td>An RDS Desktop.</td></tr></table>

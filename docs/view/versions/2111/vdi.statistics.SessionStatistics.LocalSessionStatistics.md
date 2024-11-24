@@ -28,9 +28,9 @@ Since
 summary for session Statistics
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numSessions**|  xsd:int|  The total number of sessions. [^2]
 **numUsers**|  xsd:int|  The total number of users. [^2]
 **desktopSessionStatistics**| [SessionsStateStatistics](vdi.statistics.SessionStatistics.SessionStateStatistics.md)|  The session state Statistics for VDI sessions. [^2]

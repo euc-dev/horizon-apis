@@ -31,18 +31,18 @@ Desktop health Information. This data will be populated only for the desktops wh
 
 This data object is queryable using [QueryService](vdi.query.QueryService.md "QueryService").
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required to query information
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop entity ID [^2]
 **name**|  xsd:string|  Desktop name [^2]
 **type**|  xsd:string|  Desktop type [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"AUTOMATED"</td><td>An automated desktop creates virtual machines cloned from a base template or snapshot.</td></tr><tr><td>"MANUAL"</td><td>A manual machine desktop allows selection of existing virtual machines and addition to the desktop of available machines to connect to.</td></tr><tr><td>"RDS"</td><td>An RDS Desktop Desktop.</td></tr></table>

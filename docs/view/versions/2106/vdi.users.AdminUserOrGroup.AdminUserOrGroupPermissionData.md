@@ -28,9 +28,9 @@ Since
 Administrative permission data relevant to this user or group.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (roles and access groups) for this user or group. [^1]
 
 

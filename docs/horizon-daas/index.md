@@ -6,14 +6,14 @@ hide:
   - toc
 ---
 
-This is a API documentation for the VMware Horizon Cloud Service - DaaS (first gen)
+This is a API documentation for the Horizon Cloud Service - DaaS (first gen)
 
 ::cards::
 
 - title: Horizon DaaS
  #content: Introduction to the Horizon DaaS REST API
   url: horizondaas-api.pdf
-  image: ../../../assets/logos/horizon-cloud-logo.png
+  image: ../../../assets/logos/Horizon-Cloud-h-lm.png
 
 ::/cards::
 

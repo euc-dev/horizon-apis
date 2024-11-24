@@ -31,9 +31,9 @@ Since
 Parameters to create a Global Application Entitlement.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **displayName**|  xsd:string|  The display name is the unique name used to identify the Global Application Entitlement. <br>* This property has a maximum length of 64 characters.
 **aliasName**|  xsd:string|  The alias name is the name that users will see when they connect using Horizon View Client. If the alias name is left blank, while creating or updating the Global Application Entitlement alias name value will be same as display name.  **_Since_** Horizon 8.0 [^1] <br>* This property has a maximum length of 64 characters.
 **description**|  xsd:string|  Description of Global Application Entitlement. [^1] [^13]

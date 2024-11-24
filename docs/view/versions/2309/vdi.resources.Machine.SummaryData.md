@@ -28,9 +28,9 @@ Since
 Summary data for this Machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Id of the Virtual Center managing this Machine. This is applicable only to managed Machines. [^1]
  
 

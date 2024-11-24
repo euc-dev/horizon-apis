@@ -28,9 +28,9 @@ Since
 Settings for maintenance operations. This is applicable only for RDSH Instant Clone Farm
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **maintenanceMode**|  xsd:string|  The mode of schedule maintenance for Instant Clone Farm <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"IMMEDIATE"</td><td>All server VMs will be refreshed once, immediately or at user scheduled time.</td></tr><tr><td>"RECURRING"</td><td>All server VMs will be periodically refreshed based on FarmInstantCloneRecurringMaintenancePeriod and StartTime.</td></tr></table>
 **scheduledTime**|  xsd:dateTime|  When to actually perform the next maintenance. For IMMEDIATE if unset, maintenance will begin immediately. For RECURRING If unset, will be calculated based on current recurring maintenance configuration. If in the past, maintenance will begin immediately. [^1]
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on machines which have an active session. <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"FORCE_LOGOFF"</td><td>Users will be forced to log off when the system is ready to operate on their RDS Servers. Before being forcibly logged off, users may have a grace period in which to save their work (Global Settings).</td></tr><tr><td>"WAIT_FOR_LOGOFF"</td><td>Wait for connected users to disconnect before the task starts. The operation starts immediately on RDS Servers without active sessions.</td></tr></table>

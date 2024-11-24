@@ -34,9 +34,9 @@ Full view for AdminUserOrGroup. Contains recursive group membership information.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **info**| [AdminUserOrGroupInfo](vdi.users.AdminUserOrGroup.AdminUserOrGroupInfo.md)|  Info for this AdminUserOrGroup.
 **permissions**| [PermissionInfo[]](vdi.users.Permission.PermissionInfo.md)|  Administrative permissions (roles and access groups) for this user or group. [^1]

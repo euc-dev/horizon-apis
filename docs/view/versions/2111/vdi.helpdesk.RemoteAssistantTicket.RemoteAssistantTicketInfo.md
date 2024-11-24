@@ -25,9 +25,9 @@ Since
 Data used for containing the Microsoft Remote Assistant ticket.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **ticket**|  xsd:string| [^2]
 
 

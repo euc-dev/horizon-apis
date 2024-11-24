@@ -31,9 +31,9 @@ Result of a query.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [QueryId](vdi.entity.QueryId.md)|  Query ID for this search, will be null for "virtual list"-style queries (i.e., the result of the [QueryService_Query](vdi.query.QueryService.md#query) method). [^1]
 **startingOffset**|  xsd:int|  Offset of first result returned (0-based). If there are no matching results, this will still be set to the requested initial offset.
 **remainingCount**|  xsd:int|  Number of results remaining, or null if not supported. See documentation for specific query service. [^1]

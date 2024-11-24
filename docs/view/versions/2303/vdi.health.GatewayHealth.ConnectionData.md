@@ -25,9 +25,9 @@ Since
 Information on the connections through the Gateway.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numActiveConnections**|  xsd:int|  Number of active connections for the gateway. [^19] [^2] [^72]
 **numPcoipConnections**|  xsd:int|  Number of PCOIP connections for the gateway. [^19] [^2] [^72]
 **numBlastConnections**|  xsd:int|  Number of blast connections for the gateway. [^19] [^2] [^72]

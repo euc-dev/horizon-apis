@@ -28,9 +28,9 @@ Since
 Details specific to managed machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Id of the Virtual Center managing this Machine. [^2]
 **hostName**|  xsd:string|  The name of the host on which this virtual machine is registered. [^1] [^2]
 **datastorePaths**|  xsd:string[]|  The name(s) of the datastore(s) occupied by the virtual machine. [^1] [^14] [^2]

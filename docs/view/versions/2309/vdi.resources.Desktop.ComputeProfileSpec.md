@@ -25,9 +25,9 @@ Since
 Represents a compute profile which allows to customize clones with the specified attibutes of CPU, RAM and cores per socket.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numCPU**|  xsd:int|  The number of CPUs to configure on clones [^10] [^8]
 **ram**|  xsd:int|  The RAM in MB to configure on clones [^10] [^8]
 **coresPerSocket**|  xsd:int|  Number of cores per socket for the CPU, the number CPU must be a multiple of coresPerSocket [^10] [^1] [^8]

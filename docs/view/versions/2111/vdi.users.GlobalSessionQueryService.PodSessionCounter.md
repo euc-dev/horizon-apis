@@ -31,9 +31,9 @@ Session Counter for a pod
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PodId](vdi.entity.PodId.md)|  PodId for which the session count is [^2]
 **success**|  xsd:boolean|  Indicate whether the session count query is successful on the specified pod. [^2]
 **fault**| [MethodFault](vmodl.MethodFault.md)|  The fault that caused the session count to fail. Only present if the success flag is false. [^1] [^2]

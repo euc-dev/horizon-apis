@@ -31,10 +31,9 @@ Since
 
 Service for managing persistent disks. View Composer preserves the user information on the persistent disk when the OS data is updated, refreshed, or rebalanced. A View Composer persistent disk contains user settings and other user-generated data.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 PersistentDisk_Attach, PersistentDisk_Create, PersistentDisk_Delete, PersistentDisk_Detach, PersistentDisk_Get, PersistentDisk_PreviewRecreateMachines, PersistentDisk_RecreateMachine, PersistentDisk_RecreateMachines, PersistentDisk_Replace, PersistentDisk_Update
 
 
@@ -44,10 +43,10 @@ PersistentDisk_Attach, PersistentDisk_Create, PersistentDisk_Delete, PersistentD
 
 Attaches the specified persistent disk to a machine.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to attach.
 **spec**| [PersistentDiskAttachSpec](vdi.resources.PersistentDisk.AttachSpec.md)|  The specification of how to attach the disk.
@@ -55,18 +54,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -75,10 +74,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_ATTACHED|  If the persistent disk attachment was successfully requested.
 VLSI_PERSISTENT_DISK_ATTACH_FAILED|  If the persistent disk attachment failed to be requested.
 
@@ -94,28 +93,28 @@ Show WSDL type definition
 
 Creates a persistent disk from a Virtual Center persistent disk.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **spec**| [PersistentDiskSpec](vdi.resources.PersistentDisk.PersistentDiskSpec.md)|  The specification for creating the persistent disk.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PersistentDiskId](vdi.entity.PersistentDiskId.md)| The ID of the newly created persistent disk.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -124,10 +123,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_CREATED|  If the persistent disk was successfully created.
 VLSI_PERSISTENT_DISK_CREATE_FAILED|  If the persistent disk could not be created.
 
@@ -143,10 +142,10 @@ Show WSDL type definition
 
 Deletes the specified persistent disk.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to delete.
 **spec**| [PersistentDiskDeleteSpec](vdi.resources.PersistentDisk.DeleteSpec.md)|  The specification for deleting the persistent disk. [^135]
@@ -155,18 +154,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -175,10 +174,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_DELETED|  If the persistent disk was successfully deleted.
 VLSI_PERSISTENT_DISK_DELETE_FAILED|  If the persistent disk could not be deleted.
 
@@ -194,18 +193,18 @@ Show WSDL type definition
 
 Detaches a persistent disk from a machine. The [usage](vdi.resources.PersistentDisk.PersistentDiskGeneralData.md#usage) of that disk must be SECONDARY.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_MANAGEMENT|  Machine management privilege is required to detach a primary persistent disk.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to detach.
 **spec**| [PersistentDiskDetachSpec](vdi.resources.PersistentDisk.DetachSpec.md)|  The specification of how to detach the disk.
@@ -213,18 +212,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -233,10 +232,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_DETACHED|  If the persistent disk detachment was successfully requested.
 VLSI_PERSISTENT_DISK_DETACH_FAILED|  If the persistent disk detachment failed to be requested.
 
@@ -252,28 +251,28 @@ Show WSDL type definition
 
 Retrieves information about a persistent disk.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to retrieve.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PersistentDiskInfo](vdi.resources.PersistentDisk.PersistentDiskInfo.md)| Information about the specified persistent disk.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -292,28 +291,28 @@ Show WSDL type definition
 
 Returns the incompatibility reasons for Persistent Disks
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **specs**| [PersistentDiskRecreateMachineSpec[]](vdi.resources.PersistentDisk.RecreateMachineSpec.md)|  The specifications for previewing recreate a machine with persistent disk.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PersistentDiskIncompatibleReasons[]](vdi.resources.PersistentDisk.PersistentDiskIncompatibleReasons.md)| returns array of PersistentIncomaptibleReasons
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -332,19 +331,19 @@ Show WSDL type definition
 
 Recreates a machine with the specified persistent disk.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  Desktop management privilege with the corresponding access group permission is required on the desktop associated with the persistent disk to recreate a machine from a persistent disk.
 MACHINE_MANAGEMENT|  Machine management privilege is required to recreate a machine from a persistent disk.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to associate with the new machine.
 **spec**| [PersistentDiskRecreateMachineSpec](vdi.resources.PersistentDisk.RecreateMachineSpec.md)|  The specification of how to recreate the machine. [^135]
@@ -353,18 +352,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [MachineId](vdi.entity.MachineId.md)| The ID of the newly created machine.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -373,10 +372,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_RECREATE_MACHINE|  If the machine recreation was successfully requested.
 VLSI_PERSISTENT_DISK_RECREATE_MACHINE_FAILED|  If the machine recreation failed to be requested.
 
@@ -392,37 +391,37 @@ Show WSDL type definition
 
 Recreates machines with the specified persistent disks.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_MANAGEMENT|  Desktop management privilege with the corresponding access group permission is required on the desktop associated with the persistent disk to recreate a machine from a persistent disk.
 MACHINE_MANAGEMENT|  Machine management privilege is required to recreate a machine from a persistent disk.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **specs**| [PersistentDiskRecreateMachineSpec[]](vdi.resources.PersistentDisk.RecreateMachineSpec.md)|
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [PersistentDiskRecreateMachineInfo[]](vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo.md)| returns array of [PersistentDiskRecreateMachineInfo](vdi.resources.PersistentDisk.PersistentDiskRecreateMachineInfo.md)
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -431,10 +430,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_RECREATE_MACHINE|  If the machine recreation was successfully requested.
 VLSI_PERSISTENT_DISK_RECREATE_MACHINE_FAILED|  If the machine recreation failed to be requested.
 
@@ -450,10 +449,10 @@ Show WSDL type definition
 
 Replaces the primary persistent disk on a machine.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to replace.
 **spec**| [PersistentDiskReplaceSpec](vdi.resources.PersistentDisk.ReplaceSpec.md)|  The specification of how to replace the existing disk.
@@ -461,18 +460,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -481,10 +480,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_REPLACED|  If the persistent disk replacement was successfully requested.
 VLSI_PERSISTENT_DISK_REPLACE_FAILED|  If the persistent disk replacement failed to be requested.
 
@@ -500,10 +499,10 @@ Show WSDL type definition
 
 Updates a persistent disk. A persistent disk can only be updated if it is unattached.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [PersistentDisk](vdi.resources.PersistentDisk.md) used to make the method call.
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk to update.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  Key value pairs describing attributes to be updated. [^195]
@@ -512,18 +511,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -533,10 +532,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_PERSISTENT_DISK_UPDATED|  If the persistent disk was successfully updated.
 VLSI_PERSISTENT_DISK_UPDATE_FAILED|  If the persistent disk could not be updated.
 

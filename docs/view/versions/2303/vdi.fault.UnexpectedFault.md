@@ -28,9 +28,9 @@ Since
 Indicated any internal failure during the method call.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **causeString**|  xsd:string|  The underlying cause of the fault. [^1]
 **causeStackTrace**|  xsd:string[]|  The stack trace of the underlying error. [^1]
 **errorCode**|  xsd:string|  An optional code associated with the underlying error. See [list of error codes](error-codes.md) for more information. [^1]

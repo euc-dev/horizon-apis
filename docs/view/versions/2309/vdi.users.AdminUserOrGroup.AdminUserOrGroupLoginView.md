@@ -28,9 +28,9 @@ Since
 Login view for AdminUserOrGroup.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **privilegesInfo**| [AdminUserOrGroupPrivilegesInfo[]](vdi.users.AdminUserOrGroup.AdminUserOrGroupPrivilegesInfo.md)|  Set of privileges information based on Access Groups for this user or group.
 **globalPrivilegesInfo**| [GlobalAdminUserOrGroupPrivilegesInfo[]](vdi.users.AdminUserOrGroup.GlobalAdminUserOrGroupPrivilegesInfo.md)|  Set of privileges information based on Global Access Groups for this user or group.  **_Since_** Horizon 8.2 [^1]

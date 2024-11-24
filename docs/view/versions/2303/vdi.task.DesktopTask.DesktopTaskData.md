@@ -25,9 +25,9 @@ Since
 Desktop task object
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **taskType**|  xsd:string| <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>REFRESH</td><td>A refresh operation.</td></tr><tr><td>RESYNC</td><td>A resync operation.</td></tr><tr><td>REBALANCE</td><td>A rebalance operation.</td></tr><tr><td>ATTACH</td><td>A persistent disk attach operation.</td></tr><tr><td>DETACH</td><td>A persistent disk detach operation.</td></tr><tr><td>REPLACE</td><td>A persistent disk replace operation.</td></tr><tr><td>CHECKPOINT</td><td>A checkpoint operation.</td></tr><tr><td>PUSH_IMAGE</td><td>A push image operation (Instant Clone Engine only).</td></tr></table>
 **description**|  xsd:string|  Description of desktop task [^1]
 **scheduleTime**|  xsd:dateTime|  Time at which desktop task is scheduled to start [^1]

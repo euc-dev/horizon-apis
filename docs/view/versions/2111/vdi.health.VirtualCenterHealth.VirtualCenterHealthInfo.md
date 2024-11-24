@@ -28,9 +28,9 @@ Since
 Health information for a Virtual Center server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The ID of the virtual center server.
 **data**| [VirtualCenterHealthData](vdi.health.VirtualCenterHealth.VirtualCenterHealthData.md)|  Basic information about the Virtual Center server.
 **connectionServerData**| [VirtualCenterHealthConnectionServerConnectionData[]](vdi.health.VirtualCenterHealth.ConnectionServerConnectionData.md)|  Information about the VC connections from each connection server. [^1]

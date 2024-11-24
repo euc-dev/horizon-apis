@@ -20,9 +20,9 @@ Property of
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the datacenter.
 **path**|  xsd:string|  Datacenter path.
 

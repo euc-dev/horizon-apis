@@ -31,9 +31,9 @@ Specify that the named member must start with the specified value, ignores case.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **memberName**|  xsd:string|  The name of the member to compare.
 **value**|  xsd:anyType|  The value that the member must start with. [^1]
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)

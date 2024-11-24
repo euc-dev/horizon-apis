@@ -32,9 +32,9 @@ Information about Global Entitlements.
 This data object is queryable using [QueryService](vdi.query.QueryService.md "QueryService").
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [GlobalApplicationEntitlementId](vdi.entity.GlobalApplicationEntitlementId.md)|  Identifier for Global Application Entitlement. [^2]
 **base**| [GlobalApplicationEntitlementBase](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementBase.md)|  Global Application Entitlement base data.
 **data**| [GlobalApplicationEntitlementData](vdi.federation.GlobalApplicationEntitlement.GlobalApplicationEntitlementData.md)|  Data about members of the Global Application Entitlement. [^2]

@@ -28,9 +28,9 @@ The data recovery password protects data backups of your View Connection Server.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **recoveryPasswordSHA256**|  xsd:base64Binary|  The SHA-256 hash of the (UTF-8) recovery password.
 **recoveryPasswordHint**|  xsd:string|  The recovery password hint. [^1] [^267]
 

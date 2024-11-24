@@ -28,9 +28,9 @@ Since
 Info object for Pod Federation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **data**| [PodFederationData](vdi.federation.PodFederation.PodFederationData.md)|  Data relevant to this Pod Federation. It will be null if:<br>1\. The PodFederation has not been initialized or has not been joined.<br>2\. The PodFederation is undergoing initialize, uninitialize, join, or unjoin operation.<br>3\. Required read privileges are not met. [^1]
 **localPodStatus**| [PodFederationLocalPodStatus](vdi.federation.PodFederation.LocalPodStatus.md)|  Multi-DataCenter View status for the local Pod. [^2]
  

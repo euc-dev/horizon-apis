@@ -29,10 +29,9 @@ Since
 
 The Global Entitlement service interface.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 GlobalEntitlement_AddDesktopsToGE, GlobalEntitlement_Create, GlobalEntitlement_Delete, GlobalEntitlement_Get, GlobalEntitlement_GetSummaryView, GlobalEntitlement_GetSummaryViews, GlobalEntitlement_ListCompatibleBackupGEs, GlobalEntitlement_RemoveDesktopsFromGE, GlobalEntitlement_Update
 
 
@@ -40,18 +39,18 @@ GlobalEntitlement_AddDesktopsToGE, GlobalEntitlement_Create, GlobalEntitlement_D
 
 Add list of desktops to the Global Entitlement.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to update the [globalEntitlementData](vdi.resources.Desktop.DesktopInfo.md#globalEntitlementData) members of a desktop.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
 **desktops**| [DesktopId[]](vdi.entity.DesktopId.md)|  Desktops to be added to the Global Entitlement
@@ -59,18 +58,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -80,10 +79,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_UPDATE_ATTEMPT|  For every Desktop, if an attempt to update the desktop was made successfully
 VLSI_DESKTOP_UPDATED|  For every Desktop, if a desktop is successfully updated.
 VLSI_DESKTOP_UPDATE_FAILED|  For every Desktop that could not be updated.
@@ -99,36 +98,36 @@ Show WSDL type definition
 Creates a Global Entitlement. Global entitlements are used to route users to their resources across multiple pods. These are persisted in a global ldap instance that is replicated across all pods in a linked mode view set.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to create a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **base**| [GlobalEntitlementBase](vdi.federation.GlobalEntitlement.GlobalEntitlementBase.md)|  attributes required to create a Global Entitlement
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)| unique identifier for Global Entitlement
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -138,10 +137,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_GE_ADDED|  If the global entitlement was successfully created.
 VLSI_GE_ADD_FAILED|  If the global entitlement could not be created.
 
@@ -155,36 +154,36 @@ Show WSDL type definition
 
 Deletes a Global Entitlement.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to delete a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement to be deleted
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -195,10 +194,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_GE_DELETED|  If the global entitlement was successfully deleted.
 VLSI_GE_DELETE_FAILED|  If the global entitlement could not be deleted.
 
@@ -212,36 +211,36 @@ Show WSDL type definition
 
 Returns Global Entitlement corresponding to a specific Global Entitlement id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalEntitlementInfo](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md)| Global entitlement info
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -259,36 +258,36 @@ Show WSDL type definition
 
 Returns Global Entitlement summary corresponding to a specific Global Entitlement id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalEntitlementSummaryView](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md)| Global entitlement summary view
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -306,36 +305,36 @@ Show WSDL type definition
 
 Returns Global Entitlement summaries corresponding to the specific Global Entitlement ids.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a global entitlements.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **ids**| [GlobalEntitlementId[]](vdi.entity.GlobalEntitlementId.md)|  unique identifiers for Global Entitlements
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalEntitlementSummaryView[]](vdi.federation.GlobalEntitlement.GlobalEntitlementSummaryView.md)| Global entitlement summary views
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -353,36 +352,36 @@ Show WSDL type definition
 
 Lists the Global Entitlements that can be associated as backup Global Entitlement.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalEntitlementInfo[]](vdi.federation.GlobalEntitlement.GlobalEntitlementInfo.md)|
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -399,18 +398,18 @@ Show WSDL type definition
 
 Remove the specified desktops from the Global Entitlement.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to update the [globalEntitlementData](vdi.resources.Desktop.DesktopInfo.md#globalEntitlementData) members of a desktop.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement
 **desktops**| [DesktopId[]](vdi.entity.DesktopId.md)|  Desktops to be removed from the Global Entitlement
@@ -418,18 +417,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -438,10 +437,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_DESKTOP_UPDATE_ATTEMPT|  For every Desktop, if an attempt to update the desktop was made successfully.
 VLSI_DESKTOP_UPDATED|  For every Desktop, if a desktop is successfully updated.
 VLSI_DESKTOP_UPDATE_FAILED|  For every Desktop that could not be updated.
@@ -457,18 +456,18 @@ Show WSDL type definition
 Updates Global Entitlement with the set of attributes in the map.
 
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to update a global entitlement.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalEntitlement](vdi.federation.GlobalEntitlement.md) used to make the method call.
 **id**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  unique identifier for Global Entitlement to be updated
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^229]
@@ -477,18 +476,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -499,10 +498,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_GE_CHANGED|  If the global entitlement was successfully updated.
 VLSI_GE_CHANGE_FAILED|  If the global entitlement could not be updated.
 

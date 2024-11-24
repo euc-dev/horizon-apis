@@ -25,9 +25,9 @@ Since
 Settings for the push image operation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **startTime**|  xsd:dateTime|  When to start the operation. If unset or the time is in the past, the operation will begin immediately. [^1]
 **logoffSetting**|  xsd:string|  Determines when to perform the operation on machines which have an active session.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>FORCE_LOGOFF</td><td>Users will be forced to log off when the system is ready to operate on their virtual machines. Before being forcibly logged off, users may have a grace period in which to save their work (Global Settings).</td></tr><tr><td>WAIT_FOR_LOGOFF</td><td>Wait for connected users to disconnect before the task starts. The operation starts immediately on machines without active sessions.</td></tr></table>
 **stopOnFirstError**|  xsd:boolean|  Indicates that the operation should stop on first error. [^6]

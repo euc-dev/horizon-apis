@@ -28,9 +28,9 @@ Reasons that may preclude this VM folder from being used in desktop creation.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **inUse**|  xsd:boolean|  Whether or not the VM folder is in use by another desktop. If true, this VM folder cannot be used in desktop creation. [^2]
 **viewComposerReplicaFolder**|  xsd:boolean|  Whether or not the VM folder currently holds View Composer or Instant Clone Engine replicas. If true, this VM folder cannot be used in linked or instant clone desktop creation. [^2]
  

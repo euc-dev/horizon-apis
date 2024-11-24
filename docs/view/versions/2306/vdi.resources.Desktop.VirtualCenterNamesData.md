@@ -25,9 +25,9 @@ Since
 Naming data for Virtual Center entities associated with this Desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **templatePath**|  xsd:string|  Template path to deploy full clone VMs. The name is the last element of the path. [^1]
 **parentVmPath**|  xsd:string|  Base image path for View Composer VMs and current image parent VM path for instant clone desktops. The name is the last element of the path. [^1]
 **snapshotPath**|  xsd:string|  Base image snapshot path for View Composer desktops and current image snapshot path for instant clone desktops. The name is the last element of the path. [^1]

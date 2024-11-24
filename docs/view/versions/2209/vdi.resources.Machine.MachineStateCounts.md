@@ -28,9 +28,9 @@ Since
 State counts of vCenter VMs and unmanaged machines.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **vCenterVmCounts**| [StateCount](vdi.resources.Machine.StateCount.md)|  Machine state count for vCenter managed VMs.
 **unManagedMachineCounts**| [StateCount](vdi.resources.Machine.StateCount.md)|  Machine state count for unmanaged VMs.
 

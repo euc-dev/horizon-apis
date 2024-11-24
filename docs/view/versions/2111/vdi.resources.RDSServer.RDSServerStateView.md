@@ -30,19 +30,19 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 Can filter on all RDSServerStateView attributes.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  is required to query RDSServers that are not in-use. It is sufficient to get all RDSServers that may or may not be associated with a Farm.
 POOL_VIEW|  is required to query RDSServers that are associated with a Farm. All in-use RDSServers can be queried with POOL_VIEW on the Root access group. With POOL_VIEW privilege on a non-Root Farm access group, only the RDSServers associated with the Farm can be queried.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [RDSServerId](vdi.entity.RDSServerId.md)|  The id of the RDSServer. [^2]
 **farm**| [FarmId](vdi.entity.FarmId.md)|  The farm id of the RDSServer. [^1] [^2]
 **desktop**| [DesktopId](vdi.entity.DesktopId.md)|  The desktop id of the RDSServer. [^1] [^2]

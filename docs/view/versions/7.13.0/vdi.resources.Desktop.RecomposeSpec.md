@@ -28,9 +28,9 @@ Since
 Specification for the recompose operation. This operation is applicable only to View Composer sourced desktops.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  New base image VM for View Composer VMs. This must be in the same datacenter as the base image of the desktop.
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Base image snapshot for the View Composer desktop.
 **startTime**|  xsd:dateTime|  When to start the operation. If unset the operation will begin immediately. [^1]

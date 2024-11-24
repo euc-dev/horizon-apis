@@ -28,9 +28,9 @@ Since
 References to other objects in a global session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User for this session.
 **brokerUser**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User Id for the broker user associated with the session. [^1]
 **globalEntitlement**| [GlobalEntitlementId](vdi.entity.GlobalEntitlementId.md)|  Global entitlement Id for this session. Either globalEntitlement or globalApplicationEntitlements will be set but not both. [^1]

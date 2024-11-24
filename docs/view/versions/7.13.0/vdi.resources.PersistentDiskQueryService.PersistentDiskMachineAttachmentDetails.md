@@ -23,9 +23,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **machineId**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine. [^2]
 **machineName**|  xsd:string|  The name of the machine [^2]
 **desktopName**|  xsd:string|  The name of the desktop that the machine belongs to. [^2]

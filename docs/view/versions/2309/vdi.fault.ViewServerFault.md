@@ -28,9 +28,9 @@ Since
 Base class for View Server Faults.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **errorMessage**|  xsd:string|  The message associated with this fault.
 Properties inherited from [MethodFault](vmodl.MethodFault.md)
 None

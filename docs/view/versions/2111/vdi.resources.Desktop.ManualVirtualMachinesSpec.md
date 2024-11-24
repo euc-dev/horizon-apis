@@ -25,9 +25,9 @@ Since
 Manually specified machine and user names to create new virtual machines for specified naming validation only.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **machineName**|  xsd:string|  The virtual machine name.
 **userName**|  xsd:string|  The name of the user entitled to the VM, used only in case of persistent desktops. [^1]
 

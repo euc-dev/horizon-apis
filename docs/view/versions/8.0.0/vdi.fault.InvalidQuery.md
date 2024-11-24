@@ -27,9 +27,9 @@ Since
 An InvalidQuery is thrown if the query format is invalid for its service type.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 None
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

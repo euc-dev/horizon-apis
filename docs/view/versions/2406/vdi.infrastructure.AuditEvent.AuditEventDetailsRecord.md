@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventId**|  xsd:int|  ID of the event in Event Database.
 **desktopName**|  xsd:string|  Name of the Desktop associated with this event. This refers to the unique name used to identify the Desktop. Will be unset if there is no Desktop association for this event. [^1]
 **desktopDisplayName**|  xsd:string|  Display name of the Desktop associated with this event. Will be unset if there is no Desktop association for this event. [^1]

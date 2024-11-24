@@ -28,9 +28,9 @@ Since
 General data for a SAML authenticator.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **label**|  xsd:string|  The label for this SAML authenticator. It must be unique among all other SAML authenticators. [^297]
 **description**|  xsd:string|  The description of this SAML authenticator. [^1] [^13]
 **certificateSSOData**| [SAMLAuthenticatorCertificateSSOData](vdi.infrastructure.SAMLAuthenticator.CertificateSSOData.md)|  Certificate SSO data for this SAML authenticator.  **_Since_** Horizon 7.0

@@ -34,9 +34,9 @@ Base data used for permission creation.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userOrGroup**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The user or group for this permission. [^2]
 **role**| [RoleId](vdi.entity.RoleId.md)|  The role for this permission. [^2]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  The access group for this permission. If the role is not applicable to access groups, specify the root access group. [^2]

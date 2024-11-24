@@ -28,9 +28,9 @@ Since
 RDSH Load Balancing Settings
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **useCustomScript**|  xsd:boolean|  Represents whether to use custom scripts for Load Balancing. [^5] [^1]
 **lbMetricsSettings**| [RDSHLoadBalancingMetricsSettings](vdi.resources.Farm.LoadBalancingMetricsSettings.md)|  Metrics used for load balancing. This will be used only when [useCustomScript](vdi.resources.Farm.LoadBalancingSettings.md#useCustomScript) is set to false. [^1] [^117]
 

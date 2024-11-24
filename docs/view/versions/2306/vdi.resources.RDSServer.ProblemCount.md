@@ -25,9 +25,9 @@ Since
 Number of the RDS server machines which are in problem states. Such machine's [status](vdi.resources.RDSServer.RDSServerStateView.md#status) is one of the following : AGENT_ERR_DISABLED, AGENT_UNREACHABLE, AGENT_ERR_INVALID_IP, AGENT_ERR_NEED_REBOOT, AGENT_ERR_PROTOCOL_FAILURE, AGENT_ERR_DOMAIN_FAILURE, AGENT_CONFIG_ERROR, PROVISIONING_ERROR, ERROR, ALREADY_USED, UNKNOWN.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **agentDisabled**|  xsd:int|  Number of RDS server machines which are in AGENT_ERR_DISABLED [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 **agentUnreachable**|  xsd:int|  Number of RDS server machines which are in AGENT_UNREACHABLE [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]
 **invalidIp**|  xsd:int|  Number of RDS server machines which are in AGENT_ERR_INVALID_IP [status](vdi.resources.RDSServer.RDSServerStateView.md#status) [^2]

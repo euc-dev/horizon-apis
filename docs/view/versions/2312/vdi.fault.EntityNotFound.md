@@ -28,9 +28,9 @@ Since
 Thrown if the method operates on an entity which never existed or no longer exists.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [EntityId](vdi.EntityId.md)|  The ID of the entity which could not be found.
 Properties inherited from [ViewRuntimeFault](vdi.fault.ViewRuntimeFault.md)
 [errorMessage](vdi.fault.ViewRuntimeFault.md#errorMessage)

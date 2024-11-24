@@ -28,9 +28,9 @@ Since
 Following class represents various attributes of an Application Icon.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **data**|  xsd:base64Binary|  Icon image data
 **width**|  xsd:long|  Icon width
 **height**|  xsd:long|  Icon height

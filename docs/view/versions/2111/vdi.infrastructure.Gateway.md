@@ -29,10 +29,9 @@ Since
 
 Service interface for Gateway.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 Gateway_Get, Gateway_List, Gateway_Register, Gateway_Unregister
 
 
@@ -40,36 +39,36 @@ Gateway_Get, Gateway_List, Gateway_Register, Gateway_Unregister
 
 Get the GatewayInfo of registered gateway.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve information about the gateway.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Gateway](vdi.infrastructure.Gateway.md) used to make the method call.
 **id**| [GatewayId](vdi.entity.GatewayId.md)|  The Id of the gateway.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GatewayInfo](vdi.infrastructure.Gateway.GatewayInfo.md)| Details of the gateway.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -86,34 +85,34 @@ Show WSDL type definition
 
 List the GatewayInfo objects of all the registered gateways.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view privilege is required to retrieve information about the gateways.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Gateway](vdi.infrastructure.Gateway.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GatewayInfo[]](vdi.infrastructure.Gateway.GatewayInfo.md)| List of all gateway objects.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -130,36 +129,36 @@ Show WSDL type definition
 
 Add a gateway to the view instance.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to register/add a gateway.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Gateway](vdi.infrastructure.Gateway.md) used to make the method call.
 **spec**| [GatewaySpec](vdi.infrastructure.Gateway.GatewaySpec.md)|  attributes needed to add gateway.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GatewayId](vdi.entity.GatewayId.md)| unique identifier for the gateway
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -176,36 +175,36 @@ Show WSDL type definition
 
 Unregister gateway for the input gateway id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management privilege is required to unregister the gateway.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [Gateway](vdi.infrastructure.Gateway.md) used to make the method call.
 **id**| [GatewayId](vdi.entity.GatewayId.md)|  The Id of the gateway.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

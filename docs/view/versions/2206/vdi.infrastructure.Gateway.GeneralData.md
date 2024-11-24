@@ -22,9 +22,9 @@ Property of
 Gateway general data
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Name of the gateway [^2]
 **address**|  xsd:string|  IP address of the gateway. [^2]
 **gatewayZoneInternal**|  xsd:boolean|  Flag to determine whether the gateway is internal. [^2]

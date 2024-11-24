@@ -28,9 +28,9 @@ Since
 RDS Server settings
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sessionSettings**| [RDSServerSessionSettings](vdi.resources.RDSServer.RDSServerSessionSettings.md)|  RDSServer session settings
 **agentMaxSessionsData**| [RDSServerAgentMaxSessionsData](vdi.resources.RDSServer.AgentMaxSessionsData.md)|  Max number of sessions as seen by the agent [^2]
 **enabled**|  xsd:boolean|  Indicates if RDS server is enabled [^6]

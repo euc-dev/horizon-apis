@@ -40,18 +40,18 @@ The following caveats apply:
 
 
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  is required to query MachineDetailsView.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine. [^2]
 **groupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  The id of the group. Required for querying the machines assigned to the users of this group. [^1]
 **data**| [MachineData](vdi.resources.Machine.MachineData.md)|  Information about the Machine.

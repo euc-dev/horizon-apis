@@ -28,9 +28,9 @@ Since
 The health data for a CertSSO connector domain.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **domain**| [ADDomainId](vdi.entity.ADDomainId.md)|  The id of the domain.
 **dnsName**|  xsd:string|  The DNS name of the domain.
 **state**|  xsd:string|  The state of the domain health, taken as the most severe reported by one of the enrollment servers.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Domain is green.</td></tr><tr><td>"WARN"</td><td>Domain is yellow.</td></tr><tr><td>"ERROR"</td><td>Domain is red.</td></tr></table>

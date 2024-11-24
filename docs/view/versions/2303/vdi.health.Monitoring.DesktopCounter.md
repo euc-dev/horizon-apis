@@ -28,9 +28,9 @@ Since
 The desktop counter.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  Desktop ID. [^2]
 **numMachines**|  xsd:int|  Maximum number of machines in the desktop. [^2]
 **occupancy**|  xsd:int|  Represents the occupancy count for the desktop. [^239] [^240] [^2]

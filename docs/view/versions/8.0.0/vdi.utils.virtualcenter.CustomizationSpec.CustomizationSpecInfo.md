@@ -31,9 +31,9 @@ CustomizationSpecInfo aggregates CustomizationSpecData with CustomizationSpecId 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [CustomizationSpecId](vdi.entity.CustomizationSpecId.md)|  CustomizationSpec Id [^2]
 **customizationSpecData**| [CustomizationSpecData](vdi.utils.virtualcenter.CustomizationSpec.CustomizationSpecData.md)|  CustomizationSpecInfo data [^2]
 

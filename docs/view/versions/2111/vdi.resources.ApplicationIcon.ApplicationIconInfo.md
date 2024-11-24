@@ -39,18 +39,18 @@ Only the following fields support filtering:
 
 
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  This query will return results only for applications the caller has application read privilege on with the corresponding application.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  ApplicationIcon entityId [^2]
 **base**| [ApplicationIconBase](vdi.resources.ApplicationIcon.ApplicationIconBase.md)|  Summary View of the Application Icon, represents the metadata of the ApplicationIcon.
 

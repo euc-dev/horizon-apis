@@ -25,9 +25,9 @@ Since
 The historical performance data for overall machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **timestamp**|  xsd:long|  The timestamp for data collection time  **_Since_** Horizon 7.8 [^1] [^2]
 **overallCpu**|  xsd:double|  The overall cpu utilization. [^1] [^2]
 **overallMemory**|  xsd:double|  The overall memory utilization. [^1] [^2]

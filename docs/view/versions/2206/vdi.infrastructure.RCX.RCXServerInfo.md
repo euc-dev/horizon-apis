@@ -23,9 +23,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [RCXServerId](vdi.entity.RCXServerId.md)|  ID of the RCX server.
 **host**|  xsd:string|  FQDN/IP address of the RCX server.
 **thumbprints**| [CertificateThumbprint[]](vdi.utils.Certificate.CertificateThumbprint.md)|  Thumbprints of the RCX server certificates. [^1]

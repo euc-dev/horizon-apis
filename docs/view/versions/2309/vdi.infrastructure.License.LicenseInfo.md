@@ -28,9 +28,9 @@ Information describing the View cluster license.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **licensed**|  xsd:boolean|  Whether the View instance is licensed.
 **licenseKey**|  xsd:string|  The License Key in partially redacted form  **_Since_** Horizon View 6.2 [^1]
 **expirationTime**|  xsd:dateTime|  The expiration date of the View instance. [^1]

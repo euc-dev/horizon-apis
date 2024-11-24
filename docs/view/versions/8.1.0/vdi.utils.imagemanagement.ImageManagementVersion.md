@@ -29,10 +29,9 @@ Since
 
 The service interface for managing Versions related to Image Management.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ImageManagementVersion_CreateVersions, ImageManagementVersion_Delete, ImageManagementVersion_Get, ImageManagementVersion_ListByImageManagementStream, ImageManagementVersion_Update
 
 
@@ -40,36 +39,36 @@ ImageManagementVersion_CreateVersions, ImageManagementVersion_Delete, ImageManag
 
 Adds multiple image management versions.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to create a image management version.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **bases**| [ImageManagementVersionBase[]](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionBase.md)|  attributes needed to add multiple image management versions.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementVersionId[]](vdi.entity.ImageManagementVersionId.md)| Array of entity ids of each image management version.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -79,10 +78,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_VERSION_ADDED|  For every image management version successfully created.
 VLSI_IM_VERSION_ADD_FAILED|  For every image management version that could not be created.
 
@@ -96,36 +95,36 @@ Show WSDL type definition
 
 Delete an image management version.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to delete a image management version.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **id**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  entity id for the image management version entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -134,10 +133,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_VERSION_DELETED|  If the image management version was successfully deleted.
 VLSI_IM_VERSION_DELETE_FAILED|  If the image management version delete fails.
 
@@ -151,36 +150,36 @@ Show WSDL type definition
 
 Gets the image management version information (primarily the list of attributes about configured image management version).
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to get a image management version.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **id**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  entity id for the image management version entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementVersionInfo](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md)| ImageManagementVersionInfo (attributes about configured Image Management Version).
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -197,36 +196,36 @@ Show WSDL type definition
 
 Gets list of image management version for a given Image Management Stream.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration view is required to list image management versions.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **imageManagementStream**| [ImageManagementStreamId](vdi.entity.ImageManagementStreamId.md)|
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ImageManagementVersionInfo[]](vdi.utils.imagemanagement.ImageManagementVersion.ImageManagementVersionInfo.md)| list of image management versions
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -243,18 +242,18 @@ Show WSDL type definition
 
 Update image management version with the set of attributes.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global configuration management is required to update a image management version.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ImageManagementVersion](vdi.utils.imagemanagement.ImageManagementVersion.md) used to make the method call.
 **id**| [ImageManagementVersionId](vdi.entity.ImageManagementVersionId.md)|  entity id for the image management version entry.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^151]
@@ -263,18 +262,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -283,10 +282,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_IM_VERSION_UPDATED|  If the image management version was successfully updated.
 VLSI_IM_VERSION_UPDATE_FAILED|  If the image management version update fails.
 

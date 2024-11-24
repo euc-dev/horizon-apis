@@ -25,9 +25,9 @@ Since
 Information about how often the method has been invoked since server started.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **methodName**|  xsd:string|  Name of the method. [^2]
 **count**|  xsd:int|  Number of times the method is called. [^2]
 

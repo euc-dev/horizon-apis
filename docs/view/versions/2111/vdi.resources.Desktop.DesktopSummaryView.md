@@ -33,19 +33,19 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 The DesktopSummaryView query service example api to get all Users/groups entitled/associated to particular Global entitlement.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  This query will return results only for desktops the caller has desktop read privilege on with the corresponding access group permission.
 FEDERATED_LDAP_VIEW|  Global LDAP read is required to read the [desktopSummaryData](vdi.resources.Desktop.DesktopSummaryView.md#desktopSummaryData).[globalEntitlement](vdi.resources.Desktop.DesktopSummaryData.md#globalEntitlement) member of a desktop. This will otherwise be unset.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop.
 **desktopSummaryData**| [DesktopSummaryData](vdi.resources.Desktop.DesktopSummaryData.md)|  Core attributes of the desktop instance.
 **refId**|  xsd:string|  Reference ID used for this desktop pool.  **_Since_** Horizon 8.1 [^1] [^2]

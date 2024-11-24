@@ -28,9 +28,9 @@ Since
 Application execution data needed to create/update an Application. Some of this information is obtained from Broker when the Application is discovered.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **executablePath**|  xsd:string|  Path to Application executable
 **version**|  xsd:string|  Application version [^1]
 **publisher**|  xsd:string|  Application publisher [^1]

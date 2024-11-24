@@ -23,9 +23,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **maxSessionsType**|  xsd:string| <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"UNLIMITED"</td><td>RDS Server has no limit on the number of supported sessions</td></tr><tr><td>"LIMITED"</td><td>RDS Server has a limit on the number of supported sessions</td></tr></table>
 **maxSessions**|  xsd:int| [^1] [^8] [^9]
  

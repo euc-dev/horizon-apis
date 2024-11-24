@@ -25,9 +25,9 @@ Since
 Statistics for Client type of sessions.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **numWindowsClients**|  xsd:int|  The number of sessions whose client type is Windows. [^2]
 **numMacClients**|  xsd:int|  The number of sessions whose client type is Mac. [^2]
 **numBrowserClients**|  xsd:int|  The number of sessions whose client type is htmlaccess. [^2]

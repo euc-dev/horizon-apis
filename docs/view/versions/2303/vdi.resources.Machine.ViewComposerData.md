@@ -28,9 +28,9 @@ Since
 Fields specific to View Composer
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **baseImagePath**|  xsd:string|  The base image. [^1] [^2]
 **baseImageSnapshotPath**|  xsd:string|  The base image snapshot. [^1] [^2]
 **pendingBaseImagePath**|  xsd:string|  The pending base image. [^1] [^2]

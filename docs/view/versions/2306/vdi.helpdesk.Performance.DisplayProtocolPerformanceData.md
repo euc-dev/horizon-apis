@@ -31,9 +31,9 @@ Since
 The performance for the current display protocol. It includes PCOIP or BLAST performance data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **blastPerformanceData**| [BlastPerformanceData](vdi.helpdesk.Performance.BlastPerformanceData.md)|  The performance data when session is using BLAST protocol. [^1] [^2]
 **pcoipPerformanceData**| [PcoipPerformanceData](vdi.helpdesk.Performance.PcoipPerformanceData.md)|  The performance data when session is using PCoIP protocol. [^1] [^2]
  

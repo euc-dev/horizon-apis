@@ -28,9 +28,9 @@ Reasons that may preclude this HostOrCluster from being used in desktop creation
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **unsupportedESXVersion**|  xsd:boolean|  Whether or not the host or at least one host in the cluster has an ESX version unsupported by View. If true, this host or cluster cannot be used in desktop creation. [^2]
 **allHostsDisconnected**|  xsd:boolean|  Whether or not the host or at least one host in the cluster is disconnected. If true, this host or cluster cannot be used in desktop creation. [^2]
 **noHostsInCluster**|  xsd:boolean|  If this is a cluster, whether or not it contains no hosts. If true, this host or cluster cannot be used in desktop creation. [^2]

@@ -28,9 +28,9 @@ Since
 This class gives the description of a Machine instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The id of the Machine. [^2]
 **base**| [MachineBase](vdi.resources.Machine.MachineBase.md)|  Container for all other summary fields common to all the types of Machines.
 **messageSecurityData**| [MachineMessageSecurityData](vdi.resources.Machine.MessageSecurityData.md)|  Message security data for this machine.  **_Since_** Horizon View 6.1 [^2]

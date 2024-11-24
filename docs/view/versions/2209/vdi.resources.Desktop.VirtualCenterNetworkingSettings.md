@@ -28,9 +28,9 @@ Since
 Virtual Center networking settings.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **nics**| [DesktopNetworkInterfaceCardSettings[]](vdi.resources.Desktop.NetworkInterfaceCardSettings.md)|  Network interface card settings for machines provisioned for this desktop. A NIC may appear at most once in these settings and must be present on this desktop's parent's snapshot or template. Not all NICs need be configured. Any that are not will use default settings. [^1] [^14]
 
 

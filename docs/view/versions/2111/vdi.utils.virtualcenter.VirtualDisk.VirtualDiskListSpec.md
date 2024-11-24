@@ -31,9 +31,9 @@ The specification for virtual disk list
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  VirtualCenter ID
 **datastore**| [DatastoreId](vdi.entity.DatastoreId.md)|  Datastore entityId [^1]
 

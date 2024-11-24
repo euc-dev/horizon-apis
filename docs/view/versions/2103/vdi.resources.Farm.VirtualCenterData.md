@@ -28,9 +28,9 @@ Since
 Paths for Virtual Center entities associated with the automated Farm.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server. [^2]
 **parentVmPath**|  xsd:string|  Base image path for View Composer RDS Servers or current image parent VM path for instant clone RDS Servers. The name is the last element of the path. [^1] [^2]
 **snapshotPath**|  xsd:string|  Base image snapshot path for View Composer RDS Servers or current image snapshot path for instant clone RDS Servers. The name is the last element of the path. [^1] [^2]

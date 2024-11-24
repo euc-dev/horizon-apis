@@ -25,9 +25,9 @@ Since
 Basic data about the virtual center server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Virtual Center server. [^1]
 **version**|  xsd:string|  The version of the Virtual Center server. [^1]
 **build**|  xsd:string|  The build of the Virtual Center server. [^1]

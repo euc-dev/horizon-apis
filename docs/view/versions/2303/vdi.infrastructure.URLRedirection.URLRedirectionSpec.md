@@ -28,9 +28,9 @@ Since
 URLRedirection Spec Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **urlRedirectionData**| [URLRedirectionData](vdi.infrastructure.URLRedirection.URLRedirectionData.md)|  URL Redirection Data Object.
  
 

@@ -29,10 +29,9 @@ Since
 
 The service for fetching Folders from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 VmFolder_GetVmFolderTree
 
 
@@ -41,37 +40,37 @@ VmFolder_GetVmFolderTree
 Gets the root of the VmFolder tree from VC under the given datacenter. The VmFolder's may be suitable for desktop creation.
 The datacenter id may be obtained from the Desktop's BaseImageVm, BaseImageSnapshot, or VmTemplate. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the VmFolderInfo.
 VC_CONFIG_VIEW|  privilege is required to get the VmFolderInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [VmFolder](vdi.utils.virtualcenter.VmFolder.md) used to make the method call.
 **datacenter**| [DatacenterId](vdi.entity.DatacenterId.md)|  datacenter to root the VmFolder tree
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [VmFolderInfo](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md)| VmFolderInfo the root of the tree from the given datacenter
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

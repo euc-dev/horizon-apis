@@ -28,9 +28,9 @@ Since
 References to other objects in a local session.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User Id for the user logged into this session. May not match the broker user id for non-SSO scenarios.
 **brokerUser**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User Id for the broker user associated with the session. Will be unset for non-broker sessions. [^1]
 **groups**| [UserOrGroupId[]](vdi.entity.UserOrGroupId.md)|  All group ids associated with this session's user. [^1] [^14]

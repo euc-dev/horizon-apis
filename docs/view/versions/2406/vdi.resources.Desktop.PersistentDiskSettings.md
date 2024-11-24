@@ -28,9 +28,9 @@ Since
 With Instant clone, you can configure OS data and user information on separate disks in instant-clone machines. Instant clones preserves the user information on the persistent disk when the OS data is updated. A Instant clone persistent disk contains user settings and other user-generated data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **redirectWindowsProfile**|  xsd:boolean|  Windows profiles will be redirected to persistent disks, which are not affected by Instant clone operations such as push image. [^5] [^2]
 **useSeparateDatastoresPersistentAndOSDisks**|  xsd:boolean|  Whether to use separate datastores for persistent and OS disks. This must be false if [redirectWindowsProfile](vdi.resources.Desktop.PersistentDiskSettings.md#redirectWindowsProfile) is false. This is not supported for instant clone pools. [^5] [^1] [^74]
 **persistentDiskDatastores**| [DesktopVirtualCenterDatastoreSettings[]](vdi.resources.Desktop.VirtualCenterDatastoreSettings.md)|  Datastores to store persistent disks for instant clone VMs. This is not supported for instant clone pools. [^1] [^75]

@@ -25,9 +25,9 @@ Since
 General global settings determine session time-out lengths, status updates in View Administrator, and whether prelogin and warning messages are displayed.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **clientMaxSessionTimePolicy**|  xsd:string|  Client max session lifetime policy. [^270] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"TIMEOUT_AFTER"</td><td>Indicates that the client session times out after a configurable session length (in minutes)</td></tr><tr><td>"NEVER"</td><td>Indicates no absolute client session length (sessions only end due to inactivity)</td></tr></table>
 **clientMaxSessionTimeMinutes**|  xsd:int|  Determines how long a user can keep a session open after logging in to View Connection Server. The value is set in minutes. When a session times out, the session is terminated and the View client is disconnected from the resource. [^271] [^1] [^272] [^273]
 **clientIdleSessionTimeoutPolicy**|  xsd:string|  Specifies the policy for the maximum time that a that a user can be idle before the broker takes measure to protect the session. [^121] <br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"NEVER"</td><td>Indicates that the client session is never locked.</td></tr><tr><td>"TIMEOUT_AFTER"</td><td>Indicates that the user session can be idle for a configurable max time (in minutes) before the broker takes measure to protect the session.</td></tr></table>

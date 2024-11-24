@@ -28,9 +28,9 @@ Since
 Virtual Center entities associated with this Desktop that may not be retrievable.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **template**| [VmTemplateId](vdi.entity.VmTemplateId.md)|  Template to deploy full clone VMs. Must be set if and only if [parentVm](vdi.resources.Desktop.VirtualCenterProvisioningData.md#parentVm) and [snapshot](vdi.resources.Desktop.VirtualCenterProvisioningData.md#snapshot) are unset. Applicable only to Virtual Center sourced desktops. [^1]
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  Base image VM for View Composer VMs and current Image for Instant clone desktops. Must be set if and only if [template](vdi.resources.Desktop.VirtualCenterProvisioningData.md#template) is unset and [snapshot](vdi.resources.Desktop.VirtualCenterProvisioningData.md#snapshot) is set. Applicable only to View Composer and Instant Clone Engine sourced desktops. For Instant Clone Engine desktops, this must be set on creation and cannot be updated. To update base image VM of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method. [^1]
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Base image snapshot for View Composer and current Image snapshot for Instant clone desktops. Must be set only in case of View Composer sourced desktops and if and only if [template](vdi.resources.Desktop.VirtualCenterProvisioningData.md#template) is unset and [parentVm](vdi.resources.Desktop.VirtualCenterProvisioningData.md#parentVm) is set. Applicable only to View Composer and Instant Clone Engine sourced desktops. For Instant Clone Engine desktops, this must be set on creation and cannot be updated. To update the base image snapshot of instant clone desktops use [Desktop_SchedulePushImage](vdi.resources.Desktop.md#schedulePushImage) method. [^1]

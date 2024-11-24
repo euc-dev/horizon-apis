@@ -29,10 +29,9 @@ Since
 
 The object for fetching View Storage Accelerator attributes for virtual center.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 StorageAccelerator_IsSupportedByServerDefinition, StorageAccelerator_IsSupportedByVirtualCenter
 
 
@@ -40,39 +39,39 @@ StorageAccelerator_IsSupportedByServerDefinition, StorageAccelerator_IsSupported
 
 Determines whether View Storage Accelerator is supported for the given virtual center. Using a ServerDefinition allows querying the server before it has been added to the Connection Server.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get information on View Storage Accelerator.
 VC_CONFIG_VIEW|  privilege is required to get information about View Storage Accelerator support on a Virtual Center.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [StorageAccelerator](vdi.utils.virtualcenter.StorageAccelerator.md) used to make the method call.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details (ip, user, password, etc.) needed to connect to a server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:string| String that determines whether storage accelerator is supported.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SA_VALIDATION_OK"</td><td>Virtual center supports View Storage Accelerator.</td></tr><tr><td>"SA_UNSUPPORTED_VC"</td><td>Virtual center does not support View Storage Accelerator.</td></tr></table>
 
 
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -89,39 +88,39 @@ Show WSDL type definition
 
 Determines whether View Storage Accelerator is supported for the given virtual center.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get information on View Storage Accelerator.
 VC_CONFIG_VIEW|  privilege is required to get information about View Storage Accelerator support on a Virtual Center.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [StorageAccelerator](vdi.utils.virtualcenter.StorageAccelerator.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:string| String that determines whether storage accelerator is supported.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"SA_VALIDATION_OK"</td><td>Virtual center supports View Storage Accelerator.</td></tr><tr><td>"SA_UNSUPPORTED_VC"</td><td>Virtual center does not support View Storage Accelerator.</td></tr></table>
 
 
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

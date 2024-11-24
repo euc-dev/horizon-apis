@@ -28,9 +28,9 @@ Since
 The result of registering a physical machine.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [MachineId](vdi.entity.MachineId.md)|  The ID of the newly registered physical machine.
 **pairingToken**|  xsd:string|  The pairing token for the machine. This should be passed to the machine.
  

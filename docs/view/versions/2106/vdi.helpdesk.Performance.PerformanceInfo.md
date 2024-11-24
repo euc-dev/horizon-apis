@@ -28,9 +28,9 @@ Since
 Data used for representation of performance information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **timestamp**|  xsd:long|  The time stamp when the last PerformanceData was obtained. [^2]
 **overallPerformance**| [PerformanceData[]](vdi.helpdesk.Performance.PerformanceData.md)|  Overall performance data for a machine. [^2]
 **processesPerformance**| [ProcessPerformanceData[]](vdi.helpdesk.Performance.ProcessPerformanceData.md)|  Performance data for processes in a machine. [^1] [^2]

@@ -28,9 +28,9 @@ Since
 Settings for ClonePrep customization. This setting is only applicable to instant clone desktops.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **instantCloneEngineDomainAdministrator**| [InstantCloneEngineDomainAdministratorId](vdi.entity.InstantCloneEngineDomainAdministratorId.md)| **Deprecated.**_use #CustomizationSettings.instantCloneEngineDomainAdministrator instead._ Instant Clone Engine domain administrator. This is the administrator which will add the machines to its domain upon creation. [^1]
 **powerOffScriptName**|  xsd:string| **Deprecated.**_since Horizon 2309. Use[powerOffScriptName](vdi.resources.Desktop.CustomizationScriptSettings.md#powerOffScriptName) _ Power off script. ClonePrep can run a customization script on instant-clone machines before they are powered off. Provide the path to the script on the parent virtual machine. [^1]
 **powerOffScriptParameters**|  xsd:string| **Deprecated.**_since Horizon 2309. Use[powerOffScriptParameters](vdi.resources.Desktop.CustomizationScriptSettings.md#powerOffScriptParameters) _ Power off script parameters. Example: p1 p2 p3 [^1]

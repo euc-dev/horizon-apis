@@ -52,9 +52,9 @@ The following caveats apply:
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **eventId**|  xsd:int|  ID of the event in Event Database.
 **eventType**|  xsd:string|  Event name that corresponds to an item in the message catalog. For example: BROKER_USERLOGGEDIN, AGENT_CONNECTED etc.
 **severity**|  xsd:string|  Severity type of the event.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"INFO"</td><td>INFO type.</td></tr><tr><td>"WARNING"</td><td>WARNING type.</td></tr><tr><td>"ERROR"</td><td>ERROR type.</td></tr><tr><td>"AUDIT_SUCCESS"</td><td>AUDIT SUCCESS type.</td></tr><tr><td>"AUDIT_FAIL"</td><td>AUDIT FAILURE type.</td></tr></table>

@@ -31,9 +31,9 @@ Specify that results must not match the child filter.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **filter**| [QueryFilter](vdi.query.QueryFilter.Filter.md)|  The filter should not apply to successful matches.
 Properties inherited from [QueryFilter](vdi.query.QueryFilter.Filter.md)
 None

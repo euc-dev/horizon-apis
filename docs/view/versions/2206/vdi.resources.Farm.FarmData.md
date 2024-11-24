@@ -28,9 +28,9 @@ Since
 Farm data
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  Farm name [^2] [^11]
 **displayName**|  xsd:string|  Farm display name. If the display name is left blank, it defaults to [name](vdi.resources.Farm.FarmData.md#name) [^1] [^12]
 **accessGroup**| [AccessGroupId](vdi.entity.AccessGroupId.md)|  View access groups can organize the farms in your organization. They can also be used for delegated administration.

@@ -29,10 +29,9 @@ Since
 
 The object for fetching View Storage Accelerator attributes from virtual center.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 StorageAcceleratorHost_ListByServerDefinition, StorageAcceleratorHost_ListByVirtualCenter
 
 
@@ -40,37 +39,37 @@ StorageAcceleratorHost_ListByServerDefinition, StorageAcceleratorHost_ListByVirt
 
 Gets list of HypervisorHost for a VC that has not yet been added to the connection broker. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get information on hosts which support View Storage Accelerator.
 VC_CONFIG_VIEW|  privilege is required to get information on hosts which support View Storage Accelerator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [StorageAcceleratorHost](vdi.utils.virtualcenter.StorageAcceleratorHost.md) used to make the method call.
 **serverDefinition**| [ServerDefinition](vdi.utils.Certificate.ServerDefinition.md)|  Details (ip, user, password, etc.) needed to connect to a server.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [StorageAcceleratorHostInfo[]](vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo.md)| Information on hosts which support View Storage Accelerator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -87,37 +86,37 @@ Show WSDL type definition
 
 Gets list of information on hosts which support View Storage Accelerator. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get information on hosts which support View Storage Accelerator.
 VC_CONFIG_VIEW|  privilege is required to get information on hosts which support View Storage Accelerator.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [StorageAcceleratorHost](vdi.utils.virtualcenter.StorageAcceleratorHost.md) used to make the method call.
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  unique identifier for vc entry
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [StorageAcceleratorHostInfo[]](vdi.utils.virtualcenter.StorageAcceleratorHost.StorageAcceleratorHostInfo.md)| Information on hosts which support View Storage Accelerator.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

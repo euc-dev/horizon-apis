@@ -28,9 +28,9 @@ Since
 URL Redirection Data Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **displayName**|  xsd:string|  The URLRedirection name is the display name for this Setting. [^12]
 **description**|  xsd:string|  The description is set of notes about the URLRedirection Setting. [^1] [^13]
 **enabled**|  xsd:boolean|  Whether or not this URLRedirection Setting is enabled or not. [^6]

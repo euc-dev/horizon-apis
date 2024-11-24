@@ -28,9 +28,9 @@ Since
 Client Restriction configuration indicates which client type and below what version of the client needs to be blocked for brokering to desktops or applications. Additional client types other than the supported client types can also be restricted for brokering to desktops or applications.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **clientData**| [GlobalSettingsClientData[]](vdi.infrastructure.GlobalSettings.ClientData.md)|  Client type and the version information needed to restrict or show warning message to the users using deprecated client versions. [^1]
 **message**|  xsd:string|  The message to be shown for the blocked clients. [^1] [^268]
 **blockAdditionalClients**|  xsd:boolean|  Whether additional clients need to be blocked. [^5] [^1]

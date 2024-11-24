@@ -28,9 +28,9 @@ Since
 The root entitled user or group information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity. [^2]
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group. [^2]
 **localData**| [EntitledUserOrGroupLocallyEntitledData](vdi.users.EntitledUserOrGroup.LocallyEntitledData.md)|  Data relevant to locally entitled users. If no local data exists or is not permitted, this will contain only null members. [^1] [^2]

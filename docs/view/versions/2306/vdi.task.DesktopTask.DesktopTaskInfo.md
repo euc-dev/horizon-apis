@@ -28,9 +28,9 @@ Since
 Desktop Task info object
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopTaskId](vdi.entity.DesktopTaskId.md)|  The id of the desktop task.
 **data**| [DesktopTaskData](vdi.task.DesktopTask.DesktopTaskData.md)|  Core attributes of the desktop task data.
  

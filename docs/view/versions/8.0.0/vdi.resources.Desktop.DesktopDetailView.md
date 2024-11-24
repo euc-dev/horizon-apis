@@ -28,9 +28,9 @@ Since
 Desktop id + Desktop Detail data.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [DesktopId](vdi.entity.DesktopId.md)|  The id of the desktop.
 **desktopDetailData**| [DesktopDetailData](vdi.resources.Desktop.DesktopDetailData.md)|  Core attributes of the desktop instance.
 

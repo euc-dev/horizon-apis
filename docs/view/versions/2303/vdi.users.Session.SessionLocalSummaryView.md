@@ -33,19 +33,19 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 The SessionLocalSummaryView query for locally resourced sessions. At least one of the specified privileges must be present.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  Results will be filtered with the corresponding access group permission.
 FEDERATED_SESSIONS_VIEW|  All results can be returned.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SessionId](vdi.entity.SessionId.md)|  Session Id for this session.
 **namesData**| [SessionNamesData](vdi.users.Session.SessionNamesData.md)|  Names of objects in this session.
 **referenceData**| [SessionLocalReferenceData](vdi.users.Session.SessionLocalReferenceData.md)|  References in this session.

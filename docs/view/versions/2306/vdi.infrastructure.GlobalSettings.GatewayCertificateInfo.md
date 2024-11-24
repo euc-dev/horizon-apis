@@ -25,9 +25,9 @@ Since
 Gateway certificate information
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **certificateName**|  xsd:string|  Certificate identifier in the system.
 **commonName**|  xsd:string|  Distinguished name of the entity that is associated with the public key. Represented by subject field of the X509 certificate.
 **issuer**|  xsd:string|  Issuer of the certificate. Represented by issuer field of the X509 certificate.

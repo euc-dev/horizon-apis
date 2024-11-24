@@ -28,9 +28,9 @@ Since
 Readonly data about this role.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **builtin**|  xsd:boolean|  Whether or not this is a built-in role (or custom). Built-in roles cannot be edited.
 **permissions**| [PermissionId[]](vdi.entity.PermissionId.md)|  Administrative permissions (user/group and access group) for this role. [^1]
 **appliesToAccessGroup**|  xsd:boolean|  Specifies whether access group is applicable for this role. This will be true when the role contains atleast one object specific privilege.  **_Since_** Horizon 7.8 [^5] [^2]

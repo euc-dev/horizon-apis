@@ -28,9 +28,9 @@ Since
 ApplicationSpec needed to create an Application
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **data**| [ApplicationData](vdi.resources.Application.ApplicationData.md)|  Application data slice
 **executionData**| [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)|  Application execution data slice
  

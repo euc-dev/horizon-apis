@@ -23,9 +23,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **key**|  xsd:string|  The Base 64 encoded public key of the cluster in PEM format.
 **keyId**|  xsd:string|  Key Id to identify the cluster's active key pair
  

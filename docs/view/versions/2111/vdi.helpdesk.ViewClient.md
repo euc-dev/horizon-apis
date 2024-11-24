@@ -29,10 +29,9 @@ Since
 
 The service for fetching View client and endpoint machine information.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ViewClient_Get
 
 
@@ -40,38 +39,38 @@ ViewClient_Get
 
 Retrieves View client and the endpoint machine information of the session.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 MACHINE_VIEW|  Machine read with the corresponding access group permission is sufficient to get a session's client information.
 POOL_VIEW|  Desktop read with the corresponding access group permission is sufficient to get a session's client information.
 FEDERATED_SESSIONS_VIEW|  Global session read is sufficient to get a session's client information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ViewClient](vdi.helpdesk.ViewClient.md) used to make the method call.
 **id**| [SessionId](vdi.entity.SessionId.md)|  SessionID to get the client information for.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ViewClientInfo](vdi.helpdesk.ViewClient.ViewClientInfo.md)| Client information of the session.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

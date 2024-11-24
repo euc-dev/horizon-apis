@@ -25,9 +25,9 @@ Since
 Details needed to create a gateway instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **gatewayName**|  xsd:string|  Name of the gateway.
  
 

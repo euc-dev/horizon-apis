@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **problemCount**| [ProblemMachineCount](vdi.resources.Machine.ProblemMachineCount.md)|  Counts of the machines which are in problem state. [^2]
 **underConstructionCount**| [UnderConstructionMachineCount](vdi.resources.Machine.UnderConstructionMachineCount.md)|  Counts of the machines which are in under construction state. [^2]
 **preparedCount**| [PreparedMachineCount](vdi.resources.Machine.PreparedMachineCount.md)|  Counts of the machines which are in prepared state. [^2]

@@ -28,9 +28,9 @@ Reasons that may preclude this VmTemplate from being used in full clone desktop 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **unsupportedOS**|  xsd:boolean|  This VmTemplate has an unsupported operating system. Certain server operating systems are only supported when [enableServerInSingleUserMode](vdi.infrastructure.GlobalSettings.GeneralData.md#enableServerInSingleUserMode) is enabled. If true, this cannot be used in desktop creation. [^2]
 
 

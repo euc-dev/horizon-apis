@@ -30,9 +30,9 @@ Since
 Description of the security server
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [SecurityServerId](vdi.entity.SecurityServerId.md)|  Client reference to a specific security server
 **general**| [SecurityServerGeneralData](vdi.infrastructure.SecurityServer.GeneralData.md)|  General data for the security server
 **messageSecurity**| [SecurityServerMessageSecurityData](vdi.infrastructure.SecurityServer.MessageSecurityData.md)|  The message security data for the Security Server.  **_Since_** Horizon View 6.1

@@ -25,9 +25,9 @@ Since
 Health information on a specific host managed by the Virtual Center server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **name**|  xsd:string|  The name of the Virtual Center host.
 **version**|  xsd:string|  The version of the Virtual Center host. [^1]
 **apiVersion**|  xsd:string|  The version of the API of the Virtual Center host. [^1]

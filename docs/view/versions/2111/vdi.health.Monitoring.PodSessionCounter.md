@@ -28,9 +28,9 @@ Since
 Information about global sessions related to a Pod.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **podId**| [PodId](vdi.entity.PodId.md)|  Pod id. [^2]
 **podName**|  xsd:string|  Name of the pod. [^2]
 **localPod**|  xsd:boolean|  Indicates if the counter details belong the local POD. This is going to be true for only one POD in the Federation. [^2]

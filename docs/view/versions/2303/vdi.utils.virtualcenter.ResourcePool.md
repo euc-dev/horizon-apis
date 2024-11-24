@@ -29,10 +29,9 @@ Since
 
 The service for fetching ResourcePools from VirtualCenter.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 ResourcePool_GetResourcePoolTree
 
 
@@ -40,37 +39,37 @@ ResourcePool_GetResourcePoolTree
 
 Gets the given host or cluster's resource pool tree from VC. Nodes of this tree may be suitable for use in desktop creation. Requires at least one of the listed privileges.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  privilege is required to get the ResourcePoolInfo.
 VC_CONFIG_VIEW|  privilege is required to get the ResourcePoolInfo.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [ResourcePool](vdi.utils.virtualcenter.ResourcePool.md) used to make the method call.
 **hostOrCluster**| [HostOrClusterId](vdi.entity.HostOrClusterId.md)|  The host or cluster from which to get the resource pool tree
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [ResourcePoolInfo](vdi.utils.virtualcenter.ResourcePool.ResourcePoolInfo.md)| ResourcePoolInfo the root resource pool of the tree
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

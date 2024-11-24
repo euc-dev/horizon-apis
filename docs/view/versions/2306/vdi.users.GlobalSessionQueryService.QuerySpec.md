@@ -31,9 +31,9 @@ QuerySpec for filtering the sessions
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **user**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  Unique identifier for user. <br>Exactly one of the [user](vdi.users.GlobalSessionQueryService.QuerySpec.md#user), [pod](vdi.users.GlobalSessionQueryService.QuerySpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.QuerySpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.QuerySpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.QuerySpec.md#clientName) values must be set to non null value, querying can be done with exactly one of these fields. [^1]
 **pod**| [PodId](vdi.entity.PodId.md)|  ID of the pod hosting the session. <br>Exactly one of the [user](vdi.users.GlobalSessionQueryService.QuerySpec.md#user), [pod](vdi.users.GlobalSessionQueryService.QuerySpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.QuerySpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.QuerySpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.QuerySpec.md#clientName) values must be set to non null value, querying can be done with exactly one of these fields. [^1]
 **brokeringPod**| [PodId](vdi.entity.PodId.md)|  ID of pod that brokered the session. <br>Exactly one of the [user](vdi.users.GlobalSessionQueryService.QuerySpec.md#user), [pod](vdi.users.GlobalSessionQueryService.QuerySpec.md#pod), [brokeringPod](vdi.users.GlobalSessionQueryService.QuerySpec.md#brokeringPod), [desktop](vdi.users.GlobalSessionQueryService.QuerySpec.md#desktop), [clientName](vdi.users.GlobalSessionQueryService.QuerySpec.md#clientName) values must be set to non null value, querying can be done with exactly one of these fields. [^1]

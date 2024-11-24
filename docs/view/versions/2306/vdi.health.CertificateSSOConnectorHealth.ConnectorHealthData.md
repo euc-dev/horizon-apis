@@ -28,9 +28,9 @@ Since
 The health data for a CertSSO connector.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **overallState**|  xsd:string|  The overall state of the connector. This represents the most severe state of all the component health states.<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"OK"</td><td>Overall state is green.</td></tr><tr><td>"WARN"</td><td>Overall state is yellow.</td></tr><tr><td>"ERROR"</td><td>Overall state is red.</td></tr></table>
 **primaryEnrollmentServerHealth**| [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md)|  The primary enrollment server health.
 **secondaryEnrollmentServerHealth**| [CertificateSSOConnectorHealthEnrollmentServerHealthData](vdi.health.CertificateSSOConnectorHealth.EnrollmentServerHealthData.md)|  The secondary enrollment server health. [^1]

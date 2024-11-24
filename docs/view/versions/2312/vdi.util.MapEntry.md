@@ -34,9 +34,9 @@ Represents the pairing of a canonical name and a value. An array of these will b
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **key**|  xsd:string|  Represents the canonical name of the field.
 **value**|  xsd:anyType|  The value of the field. [^1]
 

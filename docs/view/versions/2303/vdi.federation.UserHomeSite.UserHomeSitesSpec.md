@@ -28,9 +28,9 @@ Since
 User home site specification.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **allowUpdate**|  xsd:boolean|  determines whether the api can override an existing homesite. [^1]
 **bases**| [UserHomeSiteBase[]](vdi.federation.UserHomeSite.UserHomeSiteBase.md)|  List of Base data for user home site configuration.
  

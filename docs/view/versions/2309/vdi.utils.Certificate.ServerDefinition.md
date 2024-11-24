@@ -31,9 +31,9 @@ Details needed to connect to a server, with optional certificate.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to a server
 **certificateThumbprint**| [CertificateThumbprint](vdi.utils.Certificate.CertificateThumbprint.md)|  Certificate thumbprint and corresponding algorithm. If not specified, will assume the certificate has been accepted. If specified, will accept the certificate just for this operation. [^1]
  

@@ -28,9 +28,9 @@ Since
 Missing Application Info representing Applications. Application health is collected only for those Applications that are enabled.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application Entity Id [^2]
 **name**|  xsd:string|  Application name [^2]
 **executablePath**|  xsd:string|  Path to Application executable [^2]

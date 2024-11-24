@@ -19,9 +19,9 @@ Java Class
 This class is used to refer to a service.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **type**|  xsd:string|  The name of the service. Allowable values are: | "AccessGroup"|  \- [AccessGroup](vdi.users.AccessGroup.md) Service.
 ---|---
 "ADContainer"|  \- [ADContainer](vdi.utils.ADContainer.md) Service.

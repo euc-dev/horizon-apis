@@ -33,18 +33,18 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 Only fields in [data](vdi.resources.Application.ApplicationInfo.md#data) support filtering.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 POOL_VIEW|  privilege is required to query ApplicationInfo.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ApplicationId](vdi.entity.ApplicationId.md)|  Application Entity ID [^2]
 **data**| [ApplicationData](vdi.resources.Application.ApplicationData.md)|  Application Data to read/update an Application entry.
 **executionData**| [ApplicationExecutionData](vdi.resources.Application.ApplicationExecutionData.md)|  Application execution data to read/update an Application entry.

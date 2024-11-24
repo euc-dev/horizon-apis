@@ -29,10 +29,9 @@ Since
 
 Service Interface for Unauthenticated Access user settings.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 UnauthenticatedAccessUser_Create, UnauthenticatedAccessUser_Delete, UnauthenticatedAccessUser_Get, UnauthenticatedAccessUser_IsUnauthenticatedAccessUser, UnauthenticatedAccessUser_List, UnauthenticatedAccessUser_Update
 
 
@@ -40,37 +39,37 @@ UnauthenticatedAccessUser_Create, UnauthenticatedAccessUser_Delete, Unauthentica
 
 Creates Unauthenticated Access user using user data.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global management is required to create a new Unauthenticated Access user.
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to to create a new Unauthenticated Access user.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 **userData**| [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)|  attributes needed to create a Unauthenticated Access user.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserOrGroupId](vdi.entity.UserOrGroupId.md)| User Id used for creating Unauthenticated Access user.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -80,10 +79,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_UNAUTHENTICATED_ACCESS_USER_CREATED|  If the Unauthenticated Access user was successfully created.
 VLSI_UNAUTHENTICATED_ACCESS_USER_CREATION_FAILED|  If the Unauthenticated Access user could not be created.
 
@@ -97,37 +96,37 @@ Show WSDL type definition
 
 Deletes Unauthenticated Access user entry. Note that only users which was created in current pod can be deleted.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  is required to delete Unauthenticated Access user.
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to delete Unauthenticated Access user.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  AD user id which Unauthenticated Access user is associated with.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -137,10 +136,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_UNAUTHENTICATED_ACCESS_USER_DELETED|  If the Unauthenticated Access user was successfully deleted.
 VLSI_UNAUTHENTICATED_ACCESS_USER_DELETION_FAILED|  If the Unauthenticated Access user could not be deleted.
 
@@ -154,37 +153,37 @@ Show WSDL type definition
 
 Gets Unauthenticated Access user info using id.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global config view privilege is required to read a Unauthenticated Access user info.
 FEDERATED_LDAP_VIEW|  Global LDAP view is required to read a global Unauthenticated Access user info.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User id of AD user.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UnauthenticatedAccessUserInfo](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md)| Unauthenticated Access user info for the user with the given userId.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -201,28 +200,28 @@ Show WSDL type definition
 
 Returns true if the unauthenticated access user exists with given userId.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 **userId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  AD user id which Unauthenticated Access user is associated with.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 xsd:boolean| Returns true if the unauthenticated access user exists with given userId.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -239,35 +238,35 @@ Show WSDL type definition
 
 Lists the Unauthenticated Access User info of all Unauthenticated Access users.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global config view privilege is required to list the Unauthenticated Access users information.
 FEDERATED_LDAP_VIEW|  Global LDAP view is required to list global Unauthenticated Access users information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UnauthenticatedAccessUserInfo[]](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserInfo.md)| The list of all the Unauthenticated Access users info.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -284,37 +283,37 @@ Show WSDL type definition
 
 Updates Unauthenticated Access user using user data.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global management is required to update existing Unauthenticated Access user.
 FEDERATED_LDAP_MANAGE|  Global LDAP management is required to to update existing Unauthenticated Access user.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [UnauthenticatedAccessUser](vdi.users.UnauthenticatedAccessUser.md) used to make the method call.
 **userData**| [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)|  attributes needed to create a Unauthenticated Access user.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [UserOrGroupId](vdi.entity.UserOrGroupId.md)| User Id used for creating Unauthenticated Access user.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -324,10 +323,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_UNAUTHENTICATED_ACCESS_USER_UPDATED|  If the Unauthenticated Access user was successfully updated.
 VLSI_UNAUTHENTICATED_ACCESS_USER_UPDATE_FAILED|  If the Unauthenticated Access user could not be updated.
 

@@ -25,9 +25,9 @@ Since
 Fields specific to a Machine's Virtual Disks.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **path**|  xsd:string|  The disk path. [^2]
 **datastorePath**|  xsd:string|  The disk's datastore. [^2]
 **capacityMB**|  xsd:long|  The disk capacity, in MB. [^2]

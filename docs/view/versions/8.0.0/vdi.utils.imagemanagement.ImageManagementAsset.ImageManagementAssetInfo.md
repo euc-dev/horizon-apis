@@ -28,9 +28,9 @@ Since
 Top level object describing a image management asset.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ImageManagementAssetId](vdi.entity.ImageManagementAssetId.md)|  Entity id of image management asset. [^2]
 **base**| [ImageManagementAssetBase](vdi.utils.imagemanagement.ImageManagementAsset.ImageManagementAssetBase.md)|  Basic data about a image management asset.
 

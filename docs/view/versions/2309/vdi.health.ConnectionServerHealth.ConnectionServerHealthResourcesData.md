@@ -25,9 +25,9 @@ Since
 Resources data of the connection server.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **cpuUsagePercentage**|  xsd:int|  Percentage of the CPU being used. [^1]
 **memoryUsagePercentage**|  xsd:int|  Percentage of the memory being used. [^1]
  

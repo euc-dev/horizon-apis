@@ -40,18 +40,18 @@ This data object is queryable using [QueryService](vdi.query.QueryService.md "Qu
 
 The query for user home sites.
 
-Query Privileges
+Query **Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 FEDERATED_LDAP_VIEW|  Global LDAP read access is required to query for UserHomeSites.
 
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserHomeSiteId](vdi.entity.UserHomeSiteId.md)| Id of the user home site configuration [^1]
 **base**| [UserHomeSiteBase](vdi.federation.UserHomeSite.UserHomeSiteBase.md)| Base data for user home site configuration.
 **refId**| xsd:string| Reference ID used for this user home site.  **_Since_** Horizon 8.1 [^1] [^2]

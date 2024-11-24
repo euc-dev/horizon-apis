@@ -27,10 +27,9 @@ Since
 
 ## Service Description
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 AuditEventDetails
 
 
@@ -38,28 +37,28 @@ AuditEventDetails
 
 Audit Event Details for input event ids.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [AuditEvent](vdi.infrastructure.AuditEvent.md) used to make the method call.
 **eventsId**|  xsd:int[]|  Array of event ids.
 
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [AuditEventDetailsRecord[]](vdi.infrastructure.AuditEvent.AuditEventDetailsRecord.md)|
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.

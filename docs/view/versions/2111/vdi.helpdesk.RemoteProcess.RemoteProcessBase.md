@@ -25,9 +25,9 @@ Since
 The basic remote process information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **processId**|  xsd:long|  The process id. [^2]
 **createTime**|  xsd:long|  The process creation time. [^2]
 **name**|  xsd:string|  The name of the process. [^2]

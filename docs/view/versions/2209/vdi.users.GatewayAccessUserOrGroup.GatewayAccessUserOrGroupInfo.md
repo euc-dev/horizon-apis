@@ -28,9 +28,9 @@ Since
 Gateway Access user or group info object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userOrGroupId**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **data**| [GatewayAccessUserOrGroupData](vdi.users.GatewayAccessUserOrGroup.GatewayAccessUserOrGroupData.md)|  Gateway access user or group data.
 

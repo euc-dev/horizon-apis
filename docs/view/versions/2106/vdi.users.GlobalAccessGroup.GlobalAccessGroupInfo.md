@@ -28,9 +28,9 @@ Since
 The full global access group information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [GlobalAccessGroupId](vdi.entity.GlobalAccessGroupId.md)|  Global Access group id of this entity. [^2]
 **base**| [GlobalAccessGroupBase](vdi.users.GlobalAccessGroup.GlobalAccessGroupBase.md)|  Base data used for global access group creation. [^2]
 **data**| [GlobalAccessGroupData](vdi.users.GlobalAccessGroup.GlobalAccessGroupData.md)|  Readonly data about this global access group. [^2]

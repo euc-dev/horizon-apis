@@ -28,9 +28,9 @@ Since
 Full View for ADUserOrGroup
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [UserOrGroupId](vdi.entity.UserOrGroupId.md)|  User or group ID of this entity.
 **base**| [ADUserOrGroupBase](vdi.users.ADUserOrGroup.ADUserOrGroupBase.md)|  Basic active directory data for a user or group.
 **extendedData**| [ADUserOrGroupExtendedData](vdi.users.ADUserOrGroup.ADUserOrGroupExtendedData.md)|  Computed data about this user or group.

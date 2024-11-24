@@ -29,10 +29,9 @@ Since
 
 Service for specifying global settings.
 
-Methods
+**Methods**
 
-Methods defined in this Service
----
+Methods defined in this Service:
 GlobalSettings_Get, GlobalSettings_GetEnvironmentSettings, GlobalSettings_GetFeatureSettings, GlobalSettings_GetPreLogonSettings, GlobalSettings_Update
 
 
@@ -40,34 +39,34 @@ GlobalSettings_Get, GlobalSettings_GetEnvironmentSettings, GlobalSettings_GetFea
 
 Gets the Global Settings info for this View cluster.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_VIEW|  Global configuration (read-only) is required to get global settings information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSettings](vdi.infrastructure.GlobalSettings.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalSettingsInfo](vdi.infrastructure.GlobalSettings.GlobalSettingsInfo.md)| The GlobalSettingsInfo object.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -84,26 +83,26 @@ Show WSDL type definition
 
 Fetches the settings of the environment.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSettings](vdi.infrastructure.GlobalSettings.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EnvironmentSettings](vdi.infrastructure.GlobalSettings.EnvironmentSettings.md)| The EnvironmentSettingsInfo object.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -120,26 +119,26 @@ Show WSDL type definition
 
 Gets the feature settings.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSettings](vdi.infrastructure.GlobalSettings.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalFeatureSettings](vdi.infrastructure.GlobalSettings.FeatureSettings.md)| The FeatureSettings object.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -156,26 +155,26 @@ Show WSDL type definition
 
 Gets the Global Settings info that are required without any user authentication on the login page.
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSettings](vdi.infrastructure.GlobalSettings.md) used to make the method call.
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [GlobalPreLogonSettings](vdi.infrastructure.GlobalSettings.PreLogonSettings.md)| The PreLogonSettings object.
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -192,18 +191,18 @@ Show WSDL type definition
 
 Updates the global settings for this View cluster.
 
-Privileges
+**Privileges**
 
-Privilege |  Description
----|---
+Privilege | Description
+:---|:---
 GLOBAL_CONFIG_MANAGEMENT|  Global management is required to update global settings information.
 
 
 
-Parameters
+**Parameters**
 
-Name| Type| Description
----|---|---
+ Name | Type | Description
+:---|:---|:---
 **_this**| [ManagedObjectReference](vmodl.ManagedObjectReference.md)|  A reference to the [GlobalSettings](vdi.infrastructure.GlobalSettings.md) used to make the method call.
 **updates**| [MapEntry[]](vdi.util.MapEntry.md)|  key value pairs describing attributes to be updated [^290]
 
@@ -211,18 +210,18 @@ Name| Type| Description
 
 
 
-Return Value
+**Return Value**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 None
 
 
 
-Faults
+**Faults**
 
-Type |  Description
----|---
+Type | Description
+:---|:---
 [EntityNotFound](vdi.fault.EntityNotFound.md)| Thrown if any specified entity cannot be found.
 [InsufficientPermission](vdi.fault.InsufficientPermission.md)| Thrown if the user does not have sufficient permission to perform the operation.
 [InvalidArgument](vdi.fault.InvalidArgument.md)| Thrown if any specified argument is invalid.
@@ -231,10 +230,10 @@ Type |  Description
 
 
 
-Events
+**Events**
 
-Event |  Description
----|---
+Event | Description
+:---|:---
 VLSI_GLOBAL_SETTINGS_UPDATED|  If all members were successfully updated, this will be sent for each updated member in the update map.
 VLSI_GLOBAL_SETTINGS_UPDATE_FAILED|  If any member could not be updated.
 

@@ -28,9 +28,9 @@ Since
 Specification for the recompose operation.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **parentVm**| [BaseImageVmId](vdi.entity.BaseImageVmId.md)|  New base image VM for automated farm's RDS Servers. This must be in the same datacenter as the base image of the RDS Server.
 **snapshot**| [BaseImageSnapshotId](vdi.entity.BaseImageSnapshotId.md)|  Base image snapshot for the Automated Farm's RDS Servers.
 **startTime**|  xsd:dateTime|  When to start the operation. If unset the operation will begin immediately. [^1]

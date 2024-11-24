@@ -28,9 +28,9 @@ Since
 ApplicationIconSummaryViews of applications returned on a getSummaryViewByApplications() call.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [ApplicationIconId](vdi.entity.ApplicationIconId.md)|  ApplicationIcon entityId [^2]
 **base**| [ApplicationIconSummaryBase](vdi.resources.ApplicationIcon.ApplicationIconSummaryBase.md)|  Metadata of the icon
 

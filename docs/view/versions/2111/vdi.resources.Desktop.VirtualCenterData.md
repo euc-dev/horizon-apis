@@ -28,9 +28,9 @@ Since
 Paths for Virtual Center entities associated with this automated Desktop.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Virtual Center server. [^2]
 **templatePath**|  xsd:string|  Template path to deploy full clone VMs. The name is the last element of the path. [^1] [^2]
 **templateMoid**|  xsd:string|  MOID of virtual machine template to deploy full clone VMs. [^1] [^2]

@@ -23,9 +23,9 @@ See also
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [PersistentDiskId](vdi.entity.PersistentDiskId.md)|  The ID of the persistent disk.
 **sortBy**|  xsd:string|  sortBy Member name to sort results by. [^1]
 **sortDescending**|  xsd:boolean|  sortDescending Sort order: false (ascending) by default. [^1]

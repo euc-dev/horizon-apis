@@ -28,9 +28,9 @@ Since
 Top-level object describing a virtual center instance.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  Client reference to a specific virtual center instance.
 **serverSpec**| [ServerSpec](vdi.utils.Certificate.ServerSpec.md)|  Details needed to connect to a virtual center server.
 **description**|  xsd:string|  Human readable description of the virtual center instance. [^1] [^13]

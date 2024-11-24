@@ -34,9 +34,9 @@ VmFolderInfo aggregates VmFolderData with FolderId for folders retrieved from th
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **id**| [VmFolderId](vdi.entity.VmFolderId.md)|  VmFolder Id [^2]
 **folderData**| [VmFolderData](vdi.utils.virtualcenter.VmFolder.VmFolderData.md)|  Folder display data [^2]
 **children**| [VmFolderInfo[]](vdi.utils.virtualcenter.VmFolder.VmFolderInfo.md)|  Children nodes of the tree-structure [^1] [^2]

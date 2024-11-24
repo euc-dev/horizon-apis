@@ -30,9 +30,9 @@ Since
 The persistent disk's Virtual Center specific information.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **virtualCenter**| [VirtualCenterId](vdi.entity.VirtualCenterId.md)|  The Virtual Center server. [^2]
 **datastoreName**|  xsd:string|  The datastore containing the persistent disk. [^2]
 **capacityMB**|  xsd:long|  The capacity of the persistent disk in MB. [^1] [^2]

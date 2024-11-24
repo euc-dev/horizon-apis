@@ -25,9 +25,9 @@ Since
 The filter for processes
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **processSessionFilter**|  xsd:string|  Filter process by process session info [^1] [^2]<br>* This property will be one of:<br><table><tr><th>Value</th><th>Description</th></tr><tr><td>"CURRENT_USER_SESSION"</td><td>The processes which run in the current user session</td></tr><tr><td>"SYSTEM_AND_CURRENT_USER_SESSION"</td><td>The union of the system processes and current user session processes.</td></tr></table>
 
 

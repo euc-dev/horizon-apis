@@ -26,9 +26,9 @@ Since
 ## Data Object Description
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **username**|  xsd:string|  service account username. [^152]
 **password**| [SecureString](vdi.util.SecureString.md)|  Service account user password.
  

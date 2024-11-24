@@ -25,9 +25,9 @@ See also
 Unauthenticated Access User Info Object.
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **userData**| [UnauthenticatedAccessUserData](vdi.users.UnauthenticatedAccessUser.UnauthenticatedAccessUserData.md)|  Unauthenticated Access User Data Object.
 **sourcePods**| [PodId[]](vdi.entity.PodId.md)|  Pods in which user was created. The value would be null if the cloud pod architecture is not enabled or if the user does not have FEDERATED_LDAP_VIEW privilege. [^1] [^14] [^2]
 

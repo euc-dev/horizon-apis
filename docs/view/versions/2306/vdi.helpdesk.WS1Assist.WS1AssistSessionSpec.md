@@ -29,9 +29,9 @@ Since
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **sessionId**| [SessionId](vdi.entity.SessionId.md)|  The session ID
 **customerId**|  xsd:string|  The HCS customer Id.. [^2]
 **tenantId**|  xsd:string|  The HCS tenant Id. [^2]

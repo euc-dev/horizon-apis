@@ -31,9 +31,9 @@ The Security Server pairing data.
 
 
 ## Data Object Properties
-Properties
-Name |  Type |  Description
----|---|---
+
+ Name | Type | Description
+:---|:---:|:---
 **pairingPassword**| [SecureString](vdi.util.SecureString.md)|  The Security Server pairing password.
 **timeoutMinutes**|  xsd:int|  The timeout of the pairing password (in minutes). [^8] [^253]
 
