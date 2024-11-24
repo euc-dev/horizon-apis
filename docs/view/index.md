@@ -1,13 +1,13 @@
 ---
 layout: page
-title: View API Reference Documentation - Latest
+title: Omnissa View API Reference Documentation - Latest
 hide:
 #- navigation
 - toc
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-Welcome to the latest version (v2406) of the View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the latest version (v2406) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
 * [Service Types](versions/2406/mo-types-landing.md)  
 * [Data Object Types](versions/2406/do-types-landing.md)  
@@ -80,7 +80,7 @@ If a certificate override is needed this can be accomplished using the **HttpCon
 
 ## Navigating the API Reference
 
-The View API Reference is set of documents, grouped by platform version. Use the navigation menu to the left to select the version, then the Service, Query, Data Object, Fault Types links to display information. To find the description of a specific object type, click the appropriate category name from the menu.
+The Omnissa View API Reference is set of documents, grouped by platform version. Use the navigation menu to the left to select the version, then the Service, Query, Data Object, Fault Types links to display information. To find the description of a specific object type, click the appropriate category name from the menu.
 
 To quickly find an entry, start typing its name in the **Search Bar** field.
 
