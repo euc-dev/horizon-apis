@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADDomainHealthInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

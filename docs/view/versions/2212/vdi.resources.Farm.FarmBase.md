@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

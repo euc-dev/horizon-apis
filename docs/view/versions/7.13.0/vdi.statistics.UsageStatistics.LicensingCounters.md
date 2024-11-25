@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UsageStatisticsLicensingCounters
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

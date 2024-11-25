@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidArgument
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSServerMessageSecurityData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

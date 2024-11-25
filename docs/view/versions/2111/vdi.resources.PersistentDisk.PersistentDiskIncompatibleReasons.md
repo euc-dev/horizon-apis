@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

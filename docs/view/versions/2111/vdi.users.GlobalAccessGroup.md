@@ -2,8 +2,8 @@
 layout: page
 title: Service - GlobalAccessGroup
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

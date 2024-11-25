@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ManagedMachineDetailsData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

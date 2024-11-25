@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PoliciesSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

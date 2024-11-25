@@ -2,8 +2,8 @@
 layout: page
 title: Service - VirtualCenterStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

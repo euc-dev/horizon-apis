@@ -2,8 +2,8 @@
 layout: page
 title: Service - EventDatabaseHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

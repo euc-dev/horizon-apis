@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AuditEventSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

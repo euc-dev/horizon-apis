@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionGlobalNamesData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

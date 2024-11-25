@@ -2,8 +2,8 @@
 layout: page
 title: Error Attributes
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 TBD

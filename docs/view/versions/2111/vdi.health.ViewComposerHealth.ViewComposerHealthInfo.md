@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ViewComposerHealthInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

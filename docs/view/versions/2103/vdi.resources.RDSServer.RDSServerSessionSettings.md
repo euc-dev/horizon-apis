@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSServerSessionSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

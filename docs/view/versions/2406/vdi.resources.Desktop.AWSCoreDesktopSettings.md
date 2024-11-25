@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AWSCoreDesktopSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

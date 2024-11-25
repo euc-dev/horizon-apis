@@ -2,8 +2,8 @@
 layout: page
 title: Service - Task
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

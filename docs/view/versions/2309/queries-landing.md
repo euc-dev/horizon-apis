@@ -2,8 +2,8 @@
 layout: page
 title: Query Service Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 The Query Service is a generic service for listing or filtering large sets of results.

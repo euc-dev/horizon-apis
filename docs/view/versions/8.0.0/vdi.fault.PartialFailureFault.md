@@ -2,8 +2,8 @@
 layout: page
 title: Fault - PartialFailureFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

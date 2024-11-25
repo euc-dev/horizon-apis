@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ProcessFilter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

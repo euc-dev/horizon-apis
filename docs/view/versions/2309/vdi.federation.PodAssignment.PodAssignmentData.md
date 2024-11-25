@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PodAssignmentData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

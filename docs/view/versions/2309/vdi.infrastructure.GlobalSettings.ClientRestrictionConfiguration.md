@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsClientRestrictionConfiguration
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

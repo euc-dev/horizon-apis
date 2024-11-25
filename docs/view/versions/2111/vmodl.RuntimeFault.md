@@ -2,8 +2,8 @@
 layout: page
 title: Fault - RuntimeFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

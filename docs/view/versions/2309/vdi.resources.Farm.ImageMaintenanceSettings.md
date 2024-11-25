@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmImageMaintenanceSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

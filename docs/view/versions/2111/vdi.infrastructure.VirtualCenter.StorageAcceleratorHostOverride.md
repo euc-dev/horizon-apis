@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualCenterStorageAcceleratorHostOverride
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

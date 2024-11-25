@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopCustomizationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

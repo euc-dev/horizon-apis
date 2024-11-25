@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ResourceSettingsInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

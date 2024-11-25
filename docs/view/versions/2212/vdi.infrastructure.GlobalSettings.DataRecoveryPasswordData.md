@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsDataRecoveryPasswordData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

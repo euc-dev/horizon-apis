@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

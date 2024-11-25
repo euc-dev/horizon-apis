@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventSeverityCounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatacenterId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

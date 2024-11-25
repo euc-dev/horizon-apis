@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsSecurityData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

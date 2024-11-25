@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

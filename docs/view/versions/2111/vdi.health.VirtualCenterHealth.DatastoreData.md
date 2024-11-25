@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualCenterHealthDatastoreData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

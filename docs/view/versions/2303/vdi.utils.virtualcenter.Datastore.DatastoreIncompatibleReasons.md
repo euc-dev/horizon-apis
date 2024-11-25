@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatastoreIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

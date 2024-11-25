@@ -2,8 +2,8 @@
 layout: page
 title: Service - GatewayAccessUserOrGroup
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

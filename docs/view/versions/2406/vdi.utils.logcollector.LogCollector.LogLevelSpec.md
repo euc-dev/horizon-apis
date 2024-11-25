@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LogLevelSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Fault Types Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 A **fault** type is a data structure that conveys information about errors, such as processing errors, raised by the server. Information can include the nature of the problem, such as “[InsufficientPermission](vdi.fault.InsufficientPermission.md)” or “[InvalidArgument](vdi.fault.InvalidArgument.md).”

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementStreamId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

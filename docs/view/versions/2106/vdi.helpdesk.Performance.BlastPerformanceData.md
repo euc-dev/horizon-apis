@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BlastPerformanceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - LogCollector
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

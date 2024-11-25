@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CertificateData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

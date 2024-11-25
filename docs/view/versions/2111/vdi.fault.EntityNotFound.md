@@ -2,8 +2,8 @@
 layout: page
 title: Fault - EntityNotFound
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

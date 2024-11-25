@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidQuery
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

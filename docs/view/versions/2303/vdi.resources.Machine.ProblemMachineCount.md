@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ProblemMachineCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

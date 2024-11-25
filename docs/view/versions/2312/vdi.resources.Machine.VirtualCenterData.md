@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineVirtualCenterData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

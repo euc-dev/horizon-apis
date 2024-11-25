@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PerformanceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

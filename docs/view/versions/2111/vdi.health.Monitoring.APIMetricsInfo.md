@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - APIMetricsInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

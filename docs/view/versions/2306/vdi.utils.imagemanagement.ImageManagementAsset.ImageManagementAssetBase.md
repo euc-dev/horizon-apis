@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementAssetBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

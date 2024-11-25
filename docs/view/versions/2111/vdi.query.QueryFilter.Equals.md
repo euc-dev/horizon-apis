@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - QueryFilterEquals
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

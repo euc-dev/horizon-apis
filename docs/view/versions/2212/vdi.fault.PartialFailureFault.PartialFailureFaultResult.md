@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PartialFailureFaultResult
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskGeneralData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

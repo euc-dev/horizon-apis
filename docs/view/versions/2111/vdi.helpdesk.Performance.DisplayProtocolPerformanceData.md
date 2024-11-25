@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DisplayProtocolPerformanceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

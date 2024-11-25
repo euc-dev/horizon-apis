@@ -2,8 +2,8 @@
 layout: page
 title: Service - SAMLAuthenticatorHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

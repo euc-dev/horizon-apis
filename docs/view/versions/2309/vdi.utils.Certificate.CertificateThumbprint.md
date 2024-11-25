@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CertificateThumbprint
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

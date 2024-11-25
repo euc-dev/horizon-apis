@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopNetworkInterfaceCardSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

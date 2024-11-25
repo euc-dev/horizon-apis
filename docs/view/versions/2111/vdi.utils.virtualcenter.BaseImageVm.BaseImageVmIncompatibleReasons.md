@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BaseImageVmIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

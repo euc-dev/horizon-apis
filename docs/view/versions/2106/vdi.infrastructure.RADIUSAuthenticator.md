@@ -2,8 +2,8 @@
 layout: page
 title: Service - RADIUSAuthenticator
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

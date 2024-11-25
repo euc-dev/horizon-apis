@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - HealthCounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SAMLAuthenticatorInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - Farm
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

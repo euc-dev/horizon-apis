@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Data Object - CertificateSSOConnectorId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

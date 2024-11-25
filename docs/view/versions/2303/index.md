@@ -2,8 +2,8 @@
 layout: page
 title: Omnissa View API Reference Documentation - 2303
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

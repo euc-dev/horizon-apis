@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SystemStatusCounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

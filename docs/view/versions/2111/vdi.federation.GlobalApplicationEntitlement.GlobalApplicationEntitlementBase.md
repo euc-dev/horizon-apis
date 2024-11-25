@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalApplicationEntitlementBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GatewayInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

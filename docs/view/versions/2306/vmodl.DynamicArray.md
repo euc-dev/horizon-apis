@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DynamicArray
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

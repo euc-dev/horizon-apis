@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - QueryId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

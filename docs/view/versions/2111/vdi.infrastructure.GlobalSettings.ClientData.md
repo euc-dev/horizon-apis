@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsClientData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - RemoteApplication
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

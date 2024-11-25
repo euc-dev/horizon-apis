@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AWSCoreWorkspaceSchedule
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

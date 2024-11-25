@@ -2,8 +2,8 @@
 layout: page
 title: Service - PodFederation
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

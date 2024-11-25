@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionRemoteApplicationStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

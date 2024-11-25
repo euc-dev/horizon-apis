@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalEntitlementInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

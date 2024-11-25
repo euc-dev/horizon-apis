@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopManualDesktopSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

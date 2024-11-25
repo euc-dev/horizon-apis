@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UnauthenticatedAccessUserInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

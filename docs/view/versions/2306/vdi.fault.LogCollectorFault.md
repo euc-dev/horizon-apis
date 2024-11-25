@@ -2,8 +2,8 @@
 layout: page
 title: Fault - LogCollectorFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

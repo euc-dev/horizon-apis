@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopDeleteSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

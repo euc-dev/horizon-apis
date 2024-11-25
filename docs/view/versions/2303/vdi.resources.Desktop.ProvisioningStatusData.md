@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopProvisioningStatusData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

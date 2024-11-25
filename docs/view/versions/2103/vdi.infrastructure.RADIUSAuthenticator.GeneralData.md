@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RADIUSAuthenticatorGeneralData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

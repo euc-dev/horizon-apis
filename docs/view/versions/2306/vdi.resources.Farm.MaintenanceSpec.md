@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmMaintenanceSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

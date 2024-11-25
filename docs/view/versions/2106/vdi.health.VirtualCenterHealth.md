@@ -2,8 +2,8 @@
 layout: page
 title: Service - VirtualCenterHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

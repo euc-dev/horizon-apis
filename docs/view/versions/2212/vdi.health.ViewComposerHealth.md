@@ -2,8 +2,8 @@
 layout: page
 title: Service - ViewComposerHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

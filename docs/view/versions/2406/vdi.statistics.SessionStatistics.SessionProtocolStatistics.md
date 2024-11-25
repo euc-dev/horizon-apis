@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionProtocolStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

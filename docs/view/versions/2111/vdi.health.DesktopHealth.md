@@ -2,8 +2,8 @@
 layout: page
 title: Service - DesktopHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - HostOrClusterIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PermissionBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmCustomizationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

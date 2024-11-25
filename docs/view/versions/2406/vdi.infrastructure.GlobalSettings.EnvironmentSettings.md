@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EnvironmentSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskQueryServiceQuerySpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

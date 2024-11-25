@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventNamesData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

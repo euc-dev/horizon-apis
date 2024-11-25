@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatastoreData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

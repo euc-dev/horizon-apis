@@ -2,8 +2,8 @@
 layout: page
 title: Service - GlobalSessionQueryService
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - ApplicationIcon
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

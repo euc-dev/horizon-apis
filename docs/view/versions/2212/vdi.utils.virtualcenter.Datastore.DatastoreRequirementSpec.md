@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatastoreRequirementSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

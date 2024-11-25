@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementVersionInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

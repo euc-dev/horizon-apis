@@ -2,8 +2,8 @@
 layout: page
 title: Service - VmFolder
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

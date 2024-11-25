@@ -2,8 +2,8 @@
 layout: page
 title: Service - GlobalSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

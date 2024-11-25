@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopOrFarmDatastoreUsageInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - ViewClient
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

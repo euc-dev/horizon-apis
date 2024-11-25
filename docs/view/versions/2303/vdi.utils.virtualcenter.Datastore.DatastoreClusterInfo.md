@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatastoreClusterInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

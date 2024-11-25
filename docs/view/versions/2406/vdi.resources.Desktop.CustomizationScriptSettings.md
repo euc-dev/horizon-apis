@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopCustomizationScriptSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

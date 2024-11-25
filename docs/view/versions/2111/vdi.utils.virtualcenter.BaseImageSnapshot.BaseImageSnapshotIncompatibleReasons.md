@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BaseImageSnapshotIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

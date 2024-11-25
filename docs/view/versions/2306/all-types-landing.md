@@ -2,8 +2,8 @@
 layout: page
 title: All Types Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 To quickly find any entry, start typing its name in the **Search Bar**, or goto the [All Types Index Page](index-all_types.md) which lists all services, data objects, and fault types.

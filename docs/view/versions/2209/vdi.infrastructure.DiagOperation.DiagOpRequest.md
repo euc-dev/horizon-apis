@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DiagOperationRequest
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

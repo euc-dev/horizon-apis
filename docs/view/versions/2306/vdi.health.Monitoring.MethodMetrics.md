@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MethodMetrics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

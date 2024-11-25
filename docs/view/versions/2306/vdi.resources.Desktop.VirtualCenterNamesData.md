@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopVirtualCenterNamesData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

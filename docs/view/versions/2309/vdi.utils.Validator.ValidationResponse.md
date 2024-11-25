@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ValidationResponse
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

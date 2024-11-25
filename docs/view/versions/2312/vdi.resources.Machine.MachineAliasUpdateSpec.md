@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineAliasUpdateSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

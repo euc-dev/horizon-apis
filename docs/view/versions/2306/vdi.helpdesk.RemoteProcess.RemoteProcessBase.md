@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RemoteProcessBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

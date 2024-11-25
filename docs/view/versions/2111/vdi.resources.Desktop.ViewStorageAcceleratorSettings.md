@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopViewStorageAcceleratorSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

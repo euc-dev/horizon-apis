@@ -2,8 +2,8 @@
 layout: page
 title: Service - AdvancedSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

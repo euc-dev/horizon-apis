@@ -2,8 +2,8 @@
 layout: page
 title: Fault - MethodFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

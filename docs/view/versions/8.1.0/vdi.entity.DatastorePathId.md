@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DatastorePathId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CustomizationSpecData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

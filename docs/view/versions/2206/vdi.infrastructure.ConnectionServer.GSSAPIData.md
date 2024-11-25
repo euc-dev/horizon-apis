@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerGSSAPIData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

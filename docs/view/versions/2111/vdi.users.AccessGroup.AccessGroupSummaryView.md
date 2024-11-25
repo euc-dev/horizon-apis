@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AccessGroupSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

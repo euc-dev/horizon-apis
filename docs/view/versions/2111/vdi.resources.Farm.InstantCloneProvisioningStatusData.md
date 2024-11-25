@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmInstantCloneProvisioningStatusData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

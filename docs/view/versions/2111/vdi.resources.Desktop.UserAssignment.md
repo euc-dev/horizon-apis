@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopUserAssignment
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

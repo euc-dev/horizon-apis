@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsJmpConfiguration
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - License
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

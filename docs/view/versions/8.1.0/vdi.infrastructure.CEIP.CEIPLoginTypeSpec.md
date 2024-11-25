@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CEIPLoginTypeSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

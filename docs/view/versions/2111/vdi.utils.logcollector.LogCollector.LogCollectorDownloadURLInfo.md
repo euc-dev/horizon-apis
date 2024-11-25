@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LogCollectorDownloadURLInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

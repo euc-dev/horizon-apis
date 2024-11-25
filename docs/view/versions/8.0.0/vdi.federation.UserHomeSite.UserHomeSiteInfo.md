@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UserHomeSiteInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

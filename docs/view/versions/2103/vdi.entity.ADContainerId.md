@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADContainerId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 Java Class

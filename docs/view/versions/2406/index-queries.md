@@ -2,8 +2,8 @@
 layout: page
 title: Query Services
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 To quickly find any entry, search this page or start typing its name in the **Search Bar**.

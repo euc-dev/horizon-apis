@@ -2,8 +2,8 @@
 layout: page
 title: Service - ImageManagementStream
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

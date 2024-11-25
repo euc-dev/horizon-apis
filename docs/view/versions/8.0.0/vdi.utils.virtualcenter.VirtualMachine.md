@@ -2,8 +2,8 @@
 layout: page
 title: Service - VirtualMachine
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

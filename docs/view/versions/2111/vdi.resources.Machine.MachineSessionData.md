@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineSessionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - InstantCloneEngineDomainAdministratorSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

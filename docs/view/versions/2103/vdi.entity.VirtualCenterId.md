@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualCenterId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

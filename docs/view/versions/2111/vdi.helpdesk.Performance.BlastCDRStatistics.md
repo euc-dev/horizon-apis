@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BlastCDRStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

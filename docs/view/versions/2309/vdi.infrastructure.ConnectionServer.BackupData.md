@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerBackupData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

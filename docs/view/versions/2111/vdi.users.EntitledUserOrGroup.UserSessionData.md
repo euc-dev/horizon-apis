@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EntitledUserOrGroupUserSessionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

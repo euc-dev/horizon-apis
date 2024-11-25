@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - NetworkInterfaceCardInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

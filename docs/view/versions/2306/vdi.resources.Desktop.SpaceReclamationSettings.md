@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopSpaceReclamationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - StateCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

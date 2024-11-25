@@ -2,8 +2,8 @@
 layout: page
 title: Service - CertificateSSOConnectorHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

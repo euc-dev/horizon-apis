@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerSessionProtocolData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

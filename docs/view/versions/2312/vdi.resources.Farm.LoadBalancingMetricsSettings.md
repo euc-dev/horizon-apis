@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSHLoadBalancingMetricsSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

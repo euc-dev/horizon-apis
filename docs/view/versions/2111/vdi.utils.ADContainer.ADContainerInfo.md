@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADContainerInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

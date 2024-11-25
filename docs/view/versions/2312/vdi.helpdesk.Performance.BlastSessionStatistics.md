@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BlastSessionStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

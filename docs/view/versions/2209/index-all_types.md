@@ -2,8 +2,8 @@
 layout: page
 title: All Types
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 [Service Types](mo-types-landing.md)  

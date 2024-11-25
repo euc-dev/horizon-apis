@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PcoipImagingStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

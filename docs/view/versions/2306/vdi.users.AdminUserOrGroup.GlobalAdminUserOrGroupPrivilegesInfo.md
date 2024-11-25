@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalAdminUserOrGroupPrivilegesInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

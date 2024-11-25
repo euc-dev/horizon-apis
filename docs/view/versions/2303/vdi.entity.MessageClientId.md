@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MessageClientId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

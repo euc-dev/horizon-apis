@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventDatabaseEventSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidCredentials
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

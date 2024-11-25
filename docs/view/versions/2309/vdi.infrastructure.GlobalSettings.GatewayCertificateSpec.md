@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GatewayCertificateSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

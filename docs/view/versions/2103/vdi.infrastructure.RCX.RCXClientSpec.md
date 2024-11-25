@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RCXClientSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

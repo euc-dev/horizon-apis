@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ViewComposerDomainAdministratorInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

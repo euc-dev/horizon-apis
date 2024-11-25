@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidState
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

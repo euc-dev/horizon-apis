@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerRADIUSData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

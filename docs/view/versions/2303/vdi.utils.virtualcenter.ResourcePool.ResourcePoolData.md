@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ResourcePoolData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

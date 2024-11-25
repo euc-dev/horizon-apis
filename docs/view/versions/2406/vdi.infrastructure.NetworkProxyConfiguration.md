@@ -2,8 +2,8 @@
 layout: page
 title: Service - NetworkProxyConfiguration
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

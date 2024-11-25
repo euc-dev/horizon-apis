@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualDiskData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

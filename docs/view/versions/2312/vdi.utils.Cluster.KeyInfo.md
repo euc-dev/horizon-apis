@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - Cluster_KeyInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

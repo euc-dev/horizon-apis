@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopQuickprepCustomizationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

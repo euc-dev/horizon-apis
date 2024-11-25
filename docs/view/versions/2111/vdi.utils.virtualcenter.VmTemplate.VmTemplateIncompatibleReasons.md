@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VmTemplateIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

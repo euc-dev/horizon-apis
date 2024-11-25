@@ -2,8 +2,8 @@
 layout: page
 title: Error Codes
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 TBD

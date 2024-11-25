@@ -2,8 +2,8 @@
 layout: page
 title: Service - GatewayHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

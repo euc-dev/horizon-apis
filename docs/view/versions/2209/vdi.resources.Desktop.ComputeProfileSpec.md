@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopComputeProfileSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

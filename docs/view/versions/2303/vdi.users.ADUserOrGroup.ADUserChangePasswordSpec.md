@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADUserChangePasswordSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopInstantCloneDesktopProvisioningStatusData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

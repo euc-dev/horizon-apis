@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RCXServerInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

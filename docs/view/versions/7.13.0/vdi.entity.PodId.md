@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PodId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

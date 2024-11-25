@@ -2,8 +2,8 @@
 layout: page
 title: All Methods
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 ## All Methods

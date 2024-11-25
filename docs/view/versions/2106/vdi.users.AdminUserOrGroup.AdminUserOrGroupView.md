@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AdminUserOrGroupView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

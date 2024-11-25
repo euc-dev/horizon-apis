@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmVirtualCenterStorageSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

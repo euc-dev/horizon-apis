@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

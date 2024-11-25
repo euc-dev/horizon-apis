@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SecondaryCredentialsSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

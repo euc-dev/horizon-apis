@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmDisplayProtocolSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

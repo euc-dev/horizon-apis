@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EntitledUserOrGroupInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

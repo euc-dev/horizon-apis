@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UserEntitlementInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

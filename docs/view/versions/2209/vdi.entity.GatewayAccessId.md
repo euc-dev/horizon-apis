@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GatewayAccessId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

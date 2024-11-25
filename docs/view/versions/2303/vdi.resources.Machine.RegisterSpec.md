@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineRegisterSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

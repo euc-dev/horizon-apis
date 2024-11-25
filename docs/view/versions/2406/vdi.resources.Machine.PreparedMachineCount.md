@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PreparedMachineCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

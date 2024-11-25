@@ -2,8 +2,8 @@
 layout: page
 title: Service - ResourcePool
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

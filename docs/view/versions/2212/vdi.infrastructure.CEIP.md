@@ -2,8 +2,8 @@
 layout: page
 title: Service - CEIP
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

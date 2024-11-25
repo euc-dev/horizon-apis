@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SAMLAuthenticatorHealthConnectionServerConnectionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

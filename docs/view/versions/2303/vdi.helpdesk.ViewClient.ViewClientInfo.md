@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ViewClientInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

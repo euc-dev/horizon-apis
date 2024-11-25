@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InsufficientPermission
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

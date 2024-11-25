@@ -2,8 +2,8 @@
 layout: page
 title: Service - WS1Assist
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

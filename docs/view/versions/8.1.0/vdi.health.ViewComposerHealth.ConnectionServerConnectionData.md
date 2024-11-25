@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ViewComposerHealthConnectionServerConnectionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

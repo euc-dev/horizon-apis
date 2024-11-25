@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UnsupportedDesktopOrFarmDetails
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SecurityServerId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

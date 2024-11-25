@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerRSASecureIdData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

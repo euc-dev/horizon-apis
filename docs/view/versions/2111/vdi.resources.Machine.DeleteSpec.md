@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineDeleteSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

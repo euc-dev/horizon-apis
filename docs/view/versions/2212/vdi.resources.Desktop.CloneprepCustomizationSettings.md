@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopCloneprepCustomizationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsCrlPrefetchConfiguration
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

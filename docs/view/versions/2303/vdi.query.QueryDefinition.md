@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - QueryDefinition
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - ImageManagementVersion
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

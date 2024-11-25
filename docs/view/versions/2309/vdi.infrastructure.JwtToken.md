@@ -2,8 +2,8 @@
 layout: page
 title: Service - JwtToken
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

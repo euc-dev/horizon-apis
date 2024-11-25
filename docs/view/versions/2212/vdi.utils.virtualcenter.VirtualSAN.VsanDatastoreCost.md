@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VsanDatastoreCost
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

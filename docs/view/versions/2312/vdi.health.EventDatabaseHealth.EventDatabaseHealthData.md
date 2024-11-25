@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventDatabaseHealthData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

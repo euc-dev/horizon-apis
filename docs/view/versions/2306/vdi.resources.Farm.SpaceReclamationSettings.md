@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmSpaceReclamationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

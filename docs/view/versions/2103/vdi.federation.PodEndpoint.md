@@ -2,8 +2,8 @@
 layout: page
 title: Service - PodEndpoint
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionLocalReferenceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

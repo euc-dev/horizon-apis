@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskDeleteSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

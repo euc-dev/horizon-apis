@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopVirtualCenterManagedCommonSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

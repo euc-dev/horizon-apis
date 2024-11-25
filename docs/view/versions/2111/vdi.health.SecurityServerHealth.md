@@ -2,8 +2,8 @@
 layout: page
 title: Service - SecurityServerHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

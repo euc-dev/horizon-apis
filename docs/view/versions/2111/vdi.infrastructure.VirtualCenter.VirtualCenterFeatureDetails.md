@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualCenterFeatureDetails
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

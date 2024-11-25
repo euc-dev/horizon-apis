@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopGlobalEntitlementData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

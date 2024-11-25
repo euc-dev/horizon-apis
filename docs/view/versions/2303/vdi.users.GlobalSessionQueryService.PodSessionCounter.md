@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSessionPodSessionCounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - UsageStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

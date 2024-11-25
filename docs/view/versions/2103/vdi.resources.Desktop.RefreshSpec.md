@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopRefreshSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

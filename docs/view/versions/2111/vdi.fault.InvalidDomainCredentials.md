@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidDomainCredentials
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

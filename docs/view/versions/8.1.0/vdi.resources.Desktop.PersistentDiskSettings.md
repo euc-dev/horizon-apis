@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopPersistentDiskSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

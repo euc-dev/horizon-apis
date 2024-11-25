@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementTagQuerySpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

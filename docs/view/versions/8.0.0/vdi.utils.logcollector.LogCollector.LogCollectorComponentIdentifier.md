@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LogCollectorComponentIdentifier
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - Monitoring
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

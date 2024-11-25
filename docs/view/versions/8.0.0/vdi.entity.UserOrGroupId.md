@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UserOrGroupId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

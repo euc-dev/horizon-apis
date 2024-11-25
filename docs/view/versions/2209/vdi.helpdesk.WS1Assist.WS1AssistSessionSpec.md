@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - WS1AssistSessionSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSServerRegisterResult
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

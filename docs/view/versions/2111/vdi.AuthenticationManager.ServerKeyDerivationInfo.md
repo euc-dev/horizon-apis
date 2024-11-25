@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ServerKeyDerivationInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

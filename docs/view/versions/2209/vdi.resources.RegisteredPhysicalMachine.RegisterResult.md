@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RegisteredPhysicalMachineRegisterResult
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - Syslog
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

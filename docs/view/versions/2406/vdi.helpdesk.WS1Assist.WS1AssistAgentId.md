@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - WS1AssistAgentId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

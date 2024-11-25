@@ -2,8 +2,8 @@
 layout: page
 title: Service - FarmHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

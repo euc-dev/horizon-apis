@@ -2,8 +2,8 @@
 layout: page
 title: All Properties Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 A **`property`** has a name and a data type.

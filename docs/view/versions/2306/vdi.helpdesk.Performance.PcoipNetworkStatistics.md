@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PcoipNetworkStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

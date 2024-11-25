@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerWorkspaceOneData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

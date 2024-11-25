@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualDiskId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

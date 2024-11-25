@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskMachineAttachmentDetails
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

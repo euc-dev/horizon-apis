@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopVirtualMachineNamingSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

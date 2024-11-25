@@ -2,8 +2,8 @@
 layout: page
 title: Fault - ViewServerFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

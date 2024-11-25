@@ -2,8 +2,8 @@
 layout: page
 title: Service - Permission
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

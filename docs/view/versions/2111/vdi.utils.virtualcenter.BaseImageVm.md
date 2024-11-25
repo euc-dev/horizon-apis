@@ -2,8 +2,8 @@
 layout: page
 title: Service - BaseImageVm
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

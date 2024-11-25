@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SiteBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

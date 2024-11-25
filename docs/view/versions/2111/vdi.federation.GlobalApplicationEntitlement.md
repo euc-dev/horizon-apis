@@ -2,8 +2,8 @@
 layout: page
 title: Service - GlobalApplicationEntitlement
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - HelpdeskActivityView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

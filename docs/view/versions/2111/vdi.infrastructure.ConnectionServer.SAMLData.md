@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerSAMLData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

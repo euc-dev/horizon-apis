@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmAutomatedFarmSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - ResourceSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

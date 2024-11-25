@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CertificateSSOEnrollmentServerInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

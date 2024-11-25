@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSessionQueryServiceQuerySpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

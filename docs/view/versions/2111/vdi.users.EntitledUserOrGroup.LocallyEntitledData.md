@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EntitledUserOrGroupLocallyEntitledData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

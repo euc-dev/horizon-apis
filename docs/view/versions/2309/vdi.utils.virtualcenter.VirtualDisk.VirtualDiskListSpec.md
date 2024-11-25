@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualDiskListSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

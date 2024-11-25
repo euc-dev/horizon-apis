@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ApplicationDiscoveryData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

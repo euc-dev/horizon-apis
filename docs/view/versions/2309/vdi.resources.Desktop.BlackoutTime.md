@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopBlackoutTime
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

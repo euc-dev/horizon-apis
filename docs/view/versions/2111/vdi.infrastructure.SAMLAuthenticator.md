@@ -2,8 +2,8 @@
 layout: page
 title: Service - SAMLAuthenticator
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

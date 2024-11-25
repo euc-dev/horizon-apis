@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LicenseInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

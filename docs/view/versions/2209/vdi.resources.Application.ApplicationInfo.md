@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ApplicationInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

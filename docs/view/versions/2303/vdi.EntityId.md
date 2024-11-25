@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EntityId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

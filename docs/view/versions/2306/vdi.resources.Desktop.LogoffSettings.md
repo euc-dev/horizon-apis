@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopLogoffSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

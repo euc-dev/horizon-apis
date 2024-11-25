@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RemoteApplicationStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

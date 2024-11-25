@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DynamicProperty
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - UserEntitlement
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

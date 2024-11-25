@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LogoffSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

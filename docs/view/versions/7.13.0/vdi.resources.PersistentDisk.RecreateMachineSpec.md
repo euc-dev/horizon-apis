@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskRecreateMachineSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

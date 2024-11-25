@@ -2,8 +2,8 @@
 layout: page
 title: Service - ConnectionServer
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

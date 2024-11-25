@@ -2,8 +2,8 @@
 layout: page
 title: Service - SecurityServer
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionGlobalSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

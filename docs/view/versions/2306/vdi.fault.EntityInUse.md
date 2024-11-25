@@ -2,8 +2,8 @@
 layout: page
 title: Fault - EntityInUse
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

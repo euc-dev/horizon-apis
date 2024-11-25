@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SecureString
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LogonSegmentRecord
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

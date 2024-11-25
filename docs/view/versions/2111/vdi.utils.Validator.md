@@ -2,8 +2,8 @@
 layout: page
 title: Service - Validator
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GECounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

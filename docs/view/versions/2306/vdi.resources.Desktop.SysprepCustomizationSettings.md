@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopSysprepCustomizationSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

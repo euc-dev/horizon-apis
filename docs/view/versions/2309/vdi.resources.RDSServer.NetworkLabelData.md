@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSNetworkLabelData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

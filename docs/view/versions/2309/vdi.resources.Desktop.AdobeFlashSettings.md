@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopAdobeFlashSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

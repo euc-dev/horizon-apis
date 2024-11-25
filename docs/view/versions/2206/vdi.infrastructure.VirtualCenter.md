@@ -2,8 +2,8 @@
 layout: page
 title: Service - VirtualCenter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

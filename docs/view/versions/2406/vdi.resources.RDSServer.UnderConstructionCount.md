@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UnderConstructionCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

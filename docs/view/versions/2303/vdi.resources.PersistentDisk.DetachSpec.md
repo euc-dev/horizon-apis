@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskDetachSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - DiagOperation
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

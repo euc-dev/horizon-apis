@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADDomainAuxiliaryAccountSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

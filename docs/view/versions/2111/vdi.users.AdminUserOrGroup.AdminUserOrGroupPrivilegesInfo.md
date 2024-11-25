@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AdminUserOrGroupPrivilegesInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

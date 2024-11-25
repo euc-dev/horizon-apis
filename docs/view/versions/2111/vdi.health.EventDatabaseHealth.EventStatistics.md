@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - EventStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

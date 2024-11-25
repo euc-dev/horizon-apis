@@ -2,8 +2,8 @@
 layout: page
 title: Service - Machine
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

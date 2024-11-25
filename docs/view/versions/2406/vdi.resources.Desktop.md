@@ -2,8 +2,8 @@
 layout: page
 title: Service - Desktop
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

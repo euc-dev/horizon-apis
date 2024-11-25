@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopDisplayProtocolSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VmTemplateId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

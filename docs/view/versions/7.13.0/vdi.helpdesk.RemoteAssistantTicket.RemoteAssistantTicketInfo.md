@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RemoteAssistantTicketInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmRDSServerNamingSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

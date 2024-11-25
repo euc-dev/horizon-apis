@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopMirageConfigurationOverrides
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

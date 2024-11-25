@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementStreamQuerySpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

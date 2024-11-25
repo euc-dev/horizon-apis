@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmViewStorageAcceleratorSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

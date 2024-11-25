@@ -2,8 +2,8 @@
 layout: page
 title: Service - StorageAcceleratorHost
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

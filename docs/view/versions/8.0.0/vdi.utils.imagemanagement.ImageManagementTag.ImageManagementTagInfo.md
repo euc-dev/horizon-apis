@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ImageManagementTagInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

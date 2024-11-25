@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmRecomposeSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

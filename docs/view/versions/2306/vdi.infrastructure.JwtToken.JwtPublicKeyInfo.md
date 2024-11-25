@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - JwtPublicKeyInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

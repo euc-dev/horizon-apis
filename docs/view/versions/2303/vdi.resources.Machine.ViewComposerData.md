@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineViewComposerData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

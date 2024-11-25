@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SiteInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

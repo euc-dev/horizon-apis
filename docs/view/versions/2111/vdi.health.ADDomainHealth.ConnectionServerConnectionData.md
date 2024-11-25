@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADDomainHealthConnectionServerConnectionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

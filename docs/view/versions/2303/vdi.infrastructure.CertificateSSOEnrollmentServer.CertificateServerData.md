@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CertificateSSOCertificateServerData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

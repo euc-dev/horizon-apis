@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UserHomeSitesSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

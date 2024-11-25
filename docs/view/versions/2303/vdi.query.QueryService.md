@@ -2,8 +2,8 @@
 layout: page
 title: Service - QueryService
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

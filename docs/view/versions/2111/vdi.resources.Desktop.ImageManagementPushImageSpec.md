@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopImageManagementPushImageSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

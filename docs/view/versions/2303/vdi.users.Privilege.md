@@ -2,8 +2,8 @@
 layout: page
 title: Service - Privilege
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

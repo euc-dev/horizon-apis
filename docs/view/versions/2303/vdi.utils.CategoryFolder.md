@@ -2,8 +2,8 @@
 layout: page
 title: Service - CategoryFolder
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

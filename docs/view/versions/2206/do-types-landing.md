@@ -2,8 +2,8 @@
 layout: page
 title: Data Object Types Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

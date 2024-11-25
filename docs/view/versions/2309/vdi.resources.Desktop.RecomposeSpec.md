@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopRecomposeSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

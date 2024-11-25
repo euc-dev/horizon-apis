@@ -2,8 +2,8 @@
 layout: page
 title: Service - BaseImageSnapshot
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

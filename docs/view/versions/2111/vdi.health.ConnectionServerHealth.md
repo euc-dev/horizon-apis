@@ -2,8 +2,8 @@
 layout: page
 title: Service - ConnectionServerHealth
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

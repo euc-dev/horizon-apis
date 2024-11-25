@@ -2,8 +2,8 @@
 layout: page
 title: Service - CertificateSSOEnrollmentServer
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PodFederationLocalPodStatus
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

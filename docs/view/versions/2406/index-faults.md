@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Fault Types
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 ## All Fault Types

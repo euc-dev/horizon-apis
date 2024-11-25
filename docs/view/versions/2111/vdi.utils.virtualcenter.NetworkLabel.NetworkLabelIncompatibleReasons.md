@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - NetworkLabelIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

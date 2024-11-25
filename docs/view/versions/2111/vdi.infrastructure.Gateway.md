@@ -2,8 +2,8 @@
 layout: page
 title: Service - Gateway
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

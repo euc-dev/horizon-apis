@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BlastAudioStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

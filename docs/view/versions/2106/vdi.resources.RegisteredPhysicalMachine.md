@@ -2,8 +2,8 @@
 layout: page
 title: Service - RegisteredPhysicalMachine
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

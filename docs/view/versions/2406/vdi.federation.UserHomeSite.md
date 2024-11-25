@@ -2,8 +2,8 @@
 layout: page
 title: Service - UserHomeSite
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

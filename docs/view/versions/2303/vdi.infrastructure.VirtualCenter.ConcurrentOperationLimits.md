@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualCenterConcurrentOperationLimits
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

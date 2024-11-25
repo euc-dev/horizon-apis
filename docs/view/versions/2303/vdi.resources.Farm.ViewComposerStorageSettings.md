@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmViewComposerStorageSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

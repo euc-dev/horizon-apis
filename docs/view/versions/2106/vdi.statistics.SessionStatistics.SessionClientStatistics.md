@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionClientStatistics
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalPreLogonSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

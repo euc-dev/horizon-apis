@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineStateCounts
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

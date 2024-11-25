@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmNetworkLabelAssignmentSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

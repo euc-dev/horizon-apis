@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RDSServerSummaryView
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

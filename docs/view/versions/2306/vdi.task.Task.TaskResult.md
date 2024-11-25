@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - TaskResult
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

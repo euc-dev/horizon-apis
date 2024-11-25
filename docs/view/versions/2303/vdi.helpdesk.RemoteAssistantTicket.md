@@ -2,8 +2,8 @@
 layout: page
 title: Service - RemoteAssistantTicket
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - TaskInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

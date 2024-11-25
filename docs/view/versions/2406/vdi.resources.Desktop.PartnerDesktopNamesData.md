@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PartnerDesktopNamesData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - EventDatabase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

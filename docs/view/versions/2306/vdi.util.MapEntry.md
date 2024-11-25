@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MapEntry
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

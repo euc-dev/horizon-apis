@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GSSAPIAuthenticatorId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

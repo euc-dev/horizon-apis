@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PrivilegeInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

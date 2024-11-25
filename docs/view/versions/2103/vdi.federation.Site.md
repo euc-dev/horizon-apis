@@ -2,8 +2,8 @@
 layout: page
 title: Service - Site
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

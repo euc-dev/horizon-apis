@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - StorageAcceleratorHostInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - NetworkLabel
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

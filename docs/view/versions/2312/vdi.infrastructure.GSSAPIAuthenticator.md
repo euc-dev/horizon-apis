@@ -2,8 +2,8 @@
 layout: page
 title: Service - GSSAPIAuthenticator
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

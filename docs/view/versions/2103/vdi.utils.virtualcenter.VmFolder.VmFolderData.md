@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VmFolderData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

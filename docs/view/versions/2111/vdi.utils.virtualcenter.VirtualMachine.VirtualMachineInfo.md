@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VirtualMachineInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

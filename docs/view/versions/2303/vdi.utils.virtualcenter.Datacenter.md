@@ -2,8 +2,8 @@
 layout: page
 title: Service - Datacenter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

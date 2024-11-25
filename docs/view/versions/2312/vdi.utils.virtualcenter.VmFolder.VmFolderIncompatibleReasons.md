@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - VmFolderIncompatibleReasons
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

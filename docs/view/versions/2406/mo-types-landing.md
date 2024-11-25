@@ -2,8 +2,8 @@
 layout: page
 title: Service Types Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 All service types are listed in the [Service Types index page](index-mo_types.md). Click a name to display the reference documentation for the service.

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalSettingsMirageConfiguration
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

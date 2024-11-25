@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopCounter
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADDomainAdvancedSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

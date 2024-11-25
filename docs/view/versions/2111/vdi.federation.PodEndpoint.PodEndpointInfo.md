@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PodEndpointInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

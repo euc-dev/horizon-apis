@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

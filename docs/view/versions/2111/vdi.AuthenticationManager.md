@@ -2,8 +2,8 @@
 layout: page
 title: Service - AuthenticationManager
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

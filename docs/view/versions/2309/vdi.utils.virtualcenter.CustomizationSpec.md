@@ -2,8 +2,8 @@
 layout: page
 title: Service - CustomizationSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

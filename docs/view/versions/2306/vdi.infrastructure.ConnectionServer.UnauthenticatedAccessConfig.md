@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UnauthenticatedAccessConfig
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

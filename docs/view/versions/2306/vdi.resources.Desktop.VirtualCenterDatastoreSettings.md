@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopVirtualCenterDatastoreSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

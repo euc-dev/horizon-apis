@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmComputeProfileSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

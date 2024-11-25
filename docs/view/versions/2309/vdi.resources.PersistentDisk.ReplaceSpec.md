@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PersistentDiskReplaceSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

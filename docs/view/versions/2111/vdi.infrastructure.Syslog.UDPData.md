@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SyslogUDPData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

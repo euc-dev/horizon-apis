@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalAccessGroupData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

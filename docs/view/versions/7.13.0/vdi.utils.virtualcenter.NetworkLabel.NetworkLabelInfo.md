@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - NetworkLabelInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

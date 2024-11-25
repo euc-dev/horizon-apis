@@ -2,8 +2,8 @@
 layout: page
 title: Service - VmTemplate
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

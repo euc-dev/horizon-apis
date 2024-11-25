@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PartnerDesktopSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

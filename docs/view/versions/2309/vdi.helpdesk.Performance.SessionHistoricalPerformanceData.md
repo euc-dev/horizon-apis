@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SessionHistoricalPerformanceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

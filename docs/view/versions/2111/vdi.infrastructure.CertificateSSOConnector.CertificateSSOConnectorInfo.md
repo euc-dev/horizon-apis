@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CertificateSSOConnectorInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

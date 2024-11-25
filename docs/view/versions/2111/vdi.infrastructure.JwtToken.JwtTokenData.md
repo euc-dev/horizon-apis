@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - JwtTokenData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

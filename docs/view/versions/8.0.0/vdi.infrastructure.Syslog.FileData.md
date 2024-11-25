@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SyslogFileData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

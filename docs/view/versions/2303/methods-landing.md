@@ -2,8 +2,8 @@
 layout: page
 title: All Methods Overview
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 The [All Methods](methods-landing.md) page includes information about all methods available in the Omnissa View API. This listing gives you another approach to finding the name of methods you may need to use to complete various operations.

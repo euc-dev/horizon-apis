@@ -2,8 +2,8 @@
 layout: page
 title: Service - HostOrCluster
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

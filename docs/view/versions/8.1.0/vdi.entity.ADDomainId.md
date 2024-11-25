@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADDomainId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

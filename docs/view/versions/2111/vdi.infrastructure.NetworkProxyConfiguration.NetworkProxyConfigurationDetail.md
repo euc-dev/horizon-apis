@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - NetworkProxyConfigurationDetail
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

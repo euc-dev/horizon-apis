@@ -2,8 +2,8 @@
 layout: page
 title: Service - VirtualSAN
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

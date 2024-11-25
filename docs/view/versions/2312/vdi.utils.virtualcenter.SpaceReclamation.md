@@ -2,8 +2,8 @@
 layout: page
 title: Service - SpaceReclamation
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

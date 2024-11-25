@@ -2,8 +2,8 @@
 layout: page
 title: Service - ViewComposerDomainAdministrator
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AWSCoreWorkspacePowerPolicySettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

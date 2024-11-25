@@ -2,8 +2,8 @@
 layout: page
 title: Service - AuditEvent
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

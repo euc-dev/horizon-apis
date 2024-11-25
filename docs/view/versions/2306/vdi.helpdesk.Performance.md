@@ -2,8 +2,8 @@
 layout: page
 title: Service - Performance
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

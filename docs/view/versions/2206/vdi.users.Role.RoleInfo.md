@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - RoleInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

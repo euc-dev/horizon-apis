@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - URLRedirectionData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

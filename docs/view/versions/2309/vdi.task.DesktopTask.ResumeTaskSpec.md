@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ResumeTaskSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

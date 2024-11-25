@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopHealthInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

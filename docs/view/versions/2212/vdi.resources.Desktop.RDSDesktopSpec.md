@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopRDSDesktopSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

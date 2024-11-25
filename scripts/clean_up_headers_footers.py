@@ -11,24 +11,32 @@ def remove_unwanted_text(file_path):
 	Returns:
 	The content with the unwanted text removed.
 	"""
-	text_block = r"""
-	| | Local Properties|
-	---|---|---|---
-	[Service Types](index-mo_types.html)| [Data Object Types](index-do_types.html)| [All Properties](index-properties.html)| [All Methods](index-methods.html)
-	"""
+	text_block = """
+hide:
+#- navigation
+- toc
+---
+"""
+
+	repl_text_block = """
+hide:
+#  - navigation
+  - toc
+---
+"""
 
 	# Read the file content
 	with open(file_path, 'r', encoding='utf-8') as file:
 		content = file.read()
 
-  # Remove the text block
-  content_cleaned = re.sub(re.escape(text_block), '', content, flags=re.DOTALL)
+	# Remove the text block
+	content_cleaned = re.sub(text_block, repl_text_block, content, flags=re.DOTALL)
 		
 		# Write the cleaned content back to the file
-		with open(file_path, 'w', encoding='utf-8') as file:
+	with open(file_path, 'w', encoding='utf-8') as file:
 		file.write(content_cleaned)
 		
-		print(f"Text block removed from {file_path}")
+		print(f"Content updated in: {file_path}")
 
 def search_and_replace_markdown_files(directory):
 	"""
@@ -45,5 +53,5 @@ def search_and_replace_markdown_files(directory):
 				remove_unwanted_text(file_path)
 
 # Directory path
-directory_path = "/Users/helmlingp/euc-oss/view/versions/2406"
+directory_path = "/Users/helmlingp/euc-dev/horizon-apis/docs/view/versions"
 search_and_replace_markdown_files(directory_path)

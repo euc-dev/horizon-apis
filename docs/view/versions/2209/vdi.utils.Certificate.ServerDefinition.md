@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ServerDefinition
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

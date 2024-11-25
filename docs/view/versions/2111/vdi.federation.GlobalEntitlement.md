@@ -2,8 +2,8 @@
 layout: page
 title: Service - GlobalEntitlement
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

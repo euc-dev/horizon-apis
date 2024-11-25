@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADUserOrGroupExtendedData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

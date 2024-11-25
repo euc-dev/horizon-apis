@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PermissionInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - QueryFilterBetween
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

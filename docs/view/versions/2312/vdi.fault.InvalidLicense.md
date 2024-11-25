@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidLicense
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

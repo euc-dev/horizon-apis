@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerHealthInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

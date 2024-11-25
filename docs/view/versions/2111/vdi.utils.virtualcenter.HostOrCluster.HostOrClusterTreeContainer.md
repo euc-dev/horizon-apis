@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - HostOrClusterTreeContainer
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

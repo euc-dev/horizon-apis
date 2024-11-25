@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineAgentPairingData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

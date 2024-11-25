@@ -2,8 +2,8 @@
 layout: page
 title: Service - MessageClient
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

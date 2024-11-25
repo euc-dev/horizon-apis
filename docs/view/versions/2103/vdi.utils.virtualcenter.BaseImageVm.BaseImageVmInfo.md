@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BaseImageVmInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

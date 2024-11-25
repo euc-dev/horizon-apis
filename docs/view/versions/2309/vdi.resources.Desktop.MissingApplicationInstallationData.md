@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopMissingApplicationInstallationData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

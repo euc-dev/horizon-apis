@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - UnderConstructionMachineCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

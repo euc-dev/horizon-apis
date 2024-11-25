@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - FarmNetworkInterfaceCardSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

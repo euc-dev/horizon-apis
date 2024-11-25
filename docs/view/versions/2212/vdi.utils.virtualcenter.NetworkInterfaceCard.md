@@ -2,8 +2,8 @@
 layout: page
 title: Service - NetworkInterfaceCard
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

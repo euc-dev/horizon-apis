@@ -2,8 +2,8 @@
 layout: page
 title: Service - Session
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

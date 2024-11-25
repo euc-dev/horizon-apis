@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopManualVirtualMachineDefinition
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopViewComposerStorageSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

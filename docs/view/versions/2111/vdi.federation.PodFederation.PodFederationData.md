@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PodFederationData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GatewayAccessUserOrGroupData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

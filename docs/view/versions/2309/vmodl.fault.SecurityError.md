@@ -2,8 +2,8 @@
 layout: page
 title: Fault - SecurityError
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

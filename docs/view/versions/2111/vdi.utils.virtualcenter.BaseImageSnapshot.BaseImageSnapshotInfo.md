@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - BaseImageSnapshotInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

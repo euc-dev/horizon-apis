@@ -2,8 +2,8 @@
 layout: page
 title: Fault - UnexpectedFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

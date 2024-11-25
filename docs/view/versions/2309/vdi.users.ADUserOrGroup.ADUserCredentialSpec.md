@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ADUserCredentialSpec
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

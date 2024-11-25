@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - CEIPInfo
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

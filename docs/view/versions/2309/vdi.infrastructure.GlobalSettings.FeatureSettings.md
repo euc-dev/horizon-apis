@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - GlobalFeatureSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

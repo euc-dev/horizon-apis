@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ConnectionServerSecurityServerPairingData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

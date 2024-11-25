@@ -2,8 +2,8 @@
 layout: page
 title: Service - EntitledUserOrGroup
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

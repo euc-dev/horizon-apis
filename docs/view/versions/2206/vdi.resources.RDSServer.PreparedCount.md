@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PreparedCount
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

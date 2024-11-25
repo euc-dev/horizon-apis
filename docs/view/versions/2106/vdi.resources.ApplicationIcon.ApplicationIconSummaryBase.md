@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - ApplicationIconSummaryBase
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

@@ -2,8 +2,8 @@
 layout: page
 title: Service - DatastorePath
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

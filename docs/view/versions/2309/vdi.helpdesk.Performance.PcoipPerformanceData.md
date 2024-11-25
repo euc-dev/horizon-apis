@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - PcoipPerformanceData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

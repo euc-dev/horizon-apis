@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - LocalizedMethodFault
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

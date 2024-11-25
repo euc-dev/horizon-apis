@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - DesktopVirtualCenterNetworkingSettings
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

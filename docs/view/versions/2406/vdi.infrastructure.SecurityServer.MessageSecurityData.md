@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - SecurityServerMessageSecurityData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

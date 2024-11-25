@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - MachineId
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

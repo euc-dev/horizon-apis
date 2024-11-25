@@ -2,8 +2,8 @@
 layout: page
 title: Data Object - AccessGroupData
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 

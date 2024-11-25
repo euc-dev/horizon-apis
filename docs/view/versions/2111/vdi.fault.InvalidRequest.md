@@ -2,8 +2,8 @@
 layout: page
 title: Fault - InvalidRequest
 hide:
-#- navigation
-- toc
+#  - navigation
+  - toc
 ---
 
 
