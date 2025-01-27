@@ -1,0 +1,140 @@
+---
+layout: page
+title: Service Types
+hide:
+#  - navigation
+  - toc
+---
+
+## All Service Types
+
+To quickly find any entry, search this page or start typing its name in the **Search Bar**.
+
+**A-EF-JK-OP-TU-ZAll**
+
+[AccessGroup](../2406/vdi.users.AccessGroup.md "AccessGroup")  
+[ADContainer](../2406/vdi.utils.ADContainer.md "ADContainer")  
+[ADDomain](../2406/vdi.utils.ADDomain.md "ADDomain")  
+[ADDomainHealth](../2406/vdi.health.ADDomainHealth.md "ADDomainHealth")  
+[AdminUserOrGroup](../2406/vdi.users.AdminUserOrGroup.md "AdminUserOrGroup")  
+[ADUserOrGroup](../2406/vdi.users.ADUserOrGroup.md "ADUserOrGroup")  
+[AdvancedSettings](../2406/vdi.utils.AdvancedSettings.md "AdvancedSettings")  
+[Application](../2406/vdi.resources.Application.md "Application")  
+[ApplicationIcon](../2406/vdi.resources.ApplicationIcon.md "ApplicationIcon")  
+[AuditEvent](../2406/vdi.infrastructure.AuditEvent.md "AuditEvent")  
+[AuthenticationManager](../2406/vdi.AuthenticationManager.md "AuthenticationManager")  
+[BaseImageSnapshot](../2406/vdi.utils.virtualcenter.BaseImageSnapshot.md "BaseImageSnapshot")  
+[BaseImageVm](../2406/vdi.utils.virtualcenter.BaseImageVm.md "BaseImageVm")  
+[CategoryFolder](../2406/vdi.utils.CategoryFolder.md "CategoryFolder")  
+[CEIP](../2406/vdi.infrastructure.CEIP.md "CEIP")  
+[Certificate](../2406/vdi.utils.Certificate.md "Certificate")  
+[CertificateSSOConnector](../2406/vdi.infrastructure.CertificateSSOConnector.md "CertificateSSOConnector")  
+[CertificateSSOConnectorHealth](../2406/vdi.health.CertificateSSOConnectorHealth.md "CertificateSSOConnectorHealth")  
+[CertificateSSOEnrollmentServer](../2406/vdi.infrastructure.CertificateSSOEnrollmentServer.md "CertificateSSOEnrollmentServer")  
+[Cluster](../2406/vdi.utils.Cluster.md "Cluster")  
+[ConnectionServer](../2406/vdi.infrastructure.ConnectionServer.md "ConnectionServer")  
+[ConnectionServerHealth](../2406/vdi.health.ConnectionServerHealth.md "ConnectionServerHealth")  
+[CustomizationSpec](../2406/vdi.utils.virtualcenter.CustomizationSpec.md "CustomizationSpec")  
+[Datacenter](../2406/vdi.utils.virtualcenter.Datacenter.md "Datacenter")  
+[Datastore](../2406/vdi.utils.virtualcenter.Datastore.md "Datastore")  
+[DatastorePath](../2406/vdi.utils.virtualcenter.DatastorePath.md "DatastorePath")  
+[Desktop](../2406/vdi.resources.Desktop.md "Desktop")  
+[DesktopHealth](../2406/vdi.health.DesktopHealth.md "DesktopHealth")  
+[DesktopTask](../2406/vdi.task.DesktopTask.md "DesktopTask")  
+[DiagOperation](../2406/vdi.infrastructure.DiagOperation.md "DiagOperation")  
+[EntitledUserOrGroup](../2406/vdi.users.EntitledUserOrGroup.md "EntitledUserOrGroup")  
+[EventDatabase](../2406/vdi.infrastructure.EventDatabase.md "EventDatabase")  
+[EventDatabaseHealth](../2406/vdi.health.EventDatabaseHealth.md "EventDatabaseHealth")  
+
+
+[Farm](../2406/vdi.resources.Farm.md "Farm")  
+[FarmHealth](../2406/vdi.health.FarmHealth.md "FarmHealth")  
+[Gateway](../2406/vdi.infrastructure.Gateway.md "Gateway")  
+[GatewayAccessUserOrGroup](../2406/vdi.users.GatewayAccessUserOrGroup.md "GatewayAccessUserOrGroup")  
+[GatewayHealth](../2406/vdi.health.GatewayHealth.md "GatewayHealth")  
+[GlobalAccessGroup](../2406/vdi.users.GlobalAccessGroup.md "GlobalAccessGroup")  
+[GlobalApplicationEntitlement](../2406/vdi.federation.GlobalApplicationEntitlement.md "GlobalApplicationEntitlement")  
+[GlobalEntitlement](../2406/vdi.federation.GlobalEntitlement.md "GlobalEntitlement")  
+[GlobalSessionQueryService](../2406/vdi.users.GlobalSessionQueryService.md "GlobalSessionQueryService")  
+[GlobalSettings](../2406/vdi.infrastructure.GlobalSettings.md "GlobalSettings")  
+[GSSAPIAuthenticator](../2406/vdi.infrastructure.GSSAPIAuthenticator.md "GSSAPIAuthenticator")  
+[HostOrCluster](../2406/vdi.utils.virtualcenter.HostOrCluster.md "HostOrCluster")  
+[ImageManagementAsset](../2406/vdi.utils.imagemanagement.ImageManagementAsset.md "ImageManagementAsset")  
+[ImageManagementStream](../2406/vdi.utils.imagemanagement.ImageManagementStream.md "ImageManagementStream")  
+[ImageManagementTag](../2406/vdi.utils.imagemanagement.ImageManagementTag.md "ImageManagementTag")  
+[ImageManagementVersion](../2406/vdi.utils.imagemanagement.ImageManagementVersion.md "ImageManagementVersion")  
+[InstantCloneEngineDomainAdministrator](../2406/vdi.utils.InstantCloneEngineDomainAdministrator.md "InstantCloneEngineDomainAdministrator")  
+[JwtToken](../2406/vdi.infrastructure.JwtToken.md "JwtToken")  
+
+
+[License](../2406/vdi.infrastructure.License.md "License")  
+[LogCollector](../2406/vdi.utils.logcollector.LogCollector.md "LogCollector")  
+[LogonTiming](../2406/vdi.helpdesk.LogonTiming.md "LogonTiming")  
+[Machine](../2406/vdi.resources.Machine.md "Machine")  
+[MessageClient](../2406/vdi.utils.MessageClient.md "MessageClient")  
+[Monitoring](../2406/vdi.health.Monitoring.md "Monitoring")  
+[NetworkInterfaceCard](../2406/vdi.utils.virtualcenter.NetworkInterfaceCard.md "NetworkInterfaceCard")  
+[NetworkLabel](../2406/vdi.utils.virtualcenter.NetworkLabel.md "NetworkLabel")  
+[NetworkProxyConfiguration](../2406/vdi.infrastructure.NetworkProxyConfiguration.md "NetworkProxyConfiguration")  
+
+
+[Performance](../2406/vdi.helpdesk.Performance.md "Performance")  
+[Permission](../2406/vdi.users.Permission.md "Permission")  
+[PersistentDisk](../2406/vdi.resources.PersistentDisk.md "PersistentDisk")  
+[PersistentDiskQueryService](../2406/vdi.resources.PersistentDiskQueryService.md "PersistentDiskQueryService")  
+[Pod](../2406/vdi.federation.Pod.md "Pod")  
+[PodAssignment](../2406/vdi.federation.PodAssignment.md "PodAssignment")  
+[PodEndpoint](../2406/vdi.federation.PodEndpoint.md "PodEndpoint")  
+[PodFederation](../2406/vdi.federation.PodFederation.md "PodFederation")  
+[PodHealth](../2406/vdi.health.PodHealth.md "PodHealth")  
+[Policies](../2406/vdi.users.Policies.md "Policies")  
+[Privilege](../2406/vdi.users.Privilege.md "Privilege")  
+[QueryService](../2406/vdi.query.QueryService.md "QueryService")  
+[RADIUSAuthenticator](../2406/vdi.infrastructure.RADIUSAuthenticator.md "RADIUSAuthenticator")  
+[RCX](../2406/vdi.infrastructure.RCX.md "RCX")  
+[RDSServer](../2406/vdi.resources.RDSServer.md "RDSServer")  
+[RegisteredPhysicalMachine](../2406/vdi.resources.RegisteredPhysicalMachine.md "RegisteredPhysicalMachine")  
+[RemoteApplication](../2406/vdi.helpdesk.RemoteApplication.md "RemoteApplication")  
+[RemoteAssistantTicket](../2406/vdi.helpdesk.RemoteAssistantTicket.md "RemoteAssistantTicket")  
+[RemoteProcess](../2406/vdi.helpdesk.RemoteProcess.md "RemoteProcess")  
+[ResourcePool](../2406/vdi.utils.virtualcenter.ResourcePool.md "ResourcePool")  
+[ResourceSettings](../2406/vdi.utils.ResourceSettings.md "ResourceSettings")  
+[Role](../2406/vdi.users.Role.md "Role")  
+[SAMLAuthenticator](../2406/vdi.infrastructure.SAMLAuthenticator.md "SAMLAuthenticator")  
+[SAMLAuthenticatorHealth](../2406/vdi.health.SAMLAuthenticatorHealth.md "SAMLAuthenticatorHealth")  
+[SecondaryCredentials](../2406/vdi.users.SecondaryCredentials.md "SecondaryCredentials")  
+[SecurityServer](../2406/vdi.infrastructure.SecurityServer.md "SecurityServer")  
+[SecurityServerHealth](../2406/vdi.health.SecurityServerHealth.md "SecurityServerHealth")  
+[Session](../2406/vdi.users.Session.md "Session")  
+[SessionStatistics](../2406/vdi.statistics.SessionStatistics.md "SessionStatistics")  
+[Site](../2406/vdi.federation.Site.md "Site")  
+[SpaceReclamation](../2406/vdi.utils.virtualcenter.SpaceReclamation.md "SpaceReclamation")  
+[StorageAccelerator](../2406/vdi.utils.virtualcenter.StorageAccelerator.md "StorageAccelerator")  
+[StorageAcceleratorHost](../2406/vdi.utils.virtualcenter.StorageAcceleratorHost.md "StorageAcceleratorHost")  
+[Syslog](../2406/vdi.infrastructure.Syslog.md "Syslog")  
+[Task](../2406/vdi.task.Task.md "Task")  
+
+
+[UnauthenticatedAccessUser](../2406/vdi.users.UnauthenticatedAccessUser.md "UnauthenticatedAccessUser")  
+[URLRedirection](../2406/vdi.infrastructure.URLRedirection.md "URLRedirection")  
+[UsageStatistics](../2406/vdi.statistics.UsageStatistics.md "UsageStatistics")  
+[UserEntitlement](../2406/vdi.users.UserEntitlement.md "UserEntitlement")  
+[UserHomeSite](../2406/vdi.federation.UserHomeSite.md "UserHomeSite")  
+[Validator](../2406/vdi.utils.Validator.md "Validator")  
+[ViewClient](../2406/vdi.helpdesk.ViewClient.md "ViewClient")  
+[ViewComposerDomainAdministrator](../2406/vdi.utils.viewcomposer.ViewComposerDomainAdministrator.md "ViewComposerDomainAdministrator")  
+[ViewComposerHealth](../2406/vdi.health.ViewComposerHealth.md "ViewComposerHealth")  
+[VirtualCenter](../2406/vdi.infrastructure.VirtualCenter.md "VirtualCenter")  
+[VirtualCenterHealth](../2406/vdi.health.VirtualCenterHealth.md "VirtualCenterHealth")  
+[VirtualCenterStatistics](../2406/vdi.statistics.VirtualCenterStatistics.md "VirtualCenterStatistics")  
+[VirtualDisk](../2406/vdi.utils.virtualcenter.VirtualDisk.md "VirtualDisk")  
+[VirtualMachine](../2406/vdi.utils.virtualcenter.VirtualMachine.md "VirtualMachine")  
+[VirtualSAN](../2406/vdi.utils.virtualcenter.VirtualSAN.md "VirtualSAN")  
+[VmFolder](../2406/vdi.utils.virtualcenter.VmFolder.md "VmFolder")  
+[VmTemplate](../2406/vdi.utils.virtualcenter.VmTemplate.md "VmTemplate")  
+[WS1Assist](../2406/vdi.helpdesk.WS1Assist.md "WS1Assist")  
+
+
+
+
+ 
