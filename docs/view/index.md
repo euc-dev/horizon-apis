@@ -7,15 +7,15 @@ hide:
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-Welcome to the latest version (v2412) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the latest version (v2503) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
-* [Service Types](versions/2412/mo-types-landing.md)  
-* [Data Object Types](versions/2412/do-types-landing.md)  
-* [Fault Types](versions/2412/fault-types-landing.md)  
-* [All Types](versions/2412/all-types-landing.md)  
-* [All Methods](versions/2412/methods-landing.md)  
-* [All Properties](versions/2412/properties-landing.md)  
-* [Query Service](versions/2412/queries-landing.md)  
+* [Service Types](versions/2503/mo-types-landing.md)  
+* [Data Object Types](versions/2503/do-types-landing.md)  
+* [Fault Types](versions/2503/fault-types-landing.md)  
+* [All Types](versions/2503/all-types-landing.md)  
+* [All Methods](versions/2503/methods-landing.md)  
+* [All Properties](versions/2503/properties-landing.md)  
+* [Query Service](versions/2503/queries-landing.md)  
 
 To quickly find any entry, start typing its name in the **Search Bar**.
 
@@ -25,6 +25,7 @@ In addition, the documentation will outline any client library classes that make
 
 | Name | Size |
 |---| --- |
+| [Horizon Server View API Changelog 2503](docs/ChangelogViewAPI2503.docx) | 16 KB |
 | [Horizon Server View API Changelog 2412](docs/ChangelogViewAPI2412.docx) | 16 KB |
 | [Horizon Server View API Changelog 2406](docs/ChangelogViewAPI2406.docx) | 22 KB |
 | [Horizon Server View API Changelog 2312](docs/ChangelogViewAPI2312.docx) | 34 KB |

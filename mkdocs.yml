@@ -150,7 +150,9 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/2406/index.md
+      - horizon-server/versions/2503/index.md
+      - v2503: horizon-server/versions/2503/index.md
+      - v2412: horizon-server/versions/2412/index.md
       - v2406: horizon-server/versions/2406/index.md
       - v2312: horizon-server/versions/2312/index.md
       - v2309: horizon-server/versions/2309/index.md
@@ -173,6 +175,28 @@ nav:
     - view/index.md
     - Versions:
       # - view/versions/2406/index.md
+      - v2503: 
+        - view/versions/2503/index.md
+        - Service Types: view/versions/2503/mo-types-landing.md
+        - Data Object Types: view/versions/2503/do-types-landing.md
+        - Fault Types: view/versions/2503/fault-types-landing.md
+        - All Types: view/versions/2503/all-types-landing.md
+        - All Methods: view/versions/2503/methods-landing.md
+        - All Properties: view/versions/2503/properties-landing.md
+        - Query Service: view/versions/2503/queries-landing.md
+        - Error Attributes: view/versions/2503/error-attributes.md
+        - Error Codes: view/versions/2503/error-codes.md
+      - v2412: 
+        - view/versions/2412/index.md
+        - Service Types: view/versions/2412/mo-types-landing.md
+        - Data Object Types: view/versions/2412/do-types-landing.md
+        - Fault Types: view/versions/2412/fault-types-landing.md
+        - All Types: view/versions/2412/all-types-landing.md
+        - All Methods: view/versions/2412/methods-landing.md
+        - All Properties: view/versions/2412/properties-landing.md
+        - Query Service: view/versions/2412/queries-landing.md
+        - Error Attributes: view/versions/2412/error-attributes.md
+        - Error Codes: view/versions/2412/error-codes.md
       - v2406: 
         - view/versions/2406/index.md
         - Service Types: view/versions/2406/mo-types-landing.md
