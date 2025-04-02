@@ -7,6 +7,6 @@ hide:
   - toc
 ---
 
-This is a API documentation for the Horizon Server version 2503
+This is a API documentation for the Horizon Server version 2412
 
 <swagger-ui src="rest-api-swagger-docs.json"/>
