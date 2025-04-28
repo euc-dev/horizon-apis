@@ -8,13 +8,10 @@ hide:
 
 This is a API documentation for the Horizon Cloud Service - DaaS (first gen)
 
-::cards::
+## Documentation  
 
-- title: Horizon DaaS
- #content: Introduction to the Horizon DaaS REST API
-  url: horizondaas-api.pdf
-  image: ../../../assets/logos/Horizon-Cloud-h-lm.png
-
-::/cards::
+| Name | Size |
+|---| --- |
+| [Introduction to the Horizon DaaS REST API](horizondaas-api.pdf) | 410KB |
 
 <swagger-ui src="HCS_20_2_swagger.json"/>
