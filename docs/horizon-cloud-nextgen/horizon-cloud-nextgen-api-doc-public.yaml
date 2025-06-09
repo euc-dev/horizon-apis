@@ -33750,7 +33750,7 @@ components:
           format: date-time
       description: Reported connectivity statuses for each edge deployment associated
         to the AD
-      example: "<edgeDeploymentId, ActiveDirectoryReported>"
+      example: "&lt;edgeDeploymentId, ActiveDirectoryReported&gt;"
     ActiveDirectoryTO:
       type: object
       properties:
@@ -33852,7 +33852,7 @@ components:
             $ref: '#/components/schemas/ActiveDirectoryReported'
           description: Reported connectivity statuses for each edge deployment associated
             to the AD
-          example: "<edgeDeploymentId, ActiveDirectoryReported>"
+          example: "&lt;edgeDeploymentId, ActiveDirectoryReported&gt;"
       description: Searchable fields are "id", "projectId",  "name", "dnsDomainName",
         "defaultOU", "activeDirectoryHealthStatus", "directoryType"
     AdUser:
