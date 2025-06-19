@@ -13,7 +13,7 @@ edit_uri: edit/main/docs/
 
 # Copyright
 copyright: |
-  Copyright &copy; 2005-2024 Omnissa, LLC. All rights reserved.<br/>
+  Copyright &copy; 2005-2025 Omnissa, LLC. All rights reserved.<br/>
 
 # Configuration
 theme:
@@ -150,7 +150,8 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/2503/index.md
+      - horizon-server/versions/2506/index.md
+      - v2506: horizon-server/versions/2506/index.md
       - v2503: horizon-server/versions/2503/index.md
       - v2412: horizon-server/versions/2412/index.md
       - v2406: horizon-server/versions/2406/index.md
@@ -174,7 +175,18 @@ nav:
   - View:
     - view/index.md
     - Versions:
-      # - view/versions/2406/index.md
+      # - view/versions/2506/index.md
+      - v2506: 
+        - view/versions/2506/index.md
+        - Service Types: view/versions/2506/mo-types-landing.md
+        - Data Object Types: view/versions/2506/do-types-landing.md
+        - Fault Types: view/versions/2506/fault-types-landing.md
+        - All Types: view/versions/2506/all-types-landing.md
+        - All Methods: view/versions/2506/methods-landing.md
+        - All Properties: view/versions/2506/properties-landing.md
+        - Query Service: view/versions/2506/queries-landing.md
+        - Error Attributes: view/versions/2506/error-attributes.md
+        - Error Codes: view/versions/2506/error-codes.md
       - v2503: 
         - view/versions/2503/index.md
         - Service Types: view/versions/2503/mo-types-landing.md
