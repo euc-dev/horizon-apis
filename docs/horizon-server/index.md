@@ -7,7 +7,7 @@ hide:
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-Welcome to the API documentation for Horizon Server 2503 also known as Horizon Enterprise.
+Welcome to the API documentation for Horizon Server 2506 also known as Horizon Enterprise.
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
 
@@ -21,18 +21,20 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx) | 38 KB |
 | [Horizon Server REST Changelog 2412](docs/HorizonServerRESTChangelog2412.docx) | 30 KB |
 | [Horizon Server REST Changelog 2503](docs/HorizonServerRESTChangelog2503.docx) | 30 KB |
+| [Horizon Server REST Changelog 2506](docs/HorizonServerRESTChangelog2506.docx) | 34 KB |
 | [Horizon Server API Throttling for REST APIs](docs/HorizonServerAPIThrottlingForRestAPIs.docx)| 34 KB |
 | [Horizon Server LCM REST APIs](https://docs.omnissa.com/bundle/Horizon8InstallUpgrade/page/AutomatingUpgradesofConnectionServerWithLCMAPIs.html) | - |
 | [Horizon Server REST Pagination, Filter and Sorting Guide V2](docs/HorizonServerRESTPaginationAndFilterGuideV2.doc) | 57 KB |
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
-<swagger-ui src="versions/2503/rest-api-swagger-docs.json" />
+<swagger-ui src="versions/2506/rest-api-swagger-docs.json" />
 
 ### Older Version API Documentation
 
 | Name                      | Link                               |
 |---------------------------|------------------------------------|
+| Horizon 2506 API Explorer | [2506](versions/2506/index.md)     |
 | Horizon 2503 API Explorer | [2503](versions/2503/index.md)     |
 | Horizon 2412 API Explorer | [2412](versions/2412/index.md)     |
 | Horizon 2406 API Explorer | [2406](versions/2406/index.md)     |
