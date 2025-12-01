@@ -45,12 +45,6 @@ tags:
     have more than one AppVersion contained in it. Eg: "Microsoft Office 2013 sp1"
     can be the application version which can be captured under a virtual application
     named "Microsoft Office", and this version can reside on a package "Microsoft_Office_2013_SP1_Clean.vhd"'
-- name: ApplicationDefinition
-  description: Operations related to Application Definitions. These provide representation
-    of applications for an organization.
-- name: ApplicationInventory
-  description: Operations related to Application Inventory. These provide representation
-    of applications for an image.
 - name: Applications
   description: ' Application is the Virtual Application container which will be created
     by the administrator to store the different application packages captured or imported
@@ -62,9 +56,6 @@ tags:
     can be the application package containing the particular application version'
 - name: Azure Infrastructure
   description: Access to Azure infrastructure resources, using 'Azure' provider instances.
-- name: Copies
-  description: Operations related to image copies. These specify details like resource
-    location that are needed to access an image in that provider region.
 - name: Edge Deployments
   description: Management of Edge deployments. Edge Gateways provide adjacent access
     to hypervisor or cloud assets.
@@ -72,9 +63,52 @@ tags:
   description: Helpdesk Sessions APIs
 - name: Helpdesk Virtual Machines
   description: Helpdesk VMs APIs
-- name: Images
-  description: Operations related to images. These provide representation of images
-    specifying OS type, OS details, GPU/non-GPU and so on.
+- name: Image
+  description: An image (a.k.a. stream) is a top-level entity that broadly categorizes
+    the OS specifying OS type, OS details, GPU/non-GPU and so on. An image can contain
+    several versions into it with each version purposed for different set of software
+    installed on it.
+- name: Image
+  description: An image (a.k.a. stream) is a top-level entity that broadly categorizes
+    the OS specifying OS type, OS details, GPU/non-GPU and so on. An image can contain
+    several versions into it with each version purposed for different set of software
+    installed on it.
+- name: Image Copies
+  description: An image copy (a.k.a. asset) is a concrete instance for a particular
+    Provider Instance. These specify details such as resource location needed to access
+    an image in that provider.
+- name: Image Copies
+  description: An image copy (a.k.a. asset) is a concrete instance for a particular
+    Provider Instance. These specify details such as resource location needed to access
+    an image in that provider.
+- name: Image InfraPreferences
+  description: 'Image preferences are used when working with vCenter-based providers
+    that offer image capacity. They provide a convenient way to set and reuse image
+    placement parameters (example: datacenter, datastore, cluster, resource pool,
+    and network) which is especially helpful in environments with multiple vCenters.
+    The client of the API should be aware of the infrastructure capabilities (such
+    as GPU support and other workload characteristics for datastore) beforehand to
+    place the images appropriately.'
+- name: Image Markers
+  description: A marker is a binding entity that links a pool template with an image
+    version. A marker can be associated with only one version within a given image.
+    However, an image version can have multiple associated markers.
+- name: Image Markers
+  description: A marker is a binding entity that links a pool template with an image
+    version. A marker can be associated with only one version within a given image.
+    However, an image version can have multiple associated markers.
+- name: Image UEM Enrolment
+  description: APIs related to UEM Enrolment Server and oAuth configurations for an
+    organization.
+- name: Image Versions
+  description: An image version contains details like installed agent(s), options
+    selected for version and so on. An image version can contain several image copies.
+- name: Image Versions
+  description: An image version contains details like installed agent(s), options
+    selected for version and so on. An image version can contain several image copies.
+- name: Image based Application Scan
+  description: APIs related to Image Based Application Scan. These APIs are deprecated
+    in favour of Pool Based On Demand Application Scan (ODAS).
 - name: LaunchItems
   description: 'The LaunchItems resource contains information about AppLinks for a
     specific AppShortcut & AppVersion along with their associated icons.
@@ -87,9 +121,6 @@ tags:
   description: Helpdesk machine apis
 - name: Manual Applications
   description: Manual Applications Controller
-- name: Markers
-  description: Operations related to markers. These provide representation of markers
-    associated with images and versions.
 - name: Notifications
   description: Operations related to Notifications
 - name: Notifications
@@ -136,29 +167,10 @@ tags:
 - name: UAG Deployments
   description: Management of UAG deployments. UAGs provide secure, end-to-end connections
     from users to their virtual desktops, sessions or applications.
-- name: UemEnrolmentServer
-  description: APIs for managing UEM Enrolment Server
-- name: UemEnrolmentServer
-  description: Operations related to UEM Enrolment servers. These provide representation
-    of Enrolment Server configurations for an organization.
-- name: UemOauth
-  description: Operations related to UEM OAuth configurations. These provide representation
-    of OAuth configurations for an organization.
-- name: UemOauth
-  description: APIs for managing UEM OAuth credentials
-- name: Users
-  description: Operations for users. These provide representation of application icons
-    for end users.
 - name: VM Skus
   description: Management of VM Sku models
 - name: VMs
   description: VM summary, listing, and operations.
-- name: Versions
-  description: Operations related to image versions. These specify agent details installed
-    on this version, applications installed on the image version and so on.
-- name: Versions v2
-  description: Operations related to Image Versions. These are version 2 APIs that
-    should support multiple provider types.
 paths:
   /activity-manager/v1/activities:
     get:
@@ -5748,6 +5760,44 @@ paths:
             application/json:
               schema:
                 items: {}
+        '404':
+          description: Azure environment not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
+  /admin/v2/providers/azure/environments/{env}/regions-with-az-support:
+    get:
+      tags:
+      - Azure Infrastructure
+      summary: Get Azure regions with availability zone support
+      description: Returns list of Azure regions for the specified environment, including
+        information about which regions support availability zones and the zones available
+        in each region
+      operationId: getAzureRegionsWithAzSupport
+      parameters:
+      - name: env
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        description: 'Organization ID: non-super users can only access their own organization'
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully returned azure regions with AZ support information
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AzureRegionTO'
         '404':
           description: Azure environment not found
           content:
@@ -11359,7 +11409,6 @@ paths:
           application/json:
             schema:
               oneOf:
-              - $ref: '#/components/schemas/ConfigBasedUAGDiagnosticTO'
               - $ref: '#/components/schemas/ExecuteVulnerabilityScanTO'
               - $ref: '#/components/schemas/GetIPRulesTO'
               - $ref: '#/components/schemas/GetPkiCertificateTO'
@@ -11369,6 +11418,7 @@ paths:
               - $ref: '#/components/schemas/ListResourcesInUAGRGTO'
               - $ref: '#/components/schemas/NsLookUpTO'
               - $ref: '#/components/schemas/RestartUAGVMTO'
+              - $ref: '#/components/schemas/URLAccessibilityFromUAGTO'
               - $ref: '#/components/schemas/UagApiExecutorTO'
               - $ref: '#/components/schemas/UpdatePkiCertificateTO'
               - $ref: '#/components/schemas/UpdateUserCertificateTO'
@@ -12735,7 +12785,7 @@ paths:
       tags:
       - Provider Instances V3
       summary: This operation should be used to refresh/update providerInstance and
-        associated edge, uag, templates' database hdc filed to keep in sync with latest
+        associated edge, uag, templates' database hdc field to keep in sync with latest
         config returned from org service.
       operationId: refreshHdc
       parameters:
@@ -16391,7 +16441,7 @@ paths:
   /imagemgmt/v1/app-def:
     get:
       tags:
-      - ApplicationDefinition
+      - Image based Application Scan
       summary: Get all application definitions.
       operationId: get
       parameters:
@@ -16458,10 +16508,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v1/app-def/query:
     post:
       tags:
-      - ApplicationDefinition
+      - Image based Application Scan
       summary: Query for application definitions.
       description: Intended to validate application definitions for a given org. Response
         excludes icon data.
@@ -16511,10 +16562,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v1/app-def/queryByImageReference:
     post:
       tags:
-      - ApplicationDefinition
+      - Image based Application Scan
       summary: Query for application definitions by Image Reference(streamId, versionId)
         grouped by application name and version
       operationId: queryByImageReference
@@ -16562,10 +16614,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v1/appinventory/images/{imageId}/versions/{versionId}:
     get:
       tags:
-      - ApplicationInventory
+      - Image based Application Scan
       summary: Get application inventory by image id and version id.
       operationId: getAppInventoryByImageAndVersion
       parameters:
@@ -16618,9 +16671,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
     post:
       tags:
-      - ApplicationInventory
+      - Image based Application Scan
       summary: Start scan for application inventory by image id and version id.
       description: Start scan for applications on image. This is supported only for
         server and multi-session images.
@@ -16688,9 +16742,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
     delete:
       tags:
-      - ApplicationInventory
+      - Image based Application Scan
       summary: Delete all applications by image id and version id.
       operationId: deleteAppInventory
       parameters:
@@ -16746,10 +16801,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v1/appinventory/images/{imageId}/versions/{versionId}/apps:
     get:
       tags:
-      - ApplicationInventory
+      - Image based Application Scan
       summary: Get all applications by image id and version id.
       operationId: fetchAppsByImageAndVersion
       parameters:
@@ -16844,10 +16900,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v1/custom-vms:
     get:
       tags:
-      - Images
+      - Image
       summary: Get all custom virtual machines to use as an image source from a resource
         container in provider.
       operationId: getVMs
@@ -16871,6 +16928,18 @@ paths:
         style: form
         explode: true
         schema: {}
+      - name: os_type
+        in: query
+        description: Image OS Type, defaults to all supported OS types. Supported
+          for Azure provider only.
+        required: false
+        style: form
+        explode: true
+        schema:
+          enum:
+          - WINDOWS
+          - LINUX
+          - ALL
       - name: page
         in: query
         description: Page number to retrieve.
@@ -16959,7 +17028,7 @@ paths:
   /imagemgmt/v1/image-copies:
     get:
       tags:
-      - Copies
+      - Image Copies
       summary: Get all image copies.
       operationId: getImageCopies
       parameters:
@@ -16987,13 +17056,6 @@ paths:
         explode: true
         schema: {}
         example: providerInstanceId $eq provider-instance-id-1
-      - name: searchable
-        in: query
-        required: false
-        style: form
-        explode: true
-        schema:
-          $ref: '#/components/schemas/SearchablePredicateAssetTO'
       - name: size
         in: query
         description: Size of each page.
@@ -17045,7 +17107,7 @@ paths:
   /imagemgmt/v1/image-sources:
     get:
       tags:
-      - Images
+      - Image
       summary: Get all image sources.
       operationId: getImageSources
       parameters:
@@ -17176,7 +17238,7 @@ paths:
   /imagemgmt/v1/images:
     get:
       tags:
-      - Images
+      - Image
       summary: Get All Images.
       description: 'Get All Images based on request param and Searchable field.</br>Images
         can be searched based on name, os, multiSession, osType, sourceType, gpuType,
@@ -17272,7 +17334,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - Images
+      - Image
       summary: Submit create image catalog request.
       description: 'Submit create image catalog request. This operation will occur
         in background.<br/><br/>Supported Source types & actions values:<br/><br/>1.
@@ -17350,7 +17412,7 @@ paths:
   /imagemgmt/v1/images/{imageId}:
     get:
       tags:
-      - Images
+      - Image
       summary: Get an image by ID.
       operationId: getStream
       parameters:
@@ -17400,7 +17462,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/markers:
     get:
       tags:
-      - Markers
+      - Image Markers
       summary: Search markers for an Image.
       operationId: searchMarkersForStream
       parameters:
@@ -17431,13 +17493,6 @@ paths:
           '*/*':
             schema:
               default: '0'
-      - name: pageable
-        in: query
-        required: true
-        style: form
-        explode: true
-        schema:
-          $ref: '#/components/schemas/Pageable'
       - name: search
         in: query
         description: Search Criteria. Please see model definition for list of searchable
@@ -17447,13 +17502,6 @@ paths:
         explode: true
         schema: {}
         example: providerInstanceId $eq provider-instance-id-1
-      - name: searchable
-        in: query
-        required: false
-        style: form
-        explode: true
-        schema:
-          $ref: '#/components/schemas/SearchablePredicateMarkerTO'
       - name: size
         in: query
         description: Size of each page.
@@ -17499,7 +17547,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/markers/{markerId}:
     get:
       tags:
-      - Markers
+      - Image Markers
       summary: Get Marker by image id and marker id.
       operationId: getMarkerById
       parameters:
@@ -17548,7 +17596,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     delete:
       tags:
-      - Markers
+      - Image Markers
       summary: Delete marker by marker id and image id.
       operationId: deleteMarkerById
       parameters:
@@ -17616,7 +17664,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions:
     get:
       tags:
-      - Versions
+      - Image Versions
       summary: Get versions by image id.
       operationId: getVersions
       parameters:
@@ -17700,7 +17748,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit request to add version to an existing image catalogue
       description: 'Submit request to add version to existing Image.<br><br>Currently
         this is allowed only for an Image having source type AZURE_SIG or AZURE_CUSTOM_VM.<br/><br/>1.
@@ -17786,7 +17834,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}:
     get:
       tags:
-      - Versions
+      - Image Versions
       summary: Get version by image id and version id.
       operationId: getVersion
       parameters:
@@ -17841,7 +17889,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - Images
+      - Image
       summary: Submit Image Version Publish request for Azure Provider.
       description: Submit Image Version Publish request for Azure Provider. This operation
         will occur in background.
@@ -17916,7 +17964,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     delete:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit delete version request by image id and version id.
       description: 'Submit delete version request by image id and version id. This
         operation will occur in background.<br /><br />Note: 1. This deletes the version
@@ -18003,7 +18051,7 @@ paths:
           description: No Content
     patch:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit Version update request. Marker update may trigger marker movement
         and pool updates.
       description: Submit Version update request. Supports updating description and
@@ -18087,7 +18135,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/clone:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit version clone request.
       description: Submit request to clone existing version.<br/><br/>It can be cloned
         either as a new version in same image or as a new Image altogether.<br/><br/>Use
@@ -18166,7 +18214,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/copies:
     get:
       tags:
-      - Copies
+      - Image Copies
       summary: Get all image copies by image id and version id.
       operationId: getCopies
       parameters:
@@ -18261,7 +18309,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/copies/{copyId}:
     get:
       tags:
-      - Copies
+      - Image Copies
       summary: Get image copy by image id, version id and copy id.
       operationId: getCopy
       parameters:
@@ -18323,7 +18371,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/optimize-vm:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit Optimize vm request.
       description: Submit request to Optimize image VM using Windows OS Optimization
         tool for Omnissa Horizon. <br /><br /> This operation will occur in background.
@@ -18394,7 +18442,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/publish:
     post:
       tags:
-      - Images
+      - Image
       summary: Submit Image Version Publish request for Secondary vSphere Provider.
       description: Submit image Version Publish request for Secondary vSphere Provider
         associated with a View Edge. This operation will occur in background.
@@ -18464,7 +18512,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/republish:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit Image Version Republish request for Azure Provider.
       description: Submit Image Version Republish request for Azure Provider. This
         can be used to republish failed Image Copies and/or Expand the Image Version
@@ -18541,7 +18589,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/reset-vm-password:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit reset vm password request.
       description: Submit reset vm password request. <br /><br />This operation will
         occur in background. <br /><br />Currently, it is supported only for azure
@@ -18602,7 +18650,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/shrink:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit shrink image version request.
       description: Submit shrink image version request. This operation will occur
         in background.
@@ -18672,7 +18720,7 @@ paths:
   /imagemgmt/v1/images/{imageId}/versions/{versionId}/validate:
     post:
       tags:
-      - Versions
+      - Image Versions
       summary: Submit Image validation request.
       description: Submit Image validation request. <br /><br /> Image version will
         be validated for use in Pool Template creation. It will be available for use
@@ -18737,7 +18785,7 @@ paths:
   /imagemgmt/v1/imssettings/uem/enrolmentserver:
     get:
       tags:
-      - UemEnrolmentServer
+      - Image UEM Enrolment
       summary: Get UEM Enrolment servers
       description: Get UEM Enrolment servers
       operationId: getAllUemEnrolmentServers
@@ -18781,7 +18829,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - UemEnrolmentServer
+      - Image UEM Enrolment
       summary: Create UEM Enrolment server
       description: Create UEM Enrolment server
       operationId: createUemEnrolmentServer
@@ -18831,7 +18879,7 @@ paths:
   /imagemgmt/v1/imssettings/uem/enrolmentserver/{id}:
     get:
       tags:
-      - UemEnrolmentServer
+      - Image UEM Enrolment
       summary: Get UEM Enrolment server by ID
       description: Get UEM Enrolment server by ID
       operationId: getUemEnrolmentServerById
@@ -18881,7 +18929,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     delete:
       tags:
-      - UemEnrolmentServer
+      - Image UEM Enrolment
       summary: Delete an UEM Enrolment server.
       description: Delete an UEM Enrolment server.
       operationId: deleteUemuemEnrolmentServer
@@ -18915,7 +18963,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     patch:
       tags:
-      - UemEnrolmentServer
+      - Image UEM Enrolment
       summary: Update UEM Enrolment server
       description: Update UEM Enrolment server
       operationId: patchUemuemEnrolmentServer
@@ -18985,7 +19033,7 @@ paths:
   /imagemgmt/v1/imssettings/uem/oauth:
     get:
       tags:
-      - UemOauth
+      - Image UEM Enrolment
       summary: Get UEM OAuths
       description: Get UEM OAuths
       operationId: getAllUemOauths
@@ -19029,7 +19077,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - UemOauth
+      - Image UEM Enrolment
       summary: Create UEM OAuth
       description: Create UEM OAuth
       operationId: createUemOauth
@@ -19079,7 +19127,7 @@ paths:
   /imagemgmt/v1/imssettings/uem/oauth/{id}:
     get:
       tags:
-      - UemOauth
+      - Image UEM Enrolment
       summary: Get UEM OAuth by ID
       description: Get UEM OAuth by ID
       operationId: getUemOauthById
@@ -19129,7 +19177,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     delete:
       tags:
-      - UemOauth
+      - Image UEM Enrolment
       summary: Delete an UEM OAuth.
       description: Delete an UEM OAuth.
       operationId: deleteUemOauth
@@ -19163,7 +19211,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     patch:
       tags:
-      - UemOauth
+      - Image UEM Enrolment
       summary: Update UEM OAuth
       description: Update UEM OAuth
       operationId: patchUemOAuth
@@ -19233,7 +19281,7 @@ paths:
   /imagemgmt/v1/infrapreferences:
     get:
       tags:
-      - InfraPreference
+      - Image InfraPreferences
       summary: Get infra preferences
       description: Get infra preferences
       operationId: getInfraPreferences
@@ -19278,7 +19326,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     post:
       tags:
-      - InfraPreference
+      - Image InfraPreferences
       summary: Create infra preferences
       description: Create infra preferences
       operationId: createInfraPreferences
@@ -19327,7 +19375,7 @@ paths:
   /imagemgmt/v1/infrapreferences/{id}:
     get:
       tags:
-      - InfraPreference
+      - Image InfraPreferences
       summary: Get infra preference by ID.
       operationId: getInfraPreference
       parameters:
@@ -19376,7 +19424,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
     patch:
       tags:
-      - InfraPreference
+      - Image InfraPreferences
       summary: Update infra preference
       description: Update infra preference
       operationId: patchInfraPreference
@@ -19446,7 +19494,7 @@ paths:
   /imagemgmt/v2/app-def/queryByImageReference:
     post:
       tags:
-      - ApplicationDefinition
+      - Image based Application Scan
       summary: Query for application definitions by Image Reference(streamId, versionId)
         grouped by application name and publisher
       operationId: queryByImageReferenceV2
@@ -19494,10 +19542,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
+      deprecated: true
   /imagemgmt/v2/images/{imageId}/versions/{versionId}/republish:
     post:
       tags:
-      - Versions v2
+      - Image Versions
       summary: Submit Image Version Republish request for Secondary vSphere Provider.
       description: Submit Image Version Republish request for Secondary vSphere Provider
         associated with a View Edge. This can be used to republish failed Image Copies
@@ -19568,6 +19617,748 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
         '500':
           description: Failed to submit Image republish request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/image-copies:
+    get:
+      tags:
+      - Image Copies
+      summary: Get all image copies.
+      operationId: getImageCopies
+      parameters:
+      - name: generation_type
+        in: query
+        description: Azure generation type; only applicable for Azure images.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: include_catalog_details
+        in: query
+        description: Include details from image and marker in addition to image copy.
+        required: false
+        style: form
+        explode: true
+        schema:
+          default: false
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: search
+        in: query
+        description: Search Criteria. Please see model definition for list of searchable
+          fields.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+        example: providerInstanceId $eq provider-instance-id-1
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved image copies
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageAssetTO'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Failed to retrieve image copies
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images:
+    get:
+      tags:
+      - Image
+      summary: Get All Images.
+      description: 'Get All Images based on request param and Searchable field.</br>Images
+        can be searched based on name, os, multiSession, osType, sourceType, gpuType,
+        sourceStreamId, sourceVersionId, status fields.<br>NOTE: If fields (os,os_type)
+        are present in both request params and search criteria, request param would
+        take precedence.'
+      operationId: getStreams
+      parameters:
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: os
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: os_type
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: search
+        in: query
+        description: Search Criteria. Please see model definition for list of searchable
+          fields.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+        example: providerInstanceId $eq provider-instance-id-1
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved images
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageStreamTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Streams are not found for the requested org
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}:
+    get:
+      tags:
+      - Image
+      summary: Get an image by ID.
+      operationId: getStream
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved stream
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StreamTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Image is not found for given imageId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/markers:
+    get:
+      tags:
+      - Image Markers
+      summary: Search markers for an Image.
+      operationId: searchMarkersForStream
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: search
+        in: query
+        description: Search Criteria. Please see model definition for list of searchable
+          fields.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+        example: providerInstanceId $eq provider-instance-id-1
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved markers for an image
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageMarkerTO'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Image not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/markers/{markerId}:
+    get:
+      tags:
+      - Image Markers
+      summary: Get Marker by image id and marker id.
+      operationId: getMarkerById
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: markerId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved marker
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MarkerTO'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Unable to find marker for given imageId and markerId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/markers/{markerId}/copies:
+    get:
+      tags:
+      - Image Copies
+      summary: Get all image copies by image id and marker id.
+      operationId: getCopiesByMarker
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: markerId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: provider_instance_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved image copies
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageAssetTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Copies are not found for markerId and imageId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/versions:
+    get:
+      tags:
+      - Image Versions
+      summary: Get versions by image id.
+      operationId: getVersions
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: search
+        in: query
+        description: Search Criteria. Please see model definition for list of searchable
+          fields.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+        example: providerInstanceId $eq provider-instance-id-1
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved versions
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageVersionTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Versions are not found for requested imageId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/versions/{versionId}:
+    get:
+      tags:
+      - Image Versions
+      summary: Get version by image id and version id.
+      operationId: getVersion
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: versionId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved version
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Version is not found for given imageId and versionId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/versions/{versionId}/copies:
+    get:
+      tags:
+      - Image Copies
+      summary: Get all image copies by image id and version id.
+      operationId: getCopies
+      parameters:
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: versionId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: page
+        in: query
+        description: Page number to retrieve.
+        required: false
+        example: 0
+        content:
+          '*/*':
+            schema:
+              default: '0'
+      - name: provider_instance_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      - name: size
+        in: query
+        description: Size of each page.
+        required: false
+        example: 10
+        content:
+          '*/*':
+            schema:
+              default: '10'
+      - name: sort
+        in: query
+        description: Ascending/Descending. Format is property,{asc|desc} and default
+          is ascending.
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved image copies
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PageAssetTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Copies are not found for versionId and imageId
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /ims-catalog/v1/images/{imageId}/versions/{versionId}/copies/{copyId}:
+    get:
+      tags:
+      - Image Copies
+      summary: Get image copy by image id, version id and copy id.
+      operationId: getCopy
+      parameters:
+      - name: copyId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: imageId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: versionId
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema: {}
+      - name: org_id
+        in: query
+        required: false
+        style: form
+        explode: true
+        schema: {}
+      responses:
+        '200':
+          description: Successfully retrieved Image copy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssetTO'
+        '400':
+          description: Bad request - unsupported provider type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Image copy is not found for given copyId, versionId and imageId
           content:
             application/json:
               schema:
@@ -29587,10 +30378,6 @@ components:
           description: Version ID that this asset belongs to
           readOnly: true
           example: 0123456789
-        imageId:
-          description: Image ID that this asset belong to.
-          readOnly: true
-          example: 0123456789
         orgId:
           description: Org ID that owns this record
           readOnly: true
@@ -29647,7 +30434,6 @@ components:
         status:
           description: Indicates the status of the asset based on its stage in import
             or publish workflow
-          readOnly: true
           example: GENERALIZING
           enum:
           - AVAILABLE
@@ -29672,6 +30458,8 @@ components:
           - GENERALIZING_FAILED
           - SYSPREPING
           - SYSPREP_FAILED
+          - VM_DEPROVISION_IN_PROGRESS
+          - VM_DEPROVISION_FAILED
           - CAPTURING_AND_UPLOADING_IMAGE_TO_SIG
           - CAPTURE_AND_IMAGE_UPLOAD_FAILED
           - VALIDATION_IN_PROGRESS
@@ -29724,12 +30512,18 @@ components:
           - AWS_STOP_INSTANCE_COMPLETE
           - AWS_STOP_INSTANCE_FAILED
           - AWS_STOP_INSTANCE_TIMEOUT
+        catalogDetails:
+          $ref: '#/components/schemas/CatalogDetailsTO'
+        haiAgentVersion:
+          description: HAI agent version installed on this image copy
+          readOnly: true
         errorCode:
           description: Error code for failed Asset
           readOnly: true
           example: AZURE_FAILED_TO_ENABLE_RDS
           enum:
           - FORBIDDEN
+          - BAD_FORMAT_AUTH_TOKEN
           - UNSUPPORTED_PROVIDER
           - PROVIDER_LABEL_MISSING
           - UNSUPPORTED_METHOD
@@ -29764,19 +30558,22 @@ components:
           - AZURE_FAILED_TO_DELETE_VM
           - AZURE_FAILED_TO_START_VM
           - AZURE_FAILED_TO_RESTART_VM
-          - RETRY_AZURE_FAILED_TO_RESTART_VM
-          - AZURE_FAILED_TO_OPTIMIZE_VM
           - AZURE_FAILED_TO_RESET_VM_PASSWORD
+          - AZURE_FAILED_TO_OPTIMIZE_VM
+          - RETRY_AZURE_FAILED_TO_RESTART_VM
           - AZURE_FAILED_TO_RUN_SYSPREP_ON_VM
           - AZURE_FAILED_TO_RUN_SYSPREP_APPX_ERROR
           - AZURE_FAILED_TO_DELETE_CUSTOM_SCRIPT_EXTENSION
+          - AZURE_FAILED_TO_DEPROVISION_VM
           - AZURE_FAILED_TO_DELETE_EXTENSION
           - AZURE_FAILED_TO_DEALLOCATE_VM
           - AZURE_FAILED_TO_GENERALIZE_VM
+          - AZURE_FAILED_TO_SET_VM_AS_GENERALIZED
           - AZURE_FAILED_TO_CHECK_FEATURE_REGISTRATION
           - AZURE_FEATURE_NOT_REGISTERED
           - AZURE_FAILED_TO_CREATE_SIG
           - AZURE_FAILED_TO_CREATE_IMAGE_IN_SIG
+          - AZURE_FAILED_TO_CREATE_IMAGE_VERSION_IN_SIG
           - AZURE_FAILED_TO_GET_NSG
           - AZURE_FAILED_TO_GET_NIC
           - AZURE_FAILED_TO_INITIATE_SIG_REPLICATION
@@ -29786,9 +30583,9 @@ components:
           - AZURE_FAILED_TO_FETCH_SIG_IMAGE_VERSION
           - AZURE_FAILED_TO_COPY_SIG_IMAGE_VERSION
           - AZURE_FAILED_TO_DELETE_SIG_IMAGE_VERSION
+          - AZURE_FAILED_TO_VERIFY_RESOURCE_GROUP
           - AZURE_FAILED_TO_DELETE_RESOURCE_GROUP
           - AZURE_FAILED_TO_FETCH_VM_FROM_RESOURCE_GROUP
-          - AZURE_FAILED_TO_VERIFY_RESOURCE_GROUP
           - AZURE_VM_GENERATION_NOT_SUPPORTED
           - AZURE_OPERATION_FAILED
           - AZURE_IMAGE_VERSION_DOES_NOT_EXIST
@@ -29816,11 +30613,11 @@ components:
           - AIMS_PUBLISH_CALL_FAILED
           - AIMS_POST_VALIDATION_CLEANUP_CALL_FAILED
           - AIMS_REPUBLISH_CALL_FAILED
-          - AIMS_RESET_VM_PASSWORD_CALL_FAILED
-          - AIMS_OPTIMIZE_VM_CALL_FAILED
           - AIMS_SHRINK_CALL_FAILED
           - AIMS_DELETE_ASSET_CALL_FAILED
           - AIMS_DELETE_ASSET_FAILED
+          - AIMS_RESET_VM_PASSWORD_CALL_FAILED
+          - AIMS_OPTIMIZE_VM_CALL_FAILED
           - VSPHERE_OPERATION_FAILED
           - VSPHERE_IMAGE_IMPORT_REQUEST_FAILED
           - VSPHERE_IMAGE_PUBLISH_REQUEST_FAILED
@@ -29851,6 +30648,8 @@ components:
           - RESET_VM_PASSWORD_FAILED
           - INITATE_IMAGE_IMPORT_FAILED
           - CSE_ALREADY_PRESENT_WARNING
+          - UEM_CUSTOMIZATION_FAILED
+          - UEM_CUSTOMIZATION_TIMEOUT
           - OPTIMIZE_VM_FAILED
           - RESOURCE_CLEANUP_FROM_PROVIDER_FAILED
           - BAD_REQUEST
@@ -29908,8 +30707,6 @@ components:
           - VSPHERE_TOOLS_ARE_NOT_RUNNING
           - VSPHERE_PUBLISH_RESOURCE_CONFLICT
           - IMAGE_REPLICATION_FAILED
-          - UEM_CUSTOMIZATION_FAILED
-          - UEM_CUSTOMIZATION_TIMEOUT
           - AWS_OPERATION_FAILED
           - AWS_RESOURCE_NOT_FOUND
           - AWS_IMAGE_IMPORT_REQUEST_FAILED
@@ -29972,11 +30769,6 @@ components:
           readOnly: true
           items:
             $ref: '#/components/schemas/Agent'
-        projectId:
-          description: Project ID that owns this record (null if scoped to the Org)
-          readOnly: true
-          example: 12345678-1234-1234-1234-123456789000
-      description: Searchable fields are "projectId", "providerInstanceId", "orgId"
     AsyncResponseTO:
       properties:
         longId: {}
@@ -30214,6 +31006,11 @@ components:
             Valid range is between 7 and 90 days.
           format: int32
           example: 90
+    AzureRegionTO:
+      properties:
+        name: {}
+        label: {}
+        supportsAvailabilityZones: {}
     AzureResourceCreateByCredentialTO:
       properties:
         azureCredential:
@@ -30316,6 +31113,38 @@ components:
         edges:
           uniqueItems: true
           items: {}
+    CatalogDetailsTO:
+      properties:
+        versionId:
+          description: Id of the image version
+          readOnly: true
+          example: ece6777
+        versionName:
+          description: Name of the image version
+          readOnly: true
+          example: 1.0.0
+        imageId:
+          description: Id of the image
+          readOnly: true
+          example: c278cg8cc3
+        imageName:
+          description: Name of the image
+          readOnly: true
+          example: Win10_Img
+        markers:
+          description: Markers of the image version
+          readOnly: true
+          items:
+            $ref: '#/components/schemas/MarkerTO'
+        osCustomizations:
+          description: OS Customizations performed on the image version
+          example: DisableWindowsUpdate
+          items:
+            enum:
+            - AllowRDPForAllUsers
+            - NotAllowRDPForAllUsers
+            - DisableWindowsUpdate
+            - RemoveAppXPackages
     CertificateData:
       properties:
         certificate:
@@ -30462,14 +31291,6 @@ components:
         osName: {}
         multiSession: {}
         publisher: {}
-    ConfigBasedUAGDiagnosticTO:
-      allOf:
-      - $ref: '#/components/schemas/UAGDiagnosticTO'
-      - properties:
-          parameters:
-            additionalProperties: {}
-            description: Parameters used to render configured command. Must include
-              commandId.
     CreateAccessEntryOnEKSClusterTO:
       required:
       - diagnosticType
@@ -30581,26 +31402,6 @@ components:
           additionalProperties: {}
         tokenExpiredSeconds:
           format: int64
-    CustomerManagedSyslogServerSettings:
-      required:
-      - category
-      - includeSystemMessages
-      - name
-      - protocol
-      - syslogFormat
-      - syslogUrl
-      - type
-      allOf:
-      - $ref: '#/components/schemas/SyslogServerSettingsV2'
-      - properties:
-          category:
-            enum:
-            - ALL_EVENTS
-            - AUDIT_EVENTS
-          includeSystemMessages: {}
-          syslogCategoryList:
-            items: {}
-          mqttTopic: {}
     DEEMConfigTO:
       properties:
         orgId: {}
@@ -32623,6 +33424,8 @@ components:
           - GENERALIZING_FAILED
           - SYSPREPING
           - SYSPREP_FAILED
+          - VM_DEPROVISION_IN_PROGRESS
+          - VM_DEPROVISION_FAILED
           - CAPTURING_AND_UPLOADING_IMAGE_TO_SIG
           - CAPTURE_AND_IMAGE_UPLOAD_FAILED
           - VALIDATION_IN_PROGRESS
@@ -33037,6 +33840,7 @@ components:
         agentMonitoringEnabled: {}
         cloudBrokered: {}
         hibernated: {}
+        osType: {}
         dspecId: {}
     InvSessionVmDetail:
       properties:
@@ -33074,6 +33878,7 @@ components:
         hibernateEnabled: {}
         hibernateState: {}
         hibernated: {}
+        osType: {}
         entitledToPoolGroup: {}
         dspecId: {}
         multiSessionEnabled: {}
@@ -33516,20 +34321,6 @@ components:
       - diagnosticType
       allOf:
       - $ref: '#/components/schemas/EdgeDiagnosticTO'
-    LoadBalancerDetailsReported:
-      properties:
-        ip: {}
-        type:
-          enum:
-          - PRIVATE_IP
-          - PUBLIC_IP
-        status:
-          enum:
-          - UP
-          - DOWN
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
     LogoutRequest:
       required:
       - refreshToken
@@ -33632,6 +34423,8 @@ components:
           description: Hibernate state of the VM
         hibernated:
           description: Is session hibernated
+        osType:
+          description: OS Type
     MachineDto:
       properties:
         orgId: {}
@@ -33788,10 +34581,9 @@ components:
           readOnly: true
           example: 0123456789
         name:
-          maxLength: 64
-          minLength: 0
-          pattern: ^[A-Za-z0-9_-]*$
+          minLength: 1
           description: Name of this marker
+          readOnly: true
           example: HRLite,HRPro
         versionId:
           minLength: 1
@@ -33809,20 +34601,13 @@ components:
           readOnly: true
           example: IN_PROGRESS
           enum:
-          - ADDITION_IN_PROGRESS
-          - ADDITION_FAILED
-          - ADDED
-          - DELETE_IN_PROGRESS
-          - DELETE_FAILED
-          - DELETE_VALIDATION_IN_PROGRESS
-          - UPDATES_COMPLETED
-          - UPDATES_FAILED
-          - UPDATES_IN_PROGRESS
+          - IN_PROGRESS
+          - VALIDATION_FAILED
+          - VALIDATION_COMPLETED
           - UPDATES_INITIATED
+          - UPDATES_FAILED
+          - UPDATES_COMPLETED
           - UPDATES_PARTIALLY_COMPLETED
-          - UPDATES_VALIDATION_COMPLETED
-          - UPDATES_VALIDATION_FAILED
-          - UPDATES_VALIDATION_IN_PROGRESS
         nextVersionId:
           description: The next Version ID this marker is being moved to
           readOnly: true
@@ -33871,19 +34656,22 @@ components:
           - AZURE_FAILED_TO_DELETE_VM
           - AZURE_FAILED_TO_START_VM
           - AZURE_FAILED_TO_RESTART_VM
-          - RETRY_AZURE_FAILED_TO_RESTART_VM
-          - AZURE_FAILED_TO_OPTIMIZE_VM
           - AZURE_FAILED_TO_RESET_VM_PASSWORD
+          - AZURE_FAILED_TO_OPTIMIZE_VM
+          - RETRY_AZURE_FAILED_TO_RESTART_VM
           - AZURE_FAILED_TO_RUN_SYSPREP_ON_VM
           - AZURE_FAILED_TO_RUN_SYSPREP_APPX_ERROR
           - AZURE_FAILED_TO_DELETE_CUSTOM_SCRIPT_EXTENSION
+          - AZURE_FAILED_TO_DEPROVISION_VM
           - AZURE_FAILED_TO_DELETE_EXTENSION
           - AZURE_FAILED_TO_DEALLOCATE_VM
           - AZURE_FAILED_TO_GENERALIZE_VM
+          - AZURE_FAILED_TO_SET_VM_AS_GENERALIZED
           - AZURE_FAILED_TO_CHECK_FEATURE_REGISTRATION
           - AZURE_FEATURE_NOT_REGISTERED
           - AZURE_FAILED_TO_CREATE_SIG
           - AZURE_FAILED_TO_CREATE_IMAGE_IN_SIG
+          - AZURE_FAILED_TO_CREATE_IMAGE_VERSION_IN_SIG
           - AZURE_FAILED_TO_GET_NSG
           - AZURE_FAILED_TO_GET_NIC
           - AZURE_FAILED_TO_INITIATE_SIG_REPLICATION
@@ -33893,9 +34681,9 @@ components:
           - AZURE_FAILED_TO_FETCH_SIG_IMAGE_VERSION
           - AZURE_FAILED_TO_COPY_SIG_IMAGE_VERSION
           - AZURE_FAILED_TO_DELETE_SIG_IMAGE_VERSION
+          - AZURE_FAILED_TO_VERIFY_RESOURCE_GROUP
           - AZURE_FAILED_TO_DELETE_RESOURCE_GROUP
           - AZURE_FAILED_TO_FETCH_VM_FROM_RESOURCE_GROUP
-          - AZURE_FAILED_TO_VERIFY_RESOURCE_GROUP
           - AZURE_VM_GENERATION_NOT_SUPPORTED
           - AZURE_OPERATION_FAILED
           - AZURE_IMAGE_VERSION_DOES_NOT_EXIST
@@ -33911,10 +34699,10 @@ components:
           - INVALID_GPU_TYPE
           - IMAGE_DISCOVERY_FAILED
           - IMAGE_DISCOVERY_TIME_OUT
+          - MARKER_IN_USE
           - PROVIDER_INSTANCE_FETCH_FAILED
           - EDGE_DEPLOYMENT_FETCH_FAILED
           - VERSION_IN_USE
-          - MARKER_IN_USE
           - VERSION_IN_USE_AS_CLONE_SOURCE
           - VM_COMPUTE_SKUS_FETCH_FAILED
           - AIMS_IMPORT_CALL_FAILED
@@ -33923,11 +34711,11 @@ components:
           - AIMS_PUBLISH_CALL_FAILED
           - AIMS_POST_VALIDATION_CLEANUP_CALL_FAILED
           - AIMS_REPUBLISH_CALL_FAILED
-          - AIMS_RESET_VM_PASSWORD_CALL_FAILED
-          - AIMS_OPTIMIZE_VM_CALL_FAILED
           - AIMS_SHRINK_CALL_FAILED
           - AIMS_DELETE_ASSET_CALL_FAILED
           - AIMS_DELETE_ASSET_FAILED
+          - AIMS_RESET_VM_PASSWORD_CALL_FAILED
+          - AIMS_OPTIMIZE_VM_CALL_FAILED
           - VSPHERE_OPERATION_FAILED
           - VSPHERE_IMAGE_IMPORT_REQUEST_FAILED
           - VSPHERE_IMAGE_PUBLISH_REQUEST_FAILED
@@ -33955,9 +34743,11 @@ components:
           - INITIATE_VALIDATE_VERSION_FAILED
           - PUBLISH_WITH_RESILIENCY_NOT_ENABLED
           - PUBLISH_WITH_RESILIENCY_SHOULD_BE_ENABLED
-          - RESET_VM_PASSWORD_FAILED
           - INITATE_IMAGE_IMPORT_FAILED
           - CSE_ALREADY_PRESENT_WARNING
+          - RESET_VM_PASSWORD_FAILED
+          - UEM_CUSTOMIZATION_FAILED
+          - UEM_CUSTOMIZATION_TIMEOUT
           - OPTIMIZE_VM_FAILED
           - RESOURCE_CLEANUP_FROM_PROVIDER_FAILED
           - BAD_REQUEST
@@ -33996,8 +34786,8 @@ components:
           - TEMPLATE_FAILED_TO_FETCH_VM
           - HOC_EVENT_FAILURE
           - SOURCE_TARGET_REGION_MISMATCH
-          - RBAC_ACCESS_REQUIRED
           - INVALID_TASK_STATUS
+          - RBAC_ACCESS_REQUIRED
           - INVALID_PUBLISH_FLOW_STEP
           - UNSUPPORTED_PROVIDER_INSTANCE
           - VIEW_INTERNAL_ERROR
@@ -34015,8 +34805,6 @@ components:
           - VSPHERE_TOOLS_ARE_NOT_RUNNING
           - VSPHERE_PUBLISH_RESOURCE_CONFLICT
           - IMAGE_REPLICATION_FAILED
-          - UEM_CUSTOMIZATION_FAILED
-          - UEM_CUSTOMIZATION_TIMEOUT
           - AWS_OPERATION_FAILED
           - AWS_RESOURCE_NOT_FOUND
           - AWS_IMAGE_IMPORT_REQUEST_FAILED
@@ -34057,10 +34845,6 @@ components:
         updatedAt:
           description: Timestamp of last record modification
           format: date-time
-          readOnly: true
-        templateCount:
-          description: Number of templates this marker associated with this marker.
-          format: int64
           readOnly: true
     MicrosoftCASsoConfigurationPatchTOV2:
       allOf:
@@ -34236,23 +35020,6 @@ components:
       - $ref: '#/components/schemas/UAGDiagnosticTO'
       - properties:
           fqdn: {}
-    OmnissaManagedSyslogServerSettings:
-      required:
-      - mqttTopic
-      - name
-      - protocol
-      - syslogCategoryList
-      - syslogFormat
-      - syslogUrl
-      - type
-      - validateServerCertificate
-      allOf:
-      - $ref: '#/components/schemas/SyslogServerSettingsV2'
-      - properties:
-          mqttTopic: {}
-          syslogCategoryList:
-            items: {}
-          validateServerCertificate: {}
     OnDemandDataDto:
       required:
       - name
@@ -34407,6 +35174,8 @@ components:
           - GENERALIZING_FAILED
           - SYSPREPING
           - SYSPREP_FAILED
+          - VM_DEPROVISION_IN_PROGRESS
+          - VM_DEPROVISION_FAILED
           - CAPTURING_AND_UPLOADING_IMAGE_TO_SIG
           - CAPTURE_AND_IMAGE_UPLOAD_FAILED
           - VALIDATION_IN_PROGRESS
@@ -34926,10 +35695,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -34953,10 +35722,10 @@ components:
             unsorted: {}
         first: {}
         last: {}
-        numberOfElements:
-          format: int32
         pageable:
           $ref: '#/components/schemas/PageableObject'
+        numberOfElements:
+          format: int32
         empty: {}
     PageAppDefResultsTO:
       properties:
@@ -35163,10 +35932,10 @@ components:
           type: boolean
     PageApplicationItemResultTO:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35192,6 +35961,8 @@ components:
           format: int64
         totalPages:
           format: int32
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         size:
           format: int32
         content:
@@ -35208,8 +35979,6 @@ components:
         last: {}
         numberOfElements:
           format: int32
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         empty: {}
     PageDEMSettingTO:
       properties:
@@ -35229,10 +35998,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35254,10 +36023,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35279,10 +36048,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35304,10 +36073,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35329,19 +36098,19 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
     PageEntitlementV2:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35379,19 +36148,19 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
         numberOfElements:
           format: int32
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         empty: {}
     PageHomesiteMapping:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35429,19 +36198,19 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
     PageInvVmWithUser:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35479,10 +36248,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35517,6 +36286,8 @@ components:
           format: int64
         totalPages:
           format: int32
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         size:
           format: int32
         content:
@@ -35533,8 +36304,6 @@ components:
         last: {}
         numberOfElements:
           format: int32
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         empty: {}
     PageNotification:
       properties:
@@ -35556,17 +36325,17 @@ components:
             unsorted: {}
         first: {}
         last: {}
-        numberOfElements:
-          format: int32
         pageable:
           $ref: '#/components/schemas/PageableObject'
+        numberOfElements:
+          format: int32
         empty: {}
     PageOrgIdpMapping:
       properties:
-        totalElements:
-          format: int64
         totalPages:
           format: int32
+        totalElements:
+          format: int64
         size:
           format: int32
         content:
@@ -35585,10 +36354,10 @@ components:
         empty: {}
     PageOrgIdpMappingResponse:
       properties:
-        totalElements:
-          format: int64
         totalPages:
           format: int32
+        totalElements:
+          format: int64
         size:
           format: int32
         content:
@@ -35607,10 +36376,10 @@ components:
         empty: {}
     PagePool:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35632,10 +36401,10 @@ components:
         empty: {}
     PagePoolGroupTO:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35675,10 +36444,10 @@ components:
             unsorted: {}
         first: {}
         last: {}
-        numberOfElements:
-          format: int32
         pageable:
           $ref: '#/components/schemas/PageableObject'
+        numberOfElements:
+          format: int32
         empty: {}
     PageProviderInstanceResourcesTOV2:
       properties:
@@ -35698,10 +36467,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35723,19 +36492,19 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
     PageResourceTO:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35757,10 +36526,10 @@ components:
         empty: {}
     PageSiteAllowedRegionMetaData:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35798,10 +36567,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35823,10 +36592,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -35836,6 +36605,8 @@ components:
           format: int64
         totalPages:
           format: int32
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         size:
           format: int32
         content:
@@ -35852,8 +36623,6 @@ components:
         last: {}
         numberOfElements:
           format: int32
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         empty: {}
     PageSupportedImageRepresentation:
       properties:
@@ -35898,19 +36667,19 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
     PageTask:
       properties:
-        totalPages:
-          format: int32
         totalElements:
           format: int64
+        totalPages:
+          format: int32
         size:
           format: int32
         content:
@@ -35950,10 +36719,10 @@ components:
             unsorted: {}
         first: {}
         last: {}
-        numberOfElements:
-          format: int32
         pageable:
           $ref: '#/components/schemas/PageableObject'
+        numberOfElements:
+          format: int32
         empty: {}
     PageUAGDeploymentTOV2:
       properties:
@@ -35973,10 +36742,10 @@ components:
             empty: {}
             sorted: {}
             unsorted: {}
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         first: {}
         last: {}
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         numberOfElements:
           format: int32
         empty: {}
@@ -36036,6 +36805,8 @@ components:
           format: int64
         totalPages:
           format: int32
+        pageable:
+          $ref: '#/components/schemas/PageableObject'
         size:
           format: int32
         content:
@@ -36052,8 +36823,6 @@ components:
         last: {}
         numberOfElements:
           format: int32
-        pageable:
-          $ref: '#/components/schemas/PageableObject'
         empty: {}
     PageVirtualMachineTO:
       properties:
@@ -37041,31 +37810,12 @@ components:
     ProviderInstanceHealthDetailsTO:
       properties:
         providerInstanceHealthStatus:
-          description: Health status for provider instance
-          readOnly: true
-          example: OK|ERROR|WARNING
           enum:
           - OK
           - ERROR
           - WARNING
-          - PENDING
-        errorDetails:
-          description: More details on health status
-          readOnly: true
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updatedAt:
-          description: Record update timestamp
-          format: date-time
-          readOnly: true
         additionalProperties:
           additionalProperties: {}
-          description: Additional properties related to provider / providerHealth
-          readOnly: true
-        version:
-          description: Record version (internal)
-          format: int64
-          readOnly: true
     ProviderInstancePatchEdgeTOV2:
       required:
       - edgeDeploymentId
@@ -37239,9 +37989,6 @@ components:
         resourceTags:
           additionalProperties: {}
           description: Resource tags that are added to Provider Instance
-        inheritTags:
-          description: If True provider tags will be applied to the resource group
-            of all the resources deployed.
         credentialId:
           description: ID of the credential storing the sensitive data of provider
           readOnly: true
@@ -37274,9 +38021,6 @@ components:
           description: Record version (internal)
           format: int64
           readOnly: true
-        providerInstanceId: {}
-      description: Searchable Fields are "id", "projectId", "name", "providerLabel",
-        "edgeDeploymentId", "infraTwinSyncStatus", "providerDetails.data"
     ProviderInstanceVmUsagesTO:
       properties:
         providerInstanceId:
@@ -37390,16 +38134,26 @@ components:
             in 'data'
           example: ByAppRegistration
         data:
-          additionalProperties: {}
+          additionalProperties:
+            description: The specific data needed to create a new provider instance.
+              Keys will depend on the value of 'method'.
+            items:
+              description: The specific data needed to create a new provider instance.
+                Keys will depend on the value of 'method'.
           description: The specific data needed to create a new provider instance.
             Keys will depend on the value of 'method'.
-          example: null
         scaleData:
           description: The specific data needed to scale pool/template associated
             with provider instance. Keys will depend on the value of 'method'.
           items:
-            additionalProperties: {}
-          example: null
+            additionalProperties:
+              description: The specific data needed to scale pool/template associated
+                with provider instance. Keys will depend on the value of 'method'.
+              items:
+                description: The specific data needed to scale pool/template associated
+                  with provider instance. Keys will depend on the value of 'method'.
+            description: The specific data needed to scale pool/template associated
+              with provider instance. Keys will depend on the value of 'method'.
     ProviderSpecMethod:
       properties:
         name: {}
@@ -37409,18 +38163,6 @@ components:
         scaleFields:
           items:
             $ref: '#/components/schemas/DetailsField'
-    PublicKeyRepresentation:
-      properties:
-        name: {}
-        data: {}
-    PublicKeyURLSettingRepresentation:
-      properties:
-        url: {}
-        trustedCertificates:
-          items:
-            $ref: '#/components/schemas/UAGTrustedCertificate'
-        urlResponseRefreshInterval:
-          format: int32
     PublishValidationResult:
       properties:
         result: {}
@@ -37672,7 +38414,7 @@ components:
           - PFX
         data:
           $ref: '#/components/schemas/CertificateData'
-    SSLCertificateReadTO:
+    SSLCertificateTO:
       required:
       - credentialId
       - expiryDate
@@ -37690,10 +38432,6 @@ components:
         userId: {}
         onpremSid: {}
     SearchablePredicateAssetTO:
-      properties:
-        spec:
-          $ref: '#/components/schemas/Predicate'
-    SearchablePredicateMarkerTO:
       properties:
         spec:
           $ref: '#/components/schemas/Predicate'
@@ -38393,9 +39131,6 @@ components:
           description: Org ID that owns this record
           readOnly: true
           example: 0123456789
-        projectId:
-          description: Project ID that owns this record (null if scoped to the Org)
-          example: 12345678-1234-1234-1234-123456789000
         name:
           description: Image name
           readOnly: true
@@ -38489,8 +39224,6 @@ components:
           readOnly: true
           items:
             $ref: '#/components/schemas/MarkerTO'
-      description: Searchable fields are "projectId", "name", "os", "multiSession",
-        "osType", "sourceType", "gpuType", "sourceStreamId", "sourceVersionId", "status"
     SupportedImageRepresentation:
       properties:
         id: {}
@@ -38521,17 +39254,6 @@ components:
         imageProviderType: {}
         imageSourceData:
           additionalProperties: {}
-    SyslogConfig:
-      properties:
-        syslogServerSettings:
-          items:
-            $ref: '#/components/schemas/SyslogServerSettings'
-        syslogServerSettingsV2:
-          items:
-            oneOf:
-            - $ref: '#/components/schemas/SyslogServerSettingsV2'
-            - $ref: '#/components/schemas/CustomerManagedSyslogServerSettings'
-            - $ref: '#/components/schemas/OmnissaManagedSyslogServerSettings'
     SyslogServerConfigurationCreateTO:
       properties:
         orgId:
@@ -38675,47 +39397,6 @@ components:
             protocol
         credentialId:
           description: Credential id associated to the data
-    SyslogServerSettings:
-      required:
-      - mqttTopic
-      - syslogCategoryList
-      - syslogFormat
-      - syslogSettingName
-      - syslogType
-      - syslogUrl
-      - validateServerCertificate
-      properties:
-        syslogSettingName: {}
-        syslogFormat: {}
-        syslogCategoryList:
-          items: {}
-        syslogType: {}
-        syslogUrl: {}
-        mqttTopic: {}
-        validateServerCertificate: {}
-    SyslogServerSettingsV2:
-      required:
-      - name
-      - protocol
-      - syslogFormat
-      - syslogUrl
-      - type
-      properties:
-        type:
-          enum:
-          - CUSTOMER_MANAGED
-          - OMNISSA_MANAGED
-        name: {}
-        syslogFormat: {}
-        protocol:
-          enum:
-          - UDP
-          - TCP
-          - TLS
-          - MQTT
-        syslogUrl: {}
-      discriminator:
-        propertyName: type
     SyslogServerSourceTO:
       properties:
         type:
@@ -38724,10 +39405,6 @@ components:
           - UAG
         id:
           description: Id of the source associated with the syslog server
-    SystemConfig:
-      properties:
-        ntpServers:
-          items: {}
     TargetProviderRepublishTO:
       required:
       - providerInstanceId
@@ -38922,6 +39599,11 @@ components:
         applicationProperties:
           additionalProperties: {}
           description: application properties
+        osType:
+          description: OS Type of the template. One of LINUX/WINDOWS
+          enum:
+          - WINDOWS
+          - LINUX
         viewTemplate: {}
     TemplateBatchPatchRequestTO:
       properties:
@@ -39562,26 +40244,6 @@ components:
         errorDetails:
           items:
             $ref: '#/components/schemas/ErrorDetail'
-    UAGConfigSyncStatusTO:
-      properties:
-        configName:
-          enum:
-          - FQDN
-          - INTERNAL_FQDN
-          - MGMT_CERTIFICATE
-          - USER_CERTIFICATE
-          - PROXY
-          - SYSLOG
-          - JWT
-          - SYSTEM
-        syncStatusTO:
-          enum:
-          - IN_SYNC
-          - OUT_OF_SYNC
-        errorDetail:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        reportedTime: {}
     UAGDeploymentCreateTOV2:
       required:
       - fqdn
@@ -39691,7 +40353,7 @@ components:
           - GET_IP_RULES
           - UPDATE_USER_CERTIFICATE
           - EXECUTE_VULNERABILITY_SCAN
-          - CONFIGURED_VM_COMMAND
+          - URL_ACCESSIBILITY
           - UAG_API_EXECUTOR
           - RESTART_UAG_VM
           - GET_UAG_VM_POWER_STATE
@@ -39768,27 +40430,6 @@ components:
         applianceImageId:
           description: Optionally specify an existing appliance image to use for the
             UAG deployment in lieu of the provider Marketplace image.
-    UAGDeploymentReported:
-      required:
-      - location
-      properties:
-        uagDeploymentId: {}
-        orgId: {}
-        location:
-          minLength: 1
-        reportedLoadBalancerDetails:
-          items:
-            $ref: '#/components/schemas/LoadBalancerDetailsReported'
-        reportedGatewayDetails:
-          items:
-            $ref: '#/components/schemas/UAGVMDetailsReported'
-        reportedGatewayDetailsV2:
-          items:
-            $ref: '#/components/schemas/UAGVMDetailsReportedV2'
-        updatedAt:
-          format: date-time
-        version:
-          format: int64
     UAGDeploymentRetryTO:
       properties:
         infrastructure:
@@ -39801,62 +40442,20 @@ components:
       - numberOfGateways
       properties:
         id: {}
-        name:
-          description: User defined name for this instance
-          example: My Instance Name
+        name: {}
         description: {}
-        orgId:
-          description: Org ID that owns this record
-          readOnly: true
-          example: 0123456789
-        projectId:
-          description: ID of the CSP project that owns this data
-          readOnly: true
-        location:
-          description: location
-          readOnly: true
-          example: US
-        type:
-          description: UAG deployment type
-          readOnly: true
-          example: EXTERNAL | INTERNAL | INTERNAL_AND_EXTERNAL
-        providerInstanceId:
-          description: Provider instance to where this UAG deployment is deployed
-          readOnly: true
-          example: 0123456789
-        providerLabel:
-          description: Provider label (provider of which this is an instance)
-          readOnly: true
-          example: AZURE
-        edgeDeploymentId:
-          description: Edge Deployment id
-          readOnly: true
-          example: 1234
+        orgId: {}
+        location: {}
+        type: {}
+        providerInstanceId: {}
+        providerLabel: {}
+        edgeDeploymentId: {}
         status:
-          description: The configured status of the UAG Cluster deployment
-          readOnly: true
-          example: PENDING
           enum:
           - PENDING
           - DEPLOYING
           - FAILED
           - READY
-          - ADDING_EXTERNAL_ACCESS
-          - ADDING_EXTERNAL_ACCESS_FAILED
-          - ADDING_EXTERNAL_ACCESS_ROLLBACK
-          - ADDING_EXTERNAL_ACCESS_ROLLBACK_FAILED
-          - ADDING_INTERNAL_ACCESS
-          - ADDING_INTERNAL_ACCESS_FAILED
-          - ADDING_INTERNAL_ACCESS_ROLLBACK
-          - ADDING_INTERNAL_ACCESS_ROLLBACK_FAILED
-          - REMOVING_EXTERNAL_ACCESS
-          - REMOVING_EXTERNAL_ACCESS_FAILED
-          - REMOVING_EXTERNAL_ACCESS_ROLLBACK
-          - REMOVING_EXTERNAL_ACCESS_ROLLBACK_FAILED
-          - REMOVING_INTERNAL_ACCESS
-          - REMOVING_INTERNAL_ACCESS_FAILED
-          - REMOVING_INTERNAL_ACCESS_ROLLBACK
-          - REMOVING_INTERNAL_ACCESS_ROLLBACK_FAILED
           - PARTIALLY_READY
           - UPDATE_PENDING
           - UPDATING
@@ -39864,118 +40463,43 @@ components:
           - UPGRADE_PENDING
           - UPGRADING
           - UPGRADE_FAILED
-          - REPAIR_PENDING
-          - REPAIRING
-          - REPAIR_FAILED
           - DELETE_PENDING
           - DELETING
           - DELETION_FAILED
           - DELETED
-        fqdn:
-          description: Admin-defined FQDN of the UAG cluster
-          example: www.example.com
-        internalFqdn:
-          description: Admin-defined internal FQDN of the UAG cluster. Only needed
-            if different from 'fqdn'
-        blastTcpPort:
-          description: Admin-defined blast tcp port used for UAG cluster
-        ntpServers:
-          description: UAG time servers setting override by customer Admin
-          example: '[time.google.com]'
-          items: {}
+        fqdn: {}
         infrastructure:
           additionalProperties:
             $ref: '#/components/schemas/InfrastructureResource'
-          description: Other infrastructure resources for the deployment. The keys
-            in this map and the interpretation of the values depend on the provider
-            type.
         numberOfGateways:
-          description: Number of Gateways needed in the UAG deployment cluster
           format: int32
-          example: 2
         gateways:
-          description: List of UAG VMs and their details which are deployed
-          readOnly: true
           items:
-            $ref: '#/components/schemas/UAGVmDetailsTO'
+            $ref: '#/components/schemas/UAGVmDetails'
         errorDetails:
-          description: List of Error Details
-          readOnly: true
           items:
             $ref: '#/components/schemas/ErrorDetail'
-        lbLoadDistributionType:
-          description: LB load distribution type to enable or disable source affinity
-          readOnly: true
-          enum:
-          - ROUND_ROBIN
-          - SOURCE_IP_AFFINITY
+        publicLoadBalancer:
+          $ref: '#/components/schemas/UAGLoadBalancer'
         privateLoadBalancer:
           $ref: '#/components/schemas/UAGLoadBalancer'
-        sslCertificateCredentialId:
-          description: CredentialId where the SSL certificate is stored.
-          readOnly: true
-          deprecated: true
-        passwordCredentialId:
-          description: CredentialId where the Gateway password is stored.
-          readOnly: true
+        sslCertificateCredentialId: {}
+        passwordCredentialId: {}
         resourceTags:
           additionalProperties: {}
-          description: Resource tags that are added to UAG deployment
-        resourceTagStatus:
-          description: The current status of the resource tags
-          readOnly: true
-          example: SYNC_PENDING | SYNCED | SYNC_FAILED
-          enum:
-          - SYNC_PENDING
-          - SYNCED
-          - SYNC_FAILED
         hdc:
           $ref: '#/components/schemas/HDC'
         sslCertificateTO:
-          $ref: '#/components/schemas/SSLCertificateReadTO'
-        networkInterfaceCount:
-          description: The number of network interfaces per UAG VM.
-          format: int32
-          readOnly: true
-        reportedProperties:
-          $ref: '#/components/schemas/UAGDeploymentReported'
-        proxyConfiguration:
-          $ref: '#/components/schemas/UAGProxyConfig'
-        customIpConfiguration:
-          $ref: '#/components/schemas/CustomIpConfiguration'
-        useApplianceImage:
-          description: Optionally import the UAG image instead of using one from the
-            provider Marketplace.
-          readOnly: true
-        applianceImageId:
-          description: ApplianceImage ID for the image to use in lieu of the Marketplace
-            image. If set, useApplianceImage must be enabled.
-          readOnly: true
+          $ref: '#/components/schemas/SSLCertificateTO'
         cipherSuites:
-          description: UAG Cipher Suites
-          example: '[TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,
-            ]TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384]'
           items: {}
+        reverseConnect: {}
         createdAt:
-          description: Record creation timestamp
           format: date-time
-          readOnly: true
         updatedAt:
-          description: Record updated timestamp
           format: date-time
-          readOnly: true
         version:
-          description: Record version (internal)
           format: int64
-          readOnly: true
-        reverseConnect:
-          description: Optionally specify that we are using reverse connect for this
-            UAG.
-          readOnly: true
-        loadBalancer:
-          $ref: '#/components/schemas/UAGLoadBalancer'
-      description: Searchable fields are "id", "projectId", "name", "type", "providerInstanceId",
-        "providerLabel", "status", "edgeDeploymentId"
     UAGDiagnosticTO:
       properties:
         diagnosticType:
@@ -39989,7 +40513,7 @@ components:
           - GET_IP_RULES
           - UPDATE_USER_CERTIFICATE
           - EXECUTE_VULNERABILITY_SCAN
-          - CONFIGURED_VM_COMMAND
+          - URL_ACCESSIBILITY
           - UAG_API_EXECUTOR
           - RESTART_UAG_VM
           - GET_UAG_VM_POWER_STATE
@@ -40002,51 +40526,7 @@ components:
             into chunks to handle large responses
       discriminator:
         propertyName: diagnosticType
-    UAGJwtSettingRepresentation:
-      properties:
-        name: {}
-        issuer: {}
-        publicKeys:
-          items:
-            $ref: '#/components/schemas/PublicKeyRepresentation'
-        publicKeyURLSettings:
-          $ref: '#/components/schemas/PublicKeyURLSettingRepresentation'
-    UAGLoadBalancer:
-      properties:
-        ipAddress: {}
-        fqdn: {}
-        publicIpEnabled: {}
-    UAGMonitoringConfigReported: {}
-    UAGProxyConfig:
-      required:
-      - proxyName
-      - proxyType
-      properties:
-        proxyName:
-          minLength: 1
-        proxyType:
-          enum:
-          - HTTP
-          - HTTPS
-        proxyHost: {}
-        proxyPort:
-          format: int32
-        proxyIncludedHosts:
-          items: {}
-        certificateName: {}
-        certificateData: {}
-        deleting: {}
-    UAGProxyConfigDesired:
-      required:
-      - delete
-      - name
-      properties:
-        name: {}
-        proxyUrl: {}
-        includedHosts:
-          items: {}
-        proxyCertSha256Thumbprint: {}
-        delete: {}
+    UAGLoadBalancer: {}
     UAGProxyConfigTO:
       properties:
         proxyHost:
@@ -40068,93 +40548,6 @@ components:
           description: Certificate (CA) of the Proxy server to be added to the truststore
             of the UAG PEM format. Set to empty string if removing the certificate
             is desired.
-    UAGServiceConfigReported:
-      properties:
-        userCertUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityString'
-        mgmtCertUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityString'
-        fqdnUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityString'
-        internalFqdnUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityString'
-        proxyUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityUAGProxyConfigDesired'
-        syslogUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntitySyslogConfig'
-        systemConfigUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntitySystemConfig'
-        jwtUpdateResult:
-          $ref: '#/components/schemas/UAGServiceConfigReportedEntityUagJwtSettingsRepresentation'
-    UAGServiceConfigReportedEntityString:
-      properties:
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updateStatus:
-          enum:
-          - SUCCESS
-          - NO_OP
-          - FAILURE
-          - DELETED
-        reportedConfig: {}
-        reportedTime: {}
-    UAGServiceConfigReportedEntitySyslogConfig:
-      properties:
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updateStatus:
-          enum:
-          - SUCCESS
-          - NO_OP
-          - FAILURE
-          - DELETED
-        reportedConfig:
-          $ref: '#/components/schemas/SyslogConfig'
-        reportedTime: {}
-    UAGServiceConfigReportedEntitySystemConfig:
-      properties:
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updateStatus:
-          enum:
-          - SUCCESS
-          - NO_OP
-          - FAILURE
-          - DELETED
-        reportedConfig:
-          $ref: '#/components/schemas/SystemConfig'
-        reportedTime: {}
-    UAGServiceConfigReportedEntityUAGProxyConfigDesired:
-      properties:
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updateStatus:
-          enum:
-          - SUCCESS
-          - NO_OP
-          - FAILURE
-          - DELETED
-        reportedConfig:
-          $ref: '#/components/schemas/UAGProxyConfigDesired'
-        reportedTime: {}
-    UAGServiceConfigReportedEntityUagJwtSettingsRepresentation:
-      properties:
-        errorDetails:
-          items:
-            $ref: '#/components/schemas/ErrorDetail'
-        updateStatus:
-          enum:
-          - SUCCESS
-          - NO_OP
-          - FAILURE
-          - DELETED
-        reportedConfig:
-          $ref: '#/components/schemas/UagJwtSettingsRepresentation'
-        reportedTime: {}
     UAGThumbprintDetails:
       properties:
         responseCodeMessage: {}
@@ -40164,10 +40557,6 @@ components:
         validFrom: {}
         validTo: {}
         hostnameVerifier: {}
-    UAGTrustedCertificate:
-      properties:
-        name: {}
-        data: {}
     UAGVMDetailsReported:
       properties:
         gatewayId: {}
@@ -40264,21 +40653,34 @@ components:
             $ref: '#/components/schemas/ErrorDetail'
         uagManagementCertificateHealthDetails:
           $ref: '#/components/schemas/UAGCertificateDetail'
-    UAGVMDetailsReportedV2:
+    UAGVmDetails:
+      required:
+      - id
+      - status
       properties:
-        gatewayId: {}
-        uagMonitoringConfigReported:
-          $ref: '#/components/schemas/UAGMonitoringConfigReported'
-        uagServiceConfigReported:
-          $ref: '#/components/schemas/UAGServiceConfigReported'
-        configSyncStatusTOs:
+        id: {}
+        managementPrivateIp: {}
+        desktopPrivateIp: {}
+        dmzPrivateIp: {}
+        vmName: {}
+        version: {}
+        passwordCredentialId: {}
+        adminThumbprintDetails:
+          $ref: '#/components/schemas/UAGThumbprintDetails'
+        errorDetails:
           items:
-            $ref: '#/components/schemas/UAGConfigSyncStatusTO'
-        uagVMSyncStatusTO:
+            $ref: '#/components/schemas/ErrorDetail'
+        status:
           enum:
-          - IN_SYNC
-          - PARTIALLY_SYNCED
-          - OUT_OF_SYNC
+          - PENDING
+          - DEPLOYING
+          - FAILED
+          - READY
+          - DELETE_PENDING
+          - DELETING
+          - DELETE_FAILED
+          - DELETED
+        markedForDeletion: {}
     UAGVmDetailsCreateTO:
       properties:
         managementPrivateIp:
@@ -40359,6 +40761,31 @@ components:
           $ref: '#/components/schemas/UAGVMDetailsReported'
         adminThumbprintDetails:
           $ref: '#/components/schemas/UAGThumbprintDetails'
+    URLAccessibilityFromUAGTO:
+      allOf:
+      - $ref: '#/components/schemas/UAGDiagnosticTO'
+      - properties:
+          url:
+            description: URL to check for reachability from UAG VM
+            example: https://www.google.com
+          networkInterface:
+            description: Network interface to use for the request. Defaults to eth1
+              for INTERNAL UAG deployments and eth0 for other types if not specified.
+            example: eth1
+          ignoreCertCheck:
+            description: Whether to ignore certificate validation errors
+            example: false
+          timeoutSeconds:
+            description: Connection timeout in seconds. Defaults to 10 if not specified.
+            format: int32
+            example: 10
+          verboseOutputEnabled:
+            description: Whether to enable verbose output in curl command
+            example: false
+          applyToAllGatewayVMs:
+            description: Whether to apply this diagnostic to all gateway VMs in the
+              deployment
+            example: false
     URLAccessibilityTO:
       required:
       - diagnosticType
@@ -40420,11 +40847,6 @@ components:
       - properties:
           parameters:
             additionalProperties: {}
-    UagJwtSettingsRepresentation:
-      properties:
-        jwtSettingsList:
-          items:
-            $ref: '#/components/schemas/UAGJwtSettingRepresentation'
     UemEnrolmentServerDTO:
       properties:
         id:
@@ -41226,6 +41648,8 @@ components:
           - GENERALIZING_FAILED
           - SYSPREPING
           - SYSPREP_FAILED
+          - VM_DEPROVISION_IN_PROGRESS
+          - VM_DEPROVISION_FAILED
           - CAPTURING_AND_UPLOADING_IMAGE_TO_SIG
           - CAPTURE_AND_IMAGE_UPLOAD_FAILED
           - VALIDATION_IN_PROGRESS
@@ -41456,24 +41880,20 @@ components:
         agentInstallationType:
           description: Agent installation type to indicate if agent was installed
             during publish or skipped (manual install).
-          example: WITH_PUBLISH, MANUAL
-          enum:
-          - WITH_PUBLISH
-          - MANUAL
+          example: WITH_PUBLISH
         agentFeaturesManuallyUpdated:
           description: Flag to indicate if agent features were manually updated (in
             case agent was manually installed).
           example:
           - true
           - false
+        installAppVolumesAgentForEnterprise:
+          description: Flag to indicate whether to install App Volumes agent during
+            image publish. Only applicable for vSphere providers.
+          example: true
         stagingAreaConfigId:
           description: ID of the staging area config used for replication of the image.
             Only applicable for Horizon 8 Image Versions
-        installAppVolumesAgentForEnterprise:
-          description: Flag to indicate whether to install App Volumes agent during
-            image publish. Only applicable for vSphere providers of Horizon Enterprise
-            Edge.
-          example: true
     VersionPatchTO:
       properties:
         description:
@@ -41794,7 +42214,6 @@ components:
         status:
           description: Indicates the status of the version based on its stage in import
             or publish workflow
-          readOnly: true
           example: AVAILABLE
           enum:
           - AVAILABLE
@@ -41814,7 +42233,6 @@ components:
           - SHRINK_IN_PROGRESS
         lastTriggeredAction:
           description: Indicates the last action performed on the version
-          readOnly: true
           example: IMPORT
           enum:
           - IMPORT
@@ -41848,7 +42266,7 @@ components:
           items:
             $ref: '#/components/schemas/MarkerTO'
         versionType:
-          description: Indicates version type
+          description: Indicates version TYPE
           readOnly: true
           example: MAJOR
           enum:
@@ -41859,8 +42277,12 @@ components:
           $ref: '#/components/schemas/VersionValidationDetails'
         publishValidationResult:
           $ref: '#/components/schemas/PublishValidationResult'
+        imsTags:
+          additionalProperties: {}
+          description: Images specific Tags
+          readOnly: true
         sourceType:
-          description: Indicates source type of the version. This can be blank.
+          description: Indicates source type of the version
           readOnly: true
           example: AZURE_MARKET_PLACE
           enum:
@@ -41891,12 +42313,8 @@ components:
           readOnly: true
           example:
           - AZURE
-          - VSPHERE
+          - VIEW
           items: {}
-        projectId:
-          description: Project ID that owns this image (null if scoped to the Org)
-          readOnly: true
-          example: 0123456789
         templateProxyServer:
           description: Proxy server details with url and port. Used only for the System
             template (for image validation and application scan if opted) and is NOT
@@ -41906,9 +42324,6 @@ components:
           description: Bypass addresses to skip proxy, entries are separated with
             semicolon
           example: 10.12.100.10;10.120.100.10;100.12.*.100
-        imsTags:
-          additionalProperties: {}
-          description: IMS tags for the version.
     VersionValidationDetails:
       properties:
         validationStatus:
