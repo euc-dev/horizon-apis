@@ -16,13 +16,13 @@ This API reference provides comprehensive information about status of all Horizo
 | Name | Size |
 |---| --- |
 | [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |
-| [Horizon Server REST Changelog 2309](docs/HorizonServerRESTChangelog2309.docx) | 34 KB |
-| [Horizon Server REST Changelog 2312](docs/HorizonServerRESTChangelog2312.docx) | 38 KB |
-| [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx) | 38 KB |
-| [Horizon Server REST Changelog 2412](docs/HorizonServerRESTChangelog2412.docx) | 30 KB |
-| [Horizon Server REST Changelog 2503](docs/HorizonServerRESTChangelog2503.docx) | 30 KB |
+| [Horizon Server REST Changelog 2512](docs/HorizonServerRESTChangelog2512.docx) | 37 KB |
 | [Horizon Server REST Changelog 2506](docs/HorizonServerRESTChangelog2506.docx) | 34 KB |
-| [Horizon Server REST Changelog 2512](docs/HorizonServerRESTChangelog2512.docx) | 34 KB |
+| [Horizon Server REST Changelog 2503](docs/HorizonServerRESTChangelog2503.docx) | 30 KB |
+| [Horizon Server REST Changelog 2412](docs/HorizonServerRESTChangelog2412.docx) | 30 KB |
+| [Horizon Server REST Changelog 2406](docs/HorizonServerRESTChangelog2406.docx) | 38 KB |
+| [Horizon Server REST Changelog 2312](docs/HorizonServerRESTChangelog2312.docx) | 38 KB |
+| [Horizon Server REST Changelog 2309](docs/HorizonServerRESTChangelog2309.docx) | 34 KB |
 | [Horizon Server API Throttling for REST APIs](docs/HorizonServerAPIThrottlingForRestAPIs.docx)| 34 KB |
 | [Horizon Server LCM REST APIs](https://docs.omnissa.com/bundle/Horizon8InstallUpgrade/page/AutomatingUpgradesofConnectionServerWithLCMAPIs.html) | - |
 | [Horizon Server REST Pagination, Filter and Sorting Guide V2](docs/HorizonServerRESTPaginationAndFilterGuideV2.doc) | 57 KB |
