@@ -7,15 +7,15 @@ hide:
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-Welcome to the latest version (v2506) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
+Welcome to the latest version (v2512) of the Omnissa View API Reference documentation. This API reference provides comprehensive information about all data structures available through the View API:
 
-* [Service Types](versions/2506/mo-types-landing.md)  
-* [Data Object Types](versions/2506/do-types-landing.md)  
-* [Fault Types](versions/2506/fault-types-landing.md)  
-* [All Types](versions/2506/all-types-landing.md)  
-* [All Methods](versions/2506/methods-landing.md)  
-* [All Properties](versions/2506/properties-landing.md)  
-* [Query Service](versions/2506/queries-landing.md)  
+* [Service Types](versions/2512/mo-types-landing.md)  
+* [Data Object Types](versions/2512/do-types-landing.md)  
+* [Fault Types](versions/2512/fault-types-landing.md)  
+* [All Types](versions/2512/all-types-landing.md)  
+* [All Methods](versions/2512/methods-landing.md)  
+* [All Properties](versions/2512/properties-landing.md)  
+* [Query Service](versions/2512/queries-landing.md)  
 
 To quickly find any entry, start typing its name in the **Search Bar**.
 

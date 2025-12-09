@@ -150,7 +150,8 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/2506/index.md
+      - horizon-server/versions/2512/index.md
+      - v2512: horizon-server/versions/2512/index.md
       - v2506: horizon-server/versions/2506/index.md
       - v2503: horizon-server/versions/2503/index.md
       - v2412: horizon-server/versions/2412/index.md
@@ -175,7 +176,18 @@ nav:
   - View:
     - view/index.md
     - Versions:
-      # - view/versions/2506/index.md
+      # - view/versions/2512/index.md
+      - v2512: 
+        - view/versions/2512/index.md
+        - Service Types: view/versions/2512/mo-types-landing.md
+        - Data Object Types: view/versions/2512/do-types-landing.md
+        - Fault Types: view/versions/2512/fault-types-landing.md
+        - All Types: view/versions/2512/all-types-landing.md
+        - All Methods: view/versions/2512/methods-landing.md
+        - All Properties: view/versions/2512/properties-landing.md
+        - Query Service: view/versions/2512/queries-landing.md
+        - Error Attributes: view/versions/2512/error-attributes.md
+        - Error Codes: view/versions/2512/error-codes.md
       - v2506: 
         - view/versions/2506/index.md
         - Service Types: view/versions/2506/mo-types-landing.md
