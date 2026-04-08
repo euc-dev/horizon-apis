@@ -13,7 +13,7 @@ edit_uri: edit/main/docs/
 
 # Copyright
 copyright: |
-  Copyright &copy; 2005-2025 Omnissa, LLC. All rights reserved.<br/>
+  Copyright &copy; 2005-2026 Omnissa, LLC. All rights reserved.<br/>
 
 # Configuration
 theme:
@@ -150,7 +150,8 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/2512/index.md
+      - horizon-server/versions/2603/index.md
+      - v2603: horizon-server/versions/2603/index.md
       - v2512: horizon-server/versions/2512/index.md
       - v2506: horizon-server/versions/2506/index.md
       - v2503: horizon-server/versions/2503/index.md
