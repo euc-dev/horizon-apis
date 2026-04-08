@@ -16,7 +16,7 @@ This API reference provides comprehensive information about status of all Horizo
 | Name | Size |
 |---| --- |
 | [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |
-| [Horizon Server REST Changelog 2603](docs/HorizonServerRESTChangelog2603.docx) | 37 KB |
+| [Horizon Server REST Changelog 2603](docs/HorizonServerRESTChangelog2603.docx) | 21 KB |
 | [Horizon Server REST Changelog 2512](docs/HorizonServerRESTChangelog2512.docx) | 37 KB |
 | [Horizon Server REST Changelog 2506](docs/HorizonServerRESTChangelog2506.docx) | 34 KB |
 | [Horizon Server REST Changelog 2503](docs/HorizonServerRESTChangelog2503.docx) | 30 KB |
