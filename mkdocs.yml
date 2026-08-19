@@ -150,7 +150,8 @@ nav:
   - Horizon Server: 
     - horizon-server/index.md
     - Versions:
-      - horizon-server/versions/2603/index.md
+      - horizon-server/versions/2606/index.md
+      - v2606: horizon-server/versions/2606/index.md
       - v2603: horizon-server/versions/2603/index.md
       - v2512: horizon-server/versions/2512/index.md
       - v2506: horizon-server/versions/2506/index.md
