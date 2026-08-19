@@ -7,7 +7,7 @@ hide:
 ---
 ![Horizon Server](../../../assets/logos/Horizon-v-lm.png){ align=right }
 
-Welcome to the API documentation for Horizon Server 2603 also known as Horizon Enterprise.
+Welcome to the API documentation for Horizon Server 2606 also known as Horizon Enterprise.
 
 This API reference provides comprehensive information about status of all Horizon Server components and resources.
 
@@ -16,6 +16,7 @@ This API reference provides comprehensive information about status of all Horizo
 | Name | Size |
 |---| --- |
 | [Horizon Getting Started Guide](docs/HorizonServerGettingStarted.doc) | 36 KB |
+| [Horizon Server REST Changelog 2606](docs/HorizonServerRESTChangelog2606.docx) | 36 KB |
 | [Horizon Server REST Changelog 2603](docs/HorizonServerRESTChangelog2603.docx) | 21 KB |
 | [Horizon Server REST Changelog 2512](docs/HorizonServerRESTChangelog2512.docx) | 37 KB |
 | [Horizon Server REST Changelog 2506](docs/HorizonServerRESTChangelog2506.docx) | 34 KB |
@@ -30,12 +31,13 @@ This API reference provides comprehensive information about status of all Horizo
 | [Horizon Server REST Pagination And Filter ans Sorting Guide V3](docs/HorizonServerRESTPaginationAndFilterGuideV3.doc) | 57 KB |
 | [Horizon Server REST Pagination, Filter and Sorting Guide](docs/HorizonServerRESTPaginationFilterAndSortingGuide.docx) | 29 KB |
 
-<swagger-ui src="versions/2603/rest-api-swagger-docs.json" />
+<swagger-ui src="versions/2606/rest-api-swagger-docs.json" />
 
 ### Older Version API Documentation
 
 | Name                      | Link                               |
 |---------------------------|------------------------------------|
+| Horizon 2606 API Explorer | [2606](versions/2606/index.md)     |
 | Horizon 2603 API Explorer | [2603](versions/2603/index.md)     |
 | Horizon 2512 API Explorer | [2512](versions/2512/index.md)     |
 | Horizon 2506 API Explorer | [2506](versions/2506/index.md)     |
